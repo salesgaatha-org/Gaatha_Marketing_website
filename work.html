@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work - Gaa-tha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Match index navbar sizing/spacing */
+        nav.glass { padding: 8px 16px !important; }
+        nav.glass .logo img { height: 36px !important; }
+        @media (min-width: 768px) {
+            nav.glass { display: flex; align-items: center; width: 70%; max-width: 720px; }
+            nav.glass .logo { flex: 0 0 auto; }
+            nav.glass .nav-links { flex: 1 1 auto; display: flex; justify-content: center; gap: 28px; }
+            nav.glass .cta-btn { flex: 0 0 auto; }
+            nav.glass .menu-toggle { display: none !important; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="glass">
+        <div class="logo"><a href="index.html"><img src="images/gaatha_logo_-_Copy-removebg-preview.png" alt="Gaa-tha" /></a></div>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <ul class="nav-links">
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="work.html" class="active">Work</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+        <a href="index.html#contact" class="cta-btn">Start a Project</a>
+    </nav>
+
+    <section class="work-hero">
+        <h1 class="section-title">Our <span class="highlight">Work</span></h1>
+    </section>
+
+    <section class="work-categories">
+        <div class="work-grid">
+            <a class="work-card glass" href="reels.html">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                        <rect x="2" y="2" width="20" height="20" rx="3"></rect>
+                        <path d="M2 8h20"></path>
+                        <path d="M8 22V8"></path>
+                        <circle cx="6" cy="5" r="1"></circle>
+                        <circle cx="10" cy="5" r="1"></circle>
+                        <circle cx="14" cy="5" r="1"></circle>
+                        <circle cx="18" cy="5" r="1"></circle>
+                    </svg>
+                </div>
+                <h3>Reels</h3>
+                <div class="work-meta"><span class="count-with-label"><span id="countReelsText">500+</span>&nbsp;reels</span> <span class="view-link">View All →</span></div>
+            </a>
+            <a class="work-card glass" href="websites.html">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                        <rect x="3" y="4" width="18" height="14" rx="3" ry="3"></rect>
+                        <path d="M8 20h8"></path>
+                        <path d="M12 4v-2"></path>
+                    </svg>
+                </div>
+                <h3>Websites</h3>
+                <div class="work-meta"><span class="count-with-label"><span id="countProjectsText">120+</span>&nbsp;projects</span> <span class="view-link">View All →</span></div>
+            </a>
+            <a class="work-card glass" href="branding.html">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                        <path d="M12 22l4-10 4-4-4-4-4 4-10 4 10 10z"></path>
+                        <circle cx="12" cy="12" r="1"></circle>
+                    </svg>
+                </div>
+                <h3>Branding</h3>
+                <div class="work-meta"><span class="count-with-label"><span id="countCreativesText">110+</span>&nbsp;creatives</span> <span class="view-link">View All →</span></div>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 gaa-tha. All rights reserved.</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+    <script>
+        (function initCountsRealtime(){
+            try {
+                const firebaseConfig = {
+                    apiKey: "AIzaSyBQlBj179byUqKjjXGH1TmpqT36nlDhwaY",
+                    authDomain: "gaatha-b9ee5.firebaseapp.com",
+                    databaseURL: "https://gaatha-b9ee5-default-rtdb.asia-southeast1.firebasedatabase.app",
+                    projectId: "gaatha-b9ee5",
+                    storageBucket: "gaatha-b9ee5.firebasestorage.app",
+                    messagingSenderId: "661713784587",
+                    appId: "1:661713784587:web:2b7bbcb40b18e53c361c0e",
+                    measurementId: "G-75RTC8CXEE"
+                };
+                const app = (firebase.apps && firebase.apps.length) ? firebase.app() : firebase.initializeApp(firebaseConfig);
+                const db = firebase.database(app);
+                const pEl = document.getElementById('countProjectsText');
+                const rEl = document.getElementById('countReelsText');
+                const cEl = document.getElementById('countCreativesText');
+                db.ref('workCounts').on('value', (snap) => {
+                    const v = snap.val() || {};
+                    if (pEl && v.projects != null) pEl.textContent = String(v.projects) + '+';
+                    if (rEl && v.reels != null) rEl.textContent = String(v.reels) + '+';
+                    if (cEl && v.creatives != null) cEl.textContent = String(v.creatives) + '+';
+                });
+            } catch (e) { console.error('Counts realtime init failed', e); }
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
+

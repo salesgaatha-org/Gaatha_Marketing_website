@@ -1,0 +1,1492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Gaa-tha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .logout-container {
+            max-width: 1600px;
+            margin: 2rem auto 1rem;
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 2rem;
+        }
+        
+        .logout-container .admin-btn {
+            padding: 12px 24px;
+        }
+        
+        .admin-container {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f5f1ea 0%, #e8dcc8 100%);
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .admin-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .admin-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        
+        .admin-subtitle {
+            color: #a0a0a0;
+            font-size: 1.1rem;
+        }
+        
+        .admin-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 0.8rem;
+            row-gap: 1.5rem;
+            max-width: 1600px;
+            margin: 2rem auto 0 auto;
+            flex: 1;
+            overflow-y: auto;
+        }
+        
+        .admin-card {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 18px;
+            padding: 32px 32px 0px;
+            transition: all 0.3s ease;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 200px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .admin-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #8B6F47 0%, #D4AF37 100%);
+            transition: width 0.3s ease;
+        }
+        
+        .admin-card:hover::after {
+            width: 100%;
+        }
+        
+        .admin-card:hover {
+            transform: translateY(-6px) scale(1.02);
+            box-shadow: 0 25px 50px rgba(139, 111, 71, 0.25), 0 0 40px rgba(184, 146, 61, 0.3), 0 0 60px rgba(212, 175, 55, 0.2);
+        }
+        
+        .admin-card h3 {
+            color: #2c2c2c;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .admin-card-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #7a571e 0%, #d4af37 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            margin-bottom: 0;
+            flex-shrink: 0;
+        }
+        
+        .admin-card-icon svg {
+            width: 18px;
+            height: 18px;
+            stroke: currentColor;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            fill: none;
+        }
+        
+        .admin-btn {
+            background: linear-gradient(135deg, #8B6F47 0%, #D4AF37 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            font-size: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .admin-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(139, 111, 71, 0.3);
+        }
+        
+        .edit-form {
+            display: none;
+            margin-top: 2rem;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .edit-form.active {
+            display: block;
+        }
+        
+        /* Popup Modal Styles */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(5px);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .modal-content {
+            background: linear-gradient(135deg, #f5f1ea 0%, #e8dcc8 100%);
+            border-radius: 20px;
+            padding: 2rem;
+            max-width: 500px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        @media (max-width: 768px) {
+            .modal-content {
+                width: 95%;
+                padding: 1.5rem;
+                max-height: 85vh;
+            }
+            
+            .modal-title {
+                font-size: 1.3rem;
+            }
+            
+            .modal-form-group input,
+            .modal-form-group textarea {
+                padding: 0.6rem;
+                font-size: 0.9rem;
+            }
+            
+            .modal-form-actions {
+                flex-direction: column;
+                gap: 0.8rem;
+            }
+            
+            .modal-btn-save,
+            .modal-btn-cancel {
+                width: 100%;
+                padding: 0.8rem 1.5rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .modal-content {
+                width: 98%;
+                padding: 1rem;
+                border-radius: 15px;
+            }
+            
+            .modal-title {
+                font-size: 1.2rem;
+            }
+            
+            .modal-form-group label {
+                font-size: 0.9rem;
+            }
+            
+            .modal-form-group input,
+            .modal-form-group textarea {
+                padding: 0.5rem;
+                font-size: 0.85rem;
+            }
+        }
+        
+        .modal-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .modal-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #2c2c2c;
+            margin: 0;
+        }
+        
+        .modal-form-group {
+            margin-bottom: 1rem;
+        }
+        
+        .modal-form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #2c2c2c;
+        }
+        
+        .modal-form-group input,
+        .modal-form-group textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid rgba(139, 111, 71, 0.3);
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+        
+        .modal-form-group input:focus,
+        .modal-form-group textarea:focus {
+            outline: none;
+            border-color: #D4AF37;
+            box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
+        }
+        
+        .modal-form-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+        
+        .modal-btn-save {
+            background: linear-gradient(135deg, #8B6F47 0%, #D4AF37 100%);
+            color: white;
+            border: none;
+            padding: 0.75rem 2rem;
+            border-radius: 30px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .modal-btn-save:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(139, 111, 71, 0.3);
+        }
+        
+        .modal-btn-cancel {
+            background: rgba(255, 255, 255, 0.8);
+            color: #2c2c2c;
+            border: 1px solid rgba(139, 111, 71, 0.3);
+            padding: 0.75rem 2rem;
+            border-radius: 30px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .modal-btn-cancel:hover {
+            background: rgba(255, 255, 255, 1);
+            transform: translateY(-2px);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            color: #fff;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            font-size: 1rem;
+        }
+        
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: #666;
+        }
+        
+        .form-group textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        
+        .form-actions {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .btn-save {
+            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        }
+        
+        .btn-cancel {
+            background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+        }
+        
+        .work-item {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .work-item h4 {
+            color: #fff;
+            margin: 0;
+            font-size: 1.1rem;
+        }
+        
+        .work-item p {
+            color: #a0a0a0;
+            margin: 0.25rem 0 0 0;
+            font-size: 0.9rem;
+        }
+        
+        .work-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .btn-edit, .btn-delete {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .btn-edit {
+            background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+            color: white;
+        }
+        
+        .btn-delete {
+            background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+            color: white;
+        }
+        
+        .add-item-btn {
+            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        
+        
+        .success-message {
+            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            display: none;
+        }
+        
+        .error-message {
+            background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            display: none;
+        }
+        
+        
+        
+        /* Responsive design for smaller screens */
+        @media (max-width: 1400px) {
+            .admin-grid {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 0.8rem;
+                margin: 1rem auto 0 auto;
+            }
+        }
+        
+        @media (max-width: 1000px) {
+            .admin-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.8rem;
+                margin: 1rem auto 0 auto;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .logout-container {
+                margin: 1rem auto 0.5rem;
+                padding-right: 1rem;
+            }
+            
+            .logout-container .admin-btn {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+            
+            .admin-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.6rem;
+                margin: 1rem auto 0 auto;
+            }
+            
+            .admin-card {
+                padding: 20px 16px 0px;
+                min-height: 180px;
+            }
+            
+            .admin-card h3 {
+                font-size: 1.1rem;
+                margin-bottom: 1rem;
+            }
+            
+            .admin-card-icon {
+                width: 32px;
+                height: 32px;
+            }
+            
+            .admin-card-icon svg {
+                width: 16px;
+                height: 16px;
+            }
+            
+            .admin-btn {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+
+            /* Mobile: hide action buttons and add buttons; make cards clickable */
+            .admin-card .admin-btn,
+            .add-item-btn {
+                display: none;
+            }
+            .admin-card {
+                cursor: pointer;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .logout-container {
+                margin: 0.8rem auto 0.3rem;
+                padding-right: 0.5rem;
+            }
+            
+            .logout-container .admin-btn {
+                padding: 8px 16px;
+                font-size: 0.8rem;
+            }
+            
+            .admin-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.5rem;
+                margin: 1rem auto 0 auto;
+            }
+            
+            .admin-container {
+                padding: 0.5rem;
+            }
+            
+            .admin-title {
+                font-size: 2rem;
+            }
+            
+            .admin-subtitle {
+                font-size: 1rem;
+            }
+            
+            .admin-card {
+                padding: 16px 12px 0px;
+                min-height: 160px;
+            }
+            
+            .admin-card h3 {
+                font-size: 1rem;
+                margin-bottom: 0.8rem;
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            
+            .admin-card-icon {
+                width: 28px;
+                height: 28px;
+            }
+            
+            .admin-card-icon svg {
+                width: 14px;
+                height: 14px;
+            }
+            
+            .admin-btn {
+                padding: 8px 16px;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Logout Button -->
+    <div class="logout-container">
+        <button class="admin-btn" id="logoutBtn">Logout</button>
+    </div>
+    
+    <div class="admin-container admin-main">
+        
+        <div id="successMessage" class="success-message"></div>
+        <div id="errorMessage" class="error-message"></div>
+        
+        <div class="admin-grid">
+            <!-- Contact Messages Management (moved to first card) -->
+            <div class="admin-card">
+                <h3>
+                    <div class="admin-card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            <path d="M13 8H7"></path>
+                            <path d="M17 12H7"></path>
+                        </svg>
+                    </div>
+                    Contact Messages
+                </h3>
+                <button class="admin-btn" id="viewContactMessagesBtn">
+                    View Messages 
+                    <span id="newMessagesBadge" style="display: none; background: #ff4444; color: white; border-radius: 50%; padding: 2px 6px; font-size: 12px; margin-left: 8px;">0</span>
+                </button>
+            </div>
+            
+            <!-- Websites Management -->
+            <div class="admin-card">
+                <h3>
+                    <div class="admin-card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <rect x="3" y="4" width="18" height="14" rx="3" ry="3"></rect>
+                            <path d="M8 20h8"></path>
+                            <path d="M12 4v-2"></path>
+                        </svg>
+                    </div>
+                    Websites
+                </h3>
+                <button class="admin-btn" onclick="window.open('websites.html', '_blank')">Manage Websites</button>
+                
+                <div id="websites-edit" class="edit-form">
+                    <button class="add-item-btn" onclick="addWorkItem('websites')">+ Add New Website</button>
+                    <div id="websites-list"></div>
+                </div>
+            </div>
+            
+            <!-- Reels Management -->
+            <div class="admin-card">
+                <h3>
+                    <div class="admin-card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <rect x="2" y="2" width="20" height="20" rx="3"></rect>
+                            <path d="M2 8h20"></path>
+                            <path d="M8 22V8"></path>
+                            <circle cx="6" cy="5" r="1"></circle>
+                            <circle cx="10" cy="5" r="1"></circle>
+                            <circle cx="14" cy="5" r="1"></circle>
+                            <circle cx="18" cy="5" r="1"></circle>
+                        </svg>
+                    </div>
+                    Reels
+                </h3>
+                <button class="admin-btn" onclick="window.open('reels.html', '_blank')">Manage Reels</button>
+                
+                <div id="reels-edit" class="edit-form">
+                    <button class="add-item-btn" onclick="addWorkItem('reels')">+ Add New Reel</button>
+                    <div id="reels-list"></div>
+                </div>
+            </div>
+            
+            <!-- Branding (Consolidated) -->
+            <div class="admin-card">
+                <h3>
+                    <div class="admin-card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="9"></circle>
+                            <path d="M7 15c1.5-2 4-3 5-6 0 0 3 3 5 3"></path>
+                        </svg>
+                    </div>
+                    Branding
+                </h3>
+                <button class="admin-btn" onclick="window.open('branding.html', '_blank')">Manage Branding</button>
+            </div>
+            
+            <!-- Client Management -->
+            <div class="admin-card">
+                <h3>
+                    <div class="admin-card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    Clients
+                </h3>
+                <button class="admin-btn" onclick="window.open('index.html#work', '_blank')">Manage Clients</button>
+                
+                <div id="clients-edit" class="edit-form">
+                    <button class="add-item-btn" onclick="addWorkItem('clients')">+ Add New Client</button>
+                    <div id="clients-list"></div>
+                </div>
+            </div>
+            
+            <!-- Testimonials Management -->
+            <div class="admin-card">
+                <h3>
+                    <div class="admin-card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            <path d="M13 8H7"></path>
+                            <path d="M17 12H7"></path>
+                        </svg>
+                    </div>
+                    Testimonials
+                </h3>
+                <button class="admin-btn" onclick="window.open('index.html#about', '_blank')">Manage Testimonials</button>
+                
+                <div id="testimonials-edit" class="edit-form">
+                    <button class="add-item-btn" onclick="addWorkItem('testimonials')">+ Add New Testimonial</button>
+                    <div id="testimonials-list"></div>
+                </div>
+            </div>
+            
+            <!-- Services Management -->
+            <div class="admin-card">
+                <h3>
+                    <div class="admin-card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M16 8l-4 8-2-4-4-2 10-2z"></path>
+                        </svg>
+                    </div>
+                    Services
+                </h3>
+                <button class="admin-btn" onclick="window.open('index.html#services', '_blank')">Manage Services</button>
+                
+                <div id="services-edit" class="edit-form">
+                    <button class="add-item-btn" onclick="addWorkItem('services')">+ Add New Service</button>
+                    <div id="services-list"></div>
+                </div>
+            </div>
+            
+            <!-- What We Do Management -->
+            <div class="admin-card">
+                <h3>
+                    <div class="admin-card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M7 12h.01"></path>
+                            <path d="M12 7h.01"></path>
+                            <path d="M17 12h.01"></path>
+                            <path d="M12 17h.01"></path>
+                        </svg>
+                    </div>
+                    What We Do
+                </h3>
+                <button class="admin-btn" onclick="window.open('index.html#whatwedo', '_blank')">Manage What We Do</button>
+                
+                <div id="whatwedo-edit" class="edit-form">
+                    <button class="add-item-btn" onclick="addWorkItem('whatwedo')">+ Add New Item</button>
+                    <div id="whatwedo-list"></div>
+                </div>
+            </div>
+            
+            
+
+            <!-- Work Counts (Projects/Reels/Creatives) - moved to end -->
+            <div class="admin-card" id="workCountsCard">
+                <h3>
+                    <div class="admin-card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M3 3h18v4H3z"></path>
+                            <path d="M3 9h18v12H3z"></path>
+                            <path d="M7 13h4v4H7z"></path>
+                        </svg>
+                    </div>
+                    Work Counts
+                </h3>
+                <button class="admin-btn" id="editCountsBtn">Edit Counts</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+    <script>
+        // Intercept localStorage.setItem to prevent Firebase from storing connection info
+        (function() {
+            const originalSetItem = localStorage.setItem;
+            const originalRemoveItem = localStorage.removeItem;
+            
+            localStorage.setItem = function(key, value) {
+                // Block Firebase-related keys from being stored
+                if (key && (key.startsWith('firebase:') || key.includes('gaatha-b9ee5-default-rtdb'))) {
+                    return; // Don't store Firebase connection info
+                }
+                return originalSetItem.apply(this, arguments);
+            };
+            
+            // Also intercept removeItem to prevent re-adding
+            localStorage.removeItem = function(key) {
+                return originalRemoveItem.apply(this, arguments);
+            };
+        })();
+        
+        // Your Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyBQlBj179byUqKjjXGH1TmpqT36nlDhwaY",
+            authDomain: "gaatha-b9ee5.firebaseapp.com",
+            projectId: "gaatha-b9ee5",
+            storageBucket: "gaatha-b9ee5.firebasestorage.app",
+            messagingSenderId: "661713784587",
+            appId: "1:661713784587:web:2b7bbcb40b18e53c361c0e",
+            measurementId: "G-75RTC8CXEE",
+            databaseURL: "https://gaatha-b9ee5-default-rtdb.asia-southeast1.firebasedatabase.app"
+        };
+        
+        // Initialize Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+        const database = firebase.database(app);
+        const auth = firebase.auth(app);
+        
+        // Prevent Firebase from storing connection info in localStorage
+        // Use session persistence instead of local (default)
+        if (auth && auth.setPersistence) {
+            auth.setPersistence(firebase.auth.Auth.Persistence.SESSION).catch(() => {});
+        }
+        
+        // Clear any existing Firebase localStorage items on page load
+        try {
+            const keysToRemove = [];
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key && (key.startsWith('firebase:') || key.includes('gaatha-b9ee5-default-rtdb'))) {
+                    keysToRemove.push(key);
+                }
+            }
+            keysToRemove.forEach(key => localStorage.removeItem(key));
+        } catch(e) {}
+        
+        // Make Firebase available globally
+        window.database = database;
+        window.auth = auth;
+        
+        // Wait for Firebase to be ready
+        database.goOnline();
+        
+        // Cleanup Firebase localStorage on page unload (prevents storing in Application tab)
+        window.addEventListener('beforeunload', function() {
+            try {
+                const keysToRemove = [];
+                for (let i = 0; i < localStorage.length; i++) {
+                    const key = localStorage.key(i);
+                    if (key && (key.startsWith('firebase:') || key.includes('gaatha-b9ee5-default-rtdb'))) {
+                        keysToRemove.push(key);
+                    }
+                }
+                keysToRemove.forEach(key => localStorage.removeItem(key));
+            } catch(e) {}
+        });
+        
+        // Also clear on visibility change (when tab becomes hidden)
+        document.addEventListener('visibilitychange', function() {
+            if (document.hidden) {
+                try {
+                    const keysToRemove = [];
+                    for (let i = 0; i < localStorage.length; i++) {
+                        const key = localStorage.key(i);
+                        if (key && (key.startsWith('firebase:') || key.includes('gaatha-b9ee5-default-rtdb'))) {
+                            keysToRemove.push(key);
+                        }
+                    }
+                    keysToRemove.forEach(key => localStorage.removeItem(key));
+                } catch(e) {}
+            }
+        });
+    </script>
+    <script src="firebase-admin.js"></script>
+    <script>
+        // Check authentication
+        function checkAuth() {
+            const secretKey = localStorage.getItem('admin_secret');
+            const expectedKey = 'gaatha_admin_2025_secret_key_xyz789';
+            
+            if (secretKey !== expectedKey) {
+                window.location.href = 'admin/index.html';
+                return false;
+            }
+            return true;
+        }
+
+        // Initialize admin dashboard
+        if (checkAuth()) {
+            // Wait for Firebase to be ready
+            setTimeout(() => {
+                firebaseAdmin.loadAllData();
+                ensureDefaultWorkCounts();
+            }, 1000);
+        }
+
+
+        // Toggle edit forms
+        function toggleEditForm(type) {
+            const form = document.getElementById(type + '-edit');
+            const isActive = form.classList.contains('active');
+            
+            // Close all forms first
+            document.querySelectorAll('.edit-form').forEach(f => f.classList.remove('active'));
+            
+            // Open the selected form if it wasn't active
+            if (!isActive) {
+                form.classList.add('active');
+                loadWorkItems(type);
+            }
+        }
+
+        // Load all data
+        async function loadAllData() {
+            await firebaseAdmin.loadAllData();
+        }
+
+        // Load work items for a specific type
+        async function loadWorkItems(type) {
+            const data = await firebaseAdmin.getData(type);
+            const container = document.getElementById(type + '-list');
+            
+            container.innerHTML = '';
+            
+            if (data && typeof data === 'object') {
+                Object.keys(data).forEach((key, index) => {
+                    const item = data[key];
+                    const workItem = document.createElement('div');
+                    workItem.className = 'work-item';
+                    workItem.innerHTML = `
+                        <div>
+                            <h4>${item.title || item.name || 'Untitled'}</h4>
+                            <p>${item.description || item.company || 'No description'}</p>
+                        </div>
+                        <div class="work-actions">
+                            <button class="btn-edit" onclick="editWorkItem('${type}', '${key}')">Edit</button>
+                            <button class="btn-delete" onclick="deleteWorkItem('${type}', '${key}')">Delete</button>
+                        </div>
+                    `;
+                    container.appendChild(workItem);
+                });
+            }
+        }
+
+        // Add new work item
+        async function addWorkItem(type) {
+            showAddItemModal(type);
+        }
+        
+        // Show add item modal
+        function showAddItemModal(type) {
+            const modal = document.createElement('div');
+            modal.className = 'modal-overlay';
+            modal.innerHTML = `
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Add New ${type.charAt(0).toUpperCase() + type.slice(1)}</h3>
+                    </div>
+                    <form id="addItemForm">
+                        <div class="modal-form-group">
+                            <label for="modalTitle">Title</label>
+                            <input type="text" id="modalTitle" placeholder="Enter ${type} title">
+                        </div>
+                        
+                        <div class="modal-form-group">
+                            <label for="modalCompany">Company/Brand</label>
+                            <input type="text" id="modalCompany" placeholder="Enter company name">
+                        </div>
+                        
+                        <div class="modal-form-group">
+                            <label for="modalImage">Image URL</label>
+                            <input type="text" id="modalImage" placeholder="Enter image URL">
+                        </div>
+                        
+                        <div class="modal-form-group">
+                            <label for="modalLink">Link/URL</label>
+                            <input type="text" id="modalLink" placeholder="Enter link URL">
+                        </div>
+                        
+                        <div class="modal-form-group">
+                            <label for="modalViews">Views/Description</label>
+                            <input type="text" id="modalViews" placeholder="Enter views or description">
+                        </div>
+                        
+                        <div class="modal-form-actions">
+                            <button type="submit" class="modal-btn-save">Add ${type.charAt(0).toUpperCase() + type.slice(1)}</button>
+                            <button type="button" class="modal-btn-cancel" onclick="closeModal()">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            `;
+            
+            document.body.appendChild(modal);
+            
+            // Handle form submission
+            document.getElementById('addItemForm').addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                const newItem = {
+                    title: document.getElementById('modalTitle').value,
+                    company: document.getElementById('modalCompany').value,
+                    image: document.getElementById('modalImage').value,
+                    link: document.getElementById('modalLink').value,
+                    views: document.getElementById('modalViews').value
+                };
+                
+                const success = await firebaseAdmin.addItem(type, newItem);
+                if (success) {
+                    await loadWorkItems(type);
+                    showSuccess(`${type} added successfully!`);
+                    closeModal();
+                } else {
+                    showError(`Failed to add ${type}`);
+                }
+            });
+        }
+
+        // Edit work item
+        function editWorkItem(type, index, item = null) {
+            // localStorage removed - data now managed by Firebase
+            const data = [];
+            
+            if (index === -1) {
+                // Adding new item
+                if (!item) {
+                    item = {
+                        id: Date.now(),
+                        title: '',
+                        description: '',
+                        image: '',
+                        link: '',
+                        company: '',
+                        views: '',
+                        category: type
+                    };
+                }
+                data.push(item);
+                index = data.length - 1;
+            } else {
+                item = data[index];
+            }
+            
+            const modal = document.createElement('div');
+            modal.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.8);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 1000;
+            `;
+            
+            modal.innerHTML = `
+                <div style="
+                    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 100%);
+                    padding: 2rem;
+                    border-radius: 20px;
+                    width: 90%;
+                    max-width: 600px;
+                    max-height: 80vh;
+                    overflow-y: auto;
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                ">
+                    <h3 style="color: white; margin-bottom: 1.5rem;">Edit ${type.charAt(0).toUpperCase() + type.slice(1)} Item</h3>
+                    
+                    <div class="form-group">
+                        <label>Title/Name</label>
+                        <input type="text" id="edit-title" value="${item.title || ''}" placeholder="Enter title">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Description</label>
+                        <textarea id="edit-description" placeholder="Enter description">${item.description || ''}</textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Image URL</label>
+                        <input type="url" id="edit-image" value="${item.image || ''}" placeholder="Enter image URL">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Link/URL</label>
+                        <input type="url" id="edit-link" value="${item.link || ''}" placeholder="Enter link URL">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Company/Brand</label>
+                        <input type="text" id="edit-company" value="${item.company || ''}" placeholder="Enter company name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Views/Stats</label>
+                        <input type="text" id="edit-views" value="${item.views || ''}" placeholder="Enter views or stats">
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button class="admin-btn btn-save" onclick="saveWorkItem('${type}', ${index})">Save</button>
+                        <button class="admin-btn btn-cancel" onclick="closeModal()">Cancel</button>
+                    </div>
+                </div>
+            `;
+            
+            document.body.appendChild(modal);
+        }
+
+        // Save work item
+        function saveWorkItem(type, index) {
+            // localStorage removed - data now managed by Firebase
+            const data = [];
+            
+            data[index] = {
+                id: data[index]?.id || Date.now(),
+                title: document.getElementById('edit-title').value,
+                description: document.getElementById('edit-description').value,
+                image: document.getElementById('edit-image').value,
+                link: document.getElementById('edit-link').value,
+                company: document.getElementById('edit-company').value,
+                views: document.getElementById('edit-views').value,
+                category: type
+            };
+            
+            // localStorage removed - data now managed by Firebase
+            closeModal();
+            loadWorkItems(type);
+            showSuccess('Item saved successfully!');
+        }
+
+        // Delete work item
+        async function deleteWorkItem(type, firebaseKey) {
+            if (confirm('Are you sure you want to delete this item?')) {
+                const success = await firebaseAdmin.deleteItem(type, firebaseKey);
+                if (success) {
+                    await loadWorkItems(type);
+                    showSuccess('Item deleted successfully!');
+                } else {
+                    showError('Failed to delete item');
+                }
+            }
+        }
+
+        // Close modal
+        function closeModal() {
+            const modal = document.querySelector('.modal-overlay');
+            if (modal) {
+                modal.remove();
+            }
+        }
+
+        // Show success message
+        function showSuccess(message) {
+            const successDiv = document.getElementById('successMessage');
+            successDiv.textContent = message;
+            successDiv.style.display = 'block';
+            setTimeout(() => {
+                successDiv.style.display = 'none';
+            }, 3000);
+        }
+
+        // Show error message
+        function showError(message) {
+            const errorDiv = document.getElementById('errorMessage');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+            setTimeout(() => {
+                errorDiv.style.display = 'none';
+            }, 3000);
+        }
+
+        // Close modal on outside click
+        document.addEventListener('click', function(e) {
+            if (e.target.style.position === 'fixed') {
+                closeModal();
+            }
+        });
+
+        // Logout handler
+        (function attachLogout() {
+            const btn = document.getElementById('logoutBtn');
+            if (btn) {
+                btn.addEventListener('click', function() {
+                    try {
+                        localStorage.removeItem('admin_secret');
+                    } catch (e) {}
+                    window.location.href = 'admin/index.html';
+                });
+            }
+        })();
+
+        // Function to update new messages badge
+        async function updateNewMessagesBadge() {
+            try {
+                if (!window.database) return;
+                const snap = await window.database.ref('contactMessages').once('value');
+                const raw = snap.val() || {};
+                const newCount = Object.values(raw).filter(msg => msg.status === 'new').length;
+                const badge = document.getElementById('newMessagesBadge');
+                if (badge) {
+                    if (newCount > 0) {
+                        badge.textContent = newCount;
+                        badge.style.display = 'inline';
+                    } else {
+                        badge.style.display = 'none';
+                    }
+                }
+            } catch (e) {
+                // Error updating new messages badge
+            }
+        }
+
+        // Contact Messages modal and table
+        (function attachContactMessages() {
+            const btn = document.getElementById('viewContactMessagesBtn');
+            if (!btn) return;
+            
+            // Update badge on page load
+            updateNewMessagesBadge();
+            
+            btn.addEventListener('click', async function() {
+                if (!window.database) { alert('Database not ready'); return; }
+                try {
+                    const snap = await window.database.ref('contactMessages').once('value');
+                    const raw = snap.val() || {};
+                    const rows = Object.keys(raw).map(id => ({ id, ...raw[id] }))
+                        .sort((a,b) => String(a.createdAt||'') < String(b.createdAt||'') ? 1 : -1);
+                    const modal = document.createElement('div');
+                    modal.className = 'modal-overlay';
+                    modal.innerHTML = `
+                        <div class="modal-content" style="max-width: none; width: 95vw; height: 90vh; display:flex; flex-direction:column; position:relative;">
+                            <div class="modal-header" style="position:relative;">
+                                <h3 class="modal-title">Contact Messages</h3>
+                                <button type="button" class="modal-btn-save" id="exportContactCsvBtn" style="position:absolute; top:8px; right:44px; padding:6px 10px; border-radius:16px; font-size:12px;">Export CSV</button>
+                                <button type="button" class="modal-close-icon" aria-label="Close" style="position:absolute; top:8px; right:8px; background:transparent; border:none; cursor:pointer; padding:6px;">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div style="overflow:auto; flex:1;">
+                                <table id="contactMessagesTable" style="width:100%; border-collapse:collapse; background:#fff; min-width: 1100px;">
+                                    <thead>
+                                        <tr>
+                                            <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Name</th>
+                                            <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Email</th>
+                                            <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Company</th>
+                                            <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Budget</th>
+                                            <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Message</th>
+                                            <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Created At</th>
+                                            <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        ${rows.map(r => `
+                                            <tr>
+                                                <td style=\"padding:10px; border-bottom:1px solid #f3f3f3;\">${(r.name||'').replace(/</g,'&lt;')}</td>
+                                                <td style=\"padding:10px; border-bottom:1px solid #f3f3f3;\">${(r.email||'').replace(/</g,'&lt;')}</td>
+                                                <td style=\"padding:10px; border-bottom:1px solid #f3f3f3;\">${(r.company||'').replace(/</g,'&lt;')}</td>
+                                                <td style=\"padding:10px; border-bottom:1px solid #f3f3f3;\">${(r.budget||'').replace(/</g,'&lt;')}</td>
+                                                <td style=\"padding:10px; border-bottom:1px solid #f3f3f3; white-space: pre-wrap;\">${(r.message||'').replace(/</g,'&lt;')}</td>
+                                                <td style=\"padding:10px; border-bottom:1px solid #f3f3f3;\">${(r.createdAt ? new Date(r.createdAt).toLocaleDateString() : '')}</td>
+                                                <td style=\"padding:10px; border-bottom:1px solid #f3f3f3;\">\
+                                                    <button class=\"delete-contact-btn\" data-id=\"${r.id}\" title=\"Delete\" style=\"background:transparent; color:#ff4444; border:none; padding:4px; border-radius:6px; cursor:pointer; display:inline-flex; align-items:center;\">\
+                                                        <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ff4444\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\
+                                                            <polyline points=\"3 6 5 6 21 6\"></polyline>\
+                                                            <path d=\"M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6\"></path>\
+                                                            <path d=\"M10 11v6\"></path>\
+                                                            <path d=\"M14 11v6\"></path>\
+                                                            <path d=\"M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2\"></path>\
+                                                        </svg>\
+                                                    </button>\
+                                                </td>
+                                            </tr>
+                                        `).join('')}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>`;
+                    document.body.appendChild(modal);
+
+                    // Mobile responsiveness tweaks for contact messages modal
+                    (function makeContactModalResponsive(){
+                        const isMobile = window.matchMedia && window.matchMedia('(max-width: 768px)').matches;
+                        if (!isMobile) return;
+                        const content = modal.querySelector('.modal-content');
+                        if (content) {
+                            content.style.width = '100vw';
+                            content.style.height = '92vh';
+                            content.style.padding = '1rem';
+                        }
+                        const table = modal.querySelector('#contactMessagesTable');
+                        if (table) {
+                            table.style.minWidth = '700px'; // allow horizontal scroll but fit better on mobile
+                            table.style.fontSize = '12px';
+                        }
+                        const title = modal.querySelector('.modal-title');
+                        if (title) {
+                            title.style.fontSize = '1.05rem';
+                            title.style.marginRight = '90px'; // space for buttons
+                            title.style.marginLeft = '10px';
+                        }
+                        const exportBtnHdr = modal.querySelector('#exportContactCsvBtn');
+                        if (exportBtnHdr) {
+                            exportBtnHdr.style.top = '6px';
+                            exportBtnHdr.style.right = '40px';
+                            exportBtnHdr.style.fontSize = '10px';
+                            exportBtnHdr.style.padding = '4px 6px';
+                            exportBtnHdr.style.borderRadius = '12px';
+                            exportBtnHdr.style.lineHeight = '1';
+                            exportBtnHdr.style.width = 'auto';
+                            exportBtnHdr.style.minWidth = 'unset';
+                            exportBtnHdr.style.whiteSpace = 'nowrap';
+                        }
+                        const closeBtn = modal.querySelector('.modal-close-icon svg');
+                        if (closeBtn) {
+                            closeBtn.setAttribute('width', '18');
+                            closeBtn.setAttribute('height', '18');
+                        }
+                    })();
+
+                    // Event delegation for delete and close actions
+                    modal.addEventListener('click', async function(e) {
+                        const deleteBtn = e.target.closest('.delete-contact-btn');
+                        if (deleteBtn) {
+                            const id = deleteBtn.getAttribute('data-id');
+                            const rowEl = deleteBtn.closest('tr');
+                            if (!id) return;
+                            showConfirm('Delete this message? This cannot be undone.', async () => {
+                                try {
+                                    await window.database.ref(`contactMessages/${id}`).remove();
+                                    if (rowEl) rowEl.remove();
+                                    updateNewMessagesBadge();
+                                } catch (err) {
+                                    alert('Failed to delete. Please try again.');
+                                }
+                            });
+                            return;
+                        }
+
+                        const closeBtn = e.target.closest('.modal-close-icon');
+                        if (closeBtn) {
+                            closeModal();
+                            return;
+                        }
+                    });
+                    
+                    // Mark all messages as viewed when admin opens the modal
+                    const newMessages = rows.filter(r => r.status === 'new');
+                    if (newMessages.length > 0) {
+                        const updatePromises = newMessages.map(msg => 
+                            window.database.ref(`contactMessages/${msg.id}`).update({ status: 'viewed' })
+                        );
+                        Promise.all(updatePromises).then(() => {
+                            // Update badge after marking messages as viewed
+                            updateNewMessagesBadge();
+                        }).catch(err => {
+                            // Error updating message status
+                        });
+                    }
+                    
+                    const exportBtn = document.getElementById('exportContactCsvBtn');
+                    if (exportBtn) {
+                        exportBtn.addEventListener('click', function(){
+                            const headers = ['Name','Email','Company','Budget','Message','Status','Created At'];
+                            const data = rows.map(r => [r.name||'', r.email||'', r.company||'', r.budget||'', (r.message||'').replace(/\n/g,' '), r.status||'', r.createdAt||'']);
+                            const csv = [headers].concat(data).map(row => row.map(v => '"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\n');
+                            const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+                            const url = URL.createObjectURL(blob);
+                            const a = document.createElement('a');
+                            a.href = url;
+                            a.download = 'contact_messages.csv';
+                            a.click();
+                            URL.revokeObjectURL(url);
+                        });
+                    }
+                } catch (e) {
+                    alert('Failed to load messages');
+                }
+            });
+        })();
+
+        // Themed confirm dialog
+        function showConfirm(message, onConfirm) {
+            const overlay = document.createElement('div');
+            overlay.className = 'modal-overlay';
+            overlay.innerHTML = `
+                <div class="modal-content" style="max-width: 420px;">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Confirm Delete</h3>
+                    </div>
+                    <div style="color:#2c2c2c; line-height:1.5;">${message}</div>
+                    <div class="modal-form-actions">
+                        <button type="button" class="modal-btn-cancel" id="confirmCancelBtn">Cancel</button>
+                        <button type="button" class="modal-btn-save" id="confirmOkBtn">Delete</button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(overlay);
+            const cleanup = () => overlay.remove();
+            overlay.querySelector('#confirmCancelBtn').addEventListener('click', cleanup);
+            overlay.querySelector('#confirmOkBtn').addEventListener('click', async () => {
+                try {
+                    await (typeof onConfirm === 'function' ? onConfirm() : null);
+                } finally {
+                    cleanup();
+                }
+            });
+        }
+
+        // Work Counts logic (Projects/Reels/Creatives)
+        async function ensureDefaultWorkCounts() {
+            try {
+                const ref = window.database.ref('workCounts');
+                const snap = await ref.once('value');
+                if (!snap.exists()) {
+                    await ref.set({ projects: 129, reels: 500, creatives: 1001, updatedAt: new Date().toISOString() });
+                    window.__workCounts = { projects: 129, reels: 500, creatives: 1001 };
+                } else {
+                    window.__workCounts = snap.val() || { projects: 129, reels: 500, creatives: 1001 };
+                }
+            } catch (e) {
+                // Failed to ensure default work counts
+            }
+        }
+
+        function showEditCountsModal() {
+            const counts = window.__workCounts || { projects: '', reels: '', creatives: '' };
+            const modal = document.createElement('div');
+            modal.className = 'modal-overlay';
+            modal.innerHTML = `
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Edit Work Counts</h3>
+                    </div>
+                    <form id="editCountsForm">
+                        <div class="modal-form-group">
+                            <label for="countProjectsInput">Projects</label>
+                            <input type="number" id="countProjectsInput" value="${counts.projects || ''}" min="0" step="1">
+                        </div>
+                        <div class="modal-form-group">
+                            <label for="countReelsInput">Reels</label>
+                            <input type="number" id="countReelsInput" value="${counts.reels || ''}" min="0" step="1">
+                        </div>
+                        <div class="modal-form-group">
+                            <label for="countCreativesInput">Creatives</label>
+                            <input type="number" id="countCreativesInput" value="${counts.creatives || ''}" min="0" step="1">
+                        </div>
+                        <div class="modal-form-actions">
+                            <button type="submit" class="modal-btn-save">Save</button>
+                            <button type="button" class="modal-btn-cancel" onclick="closeModal()">Cancel</button>
+                        </div>
+                    </form>
+                </div>`;
+            document.body.appendChild(modal);
+            const form = document.getElementById('editCountsForm');
+            form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                const projects = Number(document.getElementById('countProjectsInput').value || 0);
+                const reels = Number(document.getElementById('countReelsInput').value || 0);
+                const creatives = Number(document.getElementById('countCreativesInput').value || 0);
+                try {
+                    await window.database.ref('workCounts').set({ projects, reels, creatives, updatedAt: new Date().toISOString() });
+                    showSuccess('Counts updated');
+                    closeModal();
+                    ensureDefaultWorkCounts();
+                } catch (e) {
+                    showError('Failed to update counts');
+                }
+            });
+        }
+
+        (function attachCountsHandlers(){
+            const btn = document.getElementById('editCountsBtn');
+            if (btn) {
+                btn.addEventListener('click', showEditCountsModal);
+            }
+        })();
+
+        // Mobile: make entire admin cards clickable by delegating to their primary button
+        (function attachMobileCardClicks(){
+            const isMobile = window.matchMedia && window.matchMedia('(max-width: 768px)').matches;
+            if (!isMobile) return;
+            const cards = document.querySelectorAll('.admin-card');
+            cards.forEach(card => {
+                const primaryBtn = card.querySelector('.admin-btn');
+                if (!primaryBtn) return;
+                card.addEventListener('click', (e) => {
+                    // ignore if clicking any interactive element just in case
+                    if (e.target.closest('button, a, input, textarea, select')) return;
+                    try { primaryBtn.click(); } catch (_) {}
+                });
+            });
+        })();
+    </script>
+</body>
+</html>

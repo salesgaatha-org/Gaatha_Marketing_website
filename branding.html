@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branding - Gaa-tha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader (same as reels page) -->
+    <div class="preloader-overlay" id="preloader">
+        <div class="preloader-container">
+            <div class="sky">
+                <div class="trail-container" id="trailContainer"></div>
+                <img class="plane-icon" src="images/Untitled design (25).png" alt="Loading Plane" />
+            </div>
+        </div>
+    </div>
+    <nav class="glass">
+        <div class="logo"><a href="index.html"><img src="images/gaatha_logo_-_Copy-removebg-preview.png" alt="Gaa-tha" /></a></div>
+        <ul class="nav-links">
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+        <a href="index.html#contact" class="cta-btn">Start a Project</a>
+    </nav>
+
+    <div class="back-to-work">
+        <a href="work.html" class="back-link">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+            Back to Work
+        </a>
+        <h1 class="section-title">Branding</h1>
+    </div>
+
+    <!-- Creatives Section -->
+    <section class="reels-section" id="section-creatives">
+        <div class="section-header" style="display:flex; justify-content:center; align-items:center; gap:12px; position:relative;">
+            <h2 class="section-title" style="margin:0;">Creatives</h2>
+            <button class="add-reel-btn" id="addPostBtn" style="display:none;" onclick="showAddBrandingItemModal('posts')">Add Post</button>
+        </div>
+        <div class="slider-indicator">
+            <div class="scroll-hint">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                <span>Scroll to see more</span>
+            </div>
+        </div>
+        <style>
+            .static-posts-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:20px; padding:20px; max-width:1200px; margin:0 auto; }
+            .static-post-card { position:relative; border-radius:12px; overflow:hidden; }
+            .post-image { height:280px; overflow:hidden; width:100%; }
+            .post-image img { width:100%; height:100%; object-fit:cover; display:block; }
+            @media (min-width: 992px) { .post-image { height:480px; } }
+            .post-content { padding:16px; }
+            .post-content h3 { font-size:16px; margin:8px 0; line-height:1.3; }
+            .post-content p { font-size:14px; margin:4px 0; line-height:1.4; }
+            .post-brand { font-size:14px; color:#666; margin-bottom:6px; }
+            /* Add vertical space after creatives */
+            #posts-grid { margin-bottom: 32px; }
+            /* Admin styles matching static-posts */
+            .post-edit-icon { position:absolute; top:12px; left:12px; background:linear-gradient(135deg,#7a571e 0%,#d4af37 100%); color:#fff; border:none; padding:8px; border-radius:50%; cursor:pointer; transition:all .3s ease; z-index:10; width:36px; height:36px; display:flex; align-items:center; justify-content:center; }
+            .post-edit-icon:hover { background:linear-gradient(135deg,#8B6F47 0%,#D4AF37 100%); transform:scale(1.1); box-shadow:0 4px 12px rgba(212,175,55,.4); }
+            .post-actions { position:absolute; top:12px; right:12px; display:flex; gap:8px; opacity:0; transition:opacity .3s ease; }
+            .static-post-card:hover .post-actions { opacity:1; }
+            .post-actions .client-delete-btn{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#8B6F47 0%,#D4AF37 100%);border:none;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(139,111,71,.4);padding:0;color:#fff}
+            .post-actions .client-delete-btn svg{width:18px;height:18px;stroke:currentColor;color:#fff}
+        </style>
+        <div class="static-posts-grid" id="posts-grid"></div>
+    </section>
+
+
+    <!-- Logos Section -->
+    <section class="reels-section" id="section-logos">
+        <div class="section-header" style="display:flex; justify-content:center; align-items:center; gap:12px; position:relative;">
+            <h2 class="section-title" style="margin:0;">Logos</h2>
+            <button class="add-reel-btn" id="addLogoBtn" style="display:none;" onclick="showAddBrandingItemModal('logos')">Add Logo</button>
+        </div>
+        <div class="slider-indicator">
+            <div class="scroll-hint">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                <span>Scroll to see more</span>
+            </div>
+        </div>
+        <style>
+            .logo-design-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:20px; padding:20px; max-width:1200px; margin:0 auto; }
+            .logo-card { position:relative; border-radius:12px; overflow:hidden; }
+            .logo-image { height:200px; overflow:hidden; }
+            .logo-image img { width:100%; height:100%; object-fit:cover; }
+            .logo-content { padding:16px; }
+            .logo-content h3 { font-size:16px; margin:8px 0; line-height:1.3; display:none !important; }
+            .logo-content p { font-size:14px; margin:4px 0; line-height:1.4; display:none !important; }
+            .logo-content .logo-brand { font-family: 'Montserrat','Inter',system-ui; font-weight:400; font-size:1.3rem; color:#111; display:block; text-align:center; margin:10px auto 0; }
+            /* Add vertical space before and after logos */
+            #logos-grid { margin-top: 6px; margin-bottom: 32px; }
+            /* Admin styles matching logo-design */
+            .logo-edit-icon { position:absolute; top:12px; left:12px; background:linear-gradient(135deg,#7a571e 0%,#d4af37 100%); color:#fff; border:none; padding:8px; border-radius:50%; cursor:pointer; transition:.3s; z-index:10; width:36px; height:36px; display:flex; align-items:center; justify-content:center; }
+            .logo-edit-icon:hover { background:linear-gradient(135deg,#8B6F47 0%,#D4AF37 100%); transform:scale(1.1); box-shadow:0 4px 12px rgba(212,175,55,.4); }
+            .logo-actions { position:absolute; top:12px; right:12px; display:flex; gap:8px; opacity:0; transition:opacity .3s ease; }
+            .logo-card:hover .logo-actions { opacity:1; }
+            .logo-actions .client-delete-btn{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#8B6F47 0%,#D4AF37 100%);border:none;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(139,111,71,.4);padding:0;color:#fff}
+            .logo-actions .client-delete-btn svg{width:18px;height:18px;stroke:currentColor;color:#fff}
+        </style>
+        <div class="logo-design-grid" id="logos-grid"></div>
+    </section>
+
+    <!-- Banners Section -->
+    <section class="reels-section" id="section-banners">
+        <div class="section-header" style="display:flex; justify-content:center; align-items:center; gap:12px; position:relative;">
+            <h2 class="section-title" style="margin:0;">Banners</h2>
+            <button class="add-reel-btn" id="addBannerBtn" style="display:none;" onclick="showAddBrandingItemModal('banners')">Add Banner</button>
+        </div>
+        <div class="slider-indicator">
+            <div class="scroll-hint">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                <span>Scroll to see more</span>
+            </div>
+        </div>
+        <style>
+            .banner-design-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:20px; padding:20px; max-width:1200px; margin:0 auto; }
+            .banner-card { position:relative; border-radius:12px; overflow:hidden; }
+            .banner-image { height:200px; overflow:hidden; }
+            .banner-image img { width:100%; height:100%; object-fit:cover; }
+            .banner-content { padding:16px; }
+            .banner-content h3 { font-size:16px; margin:8px 0; line-height:1.3; display:none !important; }
+            .banner-content p { font-size:14px; margin:4px 0; line-height:1.4; display:none !important; }
+            .banner-content .banner-brand { font-family: 'Montserrat','Inter',system-ui; font-weight:400; font-size:1.3rem; color:#111; display:block; text-align:center; margin:10px auto 0; }
+            /* Add small space above banners */
+            #banners-grid { margin-top: 6px; }
+            /* Admin styles matching banner-design */
+            .banner-edit-icon { position:absolute; top:12px; left:12px; background:linear-gradient(135deg,#7a571e 0%,#d4af37 100%); color:#fff; border:none; padding:8px; border-radius:50%; cursor:pointer; transition:.3s; z-index:10; width:36px; height:36px; display:flex; align-items:center; justify-content:center; }
+            .banner-edit-icon:hover { background:linear-gradient(135deg,#8B6F47 0%,#D4AF37 100%); transform:scale(1.1); box-shadow:0 4px 12px rgba(212,175,55,.4); }
+            .banner-actions { position:absolute; top:12px; right:12px; display:flex; gap:8px; opacity:0; transition:opacity .3s ease; }
+            .banner-card:hover .banner-actions { opacity:1; }
+            .banner-actions .client-delete-btn{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#8B6F47 0%,#D4AF37 100%);border:none;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(139,111,71,.4);padding:0;color:#fff}
+            .banner-actions .client-delete-btn svg{width:18px;height:18px;stroke:currentColor;color:#fff}
+        </style>
+        <div class="banner-design-grid" id="banners-grid"></div>
+    </section>
+
+    <!-- Brochure Design Section -->
+    <section class="reels-section" id="section-brochures">
+        <div class="section-header" style="display:flex; justify-content:center; align-items:center; gap:12px; position:relative;">
+            <h2 class="section-title" style="margin:0;">Brochure Design</h2>
+            <button class="add-reel-btn" id="addBrochureBtn" style="display:none;" onclick="showAddBrandingItemModal('brochures')">Add Brochure</button>
+        </div>
+        <div class="slider-indicator">
+            <div class="scroll-hint">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                <span>Scroll to see more</span>
+            </div>
+        </div>
+        <style>
+            .brochure-design-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:20px; padding:20px; max-width:1200px; margin:0 auto; }
+            .brochure-card { position:relative; border-radius:12px; overflow:hidden; }
+            .brochure-image { height:200px; overflow:hidden; }
+            .brochure-image img { width:100%; height:100%; object-fit:cover; }
+            .brochure-content { padding:16px; }
+            .brochure-content h3 { font-size:16px; margin:8px 0; line-height:1.3; display:none !important; }
+            .brochure-content p { font-size:14px; margin:4px 0; line-height:1.4; display:none !important; }
+            .brochure-content .brochure-brand { font-family: 'Montserrat','Inter',system-ui; font-weight:400; font-size:1.3rem; color:#111; display:block; text-align:center; margin:10px auto 0; }
+            /* Match spacing from previous sections */
+            #brochures-grid { margin-top: 6px; }
+            .brochure-edit-icon { position:absolute; top:12px; left:12px; background:linear-gradient(135deg,#7a571e 0%,#d4af37 100%); color:#fff; border:none; padding:8px; border-radius:50%; cursor:pointer; transition:.3s; z-index:10; width:36px; height:36px; display:flex; align-items:center; justify-content:center; }
+            .brochure-actions { position:absolute; top:12px; right:12px; display:flex; gap:8px; opacity:0; transition:opacity .3s ease; }
+            .brochure-card:hover .brochure-actions { opacity:1; }
+            .brochure-actions .client-delete-btn{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#8B6F47 0%,#D4AF37 100%);border:none;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(139,111,71,.4);padding:0;color:#fff}
+            .brochure-actions .client-delete-btn svg{width:18px;height:18px;stroke:currentColor;color:#fff}
+        </style>
+        <div class="brochure-design-grid" id="brochures-grid"></div>
+    </section>
+
+    <style>
+        /* Preloader Styles (reused from reels) */
+        .preloader-overlay { position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.3); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); z-index: 9999; display:flex; justify-content:center; align-items:center; transition: opacity .5s ease, visibility .5s ease; }
+        .preloader-overlay.hidden { opacity:0; visibility:hidden; }
+        .preloader-container { position:relative; z-index:1; }
+        .sky { position:relative; width:600px; height:300px; background: transparent; overflow:hidden; }
+        .plane-icon { position:absolute; width:180px; height:180px; animation: fly 4s ease-in-out infinite; filter: drop-shadow(0 10px 25px rgba(0,0,0,.2)); }
+        @keyframes fly { 0% { left:-100px; top:50%; transform: translateY(-50%) rotateZ(0deg);} 50% { left:240px; top:40%; transform: translateY(-50%) rotateZ(-5deg);} 100% { left:600px; top:50%; transform: translateY(-50%) rotateZ(0deg);} }
+        .trail-container { position:absolute; width:100%; height:100%; pointer-events:none; }
+        @media (min-width: 768px) { .slider-indicator { display:none; } }
+        .back-to-work { display:flex; justify-content:center; align-items:center; margin-bottom: 2rem; padding: 0 20px; max-width:1200px; margin-left:auto; margin-right:auto; position:relative; }
+        @media (max-width: 768px) {
+            .back-to-work { flex-direction: column; align-items: flex-start; gap: 1rem; }
+            .back-to-work .back-link { position: static !important; transform: none !important; }
+            .back-to-work .section-title { align-self: center; }
+        }
+        .reels-section { padding: 40px 20px; max-width: 1200px; margin: 0 auto; }
+        .reels-section:first-of-type { margin-top: 10px; }
+        .section-header { text-align: center; margin-bottom: 32px; }
+        .section-header .section-title { text-align: center; }
+        .add-reel-btn { background: linear-gradient(135deg, #7a571e 0%, #d4af37 100%); color:#fff; border:none; padding:10px 14px; border-radius:10px; font-weight:600; cursor:pointer; position:absolute; right:0; top:50%; transform:translateY(-50%); }
+        .back-link { position:absolute; left:0; top:50%; transform:translateY(-50%); }
+        /* Card skins reuse existing classes from reels/websites pages via style.css */
+        /* Match reels.html section title gradient */
+        .section-header .section-title { font-size: 2.5rem; font-weight: 700; color: #2c2c2c; margin-bottom: 16px; background: linear-gradient(135deg, #7a571e 0%, #d4af37 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin: 0; }
+        
+    </style>
+
+    <script src="script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyBQlBj179byUqKjjXGH1TmpqT36nlDhwaY",
+            authDomain: "gaatha-b9ee5.firebaseapp.com",
+            databaseURL: "https://gaatha-b9ee5-default-rtdb.asia-southeast1.firebasedatabase.app",
+            projectId: "gaatha-b9ee5",
+            storageBucket: "gaatha-b9ee5.firebasestorage.app",
+            messagingSenderId: "661713784587",
+            appId: "1:661713784587:web:2b7bbcb40b18e53c361c0e",
+            measurementId: "G-75RTC8CXEE"
+        };
+        firebase.initializeApp(firebaseConfig);
+        const database = firebase.database();
+        const isAdminMode = localStorage.getItem('admin_secret') === 'gaatha_admin_2025_secret_key_xyz789';
+
+        if (isAdminMode) {
+            const ap = document.getElementById('addPostBtn'); if (ap) ap.style.display = 'flex';
+            const al = document.getElementById('addLogoBtn'); if (al) al.style.display = 'flex';
+            const ab = document.getElementById('addBannerBtn'); if (ab) ab.style.display = 'flex';
+            const abr = document.getElementById('addBrochureBtn'); if (abr) abr.style.display = 'flex';
+        }
+
+        function loadBranding() {
+            Promise.all([
+                database.ref('posts').once('value'),
+                database.ref('logos').once('value'),
+                database.ref('banners').once('value'),
+                database.ref('brochures').once('value')
+            ]).then(([postsSnap, logosSnap, bannersSnap, brochuresSnap]) => {
+                const posts = normalize(postsSnap.val()).sort((a,b)=> (a.order||0)-(b.order||0));
+                const logos = normalize(logosSnap.val()).sort((a,b)=> (a.order||0)-(b.order||0));
+                const banners = normalize(bannersSnap.val()).sort((a,b)=> (a.order||0)-(b.order||0));
+                const brochures = normalize(brochuresSnap.val()).sort((a,b)=> (a.order||0)-(b.order||0));
+                renderPosts(posts);
+                renderLogos(logos);
+                renderBanners(banners);
+                renderBrochures(brochures);
+                // hide loader after first render tick
+                setTimeout(hidePreloader, 300);
+            }).catch(err => { });
+        }
+
+        function ensureModalStyles(){
+            if (document.getElementById('branding-modal-styles')) return;
+            const style = document.createElement('style');
+            style.id = 'branding-modal-styles';
+            style.textContent = `
+                .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(5px); z-index: 1000; display: flex; align-items: center; justify-content: center; }
+                .modal-content { background: linear-gradient(135deg, #f5f1ea 0%, #e8dcc8 100%); border-radius: 20px; padding: 2rem; max-width: 500px; width: 90%; max-height: 80vh; overflow-y: auto; box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); }
+                .modal-header { text-align: center; margin-bottom: 1.5rem; }
+                .modal-title { font-size: 1.5rem; font-weight: 700; color: #2c2c2c; margin: 0; }
+                .modal-form-group { margin-bottom: 1rem; }
+                .modal-form-group label { display: block; margin-bottom: 0.5rem; font-weight: 600; color: #2c2c2c; }
+                .modal-form-group input, .modal-form-group textarea { width: 100%; padding: 0.75rem; border: 1px solid rgba(139, 111, 71, 0.3); border-radius: 10px; background: rgba(255, 255, 255, 0.8); font-size: 1rem; transition: all 0.3s ease; box-sizing: border-box; }
+                .modal-form-group input:focus, .modal-form-group textarea:focus { outline: none; border-color: #D4AF37; box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2); }
+                .modal-form-actions { display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem; }
+                .modal-btn-save { background: linear-gradient(135deg, #8B6F47 0%, #D4AF37 100%); color: white; border: none; padding: 0.75rem 2rem; border-radius: 30px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; }
+                .modal-btn-save:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(139,111,71,0.3); }
+                .modal-btn-cancel { background: rgba(255, 255, 255, 0.8); color: #2c2c2c; border: 1px solid rgba(139,111,71,0.3); padding: 0.75rem 2rem; border-radius: 30px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; }
+                .modal-btn-cancel:hover { background: rgba(255,255,255,1); transform: translateY(-2px); }
+            `;
+            document.head.appendChild(style);
+        }
+
+        // R2 Configuration
+        const R2_BUCKET_NAME = 'gaatha-media';
+        const R2_CUSTOM_DOMAIN = 'https://media.gaa-tha.com';
+        const R2_PRESIGN_ENDPOINT = 'https://r2-presign.moxshang.workers.dev';
+
+        // Upload image to Cloudflare R2 via worker (avoids CORS issues)
+        async function uploadImageToR2(file, folder) {
+            // Generate unique filename
+            const timestamp = Date.now();
+            const randomStr = Math.random().toString(36).substring(2, 15);
+            const fileExt = file.name.split('.').pop() || 'jpg';
+            const fileName = `${folder}/${timestamp}-${randomStr}.${fileExt}`;
+            
+            // Upload file directly to worker (worker uploads to R2 server-side)
+            const uploadUrl = `${R2_PRESIGN_ENDPOINT}?fileName=${encodeURIComponent(fileName)}`;
+            const uploadResponse = await fetch(uploadUrl, {
+                method: 'POST',
+                body: file,
+                headers: {
+                    'Content-Type': file.type || 'image/jpeg'
+                }
+            });
+            
+            if (!uploadResponse.ok) {
+                const errorData = await uploadResponse.json().catch(() => ({}));
+                throw new Error(errorData.error || 'Failed to upload to R2');
+            }
+            
+            const { publicUrl } = await uploadResponse.json();
+            
+            // Ensure URL has https:// prefix (absolute URL)
+            let finalUrl = publicUrl || `${R2_CUSTOM_DOMAIN}/${fileName}`;
+            if (!finalUrl.startsWith('http://') && !finalUrl.startsWith('https://')) {
+                finalUrl = `https://${finalUrl}`;
+            }
+            
+            return finalUrl;
+        }
+
+        // Upload branding image - R2 only (Cloudinary commented out)
+        async function uploadBrandingImage(file, type){
+            // Map type to folder
+            const folder = type === 'posts' ? 'static-posts' : type === 'logos' ? 'logos' : type === 'banners' ? 'banners' : 'brochures';
+            
+            // Upload to R2 only
+            return await uploadImageToR2(file, folder);
+            
+            // Cloudinary fallback code - COMMENTED OUT
+            // const useR2 = localStorage.getItem('USE_R2') === 'true';
+            // try {
+            //     if (useR2) {
+            //         return await uploadImageToR2(file, folder);
+            //     } else {
+            //         // Prefer existing helper if available
+            //         try {
+            //             if (window.__gaathaClientUpload__ && typeof window.__gaathaClientUpload__.upload === 'function') {
+            //                 return await window.__gaathaClientUpload__.upload(file, folder);
+            //             }
+            //         } catch(_){}
+            //         // Fallback to direct Cloudinary image upload matching other pages
+            //         const CLOUDINARY_CLOUD_NAME = 'dofqquzrx';
+            //         const CLOUDINARY_UNSIGNED_PRESET = (localStorage.getItem('cloudinary_preset') || 'Gaatha_Portoflio');
+            //         const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload`;
+            //         const fd = new FormData();
+            //         fd.append('file', file);
+            //         fd.append('upload_preset', CLOUDINARY_UNSIGNED_PRESET);
+            //         fd.append('folder', folder);
+            //         const res = await fetch(url, { method: 'POST', body: fd });
+            //         const data = await res.json().catch(()=>({}));
+            //         if (!res.ok) throw new Error(data?.error?.message || 'Cloudinary upload failed');
+            //         return data.secure_url;
+            //     }
+            // } catch (error) {
+            //     // Fallback to Cloudinary if R2 fails
+            //     if (useR2) {
+            //         try {
+            //             if (window.__gaathaClientUpload__ && typeof window.__gaathaClientUpload__.upload === 'function') {
+            //                 return await window.__gaathaClientUpload__.upload(file, folder);
+            //             }
+            //         } catch(_){}
+            //         const CLOUDINARY_CLOUD_NAME = 'dofqquzrx';
+            //         const CLOUDINARY_UNSIGNED_PRESET = (localStorage.getItem('cloudinary_preset') || 'Gaatha_Portoflio');
+            //         const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload`;
+            //         const fd = new FormData();
+            //         fd.append('file', file);
+            //         fd.append('upload_preset', CLOUDINARY_UNSIGNED_PRESET);
+            //         fd.append('folder', folder);
+            //         const res = await fetch(url, { method: 'POST', body: fd });
+            //         const data = await res.json().catch(()=>({}));
+            //         if (!res.ok) throw new Error(data?.error?.message || 'Cloudinary upload failed');
+            //         return data.secure_url;
+            //     }
+            //     throw error;
+            // }
+        }
+
+        function normalize(obj){
+            if (!obj) return [];
+            return Object.keys(obj).map(k=>({ id:k, ...obj[k] }));
+        }
+
+        function renderPosts(items){
+            const grid = document.getElementById('posts-grid');
+            if (!grid) return; grid.innerHTML='';
+            items.forEach((it, idx)=>{
+                const card = document.createElement('div');
+                card.className = 'static-post-card glass fade-in';
+                card.style.animationDelay = (idx*0.08)+'s';
+                let img = it.imageUrl || it.image;
+                // Ensure image URL is absolute (has https://)
+                if (img && !img.startsWith('http://') && !img.startsWith('https://') && !img.startsWith('/')) {
+                    img = `https://${img}`;
+                }
+                const title = it.title || 'Post Title';
+                const brand = it.company || 'Brand';
+                const views = it.views || '';
+                const actions = isAdminMode ? `
+                    <button class="post-edit-icon" onclick="editBrandingItem('posts','${it.id}')" title="Edit Post">
+                        <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+                            <path d='M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7'/>
+                            <path d='M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z'/>
+                        </svg>
+                    </button>
+                    <div class="post-actions">
+                        <button class="client-delete-btn" onclick="deleteBrandingItem('posts','${it.id}')" title="Delete">
+                            <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+                                <polyline points='3,6 5,6 21,6'></polyline>
+                                <path d='M19,6v14a2,2 0 0,1 -2,2H7a2,2 0 0,1 -2,-2V6m3,0V4a2,2 0 0,1 2,-2h4a2,2 0 0,1 2,2v2'></path>
+                                <line x1='10' y1='11' x2='10' y2='17'></line>
+                                <line x1='14' y1='11' x2='14' y2='17'></line>
+                            </svg>
+                        </button>
+                    </div>
+                ` : '';
+                card.innerHTML = `
+                    <div class="post-image"><img src="${img || 'https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1200&auto=format&fit=crop'}" alt="${title}"></div>
+                    <div class="post-content">
+                        <div class="post-brand">${brand}</div>
+                        <h3>${title}</h3>
+                        <p>${views}</p>
+                    </div>
+                    ${actions}
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function renderLogos(items){
+            const grid = document.getElementById('logos-grid');
+            if (!grid) return; grid.innerHTML='';
+            items.forEach((it, idx)=>{
+                const card = document.createElement('div');
+                card.className = 'logo-card glass fade-in';
+                card.style.animationDelay = (idx*0.08)+'s';
+                let img = it.imageUrl || it.image;
+                // Ensure image URL is absolute (has https://)
+                if (img && !img.startsWith('http://') && !img.startsWith('https://') && !img.startsWith('/')) {
+                    img = `https://${img}`;
+                }
+                const brand = it.company || 'Brand';
+                const title = it.title || 'Logo Title';
+                const actions = isAdminMode ? `
+                    <button class="logo-edit-icon" onclick="editBrandingItem('logos','${it.id}')" title="Edit Logo">
+                        <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+                            <path d='M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7'/>
+                            <path d='M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z'/>
+                        </svg>
+                    </button>
+                    <div class="logo-actions">
+                        <button class="client-delete-btn" onclick="deleteBrandingItem('logos','${it.id}')" title="Delete">
+                            <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+                                <polyline points='3,6 5,6 21,6'></polyline>
+                                <path d='M19,6v14a2,2 0 0,1 -2,2H7a2,2 0 0,1 -2,-2V6m3,0V4a2,2 0 0,1 2,-2h4a2,2 0 0,1 2,2v2'></path>
+                                <line x1='10' y1='11' x2='10' y2='17'></line>
+                                <line x1='14' y1='11' x2='14' y2='17'></line>
+                            </svg>
+                        </button>
+                    </div>
+                ` : '';
+                card.innerHTML = `
+                    <div class="logo-image"><img src="${img || 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?q=80&w=1200&auto=format&fit=crop'}" alt="${title}"></div>
+                    <div class="logo-content">
+                        <div class="logo-brand">${brand}</div>
+                        <h3>${title}</h3>
+                        <p></p>
+                    </div>
+                    ${actions}
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function renderBanners(items){
+            const grid = document.getElementById('banners-grid');
+            if (!grid) return; grid.innerHTML='';
+            items.forEach((it, idx)=>{
+                const card = document.createElement('div');
+                card.className = 'banner-card glass fade-in';
+                card.style.animationDelay = (idx*0.08)+'s';
+                let img = it.imageUrl || it.image;
+                // Ensure image URL is absolute (has https://)
+                if (img && !img.startsWith('http://') && !img.startsWith('https://') && !img.startsWith('/')) {
+                    img = `https://${img}`;
+                }
+                const brand = it.company || 'Brand';
+                const title = it.title || 'Banner Title';
+                const actions = isAdminMode ? `
+                    <button class="banner-edit-icon" onclick="editBrandingItem('banners','${it.id}')" title="Edit Banner">
+                        <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+                            <path d='M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7'/>
+                            <path d='M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z'/>
+                        </svg>
+                    </button>
+                    <div class="banner-actions">
+                        <button class="client-delete-btn" onclick="deleteBrandingItem('banners','${it.id}')" title="Delete">
+                            <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+                                <polyline points='3,6 5,6 21,6'></polyline>
+                                <path d='M19,6v14a2,2 0 0,1 -2,2H7a2,2 0 0,1 -2,-2V6m3,0V4a2,2 0 0,1 2,-2h4a2,2 0 0,1 2,2v2'></path>
+                                <line x1='10' y1='11' x2='10' y2='17'></line>
+                                <line x1='14' y1='11' x2='14' y2='17'></line>
+                            </svg>
+                        </button>
+                    </div>
+                ` : '';
+                card.innerHTML = `
+                    <div class="banner-image"><img src="${img || 'https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1200&auto=format&fit=crop'}" alt="${title}"></div>
+                    <div class="banner-content">
+                        <div class="banner-brand">${brand}</div>
+                        <h3>${title}</h3>
+                        <p></p>
+                    </div>
+                    ${actions}
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function renderBrochures(items){
+            const grid = document.getElementById('brochures-grid');
+            if (!grid) return; grid.innerHTML='';
+            items.forEach((it, idx)=>{
+                const card = document.createElement('div');
+                card.className = 'brochure-card glass fade-in';
+                card.style.animationDelay = (idx*0.08)+'s';
+                let img = it.imageUrl || it.image;
+                // Ensure image URL is absolute (has https://)
+                if (img && !img.startsWith('http://') && !img.startsWith('https://') && !img.startsWith('/')) {
+                    img = `https://${img}`;
+                }
+                const brand = it.company || 'Brand';
+                const title = it.title || 'Brochure Title';
+                const actions = isAdminMode ? `
+                    <button class="brochure-edit-icon" onclick="editBrandingItem('brochures','${it.id}')" title="Edit Brochure">
+                        <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+                            <path d='M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7'/>
+                            <path d='M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z'/>
+                        </svg>
+                    </button>
+                    <div class="brochure-actions">
+                        <button class="client-delete-btn" onclick="deleteBrandingItem('brochures','${it.id}')" title="Delete">
+                            <svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+                                <polyline points='3,6 5,6 21,6'></polyline>
+                                <path d='M19,6v14a2,2 0 0,1 -2,2H7a2,2 0 0,1 -2,-2V6m3,0V4a2,2 0 0,1 2,-2h4a2,2 0 0,1 2,2v2'></path>
+                                <line x1='10' y1='11' x2='10' y2='17'></line>
+                                <line x1='14' y1='11' x2='14' y2='17'></line>
+                            </svg>
+                        </button>
+                    </div>
+                ` : '';
+                card.innerHTML = `
+                    <div class="brochure-image"><img src="${img || 'https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1200&auto=format&fit=crop'}" alt="${title}"></div>
+                    <div class="brochure-content">
+                        <div class="brochure-brand">${brand}</div>
+                        <h3>${title}</h3>
+                        <p></p>
+                    </div>
+                    ${actions}
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function adminActions(type, id){
+            return `
+                <div class="reel-actions" style="opacity:1;">
+                    <button class="client-delete-btn" onclick="deleteBrandingItem('${type}','${id}')" title="Delete">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="3,6 5,6 21,6"></polyline>
+                            <path d="M19,6v14a2,2 0 0,1 -2,2H7a2,2 0 0,1 -2,-2V6m3,0V4a2,2 0 0,1 2,-2h4a2,2 0 0,1 2,2v2"></path>
+                            <line x1="10" y1="11" x2="10" y2="17"></line>
+                            <line x1="14" y1="11" x2="14" y2="17"></line>
+                        </svg>
+                    </button>
+                </div>`;
+        }
+
+        function showAddBrandingItemModal(type){
+            ensureModalStyles();
+            const modal = document.createElement('div');
+            modal.className = 'modal-overlay';
+            modal.innerHTML = `
+                <div class="modal-content" style="position:relative;">
+                    <div class="modal-header"><h3 class="modal-title">Add ${type === 'posts' ? 'Post' : type === 'logos' ? 'Logo' : type === 'banners' ? 'Banner' : 'Brochure'}</h3></div>
+                    <form id="addBrandingForm">
+                        <div class="modal-form-group"><label>Title/Company</label><input id="brandTitle" placeholder="Name" required></div>
+                        <div class="modal-form-group"><label>Upload Image</label><input type="file" id="brandImage" accept="image/*" required></div>
+                        <div class="modal-form-actions"><button type="submit" id="brandSaveBtn" class="modal-btn-save">Add</button><button type="button" class="modal-btn-cancel" onclick="closeModal()">Cancel</button></div>
+                    </form>
+                    <div class="modal-saving-overlay" id="brandLoading" style="display:none; position:absolute; inset:0; background:rgba(0,0,0,0.45); backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); z-index:1001; align-items:center; justify-content:center;">
+                        <div style="display:flex; align-items:center; gap:10px; color:#fff; font-weight:600; padding:12px 16px; border-radius:12px;">
+                            <svg viewBox="0 0 50 50" width="26" height="26" style="animation:spin 1s linear infinite"><circle cx="25" cy="25" r="20" stroke="#D4AF37" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="31.4 31.4"></circle></svg>
+                            Saving...
+                        </div>
+                    </div>
+                    <style>@keyframes spin { from { transform: rotate(0deg);} to { transform: rotate(360deg);} }</style>
+                </div>`;
+            document.body.appendChild(modal);
+            // On small screens, hide navbar and prevent background scroll (match separate pages)
+            try {
+                if (window.innerWidth <= 768) {
+                    const navEl = document.querySelector('nav');
+                    if (navEl) { navEl.dataset.prevDisplay = navEl.style.display || ''; navEl.style.display = 'none'; }
+                    document.body.dataset.prevOverflow = document.body.style.overflow || '';
+                    document.body.style.overflow = 'hidden';
+                }
+            } catch(_){}
+            if (window.innerWidth <= 768) { try { const nav = document.querySelector('nav'); if (nav) { nav.dataset.prevDisplay = nav.style.display || ''; nav.style.display = 'none'; } document.body.dataset.prevOverflow = document.body.style.overflow || ''; document.body.style.overflow = 'hidden'; } catch(_){} }
+            document.getElementById('addBrandingForm').addEventListener('submit', async (e)=>{
+                e.preventDefault();
+                const title = document.getElementById('brandTitle').value;
+                const file = document.getElementById('brandImage').files[0];
+                if (!file) return;
+                const loadingEl = document.getElementById('brandLoading');
+                const saveBtn = document.getElementById('brandSaveBtn');
+                if (loadingEl) loadingEl.style.display = 'flex';
+                if (saveBtn) { saveBtn.disabled = true; saveBtn.textContent = 'Adding...'; }
+                try {
+                    const uploadedUrl = await uploadBrandingImage(file, type);
+                    const payload = { title, company: title, imageUrl: uploadedUrl, image: uploadedUrl, order: Date.now() };
+                    await database.ref(type).push(payload);
+                    loadBranding();
+                    closeModal();
+                } catch(err){ }
+                finally { if (loadingEl) loadingEl.style.display = 'none'; if (saveBtn) { saveBtn.disabled = false; saveBtn.textContent = 'Add'; } }
+            });
+        }
+
+        function deleteBrandingItem(type, id){
+            ensureModalStyles();
+            const modal = document.createElement('div');
+            modal.className = 'modal-overlay';
+            modal.innerHTML = `
+                <div class="modal-content">
+                    <div class="modal-header"><h3 class="modal-title">Delete ${type === 'posts' ? 'Post' : type === 'logos' ? 'Logo' : type === 'banners' ? 'Banner' : 'Brochure'}</h3></div>
+                    <div style="text-align:center; color:#2c2c2c; margin-bottom:1rem;">Are you sure?</div>
+                    <div class="modal-form-actions">
+                        <button type="button" class="modal-btn-save" id="confirmDeleteBtn">Delete</button>
+                        <button type="button" class="modal-btn-cancel" id="cancelDeleteBtn">Cancel</button>
+                    </div>
+                </div>`;
+            document.body.appendChild(modal);
+            const cancelBtn = document.getElementById('cancelDeleteBtn'); if (cancelBtn) cancelBtn.addEventListener('click', closeModal);
+            const confirmBtn = document.getElementById('confirmDeleteBtn'); 
+            if (confirmBtn) confirmBtn.addEventListener('click', function(){ 
+                // Fetch item to determine R2 object key, delete from R2, then remove DB
+                database.ref(type + '/' + id).once('value')
+                    .then(async (snap) => {
+                        const item = snap.val() || {};
+                        const url = String(item.imageUrl || item.image || '');
+                        let key = '';
+                        try {
+                            if (url) {
+                                const u = new URL(url.startsWith('http') ? url : ('https://' + url));
+                                key = u.pathname.replace(/^\/+/, '');
+                            }
+                        } catch(_) {}
+                        try {
+                            if (key) {
+                                const endpoint = 'https://r2-presign.moxshang.workers.dev';
+                                await fetch(`${endpoint}?fileName=${encodeURIComponent(key)}`, { method: 'DELETE', mode: 'cors' });
+                            }
+                        } catch(_) {}
+                        return database.ref(type + '/' + id).remove();
+                    })
+                    .then(()=>{ loadBranding(); closeModal(); })
+                    .catch(()=>{});
+            });
+        }
+
+        function editBrandingItem(type, id){
+            ensureModalStyles();
+            database.ref(type + '/' + id).once('value')
+                .then(function(snapshot){
+                    const item = snapshot.val();
+                    if (!item) return;
+                    const modal = document.createElement('div');
+                    modal.className = 'modal-overlay';
+                    modal.innerHTML = `
+                        <div class="modal-content" style="position:relative;">
+                            <div class="modal-header"><h3 class="modal-title">Edit ${type === 'posts' ? 'Post' : type === 'logos' ? 'Logo' : type === 'banners' ? 'Banner' : 'Brochure'}</h3></div>
+                            <form id="editBrandingForm">
+                                <div class="modal-form-group"><label for="editBrandTitle">Title/Company</label><input id="editBrandTitle" value="${item.company || item.title || ''}" required></div>
+                                <div class="modal-form-group"><label for="editBrandImageFile">Replace Image (optional)</label><input type="file" id="editBrandImageFile" accept="image/*"></div>
+                            <div class="modal-form-group"><small>Current Image:</small><div style="margin-top:8px"><img src="${item.imageUrl || item.image || ''}" alt="Current" style="max-width:280px;max-height:180px;object-fit:contain;border-radius:8px"></div></div>
+                                <div class="modal-form-actions"><button type="submit" class="modal-btn-save" id="editBrandSaveBtn">Update</button><button type="button" class="modal-btn-cancel" onclick="closeModal()">Cancel</button></div>
+                            </form>
+                            <div class="modal-saving-overlay" id="editBrandLoading" style="display:none; position:absolute; inset:0; background:rgba(0,0,0,0.45); backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); z-index:1001; align-items:center; justify-content:center;">
+                                <div style="display:flex; align-items:center; gap:10px; color:#fff; font-weight:600; padding:12px 16px; border-radius:12px;">
+                                    <svg viewBox="0 0 50 50" width="26" height="26" style="animation:spin 1s linear infinite"><circle cx="25" cy="25" r="20" stroke="#D4AF37" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="31.4 31.4"></circle></svg>
+                                    <span id="editBrandProgress">Saving...</span>
+                                </div>
+                            </div>
+                            <style>@keyframes spin { from { transform: rotate(0deg);} to { transform: rotate(360deg);} }</style>
+                        </div>`;
+                    document.body.appendChild(modal);
+                    const form = document.getElementById('editBrandingForm');
+                    form.addEventListener('submit', async (e)=>{
+                        e.preventDefault();
+                        const loadingEl = document.getElementById('editBrandLoading');
+                        const saveBtn = document.getElementById('editBrandSaveBtn');
+                        if (loadingEl) loadingEl.style.display = 'flex';
+                        if (saveBtn) { saveBtn.disabled = true; saveBtn.textContent = 'Updating...'; }
+                        try {
+                            const updated = {
+                                company: document.getElementById('editBrandTitle').value,
+                                title: document.getElementById('editBrandTitle').value,
+                                order: item.order || Date.now()
+                            };
+                            const file = document.getElementById('editBrandImageFile')?.files?.[0] || null;
+                            if (file) {
+                                const url = await uploadBrandingImage(file, type);
+                                updated.image = url; updated.imageUrl = url;
+                            }
+                            await database.ref(type + '/' + id).update(updated);
+                            loadBranding();
+                            closeModal();
+                        } catch(err){ }
+                        finally { if (loadingEl) loadingEl.style.display = 'none'; if (saveBtn) { saveBtn.disabled = false; saveBtn.textContent = 'Update'; } }
+                    });
+                });
+        }
+
+        function closeModal(){
+            const modal = document.querySelector('.modal-overlay'); if (modal) modal.remove();
+            try { const nav = document.querySelector('nav'); if (nav && typeof nav.dataset.prevDisplay !== 'undefined') { nav.style.display = nav.dataset.prevDisplay; delete nav.dataset.prevDisplay; } if (typeof document.body.dataset.prevOverflow !== 'undefined') { document.body.style.overflow = document.body.dataset.prevOverflow; delete document.body.dataset.prevOverflow; } } catch(_){}
+        }
+
+        document.addEventListener('DOMContentLoaded', loadBranding);
+
+        // Hide preloader helper
+        function hidePreloader(){
+            const pre = document.getElementById('preloader');
+            if (!pre) return;
+            pre.classList.add('hidden');
+            setTimeout(()=>{ try { pre.remove(); } catch(_){} }, 600);
+        }
+
+        // Expose functions globally for inline onclick usage
+        window.showAddBrandingItemModal = showAddBrandingItemModal;
+        window.editBrandingItem = editBrandingItem;
+        window.deleteBrandingItem = deleteBrandingItem;
+    </script>
+</body>
+</html>
+
+
