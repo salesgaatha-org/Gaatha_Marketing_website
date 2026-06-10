@@ -757,7 +757,9 @@ function renderDots() {
 function setTestimonial(i) {
     const t = testimonials[i];
     starsEl.textContent = t.stars;
-    quoteEl.textContent = '"' + t.quote + '"';
+    // strip quotes already present in the data so we never render ""double""
+    const rawQuote = String(t.quote || '').trim().replace(/^["“”']+|["“”']+$/g, '');
+    quoteEl.textContent = '"' + rawQuote + '"';
     nameEl.textContent = t.name;
     roleEl.textContent = t.role;
     renderDots();

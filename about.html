@@ -4,54 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Gaa-tha</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <style>
-        /* Match index navbar sizing/spacing */
-        nav.glass { padding: 8px 16px !important; }
-        nav.glass .logo img { height: 36px !important; }
-        @media (min-width: 768px) {
-            nav.glass { display: flex; align-items: center; width: 70%; max-width: 720px; }
-            nav.glass .logo { flex: 0 0 auto; }
-            nav.glass .nav-links { flex: 1 1 auto; display: flex; justify-content: center; gap: 28px; }
-            nav.glass .cta-btn { flex: 0 0 auto; }
-            nav.glass .menu-toggle { display: none !important; }
-        }
-
-        /* About page spacing and heading tweaks */
-        .about-hero { margin-bottom: 8px; }
-        .about-hero .about-title { margin: 0; }
-        .about-hero + .founders { margin-top: 8px; }
-        .founders { padding-top: 0; }
-        .founders .team-title { margin-top: 8px; }
-
-        /* Increase font for Meet the Founders and Our Principles */
-        .team-title { font-size: 28px; line-height: 1.2; }
-        @media (min-width: 768px) { .team-title { font-size: 32px; } }
-
-        /* Ensure founder photos look proper (centered, cover) */
-        .founders .founder-photo { background-size: cover; background-position: center; background-repeat: no-repeat; }
-    </style>
 </head>
 <body>
+    <div class="page-veil" aria-hidden="true"></div>
+
     <nav class="glass">
         <div class="logo"><a href="index.html"><img src="images/gaatha_logo_-_Copy-removebg-preview.png" alt="Gaa-tha" /></a></div>
-        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
         <ul class="nav-links">
             <li><a href="index.html#services">Services</a></li>
             <li><a href="work.html">Work</a></li>
             <li><a href="about.html" class="active">About Us</a></li>
+            <li class="nav-mobile-extra"><span class="nav-mobile-tag">Got a story to tell?</span><a href="index.html#contact">Start a project →</a></li>
         </ul>
-        <a href="index.html#contact" class="cta-btn">Start a Project</a>
+        <a href="index.html#contact" class="cta-btn">Start a project <span class="cta-arrow">→</span></a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
     </nav>
 
     <section class="about-hero">
-        <h1 class="about-title">India-rooted. <span class="highlight">Global-minded.</span></h1>
+        <div class="hero-bg" aria-hidden="true">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+        </div>
+        <div class="chip"><span class="chip-dot"></span>The people behind the plot</div>
+        <h1 class="about-title" data-split>India-rooted. <span class="highlight">Global-minded.</span></h1>
+        <p class="about-sub fade-in">Two storytellers, one obsession — turning brand moments into movements.</p>
     </section>
 
     <section class="founders">
         <h3 class="team-title">Meet the Founders</h3>
-        <div class="founder-row">
+        <div class="founder-row reveal">
             <div class="founder-photo photo-abhi" style="background-image:url('images/abhisekh.jpg');"></div>
             <div class="founder-card glass">
                 <div class="role-badge">CEO</div>
@@ -60,7 +45,7 @@
                 <p class="founder-bio">A business analyst turned brand storyteller, Abhishek drives Gaa-tha’s marketing magic. With a background in international business and an obsession with brand psychology, he ensures every campaign is built on insight and impact.</p>
             </div>
         </div>
-        <div class="founder-row reverse">
+        <div class="founder-row reverse reveal">
             <div class="founder-photo photo-getansh" style="background-image:url('images/getansh.jpg');"></div>
             <div class="founder-card glass">
                 <div class="role-badge">CTO</div>
@@ -104,7 +89,7 @@
     <section class="principles">
         <h3 class="team-title">Our Principles</h3>
         <div class="principles-grid">
-            <div class="principle glass">
+            <div class="principle glass reveal">
                 <span class="principle-icon">
                     <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
                         <path d="M12 22s8-4 8-10a8 8 0 1 0-16 0c0 6 8 10 8 10z"></path>
@@ -116,7 +101,7 @@
                     <div class="principle-desc">We create work that stands out, not just fits in.</div>
                 </div>
             </div>
-            <div class="principle glass">
+            <div class="principle glass reveal" style="--rd:.1s">
                 <span class="principle-icon">
                     <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
                         <circle cx="12" cy="12" r="10"></circle>
@@ -131,7 +116,7 @@
                     <div class="principle-desc">Technology should amplify creativity, not replace humanity.</div>
                 </div>
             </div>
-            <div class="principle glass">
+            <div class="principle glass reveal" style="--rd:.2s">
                 <span class="principle-icon">
                     <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
                         <path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"></path>
@@ -142,7 +127,7 @@
                     <div class="principle-desc">Fast execution without compromising on excellence.</div>
                 </div>
             </div>
-            <div class="principle glass">
+            <div class="principle glass reveal" style="--rd:.3s">
                 <span class="principle-icon">
                     <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
                         <path d="M3 3v18h18"></path>
@@ -157,11 +142,60 @@
         </div>
     </section>
 
-    <footer>
-        <p>© 2025 gaa-tha. All rights reserved.</p>
+    <footer class="site-footer">
+        <a href="index.html#contact" class="footer-cta">
+            <div class="footer-cta-inner">
+                <span class="footer-cta-text">Got a story to tell? <em>Let's make it legendary.</em></span>
+                <span class="footer-cta-arrow">→</span>
+            </div>
+        </a>
+        <div class="footer-grid">
+            <div class="footer-col footer-brand-col">
+                <img src="images/gaatha_logo_-_Copy-removebg-preview.png" alt="gaa-tha">
+                <p>Crafting tales that turn brands into movements — strategy, storytelling and AI-driven results.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Say hello</h4>
+                <ul>
+                    <li><a href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a></li>
+                    <li><a href="tel:+919737280309">+91 97372 80309</a></li>
+                    <li><a href="tel:+917781818981">+91 77818 18981</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow</h4>
+                <div class="footer-socials">
+                    <a href="https://instagram.com/__gaa.tha__/?igsh=aXUwbGR0anhtemc5#" aria-label="Instagram" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><circle cx="17.5" cy="6.5" r="1.5"></circle></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/teamgaatha/" aria-label="LinkedIn" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-14h4v2"></path></svg>
+                    </a>
+                    <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/" aria-label="Facebook" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-wordmark" aria-hidden="true">gaa-tha</div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <p>© <span data-year>2026</span> gaa-tha. All rights reserved.</p>
+                <button class="to-top" aria-label="Back to top">Back to top ↑</button>
+            </div>
+        </div>
     </footer>
 
+    <script src="ui.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
-

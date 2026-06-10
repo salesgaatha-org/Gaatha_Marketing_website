@@ -37,75 +37,114 @@
     <meta property="og:image:alt" content="gaa-tha logo">
     <meta name="twitter:description" content="">
     
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <style>
-        /* Page-specific: compact navbar height */
-        nav.glass { padding: 8px 16px !important; }
-        nav.glass .logo img { height: 36px !important; }
-        /* Distribute navbar items: logo (start), links (center), CTA (end) */
-        @media (min-width: 768px) {
-            nav.glass { display: flex; align-items: center; width: 70%; max-width: 720px; }
-            nav.glass .logo { flex: 0 0 auto; }
-            nav.glass .nav-links { flex: 1 1 auto; display: flex; justify-content: center; gap: 28px; }
-            nav.glass .cta-btn { flex: 0 0 auto; }
-            /* Hide hamburger on desktop so spacing stays consistent */
-            nav.glass .menu-toggle { display: none !important; }
-        }
-    </style>
+    <script>
+        // Skip the intro animation for return visits (before first paint)
+        try { if (sessionStorage.getItem('gt_intro') === '1') document.documentElement.classList.add('skip-preloader'); } catch (e) {}
+    </script>
 </head>
 <body>
+    <!-- Intro preloader -->
+    <div id="gt-preloader" aria-hidden="true">
+        <div class="preloader-word">gaa-tha</div>
+        <div class="preloader-tag">Crafting Tales</div>
+        <div class="preloader-bar"><i></i></div>
+    </div>
+    <div class="page-veil" aria-hidden="true"></div>
+
     <!-- Navigation -->
     <nav class="glass">
         <div class="logo"><a href="index.html"><img src="images/gaatha_logo_-_Copy-removebg-preview.png" alt="Gaa-tha" /></a></div>
-        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
         <ul class="nav-links">
             <li><a href="#services">Services</a></li>
             <li><a href="work.html">Work</a></li>
             <li><a href="about.html">About Us</a></li>
+            <li class="nav-mobile-extra"><span class="nav-mobile-tag">Got a story to tell?</span><a href="#contact">Start a project →</a></li>
         </ul>
-        <a href="#contact" class="cta-btn">Start a project</a>
+        <a href="#contact" class="cta-btn">Start a project <span class="cta-arrow">→</span></a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero">
+        <div class="hero-bg" aria-hidden="true">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+        </div>
         <div class="hero-top">
             <div class="hero-copy">
-                <h1 class="fade-in hero-text-mobile">make work<br> that <span class="highlight">works</span></h1>
-                <p class="fade-in hero-text-mobile">Where creative taste meets performance rigor, powered by AI speed.<br>
+                <div class="chip"><span class="chip-dot"></span>Digital Marketing Agency</div>
+                <h1 data-split>make work that <span class="highlight">works</span></h1>
+                <p class="hero-sub fade-in">Where creative taste meets performance rigor — powered by AI speed.
                 Strategy. Storytelling. AI-driven results.</p>
+                <div class="hero-actions fade-in">
+                    <a href="#contact" class="cta-btn">Start a project <span class="cta-arrow">→</span></a>
+                    <a href="work.html" class="ghost-btn">See our work</a>
+                </div>
             </div>
             <div class="hero-media fade-in" aria-label="Showreel">
-                <video class="hero-video" src="videos/fZLgOvdZUCAic1qy9qp0BOpO6I.mp4" autoplay muted loop playsinline></video>
+                <div class="hero-media-frame">
+                    <video class="hero-video" src="videos/fZLgOvdZUCAic1qy9qp0BOpO6I.mp4" autoplay muted loop playsinline></video>
+                </div>
+                <div class="hero-badge" aria-hidden="true">
+                    <svg viewBox="0 0 124 124">
+                        <defs><path id="badgeCircle" d="M 62,62 m -46,0 a 46,46 0 1,1 92,0 a 46,46 0 1,1 -92,0"/></defs>
+                        <text><textPath href="#badgeCircle">showreel · gaa-tha · showreel · gaa-tha ·</textPath></text>
+                    </svg>
+                    <span class="hero-badge-play">▶</span>
+                </div>
             </div>
         </div>
-        <div class="hero-stats">
-            <div class="hero-stat glass fade-in">
+    </section>
+
+    <!-- Ticker -->
+    <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+            <span class="ticker-item"><i>Strategy</i><span class="tick-star">✦</span></span>
+            <span class="ticker-item">Storytelling<span class="tick-star">✦</span></span>
+            <span class="ticker-item"><i>AI-driven results</i><span class="tick-star">✦</span></span>
+            <span class="ticker-item">Branding<span class="tick-star">✦</span></span>
+            <span class="ticker-item"><i>Performance</i><span class="tick-star">✦</span></span>
+            <span class="ticker-item">Social Media<span class="tick-star">✦</span></span>
+        </div>
+    </div>
+
+    <!-- Stats -->
+    <section class="stats-band">
+        <div class="hero-stats reveal">
+            <div class="hero-stat">
                 <div class="hero-stat-number">15+</div>
                 <div class="hero-stat-label">Clients we've worked with</div>
             </div>
-            <div class="hero-stat glass fade-in">
+            <div class="hero-stat">
                 <div class="hero-stat-number">100+</div>
                 <div class="hero-stat-label">Total campaigns delivered</div>
             </div>
-            <div class="hero-stat glass fade-in">
+            <div class="hero-stat">
                 <div class="hero-stat-number">50M+</div>
                 <div class="hero-stat-label">Total reach attained</div>
             </div>
-            <div class="hero-stat glass fade-in">
+            <div class="hero-stat">
                 <div class="hero-stat-number">1000+</div>
                 <div class="hero-stat-label">AI driven content</div>
             </div>
         </div>
     </section>
 
-    
+
 
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="section-header fade-in">
-            <h2>Our Signature <span class="highlight">Moves</span></h2>
+            <div class="section-heading">
+                <span class="chip"><span class="chip-dot"></span>What we do</span>
+                <h2>Our Signature <span class="highlight">Moves</span></h2>
+            </div>
+            <p class="section-kicker">Three crafts we obsess over — watch them in motion.</p>
             <button id="addServicesGlanceBtn" class="add-website-btn" style="display: none; margin-left:auto;" onclick="showAddServiceGlanceModal()">
                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M12 5v14M5 12h14"/>
@@ -117,7 +156,11 @@
         <div class="service-grid services-glance-grid"></div>
 
         <div id="whatwedo" class="section-header fade-in">
-            <h2>How We <span class="highlight">Roll</span></h2>
+            <div class="section-heading">
+                <span class="chip"><span class="chip-dot"></span>Full-stack growth</span>
+                <h2>How We <span class="highlight">Roll</span></h2>
+            </div>
+            <p class="section-kicker">Nine disciplines, one obsession: work that moves the numbers.</p>
             <button id="addWhatWeDoBtn" class="add-website-btn" style="display: none; margin-left:auto;" onclick="showAddWhatWeDoModal()">
                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M12 5v14M5 12h14"/>
@@ -134,7 +177,11 @@
     <!-- Clients Section -->
     <section id="work" class="clients">
         <div class="section-header fade-in">
-            <h2>Our Partners in <span class="highlight">Crime</span></h2>
+            <div class="section-heading">
+                <span class="chip"><span class="chip-dot"></span>Trusted by the bold</span>
+                <h2>Our Partners in <span class="highlight">Crime</span></h2>
+            </div>
+            <p class="section-kicker">Brands that dared to stand out — and did.</p>
             <button id="addClientBtn" class="add-website-btn" style="display: none; margin-left:auto;" onclick="showAddClientModal()">
                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M12 5v14M5 12h14"/>
@@ -152,7 +199,10 @@
     <!-- Testimonials Section -->
     <section id="about" class="testimonials">
         <div class="section-header fade-in">
-            <h2>Client <span class="highlight">Confessions</span></h2>
+            <div class="section-heading">
+                <span class="chip"><span class="chip-dot"></span>Word on the street</span>
+                <h2>Client <span class="highlight">Confessions</span></h2>
+            </div>
         </div>
         <div class="testimonial-card glass fade-in" id="testimonialCard">
             <div class="stars" id="testimonialStars"></div>
@@ -170,7 +220,11 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="section-header fade-in">
-            <h2>Chaos Starts <span class="highlight">here</span></h2>
+            <div class="section-heading">
+                <span class="chip"><span class="chip-dot"></span>Let's talk</span>
+                <h2>Chaos Starts <span class="highlight">here</span></h2>
+            </div>
+            <p class="section-kicker">Tell us about your brand. We'll bring the plot twist.</p>
         </div>
         <div class="contact-grid">
             <div class="contact-panel glass fade-in">
@@ -258,8 +312,57 @@
     </section>
 
     <!-- Footer -->
-    <footer>
-        <p>© 2025 gaa-tha. All rights reserved.</p>
+    <footer class="site-footer">
+        <a href="#contact" class="footer-cta">
+            <div class="footer-cta-inner">
+                <span class="footer-cta-text">Got a story to tell? <em>Let's make it legendary.</em></span>
+                <span class="footer-cta-arrow">→</span>
+            </div>
+        </a>
+        <div class="footer-grid">
+            <div class="footer-col footer-brand-col">
+                <img src="images/gaatha_logo_-_Copy-removebg-preview.png" alt="gaa-tha">
+                <p>Crafting tales that turn brands into movements — strategy, storytelling and AI-driven results.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Say hello</h4>
+                <ul>
+                    <li><a href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a></li>
+                    <li><a href="tel:+919737280309">+91 97372 80309</a></li>
+                    <li><a href="tel:+917781818981">+91 77818 18981</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow</h4>
+                <div class="footer-socials">
+                    <a href="https://instagram.com/__gaa.tha__/?igsh=aXUwbGR0anhtemc5#" aria-label="Instagram" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><circle cx="17.5" cy="6.5" r="1.5"></circle></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/teamgaatha/" aria-label="LinkedIn" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-14h4v2"></path></svg>
+                    </a>
+                    <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/" aria-label="Facebook" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-wordmark" aria-hidden="true">gaa-tha</div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <p>© <span data-year>2026</span> gaa-tha. All rights reserved.</p>
+                <button class="to-top" aria-label="Back to top">Back to top ↑</button>
+            </div>
+        </div>
     </footer>
 
     <!-- Firebase SDK -->
@@ -267,6 +370,7 @@
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-storage-compat.js"></script>
     
+    <script src="ui.js"></script>
     <script src="script.js"></script>
     <script src="firebase-data-loader.js"></script>
     
