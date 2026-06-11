@@ -1,0 +1,641 @@
+/* ==========================================================================
+   gaa-tha · portfolio.css
+   Premium gallery designs for reels / websites / branding pages.
+   Loaded AFTER each page's inline styles so these rules win the cascade.
+   ========================================================================== */
+
+body { counter-reset: rsec; }
+
+/* --------------------------------------------------------------------------
+   Shared page chrome
+   -------------------------------------------------------------------------- */
+.back-to-work .back-link {
+    position: static !important;
+    transform: none !important;
+    order: -1;
+}
+
+.back-to-work .section-title {
+    font-family: var(--font-display);
+    background: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-text-fill-color: currentColor;
+    color: var(--ink);
+}
+
+.portfolio-sub {
+    margin-top: 2px;
+    color: var(--muted);
+    font-size: clamp(0.95rem, 1.4vw, 1.08rem);
+}
+
+/* numbered editorial section headers */
+.reels-section { counter-increment: rsec; }
+
+.reels-section .section-header {
+    position: relative;
+    margin-bottom: 26px !important;
+}
+
+.reels-section .section-header .section-title {
+    position: relative;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 16px;
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: clamp(1.9rem, 3.6vw, 2.8rem);
+    font-weight: 520;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    background: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-text-fill-color: currentColor;
+}
+
+.reels-section .section-header .section-title::before {
+    content: counter(rsec, decimal-leading-zero);
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 0.5em;
+    font-weight: 460;
+    background: var(--grad-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.reels-section .section-header .section-title::after {
+    content: '✦';
+    font-size: 0.42em;
+    background: var(--grad-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateY(-0.5em);
+}
+
+/* mobile scroll hint → minimal pill */
+.slider-indicator { margin: 0 0 10px; }
+
+.scroll-hint {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    background: rgba(253, 251, 244, 0.7);
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.scroll-hint svg { width: 15px; height: 15px; animation: hintNudge 1.6s ease-in-out infinite; }
+
+@keyframes hintNudge {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateX(5px); }
+}
+
+/* ==========================================================================
+   REELS — phone-bezel film strip
+   ========================================================================== */
+.reels-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+    gap: 30px 24px;
+    padding: 26px 0 10px;
+}
+
+.reel-card,
+.reel-card.glass {
+    position: relative;
+    border-radius: 36px;
+    background: #14100A;
+    border: 7px solid #1A130B;
+    box-shadow: 0 18px 44px rgba(40, 26, 12, 0.22), inset 0 0 0 1px rgba(238, 217, 124, 0.18);
+    overflow: hidden;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    transition: transform 0.5s var(--ease-out), box-shadow 0.5s var(--ease-out);
+}
+
+.reel-card:hover {
+    transform: translateY(-10px) rotate(-0.6deg);
+    box-shadow: 0 32px 64px rgba(40, 26, 12, 0.34), 0 0 0 1.5px rgba(212, 175, 55, 0.55), 0 0 44px rgba(212, 175, 55, 0.16);
+}
+
+/* phone notch */
+.reel-card::before {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 56px;
+    height: 13px;
+    border-radius: 999px;
+    background: #1A130B;
+    box-shadow: inset 0 0 0 1px rgba(238, 217, 124, 0.14);
+    z-index: 6;
+    pointer-events: none;
+}
+
+.reel-card .reel-video,
+.reel-card .reel-video.vertical {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    aspect-ratio: 9 / 16.6;
+    margin: 0;
+    border-radius: 0;
+    background: #0E0B07;
+}
+
+.reel-card .reel-video video,
+.reel-card .reel-video.vertical video,
+.reel-card .reel-video img,
+.reel-card .reel-video.vertical img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 28px 28px 0 0;
+}
+
+/* brand caption — engraved on the bezel chin */
+.reel-card .reel-content {
+    padding: 12px 14px 14px;
+    background: transparent;
+    text-align: center;
+}
+
+.reel-card .reel-company {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 1.02rem !important;
+    font-weight: 480;
+    letter-spacing: 0.02em;
+    background: var(--grad-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center !important;
+}
+
+/* admin icons sit above the bezel */
+.reel-edit-icon { z-index: 8 !important; top: 14px !important; left: 12px !important; }
+.reel-actions { z-index: 8 !important; top: 14px !important; right: 12px !important; }
+
+/* ==========================================================================
+   WEBSITES — browser-window showcase
+   ========================================================================== */
+.websites-showcase { max-width: 1180px; margin: 0 auto; padding-left: 20px; padding-right: 20px; }
+
+.websites-grid { display: grid; grid-template-columns: 1fr; gap: clamp(34px, 5vw, 60px); padding: 26px 0 30px; }
+
+.websites-grid .website-card,
+.websites-grid .website-card.glass {
+    position: relative;
+    width: 100%;
+    height: auto !important;
+    min-height: 0 !important;
+    padding-top: 46px;
+    border-radius: 22px;
+    background: var(--ivory);
+    border: 1px solid var(--line);
+    box-shadow: 0 24px 60px rgba(40, 26, 12, 0.14);
+    overflow: hidden;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    transition: transform 0.55s var(--ease-out), box-shadow 0.55s var(--ease-out), border-color 0.4s;
+}
+
+.websites-grid .website-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(184, 146, 61, 0.5);
+    box-shadow: 0 36px 80px rgba(40, 26, 12, 0.2), 0 0 40px rgba(212, 175, 55, 0.1);
+}
+
+/* browser top bar */
+.websites-grid .website-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 46px;
+    background: linear-gradient(180deg, #241A11, #1C150D);
+    border-bottom: 1px solid rgba(238, 217, 124, 0.16);
+    z-index: 2;
+}
+
+/* traffic lights */
+.websites-grid .website-card::after {
+    content: '';
+    position: absolute;
+    top: 19px;
+    left: 20px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #B8923D;
+    box-shadow: 16px 0 0 #8B6F47, 32px 0 0 #EED97C;
+    z-index: 3;
+    transition: filter 0.3s;
+}
+
+.websites-grid .website-card:hover::after { filter: brightness(1.25); }
+
+/* brand name doubles as the URL pill in the bar */
+.websites-grid .website-card .website-brand {
+    position: absolute;
+    top: 10px;
+    left: 72px;
+    right: 20px;
+    z-index: 3;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+    max-width: 380px;
+    margin: 0 auto !important;
+    padding: 0 18px;
+    border-radius: 999px;
+    background: rgba(247, 243, 232, 0.1);
+    border: 1px solid rgba(238, 217, 124, 0.2);
+    color: var(--gold-light) !important;
+    font-family: var(--font-body);
+    font-size: 0.74rem !important;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-shadow: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.websites-grid .website-card .website-image {
+    height: auto !important;
+    aspect-ratio: 16 / 9.4;
+    margin: 0 !important;
+    background: var(--paper-2);
+    overflow: hidden;
+}
+
+.websites-grid .website-card .website-image img,
+.websites-grid .website-card .website-image video {
+    transform: scale(1.001);
+    transition: transform 0.8s var(--ease-out);
+}
+
+.websites-grid .website-card:hover .website-image img,
+.websites-grid .website-card:hover .website-image video { transform: scale(1.035); }
+
+/* caption row */
+.websites-grid .website-card .website-content {
+    position: relative;
+    min-height: 0 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 18px 24px 20px !important;
+    border-top: 1px solid var(--line);
+}
+
+.websites-grid .website-card .website-content h3 {
+    font-family: var(--font-display);
+    font-size: clamp(1.25rem, 2.2vw, 1.7rem) !important;
+    font-weight: 520;
+    color: var(--ink);
+    text-shadow: none !important;
+}
+
+/* arrow chip in caption */
+.websites-grid .website-card .website-content::after {
+    content: '↗';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid var(--line-strong);
+    color: var(--gold-deep);
+    font-size: 1.05rem;
+    font-weight: 700;
+    transition: background 0.35s, color 0.35s, transform 0.45s var(--ease-out), border-color 0.35s;
+}
+
+.websites-grid .website-card:hover .website-content::after {
+    background: var(--grad-gold);
+    border-color: transparent;
+    color: var(--ink);
+    transform: rotate(45deg);
+}
+
+.website-edit-icon { top: 56px !important; z-index: 5 !important; }
+.website-actions { top: 56px !important; z-index: 5 !important; }
+
+/* ==========================================================================
+   BRANDING — gallery walls
+   ========================================================================== */
+
+/* ---- Creatives (static posts): framed prints ---- */
+.static-posts-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+    gap: 26px !important;
+    padding: 26px 0 10px !important;
+}
+
+.static-post-card,
+.static-post-card.glass {
+    position: relative;
+    border-radius: 18px !important;
+    padding: 10px 10px 0;
+    background: var(--ivory);
+    border: 1px solid var(--line);
+    box-shadow: 0 14px 36px rgba(40, 26, 12, 0.12);
+    overflow: hidden;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    transition: transform 0.5s var(--ease-out), box-shadow 0.5s var(--ease-out), border-color 0.4s;
+}
+
+.static-post-card:hover {
+    transform: translateY(-8px) rotate(0.5deg);
+    border-color: rgba(184, 146, 61, 0.55);
+    box-shadow: 0 26px 56px rgba(140, 100, 30, 0.2);
+}
+
+.static-post-card .post-image {
+    aspect-ratio: 4 / 4.6;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--paper-2);
+}
+
+.static-post-card .post-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.001);
+    transition: transform 0.7s var(--ease-out);
+}
+
+.static-post-card:hover .post-image img { transform: scale(1.06); }
+
+.static-post-card .post-content { padding: 12px 8px 14px; text-align: center; }
+
+.static-post-card .post-content .post-brand {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 1.05rem;
+    font-weight: 480;
+    background: var(--grad-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.static-post-card .post-content h3,
+.static-post-card .post-content p { display: none !important; }
+
+/* ---- Logos: specimen tiles on a dotted board ---- */
+.logo-design-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)) !important;
+    gap: 24px !important;
+    padding: 26px 0 10px !important;
+}
+
+.logo-card,
+.logo-card.glass {
+    position: relative;
+    border-radius: 20px !important;
+    background: var(--ivory);
+    background-image: radial-gradient(rgba(139, 111, 71, 0.16) 1px, transparent 1.5px);
+    background-size: 16px 16px;
+    border: 1px solid var(--line);
+    box-shadow: 0 12px 32px rgba(40, 26, 12, 0.1);
+    overflow: hidden;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    transition: transform 0.5s var(--ease-out), box-shadow 0.5s var(--ease-out), border-color 0.4s;
+}
+
+.logo-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(184, 146, 61, 0.6);
+    box-shadow: 0 24px 52px rgba(140, 100, 30, 0.18);
+}
+
+.logo-card .logo-image {
+    aspect-ratio: 1 / 0.86;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 26px;
+    height: auto !important;
+    overflow: hidden;
+}
+
+.logo-card .logo-image img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto !important;
+    height: auto !important;
+    object-fit: contain !important;
+    filter: drop-shadow(0 10px 22px rgba(40, 26, 12, 0.18));
+    transition: transform 0.55s var(--ease-out);
+}
+
+.logo-card:hover .logo-image img { transform: scale(1.09) rotate(-1.5deg); }
+
+/* corner ticks like a spec sheet */
+.logo-card::before, .logo-card::after {
+    content: '+';
+    position: absolute;
+    z-index: 2;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    color: rgba(139, 111, 71, 0.55);
+    pointer-events: none;
+}
+
+.logo-card::before { top: 8px; left: 12px; }
+.logo-card::after { bottom: 8px; right: 12px; }
+
+.logo-card .logo-content { padding: 0 14px 16px; text-align: center; }
+
+.logo-card .logo-content .logo-brand {
+    font-family: var(--font-body);
+    font-size: 0.72rem !important;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--bronze) !important;
+}
+
+.logo-card .logo-content h3, .logo-card .logo-content p { display: none !important; }
+
+/* ---- Banners: wide hoardings ---- */
+.banner-design-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(min(440px, 100%), 1fr)) !important;
+    gap: 26px !important;
+    padding: 26px 0 10px !important;
+}
+
+.banner-card,
+.banner-card.glass {
+    position: relative;
+    border-radius: 18px !important;
+    background: var(--coffee);
+    border: 1px solid var(--line);
+    box-shadow: 0 16px 40px rgba(40, 26, 12, 0.14);
+    overflow: hidden;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    transition: transform 0.5s var(--ease-out), box-shadow 0.5s var(--ease-out), border-color 0.4s;
+}
+
+.banner-card:hover {
+    transform: translateY(-7px);
+    border-color: rgba(184, 146, 61, 0.55);
+    box-shadow: 0 28px 60px rgba(140, 100, 30, 0.22);
+}
+
+.banner-card .banner-image {
+    aspect-ratio: 16 / 7.2;
+    height: auto !important;
+    overflow: hidden;
+}
+
+.banner-card .banner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.001);
+    transition: transform 0.7s var(--ease-out);
+}
+
+.banner-card:hover .banner-image img { transform: scale(1.05); }
+
+/* brand ribbon overlay */
+.banner-card .banner-content {
+    position: absolute;
+    left: 14px;
+    bottom: 14px;
+    padding: 7px 16px;
+    border-radius: 999px;
+    background: rgba(28, 19, 12, 0.78);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(238, 217, 124, 0.3);
+}
+
+.banner-card .banner-content .banner-brand {
+    font-family: var(--font-body);
+    font-size: 0.74rem !important;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold-light) !important;
+}
+
+.banner-card .banner-content h3, .banner-card .banner-content p { display: none !important; }
+
+/* ---- Brochures: print spreads ---- */
+.brochure-design-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important;
+    gap: 26px !important;
+    padding: 26px 0 10px !important;
+}
+
+.brochure-card,
+.brochure-card.glass {
+    position: relative;
+    border-radius: 18px !important;
+    padding: 10px 10px 0;
+    background: var(--ivory);
+    border: 1px solid var(--line);
+    box-shadow: 0 14px 36px rgba(40, 26, 12, 0.12);
+    overflow: hidden;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    transition: transform 0.5s var(--ease-out), box-shadow 0.5s var(--ease-out), border-color 0.4s;
+}
+
+.brochure-card:hover {
+    transform: translateY(-8px) rotate(-0.5deg);
+    border-color: rgba(184, 146, 61, 0.55);
+    box-shadow: 0 26px 56px rgba(140, 100, 30, 0.2);
+}
+
+.brochure-card .brochure-image {
+    height: auto !important;
+    aspect-ratio: 4 / 3;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--paper-2);
+}
+
+.brochure-card .brochure-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.001);
+    transition: transform 0.7s var(--ease-out);
+}
+
+.brochure-card:hover .brochure-image img { transform: scale(1.05); }
+
+.brochure-card .brochure-content { padding: 4px 8px 0 !important; }
+
+.brochure-card .brochure-content .brochure-brand {
+    font-family: var(--font-display) !important;
+    font-style: italic;
+    font-size: 1.05rem !important;
+    font-weight: 480 !important;
+    background: var(--grad-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent !important;
+    margin: 6px auto 14px !important;
+}
+
+/* --------------------------------------------------------------------------
+   Responsive tweaks
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .reels-grid { grid-template-columns: repeat(auto-fill, minmax(168px, 1fr)); gap: 20px 14px; }
+    .reel-card, .reel-card.glass { border-width: 5px; border-radius: 28px; }
+    .reel-card::before { width: 42px; height: 10px; top: 7px; }
+    .reel-card .reel-video video, .reel-card .reel-video.vertical video,
+    .reel-card .reel-video img, .reel-card .reel-video.vertical img { border-radius: 22px 22px 0 0; }
+    .reel-card .reel-company { font-size: 0.9rem !important; }
+
+    .websites-grid .website-card { padding-top: 40px; }
+    .websites-grid .website-card::before { height: 40px; }
+    .websites-grid .website-card::after { top: 16px; }
+    .websites-grid .website-card .website-brand { top: 8px; left: 64px; right: 12px; height: 24px; }
+    .websites-grid .website-card .website-image { aspect-ratio: 16 / 10.5; }
+    .websites-grid .website-card .website-content { padding: 14px 16px 16px !important; }
+
+    .static-posts-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 14px !important; }
+    .logo-design-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 14px !important; }
+    .banner-design-grid { grid-template-columns: 1fr !important; }
+    .brochure-design-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 14px !important; }
+}

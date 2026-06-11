@@ -40,7 +40,9 @@
             </svg>
             Back to Work
         </a>
-        <h1 class="section-title">Websites</h1>
+        <div class="chip"><span class="chip-dot"></span>Built to convert</div>
+        <h1 class="section-title">Websites that <span class="highlight">sell</span></h1>
+        <p class="portfolio-sub">15+ builds that load fast and sell faster.</p>
         <button class="add-website-btn" id="addWebsiteBtn" style="display: none;" onclick="showAddWebsiteModal()">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M12 5v14M5 12h14"/>
@@ -142,6 +144,7 @@
         </div>
     </section>
 
+    <link rel="stylesheet" href="portfolio.css">
     <footer class="site-footer">
         <a href="index.html#contact" class="footer-cta">
             <div class="footer-cta-inner">
@@ -452,7 +455,7 @@
                 </div>
                 <div class="website-content">
                     <div class="website-brand">${website.company || 'Company'}</div>
-                    <h3>${website.title || 'Website Title'}</h3>
+                    <h3>${website.title || website.company || 'Website'}</h3>
                     <div class="website-stats">
                         <span class="stat">${website.views || 'Performance'}</span>
                     </div>

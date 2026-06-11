@@ -78,26 +78,35 @@
 
         document.addEventListener('mousemove', function (e) {
             mx = e.clientX; my = e.clientY;
-            if (!shown) { shown = true; docEl.classList.add('cursor-on'); }
-            dot.style.transform = 'translate(' + (mx - 3.5) + 'px,' + (my - 3.5) + 'px)';
+            if (!shown) {
+                shown = true;
+                rx = mx; ry = my; // ring spawns under the pointer, no fly-in
+                docEl.classList.add('cursor-on');
+            }
+            // the dot tracks instantly — zero lag
+            dot.style.transform = 'translate(' + mx + 'px,' + my + 'px) translate(-50%,-50%)';
         }, { passive: true });
 
         document.addEventListener('mouseleave', function () { docEl.classList.remove('cursor-on'); shown = false; });
         document.addEventListener('mousedown', function () { docEl.classList.add('cursor-press'); });
         document.addEventListener('mouseup', function () { docEl.classList.remove('cursor-press'); });
 
-        var HOVER_SEL = 'a, button, input, textarea, select, label, .client-item, .service-card, .work-card, .testimonial-dot';
+        var HOVER_SEL = 'a, button, label, .client-item, .service-card, .work-card, .testimonial-dot, .reel-card, .website-card, .logo-card, .banner-card, .static-post-card, .brochure-card, .manifesto-row';
+        var NATIVE_SEL = 'input, textarea, select';
         document.addEventListener('mouseover', function (e) {
             if (e.target.closest(HOVER_SEL)) docEl.classList.add('cursor-hover');
+            if (e.target.closest(NATIVE_SEL)) docEl.classList.add('cursor-native');
         }, { passive: true });
         document.addEventListener('mouseout', function (e) {
             if (e.target.closest(HOVER_SEL)) docEl.classList.remove('cursor-hover');
+            if (e.target.closest(NATIVE_SEL)) docEl.classList.remove('cursor-native');
         }, { passive: true });
 
+        // the halo ring follows with a tight, springy ease
         (function follow() {
-            rx += (mx - rx) * 0.16;
-            ry += (my - ry) * 0.16;
-            ring.style.transform = 'translate(' + (rx - 19) + 'px,' + (ry - 19) + 'px)';
+            rx += (mx - rx) * 0.32;
+            ry += (my - ry) * 0.32;
+            ring.style.transform = 'translate(' + rx + 'px,' + ry + 'px) translate(-50%,-50%)';
             window.requestAnimationFrame(follow);
         })();
     });
