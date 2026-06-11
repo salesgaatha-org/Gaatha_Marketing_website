@@ -1276,6 +1276,339 @@ section { position: relative; }
 .services-glance-grid .website-edit-icon { top: 18px; left: 70px; }
 .what-we-do-grid .website-edit-icon { top: 12px; left: auto; right: 56px; }
 
+/* --------------------------------------------------------------------------
+   12b · How We Roll — dossier deck (built by ui.js from the grid cards)
+   -------------------------------------------------------------------------- */
+.roll-deck { position: relative; animation: deckIn 0.7s var(--ease-out) both; }
+
+@keyframes deckIn {
+    from { opacity: 0; transform: translateY(26px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.roll-items { display: block; }
+
+/* ---- menu rows ---- */
+.roll-head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    padding: 17px 6px;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid var(--line-strong);
+    text-align: left;
+    cursor: pointer;
+    isolation: isolate;
+    transition: padding-left 0.4s var(--ease-out);
+}
+
+.roll-item:first-child .roll-head { border-top: 1px solid var(--line-strong); }
+
+.roll-head::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(238, 217, 124, 0.25), rgba(238, 217, 124, 0.03) 75%, transparent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s var(--ease-snap);
+}
+
+.roll-head:hover { padding-left: 14px; }
+.roll-item.active .roll-head { padding-left: 14px; }
+.roll-head:hover::before, .roll-item.active .roll-head::before { transform: scaleX(1); }
+
+.roll-num {
+    flex: 0 0 auto;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 1.05rem;
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 0.8px rgba(139, 111, 71, 0.6);
+    transition: -webkit-text-stroke-color 0.3s;
+}
+
+.roll-item.active .roll-num {
+    background: var(--grad-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke-color: transparent;
+}
+
+.roll-name {
+    flex: 1 1 auto;
+    font-family: var(--font-display);
+    font-size: clamp(1.15rem, 1.7vw, 1.45rem);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    opacity: 0.45;
+    transition: opacity 0.35s;
+}
+
+.roll-head:hover .roll-name { opacity: 0.8; }
+.roll-item.active .roll-name { opacity: 1; }
+
+/* auto-cycle progress bar (desktop) */
+.roll-item.active .roll-head::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 2px;
+    background: var(--grad-gold);
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: rollProg 4.6s linear forwards;
+}
+
+.roll-deck.paused .roll-head::after { animation-play-state: paused; }
+.roll-deck.no-auto .roll-item.active .roll-head::after { animation: none; transform: scaleX(1); }
+
+@keyframes rollProg { to { transform: scaleX(1); } }
+
+/* plus / close toggle (mobile only) */
+.roll-plus {
+    position: relative;
+    display: none;
+    flex: 0 0 auto;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--line-strong);
+    border-radius: 50%;
+    transition: transform 0.45s var(--ease-snap), border-color 0.3s, background-color 0.3s;
+}
+
+.roll-plus::before, .roll-plus::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 11px;
+    height: 1.6px;
+    border-radius: 2px;
+    background: var(--gold-deep);
+    transform: translate(-50%, -50%);
+    transition: transform 0.45s var(--ease-snap), background-color 0.3s;
+}
+
+.roll-plus::after { transform: translate(-50%, -50%) rotate(90deg); }
+
+/* ---- desktop: split layout, panels stack in a sticky right column ---- */
+@media (min-width: 901px) {
+    .roll-items {
+        display: grid;
+        grid-template-columns: minmax(300px, 0.92fr) 1.08fr;
+        column-gap: clamp(30px, 4.5vw, 70px);
+        align-items: start;
+    }
+
+    .roll-item { display: contents; }
+
+    .roll-panel {
+        grid-column: 2;
+        grid-row: 1 / span 30;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(34px) scale(0.985);
+        filter: blur(8px);
+        pointer-events: none;
+        transition: opacity 0.5s var(--ease-out), transform 0.55s var(--ease-out),
+                    filter 0.5s var(--ease-out), visibility 0s 0.5s;
+    }
+
+    .roll-item.active .roll-panel {
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        filter: none;
+        pointer-events: auto;
+        transition: opacity 0.55s 0.05s var(--ease-out), transform 0.6s 0.05s var(--ease-out),
+                    filter 0.55s 0.05s var(--ease-out), visibility 0s;
+    }
+
+    .roll-panel .roll-card { position: sticky; top: 120px; }
+}
+
+/* ---- mobile: accordion ---- */
+@media (max-width: 900px) {
+    .roll-plus { display: block; }
+    .roll-item.active .roll-plus { transform: rotate(135deg); border-color: var(--gold-2); background: rgba(212, 175, 55, 0.12); }
+
+    .roll-panel {
+        display: grid;
+        grid-template-rows: 0fr;
+        transition: grid-template-rows 0.55s var(--ease-snap);
+    }
+
+    .roll-panel .roll-card {
+        min-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transform: translateY(10px);
+        margin: 0;
+        /* collapse the box completely while closed — padding would otherwise
+           keep a sliver of the card visible at 0fr */
+        padding-top: 0;
+        padding-bottom: 0;
+        border-width: 0;
+        transition: opacity 0.4s, transform 0.45s var(--ease-out), margin 0.45s var(--ease-snap),
+                    padding 0.45s var(--ease-snap), border-width 0.2s;
+    }
+
+    .roll-item.active .roll-panel { grid-template-rows: 1fr; }
+
+    .roll-item.active .roll-panel .roll-card {
+        opacity: 1;
+        transform: none;
+        margin: 14px 0 22px;
+        padding-top: 26px;
+        padding-bottom: 26px;
+        border-width: 1px;
+    }
+
+    /* no auto-cycle progress on mobile */
+    .roll-item.active .roll-head::after { animation: none; transform: scaleX(1); }
+}
+
+/* ---- the dossier card itself ---- */
+.roll-card,
+.roll-card.glass {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: clamp(28px, 3vw, 44px) clamp(24px, 2.6vw, 40px);
+    border-radius: 26px;
+    background: linear-gradient(160deg, #241A11 0%, #32231A 70%, #3B2A26 100%);
+    border: 1px solid rgba(238, 217, 124, 0.18);
+    box-shadow: 0 26px 60px rgba(40, 26, 12, 0.26);
+    overflow: hidden;
+    cursor: default;
+    isolation: isolate;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+}
+
+/* giant ghost numeral watermark */
+.roll-card::before {
+    content: attr(data-num);
+    position: absolute;
+    top: -14px;
+    right: 6px;
+    z-index: -1;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: clamp(6rem, 10vw, 9rem);
+    font-weight: 380;
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(238, 217, 124, 0.26);
+    pointer-events: none;
+}
+
+/* warm radial sheen */
+.roll-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    background: radial-gradient(120% 90% at 88% -8%, rgba(212, 175, 55, 0.2), transparent 56%);
+    pointer-events: none;
+}
+
+.roll-card .service-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    flex: 0 0 auto;
+    border-radius: 18px;
+    background: linear-gradient(140deg, rgba(238, 217, 124, 0.2), rgba(212, 175, 55, 0.08));
+    border: 1px solid rgba(238, 217, 124, 0.4);
+    color: var(--gold-light);
+}
+
+.roll-card .service-icon svg { width: 24px; height: 24px; }
+
+.roll-card h3 {
+    font-size: clamp(1.5rem, 2.4vw, 2rem);
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    color: var(--paper);
+    max-width: calc(100% - 56px);
+}
+
+.roll-card h3::after {
+    content: '';
+    display: block;
+    width: 44px;
+    height: 2px;
+    margin-top: 12px;
+    border-radius: 2px;
+    background: var(--grad-gold);
+}
+
+.roll-card p { font-size: 0.92rem; color: var(--cream-muted); }
+.roll-card p:empty { display: none; }
+
+.roll-card ul { list-style: none; display: flex; flex-direction: column; gap: 12px; margin: 4px 0 8px; }
+
+.roll-card ul li {
+    position: relative;
+    padding-left: 26px;
+    font-size: 0.98rem;
+    color: rgba(247, 243, 232, 0.84);
+}
+
+.roll-card ul li::before {
+    content: '✦';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.78rem;
+    line-height: 2;
+    background: var(--grad-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* bullets cascade in every time a panel becomes active */
+.roll-item.active .roll-card ul li {
+    animation: rollLi 0.55s var(--ease-out) both;
+    animation-delay: calc(0.16s + var(--li, 0) * 0.08s);
+}
+
+@keyframes rollLi {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+.roll-card .view-work-link {
+    margin-top: 6px;
+    color: var(--gold-light);
+}
+
+.roll-card .view-work-link:hover { color: var(--gold); }
+
+.roll-card .service-icon-container { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; padding-right: 40px; }
+.roll-card .service-icon-container h3 { max-width: none; }
+
+.roll-card .work-button {
+    border-color: rgba(238, 217, 124, 0.4);
+    color: var(--gold-light);
+}
+
+.roll-card .work-button:hover { background: var(--ink); border-color: rgba(238, 217, 124, 0.7); }
+
 /* loader variant: icon + title + work button in one row */
 .service-icon-container {
     display: flex;

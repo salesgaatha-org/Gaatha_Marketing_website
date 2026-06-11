@@ -262,6 +262,166 @@
         });
     }
 
+    /* ----------------------------------------------------------------------
+       How We Roll → interactive dossier deck
+       Desktop: numbered menu drives a sticky dark panel (auto-cycles).
+       Mobile: collapses into an accordion. Admin mode keeps the plain grid.
+       ---------------------------------------------------------------------- */
+    var rollDesktop = window.matchMedia('(min-width: 901px)');
+
+    function buildRollDeck() {
+        if (isAdmin) return;
+        var grid = document.querySelector('.what-we-do-grid');
+        if (!grid) return;
+        var cards = Array.prototype.slice.call(grid.querySelectorAll('.service-card'));
+        if (!cards.length) return;
+
+        // skip rebuilds that would produce the identical deck (the two data
+        // renderers race each other on load)
+        var sig = cards.map(function (c) {
+            return ((c.querySelector('h3') || {}).textContent || '').trim();
+        }).join('|');
+        var oldDeck = document.querySelector('.roll-deck');
+        if (oldDeck && oldDeck.dataset.sig === sig) {
+            grid.style.display = 'none';
+            return;
+        }
+        if (oldDeck) oldDeck.remove();
+
+        var deck = document.createElement('div');
+        deck.className = 'roll-deck';
+        var list = document.createElement('div');
+        list.className = 'roll-items';
+        deck.appendChild(list);
+
+        var heads = [], rows = [];
+
+        cards.forEach(function (card, i) {
+            var num = (i + 1 < 10 ? '0' : '') + (i + 1);
+            card.classList.remove('fade-in');
+            card.classList.add('roll-card');
+            card.dataset.num = num;
+            card.style.opacity = '';
+            card.style.transform = '';
+            card.style.animationDelay = '';
+            Array.prototype.forEach.call(card.querySelectorAll('ul li'), function (el, j) {
+                el.style.setProperty('--li', j);
+            });
+
+            var item = document.createElement('div');
+            item.className = 'roll-item';
+
+            var head = document.createElement('button');
+            head.type = 'button';
+            head.className = 'roll-head';
+            head.setAttribute('aria-expanded', 'false');
+            var numEl = document.createElement('span');
+            numEl.className = 'roll-num';
+            numEl.textContent = num;
+            var nameEl = document.createElement('span');
+            nameEl.className = 'roll-name';
+            nameEl.textContent = ((card.querySelector('h3') || {}).textContent || 'Service ' + num).trim();
+            var plusEl = document.createElement('span');
+            plusEl.className = 'roll-plus';
+            plusEl.setAttribute('aria-hidden', 'true');
+            head.appendChild(numEl);
+            head.appendChild(nameEl);
+            head.appendChild(plusEl);
+
+            var panel = document.createElement('div');
+            panel.className = 'roll-panel';
+            panel.appendChild(card);
+
+            item.appendChild(head);
+            item.appendChild(panel);
+            list.appendChild(item);
+            heads.push(head);
+            rows.push(item);
+        });
+
+        deck.dataset.sig = sig;
+        grid.style.display = 'none';
+        grid.insertAdjacentElement('afterend', deck);
+
+        var current = -1, timer = null, auto = !reduceMotion;
+
+        function setActive(i) {
+            rows.forEach(function (r, j) {
+                r.classList.toggle('active', j === i);
+                heads[j].setAttribute('aria-expanded', j === i ? 'true' : 'false');
+            });
+            current = i;
+        }
+
+        function schedule() {
+            window.clearTimeout(timer);
+            if (!auto || !rollDesktop.matches) return;
+            timer = window.setTimeout(function () {
+                setActive((current + 1) % rows.length);
+                schedule();
+            }, 4600);
+        }
+
+        heads.forEach(function (head, i) {
+            head.addEventListener('click', function () {
+                auto = false;
+                deck.classList.add('no-auto');
+                window.clearTimeout(timer);
+                if (!rollDesktop.matches && i === current) {
+                    // accordion: tapping the open row closes it
+                    rows[i].classList.remove('active');
+                    head.setAttribute('aria-expanded', 'false');
+                    current = -1;
+                    return;
+                }
+                setActive(i);
+            });
+        });
+
+        deck.addEventListener('mouseenter', function () {
+            deck.classList.add('paused');
+            window.clearTimeout(timer);
+        });
+        deck.addEventListener('mouseleave', function () {
+            deck.classList.remove('paused');
+            if (auto && rollDesktop.matches && current >= 0) {
+                // restart the cycle (and its progress bar) cleanly
+                var c = current;
+                rows[c].classList.remove('active');
+                void rows[c].offsetWidth;
+                rows[c].classList.add('active');
+            }
+            schedule();
+        });
+
+        // panels already show full content — suppress the legacy tap-modal
+        deck.addEventListener('click', function (e) {
+            if (e.target.closest('.roll-panel') && !e.target.closest('a, button')) {
+                e.stopPropagation();
+            }
+        }, true);
+
+        setActive(0);
+        schedule();
+    }
+
+    ready(function () {
+        var grid = document.querySelector('.what-we-do-grid');
+        if (!grid) return;
+        buildRollDeck();
+        if ('MutationObserver' in window) {
+            var pending = null;
+            var mo = new MutationObserver(function (muts) {
+                // ignore the mutation caused by our own card removal
+                var added = muts.some(function (m) { return m.addedNodes.length > 0; });
+                if (!added) return;
+                if (pending) window.clearTimeout(pending);
+                pending = window.setTimeout(buildRollDeck, 150);
+            });
+            mo.observe(grid, { childList: true });
+        }
+    });
+
     ready(function () {
         var container = document.querySelector('.client-rows-container');
         if (!container) return;
