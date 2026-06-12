@@ -263,43 +263,69 @@
     }
 
     /* ----------------------------------------------------------------------
-       How We Roll → interactive dossier deck
-       Desktop: numbered menu drives a sticky dark panel (auto-cycles).
-       Mobile: collapses into an accordion. Admin mode keeps the plain grid.
+       How We Roll → snap-scrolling service rail
+       Every service is a rich card you swipe through — the centered card
+       "ignites" (ink + gold), neighbors recede. Scroll-driven, no timers.
+       Admin mode keeps the plain editable grid.
        ---------------------------------------------------------------------- */
-    var rollDesktop = window.matchMedia('(min-width: 901px)');
-
-    function buildRollDeck() {
+    function buildRollRail() {
         if (isAdmin) return;
         var grid = document.querySelector('.what-we-do-grid');
         if (!grid) return;
         var cards = Array.prototype.slice.call(grid.querySelectorAll('.service-card'));
         if (!cards.length) return;
 
-        // skip rebuilds that would produce the identical deck (the two data
+        // skip rebuilds that would produce the identical rail (the two data
         // renderers race each other on load)
         var sig = cards.map(function (c) {
             return ((c.querySelector('h3') || {}).textContent || '').trim();
         }).join('|');
-        var oldDeck = document.querySelector('.roll-deck');
-        if (oldDeck && oldDeck.dataset.sig === sig) {
+        var oldRail = document.querySelector('.roll-rail');
+        if (oldRail && oldRail.dataset.sig === sig) {
             grid.style.display = 'none';
             return;
         }
-        if (oldDeck) oldDeck.remove();
+        if (oldRail) oldRail.remove();
 
-        var deck = document.createElement('div');
-        deck.className = 'roll-deck';
-        var list = document.createElement('div');
-        list.className = 'roll-items';
-        deck.appendChild(list);
+        var rail = document.createElement('div');
+        rail.className = 'roll-rail';
+        rail.dataset.sig = sig;
 
-        var heads = [], rows = [];
+        var controls = document.createElement('div');
+        controls.className = 'rail-controls';
+        var index = document.createElement('div');
+        index.className = 'rail-index';
+        index.innerHTML = '<em>01</em><span>/ ' + (cards.length < 10 ? '0' : '') + cards.length + '</span>';
+        var hint = document.createElement('div');
+        hint.className = 'rail-hint';
+        hint.innerHTML = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12h13"/><path d="m17 8 4 4-4 4"/><path d="M3 12h.01"/></svg>swipe';
+        var arrows = document.createElement('div');
+        arrows.className = 'rail-arrows';
+        var prev = document.createElement('button');
+        prev.type = 'button';
+        prev.className = 'rail-arrow rail-prev';
+        prev.setAttribute('aria-label', 'Previous service');
+        prev.textContent = '\u2190';
+        var next = document.createElement('button');
+        next.type = 'button';
+        next.className = 'rail-arrow rail-next';
+        next.setAttribute('aria-label', 'Next service');
+        next.textContent = '\u2192';
+        arrows.appendChild(prev);
+        arrows.appendChild(next);
+        controls.appendChild(index);
+        controls.appendChild(hint);
+        controls.appendChild(arrows);
+
+        var track = document.createElement('div');
+        track.className = 'roll-track';
+        track.setAttribute('tabindex', '0');
+        track.setAttribute('aria-label', 'Our services — scroll horizontally');
 
         cards.forEach(function (card, i) {
             var num = (i + 1 < 10 ? '0' : '') + (i + 1);
             card.classList.remove('fade-in');
-            card.classList.add('roll-card');
+            card.classList.add('rail-card');
             card.dataset.num = num;
             card.style.opacity = '';
             card.style.transform = '';
@@ -307,116 +333,145 @@
             Array.prototype.forEach.call(card.querySelectorAll('ul li'), function (el, j) {
                 el.style.setProperty('--li', j);
             });
-
-            var item = document.createElement('div');
-            item.className = 'roll-item';
-
-            var head = document.createElement('button');
-            head.type = 'button';
-            head.className = 'roll-head';
-            head.setAttribute('aria-expanded', 'false');
-            var numEl = document.createElement('span');
-            numEl.className = 'roll-num';
-            numEl.textContent = num;
-            var nameEl = document.createElement('span');
-            nameEl.className = 'roll-name';
-            nameEl.textContent = ((card.querySelector('h3') || {}).textContent || 'Service ' + num).trim();
-            var plusEl = document.createElement('span');
-            plusEl.className = 'roll-plus';
-            plusEl.setAttribute('aria-hidden', 'true');
-            head.appendChild(numEl);
-            head.appendChild(nameEl);
-            head.appendChild(plusEl);
-
-            var panel = document.createElement('div');
-            panel.className = 'roll-panel';
-            panel.appendChild(card);
-
-            item.appendChild(head);
-            item.appendChild(panel);
-            list.appendChild(item);
-            heads.push(head);
-            rows.push(item);
+            track.appendChild(card);
         });
 
-        deck.dataset.sig = sig;
+        var progress = document.createElement('div');
+        progress.className = 'roll-progress';
+        progress.innerHTML = '<i></i>';
+
+        rail.appendChild(controls);
+        rail.appendChild(track);
+        rail.appendChild(progress);
+
         grid.style.display = 'none';
-        grid.insertAdjacentElement('afterend', deck);
+        grid.insertAdjacentElement('afterend', rail);
 
-        var current = -1, timer = null, auto = !reduceMotion;
+        var bar = progress.querySelector('i');
+        var numEl = index.querySelector('em');
+        var frontIdx = -1;
 
-        function setActive(i) {
-            rows.forEach(function (r, j) {
-                r.classList.toggle('active', j === i);
-                heads[j].setAttribute('aria-expanded', j === i ? 'true' : 'false');
+        function update() {
+            // progress bar
+            var max = track.scrollWidth - track.clientWidth;
+            var p = max > 0 ? track.scrollLeft / max : 0;
+            bar.style.transform = 'scaleX(' + Math.max(0.04, Math.min(1, p)) + ')';
+
+            // card nearest the track centre becomes the front card
+            var mid = track.getBoundingClientRect().left + track.clientWidth / 2;
+            var best = 0, bestDist = Infinity;
+            cards.forEach(function (card, i) {
+                var r = card.getBoundingClientRect();
+                var d = Math.abs(r.left + r.width / 2 - mid);
+                if (d < bestDist) { bestDist = d; best = i; }
             });
-            current = i;
-        }
-
-        function schedule() {
-            window.clearTimeout(timer);
-            if (!auto || !rollDesktop.matches) return;
-            timer = window.setTimeout(function () {
-                setActive((current + 1) % rows.length);
-                schedule();
-            }, 4600);
-        }
-
-        heads.forEach(function (head, i) {
-            head.addEventListener('click', function () {
-                auto = false;
-                deck.classList.add('no-auto');
-                window.clearTimeout(timer);
-                if (!rollDesktop.matches && i === current) {
-                    // accordion: tapping the open row closes it
-                    rows[i].classList.remove('active');
-                    head.setAttribute('aria-expanded', 'false');
-                    current = -1;
-                    return;
-                }
-                setActive(i);
-            });
-        });
-
-        deck.addEventListener('mouseenter', function () {
-            deck.classList.add('paused');
-            window.clearTimeout(timer);
-        });
-        deck.addEventListener('mouseleave', function () {
-            deck.classList.remove('paused');
-            if (auto && rollDesktop.matches && current >= 0) {
-                // restart the cycle (and its progress bar) cleanly
-                var c = current;
-                rows[c].classList.remove('active');
-                void rows[c].offsetWidth;
-                rows[c].classList.add('active');
+            if (best !== frontIdx) {
+                frontIdx = best;
+                cards.forEach(function (card, i) { card.classList.toggle('is-front', i === best); });
+                numEl.textContent = (best + 1 < 10 ? '0' : '') + (best + 1);
+                prev.disabled = best === 0;
+                next.disabled = best === cards.length - 1;
             }
-            schedule();
+        }
+
+        var raf = null;
+        track.addEventListener('scroll', function () {
+            if (raf) return;
+            raf = window.requestAnimationFrame(function () { raf = null; update(); });
+        }, { passive: true });
+        window.addEventListener('resize', update, { passive: true });
+
+        function goTo(i) {
+            i = Math.max(0, Math.min(cards.length - 1, i));
+            var card = cards[i];
+            track.scrollTo({
+                left: card.offsetLeft - (track.clientWidth - card.offsetWidth) / 2,
+                behavior: reduceMotion ? 'auto' : 'smooth'
+            });
+        }
+
+        prev.addEventListener('click', function () { goTo(frontIdx - 1); });
+        next.addEventListener('click', function () { goTo(frontIdx + 1); });
+
+        track.addEventListener('keydown', function (e) {
+            if (e.key === 'ArrowRight') { e.preventDefault(); goTo(frontIdx + 1); }
+            if (e.key === 'ArrowLeft') { e.preventDefault(); goTo(frontIdx - 1); }
         });
 
-        // panels already show full content — suppress the legacy tap-modal
-        deck.addEventListener('click', function (e) {
-            if (e.target.closest('.roll-panel') && !e.target.closest('a, button')) {
+        // tap a resting card to bring it front (and let front-card links work);
+        // a real drag must never count as a tap
+        var dragMoved = 0;
+        track.addEventListener('click', function (e) {
+            if (dragMoved > 6) {
+                dragMoved = 0;
+                e.preventDefault();
                 e.stopPropagation();
+                return;
             }
+            var card = e.target.closest('.rail-card');
+            if (!card) return;
+            var i = cards.indexOf(card);
+            if (i !== frontIdx) { e.preventDefault(); e.stopPropagation(); goTo(i); }
         }, true);
 
-        setActive(0);
-        schedule();
+        // content is fully visible — suppress the legacy tap-modal
+        track.addEventListener('click', function (e) {
+            if (!e.target.closest('a, button')) e.stopPropagation();
+        }, true);
+
+        // desktop: drag-to-scroll
+        if (window.matchMedia('(pointer: fine)').matches) {
+            var dragging = false, startX = 0, startLeft = 0;
+            track.addEventListener('pointerdown', function (e) {
+                if (e.button !== 0) return;
+                dragging = true; dragMoved = 0;
+                startX = e.clientX; startLeft = track.scrollLeft;
+                track.classList.add('dragging');
+            });
+            window.addEventListener('pointermove', function (e) {
+                if (!dragging) return;
+                var dx = e.clientX - startX;
+                dragMoved = Math.max(dragMoved, Math.abs(dx));
+                track.scrollLeft = startLeft - dx;
+            });
+            window.addEventListener('pointerup', function () {
+                if (!dragging) return;
+                dragging = false;
+                track.classList.remove('dragging');
+                if (dragMoved > 6) goTo(frontIdx); // settle on the nearest card
+            });
+        }
+
+        // one-time swipe nudge when the rail first scrolls into view (mobile)
+        if (!reduceMotion && 'IntersectionObserver' in window && window.matchMedia('(max-width: 900px)').matches) {
+            var nudged = false;
+            var io = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting && !nudged) {
+                        nudged = true;
+                        track.classList.add('nudge');
+                        window.setTimeout(function () { track.classList.remove('nudge'); }, 1600);
+                        io.disconnect();
+                    }
+                });
+            }, { threshold: 0.35 });
+            io.observe(track);
+        }
+
+        update();
     }
 
     ready(function () {
         var grid = document.querySelector('.what-we-do-grid');
         if (!grid) return;
-        buildRollDeck();
+        buildRollRail();
         if ('MutationObserver' in window) {
             var pending = null;
             var mo = new MutationObserver(function (muts) {
-                // ignore the mutation caused by our own card removal
                 var added = muts.some(function (m) { return m.addedNodes.length > 0; });
                 if (!added) return;
                 if (pending) window.clearTimeout(pending);
-                pending = window.setTimeout(buildRollDeck, 150);
+                pending = window.setTimeout(buildRollRail, 150);
             });
             mo.observe(grid, { childList: true });
         }
