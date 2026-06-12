@@ -61,57 +61,6 @@
     });
 
     /* ----------------------------------------------------------------------
-       Custom cursor (fine pointers only)
-       ---------------------------------------------------------------------- */
-    ready(function () {
-        if (reduceMotion) return;
-        if (!window.matchMedia('(pointer: fine)').matches || window.innerWidth <= 900) return;
-
-        var dot = document.createElement('div');
-        var ring = document.createElement('div');
-        dot.className = 'cursor-dot';
-        ring.className = 'cursor-ring';
-        document.body.appendChild(dot);
-        document.body.appendChild(ring);
-
-        var mx = -100, my = -100, rx = -100, ry = -100, shown = false;
-
-        document.addEventListener('mousemove', function (e) {
-            mx = e.clientX; my = e.clientY;
-            if (!shown) {
-                shown = true;
-                rx = mx; ry = my; // ring spawns under the pointer, no fly-in
-                docEl.classList.add('cursor-on');
-            }
-            // the dot tracks instantly — zero lag
-            dot.style.transform = 'translate(' + mx + 'px,' + my + 'px) translate(-50%,-50%)';
-        }, { passive: true });
-
-        document.addEventListener('mouseleave', function () { docEl.classList.remove('cursor-on'); shown = false; });
-        document.addEventListener('mousedown', function () { docEl.classList.add('cursor-press'); });
-        document.addEventListener('mouseup', function () { docEl.classList.remove('cursor-press'); });
-
-        var HOVER_SEL = 'a, button, label, .client-item, .service-card, .work-card, .testimonial-dot, .reel-card, .website-card, .logo-card, .banner-card, .static-post-card, .brochure-card, .manifesto-row';
-        var NATIVE_SEL = 'input, textarea, select';
-        document.addEventListener('mouseover', function (e) {
-            if (e.target.closest(HOVER_SEL)) docEl.classList.add('cursor-hover');
-            if (e.target.closest(NATIVE_SEL)) docEl.classList.add('cursor-native');
-        }, { passive: true });
-        document.addEventListener('mouseout', function (e) {
-            if (e.target.closest(HOVER_SEL)) docEl.classList.remove('cursor-hover');
-            if (e.target.closest(NATIVE_SEL)) docEl.classList.remove('cursor-native');
-        }, { passive: true });
-
-        // the halo ring follows with a tight, springy ease
-        (function follow() {
-            rx += (mx - rx) * 0.32;
-            ry += (my - ry) * 0.32;
-            ring.style.transform = 'translate(' + rx + 'px,' + ry + 'px) translate(-50%,-50%)';
-            window.requestAnimationFrame(follow);
-        })();
-    });
-
-    /* ----------------------------------------------------------------------
        Nav scroll state
        ---------------------------------------------------------------------- */
     (function () {
@@ -503,25 +452,6 @@
                 if (!wasOpen) item.classList.add('show-overlay');
             });
         }
-    });
-
-    /* ----------------------------------------------------------------------
-       Magnetic buttons
-       ---------------------------------------------------------------------- */
-    ready(function () {
-        if (reduceMotion || !window.matchMedia('(pointer: fine)').matches) return;
-        document.querySelectorAll('.cta-btn, .ghost-btn, .footer-cta-arrow, .testimonial-nav').forEach(function (btn) {
-            var strength = 14;
-            btn.addEventListener('mousemove', function (e) {
-                var r = btn.getBoundingClientRect();
-                var x = (e.clientX - r.left - r.width / 2) / (r.width / 2);
-                var y = (e.clientY - r.top - r.height / 2) / (r.height / 2);
-                btn.style.translate = (x * strength) + 'px ' + (y * strength * 0.7) + 'px';
-            });
-            btn.addEventListener('mouseleave', function () {
-                btn.style.translate = '0px 0px';
-            });
-        });
     });
 
     /* ----------------------------------------------------------------------
