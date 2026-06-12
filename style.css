@@ -84,7 +84,10 @@ body {
     line-height: 1.65;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    transition: background-color 0.9s var(--ease-out);
 }
+
+html.scene-dark body { background: #1D140C; }
 
 /* Warm ambient wash behind everything */
 body::before {
@@ -95,7 +98,10 @@ body::before {
     background:
         radial-gradient(70% 46% at 50% -8%, rgba(212, 175, 55, 0.10), transparent 62%),
         var(--paper);
+    transition: opacity 0.9s var(--ease-out);
 }
+
+html.scene-dark body::before { opacity: 0; }
 
 img, video { max-width: 100%; }
 
@@ -2432,8 +2438,17 @@ footer > p { padding: 28px var(--section-x); text-align: center; font-size: 0.85
 /* --------------------------------------------------------------------------
    21 · Reveal / scroll animations
    -------------------------------------------------------------------------- */
-.reveal { opacity: 0; transform: translateY(34px); filter: blur(5px); transition: opacity 0.85s var(--ease-out), transform 0.85s var(--ease-out), filter 0.85s var(--ease-out); transition-delay: var(--rd, 0s); }
-.reveal.in { opacity: 1; transform: translateY(0); filter: blur(0); }
+.reveal {
+    opacity: 0;
+    transform: translateY(44px) scale(0.985);
+    filter: blur(7px);
+    clip-path: inset(6% 3% 12% 3% round 18px);
+    transition: opacity 0.9s var(--ease-out), transform 0.9s var(--ease-out),
+                filter 0.9s var(--ease-out), clip-path 0.9s var(--ease-out);
+    transition-delay: var(--rd, 0s);
+}
+
+.reveal.in { opacity: 1; transform: none; filter: blur(0); clip-path: inset(0 0 0 0 round 0); }
 
 .work-animate { opacity: 0; transform: translateY(16px); }
 .work-animate.in-view { opacity: 1; transform: translateY(0); transition: opacity 0.55s var(--ease-out), transform 0.55s var(--ease-out); }
@@ -2482,6 +2497,141 @@ footer > p { padding: 28px var(--section-x); text-align: center; font-size: 0.85
     .hero-stat-label { font-size: 0.62rem; letter-spacing: 0.12em; }
     .client-item { width: 132px; height: 80px; }
 }
+
+/* --------------------------------------------------------------------------
+   22b · Scroll choreography
+   -------------------------------------------------------------------------- */
+
+/* scroll progress bar */
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    z-index: 99970;
+    pointer-events: none;
+}
+
+.scroll-progress i {
+    display: block;
+    height: 100%;
+    background: var(--grad-gold);
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+/* smart nav: slides away scrolling down, returns scrolling up */
+nav.glass { transition: top 0.4s var(--ease-out), width 0.4s var(--ease-out), background-color 0.4s, box-shadow 0.4s, transform 0.45s var(--ease-snap); }
+html.nav-hidden nav.glass { transform: translateX(-50%) translateY(-160%); }
+@media (max-width: 900px) {
+    html.nav-hidden nav.glass { transform: translateY(-160%); }
+}
+
+/* ---- dark scene: the page dims while these sections hold the stage ---- */
+.clients .section-header h2, .testimonials .section-header h2,
+.clients .section-kicker, .testimonials .section-kicker,
+.testimonial-card p, .testimonial-card h4, .testimonial-role,
+.testimonial-nav, .principles .team-title,
+.manifesto-line, .manifesto-sub, .manifesto-num, .manifesto-row {
+    transition: color 0.8s var(--ease-out), border-color 0.8s var(--ease-out), background-color 0.8s;
+}
+
+html.scene-dark .clients .section-header h2,
+html.scene-dark .testimonials .section-header h2,
+html.scene-dark .principles .team-title { color: var(--paper); }
+
+html.scene-dark .clients .section-kicker,
+html.scene-dark .testimonials .section-kicker { color: var(--cream-muted); }
+
+html.scene-dark .testimonial-card p { color: var(--paper); }
+html.scene-dark .testimonial-card h4 { color: var(--gold-light); }
+html.scene-dark .testimonial-role { color: var(--cream-muted); }
+
+html.scene-dark .testimonial-nav { border-color: var(--cream-line); color: var(--paper); }
+html.scene-dark .testimonial-nav:hover { background: var(--grad-gold); border-color: transparent; color: var(--ink); }
+html.scene-dark .testimonial-dot { background: rgba(247, 243, 232, 0.25); }
+html.scene-dark .testimonial-dot.active { background: var(--grad-gold); }
+
+html.scene-dark .principles .team-title::after { background: linear-gradient(90deg, var(--cream-line), transparent); }
+html.scene-dark .manifesto { border-top-color: var(--cream-line); }
+html.scene-dark .manifesto-row { border-bottom-color: var(--cream-line); }
+html.scene-dark .manifesto-line { color: var(--paper); }
+html.scene-dark .manifesto-sub { color: var(--cream-muted); }
+html.scene-dark .manifesto-num { color: var(--gold); }
+
+/* client chips & marquee pop against the dark stage */
+.client-item { transition: transform 0.45s var(--ease-out), box-shadow 0.45s var(--ease-out), border-color 0.8s; }
+html.scene-dark .client-item { border-color: rgba(238, 217, 124, 0.22); }
+html.scene-dark .client-row.as-marquee {
+    -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 7%, #000 93%, transparent 100%);
+    mask-image: linear-gradient(90deg, transparent 0, #000 7%, #000 93%, transparent 100%);
+}
+
+/* ---- statement: words ignite as you scroll ---- */
+.statement {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: clamp(90px, 13vw, 170px) var(--section-x) clamp(40px, 6vw, 80px);
+    text-align: center;
+}
+
+.statement p {
+    font-size: clamp(1.7rem, 3.6vw, 3rem);
+    font-weight: 650;
+    line-height: 1.22;
+    letter-spacing: -0.028em;
+    color: var(--ink);
+}
+
+.st-word { opacity: 0.13; transition: opacity 0.4s var(--ease-out); }
+.st-word.lit { opacity: 1; }
+
+.st-word.st-gold.lit {
+    background: linear-gradient(98deg, var(--gold-2), var(--gold));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ---- signature moves → pinned stacking showcase (non-admin) ---- */
+html:not(.is-admin) .services-glance-grid { display: block; }
+
+html:not(.is-admin) .services-glance-grid .service-card {
+    position: sticky;
+    top: clamp(86px, 11vh, 124px);
+    width: min(980px, 100%);
+    height: min(72vh, 640px);
+    aspect-ratio: auto;
+    margin: 0 auto 10vh;
+    transform-origin: top center;
+    will-change: transform, filter;
+}
+
+html:not(.is-admin) .services-glance-grid .service-card:last-child { margin-bottom: 0; }
+
+/* the motion loop drives transform/filter in the stack */
+html:not(.is-admin) .services-glance-grid .service-card:hover { transform: none; box-shadow: var(--shadow-soft); }
+
+html:not(.is-admin) .services-glance-grid .service-card h3 {
+    font-size: clamp(1.6rem, 3vw, 2.3rem);
+    left: clamp(22px, 3.5vw, 44px);
+    bottom: clamp(20px, 3vw, 36px);
+}
+
+html:not(.is-admin) .services-glance-grid .service-card .service-icon {
+    top: clamp(18px, 2.6vw, 30px);
+    left: clamp(18px, 2.6vw, 30px);
+}
+
+@media (max-width: 768px) {
+    html:not(.is-admin) .services-glance-grid .service-card { height: 60vh; top: 84px; margin-bottom: 8vh; }
+}
+
+/* coverflow hint on the service rail */
+.roll-track { perspective: 1400px; }
+.rail-card:has(~ .rail-card.is-front) { transform: scale(0.94) translateY(8px) rotateY(5deg); }
+.rail-card.is-front ~ .rail-card { transform: scale(0.94) translateY(8px) rotateY(-5deg); }
 
 /* --------------------------------------------------------------------------
    23 · Reduced motion

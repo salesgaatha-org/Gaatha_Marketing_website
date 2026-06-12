@@ -178,6 +178,7 @@
        ---------------------------------------------------------------------- */
     var isAdmin = false;
     try { isAdmin = localStorage.getItem('admin_secret') === 'gaatha_admin_2025_secret_key_xyz789'; } catch (e) {}
+    if (isAdmin) docEl.classList.add('is-admin');
 
     function marqueeifyClients() {
         if (isAdmin || reduceMotion) return;
@@ -466,6 +467,141 @@
         }
         var year = document.querySelector('[data-year]');
         if (year) year.textContent = String(new Date().getFullYear());
+    });
+
+    /* ----------------------------------------------------------------------
+       Scene engine — sections flagged data-scene="dark" dim the whole page
+       ---------------------------------------------------------------------- */
+    ready(function () {
+        var scenes = document.querySelectorAll('[data-scene="dark"]');
+        if (!scenes.length || !('IntersectionObserver' in window)) return;
+        var visible = 0;
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                visible += entry.isIntersecting ? 1 : -1;
+            });
+            visible = Math.max(0, visible);
+            docEl.classList.toggle('scene-dark', visible > 0);
+        }, { rootMargin: '-32% 0px -32% 0px' });
+        scenes.forEach(function (s) { io.observe(s); });
+    });
+
+    /* ----------------------------------------------------------------------
+       Statement — words light up as you scroll through the sentence
+       ---------------------------------------------------------------------- */
+    var statementWords = null, statementEl = null, statementLit = -1;
+
+    ready(function () {
+        statementEl = document.querySelector('[data-statement]');
+        if (!statementEl) return;
+        var words = [];
+        function split(node) {
+            Array.prototype.slice.call(node.childNodes).forEach(function (child) {
+                if (child.nodeType === 3) {
+                    var frag = document.createDocumentFragment();
+                    child.textContent.split(/(\s+)/).forEach(function (part) {
+                        if (!part) return;
+                        if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(' ')); return; }
+                        var w = document.createElement('span');
+                        w.className = 'st-word' + (node.tagName === 'EM' ? ' st-gold' : '');
+                        w.textContent = part;
+                        frag.appendChild(w);
+                        words.push(w);
+                    });
+                    node.replaceChild(frag, child);
+                } else if (child.nodeType === 1) {
+                    split(child);
+                }
+            });
+        }
+        split(statementEl);
+        statementWords = words;
+        if (reduceMotion) words.forEach(function (w) { w.classList.add('lit'); });
+    });
+
+    /* ----------------------------------------------------------------------
+       Unified scroll motion loop:
+       progress bar · smart nav · hero scrub · ticker sway · sticky stack ·
+       statement lighting
+       ---------------------------------------------------------------------- */
+    ready(function () {
+        // progress bar
+        var prog = document.createElement('div');
+        prog.className = 'scroll-progress';
+        prog.innerHTML = '<i></i>';
+        document.body.appendChild(prog);
+        var progBar = prog.firstChild;
+
+        if (reduceMotion) return;
+
+        var heroMedia = document.querySelector('.hero .hero-media');
+        var heroCopy = document.querySelector('.hero .hero-copy');
+        var ticker = document.querySelector('.ticker');
+        var navEl = document.querySelector('nav.glass');
+        var stackCards = (!isAdmin && window.matchMedia('(min-width: 561px)').matches)
+            ? Array.prototype.slice.call(document.querySelectorAll('.services-glance-grid .service-card'))
+            : [];
+
+        var prevY = window.scrollY, skew = 0, navHidden = false;
+
+        function frame() {
+            var y = window.scrollY;
+            var vel = y - prevY;
+            prevY = y;
+            var vh = window.innerHeight;
+
+            // progress
+            var max = document.documentElement.scrollHeight - vh;
+            progBar.style.transform = 'scaleX(' + (max > 0 ? Math.min(1, y / max) : 0) + ')';
+
+            // smart nav (never while the mobile menu is open)
+            var menuOpen = document.querySelector('.nav-links.open');
+            var shouldHide = !menuOpen && y > 420 && vel > 3;
+            var shouldShow = vel < -3 || y < 420 || menuOpen;
+            if (shouldHide && !navHidden) { navHidden = true; docEl.classList.add('nav-hidden'); }
+            else if (shouldShow && navHidden) { navHidden = false; docEl.classList.remove('nav-hidden'); }
+
+            // hero scrub
+            if (heroMedia && y < vh * 1.6) {
+                heroMedia.style.transform = 'translateY(' + (y * 0.12) + 'px) scale(' + (1 + Math.min(y / 6000, 0.04)) + ')';
+                if (heroCopy) {
+                    heroCopy.style.transform = 'translateY(' + (y * 0.24) + 'px)';
+                    heroCopy.style.opacity = String(Math.max(0, 1 - y / (vh * 0.85)));
+                }
+            }
+
+            // ticker sway follows scroll velocity
+            if (ticker) {
+                var target = Math.max(-2.4, Math.min(2.4, vel * 0.05));
+                skew += (target - skew) * 0.1;
+                ticker.style.transform = 'skewY(' + skew.toFixed(3) + 'deg)';
+            }
+
+            // sticky stack: cards compress + dim as the next slides over
+            for (var i = 0; i < stackCards.length - 1; i++) {
+                var r = stackCards[i].getBoundingClientRect();
+                var nr = stackCards[i + 1].getBoundingClientRect();
+                var p = Math.max(0, Math.min(1, 1 - (nr.top - r.top) / (r.height || 1)));
+                stackCards[i].style.transform = 'scale(' + (1 - p * 0.07) + ')';
+                stackCards[i].style.filter = 'brightness(' + (1 - p * 0.42) + ')';
+            }
+
+            // statement lighting
+            if (statementEl && statementWords && statementWords.length) {
+                var sr = statementEl.getBoundingClientRect();
+                var sp = (vh * 0.86 - sr.top) / (vh * 0.78);
+                var lit = Math.floor(Math.max(0, Math.min(1, sp)) * statementWords.length);
+                if (lit !== statementLit) {
+                    statementLit = lit;
+                    for (var w = 0; w < statementWords.length; w++) {
+                        statementWords[w].classList.toggle('lit', w < lit);
+                    }
+                }
+            }
+
+            window.requestAnimationFrame(frame);
+        }
+        window.requestAnimationFrame(frame);
     });
 
     /* ----------------------------------------------------------------------
