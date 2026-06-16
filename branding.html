@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Branding &amp; Design — Logos, Identities &amp; Creatives | gaa-tha</title>
-<meta name="description" content="2500+ brand creatives by gaa-tha — logos, identities, social posts and banners with a point of view. Branding and design that looks nothing like a template.">
+<title>Branding &amp; Identity, Set in Pure Type | gaa-tha</title>
+<meta name="description" content="Branding at gaa-tha is a voice, not just a logo. See how we build brands — and meet our real clients (Charliee, NITS Overseas, Nirav Machines India, CDS, Madhuram and more) rendered in nothing but type and their own colours.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#150E07">
 <link rel="canonical" href="https://gaa-tha.com/branding.html">
@@ -13,13 +13,13 @@
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="gaa-tha">
-<meta property="og:title" content="Branding &amp; Design | gaa-tha">
-<meta property="og:description" content="Logos, creatives and identities with a point of view — work that looks nothing like a template.">
+<meta property="og:title" content="Branding &amp; Identity, Set in Pure Type | gaa-tha">
+<meta property="og:description" content="No mockups. No moodboards. Just type — because if a brand can hold the room in plain letters, imagine it in the wild.">
 <meta property="og:url" content="https://gaa-tha.com/branding.html">
 <meta property="og:image" content="https://gaa-tha.com/assets/logo.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Branding &amp; Design | gaa-tha">
-<meta name="twitter:description" content="Logos, creatives and identities with a point of view.">
+<meta name="twitter:title" content="Branding, Set in Pure Type | gaa-tha">
+<meta name="twitter:description" content="How branding works at gaa-tha — and our roster, in their own letters.">
 <meta name="twitter:image" content="https://gaa-tha.com/assets/logo.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,41 +38,110 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Branding & Identity Design",
+  "serviceType": "Brand identity, naming, logo design, visual systems and brand voice",
+  "provider": { "@type": "Organization", "name": "gaa-tha", "url": "https://gaa-tha.com/" },
+  "areaServed": "Worldwide",
+  "description": "gaa-tha builds brand identities as a voice: naming and narrative, logo and wordmark design, type and colour systems, and tone of voice — for brands including Charliee, NITS Overseas, Nirav Machines India, CDS, Madhuram, Sips & Bitess and Shailesh Construction."
+}
+</script>
 <style>
-.page-hero { padding: clamp(150px, 22vh, 250px) var(--pad) clamp(20px, 4vw, 50px); }
-.page-hero .wrap { max-width: var(--maxw); margin: 0 auto; }
-.page-hero h1 { font-size: clamp(2.8rem, 11vw, 9.5rem); letter-spacing: -0.03em; }
-.page-hero .lead { margin-top: 26px; max-width: 50ch; font-size: clamp(1.05rem, 1.5vw, 1.25rem); color: var(--muted); }
+/* ===== Type-specimen utilities ===== */
+.t-serif { font-family: var(--serif); }
+.t-sans  { font-family: var(--sans); }
+.t-mono  { font-family: var(--mono); }
+.t-it    { font-style: italic; }
+.t-up    { text-transform: uppercase; }
+.t-low   { text-transform: lowercase; }
+.t-tight { letter-spacing: -0.04em; }
+.t-wide  { letter-spacing: 0.10em; }
+.t-xwide { letter-spacing: 0.22em; }
+.t-black { font-weight: 700; }
+.t-bold  { font-weight: 600; }
+.t-thin  { font-weight: 300; }
+.t-outline { -webkit-text-stroke: 2px currentColor; color: transparent; }
 
-.brand-filters { display: flex; gap: 10px; flex-wrap: wrap; max-width: var(--maxw); margin: 0 auto clamp(28px,4vw,40px); padding: 0 var(--pad); }
-.brand-filters[hidden] { display: none; }
-.bfilter { border: 1px solid var(--line-2); background: transparent; color: var(--on-bg); border-radius: 100px; padding: 10px 20px; font-size: 0.92rem; font-weight: 500; transition: all 0.3s var(--ease); }
-.bfilter.on { background: var(--accent); color: var(--coffee); border-color: var(--accent); }
-.bfilter:hover:not(.on) { border-color: var(--accent); }
+/* ===== Hero ===== */
+.spec-hero { padding: clamp(150px, 22vh, 250px) var(--pad) clamp(30px, 5vw, 56px); }
+.spec-hero .wrap { max-width: var(--maxw); margin: 0 auto; }
+.spec-hero h1 { font-size: clamp(3rem, 13vw, 12rem); letter-spacing: -0.035em; line-height: 0.86; }
+.voiceword { display: inline-block; color: var(--accent-deep); transition: opacity 0.28s var(--ease); min-width: 0; }
+.voiceword.swap { opacity: 0; }
+.spec-hero .lede { margin-top: clamp(26px, 4vw, 40px); max-width: 58ch; font-size: clamp(1.08rem, 1.7vw, 1.4rem); color: var(--muted); }
+.spec-hero .lede strong { color: var(--on-bg); font-weight: 600; }
 
-.brand-grid { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--pad); display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(16px,2.5vw,28px); }
-@media (max-width: 880px){ .brand-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 520px){ .brand-grid { grid-template-columns: 1fr; } }
-.creative { aspect-ratio: 1/1; border-radius: 20px; overflow: hidden; border: 1px solid var(--line); position: relative; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: transform 0.5s var(--ease), box-shadow 0.5s var(--ease); background-size: cover; background-position: center; }
-.creative:hover { transform: translateY(-6px) rotate(-0.6deg); box-shadow: var(--shadow-lift, 0 30px 70px rgba(40,26,12,0.16)); }
-.creative.hide { display: none; }
-.creative .mark { font-family: var(--serif); font-size: clamp(2.4rem,5vw,4rem); line-height: 1; text-align: center; padding: 16px; }
-.creative .submark { position: absolute; bottom: 14px; left: 16px; font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.16em; text-transform: uppercase; z-index: 2; }
-.creative.has-media { color: var(--paper); }
-.creative.has-media::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 45%, rgba(21,14,7,0.6)); }
-.c-a { background: linear-gradient(150deg,#2A1F16,#6E5328); color: var(--paper); }
-.c-b { background: var(--paper-2); color: var(--ink); }
-.c-c { background: linear-gradient(150deg,#3B2A26,#B8923D); color: var(--paper); }
-.c-d { background: var(--coffee); color: var(--gold-light); }
-.c-e { background: linear-gradient(150deg,#4a3420,#d4af37); color: var(--coffee); }
-.c-f { background: var(--ivory); color: var(--accent-deep); border:1px solid var(--line); }
-.creative .mono-mark { width: 64px; height: 64px; border-radius: 50%; border: 2px solid currentColor; display: grid; place-items: center; font-family: var(--serif); font-size: 2rem; }
+/* ===== Process — six moves ===== */
+.process { border-top: 1px solid var(--line); }
+.pmove {
+    display: grid; grid-template-columns: 0.5fr 1.4fr 2fr; gap: clamp(16px, 4vw, 56px);
+    align-items: baseline; padding: clamp(26px, 4vw, 46px) 0; border-bottom: 1px solid var(--line);
+    position: relative; transition: padding-left 0.5s var(--ease);
+}
+.pmove:hover { padding-left: clamp(6px, 1.5vw, 20px); }
+.pmove .p-no { font-family: var(--mono); font-size: 0.8rem; color: var(--accent-deep); letter-spacing: 0.1em; }
+.pmove .p-act { font-family: var(--serif); font-weight: 430; font-size: clamp(1.7rem, 4.4vw, 3.4rem); line-height: 0.98; letter-spacing: -0.02em; }
+.pmove .p-act em { font-style: italic; color: transparent; background: var(--foil); -webkit-background-clip: text; background-clip: text; }
+.pmove .p-desc { color: var(--muted); font-size: clamp(1rem, 1.3vw, 1.12rem); max-width: 52ch; align-self: center; }
+@media (max-width: 820px){
+    .pmove { grid-template-columns: auto 1fr; }
+    .pmove .p-desc { grid-column: 1 / 3; }
+}
+
+/* ===== Specimen wall ===== */
+.wall-head .section-kick a { color: var(--accent-deep); border-bottom: 1px solid var(--accent); }
+.spec-wall {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid var(--line); border-left: 1px solid var(--line);
+}
+.spec {
+    border-right: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    padding: clamp(26px, 2.6vw, 40px); min-height: clamp(260px, 26vw, 340px);
+    display: flex; flex-direction: column; justify-content: space-between; gap: 26px;
+    position: relative; overflow: hidden; --bc: var(--accent);
+    transition: background 0.55s var(--ease);
+    background: var(--paper);
+}
+.spec.dark { background: var(--coffee); color: var(--dark-on); }
+.spec:hover { background: color-mix(in srgb, var(--bc) 16%, var(--paper)); }
+.spec.dark:hover { background: color-mix(in srgb, var(--bc) 22%, var(--coffee)); }
+.spec.span2 { grid-column: span 2; }
+
+.spec-top { display: flex; align-items: center; justify-content: space-between; gap: 14px; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; }
+.spec-no { color: var(--bc); }
+.spec-cat { color: var(--muted); }
+.spec.dark .spec-cat { color: var(--dark-muted); }
+
+.spec-name { color: var(--bc); line-height: 0.92; letter-spacing: -0.02em; transition: transform 0.5s var(--ease); font-weight: 460; font-size: clamp(2.4rem, 4.6vw, 4.2rem); word-break: break-word; }
+.spec.span2 .spec-name { font-size: clamp(2.8rem, 6vw, 5.6rem); }
+.spec:hover .spec-name { transform: translateX(6px); }
+.spec-name .sub { display: block; font-family: var(--mono); font-weight: 400; font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); margin-top: 12px; -webkit-text-stroke: 0; }
+.spec.dark .spec-name .sub { color: var(--dark-muted); }
+.spec-name .amp { font-family: var(--serif); font-style: italic; }
+
+.spec-foot { display: flex; flex-direction: column; gap: 8px; }
+.spec-voice { font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--bc); }
+.spec-line { font-size: 0.98rem; color: var(--muted); max-width: 40ch; line-height: 1.4; }
+.spec.dark .spec-line { color: var(--dark-muted); }
+
+@media (max-width: 900px){ .spec-wall { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px){ .spec-wall { grid-template-columns: 1fr; } .spec.span2 { grid-column: auto; } }
+
+/* ===== Closing statement ===== */
+.kicker { padding: clamp(80px, 11vw, 150px) var(--pad); border-top: 1px solid var(--dark-line); }
+.kicker p { max-width: 22ch; margin: 0 auto; text-align: center; font-family: var(--serif); font-weight: 380; line-height: 1.04; letter-spacing: -0.02em; font-size: clamp(2.2rem, 6.5vw, 5.2rem); }
+.kicker em { font-style: italic; color: transparent; background: var(--foil); -webkit-background-clip: text; background-clip: text; }
+.kicker .k-cta { display: flex; justify-content: center; margin-top: clamp(34px, 5vw, 52px); }
+
 .skip-link { position: absolute; left: -999px; top: 0; z-index: 100001; background: var(--coffee); color: var(--paper); padding: 12px 18px; border-radius: 0 0 10px 0; font-family: var(--mono); font-size: 0.8rem; }
 .skip-link:focus { left: 0; }
 </style>
 </head>
 <body data-page="branding">
-<a href="#brand-grid" class="skip-link">Skip to content</a>
+<a href="#wall" class="skip-link">Skip to content</a>
 <div class="site" data-screen-label="Branding">
 
 <nav class="nav">
@@ -96,33 +165,152 @@
     <a href="index.html#contact"><span class="num">04</span>Contact</a>
 </div>
 
-<header class="page-hero">
+<!-- HERO -->
+<header class="spec-hero">
     <div class="wrap">
-        <div class="masthead reveal" style="margin-bottom:clamp(24px,4vw,40px);"><span>The Marks</span><span class="mid hide-sm">— 2500+ Creatives —</span><span class="hide-sm">Identity</span><span>Crafting Tales</span></div>
-        <h1 class="display kin"><span class="kin-line"><span>Brands people</span></span><span class="kin-line"><span><span class="foil it">remember.</span></span></span></h1>
-        <p class="lead reveal" data-delay style="--d:.4s">Logos, creatives and identities with a point of view — work that looks nothing like a template.</p>
+        <div class="masthead reveal" style="display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 0;font-family:var(--mono);font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--muted);margin-bottom:clamp(28px,4vw,46px);">
+            <span>The Marks · Nº 03</span><span class="hide-sm" style="color:var(--accent-deep)">— No images were used —</span><span class="hide-sm">Set in type</span><span>Crafting Tales</span>
+        </div>
+        <h1 class="display kin">
+            <span class="kin-line"><span>We make brands</span></span>
+            <span class="kin-line"><span><span class="voiceword t-serif t-it" id="voiceWord">unforgettable.</span></span></span>
+        </h1>
+        <p class="lede reveal" data-delay style="--d:.4s">Branding at gaa-tha isn't a logo on a moodboard. It's a <strong>voice</strong> — the two or three words a brand can't stop saying, and the way it says them. So we built this whole page out of nothing but type. <strong>If a name can hold the room in plain letters, imagine it in the wild.</strong></p>
     </div>
 </header>
 
-<main>
-<div class="brand-filters reveal" hidden role="tablist" aria-label="Filter creatives">
-    <button class="bfilter on" data-bf="all">All</button>
-    <button class="bfilter" data-bf="logos">Logos</button>
-    <button class="bfilter" data-bf="posts">Social Posts</button>
-    <button class="bfilter" data-bf="banners">Banners</button>
-</div>
+<div class="marquee" aria-hidden="true"><div class="marquee-track">
+    <span class="marquee-item">Naming <span class="star">✦</span></span><span class="marquee-item">Wordmarks <span class="star">✦</span></span><span class="marquee-item">Voice <span class="star">✦</span></span><span class="marquee-item">Identity <span class="star">✦</span></span><span class="marquee-item">Type systems <span class="star">✦</span></span><span class="marquee-item">Colour <span class="star">✦</span></span>
+    <span class="marquee-item">Naming <span class="star">✦</span></span><span class="marquee-item">Wordmarks <span class="star">✦</span></span><span class="marquee-item">Voice <span class="star">✦</span></span><span class="marquee-item">Identity <span class="star">✦</span></span><span class="marquee-item">Type systems <span class="star">✦</span></span><span class="marquee-item">Colour <span class="star">✦</span></span>
+</div></div>
 
-<section class="section" aria-label="Branding portfolio" style="padding-top: clamp(40px,5vw,60px);">
-    <div class="brand-grid" id="brandGrid" data-cursor="View">
-        <div class="creative c-a reveal"><span class="mark it">Lumière</span><span class="submark">Wordmark</span></div>
-        <div class="creative c-b reveal"><span class="mono-mark">N</span><span class="submark">Monogram · Northwind</span></div>
-        <div class="creative c-c reveal"><span class="mark">Saffron<br>&amp; Co</span><span class="submark">Identity</span></div>
-        <div class="creative c-d reveal"><span class="mark it">Vireo</span><span class="submark">Logotype</span></div>
-        <div class="creative c-e reveal"><span class="mono-mark">M</span><span class="submark">Monogram · Maison Rao</span></div>
-        <div class="creative c-f reveal"><span class="mark">Tide<br>Studio</span><span class="submark">Wordmark</span></div>
-        <div class="creative c-c reveal"><span class="mark it">Halcyon</span><span class="submark">Identity</span></div>
-        <div class="creative c-d reveal"><span class="mono-mark">A</span><span class="submark">Monogram · Auro Labs</span></div>
-        <div class="creative c-b reveal"><span class="mark">Indigo<br>House</span><span class="submark">Wordmark</span></div>
+<main>
+<!-- HOW BRANDING WORKS -->
+<section class="section" id="how" aria-labelledby="how-title">
+    <div class="section-head">
+        <span class="eyebrow reveal">How branding works here · Nº 01</span>
+        <h2 id="how-title" class="section-title display reveal">Six moves, blank page<br>to <span class="foil it">brand.</span></h2>
+        <p class="section-kick reveal">No secret sauce — just a stubborn process. Here's the whole thing.</p>
+    </div>
+    <div class="process" data-stagger="0.05">
+        <div class="pmove reveal"><span class="p-no">01</span><h3 class="p-act">Listen for the <em>accent</em></h3><p class="p-desc">Every brand mumbles before it speaks. We find the voice that's already in there — in how you talk to customers, what you're proud of, what you'd never say.</p></div>
+        <div class="pmove reveal"><span class="p-no">02</span><h3 class="p-act">Name the <em>obsession</em></h3><p class="p-desc">The two or three words your brand can't shut up about. Nail those and the strategy writes itself. Miss them and no logo will save you.</p></div>
+        <div class="pmove reveal"><span class="p-no">03</span><h3 class="p-act">Draw the <em>mark</em></h3><p class="p-desc">A logo isn't art — it's a signature that has to survive a 16-pixel favicon and a forty-foot hoarding, and still look like you.</p></div>
+        <div class="pmove reveal"><span class="p-no">04</span><h3 class="p-act">Set the <em>voice</em></h3><p class="p-desc">Type, tone, the rhythm of a sentence. How the brand texts, how it argues, how it flirts. This is where most agencies stop. It's where we start.</p></div>
+        <div class="pmove reveal"><span class="p-no">05</span><h3 class="p-act">Build the <em>system</em></h3><p class="p-desc">Colour, a type scale, the rules of the road — a kit anyone on your team can pick up and wield without ringing us at midnight.</p></div>
+        <div class="pmove reveal"><span class="p-no">06</span><h3 class="p-act">Let it <em>loose</em></h3><p class="p-desc">Then we put it where thumbs are. The good ones stop. The numbers follow — they always do.</p></div>
+    </div>
+</section>
+
+<!-- THE SPECIMEN WALL -->
+<section class="section" id="wall" aria-labelledby="wall-title" style="padding-top:0;">
+    <div class="section-head wall-head">
+        <span class="eyebrow reveal">The roster · Nº 02</span>
+        <h2 id="wall-title" class="section-title display reveal">In their own <span class="foil it">letters.</span></h2>
+        <p class="section-kick reveal">Real brands we've voiced — rendered in nothing but type and their own colours. One name, one personality, zero stock photos.</p>
+    </div>
+
+    <!-- gaa-tha team: edit a brand below — colour lives in style="--bc:#hex" (pulled from each real logo). -->
+    <div class="spec-wall" data-cursor="Read">
+
+        <article class="spec span2 dark reveal" style="--bc:#F2867F;">
+            <div class="spec-top"><span class="spec-no">01</span><span class="spec-cat">Lifestyle</span></div>
+            <h3 class="spec-name t-serif t-it t-low">Charliee</h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — warm · playful · a little flirty</span><p class="spec-line">A wordmark that winks before it ever says hello.</p></div>
+        </article>
+
+        <article class="spec reveal" style="--bc:#D81830;">
+            <div class="spec-top"><span class="spec-no">02</span><span class="spec-cat">Overseas Education</span></div>
+            <h3 class="spec-name t-serif t-up t-wide">NITS<br>Overseas</h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — worldly · trusted</span><p class="spec-line">A name that already has its visa stamped.</p></div>
+        </article>
+
+        <article class="spec reveal" style="--bc:#186030;">
+            <div class="spec-top"><span class="spec-no">03</span><span class="spec-cat">Industrial</span></div>
+            <h3 class="spec-name t-mono t-up t-tight">NMI<span class="sub">Nirav Machines India</span></h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — precise · engineered</span><p class="spec-line">Set to the tolerances of a machined part.</p></div>
+        </article>
+
+        <article class="spec reveal" style="--bc:#D83018;">
+            <div class="spec-top"><span class="spec-no">04</span><span class="spec-cat">Retail</span></div>
+            <h3 class="spec-name t-sans t-black t-up t-tight">CDS<span class="sub">Stores</span></h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — bold · everyday</span><p class="spec-line">Loud enough to read from the end of the aisle.</p></div>
+        </article>
+
+        <article class="spec span2 reveal" style="--bc:#E0352F;">
+            <div class="spec-top"><span class="spec-no">05</span><span class="spec-cat">Sweets &amp; Mithai</span></div>
+            <h3 class="spec-name t-serif t-it">Madhuram</h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — sweet · heritage · indulgent</span><p class="spec-line">A serif as rich as the mithai it sells.</p></div>
+        </article>
+
+        <article class="spec dark reveal" style="--bc:#F0A818;">
+            <div class="spec-top"><span class="spec-no">06</span><span class="spec-cat">Café &amp; Bites</span></div>
+            <h3 class="spec-name t-serif t-it">Sips <span class="amp">&amp;</span> Bitess</h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — cosy · moreish</span><p class="spec-line">An ampersand you'd happily sit down with.</p></div>
+        </article>
+
+        <article class="spec dark reveal" style="--bc:#18B0E0;">
+            <div class="spec-top"><span class="spec-no">07</span><span class="spec-cat">Construction</span></div>
+            <h3 class="spec-name t-sans t-black t-up t-tight">Shailesh<span class="sub">Construction</span></h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — solid · load-bearing</span><p class="spec-line">A wordmark with rebar in its spine.</p></div>
+        </article>
+
+        <article class="spec dark reveal" style="--bc:#D98A3D;">
+            <div class="spec-top"><span class="spec-no">08</span><span class="spec-cat">Rentals</span></div>
+            <h3 class="spec-name t-sans t-black t-it">Rentastic</h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — friendly · fuss-free</span><p class="spec-line">Renting, minus the fine-print energy.</p></div>
+        </article>
+
+        <article class="spec span2 reveal" style="--bc:#301848;">
+            <div class="spec-top"><span class="spec-no">09</span><span class="spec-cat">Games &amp; Hobbies</span></div>
+            <h3 class="spec-name t-mono t-up t-tight">New Rave<span class="sub">TCG &amp; Hobbies</span></h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — electric · collectible</span><p class="spec-line">Type that levels up on hover.</p></div>
+        </article>
+
+        <article class="spec reveal" style="--bc:#D80000;">
+            <div class="spec-top"><span class="spec-no">10</span><span class="spec-cat">Lifestyle</span></div>
+            <h3 class="spec-name t-serif">Navami</h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — festive · rooted</span><p class="spec-line">Tradition, set in a thoroughly modern hand.</p></div>
+        </article>
+
+        <article class="spec dark reveal" style="--bc:#ECC6B4;">
+            <div class="spec-top"><span class="spec-no">11</span><span class="spec-cat">Heritage</span></div>
+            <h3 class="spec-name t-serif t-it">Saurashtra</h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — hearty · proud</span><p class="spec-line">A name that tastes like home.</p></div>
+        </article>
+
+        <article class="spec reveal" style="--bc:#186090;">
+            <div class="spec-top"><span class="spec-no">12</span><span class="spec-cat">Institution</span></div>
+            <h3 class="spec-name t-mono t-up t-xwide">GSPS</h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — steady · sharp</span><p class="spec-line">An acronym that earns every one of its capitals.</p></div>
+        </article>
+
+        <article class="spec reveal" style="--bc:#0060A8;">
+            <div class="spec-top"><span class="spec-no">13</span><span class="spec-cat">Enterprise</span></div>
+            <h3 class="spec-name t-mono t-up t-xwide">HPMG</h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — crisp · capable</span><p class="spec-line">Four letters, one confident handshake.</p></div>
+        </article>
+
+        <article class="spec reveal" style="--bc:#304860;">
+            <div class="spec-top"><span class="spec-no">14</span><span class="spec-cat">Premium</span></div>
+            <h3 class="spec-name t-serif t-low">Aath<span class="t-outline">rr</span></h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — calm · considered</span><p class="spec-line">The extra ‘r’? Entirely the point.</p></div>
+        </article>
+
+        <article class="spec dark reveal" style="--bc:#1FA98F;">
+            <div class="spec-top"><span class="spec-no">15</span><span class="spec-cat">D2C</span></div>
+            <h3 class="spec-name t-sans t-black t-low t-tight">Kitcoz</h3>
+            <div class="spec-foot"><span class="spec-voice">Voice — fresh · clever</span><p class="spec-line">A name practically built to be doodled.</p></div>
+        </article>
+
+    </div>
+</section>
+
+<!-- WITTY CLOSING -->
+<section class="section scene-dark" data-scene="dark" aria-label="Branding call to action" style="padding-block:0;">
+    <div class="kicker">
+        <p>If your logo needs the caption <em>"(it's a lion)"</em> — we should talk.</p>
+        <div class="k-cta"><a href="index.html#contact" class="btn btn-primary magnetic">Give your brand a voice <span class="arr">→</span></a></div>
     </div>
 </section>
 </main>
@@ -144,27 +332,33 @@
 </footer>
 
 </div>
-<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
 <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
 <script src="gaatha.js"></script>
-<script src="gaatha-data.js"></script>
 <script>
-var currentBrandFilter = 'all';
-function applyBrandFilter() {
-    document.querySelectorAll('#brandGrid .creative').forEach(function (c) {
-        c.classList.toggle('hide', currentBrandFilter !== 'all' && c.dataset.cat !== currentBrandFilter);
-    });
-}
-window.gaathaApplyBrandFilter = applyBrandFilter;
-document.querySelectorAll('.bfilter').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-        document.querySelectorAll('.bfilter').forEach(function (b) { b.classList.remove('on'); });
-        btn.classList.add('on');
-        currentBrandFilter = btn.dataset.bf;
-        applyBrandFilter();
-    });
-});
+/* Hero "voice" word — the same word, wearing many typographic voices.
+   Demonstrates the whole thesis: branding is choosing a voice. */
+(function () {
+    var el = document.getElementById('voiceWord');
+    if (!el) return;
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var voices = [
+        'voiceword t-serif t-it',
+        'voiceword t-sans t-black t-up t-tight',
+        'voiceword t-mono t-up',
+        'voiceword t-serif t-outline',
+        'voiceword t-sans t-thin t-low'
+    ];
+    var i = 0;
+    setInterval(function () {
+        el.classList.add('swap');
+        setTimeout(function () {
+            i = (i + 1) % voices.length;
+            el.className = voices[i];
+            el.classList.add('swap');
+            requestAnimationFrame(function () { el.classList.remove('swap'); });
+        }, 280);
+    }, 2200);
+})();
 </script>
 </body>
 </html>
