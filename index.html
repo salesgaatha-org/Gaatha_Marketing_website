@@ -1,1191 +1,699 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gaa-tha - A digital marketing agency</title>
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://gaa-tha.com/">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://gaa-tha.com/">
-    <meta property="og:title" content="gaa-tha - A digital marketing agency">
-    <meta property="og:image" content="https://gaa-tha.com/images/gaatha logo - Copy.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:site_name" content="gaa-tha">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://gaa-tha.com/">
-    <meta property="twitter:title" content="gaa-tha - A digital marketing agency">
-    <meta property="twitter:image" content="https://gaa-tha.com/images/gaatha logo - Copy.png">
-    <meta property="twitter:image:alt" content="gaa-tha - A digital marketing agency">
-    
-    <!-- Additional meta tags for better URL handling -->
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:updated_time" content="2025-01-27T00:00:00Z">
-    
-    <!-- WhatsApp specific meta tags -->
-    <meta property="og:description" content="">
-    <meta name="description" content="">
-    <meta property="og:image:alt" content="gaa-tha logo">
-    <meta name="twitter:description" content="">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* Page-specific: compact navbar height */
-        nav.glass { padding: 8px 16px !important; }
-        nav.glass .logo img { height: 36px !important; }
-        /* Distribute navbar items: logo (start), links (center), CTA (end) */
-        @media (min-width: 768px) {
-            nav.glass { display: flex; align-items: center; width: 70%; max-width: 720px; }
-            nav.glass .logo { flex: 0 0 auto; }
-            nav.glass .nav-links { flex: 1 1 auto; display: flex; justify-content: center; gap: 28px; }
-            nav.glass .cta-btn { flex: 0 0 auto; }
-            /* Hide hamburger on desktop so spacing stays consistent */
-            nav.glass .menu-toggle { display: none !important; }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>gaa-tha — Digital Marketing &amp; Storytelling Agency | Reels, Websites, Branding</title>
+<meta name="description" content="gaa-tha is a storytelling-led digital marketing agency crafting scroll-stopping reels, conversion-focused websites and unforgettable brands — powered by strategy, creativity and AI. India-rooted, globally minded.">
+<meta name="keywords" content="digital marketing agency, storytelling agency, social media marketing, performance marketing, AI ads, reels, branding, web development, SEO, AEO, GEO, UGC, influencer marketing, gaa-tha, gaatha">
+<meta name="author" content="gaa-tha">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#150E07">
+<link rel="canonical" href="https://gaa-tha.com/">
+
+<!-- Icons -->
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="apple-touch-icon" href="assets/logo.png">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="gaa-tha">
+<meta property="og:title" content="gaa-tha — Digital Marketing &amp; Storytelling Agency">
+<meta property="og:description" content="We craft tales that turn brands into movements — scroll-stopping reels, conversion websites and unforgettable branding, powered by strategy and AI.">
+<meta property="og:url" content="https://gaa-tha.com/">
+<meta property="og:image" content="https://gaa-tha.com/assets/logo.png">
+<meta property="og:image:alt" content="gaa-tha — Crafting Tales">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="gaa-tha — Digital Marketing &amp; Storytelling Agency">
+<meta name="twitter:description" content="We craft tales that turn brands into movements — reels, websites and branding, powered by strategy and AI.">
+<meta name="twitter:image" content="https://gaa-tha.com/assets/logo.png">
+<meta name="twitter:image:alt" content="gaa-tha — Crafting Tales">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="gaatha.css">
+
+<!-- Structured data: Organization · WebSite · Services -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization", "ProfessionalService"],
+      "@id": "https://gaa-tha.com/#organization",
+      "name": "gaa-tha",
+      "alternateName": ["Gaatha", "Gaa-tha", "Team Gaatha"],
+      "url": "https://gaa-tha.com/",
+      "logo": "https://gaa-tha.com/assets/logo.png",
+      "image": "https://gaa-tha.com/assets/logo.png",
+      "description": "gaa-tha is a storytelling-led digital marketing agency crafting scroll-stopping reels, conversion-focused websites and unforgettable brands, powered by strategy, creativity and AI.",
+      "slogan": "Crafting Tales — your brand, but unskippable.",
+      "foundingDate": "2024",
+      "email": "digimarketing@gaa-tha.com",
+      "telephone": "+91-97372-80309",
+      "priceRange": "$$",
+      "areaServed": "Worldwide",
+      "knowsAbout": ["Digital Marketing", "Social Media Marketing", "Performance Marketing", "Branding", "Web Development", "AI-Based Ads", "AI Cloning", "Influencer Marketing", "UGC", "SEO", "Answer Engine Optimization", "Generative Engine Optimization"],
+      "founder": [
+        { "@type": "Person", "name": "Abhishek Khuthiya", "jobTitle": "Co-Founder & Strategist" },
+        { "@type": "Person", "name": "Getansh Savla", "jobTitle": "Co-Founder & Creative Lead" }
+      ],
+      "address": { "@type": "PostalAddress", "addressCountry": "IN" },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-97372-80309",
+        "email": "digimarketing@gaa-tha.com",
+        "contactType": "sales",
+        "availableLanguage": ["English", "Hindi"]
+      },
+      "sameAs": [
+        "https://instagram.com/__gaa.tha__/",
+        "https://www.linkedin.com/company/teamgaatha/",
+        "https://www.facebook.com/people/Gaa-tha/61562303836796/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://gaa-tha.com/#website",
+      "url": "https://gaa-tha.com/",
+      "name": "gaa-tha",
+      "publisher": { "@id": "https://gaa-tha.com/#organization" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Service",
+      "name": "Digital Marketing & Content Production",
+      "provider": { "@id": "https://gaa-tha.com/#organization" },
+      "areaServed": "Worldwide",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "gaa-tha services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Scroll-stopping Reels" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Conversion Websites & Apps" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Branding & Design" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Performance Marketing" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Social Media Marketing" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO, AEO & GEO" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Influencer & UGC Marketing" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI-Based Ads & AI Cloning" } }
+        ]
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Structured data: FAQ (AEO / GEO) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is gaa-tha?",
+      "acceptedAnswer": { "@type": "Answer", "text": "gaa-tha is a storytelling-led digital marketing agency. We turn brands into movements with scroll-stopping reels, conversion-focused websites and memorable branding — blending strategy, creativity and AI-driven production. Founded in 2024, we are India-rooted and globally minded." }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the word \"gaa-tha\" mean?",
+      "acceptedAnswer": { "@type": "Answer", "text": "\"gaa-tha\" (गाथा) means \"story\" or \"tale\". We tell your brand's story so well that thumbs stop scrolling, audiences hit follow, and followers become customers." }
+    },
+    {
+      "@type": "Question",
+      "name": "What services does gaa-tha offer?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Strategy, social media marketing, performance marketing, SEO/AEO/GEO, influencer and UGC marketing, AI-based ads, AI cloning, web and app development, and branding and design." }
+    },
+    {
+      "@type": "Question",
+      "name": "What are AEO and GEO, and does gaa-tha do them?",
+      "acceptedAnswer": { "@type": "Answer", "text": "AEO (Answer Engine Optimization) makes your brand the answer in Google AI Overviews and voice assistants. GEO (Generative Engine Optimization) makes your brand discoverable and citable inside generative AI tools like ChatGPT, Gemini and Perplexity. gaa-tha optimises for all three: SEO, AEO and GEO." }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is gaa-tha based and how can I contact it?",
+      "acceptedAnswer": { "@type": "Answer", "text": "gaa-tha is an India-rooted, globally minded team working with brands worldwide. Email digimarketing@gaa-tha.com or call +91 97372 80309 to start a project." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I start a project with gaa-tha?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Tell us about your brand using the contact form on gaa-tha.com or email digimarketing@gaa-tha.com. We reply with a plan, scope and timeline, and most projects kick off within days." }
+    }
+  ]
+}
+</script>
+
+<style>
+/* ===== Hero ===== */
+.hero { padding: clamp(120px, 16vh, 200px) var(--pad) clamp(40px, 6vw, 80px); position: relative; }
+.masthead {
+    max-width: var(--maxw); margin: 0 auto clamp(24px, 4vw, 50px);
+    display: flex; align-items: center; justify-content: space-between; gap: 20px;
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    padding: 12px 0; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--muted);
+}
+.masthead span { white-space: nowrap; }
+.masthead .mid { color: var(--accent-deep); }
+@media (max-width: 700px){ .masthead .hide-sm { display: none; } }
+
+.hero-inner { max-width: var(--maxw); margin: 0 auto; }
+.hero-headline { font-size: clamp(2.9rem, 11.2vw, 10rem); letter-spacing: -0.03em; margin-bottom: clamp(34px, 5vw, 66px); }
+.hero-headline .kin-line:nth-child(2) { padding-left: clamp(0px, 6vw, 1.1em); }
+.hero-row { display: grid; grid-template-columns: 1fr 0.78fr; gap: clamp(28px, 5vw, 70px); align-items: end; }
+.hero-lead { display: flex; flex-direction: column; gap: 26px; max-width: 46ch; padding-bottom: 6px; }
+.hero-lead p { font-size: clamp(1.05rem, 1.6vw, 1.3rem); color: var(--muted); }
+.hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+
+.hero-media { position: relative; }
+.hero-portal {
+    position: relative; aspect-ratio: 4 / 5; border-radius: 220px 220px 18px 18px;
+    overflow: hidden; transform: rotate(2deg); box-shadow: 0 40px 90px -30px rgba(40,26,12,0.5);
+    border: 1px solid var(--line);
+}
+.hero-portal video { width: 100%; height: 100%; object-fit: cover; }
+.hero-portal::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(21,14,7,0.4)); }
+.now-playing {
+    position: absolute; left: -10px; bottom: 26px; z-index: 3; transform: rotate(2.2deg);
+    background: var(--coffee); color: var(--paper); font-family: var(--mono); font-size: 0.66rem;
+    letter-spacing: 0.22em; text-transform: uppercase; padding: 9px 15px; border-radius: 100px;
+    display: inline-flex; align-items: center; gap: 9px;
+}
+.now-playing .blip { width: 7px; height: 7px; border-radius: 50%; background: #ff5a4d; box-shadow: 0 0 0 0 rgba(255,90,77,0.6); animation: blip 1.6s infinite; }
+@keyframes blip { 0%{box-shadow:0 0 0 0 rgba(255,90,77,0.6)} 70%{box-shadow:0 0 0 8px rgba(255,90,77,0)} 100%{box-shadow:0 0 0 0 rgba(255,90,77,0)} }
+/* Rotating showreel badge */
+.reel-badge { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: clamp(108px, 13vw, 142px); height: clamp(108px, 13vw, 142px); z-index: 4; display: grid; place-items: center; }
+.reel-badge .badge-ring { position: absolute; inset: 0; animation: spin 16s linear infinite; }
+@media (prefers-reduced-motion: reduce){ .reel-badge .badge-ring { animation: none; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+.reel-badge text { font-family: var(--mono); font-size: 8.3px; letter-spacing: 2.2px; fill: var(--paper); text-transform: uppercase; }
+.reel-badge .badge-core { width: 46px; height: 46px; border-radius: 50%; background: var(--paper); color: var(--coffee); display: grid; place-items: center; box-shadow: 0 8px 22px rgba(0,0,0,0.3); transition: transform 0.4s var(--ease), background 0.4s; }
+.reel-badge:hover .badge-core { transform: scale(1.12); background: var(--accent); }
+.reel-badge .badge-core svg { width: 16px; height: 16px; margin-left: 2px; }
+.scroll-cue { position: absolute; right: var(--pad); bottom: 22px; font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); display: flex; align-items: center; gap: 10px; writing-mode: vertical-rl; }
+.scroll-cue i { width: 1px; height: 46px; background: var(--line-2); position: relative; overflow: hidden; }
+.scroll-cue i::after { content:''; position:absolute; top:-50%; left:0; width:100%; height:50%; background:var(--accent); animation: cue 2s var(--ease) infinite; }
+@keyframes cue { to { top: 100%; } }
+@media (max-width: 880px){
+    .hero-row { grid-template-columns: 1fr; }
+    .hero-media { max-width: 300px; margin-top: 26px; order: 2; }
+    .scroll-cue { display: none; }
+}
+
+/* ===== Stats ===== */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; max-width: var(--maxw); margin: 0 auto; }
+.stat { padding: 14px clamp(14px, 2.5vw, 34px); border-left: 1px solid var(--line); }
+.stat:first-child { border-left: none; padding-left: 0; }
+.stat-num { font-family: var(--serif); font-weight: 380; font-size: clamp(2.6rem, 6vw, 5.4rem); line-height: 1; letter-spacing: -0.02em; }
+.stat-label { margin-top: 12px; font-size: 0.92rem; color: var(--muted); max-width: 18ch; }
+@media (max-width: 760px){ .stats { grid-template-columns: 1fr 1fr; gap: 28px 0; } .stat:nth-child(odd){ border-left:none; padding-left:0; } .stat:nth-child(even){ padding-left: 24px; } }
+
+/* ===== Statement ===== */
+.statement { padding: clamp(70px, 10vw, 130px) var(--pad); }
+.statement p { margin: 0 auto; text-align: left; font-family: var(--serif); font-weight: 380; line-height: 1.05; letter-spacing: -0.02em; font-size: clamp(2.2rem, 6.8vw, 5.6rem); max-width: 20ch; }
+.statement em { font-style: italic; color: transparent; background: var(--foil); -webkit-background-clip: text; background-clip: text; }
+
+/* ===== Signature Moves (editorial accordion) ===== */
+.moves { border-top: 1px solid var(--line); }
+.move {
+    border-bottom: 1px solid var(--line); position: relative; cursor: pointer;
+    display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: clamp(16px, 4vw, 60px);
+    padding: clamp(22px, 3vw, 38px) 0;
+    transition: padding 0.5s var(--ease);
+}
+.move .m-no { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); padding-top: 6px; }
+.move .m-title { font-family: var(--serif); font-weight: 400; font-size: clamp(2rem, 6vw, 4.6rem); line-height: 0.98; letter-spacing: -0.02em; transition: color 0.4s var(--ease), transform 0.5s var(--ease); }
+.move .m-plus { width: 46px; height: 46px; border: 1px solid var(--line-2); border-radius: 50%; display: grid; place-items: center; font-size: 1.4rem; color: var(--accent-deep); transition: all 0.5s var(--ease); }
+.move-detail { grid-column: 2 / 3; display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.6s var(--ease); }
+.move-detail > div { overflow: hidden; }
+.move-body { padding-top: 0; display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: end; opacity: 0; transition: opacity 0.5s var(--ease) 0.1s; }
+.move-body p { max-width: 52ch; color: var(--muted); font-size: 1.05rem; }
+.move.open { padding-bottom: clamp(28px, 3vw, 44px); }
+.move.open .m-title { color: var(--accent-deep); transform: translateX(8px); }
+.move.open .m-plus { background: var(--accent); border-color: var(--accent); color: var(--coffee); transform: rotate(135deg); }
+.move.open .move-detail { grid-template-rows: 1fr; padding-top: 22px; }
+.move.open .move-body { opacity: 1; }
+.move:hover .m-title { color: var(--accent-deep); }
+.move-link { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent-deep); white-space: nowrap; border-bottom: 1px solid var(--accent); padding-bottom: 4px; }
+@media (max-width: 640px){ .move { grid-template-columns: auto 1fr; } .move .m-plus { display: none; } .move-detail { grid-column: 1 / 3; } .move-body { grid-template-columns: 1fr; } }
+
+/* ===== How We Roll (discipline grid) ===== */
+.roll-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.roll-cell {
+    border-right: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    padding: clamp(26px, 3vw, 40px); position: relative; overflow: hidden; min-height: 220px;
+    display: flex; flex-direction: column; justify-content: space-between; gap: 28px;
+    transition: background 0.5s var(--ease);
+}
+.roll-cell::before { content: ''; position: absolute; inset: 0; background: var(--foil); opacity: 0; transition: opacity 0.5s var(--ease); z-index: -1; }
+.roll-cell:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.roll-cell .r-no { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); letter-spacing: 0.12em; }
+.roll-cell .r-icon { color: var(--accent-deep); }
+.roll-cell h3 { font-family: var(--serif); font-weight: 420; font-size: clamp(1.4rem, 2.4vw, 1.9rem); line-height: 1.05; letter-spacing: -0.01em; }
+.roll-cell p { font-size: 0.92rem; color: var(--muted); margin-top: 8px; }
+@media (max-width: 860px){ .roll-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px){ .roll-grid { grid-template-columns: 1fr; } }
+
+/* ===== Clients ===== */
+.clients-vel { display: flex; flex-direction: column; gap: 18px; }
+.cvel { overflow: hidden; transform: skewX(var(--skew, 0deg)); transition: transform 0.5s var(--ease); }
+.cvel-track { display: flex; gap: 0; width: max-content; }
+.cvel-track.a { animation: scrollx 38s linear infinite; }
+.cvel-track.b { animation: scrollx 30s linear infinite reverse; }
+.cvel.mq-paused .cvel-track { animation-play-state: paused; }
+.cvel-item { font-family: var(--serif); font-weight: 380; font-size: clamp(1.8rem, 5vw, 3.6rem); padding: 0 0.5em; color: transparent; -webkit-text-stroke: 1px rgba(244,238,223,0.42); white-space: nowrap; transition: color 0.4s, -webkit-text-stroke 0.4s; display: inline-block; }
+.cvel-item:hover { color: var(--accent-light); -webkit-text-stroke: 1px transparent; }
+.cvel-item .dot { color: var(--accent); -webkit-text-stroke: 0; }
+
+/* ===== Testimonials ===== */
+.tcard { max-width: 1000px; margin: 0 auto; text-align: center; }
+.tquote { font-family: var(--serif); font-weight: 360; font-style: italic; font-size: clamp(1.7rem, 4.2vw, 3.2rem); line-height: 1.18; letter-spacing: -0.01em; min-height: 4em; transition: opacity 0.5s var(--ease); border: none; padding: 0; margin: 0; }
+.tquote .big-q { color: var(--accent); font-size: 1.3em; }
+.tmeta { margin-top: 34px; transition: opacity 0.5s var(--ease); }
+.tname { font-family: var(--mono); font-size: 0.86rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent-light); }
+.trole { font-size: 0.92rem; color: var(--dark-muted); margin-top: 6px; }
+.tnav { display: flex; align-items: center; justify-content: center; gap: 26px; margin-top: 44px; }
+.tnav button { width: 52px; height: 52px; border: 1px solid var(--dark-line); border-radius: 50%; background: none; color: var(--dark-on); font-size: 1.3rem; display: grid; place-items: center; transition: all 0.3s var(--ease); }
+.tnav button:hover { background: var(--accent); color: var(--coffee); border-color: var(--accent); }
+.tdots { display: flex; gap: 9px; }
+.tdots i { width: 8px; height: 8px; border-radius: 50%; background: var(--dark-line); transition: all 0.3s var(--ease); cursor: pointer; }
+.tdots i.on { background: var(--accent); width: 26px; border-radius: 6px; }
+.fading { opacity: 0.18; }
+
+/* ===== FAQ ===== */
+.faq-list { max-width: 900px; margin: 0 auto; border-top: 1px solid var(--line); }
+.faq-item { border-bottom: 1px solid var(--line); }
+.faq-q { width: 100%; text-align: left; background: none; border: none; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: clamp(20px, 3vw, 30px) 0; font-family: var(--serif); font-weight: 430; font-size: clamp(1.2rem, 2.6vw, 1.8rem); letter-spacing: -0.01em; color: var(--on-bg); }
+.faq-q .faq-ic { flex: 0 0 auto; width: 38px; height: 38px; border: 1px solid var(--line-2); border-radius: 50%; display: grid; place-items: center; font-size: 1.2rem; color: var(--accent-deep); transition: all 0.45s var(--ease); }
+.faq-item.open .faq-ic { background: var(--accent); border-color: var(--accent); color: var(--coffee); transform: rotate(135deg); }
+.faq-a { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.5s var(--ease); }
+.faq-a > div { overflow: hidden; }
+.faq-a p { padding-bottom: clamp(20px, 3vw, 30px); color: var(--muted); font-size: 1.05rem; max-width: 70ch; }
+.faq-item.open .faq-a { grid-template-rows: 1fr; }
+
+/* ===== Contact ===== */
+.contact-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: clamp(30px, 5vw, 70px); max-width: var(--maxw); margin: 0 auto; }
+.cform { display: flex; flex-direction: column; gap: 26px; }
+.frow { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.field { display: flex; flex-direction: column; gap: 9px; }
+.field label { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent-light); }
+.field input, .field textarea { background: transparent; border: none; border-bottom: 1px solid var(--dark-line); color: var(--dark-on); font-family: var(--serif); font-size: 1.3rem; padding: 8px 0; transition: border-color 0.4s var(--ease); }
+.field textarea { resize: vertical; min-height: 70px; font-size: 1.15rem; }
+.field input::placeholder, .field textarea::placeholder { color: rgba(244,238,223,0.32); }
+.field input:focus, .field textarea:focus { outline: none; border-color: var(--accent); }
+.contact-side { display: flex; flex-direction: column; gap: 34px; }
+.cinfo h4 { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent-light); margin-bottom: 16px; font-weight: 400; }
+.cinfo a, .cinfo p { color: var(--dark-on); font-size: 1.05rem; display: block; margin-bottom: 6px; transition: color 0.3s; }
+.cinfo a:hover { color: var(--accent-light); }
+.csoc { display: flex; gap: 12px; margin-top: 4px; }
+.csoc a { width: 44px; height: 44px; border: 1px solid var(--dark-line); border-radius: 50%; display: grid; place-items: center; transition: all 0.3s var(--ease); }
+.csoc a:hover { background: var(--accent); color: var(--coffee); border-color: var(--accent); transform: translateY(-3px); }
+.csoc svg { width: 18px; height: 18px; }
+@media (max-width: 820px){ .contact-grid { grid-template-columns: 1fr; } .frow { grid-template-columns: 1fr; } }
+
+/* ===== Skip link (a11y) ===== */
+.skip-link { position: absolute; left: -999px; top: 0; z-index: 100001; background: var(--coffee); color: var(--paper); padding: 12px 18px; border-radius: 0 0 10px 0; font-family: var(--mono); font-size: 0.8rem; }
+.skip-link:focus { left: 0; }
+</style>
 </head>
-<body>
-    <!-- Navigation -->
-    <nav class="glass">
-        <div class="logo"><a href="index.html"><img src="images/gaatha_logo_-_Copy-removebg-preview.png" alt="Gaa-tha" /></a></div>
-        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+<body data-page="home">
+<a href="#moves" class="skip-link">Skip to content</a>
+<div class="site" data-screen-label="Homepage">
+
+<!-- NAV -->
+<nav class="nav">
+    <a class="nav-logo" href="index.html" aria-label="gaa-tha home"><img src="assets/logo.png" alt="gaa-tha logo"></a>
+    <div class="nav-right">
         <ul class="nav-links">
-            <li><a href="#services">Services</a></li>
+            <li><a href="#moves">Services</a></li>
             <li><a href="work.html">Work</a></li>
-            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#faq">FAQ</a></li>
         </ul>
-        <a href="#contact" class="cta-btn">Start a project</a>
-    </nav>
+        <a href="#contact" class="btn btn-primary nav-cta magnetic">Start a project <span class="arr">→</span></a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+</nav>
+<div class="mobile-menu">
+    <button class="mm-close" aria-label="Close menu">✕</button>
+    <a href="#moves"><span class="num">01</span>Services</a>
+    <a href="work.html"><span class="num">02</span>Work</a>
+    <a href="about.html"><span class="num">03</span>About</a>
+    <a href="#faq"><span class="num">04</span>FAQ</a>
+    <a href="#contact"><span class="num">05</span>Contact</a>
+</div>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-top">
-            <div class="hero-copy">
-                <h1 class="fade-in hero-text-mobile">make work<br> that <span class="highlight">works</span></h1>
-                <p class="fade-in hero-text-mobile">Where creative taste meets performance rigor, powered by AI speed.<br>
-                Strategy. Storytelling. AI-driven results.</p>
-            </div>
-            <div class="hero-media fade-in" aria-label="Showreel">
-                <video class="hero-video" src="videos/fZLgOvdZUCAic1qy9qp0BOpO6I.mp4" autoplay muted loop playsinline></video>
-            </div>
-        </div>
-        <div class="hero-stats">
-            <div class="hero-stat glass fade-in">
-                <div class="hero-stat-number">15+</div>
-                <div class="hero-stat-label">Clients we've worked with</div>
-            </div>
-            <div class="hero-stat glass fade-in">
-                <div class="hero-stat-number">100+</div>
-                <div class="hero-stat-label">Total campaigns delivered</div>
-            </div>
-            <div class="hero-stat glass fade-in">
-                <div class="hero-stat-number">50M+</div>
-                <div class="hero-stat-label">Total reach attained</div>
-            </div>
-            <div class="hero-stat glass fade-in">
-                <div class="hero-stat-number">1000+</div>
-                <div class="hero-stat-label">AI driven content</div>
-            </div>
-        </div>
-    </section>
-
-    
-
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="section-header fade-in">
-            <h2>Our Signature <span class="highlight">Moves</span></h2>
-            <button id="addServicesGlanceBtn" class="add-website-btn" style="display: none; margin-left:auto;" onclick="showAddServiceGlanceModal()">
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M12 5v14M5 12h14"/>
-                </svg>
-                Add Service
-            </button>
-        </div>
-
-        <div class="service-grid services-glance-grid"></div>
-
-        <div id="whatwedo" class="section-header fade-in">
-            <h2>How We <span class="highlight">Roll</span></h2>
-            <button id="addWhatWeDoBtn" class="add-website-btn" style="display: none; margin-left:auto;" onclick="showAddWhatWeDoModal()">
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M12 5v14M5 12h14"/>
-                </svg>
-                Add Service
-            </button>
-        </div>
-
-        <div class="service-grid what-we-do-grid"></div>
-
-        
-    </section>
-
-    <!-- Clients Section -->
-    <section id="work" class="clients">
-        <div class="section-header fade-in">
-            <h2>Our Partners in <span class="highlight">Crime</span></h2>
-            <button id="addClientBtn" class="add-website-btn" style="display: none; margin-left:auto;" onclick="showAddClientModal()">
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M12 5v14M5 12h14"/>
-                </svg>
-                Add Client
-            </button>
-        </div>
-        <!-- Client rows will be dynamically generated by Firebase data loader -->
-        <div id="client-rows-container" class="client-rows-container">
-            <!-- Client rows will be populated by JavaScript -->
-        </div>
-        
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="about" class="testimonials">
-        <div class="section-header fade-in">
-            <h2>Client <span class="highlight">Confessions</span></h2>
-        </div>
-        <div class="testimonial-card glass fade-in" id="testimonialCard">
-            <div class="stars" id="testimonialStars"></div>
-            <p id="testimonialQuote"></p>
-            <h4 id="testimonialName"></h4>
-            <div class="testimonial-role" id="testimonialRole"></div>
-        </div>
-        <div class="testimonial-controls">
-            <button class="testimonial-nav" id="testimonialPrev" aria-label="Previous testimonial">‹</button>
-            <div class="testimonial-dots" id="testimonialDots"></div>
-            <button class="testimonial-nav" id="testimonialNext" aria-label="Next testimonial">›</button>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="section-header fade-in">
-            <h2>Chaos Starts <span class="highlight">here</span></h2>
-        </div>
-        <div class="contact-grid">
-            <div class="contact-panel glass fade-in">
-                <form class="contact-form">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" placeholder="Your name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="your@email.com" required>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="company">Company</label>
-                            <input type="text" id="company" placeholder="Your company" inputmode="text" pattern="[^@]*" title="Company name should not contain an email address">
-                        </div>
-                        <div class="form-group">
-                            <label for="budget">Budget</label>
-                            <input type="number" id="budget" placeholder="Project budget" min="1" step="any" inputmode="decimal">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" placeholder="Tell us about your project..." required></textarea>
-                    </div>
-                    <button type="submit" class="cta-btn submit-btn">Send Message</button>
-                </form>
-            </div>
-            <aside class="contact-side">
-                <div class="contact-card glass fade-in">
-                    <h3>Get in Touch</h3>
-                    <div class="contact-row">
-                        <span class="contact-icon">
-                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.32 1.77.59 2.61a2 2 0 0 1-.45 2.11L8 9.91a16 16 0 0 0 6.11 6.11l1.47-1.27a2 2 0 0 1 2.11-.45c.84.27 1.71.47 2.61.59A2 2 0 0 1 22 16.92z"></path>
-                            </svg>
-                        </span>
-                        <div class="contact-text">
-                            <div class="label">Call us</div>
-                            <a href="tel:+91 9737280309">+91 9737280309</a> | <a href="tel:+917781818981">+91 7781818981</a>
-                        </div>
-                    </div>
-                    <div class="contact-row">
-                        <span class="contact-icon">
-                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                                <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"></path>
-                                <path d="m22 6-10 7L2 6"></path>
-                            </svg>
-                        </span>
-                        <div class="contact-text">
-                            <div class="label">Email us</div>
-                            <a href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
-                        </div>
-                    </div>
+<!-- HERO -->
+<header class="hero">
+    <div class="masthead reveal">
+        <span>Issue Nº 01</span>
+        <span class="mid hide-sm">— A Storytelling Agency —</span>
+        <span class="hide-sm">Est. 2024</span>
+        <span>Crafting Tales</span>
+    </div>
+    <div class="hero-inner">
+        <h1 class="hero-headline display kin">
+            <span class="kin-line"><span>your brand,</span></span>
+            <span class="kin-line"><span>but <span class="foil it">unskippable</span></span></span>
+        </h1>
+        <div class="hero-row">
+            <div class="hero-lead">
+                <p class="reveal" data-delay style="--d:.5s">gaa-tha means <em>story</em> — and we tell yours so well that thumbs stop scrolling, audiences hit follow, and followers become customers.</p>
+                <div class="hero-actions reveal" data-delay style="--d:.62s">
+                    <a href="#contact" class="btn btn-primary magnetic">Start your story <span class="arr">→</span></a>
+                    <a href="work.html" class="btn btn-ghost">See the proof</a>
                 </div>
-                <div class="contact-card glass fade-in">
-                    <h3>Follow Us</h3>
-                    <div class="contact-socials">
-                        <a href="https://instagram.com/__gaa.tha__/?igsh=aXUwbGR0anhtemc5#" class="social-pill" aria-label="Instagram" target="_blank" rel="noopener">
-                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                <circle cx="17.5" cy="6.5" r="1.5"></circle>
-                            </svg>
-                        </a>
-                        <a href="https://www.linkedin.com/company/teamgaatha/" class="social-pill" aria-label="LinkedIn" target="_blank" rel="noopener">
-                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                                <rect x="2" y="9" width="4" height="12"></rect>
-                                <circle cx="4" cy="4" r="2"></circle>
-                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-14h4v2"></path>
-                            </svg>
-                        </a>
-                        <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/?mibextid=wwXIfr&rdid=MtV1rwqvJkLiBDKU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1FZ5Z7ffBz%2F%3Fmibextid%3DwwXIfr" class="social-pill" aria-label="Facebook" target="_blank" rel="noopener">
-                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                            </svg>
-                        </a>
-                    </div>
+            </div>
+            <div class="hero-media reveal" data-delay style="--d:.35s" data-parallax="-0.04">
+                <div class="hero-portal" data-cursor="Showreel">
+                    <video src="assets/showreel.mp4" autoplay muted loop playsinline aria-label="gaa-tha showreel"></video>
                 </div>
-            </aside>
+                <a href="work.html" class="reel-badge" aria-label="See the work" data-cursor="View">
+                    <svg class="badge-ring" viewBox="0 0 142 142" aria-hidden="true"><defs><path id="bp" d="M71,71 m-54,0 a54,54 0 1,1 108,0 a54,54 0 1,1 -108,0"></path></defs><text><textPath href="#bp" startOffset="0">✦ Crafting Tales · Crafting Tales · </textPath></text></svg>
+                    <span class="badge-core"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></span>
+                </a>
+                <div class="now-playing"><span class="blip"></span> Now playing — Showreel</div>
+            </div>
         </div>
-    </section>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">Scroll <i></i></div>
+</header>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2025 gaa-tha. All rights reserved.</p>
-    </footer>
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+        <span class="marquee-item">Strategy <span class="star">✦</span></span>
+        <span class="marquee-item">Storytelling <span class="star">✦</span></span>
+        <span class="marquee-item">AI-driven results <span class="star">✦</span></span>
+        <span class="marquee-item">Branding <span class="star">✦</span></span>
+        <span class="marquee-item">Performance <span class="star">✦</span></span>
+        <span class="marquee-item">Social <span class="star">✦</span></span>
+        <span class="marquee-item">Strategy <span class="star">✦</span></span>
+        <span class="marquee-item">Storytelling <span class="star">✦</span></span>
+        <span class="marquee-item">AI-driven results <span class="star">✦</span></span>
+        <span class="marquee-item">Branding <span class="star">✦</span></span>
+        <span class="marquee-item">Performance <span class="star">✦</span></span>
+        <span class="marquee-item">Social <span class="star">✦</span></span>
+    </div>
+</div>
 
-    <!-- Firebase SDK -->
-    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-storage-compat.js"></script>
-    
-    <script src="script.js"></script>
-    <script src="firebase-data-loader.js"></script>
-    
-    <!-- Enhanced Firebase Console Logging -->
-    <script>
-        // Enhanced console logging for Firebase data
-        document.addEventListener('DOMContentLoaded', function() {
-            
-            
-            // Console logging disabled
-            
-            // Monitor Firebase data loading
-            const observer = new MutationObserver(function(mutations) {
-                mutations.forEach(function(mutation) {
-                    if (mutation.type === 'childList') {
-                        // removed noisy logs
-                        
-                    }
-                });
-            });
-            
-            observer.observe(document.body, {
-                childList: true,
-                subtree: true
-            });
-            
-            // Log Firebase connection status
-            setTimeout(() => {
-                if (window.firebaseDataLoader) {
-                    // status quieted
-                } else {
-                    // Firebase Data Loader not found
-                }
-            }, 2000);
+<!-- STATS -->
+<section class="section" aria-label="gaa-tha by the numbers" style="padding-block: clamp(60px,8vw,100px);">
+    <div class="stats" data-stagger="0.1">
+        <div class="stat reveal"><div class="stat-num"><span data-count="15" data-suffix="+">0</span></div><div class="stat-label">Clients we've worked with</div></div>
+        <div class="stat reveal"><div class="stat-num"><span data-count="100" data-suffix="+">0</span></div><div class="stat-label">Campaigns delivered</div></div>
+        <div class="stat reveal"><div class="stat-num"><span data-count="50" data-suffix="M+">0</span></div><div class="stat-label">Total reach attained</div></div>
+        <div class="stat reveal"><div class="stat-num"><span data-count="1000" data-suffix="+">0</span></div><div class="stat-label">AI-driven content pieces</div></div>
+    </div>
+</section>
+
+<!-- STATEMENT -->
+<section class="statement">
+    <p data-words>We craft <em>tales</em> that turn brands into <em>movements</em> — blending strategy, storytelling and <em>AI-driven results</em> into work the internet can't ignore.</p>
+</section>
+
+<!-- SIGNATURE MOVES -->
+<section class="section" id="moves" aria-labelledby="moves-title">
+    <div class="section-head">
+        <span class="eyebrow reveal">What we do · Nº 02</span>
+        <h2 id="moves-title" class="section-title display reveal">Our Signature <span class="foil it">Moves</span></h2>
+        <p class="section-kick reveal">Three crafts we obsess over. Open one.</p>
+    </div>
+    <div class="moves">
+        <article class="move open" data-cursor="Open" data-thumb="linear-gradient(155deg,#2A1F16,#6E5328)" data-thumb-label="1000+ reels">
+            <span class="m-no">01</span>
+            <div>
+                <h3 class="m-title">Scroll-stopping Reels</h3>
+                <div class="move-detail"><div><div class="move-body">
+                    <p>Short-form built to be re-watched: AI clones, UGC, influencer ads and the hooks that make a thumb hesitate. 1000+ reels and counting.</p>
+                    <a class="move-link" href="reels.html">View work →</a>
+                </div></div></div>
+            </div>
+            <span class="m-plus">+</span>
+        </article>
+        <article class="move" data-cursor="Open" data-thumb="linear-gradient(155deg,#20160E,#B8923D)" data-thumb-label="15+ websites">
+            <span class="m-no">02</span>
+            <div>
+                <h3 class="m-title">Conversion Websites</h3>
+                <div class="move-detail"><div><div class="move-body">
+                    <p>Fast, beautiful, conversion-obsessed digital experiences — websites and apps that turn a click into a customer.</p>
+                    <a class="move-link" href="websites.html">View work →</a>
+                </div></div></div>
+            </div>
+            <span class="m-plus">+</span>
+        </article>
+        <article class="move" data-cursor="Open" data-thumb="linear-gradient(155deg,#3B2A26,#8B6F47)" data-thumb-label="2500+ creatives">
+            <span class="m-no">03</span>
+            <div>
+                <h3 class="m-title">Brands People Remember</h3>
+                <div class="move-detail"><div><div class="move-body">
+                    <p>Logos, creatives and identities with a point of view. 2500+ creatives that look nothing like a template.</p>
+                    <a class="move-link" href="branding.html">View work →</a>
+                </div></div></div>
+            </div>
+            <span class="m-plus">+</span>
+        </article>
+    </div>
+</section>
+
+<!-- HOW WE ROLL -->
+<section class="section" id="how" aria-labelledby="how-title" style="padding-top: 0;">
+    <div class="section-head">
+        <span class="eyebrow reveal">Full-stack growth · Nº 03</span>
+        <h2 id="how-title" class="section-title display reveal">How We <span class="foil it">Roll</span></h2>
+        <p class="section-kick reveal">Nine disciplines, one obsession: work that moves the numbers.</p>
+    </div>
+    <div class="roll-grid" data-stagger="0.06">
+        <div class="roll-cell reveal"><span class="r-no">01</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M12 1v4M12 19v4M4.2 4.2l2.8 2.8M17 17l2.8 2.8M1 12h4M19 12h4M4.2 19.8 7 17M17 7l2.8-2.8"></path></svg></div><h3>Strategy</h3><p>Insight-led plans before a single pixel.</p></div></div>
+        <div class="roll-cell reveal"><span class="r-no">02</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.4A4 4 0 1 1 12.6 8 4 4 0 0 1 16 11.4z"></path><circle cx="17.5" cy="6.5" r="1"></circle></svg></div><h3>Social Media</h3><p>Always-on content that builds a following.</p></div></div>
+        <div class="roll-cell reveal"><span class="r-no">03</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 3v18h18"></path><path d="m7 14 3-4 3 3 5-7"></path></svg></div><h3>Performance Marketing</h3><p>Paid that pays back — measured to the rupee.</p></div></div>
+        <div class="roll-cell reveal"><span class="r-no">04</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg></div><h3>SEO / AEO / GEO</h3><p>Be the answer — in search and in AI.</p></div></div>
+        <div class="roll-cell reveal"><span class="r-no">05</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.9"></path></svg></div><h3>Influencer &amp; UGC</h3><p>Voices your audience already trusts.</p></div></div>
+        <div class="roll-cell reveal"><span class="r-no">06</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"></rect><path d="M9 9h.01M15 9h.01M8.5 14a4 4 0 0 0 7 0"></path></svg></div><h3>AI-Based Ads</h3><p>Generative creative, shipped in days.</p></div></div>
+        <div class="roll-cell reveal"><span class="r-no">07</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 2a5 5 0 0 0-5 5v3a5 5 0 0 0 10 0V7a5 5 0 0 0-5-5z"></path><path d="M5 10a7 7 0 0 0 14 0M12 17v4"></path></svg></div><h3>AI Cloning</h3><p>Your spokesperson, infinitely scalable.</p></div></div>
+        <div class="roll-cell reveal"><span class="r-no">08</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div><h3>Web &amp; App Dev</h3><p>Conversion-built sites and products.</p></div></div>
+        <div class="roll-cell reveal"><span class="r-no">09</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18z"></path><path d="M2 2l7.6 7.6"></path><circle cx="11" cy="11" r="2"></circle></svg></div><h3>Branding &amp; Design</h3><p>Identities people actually remember.</p></div></div>
+    </div>
+</section>
+
+<!-- CLIENTS -->
+<section class="section scene-dark" data-scene="dark" id="clients" aria-labelledby="clients-title">
+    <div class="section-head">
+        <span class="eyebrow reveal">Trusted by the bold · Nº 04</span>
+        <h2 id="clients-title" class="section-title display reveal">Partners in <span class="foil it">Crime</span></h2>
+        <p class="section-kick reveal">Brands that dared to stand out — and did.</p>
+    </div>
+    <div class="clients-vel" aria-label="Selected clients">
+        <div class="cvel"><div class="cvel-track a">
+            <span class="cvel-item">Lumière <span class="dot">·</span></span><span class="cvel-item">Northwind <span class="dot">·</span></span><span class="cvel-item">Saffron &amp; Co <span class="dot">·</span></span><span class="cvel-item">Vireo <span class="dot">·</span></span><span class="cvel-item">Maison Rao <span class="dot">·</span></span><span class="cvel-item">Tide Studio <span class="dot">·</span></span>
+            <span class="cvel-item">Lumière <span class="dot">·</span></span><span class="cvel-item">Northwind <span class="dot">·</span></span><span class="cvel-item">Saffron &amp; Co <span class="dot">·</span></span><span class="cvel-item">Vireo <span class="dot">·</span></span><span class="cvel-item">Maison Rao <span class="dot">·</span></span><span class="cvel-item">Tide Studio <span class="dot">·</span></span>
+        </div></div>
+        <div class="cvel"><div class="cvel-track b">
+            <span class="cvel-item">Halcyon <span class="dot">·</span></span><span class="cvel-item">Auro Labs <span class="dot">·</span></span><span class="cvel-item">The Daily Knot <span class="dot">·</span></span><span class="cvel-item">Verve <span class="dot">·</span></span><span class="cvel-item">Indigo House <span class="dot">·</span></span><span class="cvel-item">Cobalt <span class="dot">·</span></span>
+            <span class="cvel-item">Halcyon <span class="dot">·</span></span><span class="cvel-item">Auro Labs <span class="dot">·</span></span><span class="cvel-item">The Daily Knot <span class="dot">·</span></span><span class="cvel-item">Verve <span class="dot">·</span></span><span class="cvel-item">Indigo House <span class="dot">·</span></span><span class="cvel-item">Cobalt <span class="dot">·</span></span>
+        </div></div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section scene-dark" data-scene="dark" id="testimonials" aria-labelledby="testi-title" style="padding-top:0;">
+    <div class="section-head" style="align-items:center; text-align:center;">
+        <span class="eyebrow reveal" style="align-self:center;">Word on the street · Nº 05</span>
+        <h2 id="testi-title" class="section-title display reveal">Client <span class="foil it">Confessions</span></h2>
+    </div>
+    <figure class="tcard reveal">
+        <blockquote class="tquote" id="tQuote"><span class="big-q">“</span>They made our brand impossible to scroll past — our reels went from background noise to the reason people followed.<span class="big-q">”</span></blockquote>
+        <figcaption class="tmeta" id="tMeta">
+            <div class="tname" id="tName">Riya Mehta</div>
+            <div class="trole" id="tRole">Founder, Maison Rao</div>
+        </figcaption>
+    </figure>
+    <div class="tnav">
+        <button id="tPrev" aria-label="Previous testimonial">‹</button>
+        <div class="tdots" id="tDots"></div>
+        <button id="tNext" aria-label="Next testimonial">›</button>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq" aria-labelledby="faq-title">
+    <div class="section-head">
+        <span class="eyebrow reveal">Good to know · Nº 06</span>
+        <h2 id="faq-title" class="section-title display reveal">Questions, <span class="foil it">answered</span></h2>
+        <p class="section-kick reveal">The short version — for humans and AI alike.</p>
+    </div>
+    <div class="faq-list">
+        <div class="faq-item open reveal">
+            <button class="faq-q" aria-expanded="true"><span>What is gaa-tha?</span><span class="faq-ic" aria-hidden="true">+</span></button>
+            <div class="faq-a"><div><p>gaa-tha is a storytelling-led digital marketing agency. We turn brands into movements with scroll-stopping reels, conversion-focused websites and memorable branding — blending strategy, creativity and AI-driven production. Founded in 2024, we're India-rooted and globally minded.</p></div></div>
+        </div>
+        <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false"><span>What does the word “gaa-tha” mean?</span><span class="faq-ic" aria-hidden="true">+</span></button>
+            <div class="faq-a"><div><p>“gaa-tha” (गाथा) means “story” or “tale”. We tell your brand's story so well that thumbs stop scrolling, audiences hit follow, and followers become customers.</p></div></div>
+        </div>
+        <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false"><span>What services do you offer?</span><span class="faq-ic" aria-hidden="true">+</span></button>
+            <div class="faq-a"><div><p>Strategy, social media marketing, performance marketing, SEO/AEO/GEO, influencer &amp; UGC marketing, AI-based ads, AI cloning, web &amp; app development, and branding &amp; design — full-stack growth under one roof.</p></div></div>
+        </div>
+        <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false"><span>What are AEO and GEO — and do you do them?</span><span class="faq-ic" aria-hidden="true">+</span></button>
+            <div class="faq-a"><div><p>AEO (Answer Engine Optimization) makes your brand the answer in Google AI Overviews and voice assistants. GEO (Generative Engine Optimization) makes your brand discoverable and citable inside generative AI like ChatGPT, Gemini and Perplexity. We optimise for all three: SEO, AEO and GEO.</p></div></div>
+        </div>
+        <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false"><span>Where are you based?</span><span class="faq-ic" aria-hidden="true">+</span></button>
+            <div class="faq-a"><div><p>We're an India-rooted, globally minded team working with brands worldwide. Reach us at digimarketing@gaa-tha.com or +91 97372 80309.</p></div></div>
+        </div>
+        <div class="faq-item reveal">
+            <button class="faq-q" aria-expanded="false"><span>How do I start a project?</span><span class="faq-ic" aria-hidden="true">+</span></button>
+            <div class="faq-a"><div><p>Tell us about your brand using the contact form below or email digimarketing@gaa-tha.com. We reply with a plan, scope and timeline — and most projects kick off within days.</p></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section scene-dark" data-scene="dark" id="contact" aria-labelledby="contact-title">
+    <div class="section-head">
+        <span class="eyebrow reveal">Let's talk · Nº 07</span>
+        <h2 id="contact-title" class="section-title display reveal">Chaos Starts <span class="foil it">here</span></h2>
+        <p class="section-kick reveal">Tell us about your brand. We'll bring the plot twist.</p>
+    </div>
+    <div class="contact-grid">
+        <form class="cform reveal" novalidate>
+            <div class="frow">
+                <div class="field"><label for="cf-name">Name</label><input id="cf-name" name="name" type="text" placeholder="Your name" autocomplete="name" required></div>
+                <div class="field"><label for="cf-email">Email</label><input id="cf-email" name="email" type="email" placeholder="you@brand.com" autocomplete="email" required></div>
+            </div>
+            <div class="frow">
+                <div class="field"><label for="cf-company">Company</label><input id="cf-company" name="company" type="text" placeholder="Your company" autocomplete="organization"></div>
+                <div class="field"><label for="cf-budget">Budget</label><input id="cf-budget" name="budget" type="text" placeholder="₹ / $ range"></div>
+            </div>
+            <div class="field"><label for="cf-message">Message</label><textarea id="cf-message" name="message" placeholder="Tell us about your project..." required></textarea></div>
+            <button type="submit" class="btn btn-primary magnetic" style="align-self:flex-start;">Send message <span class="arr">→</span></button>
+        </form>
+        <aside class="contact-side reveal" data-delay style="--d:.12s">
+            <div class="cinfo">
+                <h4>Call us</h4>
+                <a href="tel:+919737280309">+91 97372 80309</a>
+                <a href="tel:+917781818981">+91 77818 18981</a>
+            </div>
+            <div class="cinfo">
+                <h4>Email us</h4>
+                <a href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
+            </div>
+            <div class="cinfo">
+                <h4>Follow us</h4>
+                <div class="csoc">
+                    <a href="https://instagram.com/__gaa.tha__/" target="_blank" rel="noopener" aria-label="gaa-tha on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.4A4 4 0 1 1 12.6 8 4 4 0 0 1 16 11.4z"></path><circle cx="17.5" cy="6.5" r="1"></circle></svg></a>
+                    <a href="https://www.linkedin.com/company/teamgaatha/" target="_blank" rel="noopener" aria-label="gaa-tha on LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-14h4v2"></path></svg></a>
+                    <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/" target="_blank" rel="noopener" aria-label="gaa-tha on Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                </div>
+            </div>
+        </aside>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <a href="#contact" class="footer-cta" data-cursor="Say hi">
+        <div class="footer-cta-row">
+            <h2>Got a story to tell?<br><span class="foil it">Let's make it legendary.</span></h2>
+            <span class="arr-big" aria-hidden="true">↗</span>
+        </div>
+    </a>
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <img src="assets/logo.png" alt="gaa-tha logo">
+            <p>Crafting tales that turn brands into movements — strategy, storytelling and AI-driven results.</p>
+        </div>
+        <div class="footer-col"><h4>Explore</h4><ul><li><a href="#moves">Services</a></li><li><a href="work.html">Work</a></li><li><a href="about.html">About</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Say hello</h4><ul><li><a href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a></li><li><a href="tel:+919737280309">+91 97372 80309</a></li><li><a href="tel:+917781818981">+91 77818 18981</a></li></ul></div>
+        <div class="footer-col"><h4>Follow</h4><div class="footer-socials">
+            <a href="https://instagram.com/__gaa.tha__/" target="_blank" rel="noopener" aria-label="gaa-tha on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.4A4 4 0 1 1 12.6 8 4 4 0 0 1 16 11.4z"></path><circle cx="17.5" cy="6.5" r="1"></circle></svg></a>
+            <a href="https://www.linkedin.com/company/teamgaatha/" target="_blank" rel="noopener" aria-label="gaa-tha on LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-14h4v2"></path></svg></a>
+            <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/" target="_blank" rel="noopener" aria-label="gaa-tha on Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+        </div></div>
+    </div>
+    <div class="footer-wordmark" aria-hidden="true">gaa-tha</div>
+    <div class="footer-bottom"><div class="footer-bottom-inner">
+        <p>© <span data-year>2026</span> gaa-tha. All rights reserved.</p>
+        <button class="to-top">Back to top ↑</button>
+    </div></div>
+</footer>
+
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="gaatha.js"></script>
+<script src="gaatha-data.js"></script>
+<script>
+/* Signature Moves accordion */
+document.querySelectorAll('.move').forEach((m) => {
+    m.addEventListener('click', (e) => {
+        if (e.target.closest('a')) return;
+        const open = m.classList.contains('open');
+        document.querySelectorAll('.move').forEach((x) => x.classList.remove('open'));
+        if (!open) m.classList.add('open');
+    });
+});
+
+/* FAQ accordion */
+document.querySelectorAll('.faq-q').forEach((btn) => {
+    btn.addEventListener('click', () => {
+        const item = btn.closest('.faq-item');
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach((x) => {
+            x.classList.remove('open');
+            const b = x.querySelector('.faq-q'); if (b) b.setAttribute('aria-expanded', 'false');
         });
-    </script>
+        if (!isOpen) { item.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); }
+    });
+});
 
-    <!-- Disable navigation inside Clients section -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const clientsSection = document.querySelector('.clients');
-            if (!clientsSection) return;
-            clientsSection.addEventListener('click', function(e) {
-                const anchor = e.target.closest('a');
-                if (anchor) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                }
-            }, true);
-        });
-    </script>
+/* Testimonials — data-driven with a designed fallback */
+const TS_FALLBACK = [
+    { q: 'They made our brand impossible to scroll past — our reels went from background noise to the reason people followed.', n: 'Riya Mehta', r: 'Founder, Maison Rao' },
+    { q: 'We shipped a month of content in a week and it actually felt like us. The numbers followed almost immediately.', n: 'Arjun Nair', r: 'CMO, Northwind' },
+    { q: 'Most agencies sell reach. gaa-tha sold us a story — and that story is still converting today.', n: 'Sara Kapoor', r: 'Brand Lead, Vireo' },
+    { q: 'The AI-driven ads looked premium, not robotic. Our cost-per-result dropped and our brand looked richer.', n: 'Dev Patel', r: 'Director, Auro Labs' },
+];
+let TS = TS_FALLBACK.slice();
+let ti = 0, tTimer = null;
+const tQ = document.getElementById('tQuote'), tN = document.getElementById('tName'), tR = document.getElementById('tRole'), tMeta = document.getElementById('tMeta'), tDots = document.getElementById('tDots');
 
-    <!-- Admin controls for Services (What we do) -->
-    <script>
-        (function() {
-            const ADMIN_KEY = 'gaatha_admin_2025_secret_key_xyz789';
-            const isAdminMode = localStorage.getItem('admin_secret') === ADMIN_KEY;
+function buildDots() {
+    tDots.innerHTML = '';
+    TS.forEach((_, i) => { const d = document.createElement('i'); if (i === ti) d.className = 'on'; d.addEventListener('click', () => go(i)); tDots.appendChild(d); });
+}
+function go(i) {
+    ti = (i + TS.length) % TS.length; tQ.classList.add('fading'); tMeta.classList.add('fading');
+    setTimeout(() => {
+        tQ.innerHTML = '<span class="big-q">“</span>' + TS[ti].q + '<span class="big-q">”</span>';
+        tN.textContent = TS[ti].n; tR.textContent = TS[ti].r;
+        tQ.classList.remove('fading'); tMeta.classList.remove('fading');
+        [...tDots.children].forEach((d, j) => d.classList.toggle('on', j === ti));
+    }, 320);
+}
+function startAuto() { clearInterval(tTimer); tTimer = setInterval(() => go(ti + 1), 6000); }
 
-            function ensureFirebase() {
-                try {
-                    if (firebase && firebase.apps && firebase.apps.length > 0) {
-                        return firebase.database();
-                    }
-                } catch (e) {}
-                // Fallback init (matches other pages)
-                try {
-                    const cfg = {
-                        apiKey: "AIzaSyBQlBj179byUqKjjXGH1TmpqT36nlDhwaY",
-                        authDomain: "gaatha-b9ee5.firebaseapp.com",
-                        databaseURL: "https://gaatha-b9ee5-default-rtdb.asia-southeast1.firebasedatabase.app",
-                        projectId: "gaatha-b9ee5",
-                        storageBucket: "gaatha-b9ee5.firebasestorage.app",
-                        messagingSenderId: "661713784587",
-                        appId: "1:661713784587:web:2b7bbcb40b18e53c361c0e",
-                        measurementId: "G-75RTC8CXEE"
-                    };
-                    firebase.initializeApp(cfg);
-                    return firebase.database();
-                } catch (e) {
-                    return null;
-                }
-            }
+/* Public setter used by the Firebase data layer */
+window.setTestimonials = function (arr) {
+    if (!Array.isArray(arr) || !arr.length) return;
+    TS = arr; ti = 0; buildDots(); go(0); startAuto();
+};
 
-            const database = ensureFirebase();
-            window.database = database; // Make database globally available for contact form
-
-            function loadWhatWeDoFromFirebase() {
-                if (!database) return;
-                database.ref('whatwedo').once('value')
-                    .then(function(snapshot) {
-                        const data = snapshot.val();
-                        if (!data) return;
-                        const items = Object.keys(data).map(id => ({ id, ...data[id] }))
-                            .sort((a, b) => (a.order || 0) - (b.order || 0));
-                        updateWhatWeDoUI(items);
-                    })
-                    .catch(function(err){ });
-            }
-
-            function updateWhatWeDoUI(items) {
-                const grid = document.querySelector('.what-we-do-grid');
-                if (!grid) return;
-                grid.innerHTML = '';
-                items.forEach((item, index) => {
-                    grid.appendChild(createWhatWeDoCard(item, index));
-                });
-                if (window.attachCardClickHandlers) {
-                    setTimeout(window.attachCardClickHandlers, 50);
-                }
-            }
-
-            function createWhatWeDoCard(item, index) {
-                const card = document.createElement('div');
-                card.className = 'service-card glass fade-in';
-                card.style.animationDelay = (index * 0.1) + 's';
-
-                let actionsHTML = '';
-                let editIconHTML = '';
-                if (isAdminMode) {
-                    editIconHTML = `
-                        <button class="website-edit-icon" onclick="editWhatWeDo('${item.id}')" title="Edit Service">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
-                                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
-                            </svg>
-                        </button>
-                    `;
-                    actionsHTML = `
-                        <div class="website-actions">
-                            <button class="client-delete-btn" onclick="deleteWhatWeDo('${item.id}')" title="Delete">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="3,6 5,6 21,6"></polyline>
-                                    <path d="M19,6v14a2,2 0 0,1 -2,2H7a2,2 0 0,1 -2,-2V6m3,0V4a2,2 0 0,1 2,-2h4a2,2 0 0,1 2,2v2"></path>
-                                    <line x1="10" y1="11" x2="10" y2="17"></line>
-                                    <line x1="14" y1="11" x2="14" y2="17"></line>
-                                </svg>
-                            </button>
-                        </div>
-                    `;
-                }
-
-                const bullets = Array.isArray(item.bulletPoints) ? item.bulletPoints
-                               : Array.isArray(item.features) ? item.features : [];
-                const bulletHTML = bullets.map(b => `<li>${b}</li>`).join('');
-
-                card.innerHTML = `
-                    ${editIconHTML}
-                    <div class="service-icon">${
-                        (window.firebaseDataLoader && typeof window.firebaseDataLoader.getWhatWeDoIcon === 'function')
-                            ? window.firebaseDataLoader.getWhatWeDoIcon(item.title || item.name)
-                            : ((String(item.icon || '').trim().startsWith('<svg'))
-                                ? item.icon
-                                : '<svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle></svg>')
-                    }</div>
-                    <h3>${item.title || item.name || 'Service'}</h3>
-                    ${bulletHTML ? `<ul>${bulletHTML}</ul>` : ''}
-                    <a class="view-work-link" href="#" onclick="event.preventDefault(); event.stopPropagation(); navigateToWorkFromCard('${item.title || item.name || ''}'); return false;">View work</a>
-                    ${actionsHTML}
-                `;
-
-                // Wire work button navigation (same mapping as script.js)
-                function navigateToWork(){
-                    const title = item.title || item.name || '';
-                    let target = 'work.html';
-                    if (title === 'Web & App Development' || title === 'E‑Commerce Solutions') {
-                        target = 'websites.html';
-                    } else if (title === 'Branding & Design') {
-                        target = 'logo-design.html';
-                    } else if (title === 'Performance Marketing' || title === 'SEO/AEO/GEO') {
-                        // Per request: Performance Marketing and SEO -> websites
-                        target = 'websites.html';
-                    } else if (title === 'Influencer & UGC Marketing') {
-                        // Per request: route to Influencer Ads section inside reels
-                        target = 'reels.html#influencer-ads-grid';
-                    } else if (title === 'AI‑Based Ads') {
-                        target = 'reels.html#ai-ads-grid';
-                    } else if (title === 'AI Cloning') {
-                        target = 'reels.html#ai-clone-grid';
-                    } else if (title === 'Social Media Marketing') {
-                        target = 'reels.html';
-                    }
-                    window.location.href = target;
-                }
-
-                const workBtn = card.querySelector('.work-button');
-                if (workBtn) {
-                    workBtn.addEventListener('click', function(e) {
-                        e.stopPropagation();
-                        navigateToWork();
-                    });
-                }
-
-                // View work link navigation is now handled via onclick attribute
-
-                return card;
-            }
-
-            // Admin modals
-            window.showAddWhatWeDoModal = function() {
-                if (!isAdminMode) return;
-                const modal = document.createElement('div');
-                modal.className = 'modal-overlay';
-                modal.innerHTML = `
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title">Add New Service</h3>
-                        </div>
-                        <form id="addWhatWeDoForm">
-                            <div class="modal-form-group">
-                                <label for="wwdTitle">Title</label>
-                                <input type="text" id="wwdTitle" placeholder="Enter title" required>
-                            </div>
-                            <div class="modal-form-group">
-                                <label for="wwdBullets">Bullet points (comma separated)</label>
-                                <input type="text" id="wwdBullets" placeholder="Point A, Point B, Point C">
-                            </div>
-                            <div class="modal-form-actions">
-                                <button type="submit" class="modal-btn-save">Add Service</button>
-                                <button type="button" class="modal-btn-cancel" onclick="closeModal()">Cancel</button>
-                            </div>
-                        </form>
-                    </div>
-                `;
-                document.body.appendChild(modal);
-                document.getElementById('addWhatWeDoForm').addEventListener('submit', (e) => {
-                    e.preventDefault();
-                    const newItem = {
-                        title: document.getElementById('wwdTitle').value,
-                        bulletPoints: (document.getElementById('wwdBullets').value || '').split(',').map(s => s.trim()).filter(Boolean),
-                        order: Date.now()
-                    };
-                    database.ref('whatwedo').push(newItem).then(() => {
-                        loadWhatWeDoFromFirebase();
-                        closeModal();
-                    }).catch(err => { });
-                });
-            };
-
-            window.editWhatWeDo = function(id) {
-                if (!database || !isAdminMode) return;
-                database.ref('whatwedo/' + id).once('value').then(function(snapshot){
-                    const item = snapshot.val();
-                    if (!item) return;
-                    const modal = document.createElement('div');
-                    modal.className = 'modal-overlay';
-                    const bullets = Array.isArray(item.bulletPoints) ? item.bulletPoints.join(', ') : '';
-                    modal.innerHTML = `
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h3 class="modal-title">Edit Service</h3>
-                            </div>
-                            <form id="editWhatWeDoForm">
-                                <div class="modal-form-group">
-                                    <label for="editWwdTitle">Title</label>
-                                    <input type="text" id="editWwdTitle" value="${item.title || ''}" required>
-                                </div>
-                                <div class="modal-form-group">
-                                    <label for="editWwdBullets">Bullet points (comma separated)</label>
-                                    <input type="text" id="editWwdBullets" value="${bullets}">
-                                </div>
-                                <div class="modal-form-actions">
-                                    <button type="submit" class="modal-btn-save">Update Service</button>
-                                    <button type="button" class="modal-btn-cancel" onclick="closeModal()">Cancel</button>
-                                </div>
-                            </form>
-                        </div>
-                    `;
-                    document.body.appendChild(modal);
-                    document.getElementById('editWhatWeDoForm').addEventListener('submit', (e) => {
-                        e.preventDefault();
-                        const updated = {
-                            title: document.getElementById('editWwdTitle').value,
-                            bulletPoints: (document.getElementById('editWwdBullets').value || '').split(',').map(s => s.trim()).filter(Boolean),
-                            order: item.order || Date.now()
-                        };
-                        database.ref('whatwedo/' + id).update(updated).then(() => {
-                            loadWhatWeDoFromFirebase();
-                            closeModal();
-                        }).catch(err => { });
-                    });
-                });
-            };
-
-            window.deleteWhatWeDo = function(id) {
-                if (!database || !isAdminMode) return;
-                const modal = document.createElement('div');
-                modal.className = 'modal-overlay';
-                modal.innerHTML = `
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title">Delete Service</h3>
-                        </div>
-                        <div style="text-align: center; color: #2c2c2c; margin-bottom: 1rem;">Are you sure?</div>
-                        <div class="modal-form-actions">
-                            <button type="button" class="modal-btn-save" id="confirmDeleteWhatWeDoBtn">Delete</button>
-                            <button type="button" class="modal-btn-cancel" id="cancelDeleteWhatWeDoBtn">Cancel</button>
-                        </div>
-                    </div>
-                `;
-                document.body.appendChild(modal);
-                
-                // Prevent body scroll and hide navbar on mobile
-                try {
-                    if (window.innerWidth <= 768) {
-                        const nav = document.querySelector('nav');
-                        if (nav) {
-                            nav.dataset.prevDisplay = nav.style.display || '';
-                            nav.style.display = 'none';
-                        }
-                        document.body.dataset.prevOverflow = document.body.style.overflow || '';
-                        document.body.style.overflow = 'hidden';
-                    }
-                } catch(e) {
-                    // Error setting modal scroll behavior
-                }
-                
-                const cancelBtn = document.getElementById('cancelDeleteWhatWeDoBtn');
-                if (cancelBtn) cancelBtn.addEventListener('click', closeModal);
-                
-                const confirmBtn = document.getElementById('confirmDeleteWhatWeDoBtn');
-                if (confirmBtn) {
-                    confirmBtn.addEventListener('click', function() {
-                        database.ref('whatwedo/' + id).remove().then(() => {
-                            loadWhatWeDoFromFirebase();
-                            closeModal();
-                        }).catch(err => { });
-                    });
-                }
-            };
-
-            window.closeModal = function() {
-                const modal = document.querySelector('.modal-overlay');
-                if (modal) modal.remove();
-                // Restore body scroll and navbar visibility
-                try {
-                    const nav = document.querySelector('nav');
-                    if (nav && typeof nav.dataset.prevDisplay !== 'undefined') {
-                        nav.style.display = nav.dataset.prevDisplay;
-                        delete nav.dataset.prevDisplay;
-                    }
-                    if (typeof document.body.dataset.prevOverflow !== 'undefined') {
-                        document.body.style.overflow = document.body.dataset.prevOverflow;
-                        delete document.body.dataset.prevOverflow;
-                    }
-                } catch(e) {
-                    // Error restoring scroll/navbar
-                }
-            };
-
-            // Global function for view work link navigation
-            window.navigateToWorkFromCard = function(title) {
-                let target = 'work.html';
-                const t = String(title || '').trim();
-                const tl = t.toLowerCase();
-                // Keyword-based routing (handles variations like "AI Ads" vs "AI‑Based Ads", etc.)
-                if (tl.includes('ai cloning')) {
-                    target = 'reels.html#ai-clone-grid';
-                } else if (tl.includes('ai') && tl.includes('ads')) {
-                    target = 'reels.html#ai-ads-grid';
-                } else if (tl.includes('branding')) {
-                    target = 'branding.html';
-                } else if (t === 'Web & App Development' || t === 'E‑Commerce Solutions') {
-                    target = 'websites.html';
-                } else if (t === 'Performance Marketing' || t === 'SEO/AEO/GEO') {
-                    target = 'websites.html';
-                } else if (t === 'Influencer & UGC Marketing') {
-                    target = 'reels.html#influencer-ads-grid';
-                } else if (t === 'AI‑Based Ads') {
-                    target = 'reels.html#ai-ads-grid';
-                } else if (t === 'AI Cloning') {
-                    target = 'reels.html#ai-clone-grid';
-                } else if (t === 'Social Media Marketing') {
-                    target = 'reels.html';
-                }
-                window.location.href = target;
-            };
-
-            // Admin styles (reuse from websites page)
-            if (isAdminMode) {
-                const style = document.createElement('style');
-                style.textContent = `
-                    .add-website-btn{background:linear-gradient(135deg,#7a571e 0%,#d4af37 100%);color:#fff;border:none;padding:12px 20px;border-radius:12px;font-weight:600;cursor:pointer;transition:all .3s ease;display:flex;align-items:center;gap:8px;font-size:.9rem}
-                    .add-website-btn:hover{box-shadow:0 8px 20px rgba(212,175,55,.3);transform:translateY(-2px)}
-                    .website-edit-icon{position:absolute;top:12px;left:12px;background:linear-gradient(135deg,#7a571e 0%,#d4af37 100%);color:#fff;border:none;padding:8px;border-radius:50%;cursor:pointer;transition:all .3s ease;z-index:10;width:36px;height:36px;display:flex;align-items:center;justify-content:center}
-                    .website-edit-icon:hover{background:linear-gradient(135deg,#8B6F47 0%,#D4AF37 100%);transform:scale(1.1);box-shadow:0 4px 12px rgba(212,175,55,.4)}
-                    .website-actions{position:absolute;top:12px;right:12px;display:flex;gap:8px;opacity:0;transition:opacity .3s ease}
-                    .service-card:hover .website-actions{opacity:1}
-                    .action-btn{background:rgba(0,0,0,.7);color:#fff;border:none;padding:8px 12px;border-radius:8px;cursor:pointer;font-size:.8rem;transition:all .3s ease}
-                    .action-btn.delete{background:linear-gradient(135deg,#e74c3c 0%,#c0392b 100%)}
-                    /* Ensure delete icon buttons are clearly visible on cards */
-                    .website-actions .client-delete-btn{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#8B6F47 0%,#D4AF37 100%);border:none;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(139,111,71,.4);padding:0;color:#fff}
-                    .website-actions .client-delete-btn svg{width:18px;height:18px;stroke:currentColor;color:#fff}
-                    .testimonial-card{position:relative}
-                    .testimonial-card .website-actions{position:absolute;top:12px;right:12px;opacity:1}
-                    .modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);backdrop-filter:blur(5px);z-index:1000;display:flex;align-items:center;justify-content:center}
-                    .modal-content{background:linear-gradient(135deg,#f5f1ea 0%,#e8dcc8 100%);border-radius:20px;padding:2rem;max-width:500px;width:90%;max-height:80vh;overflow-y:auto;box-shadow:0 25px 50px rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.3)}
-                    .modal-header{text-align:center;margin-bottom:1.5rem}
-                    .modal-title{font-size:1.5rem;font-weight:700;color:#2c2c2c;margin:0}
-                    .modal-form-group{margin-bottom:1rem}
-                    .modal-form-group label{display:block;margin-bottom:.5rem;font-weight:600;color:#2c2c2c}
-                    .modal-form-group input{width:100%;padding:.75rem;border:1px solid rgba(139,111,71,.3);border-radius:10px;background:rgba(255,255,255,.8);font-size:1rem;transition:all .3s ease;box-sizing:border-box}
-                    .modal-form-actions{display:flex;gap:1rem;justify-content:center;margin-top:1.5rem}
-                    .modal-btn-save{background:linear-gradient(135deg,#8B6F47 0%,#D4AF37 100%);color:#fff;border:none;padding:.75rem 2rem;border-radius:30px;font-weight:600;cursor:pointer;transition:all .3s ease}
-                    .modal-btn-cancel{background:rgba(255,255,255,.8);color:#2c2c2c;border:1px solid rgba(139,111,71,.3);padding:.75rem 2rem;border-radius:30px;font-weight:600;cursor:pointer;transition:all .3s ease}
-                `;
-                document.head.appendChild(style);
-                const addBtn = document.getElementById('addWhatWeDoBtn');
-                if (addBtn) addBtn.style.display = 'flex';
-                const addGlanceBtn = document.getElementById('addServicesGlanceBtn');
-                if (addGlanceBtn) addGlanceBtn.style.display = 'flex';
-                const addClientBtn = document.getElementById('addClientBtn');
-                if (addClientBtn) addClientBtn.style.display = 'flex';
-            }
-
-            document.addEventListener('DOMContentLoaded', function() {
-                loadWhatWeDoFromFirebase();
-                if (isAdminMode) loadServicesGlanceFromFirebase();
-                setupTestimonialsAdmin();
-            });
-            // Cloudinary config - COMMENTED OUT: Using R2 only
-            // const CLOUDINARY_CLOUD_NAME = 'dofqquzrx';
-            // const CLOUDINARY_UNSIGNED_PRESET = 'Gaatha_Portoflio'; // change to your exact unsigned preset
-            // async function uploadVideoToCloudinary(file, folder = 'services') {
-            //     const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/video/upload`;
-            //     const fd = new FormData();
-            //     fd.append('file', file);
-            //     const preset = (localStorage && localStorage.getItem('cloudinary_preset')) || CLOUDINARY_UNSIGNED_PRESET;
-            //     fd.append('upload_preset', preset);
-            //     fd.append('folder', folder);
-            //     const res = await fetch(url, { method: 'POST', body: fd });
-            //     const data = await res.json().catch(()=>({}));
-            //     if (!res.ok) {
-            //         const msg = data?.error?.message || 'Cloudinary upload failed';
-            //         throw new Error(msg);
-            //     }
-            //     return data.secure_url;
-            // }
-
-            // R2 Configuration
-            const R2_BUCKET_NAME = 'gaatha-media';
-            const R2_CUSTOM_DOMAIN = 'https://media.gaa-tha.com';
-            const R2_PRESIGN_ENDPOINT = 'https://r2-presign.moxshang.workers.dev';
-
-            // Upload video to Cloudflare R2 via worker (avoids CORS issues)
-            async function uploadVideoToR2(file, folder = 'services') {
-                // Generate unique filename
-                const timestamp = Date.now();
-                const randomStr = Math.random().toString(36).substring(2, 15);
-                const fileExt = file.name.split('.').pop() || 'mp4';
-                const fileName = `${folder}/${timestamp}-${randomStr}.${fileExt}`;
-                
-                // Upload file directly to worker (worker uploads to R2 server-side)
-                const uploadUrl = `${R2_PRESIGN_ENDPOINT}?fileName=${encodeURIComponent(fileName)}`;
-                const uploadResponse = await fetch(uploadUrl, {
-                    method: 'POST',
-                    body: file,
-                    headers: {
-                        'Content-Type': file.type || 'video/mp4'
-                    }
-                });
-                
-                if (!uploadResponse.ok) {
-                    const errorData = await uploadResponse.json().catch(() => ({}));
-                    throw new Error(errorData.error || 'Failed to upload to R2');
-                }
-                
-                const { publicUrl } = await uploadResponse.json();
-                
-                // Ensure URL has https:// prefix (absolute URL)
-                let finalUrl = publicUrl || `${R2_CUSTOM_DOMAIN}/${fileName}`;
-                if (!finalUrl.startsWith('http://') && !finalUrl.startsWith('https://')) {
-                    finalUrl = `https://${finalUrl}`;
-                }
-                
-                return finalUrl;
-            }
-
-            // Upload service video - R2 only (Cloudinary commented out)
-            async function uploadServiceVideo(file, folder = 'services') {
-                return await uploadVideoToR2(file, folder);
-            }
-            
-            // Services at a glance CRUD (uses 'services' collection)
-            function loadServicesGlanceFromFirebase() {
-                if (!isAdminMode) return; // preserve static video cards for non-admin
-                if (!database) return;
-                database.ref('services').once('value')
-                    .then(function(snapshot){
-                        const data = snapshot.val();
-                        if (!data) return;
-                        const items = Object.keys(data).map(id => ({ id, ...data[id] }))
-                            .sort((a,b)=> (a.order||0)-(b.order||0));
-                        const grid = document.querySelector('.services-glance-grid');
-                        if (!grid) return;
-                        grid.innerHTML = '';
-                        items.forEach((s, i) => {
-                            const card = document.createElement('div');
-                            card.className = 'service-card glass fade-in';
-                            card.style.animationDelay = (i*0.1)+'s';
-                            let actionsHTML = '';
-                            let editIconHTML = '';
-                            if (isAdminMode) {
-                                editIconHTML = `
-                                    <button class="website-edit-icon" onclick="editServiceGlance('${s.id}')" title="Edit Service">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
-                                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
-                                        </svg>
-                                    </button>`;
-                            actionsHTML = `<div class=\"website-actions\"><button class=\"client-delete-btn\" onclick=\"deleteServiceGlance('${s.id}')\" title=\"Delete\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"3,6 5,6 21,6\"></polyline><path d=\"M19,6v14a2,2 0 0,1 -2,2H7a2,2 0 0,1 -2,-2V6m3,0V4a2,2 0 0,1 2,-2h4a2,2 0 0,1 2,2v2\"></path><line x1=\"10\" y1=\"11\" x2=\"10\" y2=\"17\"></line><line x1=\"14\" y1=\"11\" x2=\"14\" y2=\"17\"></line></svg></button></div>`;
-                            }
-                            card.innerHTML = `
-                                ${editIconHTML}
-                                <div class="service-icon">${s.icon || '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>'}</div>
-                                <h3>${s.title || 'Service'}</h3>
-                                <p>${s.description || ''}</p>
-                                ${actionsHTML}
-                            `;
-                            // Append video after description if available
-                            if (s.videoUrl) {
-                                // Ensure video URL is absolute (has https://)
-                                let videoUrl = s.videoUrl;
-                                if (!videoUrl.startsWith('http://') && !videoUrl.startsWith('https://')) {
-                                    videoUrl = `https://${videoUrl}`;
-                                }
-                                const media = document.createElement('div');
-                                media.className = 'service-card-media';
-                                media.innerHTML = `<video class="service-video" src="${videoUrl}" playsinline muted loop preload="metadata"></video>`;
-                                card.appendChild(media);
-                            }
-                            grid.appendChild(card);
-                        });
-                        if (window.initializeVideos) setTimeout(window.initializeVideos, 100);
-                    });
-            }
-
-            window.showAddServiceGlanceModal = function() {
-                if (!isAdminMode) return;
-                const modal = document.createElement('div');
-                modal.className = 'modal-overlay';
-                modal.innerHTML = `
-                    <div class="modal-content" style="position:relative;">
-                        <div class="modal-header"><h3 class="modal-title">Add Service</h3></div>
-                        <form id="addServiceGlanceForm">
-                            <div class="modal-form-group"><label for="sgTitle">Title</label><input id="sgTitle" required></div>
-                            <div class="modal-form-group"><label for="sgDescription">Description (optional)</label><input id="sgDescription"></div>
-                            <div class="modal-form-group"><label for="sgVideo">Video (MP4/WebM)</label><input id="sgVideo" type="file" accept="video/*"></div>
-                            <div class="modal-form-actions">
-                                <button type="submit" class="modal-btn-save" id="addServiceSaveBtn">Add</button>
-                                <button type="button" class="modal-btn-cancel" onclick="closeModal()">Cancel</button>
-                            </div>
-                        </form>
-                        <div class="modal-saving-overlay" id="addServiceLoading" style="display:none; position:absolute; inset:0; background:rgba(0,0,0,0.45); backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); z-index:1001; align-items:center; justify-content:center;">
-                            <div style="display:flex; align-items:center; gap:10px; color:#fff; font-weight:600; padding:12px 16px; border-radius:12px;">
-                                <svg viewBox="0 0 50 50" width="26" height="26" style="animation:spin 1s linear infinite">
-                                    <circle cx="25" cy="25" r="20" stroke="#D4AF37" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="31.4 31.4"></circle>
-                                </svg>
-                                <span id="addServiceProgress">Saving...</span>
-                            </div>
-                        </div>
-                        <style>@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }</style>
-                    </div>`;
-                document.body.appendChild(modal);
-                
-                // On small screens, hide navbar and prevent background scroll
-                try {
-                    if (window.innerWidth <= 768) {
-                        const navEl = document.querySelector('nav');
-                        if (navEl) { navEl.dataset.prevDisplay = navEl.style.display || ''; navEl.style.display = 'none'; }
-                        document.body.dataset.prevOverflow = document.body.style.overflow || '';
-                        document.body.style.overflow = 'hidden';
-                    }
-                } catch (_) {}
-                
-                document.getElementById('addServiceGlanceForm').addEventListener('submit', (e)=>{
-                    e.preventDefault();
-                    const title = document.getElementById('sgTitle').value;
-                    const description = document.getElementById('sgDescription').value;
-                    const file = document.getElementById('sgVideo').files[0];
-                    const item = { title, description: description || '', order: Date.now() };
-                    
-                    const loadingEl = document.getElementById('addServiceLoading');
-                    const progressEl = document.getElementById('addServiceProgress');
-                    const saveBtn = document.getElementById('addServiceSaveBtn');
-                    
-                    // Show loading overlay
-                    if (loadingEl) loadingEl.style.display = 'flex';
-                    if (saveBtn) { saveBtn.disabled = true; saveBtn.textContent = 'Adding...'; }
-                    
-                    if (!file) {
-                        // No file - just save to Firebase
-                        database.ref('services').push(item)
-                            .then(()=>{ 
-                                loadServicesGlanceFromFirebase(); 
-                                closeModal(); 
-                            })
-                            .catch((error) => {
-                            })
-                            .finally(() => {
-                                if (loadingEl) loadingEl.style.display = 'none';
-                                if (saveBtn) { saveBtn.disabled = false; saveBtn.textContent = 'Add'; }
-                            });
-                        return;
-                    }
-                    
-                    // Has file - upload to R2
-                    if (progressEl) progressEl.textContent = 'Uploading video...';
-                    const tempUrl = URL.createObjectURL(file);
-                    item.videoUrl = tempUrl; // optimistic preview in UI
-                    
-                    database.ref('services').push(item).then(async (ref)=>{
-                        try {
-                            if (progressEl) progressEl.textContent = 'Processing...';
-                            const cdnUrl = await uploadServiceVideo(file, 'services');
-                            await ref.update({ videoUrl: cdnUrl });
-                        } catch (e) {
-                        }
-                    })
-                    .then(()=>{ 
-                        loadServicesGlanceFromFirebase(); 
-                        closeModal(); 
-                    })
-                    .catch((error) => {
-                        // Error adding service
-                    })
-                    .finally(() => {
-                        if (loadingEl) loadingEl.style.display = 'none';
-                        if (saveBtn) { saveBtn.disabled = false; saveBtn.textContent = 'Add'; }
-                    });
-                });
-            };
-
-            window.editServiceGlance = function(id) {
-                if (!isAdminMode) return;
-                database.ref('services/'+id).once('value').then(function(snapshot){
-                    const s = snapshot.val(); if (!s) return;
-                    const modal = document.createElement('div');
-                    modal.className = 'modal-overlay';
-                    modal.innerHTML = `
-                        <div class="modal-content">
-                            <div class="modal-header"><h3 class="modal-title">Edit Service</h3></div>
-                            <form id="editServiceGlanceForm">
-                                <div class="modal-form-group"><label for="esgTitle">Title</label><input id="esgTitle" value="${s.title||''}" required></div>
-                                <div class="modal-form-group"><label for="esgDescription">Description</label><input id="esgDescription" value="${s.description||''}" required></div>
-                                <div class="modal-form-group"><label for="esgVideo">Replace Video (optional)</label><input id="esgVideo" type="file" accept="video/*"></div>
-                                <div class="modal-form-actions">
-                                    <button type="submit" class="modal-btn-save">Update</button>
-                                    <button type="button" class="modal-btn-cancel" onclick="closeModal()">Cancel</button>
-                                </div>
-                            </form>
-                        </div>`;
-                    document.body.appendChild(modal);
-                    document.getElementById('editServiceGlanceForm').addEventListener('submit', (e)=>{
-                        e.preventDefault();
-                        const title = document.getElementById('esgTitle').value;
-                        const description = document.getElementById('esgDescription').value;
-                        const file = document.getElementById('esgVideo').files[0];
-                        const updated = { title, description, order: s.order || Date.now() };
-                        const ref = database.ref('services/'+id);
-                        const maybeUpload = file ? uploadServiceVideo(file, 'services').then((cdnUrl)=>{ updated.videoUrl = cdnUrl; }) : Promise.resolve();
-                        maybeUpload.then(()=> ref.update(updated)).then(()=>{ loadServicesGlanceFromFirebase(); closeModal(); });
-                    });
-                });
-            };
-
-            window.deleteServiceGlance = function(id) {
-                if (!isAdminMode) return;
-                const modal = document.createElement('div');
-                modal.className = 'modal-overlay';
-                modal.innerHTML = `
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title">Delete Service</h3>
-                        </div>
-                        <div style="text-align: center; color: #2c2c2c; margin-bottom: 1rem;">Are you sure?</div>
-                        <div class="modal-form-actions">
-                            <button type="button" class="modal-btn-save" id="confirmDeleteServiceGlanceBtn">Delete</button>
-                            <button type="button" class="modal-btn-cancel" id="cancelDeleteServiceGlanceBtn">Cancel</button>
-                        </div>
-                    </div>
-                `;
-                document.body.appendChild(modal);
-                
-                // Prevent body scroll and hide navbar on mobile
-                try {
-                    if (window.innerWidth <= 768) {
-                        const nav = document.querySelector('nav');
-                        if (nav) {
-                            nav.dataset.prevDisplay = nav.style.display || '';
-                            nav.style.display = 'none';
-                        }
-                        document.body.dataset.prevOverflow = document.body.style.overflow || '';
-                        document.body.style.overflow = 'hidden';
-                    }
-                } catch(e) {
-                    // Error setting modal scroll behavior
-                }
-                
-                const cancelBtn = document.getElementById('cancelDeleteServiceGlanceBtn');
-                if (cancelBtn) cancelBtn.addEventListener('click', closeModal);
-                
-                const confirmBtn = document.getElementById('confirmDeleteServiceGlanceBtn');
-                if (confirmBtn) {
-                    confirmBtn.addEventListener('click', function() {
-                        database.ref('services/'+id).remove().then(()=>{ 
-                            loadServicesGlanceFromFirebase(); 
-                            closeModal();
-                        });
-                    });
-                }
-            };
-
-            // Testimonials admin controls
-            function setupTestimonialsAdmin() {
-                if (!isAdminMode) return;
-                const header = document.querySelector('.testimonials .section-header');
-                if (header && !document.getElementById('addTestimonialBtn')) {
-                    const addBtn = document.createElement('button');
-                    addBtn.id = 'addTestimonialBtn';
-                    addBtn.className = 'add-website-btn';
-                    addBtn.style.marginLeft = 'auto';
-                    addBtn.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg> Add Testimonial';
-                    addBtn.onclick = function(){ showAddTestimonialModal(); };
-                    header.appendChild(addBtn);
-                }
-                loadTestimonialsForAdmin();
-            }
-
-            function loadTestimonialsForAdmin() {
-                if (!database) return;
-                database.ref('testimonials').once('value').then(function(snapshot){
-                    const data = snapshot.val() || {};
-                    const items = Object.keys(data).map(id=>({id, ...data[id]})).sort((a,b)=>(a.order||0)-(b.order||0));
-                    window._testimonialsAdminItems = items;
-                    // Auto-normalize orders to 1..N if they are not sequential or if any large timestamp-like order exists
-                    (function normalizeIfNeeded(){
-                        const needsFix = items.some((it, idx) => Number(it.order||0) !== (idx+1)) || items.some(it => Number(it.order||0) > 100000);
-                        if (!needsFix) return;
-                        const updates = {};
-                        items.forEach((it, idx) => { updates[it.id + '/order'] = idx + 1; });
-                        database.ref('testimonials').update(updates).then(function(){
-                            // Reload after normalization
-                            loadTestimonialsForAdmin();
-                            if (window.firebaseDataLoader) { window.firebaseDataLoader.loadTestimonials(); }
-                        }).catch(function(err){ });
-                    })();
-                    const card = document.getElementById('testimonialCard');
-                    if (card) {
-                        // attach actions overlay
-                        let actions = card.querySelector('.website-actions');
-                        if (!actions) {
-                            actions = document.createElement('div');
-                            actions.className = 'website-actions';
-                            actions.style.opacity = '1';
-                            card.appendChild(actions);
-                        }
-                        actions.innerHTML = '';
-                        // Edit icon pinned top-left of testimonial card
-                        const editBtn = document.createElement('button');
-                        editBtn.className = 'website-edit-icon';
-                        editBtn.title = 'Edit Testimonial';
-                        editBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>';
-                        editBtn.onclick = () => {
-                            const idx = (typeof window.getCurrentTestimonialIndex === 'function') ? window.getCurrentTestimonialIndex() : 0;
-                            const items = window._testimonialsAdminItems || [];
-                            const current = items[idx] || items[0];
-                            if (current) editTestimonial(current.id);
-                        };
-                        card.appendChild(editBtn);
-                        // Delete icon pinned top-right via actions container (matches client delete icon)
-                        const deleteBtn = document.createElement('button');
-                        deleteBtn.className = 'client-delete-btn';
-                        deleteBtn.title = 'Delete Testimonial';
-                        deleteBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,6 5,6 21,6"></polyline><path d="M19,6v14a2,2 0 0,1 -2,2H7a2,2 0 0,1 -2,-2V6m3,0V4a2,2 0 0,1 2,-2h4a2,2 0 0,1 2,2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>';
-                        deleteBtn.onclick = () => {
-                            const idx = (typeof window.getCurrentTestimonialIndex === 'function') ? window.getCurrentTestimonialIndex() : 0;
-                            const items = window._testimonialsAdminItems || [];
-                            const current = items[idx] || items[0];
-                            if (current) deleteTestimonial(current.id);
-                        };
-                        actions.appendChild(deleteBtn);
-                    }
-                });
-            }
-
-            window.showAddTestimonialModal = function() {
-                const modal = document.createElement('div');
-                modal.className = 'modal-overlay';
-                modal.innerHTML = `
-                    <div class="modal-content">
-                        <div class="modal-header"><h3 class="modal-title">Add Testimonial</h3></div>
-                        <form id="addTestimonialForm">
-                            <div class="modal-form-group"><label for="tName">Name</label><input id="tName" required></div>
-                            <div class="modal-form-group"><label for="tRole">Role</label><input id="tRole"></div>
-                            <div class="modal-form-group"><label for="tRating">Rating (1-5)</label><input id="tRating" type="number" min="1" max="5" value="5"></div>
-                            <div class="modal-form-group"><label for="tQuote">Quote</label><input id="tQuote" required></div>
-                            <div class="modal-form-actions"><button type="submit" class="modal-btn-save">Add</button><button type="button" class="modal-btn-cancel" onclick="closeModal()">Cancel</button></div>
-                        </form>
-                    </div>`;
-                document.body.appendChild(modal);
-                document.getElementById('addTestimonialForm').addEventListener('submit', async (e)=>{
-                    e.preventDefault();
-                    // Compute next sequential order = max(order)+1 (defaults to 1)
-                    let nextOrder = 1;
-                    try {
-                        const snap = await database.ref('testimonials').once('value');
-                        const data = snap.val() || {};
-                        const orders = Object.keys(data).map(k => Number(data[k]?.order || 0)).filter(n => isFinite(n) && n > 0 && n < 100000);
-                        const maxOrder = orders.length ? Math.max.apply(null, orders) : 0;
-                        nextOrder = maxOrder + 1;
-                    } catch(_) {}
-                    // Use unified model: clientName, designation, description, rating, order, createdAt
-                    const item = {
-                        clientName: tName.value,
-                        designation: tRole.value,
-                        description: tQuote.value,
-                        rating: Number(tRating.value||5),
-                        order: nextOrder,
-                        createdAt: new Date().toISOString()
-                    };
-                    await database.ref('testimonials').push(item);
-                    // Refresh admin list and carousel, wait for data to finish loading
-                    loadTestimonialsForAdmin();
-                    if (window.firebaseDataLoader) { await window.firebaseDataLoader.loadTestimonials(); }
-                    // After load, jump to the newly added item (last by order)
-                    const count = Array.isArray(window.testimonials) ? window.testimonials.length : 0;
-                    if (typeof window.goToTestimonial === 'function' && count > 0) { window.goToTestimonial(count - 1); }
-                    closeModal();
-                });
-            };
-
-            window.editTestimonial = function(id) {
-                database.ref('testimonials/'+id).once('value').then(function(snapshot){
-                    const t = snapshot.val(); if (!t) return;
-                    const modal = document.createElement('div');
-                    modal.className = 'modal-overlay';
-                    modal.innerHTML = `
-                        <div class="modal-content">
-                            <div class="modal-header"><h3 class="modal-title">Edit Testimonial</h3></div>
-                            <form id="editTestimonialForm">
-                                <div class="modal-form-group"><label for="etName">Name</label><input id="etName" value="${t.name||t.clientName||''}" required></div>
-                                <div class="modal-form-group"><label for="etRole">Role</label><input id="etRole" value="${t.role||t.designation||''}"></div>
-                                <div class="modal-form-group"><label for="etRating">Rating (1-5)</label><input id="etRating" type="number" min="1" max="5" value="${t.rating||5}"></div>
-                                <div class="modal-form-group"><label for="etQuote">Quote</label><input id="etQuote" value="${t.quote||t.description||''}" required></div>
-                                <div class="modal-form-actions"><button type="submit" class="modal-btn-save">Update</button><button type="button" class="modal-btn-cancel" onclick="closeModal()">Cancel</button></div>
-                            </form>
-                        </div>`;
-                    document.body.appendChild(modal);
-                    document.getElementById('editTestimonialForm').addEventListener('submit', async (e)=>{
-                        e.preventDefault();
-                        // Persist using unified model
-                        const updated = {
-                            clientName: etName.value,
-                            designation: etRole.value,
-                            description: etQuote.value,
-                            rating: Number(etRating.value||5),
-                            order: t.order || Date.now()
-                        };
-                        const keepIdx = (typeof window.getCurrentTestimonialIndex === 'function') ? window.getCurrentTestimonialIndex() : 0;
-                        await database.ref('testimonials/'+id).update(updated);
-                        loadTestimonialsForAdmin();
-                        if (window.firebaseDataLoader) { await window.firebaseDataLoader.loadTestimonials(); }
-                        // After data reload, keep viewing the same testimonial index
-                        if (typeof window.goToTestimonial === 'function') { window.goToTestimonial(keepIdx); }
-                        closeModal();
-                    });
-                });
-            };
-
-            window.deleteTestimonial = function(id) {
-                const modal = document.createElement('div');
-                modal.className = 'modal-overlay';
-                modal.innerHTML = `
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title">Delete Testimonial</h3>
-                        </div>
-                        <div style="text-align: center; color: #2c2c2c; margin-bottom: 1rem;">Are you sure?</div>
-                        <div class="modal-form-actions">
-                            <button type="button" class="modal-btn-save" id="confirmDeleteTestimonialBtn">Delete</button>
-                            <button type="button" class="modal-btn-cancel" id="cancelDeleteTestimonialBtn">Cancel</button>
-                        </div>
-                    </div>
-                `;
-                document.body.appendChild(modal);
-                
-                // Prevent body scroll and hide navbar on mobile
-                try {
-                    if (window.innerWidth <= 768) {
-                        const nav = document.querySelector('nav');
-                        if (nav) {
-                            nav.dataset.prevDisplay = nav.style.display || '';
-                            nav.style.display = 'none';
-                        }
-                        document.body.dataset.prevOverflow = document.body.style.overflow || '';
-                        document.body.style.overflow = 'hidden';
-                    }
-                } catch(e) {
-                    // Error setting modal scroll behavior
-                }
-                
-                const cancelBtn = document.getElementById('cancelDeleteTestimonialBtn');
-                if (cancelBtn) cancelBtn.addEventListener('click', closeModal);
-                
-                const confirmBtn = document.getElementById('confirmDeleteTestimonialBtn');
-                if (confirmBtn) {
-                    confirmBtn.addEventListener('click', function() {
-                        database.ref('testimonials/' + id).remove().then(() => {
-                            loadTestimonialsForAdmin();
-                            if (window.firebaseDataLoader) {
-                                window.firebaseDataLoader.loadTestimonials();
-                            }
-                            closeModal();
-                        });
-                    });
-                }
-            };
-
-        })();
-    </script>
+buildDots();
+document.getElementById('tNext').addEventListener('click', () => go(ti + 1));
+document.getElementById('tPrev').addEventListener('click', () => go(ti - 1));
+startAuto();
+document.querySelector('.tcard').addEventListener('mouseenter', () => clearInterval(tTimer));
+document.querySelector('.tcard').addEventListener('mouseleave', startAuto);
+</script>
 </body>
 </html>

@@ -1,167 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Gaa-tha</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* Match index navbar sizing/spacing */
-        nav.glass { padding: 8px 16px !important; }
-        nav.glass .logo img { height: 36px !important; }
-        @media (min-width: 768px) {
-            nav.glass { display: flex; align-items: center; width: 70%; max-width: 720px; }
-            nav.glass .logo { flex: 0 0 auto; }
-            nav.glass .nav-links { flex: 1 1 auto; display: flex; justify-content: center; gap: 28px; }
-            nav.glass .cta-btn { flex: 0 0 auto; }
-            nav.glass .menu-toggle { display: none !important; }
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About gaa-tha — India-Rooted, Globally Minded Storytellers</title>
+<meta name="description" content="Meet gaa-tha: founded in 2024 by Abhishek Khuthiya and Getansh Savla, we turn brand moments into movements through emotional storytelling, social-first content and AI-driven results.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#150E07">
+<link rel="canonical" href="https://gaa-tha.com/about.html">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="apple-touch-icon" href="assets/logo.png">
 
-        /* About page spacing and heading tweaks */
-        .about-hero { margin-bottom: 8px; }
-        .about-hero .about-title { margin: 0; }
-        .about-hero + .founders { margin-top: 8px; }
-        .founders { padding-top: 0; }
-        .founders .team-title { margin-top: 8px; }
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="gaa-tha">
+<meta property="og:title" content="About gaa-tha — India-Rooted, Globally Minded Storytellers">
+<meta property="og:description" content="Two storytellers, one obsession — turning brand moments into movements.">
+<meta property="og:url" content="https://gaa-tha.com/about.html">
+<meta property="og:image" content="https://gaa-tha.com/assets/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About gaa-tha">
+<meta name="twitter:description" content="Two storytellers, one obsession — turning brand moments into movements.">
+<meta name="twitter:image" content="https://gaa-tha.com/assets/logo.png">
 
-        /* Increase font for Meet the Founders and Our Principles */
-        .team-title { font-size: 28px; line-height: 1.2; }
-        @media (min-width: 768px) { .team-title { font-size: 32px; } }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="gaatha.css">
 
-        /* Ensure founder photos look proper (centered, cover) */
-        .founders .founder-photo { background-size: cover; background-position: center; background-repeat: no-repeat; }
-    </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About gaa-tha",
+  "url": "https://gaa-tha.com/about.html",
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "gaa-tha",
+    "url": "https://gaa-tha.com/",
+    "logo": "https://gaa-tha.com/assets/logo.png",
+    "foundingDate": "2024",
+    "description": "gaa-tha is a storytelling-led digital marketing agency that turns brand moments into movements through emotional storytelling, social-first content and AI-driven results.",
+    "founder": [
+      { "@type": "Person", "name": "Abhishek Khuthiya", "jobTitle": "Co-Founder & CEO", "description": "A business analyst turned brand storyteller who drives gaa-tha's strategy and marketing." },
+      { "@type": "Person", "name": "Getansh Savla", "jobTitle": "Co-Founder & CTO", "description": "A finance expert turned creative who crafts gaa-tha's most memorable campaigns." }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://gaa-tha.com/" },
+    { "@type": "ListItem", "position": 2, "name": "About", "item": "https://gaa-tha.com/about.html" }
+  ]
+}
+</script>
+<style>
+.page-hero { padding: clamp(150px, 22vh, 260px) var(--pad) clamp(30px, 5vw, 60px); }
+.page-hero .wrap { max-width: var(--maxw); margin: 0 auto; }
+.page-hero h1 { font-size: clamp(2.8rem, 10vw, 9rem); letter-spacing: -0.03em; }
+.page-hero .lead { margin-top: 26px; max-width: 48ch; font-size: clamp(1.05rem, 1.5vw, 1.25rem); color: var(--muted); }
+
+/* Founders */
+.founder { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: clamp(28px, 5vw, 70px); align-items: center; padding: clamp(40px,6vw,80px) 0; border-top: 1px solid var(--line); }
+.founder.rev { grid-template-columns: 1.15fr 0.85fr; }
+.founder.rev .f-photo { order: 2; }
+.f-photo { aspect-ratio: 4/5; border-radius: var(--radius-lg, 24px); overflow: hidden; border: 1px solid var(--line); position: relative; }
+.f-photo img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(0.2) contrast(1.02); transition: filter 0.6s var(--ease), transform 0.8s var(--ease); }
+.founder:hover .f-photo img { filter: none; transform: scale(1.03); }
+.f-no { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); letter-spacing: 0.16em; }
+.f-name { font-family: var(--serif); font-weight: 400; font-size: clamp(2.2rem, 5vw, 4rem); line-height: 1; margin: 14px 0 6px; letter-spacing: -0.02em; }
+.f-tag { font-family: var(--mono); font-size: 0.82rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-deep); }
+.f-bio { margin-top: 22px; color: var(--muted); font-size: 1.08rem; max-width: 44ch; }
+@media (max-width: 760px){ .founder, .founder.rev { grid-template-columns: 1fr; } .founder.rev .f-photo { order: 0; } .f-photo { max-width: 360px; } }
+
+/* Story chapters */
+.chapters { border-top: 1px solid var(--line); }
+.chap { display: grid; grid-template-columns: 0.3fr 1fr; gap: clamp(16px,3vw,48px); padding: clamp(30px,4vw,56px) 0; border-bottom: 1px solid var(--line); align-items: start; }
+.chap .c-no { font-family: var(--serif); font-size: clamp(2.4rem,5vw,4.4rem); color: transparent; -webkit-text-stroke: 1px var(--line-2); line-height: 0.9; }
+.chap h3 { font-family: var(--serif); font-weight: 430; font-size: clamp(1.6rem, 3vw, 2.4rem); margin-bottom: 14px; letter-spacing: -0.01em; }
+.chap p { color: var(--muted); font-size: 1.08rem; max-width: 60ch; }
+@media (max-width: 620px){ .chap { grid-template-columns: 1fr; gap: 10px; } .chap .c-no { font-size: 2.2rem; } }
+
+/* Manifesto */
+.manifesto { border-top: 1px solid var(--dark-line); }
+.man-row { display: grid; grid-template-columns: auto 1fr auto; gap: clamp(16px,4vw,50px); align-items: baseline; padding: clamp(30px,4vw,52px) 0; border-bottom: 1px solid var(--dark-line); }
+.man-row .m-num { font-family: var(--mono); font-size: 0.86rem; color: var(--accent-light); letter-spacing: 0.14em; }
+.man-line { font-family: var(--serif); font-weight: 380; font-size: clamp(1.6rem, 3.6vw, 3rem); line-height: 1.06; letter-spacing: -0.01em; }
+.man-line em { font-style: italic; color: transparent; background: var(--foil); -webkit-background-clip: text; background-clip: text; }
+.man-sub { margin-top: 14px; color: var(--dark-muted); font-size: 1.02rem; max-width: 58ch; }
+.man-mark { color: var(--accent); font-size: 1.3rem; }
+@media (max-width: 620px){ .man-row { grid-template-columns: auto 1fr; } .man-mark { display: none; } }
+.skip-link { position: absolute; left: -999px; top: 0; z-index: 100001; background: var(--coffee); color: var(--paper); padding: 12px 18px; border-radius: 0 0 10px 0; font-family: var(--mono); font-size: 0.8rem; }
+.skip-link:focus { left: 0; }
+</style>
 </head>
-<body>
-    <nav class="glass">
-        <div class="logo"><a href="index.html"><img src="images/gaatha_logo_-_Copy-removebg-preview.png" alt="Gaa-tha" /></a></div>
-        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+<body data-page="about">
+<a href="#founders" class="skip-link">Skip to content</a>
+<div class="site" data-screen-label="About">
+
+<nav class="nav">
+    <a class="nav-logo" href="index.html" aria-label="gaa-tha home"><img src="assets/logo.png" alt="gaa-tha logo"></a>
+    <div class="nav-right">
         <ul class="nav-links">
-            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#moves">Services</a></li>
             <li><a href="work.html">Work</a></li>
-            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="about.html" class="active" aria-current="page">About</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
         </ul>
-        <a href="index.html#contact" class="cta-btn">Start a Project</a>
-    </nav>
+        <a href="index.html#contact" class="btn btn-primary nav-cta magnetic">Start a project <span class="arr">→</span></a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+</nav>
+<div class="mobile-menu">
+    <button class="mm-close" aria-label="Close menu">✕</button>
+    <a href="index.html#moves"><span class="num">01</span>Services</a>
+    <a href="work.html"><span class="num">02</span>Work</a>
+    <a href="about.html"><span class="num">03</span>About</a>
+    <a href="index.html#contact"><span class="num">04</span>Contact</a>
+</div>
 
-    <section class="about-hero">
-        <h1 class="about-title">India-rooted. <span class="highlight">Global-minded.</span></h1>
-    </section>
+<header class="page-hero">
+    <div class="wrap">
+        <div class="masthead reveal" style="margin-bottom:clamp(28px,4vw,44px);"><span>The People</span><span class="mid hide-sm">— Behind the Plot —</span><span class="hide-sm">Est. 2024</span><span>Crafting Tales</span></div>
+        <h1 class="display kin"><span class="kin-line"><span>India-rooted.</span></span><span class="kin-line"><span><span class="foil it">Global-minded.</span></span></span></h1>
+        <p class="lead reveal" data-delay style="--d:.4s">Two storytellers, one obsession — turning brand moments into movements.</p>
+    </div>
+</header>
 
-    <section class="founders">
-        <h3 class="team-title">Meet the Founders</h3>
-        <div class="founder-row">
-            <div class="founder-photo photo-abhi" style="background-image:url('images/abhisekh.jpg');"></div>
-            <div class="founder-card glass">
-                <div class="role-badge">CEO</div>
-                <h3 class="founder-name">Abhishek Khuthiya</h3>
-                <p class="founder-tag">The Strategist</p>
-                <p class="founder-bio">A business analyst turned brand storyteller, Abhishek drives Gaa-tha’s marketing magic. With a background in international business and an obsession with brand psychology, he ensures every campaign is built on insight and impact.</p>
-            </div>
+<main>
+<section class="section" id="founders" aria-labelledby="founders-title" style="padding-top: clamp(40px,5vw,60px);">
+    <div class="section-head"><span class="eyebrow reveal">The founders · Nº 01</span><h2 id="founders-title" class="section-title display reveal" style="font-size:clamp(2.2rem,5vw,3.6rem);">Meet the <span class="foil it">makers</span></h2></div>
+    <article class="founder reveal">
+        <div class="f-photo"><img src="assets/abhishek.jpg" alt="Abhishek Khuthiya, Co-Founder &amp; CEO of gaa-tha" loading="lazy"></div>
+        <div>
+            <span class="f-no">Founder 01 · CEO</span>
+            <h3 class="f-name">Abhishek Khuthiya</h3>
+            <p class="f-tag">The Strategist</p>
+            <p class="f-bio">A business analyst turned brand storyteller, Abhishek drives gaa-tha's marketing magic. With a background in international business and an obsession with brand psychology, he makes sure every campaign is built on insight and impact.</p>
         </div>
-        <div class="founder-row reverse">
-            <div class="founder-photo photo-getansh" style="background-image:url('images/getansh.jpg');"></div>
-            <div class="founder-card glass">
-                <div class="role-badge">CTO</div>
-                <h3 class="founder-name">Getansh Savla</h3>
-                <p class="founder-tag">The Creative Mind</p>
-                <p class="founder-bio">A finance expert who traded spreadsheets for storytelling, Getansh crafts Gaa-tha’s most memorable campaigns. His expertise in marketing and consumer behavior makes sure every piece of content connects, engages, and converts.</p>
-            </div>
+    </article>
+    <article class="founder rev reveal">
+        <div>
+            <span class="f-no">Founder 02 · CTO</span>
+            <h3 class="f-name">Getansh Savla</h3>
+            <p class="f-tag">The Creative Mind</p>
+            <p class="f-bio">A finance expert who traded spreadsheets for storytelling, Getansh crafts gaa-tha's most memorable campaigns. His expertise in marketing and consumer behaviour makes sure every piece of content connects, engages and converts.</p>
         </div>
-    </section>
+        <div class="f-photo"><img src="assets/getansh.jpg" alt="Getansh Savla, Co-Founder &amp; CTO of gaa-tha" loading="lazy"></div>
+    </article>
+</section>
 
-    <section class="story-flow">
-        <div class="story-track">
-            <article class="story-card glass rotate-2">
-                <div class="story-pin"></div>
-                <h3>Our Story</h3>
-                <p>Between late-night brainstorming and global campaign deep-dives, we cracked the formula: Emotion + Storytelling + Social Media. <span class="more-text">We built Gaa-tha to turn brand moments into movements—mixing taste, rigor, and speed.</span></p>
-            </article>
-            <article class="story-card glass rotate--3">
-                <div class="story-pin"></div>
-                <h3>The Problem</h3>
-                <p>Brands craved engagement and loyalty but were lost in the digital noise. <span class="more-text">Algorithms favored quantity over quality; audiences scrolled past forgettable creative.</span></p>
-            </article>
-            <article class="story-card glass rotate--1">
-                <div class="story-pin"></div>
-                <h3>Our Solution</h3>
-                <p>Emotional storytelling powered by social—impactful, efficient, and truly connective. <span class="more-text">We blend performance data with creative taste to ship content people actually care about.</span></p>
-            </article>
-            <article class="story-card glass rotate-4">
-                <div class="story-pin"></div>
-                <h3>Gaa-tha's Vision</h3>
-                <p>Move beyond generic marketing by crafting stories that turn consumers into loyal fans and make brands stand out. <span class="more-text">From witty campaigns to scroll‑stopping reels, we create work that lasts.</span></p>
-            </article>
-            <article class="story-card glass rotate--2">
-                <div class="story-pin"></div>
-                <h3>Our Mission</h3>
-                <p>Create content that makes people feel, engage, and stay loyal—because people don’t just buy products; they buy stories. <span class="more-text">Every deliverable carries a clear outcome: awareness, engagement, or revenue.</span></p>
-            </article>
-        </div>
-    </section>
+<section class="section" aria-labelledby="origin-title" style="padding-top: 0;">
+    <div class="section-head"><span class="eyebrow reveal">The origin · Nº 02</span><h2 id="origin-title" class="section-title display reveal" style="font-size:clamp(2.2rem,5vw,3.6rem);">How gaa-tha <span class="foil it">began</span></h2></div>
+    <div class="chapters">
+        <div class="chap reveal"><span class="c-no">01</span><div><h3>Our Story</h3><p>Between late-night brainstorming and global campaign deep-dives, we cracked the formula: emotion + storytelling + social media. We built gaa-tha to turn brand moments into movements — mixing taste, rigour and speed.</p></div></div>
+        <div class="chap reveal"><span class="c-no">02</span><div><h3>The Problem</h3><p>Brands craved engagement and loyalty but were lost in the digital noise. Algorithms favoured quantity over quality, and audiences scrolled past forgettable creative.</p></div></div>
+        <div class="chap reveal"><span class="c-no">03</span><div><h3>Our Solution</h3><p>Emotional storytelling powered by social — impactful, efficient and truly connective. We blend performance data with creative taste to ship content people actually care about.</p></div></div>
+        <div class="chap reveal"><span class="c-no">04</span><div><h3>The Vision</h3><p>Move beyond generic marketing by crafting stories that turn consumers into loyal fans and make brands stand out. From witty campaigns to scroll-stopping reels, we create work that lasts.</p></div></div>
+        <div class="chap reveal"><span class="c-no">05</span><div><h3>Our Mission</h3><p>Create content that makes people feel, engage and stay loyal — because people don't just buy products; they buy stories. Every deliverable carries a clear outcome: awareness, engagement or revenue.</p></div></div>
+    </div>
+</section>
 
-    <section class="principles">
-        <h3 class="team-title">Our Principles</h3>
-        <div class="principles-grid">
-            <div class="principle glass">
-                <span class="principle-icon">
-                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                        <path d="M12 22s8-4 8-10a8 8 0 1 0-16 0c0 6 8 10 8 10z"></path>
-                        <circle cx="12" cy="12" r="3"></circle>
-                    </svg>
-                </span>
-                <div class="principle-content">
-                    <div class="principle-title">Taste over noise</div>
-                    <div class="principle-desc">We create work that stands out, not just fits in.</div>
-                </div>
-            </div>
-            <div class="principle glass">
-                <span class="principle-icon">
-                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <path d="M14.31 8l5.74 9.94"></path>
-                        <path d="M9.69 8h11.48"></path>
-                        <path d="M7.38 12l5.74-9.94"></path>
-                        <path d="M9.69 16L3.95 6.06"></path>
-                    </svg>
-                </span>
-                <div class="principle-content">
-                    <div class="principle-title">Ethical AI</div>
-                    <div class="principle-desc">Technology should amplify creativity, not replace humanity.</div>
-                </div>
-            </div>
-            <div class="principle glass">
-                <span class="principle-icon">
-                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                        <path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"></path>
-                    </svg>
-                </span>
-                <div class="principle-content">
-                    <div class="principle-title">Speed with quality</div>
-                    <div class="principle-desc">Fast execution without compromising on excellence.</div>
-                </div>
-            </div>
-            <div class="principle glass">
-                <span class="principle-icon">
-                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                        <path d="M3 3v18h18"></path>
-                        <path d="M7 13l4-4 3 3 5-5"></path>
-                    </svg>
-                </span>
-                <div class="principle-content">
-                    <div class="principle-title">Results that matter</div>
-                    <div class="principle-desc">Every campaign is measured by real business impact.</div>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="section scene-dark" data-scene="dark" aria-labelledby="manifesto-title">
+    <div class="section-head"><span class="eyebrow reveal">Why brands stay · Nº 03</span><h2 id="manifesto-title" class="section-title display reveal">The <span class="foil it">Manifesto</span></h2></div>
+    <div class="manifesto">
+        <div class="man-row reveal"><span class="m-num">01</span><div><h3 class="man-line">Anyone can be loud. We make you <em>impossible to ignore.</em></h3><p class="man-sub">Taste over noise, always. Your audience scrolls past a thousand ads a day — ours are the ones their thumb stops for.</p></div><span class="man-mark" aria-hidden="true">✦</span></div>
+        <div class="man-row reveal"><span class="m-num">02</span><div><h3 class="man-line">AI does the heavy lifting. Humans do the <em>heart.</em></h3><p class="man-sub">We ship in days what others "circle back" on for months — without losing the goosebumps. Robots can't feel those. Yet.</p></div><span class="man-mark" aria-hidden="true">✦</span></div>
+        <div class="man-row reveal"><span class="m-num">03</span><div><h3 class="man-line">Likes don't pay rent. <em>Results</em> do.</h3><p class="man-sub">50M+ reach, 100+ campaigns, clients who renew. We make people feel things — then we make the numbers prove it.</p></div><span class="man-mark" aria-hidden="true">✦</span></div>
+        <div class="man-row reveal"><span class="m-num">04</span><div><h3 class="man-line">Your win is our <em>portfolio.</em></h3><p class="man-sub">We only look good when you do. So we obsess over your growth like it's our own — because it literally is.</p></div><span class="man-mark" aria-hidden="true">✦</span></div>
+    </div>
+</section>
+</main>
 
-    <footer>
-        <p>© 2025 gaa-tha. All rights reserved.</p>
-    </footer>
+<footer class="site-footer">
+    <a href="index.html#contact" class="footer-cta"><div class="footer-cta-row"><h2>Got a story to tell?<br><span class="foil it">Let's make it legendary.</span></h2><span class="arr-big" aria-hidden="true">↗</span></div></a>
+    <div class="footer-grid">
+        <div class="footer-brand"><img src="assets/logo.png" alt="gaa-tha logo"><p>Crafting tales that turn brands into movements — strategy, storytelling and AI-driven results.</p></div>
+        <div class="footer-col"><h4>Explore</h4><ul><li><a href="index.html#moves">Services</a></li><li><a href="work.html">Work</a></li><li><a href="about.html">About</a></li><li><a href="index.html#contact">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Say hello</h4><ul><li><a href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a></li><li><a href="tel:+919737280309">+91 97372 80309</a></li><li><a href="tel:+917781818981">+91 77818 18981</a></li></ul></div>
+        <div class="footer-col"><h4>Follow</h4><div class="footer-socials">
+            <a href="https://instagram.com/__gaa.tha__/" target="_blank" rel="noopener" aria-label="gaa-tha on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.4A4 4 0 1 1 12.6 8 4 4 0 0 1 16 11.4z"></path><circle cx="17.5" cy="6.5" r="1"></circle></svg></a>
+            <a href="https://www.linkedin.com/company/teamgaatha/" target="_blank" rel="noopener" aria-label="gaa-tha on LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-14h4v2"></path></svg></a>
+            <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/" target="_blank" rel="noopener" aria-label="gaa-tha on Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+        </div></div>
+    </div>
+    <div class="footer-wordmark" aria-hidden="true">gaa-tha</div>
+    <div class="footer-bottom"><div class="footer-bottom-inner"><p>© <span data-year>2026</span> gaa-tha. All rights reserved.</p><button class="to-top">Back to top ↑</button></div></div>
+</footer>
 
-    <script src="script.js"></script>
+</div>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="gaatha.js"></script>
 </body>
 </html>
-

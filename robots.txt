@@ -1,0 +1,15 @@
+# gaa-tha — robots.txt
+# Welcome, crawlers and AI answer engines.
+
+User-agent: *
+Allow: /
+Disallow: /GaathaAdmin123.html
+Disallow: /admin/
+Disallow: /workers/
+Disallow: /manage.html
+Disallow: /reels-admin.html
+Disallow: /websites-admin.html
+Disallow: /branding-admin.html
+
+# Sitemap
+Sitemap: https://gaa-tha.com/sitemap.xml

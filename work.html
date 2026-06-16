@@ -1,115 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Work - Gaa-tha</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* Match index navbar sizing/spacing */
-        nav.glass { padding: 8px 16px !important; }
-        nav.glass .logo img { height: 36px !important; }
-        @media (min-width: 768px) {
-            nav.glass { display: flex; align-items: center; width: 70%; max-width: 720px; }
-            nav.glass .logo { flex: 0 0 auto; }
-            nav.glass .nav-links { flex: 1 1 auto; display: flex; justify-content: center; gap: 28px; }
-            nav.glass .cta-btn { flex: 0 0 auto; }
-            nav.glass .menu-toggle { display: none !important; }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Work — Reels, Websites &amp; Branding | gaa-tha</title>
+<meta name="description" content="The proof: explore gaa-tha's work across 1000+ scroll-stopping reels, 15+ conversion websites and 2500+ brand creatives. Pick a universe and dive in.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#150E07">
+<link rel="canonical" href="https://gaa-tha.com/work.html">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="apple-touch-icon" href="assets/logo.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="gaa-tha">
+<meta property="og:title" content="Our Work — Reels, Websites &amp; Branding | gaa-tha">
+<meta property="og:description" content="1000+ reels, 15+ websites and 2500+ creatives — every one earned its numbers.">
+<meta property="og:url" content="https://gaa-tha.com/work.html">
+<meta property="og:image" content="https://gaa-tha.com/assets/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Our Work — gaa-tha">
+<meta name="twitter:description" content="1000+ reels, 15+ websites and 2500+ creatives.">
+<meta name="twitter:image" content="https://gaa-tha.com/assets/logo.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="gaatha.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://gaa-tha.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Work", "item": "https://gaa-tha.com/work.html" }
+  ]
+}
+</script>
+<style>
+.page-hero { padding: clamp(150px, 22vh, 260px) var(--pad) clamp(40px, 6vw, 70px); }
+.page-hero .wrap { max-width: var(--maxw); margin: 0 auto; }
+.page-hero h1 { font-size: clamp(3.2rem, 12vw, 11rem); letter-spacing: -0.03em; }
+.page-hero .lead { margin-top: 26px; max-width: 50ch; font-size: clamp(1.05rem, 1.5vw, 1.25rem); color: var(--muted); }
+
+.work-list { border-top: 1px solid var(--line); }
+.work-row {
+    display: grid; grid-template-columns: auto 1fr auto auto; gap: clamp(18px, 4vw, 56px);
+    align-items: center; padding: clamp(28px, 4vw, 52px) 0; border-bottom: 1px solid var(--line);
+    position: relative; transition: padding 0.5s var(--ease);
+}
+.work-row::before { content:''; position:absolute; inset:0; background: var(--foil); opacity:0; transition: opacity 0.5s var(--ease); z-index:-1; }
+.work-row:hover { padding-inline: clamp(8px, 2vw, 28px); }
+.work-row .w-no { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); }
+.work-row .w-title { font-family: var(--serif); font-weight: 400; font-size: clamp(2.2rem, 7vw, 5.4rem); line-height: 0.96; letter-spacing: -0.02em; transition: transform 0.5s var(--ease); }
+.work-row:hover .w-title { transform: translateX(10px); color: var(--accent-deep); }
+.work-row .w-desc { max-width: 30ch; color: var(--muted); font-size: 0.98rem; }
+.work-row .w-count { font-family: var(--serif); font-size: clamp(1.6rem, 3vw, 2.6rem); color: var(--accent-deep); white-space: nowrap; }
+.work-row .w-arrow { font-size: 2rem; color: var(--accent-deep); transition: transform 0.5s var(--ease); }
+.work-row:hover .w-arrow { transform: translate(8px,-8px); }
+@media (max-width: 880px){
+    .work-row { grid-template-columns: auto 1fr auto; }
+    .work-row .w-desc { display: none; }
+}
+@media (max-width: 560px){
+    .work-row { grid-template-columns: 1fr auto; gap: 14px; }
+    .work-row .w-no { display: none; }
+    .work-row .w-count { font-size: 1.2rem; }
+}
+.skip-link { position: absolute; left: -999px; top: 0; z-index: 100001; background: var(--coffee); color: var(--paper); padding: 12px 18px; border-radius: 0 0 10px 0; font-family: var(--mono); font-size: 0.8rem; }
+.skip-link:focus { left: 0; }
+</style>
 </head>
-<body>
-    <nav class="glass">
-        <div class="logo"><a href="index.html"><img src="images/gaatha_logo_-_Copy-removebg-preview.png" alt="Gaa-tha" /></a></div>
-        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+<body data-page="work">
+<a href="#work" class="skip-link">Skip to content</a>
+<div class="site" data-screen-label="Work">
+
+<nav class="nav">
+    <a class="nav-logo" href="index.html" aria-label="gaa-tha home"><img src="assets/logo.png" alt="gaa-tha logo"></a>
+    <div class="nav-right">
         <ul class="nav-links">
-            <li><a href="index.html#services">Services</a></li>
-            <li><a href="work.html" class="active">Work</a></li>
-            <li><a href="about.html">About Us</a></li>
+            <li><a href="index.html#moves">Services</a></li>
+            <li><a href="work.html" class="active" aria-current="page">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
         </ul>
-        <a href="index.html#contact" class="cta-btn">Start a Project</a>
-    </nav>
+        <a href="index.html#contact" class="btn btn-primary nav-cta magnetic">Start a project <span class="arr">→</span></a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+</nav>
+<div class="mobile-menu">
+    <button class="mm-close" aria-label="Close menu">✕</button>
+    <a href="index.html#moves"><span class="num">01</span>Services</a>
+    <a href="work.html"><span class="num">02</span>Work</a>
+    <a href="about.html"><span class="num">03</span>About</a>
+    <a href="index.html#contact"><span class="num">04</span>Contact</a>
+</div>
 
-    <section class="work-hero">
-        <h1 class="section-title">Our <span class="highlight">Work</span></h1>
-    </section>
+<header class="page-hero">
+    <div class="wrap">
+        <div class="masthead reveal" style="margin-bottom:clamp(28px,4vw,44px);"><span>The Proof</span><span class="mid hide-sm">— Index of Work —</span><span class="hide-sm">Vol. 01</span><span>Crafting Tales</span></div>
+        <h1 class="display kin"><span class="kin-line"><span>Stories we've</span></span><span class="kin-line"><span><span class="foil it">told.</span></span></span></h1>
+        <p class="lead reveal" data-delay style="--d:.4s">Reels, websites and brand worlds. Pick a universe and dive in — every one of them earned its numbers.</p>
+    </div>
+</header>
 
-    <section class="work-categories">
-        <div class="work-grid">
-            <a class="work-card glass" href="reels.html">
-                <div class="service-icon">
-                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                        <rect x="2" y="2" width="20" height="20" rx="3"></rect>
-                        <path d="M2 8h20"></path>
-                        <path d="M8 22V8"></path>
-                        <circle cx="6" cy="5" r="1"></circle>
-                        <circle cx="10" cy="5" r="1"></circle>
-                        <circle cx="14" cy="5" r="1"></circle>
-                        <circle cx="18" cy="5" r="1"></circle>
-                    </svg>
-                </div>
-                <h3>Reels</h3>
-                <div class="work-meta"><span class="count-with-label"><span id="countReelsText">500+</span>&nbsp;reels</span> <span class="view-link">View All →</span></div>
-            </a>
-            <a class="work-card glass" href="websites.html">
-                <div class="service-icon">
-                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                        <rect x="3" y="4" width="18" height="14" rx="3" ry="3"></rect>
-                        <path d="M8 20h8"></path>
-                        <path d="M12 4v-2"></path>
-                    </svg>
-                </div>
-                <h3>Websites</h3>
-                <div class="work-meta"><span class="count-with-label"><span id="countProjectsText">120+</span>&nbsp;projects</span> <span class="view-link">View All →</span></div>
-            </a>
-            <a class="work-card glass" href="branding.html">
-                <div class="service-icon">
-                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                        <path d="M12 22l4-10 4-4-4-4-4 4-10 4 10 10z"></path>
-                        <circle cx="12" cy="12" r="1"></circle>
-                    </svg>
-                </div>
-                <h3>Branding</h3>
-                <div class="work-meta"><span class="count-with-label"><span id="countCreativesText">110+</span>&nbsp;creatives</span> <span class="view-link">View All →</span></div>
-            </a>
-        </div>
-    </section>
+<div class="marquee" aria-hidden="true"><div class="marquee-track">
+    <span class="marquee-item">Reels <span class="star">✦</span></span><span class="marquee-item">Websites <span class="star">✦</span></span><span class="marquee-item">Branding <span class="star">✦</span></span><span class="marquee-item">Campaigns <span class="star">✦</span></span><span class="marquee-item">AI Ads <span class="star">✦</span></span>
+    <span class="marquee-item">Reels <span class="star">✦</span></span><span class="marquee-item">Websites <span class="star">✦</span></span><span class="marquee-item">Branding <span class="star">✦</span></span><span class="marquee-item">Campaigns <span class="star">✦</span></span><span class="marquee-item">AI Ads <span class="star">✦</span></span>
+</div></div>
 
-    <footer>
-        <p>© 2025 gaa-tha. All rights reserved.</p>
-    </footer>
+<main>
+<section class="section" id="work" aria-label="Index of work" style="padding-top: clamp(60px,8vw,96px);">
+    <div class="work-list">
+        <a class="work-row reveal" href="reels.html" data-cursor="View">
+            <span class="w-no">01</span>
+            <h2 class="w-title">Reels</h2>
+            <p class="w-desc">Scroll-stopping shorts, AI clones, UGC and influencer ads.</p>
+            <span class="w-count">1000+</span>
+            <span class="w-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="work-row reveal" href="websites.html" data-cursor="View">
+            <span class="w-no">02</span>
+            <h2 class="w-title">Websites</h2>
+            <p class="w-desc">Fast, beautiful, conversion-obsessed digital experiences.</p>
+            <span class="w-count">15+</span>
+            <span class="w-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="work-row reveal" href="branding.html" data-cursor="View">
+            <span class="w-no">03</span>
+            <h2 class="w-title">Branding</h2>
+            <p class="w-desc">Logos, creatives and identities people actually remember.</p>
+            <span class="w-count">2500+</span>
+            <span class="w-arrow" aria-hidden="true">↗</span>
+        </a>
+    </div>
+</section>
+</main>
 
-    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
-    <script>
-        (function initCountsRealtime(){
-            try {
-                const firebaseConfig = {
-                    apiKey: "AIzaSyBQlBj179byUqKjjXGH1TmpqT36nlDhwaY",
-                    authDomain: "gaatha-b9ee5.firebaseapp.com",
-                    databaseURL: "https://gaatha-b9ee5-default-rtdb.asia-southeast1.firebasedatabase.app",
-                    projectId: "gaatha-b9ee5",
-                    storageBucket: "gaatha-b9ee5.firebasestorage.app",
-                    messagingSenderId: "661713784587",
-                    appId: "1:661713784587:web:2b7bbcb40b18e53c361c0e",
-                    measurementId: "G-75RTC8CXEE"
-                };
-                const app = (firebase.apps && firebase.apps.length) ? firebase.app() : firebase.initializeApp(firebaseConfig);
-                const db = firebase.database(app);
-                const pEl = document.getElementById('countProjectsText');
-                const rEl = document.getElementById('countReelsText');
-                const cEl = document.getElementById('countCreativesText');
-                db.ref('workCounts').on('value', (snap) => {
-                    const v = snap.val() || {};
-                    if (pEl && v.projects != null) pEl.textContent = String(v.projects) + '+';
-                    if (rEl && v.reels != null) rEl.textContent = String(v.reels) + '+';
-                    if (cEl && v.creatives != null) cEl.textContent = String(v.creatives) + '+';
-                });
-            } catch (e) { console.error('Counts realtime init failed', e); }
-        })();
-    </script>
-    <script src="script.js"></script>
+<footer class="site-footer">
+    <a href="index.html#contact" class="footer-cta"><div class="footer-cta-row"><h2>Got a story to tell?<br><span class="foil it">Let's make it legendary.</span></h2><span class="arr-big" aria-hidden="true">↗</span></div></a>
+    <div class="footer-grid">
+        <div class="footer-brand"><img src="assets/logo.png" alt="gaa-tha logo"><p>Crafting tales that turn brands into movements — strategy, storytelling and AI-driven results.</p></div>
+        <div class="footer-col"><h4>Explore</h4><ul><li><a href="index.html#moves">Services</a></li><li><a href="work.html">Work</a></li><li><a href="about.html">About</a></li><li><a href="index.html#contact">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Say hello</h4><ul><li><a href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a></li><li><a href="tel:+919737280309">+91 97372 80309</a></li><li><a href="tel:+917781818981">+91 77818 18981</a></li></ul></div>
+        <div class="footer-col"><h4>Follow</h4><div class="footer-socials">
+            <a href="https://instagram.com/__gaa.tha__/" target="_blank" rel="noopener" aria-label="gaa-tha on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.4A4 4 0 1 1 12.6 8 4 4 0 0 1 16 11.4z"></path><circle cx="17.5" cy="6.5" r="1"></circle></svg></a>
+            <a href="https://www.linkedin.com/company/teamgaatha/" target="_blank" rel="noopener" aria-label="gaa-tha on LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-14h4v2"></path></svg></a>
+            <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/" target="_blank" rel="noopener" aria-label="gaa-tha on Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+        </div></div>
+    </div>
+    <div class="footer-wordmark" aria-hidden="true">gaa-tha</div>
+    <div class="footer-bottom"><div class="footer-bottom-inner"><p>© <span data-year>2026</span> gaa-tha. All rights reserved.</p><button class="to-top">Back to top ↑</button></div></div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="gaatha.js"></script>
 </body>
 </html>
-

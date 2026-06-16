@@ -1,894 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Websites - Gaa-tha</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Websites &amp; Web Apps That Convert | gaa-tha</title>
+<meta name="description" content="Fast, beautiful, conversion-obsessed websites and web apps by gaa-tha — storefronts, SaaS sites, microsites and dashboards that turn a click into a customer.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#150E07">
+<link rel="canonical" href="https://gaa-tha.com/websites.html">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="apple-touch-icon" href="assets/logo.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="gaa-tha">
+<meta property="og:title" content="Websites &amp; Web Apps That Convert | gaa-tha">
+<meta property="og:description" content="Fast, beautiful, conversion-obsessed digital experiences that turn a click into a customer.">
+<meta property="og:url" content="https://gaa-tha.com/websites.html">
+<meta property="og:image" content="https://gaa-tha.com/assets/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Websites &amp; Web Apps That Convert | gaa-tha">
+<meta name="twitter:description" content="Conversion-obsessed websites and apps that turn a click into a customer.">
+<meta name="twitter:image" content="https://gaa-tha.com/assets/logo.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="gaatha.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://gaa-tha.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Work", "item": "https://gaa-tha.com/work.html" },
+    { "@type": "ListItem", "position": 3, "name": "Websites", "item": "https://gaa-tha.com/websites.html" }
+  ]
+}
+</script>
+<style>
+.page-hero { padding: clamp(150px, 22vh, 250px) var(--pad) clamp(20px, 4vw, 50px); }
+.page-hero .wrap { max-width: var(--maxw); margin: 0 auto; }
+.page-hero h1 { font-size: clamp(2.8rem, 11vw, 9.5rem); letter-spacing: -0.03em; }
+.page-hero .lead { margin-top: 26px; max-width: 50ch; font-size: clamp(1.05rem, 1.5vw, 1.25rem); color: var(--muted); }
+
+.proj-grid { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--pad); display: grid; grid-template-columns: 1fr 1fr; gap: clamp(20px,3vw,36px); }
+@media (max-width: 760px){ .proj-grid { grid-template-columns: 1fr; } }
+.proj { cursor: pointer; display: block; color: inherit; }
+.proj-shot { aspect-ratio: 16/11; border-radius: 20px; overflow: hidden; border: 1px solid var(--line); position: relative; background: linear-gradient(160deg, var(--paper-2), #e3d6bd); transition: transform 0.55s var(--ease), box-shadow 0.55s var(--ease); }
+.proj:hover .proj-shot { transform: translateY(-6px); box-shadow: var(--shadow-lift, 0 30px 70px rgba(40,26,12,0.16)); }
+.browser-bar { height: 36px; background: rgba(21,14,7,0.06); border-bottom: 1px solid var(--line); display: flex; align-items: center; gap: 7px; padding: 0 14px; position: relative; z-index: 2; }
+.browser-bar i { width: 10px; height: 10px; border-radius: 50%; background: rgba(21,14,7,0.18); }
+.proj-canvas { position: absolute; inset: 36px 0 0 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; color: var(--paper); }
+.proj-fill { position: absolute; inset: 36px 0 0 0; width: 100%; height: calc(100% - 36px); object-fit: cover; }
+.proj-canvas.c1 { background: linear-gradient(150deg, #2A1F16, #6E5328); }
+.proj-canvas.c2 { background: linear-gradient(150deg, #20160E, #B8923D); }
+.proj-canvas.c3 { background: linear-gradient(150deg, #3B2A26, #8B6F47); }
+.proj-canvas.c4 { background: linear-gradient(150deg, #4a3420, #d4af37); }
+.proj-canvas .pc-word { font-family: var(--serif); font-style: italic; font-size: clamp(1.6rem,3vw,2.6rem); }
+.proj-canvas .pc-line { width: clamp(120px,30%,200px); height: 8px; border-radius: 6px; background: rgba(244,238,223,0.3); }
+.proj-canvas .pc-line.sm { width: 80px; }
+.proj-meta { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; margin-top: 18px; }
+.proj-meta h3 { font-family: var(--serif); font-weight: 430; font-size: clamp(1.4rem,2.4vw,2rem); letter-spacing: -0.01em; }
+.proj-meta .tag { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent-deep); white-space: nowrap; }
+.proj-meta p { color: var(--muted); font-size: 0.95rem; margin-top: 4px; }
+.skip-link { position: absolute; left: -999px; top: 0; z-index: 100001; background: var(--coffee); color: var(--paper); padding: 12px 18px; border-radius: 0 0 10px 0; font-family: var(--mono); font-size: 0.8rem; }
+.skip-link:focus { left: 0; }
+</style>
 </head>
-<body>
-    <!-- Preloader (same as reels page) -->
-    <div class="preloader-overlay" id="preloader">
-        <div class="preloader-container">
-            <div class="sky">
-                <div class="trail-container" id="trailContainer"></div>
-                <img class="plane-icon" src="images/Untitled design (25).png" alt="Loading Plane" />
-            </div>
-        </div>
-    </div>
-    <nav class="glass">
-        <div class="logo"><a href="index.html"><img src="images/gaatha_logo_-_Copy-removebg-preview.png" alt="Gaa-tha" /></a></div>
+<body data-page="websites">
+<a href="#proj-grid" class="skip-link">Skip to content</a>
+<div class="site" data-screen-label="Websites">
+
+<nav class="nav">
+    <a class="nav-logo" href="index.html" aria-label="gaa-tha home"><img src="assets/logo.png" alt="gaa-tha logo"></a>
+    <div class="nav-right">
         <ul class="nav-links">
-            <li><a href="index.html#services">Services</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="about.html">About Us</a></li>
+            <li><a href="index.html#moves">Services</a></li>
+            <li><a href="work.html" class="active" aria-current="page">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
         </ul>
-        <a href="index.html#contact" class="cta-btn">Start a Project</a>
-    </nav>
-
-    <div class="back-to-work">
-        <a href="work.html" class="back-link">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M19 12H5M12 19l-7-7 7-7"/>
-            </svg>
-            Back to Work
-        </a>
-        <h1 class="section-title">Websites</h1>
-        <button class="add-website-btn" id="addWebsiteBtn" style="display: none;" onclick="showAddWebsiteModal()">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 5v14M5 12h14"/>
-            </svg>
-            Add Website
-        </button>
+        <a href="index.html#contact" class="btn btn-primary nav-cta magnetic">Start a project <span class="arr">→</span></a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
     </div>
+</nav>
+<div class="mobile-menu">
+    <button class="mm-close" aria-label="Close menu">✕</button>
+    <a href="index.html#moves"><span class="num">01</span>Services</a>
+    <a href="work.html"><span class="num">02</span>Work</a>
+    <a href="about.html"><span class="num">03</span>About</a>
+    <a href="index.html#contact"><span class="num">04</span>Contact</a>
+</div>
 
-    <section class="websites-hero"></section>
+<header class="page-hero">
+    <div class="wrap">
+        <div class="masthead reveal" style="margin-bottom:clamp(24px,4vw,40px);"><span>The Builds</span><span class="mid hide-sm">— 15+ Websites —</span><span class="hide-sm">Web &amp; App</span><span>Crafting Tales</span></div>
+        <h1 class="display kin"><span class="kin-line"><span>Sites that</span></span><span class="kin-line"><span><span class="foil it">convert.</span></span></span></h1>
+        <p class="lead reveal" data-delay style="--d:.4s">Fast, beautiful, conversion-obsessed digital experiences — websites and apps that turn a click into a customer.</p>
+    </div>
+</header>
 
-    <section class="websites-showcase">
-        <div class="slider-indicator">
-            <div class="scroll-hint">
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M9 18l6-6-6-6"/>
-                </svg>
-                <span>Scroll to see more</span>
-            </div>
-        </div>
-        
-        <style>
-            /* Preloader Styles (reused from reels) */
-            .preloader-overlay { position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.3); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); z-index: 9999; display:flex; justify-content:center; align-items:center; transition: opacity .5s ease, visibility .5s ease; }
-            .preloader-overlay.hidden { opacity:0; visibility:hidden; }
-            .preloader-container { position:relative; z-index:1; }
-            .sky { position:relative; width:600px; height:300px; background: transparent; overflow:hidden; }
-            .plane-icon { position:absolute; width:180px; height:180px; animation: fly 4s ease-in-out infinite; filter: drop-shadow(0 10px 25px rgba(0,0,0,.2)); }
-            @keyframes fly { 0% { left:-100px; top:50%; transform: translateY(-50%) rotateZ(0deg);} 50% { left:240px; top:40%; transform: translateY(-50%) rotateZ(-5deg);} 100% { left:600px; top:50%; transform: translateY(-50%) rotateZ(0deg);} }
-            .trail-container { position:absolute; width:100%; height:100%; pointer-events:none; }
-            /* Hide scroll indicator on desktop screens */
-            @media (min-width: 768px) {
-                .slider-indicator {
-                    display: none;
-                }
-            }
-            .websites-showcase {
-                padding-top: 0;
-            }
-            /* Force single card per row and full viewport card height */
-            .websites-grid {
-                display: grid;
-                grid-template-columns: 1fr;
-                gap: 28px; /* Increased vertical spacing between cards */
-            }
-            .website-card {
-                width: 100%;
-                height: 100vh; /* Fill the viewport height */
-                box-sizing: border-box;
-            }
-            .website-card .website-image {
-                height: 90vh; /* Allocate more of the viewport to the media (increased) */
-                overflow: hidden; /* Hide any letterboxing lines */
-                background: transparent; /* Match card background */
-            }
-            .website-card .website-image img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover; /* Ensure image covers the area */
-                display: block;
-            }
-            /* Allow videos to be used in place of images */
-            .website-card .website-image video {
-                width: 100%;
-                height: 100%;
-                object-fit: cover; /* Ensure video covers the area */
-                object-position: center center; /* Keep video centered */
-                display: block;
-                background: transparent; /* Avoid visible bars around video */
-            }
-            .website-card .website-content {
-                min-height: 12vh; /* Further reduce content area height since only title is used */
-            }
-            /* Show company (brand) and title; keep layout readable */
-            .website-card .website-content { padding: 0 16px 16px; display: flex; flex-direction: column; justify-content: flex-end; gap: 6px; }
-            .website-card .website-content .website-brand { display: block; font-weight: 600; font-size: 1.1rem; color: #5a4a2f; opacity: 0.9; text-shadow: 0 1px 2px rgba(0,0,0,0.08); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 6px; }
-            .website-card .website-content .website-stats { display: none; }
-            .website-card .website-content h3 { margin: 0; font-size: 1.6rem; line-height: 1.2; color: #2c2c2c; text-shadow: 0 1px 2px rgba(0,0,0,0.12); }
+<main>
+<section class="section" aria-label="Website portfolio" style="padding-top: clamp(40px,5vw,60px);">
+    <div class="proj-grid" id="projGrid" data-cursor="View">
+        <div class="proj reveal"><div class="proj-shot"><div class="browser-bar"><i></i><i></i><i></i></div><div class="proj-canvas c1"><span class="pc-word">Lumière</span><span class="pc-line"></span><span class="pc-line sm"></span></div></div><div class="proj-meta"><div><h3>Lumière</h3><p>D2C skincare — headless storefront</p></div><span class="tag">E-commerce</span></div></div>
+        <div class="proj reveal"><div class="proj-shot"><div class="browser-bar"><i></i><i></i><i></i></div><div class="proj-canvas c2"><span class="pc-word">Northwind</span><span class="pc-line"></span><span class="pc-line sm"></span></div></div><div class="proj-meta"><div><h3>Northwind</h3><p>SaaS marketing site + CMS</p></div><span class="tag">Website</span></div></div>
+        <div class="proj reveal"><div class="proj-shot"><div class="browser-bar"><i></i><i></i><i></i></div><div class="proj-canvas c3"><span class="pc-word">Maison Rao</span><span class="pc-line"></span><span class="pc-line sm"></span></div></div><div class="proj-meta"><div><h3>Maison Rao</h3><p>Fashion lookbook &amp; shop</p></div><span class="tag">E-commerce</span></div></div>
+        <div class="proj reveal"><div class="proj-shot"><div class="browser-bar"><i></i><i></i><i></i></div><div class="proj-canvas c4"><span class="pc-word">Auro Labs</span><span class="pc-line"></span><span class="pc-line sm"></span></div></div><div class="proj-meta"><div><h3>Auro Labs</h3><p>Product launch microsite</p></div><span class="tag">Web App</span></div></div>
+        <div class="proj reveal"><div class="proj-shot"><div class="browser-bar"><i></i><i></i><i></i></div><div class="proj-canvas c2"><span class="pc-word">Verve</span><span class="pc-line"></span><span class="pc-line sm"></span></div></div><div class="proj-meta"><div><h3>Verve</h3><p>Booking platform &amp; dashboard</p></div><span class="tag">Web App</span></div></div>
+        <div class="proj reveal"><div class="proj-shot"><div class="browser-bar"><i></i><i></i><i></i></div><div class="proj-canvas c1"><span class="pc-word">The Daily Knot</span><span class="pc-line"></span><span class="pc-line sm"></span></div></div><div class="proj-meta"><div><h3>The Daily Knot</h3><p>Editorial &amp; subscriptions</p></div><span class="tag">Website</span></div></div>
+    </div>
+</section>
+</main>
 
-            /* Mobile: ensure video fills safe viewport height */
-            @media (max-width: 768px) {
-                .websites-grid { gap: 16px; }
-                /* Reduce side margins so media sits closer to screen edges */
-                .websites-showcase { padding-left: 6px; padding-right: 6px; }
-                .website-card .website-image { margin-left: -4px; margin-right: -4px; }
-                /* Override global mobile min-height from style.css (50vh) */
-                .websites-grid .website-card { min-height: auto !important; }
-                .website-card { height: 36svh; }
-                .website-card .website-image { height: 24svh; }
-                .website-card .website-content { min-height: 5svh; padding: 0 12px 8px; }
-                .website-card .website-content h3 { font-size: 1.4rem; }
-                .website-card .website-content .website-brand { font-size: 1rem; }
-                /* Prefer cover on mobile as well to avoid black bars/lines */
-                .website-card .website-image img,
-                .website-card .website-image video { object-fit: cover; }
-            }
-        </style>
-        <div class="websites-grid" id="websites-grid">
-            <!-- Dynamic content will be loaded here -->
-        </div>
-    </section>
+<footer class="site-footer">
+    <a href="index.html#contact" class="footer-cta"><div class="footer-cta-row"><h2>Got a story to tell?<br><span class="foil it">Let's make it legendary.</span></h2><span class="arr-big" aria-hidden="true">↗</span></div></a>
+    <div class="footer-grid">
+        <div class="footer-brand"><img src="assets/logo.png" alt="gaa-tha logo"><p>Crafting tales that turn brands into movements — strategy, storytelling and AI-driven results.</p></div>
+        <div class="footer-col"><h4>Explore</h4><ul><li><a href="index.html#moves">Services</a></li><li><a href="work.html">Work</a></li><li><a href="about.html">About</a></li><li><a href="index.html#contact">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Say hello</h4><ul><li><a href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a></li><li><a href="tel:+919737280309">+91 97372 80309</a></li><li><a href="tel:+917781818981">+91 77818 18981</a></li></ul></div>
+        <div class="footer-col"><h4>Follow</h4><div class="footer-socials">
+            <a href="https://instagram.com/__gaa.tha__/" target="_blank" rel="noopener" aria-label="gaa-tha on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.4A4 4 0 1 1 12.6 8 4 4 0 0 1 16 11.4z"></path><circle cx="17.5" cy="6.5" r="1"></circle></svg></a>
+            <a href="https://www.linkedin.com/company/teamgaatha/" target="_blank" rel="noopener" aria-label="gaa-tha on LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-14h4v2"></path></svg></a>
+            <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/" target="_blank" rel="noopener" aria-label="gaa-tha on Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+        </div></div>
+    </div>
+    <div class="footer-wordmark" aria-hidden="true">gaa-tha</div>
+    <div class="footer-bottom"><div class="footer-bottom-inner"><p>© <span data-year>2026</span> gaa-tha. All rights reserved.</p><button class="to-top">Back to top ↑</button></div></div>
+</footer>
 
-    <script src="script.js"></script>
-
-    <!-- Firebase SDK v9 (compatible version) -->
-    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
-    <script>
-        // Firebase Configuration
-        const firebaseConfig = {
-            apiKey: "AIzaSyBQlBj179byUqKjjXGH1TmpqT36nlDhwaY",
-            authDomain: "gaatha-b9ee5.firebaseapp.com",
-            databaseURL: "https://gaatha-b9ee5-default-rtdb.asia-southeast1.firebasedatabase.app",
-            projectId: "gaatha-b9ee5",
-            storageBucket: "gaatha-b9ee5.firebasestorage.app",
-            messagingSenderId: "661713784587",
-            appId: "1:661713784587:web:2b7bbcb40b18e53c361c0e",
-            measurementId: "G-75RTC8CXEE"
-        };
-
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-        const database = firebase.database();
-
-        // Cloudinary client-side upload - COMMENTED OUT: Using R2 only
-        // const CLOUDINARY_CLOUD_NAME = 'dofqquzrx';
-        // const CLOUDINARY_UNSIGNED_PRESET = 'Gaatha_Portoflio';
-        // async function uploadImageToCloudinary(file, folder = 'websites') {
-        //     const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload`;
-        //     const fd = new FormData();
-        //     fd.append('file', file);
-        //     fd.append('upload_preset', (localStorage.getItem('cloudinary_preset') || CLOUDINARY_UNSIGNED_PRESET));
-        //     fd.append('folder', folder);
-        //     const res = await fetch(url, { method: 'POST', body: fd });
-        //     const data = await res.json().catch(()=>({}));
-        //     if (!res.ok) throw new Error(data?.error?.message || 'Cloudinary upload failed');
-        //     return data.secure_url;
-        // }
-
-        // Cloudinary video upload - COMMENTED OUT: Using R2 only
-        // async function uploadVideoToCloudinary(file, folder = 'websites') {
-        //     const url = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/video/upload`;
-        //     const fd = new FormData();
-        //     fd.append('file', file);
-        //     fd.append('upload_preset', (localStorage.getItem('cloudinary_preset') || CLOUDINARY_UNSIGNED_PRESET));
-        //     fd.append('folder', folder);
-        //     const res = await fetch(url, { method: 'POST', body: fd });
-        //     const data = await res.json().catch(()=>({}));
-        //     if (!res.ok) throw new Error(data?.error?.message || 'Cloudinary video upload failed');
-        //     return data.secure_url;
-        // }
-
-        // R2 Configuration
-        const R2_BUCKET_NAME = 'gaatha-media';
-        const R2_CUSTOM_DOMAIN = 'https://media.gaa-tha.com';
-        const R2_PRESIGN_ENDPOINT = 'https://r2-presign.moxshang.workers.dev';
-
-        // Upload image to Cloudflare R2 via worker (avoids CORS issues)
-        async function uploadImageToR2(file, folder = 'websites') {
-            // Generate unique filename
-            const timestamp = Date.now();
-            const randomStr = Math.random().toString(36).substring(2, 15);
-            const fileExt = file.name.split('.').pop() || 'jpg';
-            const fileName = `${folder}/${timestamp}-${randomStr}.${fileExt}`;
-            
-            // Upload file directly to worker (worker uploads to R2 server-side)
-            const uploadUrl = `${R2_PRESIGN_ENDPOINT}?fileName=${encodeURIComponent(fileName)}`;
-            const uploadResponse = await fetch(uploadUrl, {
-                method: 'POST',
-                body: file,
-                headers: {
-                    'Content-Type': file.type || 'image/jpeg'
-                }
-            });
-            
-            if (!uploadResponse.ok) {
-                const errorData = await uploadResponse.json().catch(() => ({}));
-                throw new Error(errorData.error || 'Failed to upload to R2');
-            }
-            
-            const { publicUrl } = await uploadResponse.json();
-            
-            // Ensure URL has https:// prefix (absolute URL)
-            let finalUrl = publicUrl || `${R2_CUSTOM_DOMAIN}/${fileName}`;
-            if (!finalUrl.startsWith('http://') && !finalUrl.startsWith('https://')) {
-                finalUrl = `https://${finalUrl}`;
-            }
-            
-            return finalUrl;
-        }
-
-        // Upload video to Cloudflare R2 via worker (avoids CORS issues)
-        async function uploadVideoToR2(file, folder = 'websites') {
-            // Generate unique filename
-            const timestamp = Date.now();
-            const randomStr = Math.random().toString(36).substring(2, 15);
-            const fileExt = file.name.split('.').pop() || 'mp4';
-            const fileName = `${folder}/${timestamp}-${randomStr}.${fileExt}`;
-            
-            // Upload file directly to worker (worker uploads to R2 server-side)
-            const uploadUrl = `${R2_PRESIGN_ENDPOINT}?fileName=${encodeURIComponent(fileName)}`;
-            const uploadResponse = await fetch(uploadUrl, {
-                method: 'POST',
-                body: file,
-                headers: {
-                    'Content-Type': file.type || 'video/mp4'
-                }
-            });
-            
-            if (!uploadResponse.ok) {
-                const errorData = await uploadResponse.json().catch(() => ({}));
-                throw new Error(errorData.error || 'Failed to upload to R2');
-            }
-            
-            const { publicUrl } = await uploadResponse.json();
-            
-            // Ensure URL has https:// prefix (absolute URL)
-            let finalUrl = publicUrl || `${R2_CUSTOM_DOMAIN}/${fileName}`;
-            if (!finalUrl.startsWith('http://') && !finalUrl.startsWith('https://')) {
-                finalUrl = `https://${finalUrl}`;
-            }
-            
-            return finalUrl;
-        }
-
-        // Upload website image - R2 only (Cloudinary commented out)
-        async function uploadWebsiteImage(file, folder = 'websites') {
-            return await uploadImageToR2(file, folder);
-            // Cloudinary fallback code - COMMENTED OUT
-            // const useR2 = localStorage.getItem('USE_R2') === 'true';
-            // try {
-            //     if (useR2) {
-            //         return await uploadImageToR2(file, folder);
-            //     } else {
-            //         return await uploadImageToCloudinary(file, folder);
-            //     }
-            // } catch (error) {
-            //     // Fallback to Cloudinary if R2 fails
-            //     if (useR2) {
-            //         return await uploadImageToCloudinary(file, folder);
-            //     }
-            //     throw error;
-            // }
-        }
-
-        // Upload website video - R2 only (Cloudinary commented out)
-        async function uploadWebsiteVideo(file, folder = 'websites') {
-            return await uploadVideoToR2(file, folder);
-            // Cloudinary fallback code - COMMENTED OUT
-            // const useR2 = localStorage.getItem('USE_R2') === 'true';
-            // try {
-            //     if (useR2) {
-            //         return await uploadVideoToR2(file, folder);
-            //     } else {
-            //         return await uploadVideoToCloudinary(file, folder);
-            //     }
-            // } catch (error) {
-            //     // Fallback to Cloudinary if R2 fails
-            //     if (useR2) {
-            //         return await uploadVideoToCloudinary(file, folder);
-            //     }
-            //     throw error;
-            // }
-        }
-
-        // Check if accessed from admin panel
-        const isAdminMode = localStorage.getItem('admin_secret') === 'gaatha_admin_2025_secret_key_xyz789';
-
-        // Load websites data from Firebase
-        function loadWebsitesFromFirebase() {
-            database.ref('websites').once('value')
-                .then(function(snapshot) {
-                    const websitesData = snapshot.val();
-                    
-                    if (websitesData) {
-                        const websites = Object.keys(websitesData).map(key => ({
-                            id: key,
-                            ...websitesData[key]
-                        })).sort((a, b) => (a.order || 0) - (b.order || 0));
-
-                        updateWebsitesUI(websites);
-                        setTimeout(hidePreloader, 300);
-                    } else {
-                        setTimeout(hidePreloader, 300);
-                    }
-                })
-                .catch(function(error) {
-                    setTimeout(hidePreloader, 300);
-                });
-        }
-
-        // Update websites UI with Firebase data
-        function updateWebsitesUI(websites) {
-            const websitesGrid = document.querySelector('.websites-grid');
-            if (!websitesGrid) return;
-
-            websitesGrid.innerHTML = '';
-            
-            websites.forEach((website, index) => {
-                const websiteCard = createWebsiteCard(website, index);
-                websitesGrid.appendChild(websiteCard);
-            });
-        }
-
-        // Create website card element
-        function createWebsiteCard(website, index) {
-            const card = document.createElement('div');
-            card.className = 'website-card glass fade-in';
-            card.style.animationDelay = `${index * 0.1}s`;
-            
-            let actionsHTML = '';
-            let editIconHTML = '';
-            
-            if (isAdminMode) {
-                editIconHTML = `
-                    <button class="website-edit-icon" onclick="editWebsite('${website.id}')" title="Edit Website">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
-                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
-                        </svg>
-                    </button>
-                `;
-                actionsHTML = `
-                    <div class="website-actions">
-                        <button class="client-delete-btn" onclick="deleteWebsite('${website.id}')" title="Delete">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="3,6 5,6 21,6"></polyline>
-                                <path d="M19,6v14a2,2 0 0,1 -2,2H7a2,2 0 0,1 -2,-2V6m3,0V4a2,2 0 0,1 2,-2h4a2,2 0 0,1 2,2v2"></path>
-                                <line x1="10" y1="11" x2="10" y2="17"></line>
-                                <line x1="14" y1="11" x2="14" y2="17"></line>
-                            </svg>
-                        </button>
-                    </div>
-                `;
-            }
-            
-            card.innerHTML = `
-                ${editIconHTML}
-                <div class="website-image">
-                    ${website.video ? (() => {
-                        // Ensure video URL is absolute (has https://)
-                        let videoUrl = website.video || '';
-                        if (videoUrl && !videoUrl.startsWith('http://') && !videoUrl.startsWith('https://')) {
-                            videoUrl = `https://${videoUrl}`;
-                        }
-                        return `<video src="${videoUrl}" autoplay muted loop playsinline></video>`;
-                    })() : (() => {
-                        // Ensure image URL is absolute (has https://)
-                        let imageUrl = website.image || '';
-                        if (imageUrl && !imageUrl.startsWith('http://') && !imageUrl.startsWith('https://')) {
-                            imageUrl = `https://${imageUrl}`;
-                        }
-                        const fallbackImage = 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop';
-                        return `<img src="${imageUrl || fallbackImage}" alt="${website.title}">`;
-                    })()}
-                </div>
-                <div class="website-content">
-                    <div class="website-brand">${website.company || 'Company'}</div>
-                    <h3>${website.title || 'Website Title'}</h3>
-                    <div class="website-stats">
-                        <span class="stat">${website.views || 'Performance'}</span>
-                    </div>
-                </div>
-                ${actionsHTML}
-            `;
-
-            // Add click functionality if not admin mode
-            if (website.link && !isAdminMode) {
-                card.style.cursor = 'pointer';
-                card.addEventListener('click', () => {
-                    window.open(website.link, '_blank');
-                });
-            }
-
-            return card;
-        }
-
-        // Admin functions
-        function showAddWebsiteModal() {
-            const modal = document.createElement('div');
-            modal.className = 'modal-overlay';
-            modal.innerHTML = `
-                <div class="modal-content" style="position:relative;">
-                    <div class="modal-header">
-                        <h3 class="modal-title">Add New Website</h3>
-                    </div>
-                    <form id="addWebsiteForm">
-                        <div class="modal-form-group">
-                            <label for="websiteCompany">Company Name</label>
-                            <input type="text" id="websiteCompany" placeholder="Enter company name" required>
-                        </div>
-                        
-                        <div class="modal-form-group">
-                            <label for="websiteImageFile">Upload Video</label>
-                            <input type="file" id="websiteImageFile" accept="video/*" required>
-                        </div>
-                        
-                        <div class="modal-form-group">
-                            <label for="websiteLink">Website URL (optional)</label>
-                            <input type="url" id="websiteLink" placeholder="Enter website URL">
-                        </div>
-                        
-                        <div class="modal-form-actions">
-                            <button type="submit" class="modal-btn-save" id="addWebsiteSaveBtn">Add Website</button>
-                            <button type="button" class="modal-btn-cancel" onclick="closeModal()">Cancel</button>
-                        </div>
-                    </form>
-                    <div class="modal-saving-overlay" id="addWebsiteLoading" style="display:none; position:absolute; inset:0; background:rgba(0,0,0,0.45); backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); z-index:1001; align-items:center; justify-content:center;">
-                        <div style="display:flex; align-items:center; gap:10px; color:#fff; font-weight:600; padding:12px 16px; border-radius:12px;">
-                            <svg viewBox="0 0 50 50" width="26" height="26" style="animation:spin 1s linear infinite">
-                                <circle cx="25" cy="25" r="20" stroke="#D4AF37" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="31.4 31.4"></circle>
-                            </svg>
-                            Saving...
-                        </div>
-                    </div>
-                    <style>@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }</style>
-                </div>
-            `;
-            
-            document.body.appendChild(modal);
-            // On small screens, hide navbar and prevent background scroll
-            try {
-                if (window.innerWidth <= 768) {
-                    const navEl = document.querySelector('nav');
-                    if (navEl) { navEl.dataset.prevDisplay = navEl.style.display || ''; navEl.style.display = 'none'; }
-                    document.body.dataset.prevOverflow = document.body.style.overflow || '';
-                    document.body.style.overflow = 'hidden';
-                }
-            } catch (_) {}
-            
-            // Handle form submission
-            document.getElementById('addWebsiteForm').addEventListener('submit', (e) => {
-                e.preventDefault();
-                const file = document.getElementById('websiteImageFile').files[0];
-                const isVideo = true; // Admin can only upload video
-                const tempUrl = file ? URL.createObjectURL(file) : '';
-                const loadingEl = document.getElementById('addWebsiteLoading');
-                const saveBtn = document.getElementById('addWebsiteSaveBtn');
-                if (loadingEl) { loadingEl.style.display = 'flex'; }
-                if (saveBtn) { saveBtn.disabled = true; saveBtn.textContent = 'Adding...'; }
-                const newWebsite = {
-                    company: document.getElementById('websiteCompany').value,
-                    image: '',
-                    video: tempUrl || '',
-                    link: document.getElementById('websiteLink').value || '',
-                    order: Date.now()
-                };
-                
-                // Add to Firebase, then upload to R2 and update image
-                database.ref('websites').push(newWebsite)
-                    .then(async (ref) => {
-                        if (file) {
-                            try {
-                                const videoUrl = await uploadWebsiteVideo(file, 'websites');
-                                await ref.update({ video: videoUrl, image: '' });
-                            } catch (e) {}
-                        }
-                    })
-                    .then(() => { loadWebsitesFromFirebase(); closeModal(); })
-                    .catch((error) => { })
-                    .finally(() => {
-                        if (loadingEl) { loadingEl.style.display = 'none'; }
-                        if (saveBtn) { saveBtn.disabled = false; saveBtn.textContent = 'Add Website'; }
-                    });
-            });
-        }
-
-        function editWebsite(websiteId) {
-            database.ref('websites/' + websiteId).once('value')
-                .then(function(snapshot) {
-                    const website = snapshot.val();
-                    if (!website) return;
-                    
-                    const modal = document.createElement('div');
-                    modal.className = 'modal-overlay';
-                    modal.innerHTML = `
-                        <div class="modal-content" style="position:relative;">
-                            <div class="modal-header">
-                                <h3 class="modal-title">Edit Website</h3>
-                            </div>
-                            <form id="editWebsiteForm">
-                                <div class="modal-form-group">
-                                    <label for="editWebsiteCompany">Company Name</label>
-                                    <input type="text" id="editWebsiteCompany" value="${website.company || ''}" placeholder="Enter company name" required>
-                                </div>
-                                
-                                <div class="modal-form-group">
-                                    <label for="editWebsiteImageFile">Replace Video (optional)</label>
-                                    <input type="file" id="editWebsiteImageFile" accept="video/*">
-                                </div>
-                                
-                                <div class="modal-form-group">
-                                    <label for="editWebsiteLink">Website URL (optional)</label>
-                                    <input type="url" id="editWebsiteLink" value="${website.link || ''}" placeholder="Enter website URL">
-                                </div>
-                                
-                                <div class="modal-form-actions">
-                                    <button type="submit" class="modal-btn-save" id="editWebsiteSaveBtn">Update Website</button>
-                                    <button type="button" class="modal-btn-cancel" onclick="closeModal()">Cancel</button>
-                                </div>
-                            </form>
-                            <div class="modal-saving-overlay" id="editWebsiteLoading" style="display:none; position:absolute; inset:0; background:rgba(0,0,0,0.45); backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); z-index:1001; align-items:center; justify-content:center;">
-                                <div style="display:flex; align-items:center; gap:10px; color:#fff; font-weight:600; padding:12px 16px; border-radius:12px;">
-                                    <svg viewBox=\"0 0 50 50\" width=\"26\" height=\"26\" style=\"animation:spin 1s linear infinite\"><circle cx=\"25\" cy=\"25\" r=\"20\" stroke=\"#D4AF37\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\" stroke-dasharray=\"31.4 31.4\"></circle></svg>
-                                    Saving...
-                                </div>
-                            </div>
-                            <style>@keyframes spin { from { transform: rotate(0deg);} to { transform: rotate(360deg);} }</style>
-                        </div>
-                    `;
-                    
-                    document.body.appendChild(modal);
-                    // On small screens, hide navbar and lock scroll while modal is open
-                    try {
-                        if (window.innerWidth <= 768) {
-                            const navEl = document.querySelector('nav');
-                            if (navEl) { navEl.dataset.prevDisplay = navEl.style.display || ''; navEl.style.display = 'none'; }
-                            document.body.dataset.prevOverflow = document.body.style.overflow || '';
-                            document.body.style.overflow = 'hidden';
-                        }
-                    } catch (_) {}
-                    
-                    // Handle form submission
-                    document.getElementById('editWebsiteForm').addEventListener('submit', (e) => {
-                        e.preventDefault();
-                        const loadingEl = document.getElementById('editWebsiteLoading');
-                        const saveBtn = document.getElementById('editWebsiteSaveBtn');
-                        if (loadingEl) loadingEl.style.display = 'flex';
-                        if (saveBtn) { saveBtn.disabled = true; saveBtn.textContent = 'Updating...'; }
-
-                        const updatedWebsite = {
-                            company: document.getElementById('editWebsiteCompany').value,
-                            link: document.getElementById('editWebsiteLink').value || '',
-                            order: website.order || Date.now()
-                        };
-                        const file = document.getElementById('editWebsiteImageFile')?.files?.[0] || null;
-                        const ref = database.ref('websites/' + websiteId);
-                        const maybeUpload = file ? (
-                            uploadWebsiteVideo(file, 'websites').then((cdnUrl)=>{ updatedWebsite.video = cdnUrl; updatedWebsite.image = ''; })
-                        ) : Promise.resolve();
-                        maybeUpload
-                            .then(() => ref.update(updatedWebsite))
-                            .then(() => { loadWebsitesFromFirebase(); closeModal(); })
-                            .catch((error) => { })
-                            .finally(() => {
-                                if (loadingEl) loadingEl.style.display = 'none';
-                                if (saveBtn) { saveBtn.disabled = false; saveBtn.textContent = 'Update Website'; }
-                            });
-                    });
-                });
-        }
-
-        function deleteWebsite(websiteId) {
-            // Custom confirmation modal
-            const modal = document.createElement('div');
-            modal.className = 'modal-overlay';
-            modal.innerHTML = `
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3 class="modal-title">Delete Website</h3>
-                    </div>
-                    <div style="text-align:center; color:#2c2c2c; margin-bottom:1rem;">Are you sure you want to delete this website?</div>
-                    <div class="modal-form-actions">
-                        <button type="button" class="modal-btn-save" id="confirmDeleteWebsiteBtn">Delete</button>
-                        <button type="button" class="modal-btn-cancel" id="cancelDeleteWebsiteBtn">Cancel</button>
-                    </div>
-                </div>
-            `;
-            document.body.appendChild(modal);
-            // On small screens, hide navbar and lock scroll while modal is open
-            try {
-                if (window.innerWidth <= 768) {
-                    const navEl = document.querySelector('nav');
-                    if (navEl) { navEl.dataset.prevDisplay = navEl.style.display || ''; navEl.style.display = 'none'; }
-                    document.body.dataset.prevOverflow = document.body.style.overflow || '';
-                    document.body.style.overflow = 'hidden';
-                }
-            } catch (_) {}
-            const cancelBtn = document.getElementById('cancelDeleteWebsiteBtn');
-            if (cancelBtn) cancelBtn.addEventListener('click', closeModal);
-            const confirmBtn = document.getElementById('confirmDeleteWebsiteBtn');
-            if (confirmBtn) {
-                confirmBtn.addEventListener('click', function(){
-                    // Fetch record to delete asset(s) from R2 before DB removal
-                    database.ref('websites/' + websiteId).once('value')
-                        .then(async (snap) => {
-                            const website = snap.val() || {};
-                            const urls = [String(website.video || ''), String(website.image || ''), String(website.imageUrl || '')].filter(Boolean);
-                            for (const raw of urls) {
-                                try {
-                                    const u = new URL(raw.startsWith('http') ? raw : ('https://' + raw));
-                                    const key = u.pathname.replace(/^\/+/, '');
-                                    if (key) {
-                                        const endpoint = 'https://r2-presign.moxshang.workers.dev';
-                                        await fetch(`${endpoint}?fileName=${encodeURIComponent(key)}`, { method: 'DELETE', mode: 'cors' });
-                                    }
-                                } catch(_) {}
-                            }
-                            return database.ref('websites/' + websiteId).remove();
-                        })
-                        .then(() => { loadWebsitesFromFirebase(); closeModal(); })
-                        .catch((error) => { });
-                });
-            }
-        }
-
-        function closeModal() {
-            const modal = document.querySelector('.modal-overlay');
-            if (modal) {
-                modal.remove();
-            }
-            // Restore navbar and scrolling if we hid them for mobile
-            try {
-                const navEl = document.querySelector('nav');
-                if (navEl && typeof navEl.dataset.prevDisplay !== 'undefined') {
-                    navEl.style.display = navEl.dataset.prevDisplay;
-                    delete navEl.dataset.prevDisplay;
-                }
-                if (typeof document.body.dataset.prevOverflow !== 'undefined') {
-                    document.body.style.overflow = document.body.dataset.prevOverflow;
-                    delete document.body.dataset.prevOverflow;
-                }
-            } catch (_) {}
-        }
-
-        // Show admin interface if in admin mode
-        if (isAdminMode) {
-            document.getElementById('addWebsiteBtn').style.display = 'flex';
-            
-            // Add admin styles
-            const style = document.createElement('style');
-            style.textContent = `
-                .back-to-work {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    margin-bottom: 2rem;
-                }
-                
-                .add-website-btn {
-                    background: linear-gradient(135deg, #7a571e 0%, #d4af37 100%);
-                    color: white;
-                    border: none;
-                    padding: 12px 20px;
-                    border-radius: 12px;
-                    font-weight: 600;
-                    cursor: pointer;
-                    transition: all 0.3s ease;
-                    display: flex;
-                    align-items: center;
-                    gap: 8px;
-                    font-size: 0.9rem;
-                }
-                
-                .add-website-btn:hover {
-                    box-shadow: 0 8px 20px rgba(212, 175, 55, 0.3);
-                    transform: translateY(-2px);
-                }
-                
-                .website-card {
-                    position: relative;
-                }
-                
-                .website-edit-icon {
-                    position: absolute;
-                    top: 12px;
-                    left: 12px;
-                    background: linear-gradient(135deg, #7a571e 0%, #d4af37 100%);
-                    color: white;
-                    border: none;
-                    padding: 8px;
-                    border-radius: 50%;
-                    cursor: pointer;
-                    transition: all 0.3s ease;
-                    z-index: 10;
-                    width: 36px;
-                    height: 36px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-                
-                .website-edit-icon:hover {
-                    background: linear-gradient(135deg, #8B6F47 0%, #D4AF37 100%);
-                    transform: scale(1.1);
-                    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);
-                }
-                
-                .website-edit-icon svg {
-                    width: 16px;
-                    height: 16px;
-                }
-                
-                .website-actions {
-                    position: absolute;
-                    top: 12px;
-                    right: 12px;
-                    display: flex;
-                    gap: 8px;
-                    opacity: 0;
-                    transition: opacity 0.3s ease;
-                }
-                
-                .website-card:hover .website-actions {
-                    opacity: 1;
-                }
-                
-                .action-btn {
-                    background: rgba(0, 0, 0, 0.7);
-                    color: white;
-                    border: none;
-                    padding: 8px 12px;
-                    border-radius: 8px;
-                    cursor: pointer;
-                    font-size: 0.8rem;
-                    transition: all 0.3s ease;
-                }
-                
-                .action-btn:hover {
-                    background: rgba(0, 0, 0, 0.9);
-                }
-                
-                .action-btn.delete { display:none; }
-                /* Visible icon delete like client logos */
-                .website-actions .client-delete-btn{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#8B6F47 0%,#D4AF37 100%);border:none;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(139,111,71,.4);padding:0;color:#fff}
-                .website-actions .client-delete-btn svg{width:18px;height:18px;stroke:currentColor;color:#fff}
-                
-                .action-btn.delete:hover {
-                    background: linear-gradient(135deg, #c0392b 0%, #a93226 100%);
-                    transform: scale(1.05);
-                }
-                
-                /* Modal Styles */
-                .modal-overlay {
-                    position: fixed;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    background: rgba(0, 0, 0, 0.7);
-                    backdrop-filter: blur(5px);
-                    z-index: 1000;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-                
-                .modal-content {
-                    background: linear-gradient(135deg, #f5f1ea 0%, #e8dcc8 100%);
-                    border-radius: 20px;
-                    padding: 2rem;
-                    max-width: 500px;
-                    width: 90%;
-                    max-height: 80vh;
-                    overflow-y: auto;
-                    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
-                    border: 1px solid rgba(255, 255, 255, 0.3);
-                }
-                
-                .modal-header {
-                    text-align: center;
-                    margin-bottom: 1.5rem;
-                }
-                
-                .modal-title {
-                    font-size: 1.5rem;
-                    font-weight: 700;
-                    color: #2c2c2c;
-                    margin: 0;
-                }
-                
-                .modal-form-group {
-                    margin-bottom: 1rem;
-                }
-                
-                .modal-form-group label {
-                    display: block;
-                    margin-bottom: 0.5rem;
-                    font-weight: 600;
-                    color: #2c2c2c;
-                }
-                
-                .modal-form-group input,
-                .modal-form-group textarea {
-                    width: 100%;
-                    padding: 0.75rem;
-                    border: 1px solid rgba(139, 111, 71, 0.3);
-                    border-radius: 10px;
-                    background: rgba(255, 255, 255, 0.8);
-                    font-size: 1rem;
-                    transition: all 0.3s ease;
-                    box-sizing: border-box;
-                }
-                
-                .modal-form-group input:focus,
-                .modal-form-group textarea:focus {
-                    outline: none;
-                    border-color: #D4AF37;
-                    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
-                }
-                
-                .modal-form-actions {
-                    display: flex;
-                    gap: 1rem;
-                    justify-content: center;
-                    margin-top: 1.5rem;
-                }
-                
-                .modal-btn-save {
-                    background: linear-gradient(135deg, #8B6F47 0%, #D4AF37 100%);
-                    color: white;
-                    border: none;
-                    padding: 0.75rem 2rem;
-                    border-radius: 30px;
-                    font-weight: 600;
-                    cursor: pointer;
-                    transition: all 0.3s ease;
-                }
-                
-                .modal-btn-save:hover {
-                    transform: translateY(-2px);
-                    box-shadow: 0 10px 25px rgba(139, 111, 71, 0.3);
-                }
-                
-                .modal-btn-cancel {
-                    background: rgba(255, 255, 255, 0.8);
-                    color: #2c2c2c;
-                    border: 1px solid rgba(139, 111, 71, 0.3);
-                    padding: 0.75rem 2rem;
-                    border-radius: 30px;
-                    font-weight: 600;
-                    cursor: pointer;
-                    transition: all 0.3s ease;
-                }
-                
-                .modal-btn-cancel:hover {
-                    background: rgba(255, 255, 255, 1);
-                    transform: translateY(-2px);
-                }
-            `;
-            document.head.appendChild(style);
-        }
-
-        // Load data when DOM is ready
-        document.addEventListener('DOMContentLoaded', function() {
-            loadWebsitesFromFirebase();
-        });
-
-        // Hide preloader helper
-        function hidePreloader(){
-            const pre = document.getElementById('preloader');
-            if (!pre) return;
-            pre.classList.add('hidden');
-            setTimeout(()=>{ try { pre.remove(); } catch(_){} }, 600);
-        }
-    </script>
+</div>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="gaatha.js"></script>
+<script src="gaatha-data.js"></script>
 </body>
 </html>
