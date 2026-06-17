@@ -358,3 +358,9 @@ html.gt-loading body { overflow: hidden; }
 .masthead .mid { color: var(--accent-deep); }
 html.scene-dark .masthead { border-color: var(--dark-line); color: var(--dark-muted); }
 @media (max-width: 700px){ .masthead .hide-sm { display: none; } }
+
+/* Visually hidden but accessible (used for an SEO/screen-reader hero heading) */
+.sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}

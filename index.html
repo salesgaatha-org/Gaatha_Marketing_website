@@ -17,8 +17,6 @@
 
 <!-- Preload the hero poster for an instant first paint -->
 <link rel="preload" as="image" href="assets/showreel-poster.jpg" type="image/jpeg">
-<!-- The first section is a dark video hero: set the nav to light immediately to avoid a flash -->
-<script>document.documentElement.classList.add('scene-dark');</script>
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
@@ -155,13 +153,11 @@
 
 <style>
 /* ===== Cinematic video hero ===== */
-.cine { position: relative; min-height: 100vh; min-height: 100svh; display: flex; align-items: flex-end; overflow: hidden; background: var(--coffee); }
+.cine { position: relative; min-height: 100vh; min-height: 100svh; display: flex; align-items: flex-end; overflow: hidden; background: var(--paper); }
 .cine-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
 .cine-scrim {
     position: absolute; inset: 0; z-index: 1; pointer-events: none;
-    background:
-        linear-gradient(180deg, rgba(21,14,7,0.62) 0%, rgba(21,14,7,0.12) 16%, rgba(21,14,7,0) 38%, rgba(21,14,7,0.30) 70%, rgba(21,14,7,0.88) 100%),
-        radial-gradient(130% 90% at 0% 100%, rgba(21,14,7,0.5), transparent 60%);
+    background: linear-gradient(180deg, rgba(244,238,223,0) 72%, color-mix(in srgb, var(--paper) 65%, transparent) 88%, var(--paper) 100%);
 }
 .cine-strip { position: absolute; left: 0; right: 0; top: clamp(82px, 12vh, 120px); z-index: 2; pointer-events: none; }
 .cine-strip .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--pad); display: flex; justify-content: space-between; gap: 18px; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(244,238,223,0.6); }
@@ -173,8 +169,8 @@
 .cine-title .kin-line:nth-child(2) { padding-left: clamp(0px, 5vw, 0.9em); }
 .cine-sub { margin-top: clamp(16px, 2vw, 24px); max-width: 42ch; color: rgba(244,238,223,0.84); font-size: clamp(1rem, 1.5vw, 1.22rem); }
 .cine-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: clamp(24px, 3.4vw, 40px); }
-.cine-cue { position: absolute; right: var(--pad); bottom: clamp(34px, 7vh, 84px); z-index: 2; writing-mode: vertical-rl; font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(244,238,223,0.7); display: flex; align-items: center; gap: 10px; }
-.cine-cue i { width: 1px; height: 46px; background: rgba(244,238,223,0.3); position: relative; overflow: hidden; }
+.cine-cue { position: absolute; right: var(--pad); bottom: clamp(34px, 7vh, 84px); z-index: 2; writing-mode: vertical-rl; font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); display: flex; align-items: center; gap: 10px; }
+.cine-cue i { width: 1px; height: 46px; background: var(--line-2); position: relative; overflow: hidden; }
 .cine-cue i::after { content:''; position:absolute; top:-50%; left:0; width:100%; height:50%; background:var(--accent); animation: cue 2s var(--ease) infinite; }
 @keyframes cue { to { top: 100%; } }
 @media (max-width: 760px){ .cine-strip .hide-sm { display: none; } .cine-cue { display: none; } }
@@ -323,23 +319,11 @@
     <a href="#contact"><span class="num">05</span>Contact</a>
 </div>
 
-<!-- HERO — cinematic showreel, video-first -->
-<header class="cine scene-dark" data-scene="dark">
-    <video class="cine-video" src="assets/showreel.mp4" poster="assets/showreel-poster.jpg" autoplay muted loop playsinline preload="auto" aria-label="gaa-tha showreel"></video>
+<!-- HERO — gaa-tha logo animation (clean, no overlay copy) -->
+<header class="cine">
+    <video class="cine-video" src="assets/showreel.mp4" poster="assets/showreel-poster.jpg" autoplay muted loop playsinline preload="auto" aria-label="gaa-tha logo animation"></video>
     <div class="cine-scrim"></div>
-    <div class="cine-strip" aria-hidden="true"><div class="wrap"><span>gaa&#8209;tha</span><span class="hide-sm">A Storytelling Agency</span><span>Est. 2024</span></div></div>
-    <div class="cine-inner">
-        <span class="cine-eyebrow reveal"><span class="blip"></span> Now playing · The Showreel</span>
-        <h1 class="cine-title display kin">
-            <span class="kin-line"><span>your brand,</span></span>
-            <span class="kin-line"><span>but <span class="foil it">unskippable</span></span></span>
-        </h1>
-        <p class="cine-sub reveal" data-delay style="--d:.45s">Reels, websites &amp; branding that audiences can't scroll past — strategy, storytelling and AI-driven results.</p>
-        <div class="cine-actions reveal" data-delay style="--d:.58s">
-            <a href="#contact" class="btn btn-primary magnetic">Start a project <span class="arr">→</span></a>
-            <a href="work.html" class="btn btn-ghost">See the work</a>
-        </div>
-    </div>
+    <h1 class="sr-only">gaa-tha — a storytelling-led digital marketing agency crafting scroll-stopping reels, conversion websites and unforgettable brands.</h1>
     <div class="cine-cue" aria-hidden="true">Scroll <i></i></div>
 </header>
 
