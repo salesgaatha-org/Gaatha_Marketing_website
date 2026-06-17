@@ -1,0 +1,52 @@
+name: Deploy to Netlify
+
+# Publishes the site to Netlify on every push to `main`.
+# FREE, and works with a PRIVATE org-owned repo (no Netlify Pro needed),
+# because GitHub Actions deploys via the Netlify CLI using a token.
+#
+# ── One-time setup (adds free auto-deploy) ───────────────────────────────────
+# 1. Netlify → your avatar → User settings → Applications → Personal access
+#    tokens → "New access token" → copy it.
+# 2. Netlify → your site → Site configuration → Site details → copy the
+#    "Site ID" (a.k.a. API ID).
+# 3. GitHub → this repo → Settings → Secrets and variables → Actions →
+#    "New repository secret", add BOTH:
+#       NETLIFY_AUTH_TOKEN  = the token from step 1
+#       NETLIFY_SITE_ID     = the Site ID from step 2
+# 4. GitHub → Actions tab → run "Deploy to Netlify" (or push any commit).
+# Until both secrets exist, this workflow runs but safely skips (no failures).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: netlify-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for Netlify credentials
+        id: gate
+        run: echo "ready=${{ secrets.NETLIFY_AUTH_TOKEN != '' && secrets.NETLIFY_SITE_ID != '' }}" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout
+        if: steps.gate.outputs.ready == 'true'
+        uses: actions/checkout@v4
+
+      - name: Deploy to Netlify (production)
+        if: steps.gate.outputs.ready == 'true'
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: npx --yes netlify-cli@17 deploy --prod --dir=. --message "Deploy ${{ github.sha }} via GitHub Actions"
+
+      - name: Not configured yet
+        if: steps.gate.outputs.ready != 'true'
+        run: echo "::notice::Add NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID repository secrets to enable auto-deploy. See the comments at the top of .github/workflows/deploy.yml."
