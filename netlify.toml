@@ -1,0 +1,34 @@
+# Netlify configuration — gaa-tha
+# Static site served straight from the repository root (index.html at root).
+# No build step is required.
+
+[build]
+  publish = "."
+  command = ""
+
+# ---- Security headers (site-wide) ----
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# ---- Caching: long-lived for static media, revalidated for code ----
+# Images/video in /assets rarely change.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# CSS/JS revalidate so design updates appear right after a deploy.
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
