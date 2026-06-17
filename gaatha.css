@@ -269,9 +269,8 @@ html.calm-motion [data-parallax] { transform: none !important; }
 .scene-dark .cursor-dot { background: var(--accent-light); }
 .scene-dark .cursor-ring { border-color: var(--accent-light); }
 @media (hover: none), (max-width: 860px) { .cursor-dot, .cursor-ring { display: none; } }
-* { cursor: none; }
-input, textarea, [contenteditable] { cursor: auto; }
-@media (hover: none), (max-width: 860px) { * { cursor: auto; } a, button { cursor: pointer; } }
+/* Custom cursor disabled — use the standard OS pointer everywhere. */
+.cursor-dot, .cursor-ring { display: none !important; }
 
 /* ---------- 08b · Intro loader ---------- */
 .gt-loader { position: fixed; inset: 0; z-index: 100000; background: var(--coffee); color: var(--paper); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 26px; transition: transform 0.95s var(--snap), opacity 0.6s; transform-origin: top; }

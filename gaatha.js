@@ -218,7 +218,7 @@
     /* ============ Boot ============ */
     initReveals();
     initScroll();
-    initCursor();
+    /* Custom cursor disabled — standard OS pointer is used. */
     initPreview();
     /* Intro loader intentionally disabled — it added artificial load delay. */
 })();
