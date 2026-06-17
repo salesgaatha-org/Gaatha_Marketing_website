@@ -116,7 +116,7 @@
     let lenis = null, vel = 0;
     function initScroll() {
         if (!reduce && window.Lenis) {
-            lenis = new window.Lenis({ lerp: 0.09, wheelMultiplier: 1, smoothWheel: true });
+            lenis = new window.Lenis({ lerp: 0.14, wheelMultiplier: 1.05, smoothWheel: true });
             function raf(t) { lenis.raf(t); requestAnimationFrame(raf); }
             requestAnimationFrame(raf);
             lenis.on('scroll', (e) => { vel = e.velocity || 0; onScroll(); applyVelocity(); });
@@ -125,7 +125,7 @@
                 a.addEventListener('click', (ev) => {
                     const id = a.getAttribute('href'); if (id.length < 2) return;
                     const t = document.querySelector(id); if (!t) return;
-                    ev.preventDefault(); lenis.scrollTo(t, { offset: -70, duration: 1.2 });
+                    ev.preventDefault(); lenis.scrollTo(t, { offset: -70, duration: 0.9 });
                 });
             });
         } else {
@@ -133,25 +133,36 @@
         }
         onScroll();
     }
-    const marqTracks = [];
+    const skewEls = [...document.querySelectorAll('.marquee, .cvel')];
+    const skewSoft = [...document.querySelectorAll('.skew-on-scroll')];
+    let lastSk = 99;
     function applyVelocity() {
-        if (reduce) return;
+        if (reduce || (!skewEls.length && !skewSoft.length)) return;
         const sk = Math.max(-7, Math.min(7, vel * 0.4));
-        document.querySelectorAll('.marquee, .cvel').forEach((el) => { el.style.setProperty('--skew', sk + 'deg'); });
-        document.querySelectorAll('.skew-on-scroll').forEach((el) => { el.style.setProperty('--skew', (sk * 0.6) + 'deg'); });
+        if (Math.abs(sk - lastSk) < 0.12) return; // skip imperceptible updates
+        lastSk = sk;
+        for (const el of skewEls) el.style.setProperty('--skew', sk + 'deg');
+        for (const el of skewSoft) el.style.setProperty('--skew', (sk * 0.6) + 'deg');
     }
 
-    /* ============ Nav + scene ============ */
+    /* ============ Nav + scene (rAF-throttled, cached) ============ */
     const nav = document.querySelector('.nav');
     const scenes = [...document.querySelectorAll('[data-scene]')];
+    const parallaxEls = [...document.querySelectorAll('[data-parallax]')];
+    let lastShrink = null, lastDark = null, ticking = false;
     function onScroll() {
-        const y = window.scrollY || (lenis ? lenis.scroll : 0);
-        if (nav) nav.classList.toggle('shrink', y > 40);
-        let dark = false; const probe = 70;
-        for (const s of scenes) { const r = s.getBoundingClientRect(); if (r.top <= probe && r.bottom >= probe) dark = s.dataset.scene === 'dark'; }
-        document.documentElement.classList.toggle('scene-dark', dark);
-        const py = y;
-        document.querySelectorAll('[data-parallax]').forEach((el) => { if (!reduce) el.style.transform = 'translateY(' + (py * (parseFloat(el.dataset.parallax) || 0.1)) + 'px)'; });
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(() => {
+            const y = window.scrollY || (lenis ? lenis.scroll : 0);
+            const shrink = y > 40;
+            if (shrink !== lastShrink) { lastShrink = shrink; if (nav) nav.classList.toggle('shrink', shrink); }
+            let dark = false; const probe = 70;
+            for (const s of scenes) { const r = s.getBoundingClientRect(); if (r.top <= probe && r.bottom >= probe) dark = s.dataset.scene === 'dark'; }
+            if (dark !== lastDark) { lastDark = dark; document.documentElement.classList.toggle('scene-dark', dark); }
+            if (!reduce) for (const el of parallaxEls) el.style.transform = 'translateY(' + (y * (parseFloat(el.dataset.parallax) || 0.1)) + 'px)';
+            ticking = false;
+        });
     }
 
     /* ============ Custom cursor + labels ============ */
@@ -209,5 +220,5 @@
     initScroll();
     initCursor();
     initPreview();
-    runIntro();
+    /* Intro loader intentionally disabled — it added artificial load delay. */
 })();
