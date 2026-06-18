@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Our Work — Reels, Websites &amp; Branding | gaa-tha</title>
-<meta name="description" content="The proof: explore gaa-tha's work across 1000+ scroll-stopping reels, 15+ conversion websites and 2500+ brand creatives. Pick a universe and dive in.">
+<meta name="description" content="The proof: explore gaa-tha's work across 1000+ scroll-stopping reels, 20+ websites and apps and 2500+ brand creatives. Pick a universe and dive in.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#150E07">
 <link rel="canonical" href="https://gaa-tha.com/work.html">
@@ -14,12 +14,12 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="gaa-tha">
 <meta property="og:title" content="Our Work — Reels, Websites &amp; Branding | gaa-tha">
-<meta property="og:description" content="1000+ reels, 15+ websites and 2500+ creatives — every one earned its numbers.">
+<meta property="og:description" content="1000+ reels, 20+ websites & apps and 2500+ creatives — every one earned its numbers.">
 <meta property="og:url" content="https://gaa-tha.com/work.html">
 <meta property="og:image" content="https://gaa-tha.com/assets/logo.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Our Work — gaa-tha">
-<meta name="twitter:description" content="1000+ reels, 15+ websites and 2500+ creatives.">
+<meta name="twitter:description" content="1000+ reels, 20+ websites & apps and 2500+ creatives.">
 <meta name="twitter:image" content="https://gaa-tha.com/assets/logo.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,30 +43,31 @@
 .page-hero h1 { font-size: clamp(3.2rem, 12vw, 11rem); letter-spacing: -0.03em; }
 .page-hero .lead { margin-top: 26px; max-width: 50ch; font-size: clamp(1.05rem, 1.5vw, 1.25rem); color: var(--muted); }
 
-.work-list { border-top: 1px solid var(--line); }
-.work-row {
-    display: grid; grid-template-columns: auto 1fr auto auto; gap: clamp(18px, 4vw, 56px);
-    align-items: center; padding: clamp(28px, 4vw, 52px) 0; border-bottom: 1px solid var(--line);
-    position: relative; transition: padding 0.5s var(--ease);
+.work-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(14px, 1.4vw, 22px); }
+.wcard {
+    position: relative; border-radius: 24px; overflow: hidden;
+    min-height: clamp(380px, 44vw, 540px); padding: clamp(26px, 2.6vw, 40px);
+    display: flex; flex-direction: column; justify-content: flex-end; color: var(--paper);
+    transition: transform 0.55s var(--ease), box-shadow 0.55s var(--ease);
 }
-.work-row::before { content:''; position:absolute; inset:0; background: var(--foil); opacity:0; transition: opacity 0.5s var(--ease); z-index:-1; }
-.work-row:hover { padding-inline: clamp(8px, 2vw, 28px); }
-.work-row .w-no { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); }
-.work-row .w-title { font-family: var(--serif); font-weight: 400; font-size: clamp(2.2rem, 7vw, 5.4rem); line-height: 0.96; letter-spacing: -0.02em; transition: transform 0.5s var(--ease); }
-.work-row:hover .w-title { transform: translateX(10px); color: var(--accent-deep); }
-.work-row .w-desc { max-width: 30ch; color: var(--muted); font-size: 0.98rem; }
-.work-row .w-count { font-family: var(--serif); font-size: clamp(1.6rem, 3vw, 2.6rem); color: var(--accent-deep); white-space: nowrap; }
-.work-row .w-arrow { font-size: 2rem; color: var(--accent-deep); transition: transform 0.5s var(--ease); }
-.work-row:hover .w-arrow { transform: translate(8px,-8px); }
-@media (max-width: 880px){
-    .work-row { grid-template-columns: auto 1fr auto; }
-    .work-row .w-desc { display: none; }
-}
-@media (max-width: 560px){
-    .work-row { grid-template-columns: 1fr auto; gap: 14px; }
-    .work-row .w-no { display: none; }
-    .work-row .w-count { font-size: 1.2rem; }
-}
+.wcard:hover { transform: translateY(-6px); box-shadow: 0 40px 90px -30px rgba(40,26,12,0.6); }
+.wcard::after { content:''; position:absolute; right:-16%; top:-26%; width:58%; height:74%; background: radial-gradient(circle, rgba(212,175,55,0.24), transparent 70%); pointer-events:none; }
+.wcard.w1 { background: linear-gradient(160deg, var(--coffee) 0%, #3a2c14 55%, var(--gold-deep) 100%); }
+.wcard.w2 { background: linear-gradient(160deg, var(--coffee) 0%, #17302d 55%, #2A6F66 100%); }
+.wcard.w3 { background: linear-gradient(160deg, var(--coffee) 0%, #341c12 55%, #BE6234 100%); }
+.wc-top { position: absolute; top: clamp(24px,2.6vw,40px); left: clamp(24px,2.6vw,40px); right: clamp(24px,2.6vw,40px); display: flex; justify-content: space-between; align-items: center; font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(244,238,223,0.68); z-index: 1; }
+.wc-arrow { font-size: 1.4rem; transition: transform 0.5s var(--ease); }
+.wcard:hover .wc-arrow { transform: translate(5px,-5px); }
+.wc-body { position: relative; z-index: 1; }
+.wc-count { font-family: var(--serif); font-weight: 380; font-size: clamp(2.8rem, 4.6vw, 4.4rem); line-height: 1; }
+.w1 .wc-count { color: var(--accent-light); }
+.w2 .wc-count { color: #86D6CD; }
+.w3 .wc-count { color: #F2AD83; }
+.wc-title { font-family: var(--serif); font-weight: 460; font-size: clamp(2.4rem, 3.6vw, 3.4rem); line-height: 0.94; letter-spacing: -0.02em; margin-top: 2px; }
+.wc-desc { color: rgba(244,238,223,0.74); font-size: 0.98rem; max-width: 32ch; margin-top: 12px; }
+.wc-go { display: inline-flex; align-items: center; gap: 0.5em; margin-top: 20px; font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--paper); opacity: 0.85; }
+.wcard:hover .wc-go { opacity: 1; }
+@media (max-width: 880px){ .work-grid { grid-template-columns: 1fr; } .wcard { min-height: clamp(280px, 60vw, 360px); } }
 .skip-link { position: absolute; left: -999px; top: 0; z-index: 100001; background: var(--coffee); color: var(--paper); padding: 12px 18px; border-radius: 0 0 10px 0; font-family: var(--mono); font-size: 0.8rem; }
 .skip-link:focus { left: 0; }
 </style>
@@ -111,27 +112,33 @@
 
 <main>
 <section class="section" id="work" aria-label="Index of work" style="padding-top: clamp(60px,8vw,96px);">
-    <div class="work-list">
-        <a class="work-row reveal" href="reels.html" data-cursor="View">
-            <span class="w-no">01</span>
-            <h2 class="w-title">Reels</h2>
-            <p class="w-desc">Scroll-stopping shorts, AI clones, UGC and influencer ads.</p>
-            <span class="w-count">1000+</span>
-            <span class="w-arrow" aria-hidden="true">↗</span>
+    <div class="work-grid" data-stagger="0.08">
+        <a class="wcard w1 reveal" href="reels.html" data-cursor="View">
+            <div class="wc-top"><span>01 · Short-form</span><span class="wc-arrow" aria-hidden="true">↗</span></div>
+            <div class="wc-body">
+                <div class="wc-count">1000+</div>
+                <h2 class="wc-title">Reels</h2>
+                <p class="wc-desc">Scroll-stopping shorts — AI clones, UGC and influencer ads.</p>
+                <span class="wc-go">View work →</span>
+            </div>
         </a>
-        <a class="work-row reveal" href="websites.html" data-cursor="View">
-            <span class="w-no">02</span>
-            <h2 class="w-title">Websites</h2>
-            <p class="w-desc">Fast, beautiful, conversion-obsessed digital experiences.</p>
-            <span class="w-count">15+</span>
-            <span class="w-arrow" aria-hidden="true">↗</span>
+        <a class="wcard w2 reveal" href="websites.html" data-cursor="View">
+            <div class="wc-top"><span>02 · Web &amp; App</span><span class="wc-arrow" aria-hidden="true">↗</span></div>
+            <div class="wc-body">
+                <div class="wc-count">20+</div>
+                <h2 class="wc-title">Websites</h2>
+                <p class="wc-desc">Fast, beautiful, conversion-obsessed sites and apps.</p>
+                <span class="wc-go">View work →</span>
+            </div>
         </a>
-        <a class="work-row reveal" href="branding.html" data-cursor="View">
-            <span class="w-no">03</span>
-            <h2 class="w-title">Branding</h2>
-            <p class="w-desc">Logos, creatives and identities people actually remember.</p>
-            <span class="w-count">2500+</span>
-            <span class="w-arrow" aria-hidden="true">↗</span>
+        <a class="wcard w3 reveal" href="branding.html" data-cursor="View">
+            <div class="wc-top"><span>03 · Identity</span><span class="wc-arrow" aria-hidden="true">↗</span></div>
+            <div class="wc-body">
+                <div class="wc-count">15+</div>
+                <h2 class="wc-title">Branding</h2>
+                <p class="wc-desc">Logos, creatives and identities people actually remember.</p>
+                <span class="wc-go">View work →</span>
+            </div>
         </a>
     </div>
 </section>
