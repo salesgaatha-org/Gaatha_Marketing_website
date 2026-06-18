@@ -23,6 +23,10 @@
     --accent-deep:  #6E5328;
     --accent-light: #F0DC8A;
 
+    /* Complementary touch-up accents (use sparingly on the warm base) */
+    --teal: #2A6F66;
+    --rust: #BE6234;
+
     --foil: linear-gradient(100deg, var(--accent-deep) 0%, var(--gold-2) 34%, var(--accent) 60%, var(--accent-light) 100%);
 
     /* Surfaces */

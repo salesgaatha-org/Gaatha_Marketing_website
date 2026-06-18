@@ -163,7 +163,12 @@
 .cine-cue i { width: 1px; height: 46px; background: var(--line-2); position: relative; overflow: hidden; }
 .cine-cue i::after { content:''; position:absolute; top:-50%; left:0; width:100%; height:50%; background:var(--accent); animation: cue 2s var(--ease) infinite; }
 @keyframes cue { to { top: 100%; } }
-@media (max-width: 760px){ .cine-cue { display: none; } }
+@media (max-width: 760px){
+    /* Mobile: show the full 16:9 logo reel instead of a cropped full-height cover */
+    .cine { min-height: 0; height: auto; display: block; padding: 74px var(--pad) 6px; background: var(--paper); }
+    .cine-video { position: relative; inset: auto; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+    .cine-scrim, .cine-cue { display: none; }
+}
 @media (prefers-reduced-motion: reduce){ .cine-cue i::after { animation: none; } }
 
 /* ===== Stats ===== */
@@ -179,57 +184,79 @@
 .statement p { margin: 0 auto; text-align: left; font-family: var(--serif); font-weight: 380; line-height: 1.05; letter-spacing: -0.02em; font-size: clamp(2.2rem, 6.8vw, 5.6rem); max-width: 20ch; }
 .statement em { font-style: italic; color: transparent; background: var(--foil); -webkit-background-clip: text; background-clip: text; }
 
-/* ===== Signature Moves (editorial accordion) ===== */
-.moves { border-top: 1px solid var(--line); }
-.move {
-    border-bottom: 1px solid var(--line); position: relative; cursor: pointer;
-    display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: clamp(16px, 4vw, 60px);
-    padding: clamp(22px, 3vw, 38px) 0;
-    transition: padding 0.5s var(--ease);
+/* ===== What we do — bento grid ===== */
+.bento { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(10px, 0.9vw, 16px); grid-auto-flow: row dense; }
+.bt {
+    position: relative; border-radius: 22px; padding: clamp(20px, 2.1vw, 34px);
+    border: 1px solid var(--line); background: var(--surface); color: var(--on-bg);
+    display: flex; flex-direction: column; justify-content: space-between; gap: 20px; min-height: 196px;
+    overflow: hidden; transition: transform 0.5s var(--ease), box-shadow 0.5s var(--ease), border-color 0.4s var(--ease);
 }
-.move .m-no { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); padding-top: 6px; }
-.move .m-title { font-family: var(--serif); font-weight: 400; font-size: clamp(2rem, 6vw, 4.6rem); line-height: 0.98; letter-spacing: -0.02em; transition: color 0.4s var(--ease), transform 0.5s var(--ease); }
-.move .m-plus { width: 46px; height: 46px; border: 1px solid var(--line-2); border-radius: 50%; display: grid; place-items: center; font-size: 1.4rem; color: var(--accent-deep); transition: all 0.5s var(--ease); }
-.move-detail { grid-column: 2 / 3; display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.6s var(--ease); }
-.move-detail > div { overflow: hidden; }
-.move-body { padding-top: 0; display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: end; opacity: 0; transition: opacity 0.5s var(--ease) 0.1s; }
-.move-body p { max-width: 52ch; color: var(--muted); font-size: 1.05rem; }
-.move.open { padding-bottom: clamp(28px, 3vw, 44px); }
-.move.open .m-title { color: var(--accent-deep); transform: translateX(8px); }
-.move.open .m-plus { background: var(--accent); border-color: var(--accent); color: var(--coffee); transform: rotate(135deg); }
-.move.open .move-detail { grid-template-rows: 1fr; padding-top: 22px; }
-.move.open .move-body { opacity: 1; }
-.move:hover .m-title { color: var(--accent-deep); }
-.move-link { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent-deep); white-space: nowrap; border-bottom: 1px solid var(--accent); padding-bottom: 4px; }
-@media (max-width: 640px){ .move { grid-template-columns: auto 1fr; } .move .m-plus { display: none; } .move-detail { grid-column: 1 / 3; } .move-body { grid-template-columns: 1fr; } }
+.bt:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); }
+.bt-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.bt-idx { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
+.bt-go { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent-deep); opacity: 0; transform: translateX(-4px); transition: opacity 0.4s var(--ease), transform 0.4s var(--ease); }
+.bt:hover .bt-go { opacity: 1; transform: none; }
+.bt-stat { font-family: var(--serif); font-weight: 400; line-height: 1; letter-spacing: -0.02em; color: var(--accent-deep); }
+.bt h3 { font-family: var(--serif); font-weight: 450; line-height: 0.98; letter-spacing: -0.02em; margin-top: 6px; }
+.bt p { color: var(--muted); font-size: 0.94rem; max-width: 42ch; margin-top: 8px; }
 
-/* ===== How We Roll (discipline grid) ===== */
-.roll-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
-.roll-cell {
-    border-right: 1px solid var(--line); border-bottom: 1px solid var(--line);
-    padding: clamp(26px, 3vw, 40px); position: relative; overflow: hidden; min-height: 220px;
-    display: flex; flex-direction: column; justify-content: space-between; gap: 28px;
-    transition: background 0.5s var(--ease);
+/* big hero tile (Reels) */
+.bt-hero { grid-column: span 2; grid-row: span 2; background: linear-gradient(155deg, var(--coffee) 0%, #3a2c14 55%, var(--gold-deep) 100%); color: var(--paper); border-color: transparent; justify-content: flex-end; }
+.bt-hero::after { content: ''; position: absolute; right: -18%; top: -28%; width: 62%; height: 80%; background: radial-gradient(circle, rgba(212,175,55,0.28), transparent 70%); pointer-events: none; }
+.bt-hero .bt-top { position: absolute; top: clamp(20px,2.1vw,34px); left: clamp(20px,2.1vw,34px); right: clamp(20px,2.1vw,34px); }
+.bt-hero .bt-idx { color: var(--accent-light); }
+.bt-hero .bt-go { color: var(--accent-light); }
+.bt-hero .bt-stat { font-size: clamp(3rem, 5.6vw, 5.4rem); color: var(--paper); }
+.bt-hero h3 { font-size: clamp(1.9rem, 3.2vw, 3rem); }
+.bt-hero h3 .foil { -webkit-text-fill-color: transparent; }
+.bt-hero p { color: rgba(244,238,223,0.74); font-size: 1.02rem; }
+
+/* wide tiles (Websites, Branding, Influencer, AI) */
+.bt-wide { grid-column: span 2; }
+.bt-wide .bt-stat { font-size: clamp(1.5rem, 2.3vw, 2.1rem); }
+.bt-wide h3 { font-size: clamp(1.5rem, 2.3vw, 2.1rem); }
+
+/* small discipline tiles */
+.bt-sm { min-height: 150px; gap: 12px; }
+.bt-sm h3 { font-size: clamp(1.15rem, 1.7vw, 1.45rem); }
+.bt-sm p { font-size: 0.85rem; }
+
+/* complementary touch-ups */
+.acc-teal .bt-idx, .acc-teal .bt-go, .acc-teal .bt-stat { color: var(--teal); }
+.acc-teal:hover { border-color: var(--teal); }
+.acc-rust .bt-idx, .acc-rust .bt-go, .acc-rust .bt-stat { color: var(--rust); }
+.acc-rust:hover { border-color: var(--rust); }
+
+@media (max-width: 900px){
+    .bento { grid-template-columns: repeat(2, 1fr); }
+    .bt-hero { grid-column: span 2; grid-row: span 1; min-height: 240px; }
+    .bt-hero .bt-top { position: static; }
+    .bt-hero { justify-content: space-between; }
 }
-.roll-cell::before { content: ''; position: absolute; inset: 0; background: var(--foil); opacity: 0; transition: opacity 0.5s var(--ease); z-index: -1; }
-.roll-cell:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
-.roll-cell .r-no { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); letter-spacing: 0.12em; }
-.roll-cell .r-icon { color: var(--accent-deep); }
-.roll-cell h3 { font-family: var(--serif); font-weight: 420; font-size: clamp(1.4rem, 2.4vw, 1.9rem); line-height: 1.05; letter-spacing: -0.01em; }
-.roll-cell p { font-size: 0.92rem; color: var(--muted); margin-top: 8px; }
-@media (max-width: 860px){ .roll-grid { grid-template-columns: 1fr 1fr; } }
-@media (max-width: 520px){ .roll-grid { grid-template-columns: 1fr; } }
+@media (max-width: 540px){
+    .bento { gap: 9px; }
+    .bt { min-height: 132px; padding: 16px; border-radius: 16px; gap: 12px; }
+    .bt-sm { min-height: 116px; }
+    .bt-wide { grid-column: span 2; }
+}
 
-/* ===== Clients ===== */
-.clients-vel { display: flex; flex-direction: column; gap: 18px; }
-.cvel { overflow: hidden; transform: skewX(var(--skew, 0deg)); transition: transform 0.5s var(--ease); }
-.cvel-track { display: flex; gap: 0; width: max-content; }
-.cvel-track.a { animation: scrollx 38s linear infinite; }
-.cvel-track.b { animation: scrollx 30s linear infinite reverse; }
-.cvel.mq-paused .cvel-track { animation-play-state: paused; }
-.cvel-item { font-family: var(--serif); font-weight: 380; font-size: clamp(1.8rem, 5vw, 3.6rem); padding: 0 0.5em; color: transparent; -webkit-text-stroke: 1px rgba(244,238,223,0.42); white-space: nowrap; transition: color 0.4s, -webkit-text-stroke 0.4s; display: inline-block; }
-.cvel-item:hover { color: var(--accent-light); -webkit-text-stroke: 1px transparent; }
-.cvel-item .dot { color: var(--accent); -webkit-text-stroke: 0; }
+/* ===== Clients — scrolling logo marquee ===== */
+.logo-marquee { display: flex; flex-direction: column; gap: clamp(12px, 1.4vw, 20px); overflow: hidden;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent); }
+.lm-row { overflow: hidden; }
+.lm-track { display: flex; align-items: center; gap: clamp(12px, 1.5vw, 22px); width: max-content; }
+.lm-track.a { animation: scrollx 46s linear infinite; }
+.lm-track.b { animation: scrollx 38s linear infinite reverse; }
+.logo-marquee:hover .lm-track { animation-play-state: paused; }
+.lm-item { flex: 0 0 auto; display: grid; place-items: center;
+    height: clamp(74px, 8vw, 104px); min-width: clamp(120px, 14vw, 190px); padding: 0 clamp(18px, 2vw, 30px);
+    background: #fdfdfb; border-radius: 16px; border: 1px solid rgba(244,238,223,0.10);
+    transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease); }
+.lm-item:hover { transform: translateY(-4px); box-shadow: 0 16px 38px rgba(0,0,0,0.28); }
+.lm-item img { max-height: clamp(40px, 4.6vw, 58px); max-width: 100%; width: auto; object-fit: contain; }
+@media (prefers-reduced-motion: reduce){ .lm-track { animation: none; } }
 
 /* ===== Testimonials ===== */
 .tcard { max-width: 1000px; margin: 0 auto; text-align: center; }
@@ -350,85 +377,54 @@
     <p data-words>We craft <em>tales</em> that turn brands into <em>movements</em> — blending strategy, storytelling and <em>AI-driven results</em> into work the internet can't ignore.</p>
 </section>
 
-<!-- SIGNATURE MOVES -->
-<section class="section" id="moves" aria-labelledby="moves-title">
+<!-- WHAT WE DO — bento -->
+<section class="section" id="moves" aria-labelledby="cap-title">
     <div class="section-head">
         <span class="eyebrow reveal">What we do · Nº 02</span>
-        <h2 id="moves-title" class="section-title display reveal">Our Signature <span class="foil it">Moves</span></h2>
-        <p class="section-kick reveal">Three crafts we obsess over. Open one.</p>
+        <h2 id="cap-title" class="section-title display reveal">One studio.<br><span class="foil it">Every craft.</span></h2>
+        <p class="section-kick reveal">Three signature crafts and a full stack of disciplines — under one roof.</p>
     </div>
-    <div class="moves">
-        <article class="move open" data-cursor="Open" data-thumb="linear-gradient(155deg,#2A1F16,#6E5328)" data-thumb-label="1000+ reels">
-            <span class="m-no">01</span>
+    <div class="bento" data-stagger="0.05">
+        <a class="bt bt-hero reveal" href="reels.html" data-cursor="View">
+            <div class="bt-top"><span class="bt-idx">01 · Reels</span><span class="bt-go">View →</span></div>
             <div>
-                <h3 class="m-title">Scroll-stopping Reels</h3>
-                <div class="move-detail"><div><div class="move-body">
-                    <p>Short-form built to be re-watched: AI clones, UGC, influencer ads and the hooks that make a thumb hesitate. 1000+ reels and counting.</p>
-                    <a class="move-link" href="reels.html">View work →</a>
-                </div></div></div>
+                <div class="bt-stat">1000+</div>
+                <h3>Scroll-stopping <span class="foil it">reels.</span></h3>
+                <p>Short-form built to be re-watched — AI ads, UGC, influencer drops and AI clones. The hooks that make a thumb stop.</p>
             </div>
-            <span class="m-plus">+</span>
-        </article>
-        <article class="move" data-cursor="Open" data-thumb="linear-gradient(155deg,#20160E,#B8923D)" data-thumb-label="15+ websites">
-            <span class="m-no">02</span>
-            <div>
-                <h3 class="m-title">Conversion Websites</h3>
-                <div class="move-detail"><div><div class="move-body">
-                    <p>Fast, beautiful, conversion-obsessed digital experiences — websites and apps that turn a click into a customer.</p>
-                    <a class="move-link" href="websites.html">View work →</a>
-                </div></div></div>
-            </div>
-            <span class="m-plus">+</span>
-        </article>
-        <article class="move" data-cursor="Open" data-thumb="linear-gradient(155deg,#3B2A26,#8B6F47)" data-thumb-label="2500+ creatives">
-            <span class="m-no">03</span>
-            <div>
-                <h3 class="m-title">Brands People Remember</h3>
-                <div class="move-detail"><div><div class="move-body">
-                    <p>Logos, creatives and identities with a point of view. 2500+ creatives that look nothing like a template.</p>
-                    <a class="move-link" href="branding.html">View work →</a>
-                </div></div></div>
-            </div>
-            <span class="m-plus">+</span>
-        </article>
-    </div>
-</section>
-
-<!-- HOW WE ROLL -->
-<section class="section" id="how" aria-labelledby="how-title" style="padding-top: 0;">
-    <div class="section-head">
-        <span class="eyebrow reveal">Full-stack growth · Nº 03</span>
-        <h2 id="how-title" class="section-title display reveal">How We <span class="foil it">Roll</span></h2>
-        <p class="section-kick reveal">Nine disciplines, one obsession: work that moves the numbers.</p>
-    </div>
-    <div class="roll-grid" data-stagger="0.06">
-        <div class="roll-cell reveal"><span class="r-no">01</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M12 1v4M12 19v4M4.2 4.2l2.8 2.8M17 17l2.8 2.8M1 12h4M19 12h4M4.2 19.8 7 17M17 7l2.8-2.8"></path></svg></div><h3>Strategy</h3><p>Insight-led plans before a single pixel.</p></div></div>
-        <div class="roll-cell reveal"><span class="r-no">02</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.4A4 4 0 1 1 12.6 8 4 4 0 0 1 16 11.4z"></path><circle cx="17.5" cy="6.5" r="1"></circle></svg></div><h3>Social Media</h3><p>Always-on content that builds a following.</p></div></div>
-        <div class="roll-cell reveal"><span class="r-no">03</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 3v18h18"></path><path d="m7 14 3-4 3 3 5-7"></path></svg></div><h3>Performance Marketing</h3><p>Paid that pays back — measured to the rupee.</p></div></div>
-        <div class="roll-cell reveal"><span class="r-no">04</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg></div><h3>SEO / AEO / GEO</h3><p>Be the answer — in search and in AI.</p></div></div>
-        <div class="roll-cell reveal"><span class="r-no">05</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.9"></path></svg></div><h3>Influencer &amp; UGC</h3><p>Voices your audience already trusts.</p></div></div>
-        <div class="roll-cell reveal"><span class="r-no">06</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"></rect><path d="M9 9h.01M15 9h.01M8.5 14a4 4 0 0 0 7 0"></path></svg></div><h3>AI-Based Ads</h3><p>Generative creative, shipped in days.</p></div></div>
-        <div class="roll-cell reveal"><span class="r-no">07</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 2a5 5 0 0 0-5 5v3a5 5 0 0 0 10 0V7a5 5 0 0 0-5-5z"></path><path d="M5 10a7 7 0 0 0 14 0M12 17v4"></path></svg></div><h3>AI Cloning</h3><p>Your spokesperson, infinitely scalable.</p></div></div>
-        <div class="roll-cell reveal"><span class="r-no">08</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div><h3>Web &amp; App Dev</h3><p>Conversion-built sites and products.</p></div></div>
-        <div class="roll-cell reveal"><span class="r-no">09</span><div><div class="r-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18z"></path><path d="M2 2l7.6 7.6"></path><circle cx="11" cy="11" r="2"></circle></svg></div><h3>Branding &amp; Design</h3><p>Identities people actually remember.</p></div></div>
+        </a>
+        <a class="bt bt-wide acc-teal reveal" href="websites.html" data-cursor="View">
+            <div class="bt-top"><span class="bt-idx">02 · Web &amp; App</span><span class="bt-go">View →</span></div>
+            <div><div class="bt-stat">15+ sites</div><h3>Conversion websites</h3><p>Fast, beautiful — built to turn a click into a customer.</p></div>
+        </a>
+        <a class="bt bt-wide acc-rust reveal" href="branding.html" data-cursor="View">
+            <div class="bt-top"><span class="bt-idx">03 · Branding</span><span class="bt-go">View →</span></div>
+            <div><div class="bt-stat">2500+</div><h3>Brands people remember</h3><p>Logos, identities and creatives with a point of view.</p></div>
+        </a>
+        <div class="bt bt-sm reveal"><div class="bt-top"><span class="bt-idx">04</span></div><div><h3>Strategy</h3><p>Insight before a single pixel.</p></div></div>
+        <div class="bt bt-sm reveal"><div class="bt-top"><span class="bt-idx">05</span></div><div><h3>Social Media</h3><p>Always-on content that builds a following.</p></div></div>
+        <div class="bt bt-sm acc-rust reveal"><div class="bt-top"><span class="bt-idx">06</span></div><div><h3>Performance</h3><p>Paid that pays back — to the rupee.</p></div></div>
+        <div class="bt bt-sm reveal"><div class="bt-top"><span class="bt-idx">07</span></div><div><h3>SEO · AEO · GEO</h3><p>Be the answer — in search and in AI.</p></div></div>
+        <div class="bt bt-wide bt-sm reveal"><div class="bt-top"><span class="bt-idx">08 · Influencer &amp; UGC</span></div><div><h3>Voices they already trust</h3><p>Creators and communities that move your audience.</p></div></div>
+        <div class="bt bt-wide bt-sm acc-teal reveal"><div class="bt-top"><span class="bt-idx">09 · AI Ads &amp; Cloning</span></div><div><h3>Generative, at scale</h3><p>AI-made creative and an infinitely scalable spokesperson.</p></div></div>
     </div>
 </section>
 
 <!-- CLIENTS -->
 <section class="section scene-dark" data-scene="dark" id="clients" aria-labelledby="clients-title">
     <div class="section-head">
-        <span class="eyebrow reveal">Trusted by the bold · Nº 04</span>
+        <span class="eyebrow reveal">Trusted by the bold · Nº 03</span>
         <h2 id="clients-title" class="section-title display reveal">Partners in <span class="foil it">Crime</span></h2>
         <p class="section-kick reveal">Brands that dared to stand out — and did.</p>
     </div>
-    <div class="clients-vel" aria-label="Selected clients">
-        <div class="cvel"><div class="cvel-track a">
-            <span class="cvel-item">Lumière <span class="dot">·</span></span><span class="cvel-item">Northwind <span class="dot">·</span></span><span class="cvel-item">Saffron &amp; Co <span class="dot">·</span></span><span class="cvel-item">Vireo <span class="dot">·</span></span><span class="cvel-item">Maison Rao <span class="dot">·</span></span><span class="cvel-item">Tide Studio <span class="dot">·</span></span>
-            <span class="cvel-item">Lumière <span class="dot">·</span></span><span class="cvel-item">Northwind <span class="dot">·</span></span><span class="cvel-item">Saffron &amp; Co <span class="dot">·</span></span><span class="cvel-item">Vireo <span class="dot">·</span></span><span class="cvel-item">Maison Rao <span class="dot">·</span></span><span class="cvel-item">Tide Studio <span class="dot">·</span></span>
+    <div class="logo-marquee" aria-label="Selected clients">
+        <div class="lm-row"><div class="lm-track a">
+            <span class="lm-item"><img src="assets/clients/charliee.webp" alt="Charliee" loading="lazy"></span><span class="lm-item"><img src="assets/clients/cds.webp" alt="CDS Stores" loading="lazy"></span><span class="lm-item"><img src="assets/clients/nmi.webp" alt="Nirav Machines India" loading="lazy"></span><span class="lm-item"><img src="assets/clients/madhuram.webp" alt="Madhuram" loading="lazy"></span><span class="lm-item"><img src="assets/clients/sipss.webp" alt="Sipss &amp; Bitess" loading="lazy"></span><span class="lm-item"><img src="assets/clients/saurashtra.webp" alt="Saurashtra" loading="lazy"></span><span class="lm-item"><img src="assets/clients/rentastic.webp" alt="Rentastic" loading="lazy"></span><span class="lm-item"><img src="assets/clients/nits.webp" alt="NITS Overseas" loading="lazy"></span>
+            <span class="lm-item"><img src="assets/clients/charliee.webp" alt="" loading="lazy"></span><span class="lm-item"><img src="assets/clients/cds.webp" alt="" loading="lazy"></span><span class="lm-item"><img src="assets/clients/nmi.webp" alt="" loading="lazy"></span><span class="lm-item"><img src="assets/clients/madhuram.webp" alt="" loading="lazy"></span><span class="lm-item"><img src="assets/clients/sipss.webp" alt="" loading="lazy"></span><span class="lm-item"><img src="assets/clients/saurashtra.webp" alt="" loading="lazy"></span><span class="lm-item"><img src="assets/clients/rentastic.webp" alt="" loading="lazy"></span><span class="lm-item"><img src="assets/clients/nits.webp" alt="" loading="lazy"></span>
         </div></div>
-        <div class="cvel"><div class="cvel-track b">
-            <span class="cvel-item">Halcyon <span class="dot">·</span></span><span class="cvel-item">Auro Labs <span class="dot">·</span></span><span class="cvel-item">The Daily Knot <span class="dot">·</span></span><span class="cvel-item">Verve <span class="dot">·</span></span><span class="cvel-item">Indigo House <span class="dot">·</span></span><span class="cvel-item">Cobalt <span class="dot">·</span></span>
-            <span class="cvel-item">Halcyon <span class="dot">·</span></span><span class="cvel-item">Auro Labs <span class="dot">·</span></span><span class="cvel-item">The Daily Knot <span class="dot">·</span></span><span class="cvel-item">Verve <span class="dot">·</span></span><span class="cvel-item">Indigo House <span class="dot">·</span></span><span class="cvel-item">Cobalt <span class="dot">·</span></span>
+        <div class="lm-row"><div class="lm-track b">
+            <span class="lm-item"><img src="assets/clients/navami.webp" alt="Navami" loading="lazy"></span><span class="lm-item"><img src="assets/clients/aathrr.webp" alt="Aathrr" loading="lazy"></span><span class="lm-item"><img src="assets/clients/shailesh.webp" alt="Shailesh Construction" loading="lazy"></span><span class="lm-item"><img src="assets/clients/ghanshyam.webp" alt="Ghanshyam Snacks" loading="lazy"></span><span class="lm-item"><img src="assets/clients/gsps.webp" alt="GSPS" loading="lazy"></span><span class="lm-item"><img src="assets/clients/newrave.webp" alt="New Rave" loading="lazy"></span><span class="lm-item"><img src="assets/clients/kitcoz.webp" alt="Kitcoz" loading="lazy"></span><span class="lm-item"><img src="assets/clients/hpmg.webp" alt="HPMG" loading="lazy"></span>
+            <span class="lm-item"><img src="assets/clients/navami.webp" alt="" loading="lazy"></span><span class="lm-item"><img src="assets/clients/aathrr.webp" alt="" loading="lazy"></span><span class="lm-item"><img src="assets/clients/shailesh.webp" alt="" loading="lazy"></span><span class="lm-item"><img src="assets/clients/ghanshyam.webp" alt="" loading="lazy"></span><span class="lm-item"><img src="assets/clients/gsps.webp" alt="" loading="lazy"></span><span class="lm-item"><img src="assets/clients/newrave.webp" alt="" loading="lazy"></span><span class="lm-item"><img src="assets/clients/kitcoz.webp" alt="" loading="lazy"></span><span class="lm-item"><img src="assets/clients/hpmg.webp" alt="" loading="lazy"></span>
         </div></div>
     </div>
 </section>
@@ -436,7 +432,7 @@
 <!-- TESTIMONIALS -->
 <section class="section scene-dark" data-scene="dark" id="testimonials" aria-labelledby="testi-title" style="padding-top:0;">
     <div class="section-head" style="align-items:center; text-align:center;">
-        <span class="eyebrow reveal" style="align-self:center;">Word on the street · Nº 05</span>
+        <span class="eyebrow reveal" style="align-self:center;">Word on the street · Nº 04</span>
         <h2 id="testi-title" class="section-title display reveal">Client <span class="foil it">Confessions</span></h2>
     </div>
     <figure class="tcard reveal">
@@ -456,7 +452,7 @@
 <!-- FAQ -->
 <section class="section" id="faq" aria-labelledby="faq-title">
     <div class="section-head">
-        <span class="eyebrow reveal">Good to know · Nº 06</span>
+        <span class="eyebrow reveal">Good to know · Nº 05</span>
         <h2 id="faq-title" class="section-title display reveal">Questions, <span class="foil it">answered</span></h2>
         <p class="section-kick reveal">The short version — for humans and AI alike.</p>
     </div>
@@ -491,7 +487,7 @@
 <!-- CONTACT -->
 <section class="section scene-dark" data-scene="dark" id="contact" aria-labelledby="contact-title">
     <div class="section-head">
-        <span class="eyebrow reveal">Let's talk · Nº 07</span>
+        <span class="eyebrow reveal">Let's talk · Nº 06</span>
         <h2 id="contact-title" class="section-title display reveal">Chaos Starts <span class="foil it">here</span></h2>
         <p class="section-kick reveal">Tell us about your brand. We'll bring the plot twist.</p>
     </div>
@@ -566,16 +562,6 @@
 <script defer src="gaatha.js"></script>
 <script defer src="gaatha-data.js"></script>
 <script>
-/* Signature Moves accordion */
-document.querySelectorAll('.move').forEach((m) => {
-    m.addEventListener('click', (e) => {
-        if (e.target.closest('a')) return;
-        const open = m.classList.contains('open');
-        document.querySelectorAll('.move').forEach((x) => x.classList.remove('open'));
-        if (!open) m.classList.add('open');
-    });
-});
-
 /* FAQ accordion */
 document.querySelectorAll('.faq-q').forEach((btn) => {
     btn.addEventListener('click', () => {
