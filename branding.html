@@ -101,16 +101,6 @@
 .story-line b { color: var(--on-bg); font-weight: 600; }
 @media (max-width: 760px){ .story, .story.rev { grid-template-columns: 1fr; gap: 26px; } .story.rev .story-logo { order: 0; } .story-logo { max-width: 420px; } }
 
-/* ===== Type tester ===== */
-.tt-stage { margin: clamp(28px,4vw,48px) auto clamp(10px,2vw,20px); min-height: clamp(80px,16vw,200px); display:flex; align-items:center; justify-content:center; }
-#ttOut { font-family: var(--serif); font-weight: 460; font-size: clamp(2.8rem,11vw,8.5rem); line-height: 0.9; letter-spacing:-0.02em; color: var(--accent-light); transition: opacity 0.25s var(--ease); word-break: break-word; max-width: 14ch; text-align:center; }
-#ttOut.swap { opacity: 0; }
-.tt-field { display:inline-flex; align-items:center; gap:12px; border-bottom: 2px solid var(--dark-line); padding: 8px 4px; }
-.tt-field input { background:none; border:none; font-family: var(--mono); font-size: clamp(1rem,2vw,1.3rem); color: var(--dark-on); text-align:center; width:min(360px,70vw); }
-.tt-field input:focus { outline:none; }
-.tt-field input::placeholder { color: var(--dark-muted); }
-.tt-note { margin: clamp(22px,3vw,32px) auto 0; max-width: 52ch; color: var(--dark-muted); }
-
 /* ===== Closing ===== */
 .kicker { padding: clamp(80px,11vw,150px) var(--pad); border-top: 1px solid var(--dark-line); text-align:center; }
 .kicker p { max-width: 20ch; margin: 0 auto; font-family: var(--serif); font-weight: 380; line-height: 1.04; letter-spacing:-0.02em; font-size: clamp(2.2rem,6.5vw,5.2rem); }
@@ -269,20 +259,6 @@
     </div>
 </section>
 
-<!-- TYPE TESTER -->
-<section class="section scene-dark" data-scene="dark" aria-labelledby="tt-title">
-    <div class="section-head" style="align-items:center; text-align:center;">
-        <span class="eyebrow reveal" style="align-self:center;">Try it yourself · Nº 04</span>
-        <h2 id="tt-title" class="section-title display reveal">Type your brand.<br>Watch it <span class="foil it">find a voice.</span></h2>
-    </div>
-    <div style="text-align:center;" class="reveal">
-        <div class="tt-stage"><span id="ttOut">your brand</span></div>
-        <label class="tt-field"><span style="position:absolute;left:-9999px;">Your brand name</span><input id="ttInput" type="text" maxlength="16" placeholder="type a name…" autocomplete="off" spellcheck="false"></label>
-        <div style="margin-top:clamp(22px,3vw,34px);"><button id="ttShuffle" class="btn btn-ghost magnetic" type="button">Shuffle the voice <span aria-hidden="true">↻</span></button></div>
-        <p class="tt-note">That's the first ten seconds of a gaa-tha branding session. Imagine the next ten hours — strategy, a mark, a system, a voice that's unmistakably yours.</p>
-    </div>
-</section>
-
 <!-- CLOSING -->
 <section class="section scene-dark" data-scene="dark" aria-label="Branding call to action" style="padding-block:0;">
     <div class="kicker">
@@ -311,24 +287,5 @@
 </div>
 <script defer src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
 <script defer src="gaatha.js"></script>
-<script>
-(function () {
-    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var VOICES = [
-        { cls: 't-serif t-it', color: '#D31F1A' }, { cls: 't-sans t-black t-up t-tight', color: '#1D3A8A' },
-        { cls: 't-mono t-up', color: '#0A7A33' }, { cls: 't-serif t-it', color: '#E2761A' },
-        { cls: 't-sans t-black t-up', color: '#12A38C' }, { cls: 't-serif t-up t-wide', color: '#184878' },
-        { cls: 't-sans t-black t-tight', color: '#E01818' }
-    ];
-    var out = document.getElementById('ttOut'), input = document.getElementById('ttInput'), shuffle = document.getElementById('ttShuffle');
-    if (!out) return;
-    var vi = 0;
-    function applyVoice(advance) { if (advance) vi = (vi + Math.floor(Math.random() * (VOICES.length - 1)) + 1) % VOICES.length; out.className = VOICES[vi].cls; out.style.color = VOICES[vi].color; }
-    input.addEventListener('input', function () { out.textContent = input.value.trim() || 'your brand'; out.classList.add('swap'); requestAnimationFrame(function () { out.classList.remove('swap'); }); });
-    shuffle.addEventListener('click', function () { out.classList.add('swap'); setTimeout(function () { applyVoice(true); out.classList.remove('swap'); }, 220); });
-    applyVoice(false);
-    if (!reduce) setInterval(function () { out.classList.add('swap'); setTimeout(function () { applyVoice(true); out.classList.remove('swap'); }, 240); }, 3400);
-})();
-</script>
 </body>
 </html>
