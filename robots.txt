@@ -1,5 +1,6 @@
 # gaa-tha — robots.txt
 # Welcome, crawlers and AI answer engines.
+# Machine-readable brand summary: https://gaa-tha.com/llms.txt
 
 User-agent: *
 Allow: /
@@ -10,6 +11,43 @@ Disallow: /manage.html
 Disallow: /reels-admin.html
 Disallow: /websites-admin.html
 Disallow: /branding-admin.html
+
+# AI / answer-engine crawlers — explicitly welcome (GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
 
 # Sitemap
 Sitemap: https://gaa-tha.com/sitemap.xml
