@@ -113,25 +113,21 @@
         requestAnimationFrame(tick);
     }
 
-    /* ============ Smooth scroll (Lenis) + velocity ============ */
-    let lenis = null, vel = 0;
+    /* ============ Native scroll + velocity ============
+       Lenis scroll-hijacking removed — it interpolated the page behind the
+       user's input and made scrolling feel laggy. Native scroll is instant;
+       all scroll-linked effects run in the same rAF-throttled handler. */
+    let lenis = null, vel = 0, lastY = 0, lastT = 0;
     function initScroll() {
-        if (!reduce && window.Lenis) {
-            lenis = new window.Lenis({ lerp: 0.14, wheelMultiplier: 1.05, smoothWheel: true });
-            function raf(t) { lenis.raf(t); requestAnimationFrame(raf); }
-            requestAnimationFrame(raf);
-            lenis.on('scroll', (e) => { vel = e.velocity || 0; onScroll(); applyVelocity(); });
-            // anchor links
-            document.querySelectorAll('a[href^="#"]').forEach((a) => {
-                a.addEventListener('click', (ev) => {
-                    const id = a.getAttribute('href'); if (id.length < 2) return;
-                    const t = document.querySelector(id); if (!t) return;
-                    ev.preventDefault(); lenis.scrollTo(t, { offset: -70, duration: 0.9 });
-                });
-            });
-        } else {
-            window.addEventListener('scroll', onScroll, { passive: true });
-        }
+        let settle;
+        window.addEventListener('scroll', () => {
+            const now = performance.now(), y = window.scrollY;
+            if (lastT) vel = (y - lastY) / Math.max(1, now - lastT) * 16;
+            lastY = y; lastT = now;
+            onScroll(); applyVelocity();
+            clearTimeout(settle);
+            settle = setTimeout(() => { vel = 0; applyVelocity(); }, 90);
+        }, { passive: true });
         onScroll();
     }
     const skewEls = [...document.querySelectorAll('.marquee, .cvel')];

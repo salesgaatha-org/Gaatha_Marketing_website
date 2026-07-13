@@ -65,6 +65,8 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+/* Native anchor scrolling clears the fixed nav (Lenis offset replacement) */
+[id] { scroll-margin-top: 84px; }
 html, body { overflow-x: hidden; }
 @supports (overflow: clip) { html, body { overflow-x: clip; } }
 
@@ -223,6 +225,8 @@ html.scene-dark .nav-links a { color: var(--dark-on); }
 /* ---------- 06 · Reveal / kinetic ---------- */
 .reveal { opacity: 0; transform: translateY(34px) scale(0.985); filter: blur(6px); transition: opacity 0.9s var(--ease), transform 0.9s var(--ease), filter 0.9s var(--ease); }
 .reveal.in { opacity: 1; transform: none; filter: none; }
+/* Skip the blur pass on small/touch devices — filter repaints are expensive there */
+@media (max-width: 860px) { .reveal { filter: none; transition: opacity 0.8s var(--ease), transform 0.8s var(--ease); } }
 .reveal[data-delay] { transition-delay: var(--d, 0s); }
 
 /* line/word splits */
