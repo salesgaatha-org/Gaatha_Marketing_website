@@ -87,6 +87,7 @@
             };
             walk(frag);
             el.innerHTML = frag.innerHTML;
+            el.style.setProperty('--wtotal', idx);
             el.classList.add('word-rise');
             io.observe(el);
         });
@@ -149,6 +150,13 @@
     const nav = document.querySelector('.nav');
     const scenes = [...document.querySelectorAll('[data-scene]')];
     const parallaxEls = [...document.querySelectorAll('[data-parallax]')];
+    const cine = document.querySelector('.cine');
+    const scrubEls = [...document.querySelectorAll('.statement [data-words]')];
+    const progressBar = document.createElement('div');
+    progressBar.className = 'scroll-progress';
+    document.body.appendChild(progressBar);
+    let vh = window.innerHeight;
+    window.addEventListener('resize', () => { vh = window.innerHeight; }, { passive: true });
     let lastShrink = null, lastDark = null, ticking = false;
     function onScroll() {
         if (ticking) return;
@@ -161,6 +169,16 @@
             for (const s of scenes) { const r = s.getBoundingClientRect(); if (r.top <= probe && r.bottom >= probe) dark = s.dataset.scene === 'dark'; }
             if (dark !== lastDark) { lastDark = dark; document.documentElement.classList.toggle('scene-dark', dark); }
             if (!reduce) for (const el of parallaxEls) el.style.transform = 'translateY(' + (y * (parseFloat(el.dataset.parallax) || 0.1)) + 'px)';
+            /* Hero exit progress (0 at top → 1 after one viewport) drives the CSS scale/fade */
+            if (cine && !reduce) cine.style.setProperty('--hp', Math.min(1, Math.max(0, y / vh)).toFixed(4));
+            /* Statement scrub: progress through the section brightens words one by one */
+            if (!reduce) for (const el of scrubEls) {
+                const r = el.getBoundingClientRect();
+                const p = Math.min(1, Math.max(0, (vh * 0.88 - r.top) / (r.height + vh * 0.5)));
+                el.style.setProperty('--sp', p.toFixed(4));
+            }
+            const max = document.documentElement.scrollHeight - vh;
+            progressBar.style.transform = 'scaleX(' + (max > 0 ? Math.min(1, y / max) : 0) + ')';
             ticking = false;
         });
     }
@@ -194,6 +212,26 @@
         });
     }
 
+    /* ============ Card tilt + spotlight (desktop, fine pointer) ============ */
+    function initTilt() {
+        if (reduce || !fine) return;
+        document.querySelectorAll('.bt, .bpost').forEach((card) => {
+            card.addEventListener('pointermove', (e) => {
+                const r = card.getBoundingClientRect();
+                const px = (e.clientX - r.left) / r.width, py = (e.clientY - r.top) / r.height;
+                card.style.setProperty('--mx', (px * 100).toFixed(1) + '%');
+                card.style.setProperty('--my', (py * 100).toFixed(1) + '%');
+                const rx = (0.5 - py) * 4.5, ry = (px - 0.5) * 5.5;
+                card.style.transition = 'transform 0.16s ease-out, box-shadow 0.5s cubic-bezier(0.22,1,0.36,1)';
+                card.style.transform = 'perspective(900px) translateY(-4px) rotateX(' + rx.toFixed(2) + 'deg) rotateY(' + ry.toFixed(2) + 'deg)';
+            });
+            card.addEventListener('pointerleave', () => {
+                card.style.transition = 'transform 0.6s cubic-bezier(0.22,1,0.36,1), box-shadow 0.6s cubic-bezier(0.22,1,0.36,1)';
+                card.style.transform = '';
+            });
+        });
+    }
+
     /* ============ Hover preview (floating thumb) ============ */
     function initPreview() {
         const hosts = document.querySelectorAll('[data-thumb]');
@@ -218,6 +256,7 @@
     /* ============ Boot ============ */
     initReveals();
     initScroll();
+    initTilt();
     /* Custom cursor disabled — standard OS pointer is used. */
     initPreview();
     /* Intro loader intentionally disabled — it added artificial load delay. */
