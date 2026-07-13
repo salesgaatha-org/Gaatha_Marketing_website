@@ -187,10 +187,32 @@
 .stat-label { font-size: 0.92rem; color: var(--muted); max-width: 18ch; }
 @media (max-width: 540px){ .stats-bento .bt { min-height: 148px; } }
 
-/* ===== Statement ===== */
-.statement { padding: clamp(70px, 10vw, 130px) var(--pad); }
-.statement p { margin: 0 auto; text-align: left; font-family: var(--serif); font-weight: 380; line-height: 1.05; letter-spacing: -0.02em; font-size: clamp(2.2rem, 6.8vw, 5.6rem); max-width: 20ch; }
+/* ===== Statement — centered manifesto with scroll props ===== */
+.statement { padding: clamp(90px, 13vw, 170px) var(--pad); overflow: clip; }
+.stmt-inner { position: relative; max-width: 1060px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: clamp(28px, 4vw, 44px); text-align: center; }
+.statement p { position: relative; z-index: 1; margin: 0; font-family: var(--serif); font-weight: 380; line-height: 1.1; letter-spacing: -0.02em; font-size: clamp(1.9rem, 5.2vw, 4.4rem); max-width: 24ch; }
 .statement em { font-style: italic; color: transparent; background: var(--foil); -webkit-background-clip: text; background-clip: text; }
+/* Ghost watermark — "gaatha" in Devanagari, drifting slower than the text (scroll parallax via --sp) */
+.stmt-mark {
+    position: absolute; top: -0.06em; left: 50%; z-index: 0;
+    font-family: var(--serif); font-style: italic; font-weight: 380; line-height: 1; pointer-events: none; user-select: none;
+    font-size: clamp(16rem, 42vw, 36rem); color: transparent; -webkit-text-stroke: 1.2px rgba(184, 146, 61, 0.22);
+    transform: translateX(-50%) translateY(calc((0.5 - var(--sp, 0.5)) * 90px));
+}
+/* Floating star props — each drifts at its own speed */
+.stmt-prop { position: absolute; z-index: 0; color: var(--accent); pointer-events: none; user-select: none; }
+.stmt-prop.sp1 { top: 12%; left: 6%; font-size: clamp(1rem, 1.6vw, 1.5rem); opacity: 0.85; transform: translateY(calc((0.5 - var(--sp, 0.5)) * 160px)) rotate(calc(var(--sp, 0.5) * 40deg)); }
+.stmt-prop.sp2 { top: 40%; right: 5%; font-size: clamp(0.7rem, 1vw, 1rem); opacity: 0.55; transform: translateY(calc((0.5 - var(--sp, 0.5)) * -120px)) rotate(calc(var(--sp, 0.5) * -30deg)); }
+.stmt-prop.sp3 { bottom: 10%; left: 16%; font-size: clamp(0.6rem, 0.9vw, 0.85rem); opacity: 0.4; transform: translateY(calc((0.5 - var(--sp, 0.5)) * 220px)); }
+/* Caption with hairline rules */
+.stmt-foot { position: relative; z-index: 1; display: flex; align-items: center; gap: 18px; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent-deep); }
+.stmt-foot i { width: clamp(28px, 5vw, 60px); height: 1px; background: var(--line-2); }
+@media (max-width: 640px){
+    .stmt-prop.sp3 { display: none; }
+    .stmt-prop.sp1 { left: 2%; }
+    .stmt-prop.sp2 { right: 2%; }
+}
+@media (prefers-reduced-motion: reduce){ .stmt-mark, .stmt-prop { transform: none !important; } }
 /* Scroll-scrubbed word reveal: each word brightens as --sp (scroll progress, set by gaatha.js) passes its index */
 .statement p.word-rise > .word {
     transform: none;
@@ -410,8 +432,16 @@
 </section>
 
 <!-- STATEMENT -->
-<section class="statement">
-    <p data-words>We craft <em>tales</em> that turn brands into <em>movements</em> — blending strategy, storytelling and <em>AI-driven results</em> into work the internet can't ignore.</p>
+<section class="statement" aria-label="Our philosophy">
+    <div class="stmt-inner">
+        <span class="stmt-mark" aria-hidden="true">&ldquo;</span>
+        <span class="stmt-prop sp1" aria-hidden="true">✦</span>
+        <span class="stmt-prop sp2" aria-hidden="true">✦</span>
+        <span class="stmt-prop sp3" aria-hidden="true">✦</span>
+        <span class="eyebrow reveal">The gaa-tha way · Nº 01</span>
+        <p data-words>We craft <em>tales</em> that turn brands into <em>movements</em> — blending strategy, storytelling and <em>AI-driven results</em> into work the internet can't ignore.</p>
+        <div class="stmt-foot reveal"><i></i><span>gaa-tha · गाथा — a story worth retelling</span><i></i></div>
+    </div>
 </section>
 
 <!-- WHAT WE DO — bento -->

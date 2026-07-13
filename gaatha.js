@@ -171,7 +171,7 @@
             if (!reduce) for (const el of scrubEls) {
                 const r = el.getBoundingClientRect();
                 const p = Math.min(1, Math.max(0, (vh * 0.88 - r.top) / (r.height + vh * 0.5)));
-                el.style.setProperty('--sp', p.toFixed(4));
+                (el.closest('.statement') || el).style.setProperty('--sp', p.toFixed(4));
             }
             const max = document.documentElement.scrollHeight - vh;
             progressBar.style.transform = 'scaleX(' + (max > 0 ? Math.min(1, y / max) : 0) + ')';
