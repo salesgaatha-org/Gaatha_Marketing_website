@@ -175,12 +175,12 @@
 @media (prefers-reduced-motion: reduce){ .cine-cue i::after { animation: none; } }
 
 /* ===== Stats ===== */
-.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; max-width: var(--maxw); margin: 0 auto; }
-.stat { padding: 14px clamp(14px, 2.5vw, 34px); border-left: 1px solid var(--line); }
-.stat:first-child { border-left: none; padding-left: 0; }
-.stat-num { font-family: var(--serif); font-weight: 380; font-size: clamp(2.6rem, 6vw, 5.4rem); line-height: 1; letter-spacing: -0.02em; }
-.stat-label { margin-top: 12px; font-size: 0.92rem; color: var(--muted); max-width: 18ch; }
-@media (max-width: 760px){ .stats { grid-template-columns: 1fr 1fr; gap: 28px 0; } .stat:nth-child(odd){ border-left:none; padding-left:0; } .stat:nth-child(even){ padding-left: 24px; } }
+/* ===== Stats — bento grid ===== */
+.stats-bento { max-width: var(--maxw); margin: 0 auto; }
+.stats-bento .bt { justify-content: flex-end; }
+.stats-bento .bt-stat { font-size: clamp(2.4rem, 5.2vw, 4.8rem); }
+.stats-bento .bt-wide .bt-stat { font-size: clamp(2.4rem, 5.2vw, 4.8rem); }
+.stat-label { font-size: 0.92rem; color: var(--muted); }
 
 /* ===== Statement ===== */
 .statement { padding: clamp(70px, 10vw, 130px) var(--pad); }
@@ -368,12 +368,31 @@
 </div>
 
 <!-- STATS -->
-<section class="section" aria-label="gaa-tha by the numbers" style="padding-block: clamp(60px,8vw,100px);">
-    <div class="stats" data-stagger="0.1">
-        <div class="stat reveal"><div class="stat-num"><span data-count="15" data-suffix="+">0</span></div><div class="stat-label">Clients we've worked with</div></div>
-        <div class="stat reveal"><div class="stat-num"><span data-count="100" data-suffix="+">0</span></div><div class="stat-label">Campaigns delivered</div></div>
-        <div class="stat reveal"><div class="stat-num"><span data-count="50" data-suffix="M+">0</span></div><div class="stat-label">Total reach attained</div></div>
-        <div class="stat reveal"><div class="stat-num"><span data-count="1000" data-suffix="+">0</span></div><div class="stat-label">AI-driven content pieces</div></div>
+<section class="section" aria-label="gaa-tha by the numbers" style="padding-block: clamp(40px,5vw,72px);">
+    <div class="bento stats-bento" data-stagger="0.05">
+        <!-- 50M+ hero — spans 2 cols × 2 rows -->
+        <div class="bt bt-hero reveal">
+            <div class="bt-top"><span class="bt-idx">Total reach attained</span></div>
+            <div>
+                <div class="bt-stat"><span data-count="50" data-suffix="M+">0</span></div>
+                <h3>Reach that <span class="foil it">moves.</span></h3>
+            </div>
+        </div>
+        <!-- 15+ -->
+        <div class="bt reveal">
+            <div class="bt-stat"><span data-count="15" data-suffix="+">0</span></div>
+            <div class="stat-label">Clients we've worked with</div>
+        </div>
+        <!-- 100+ -->
+        <div class="bt reveal">
+            <div class="bt-stat"><span data-count="100" data-suffix="+">0</span></div>
+            <div class="stat-label">Campaigns delivered</div>
+        </div>
+        <!-- 1000+ wide — spans 2 cols -->
+        <div class="bt bt-wide reveal">
+            <div class="bt-stat"><span data-count="1000" data-suffix="+">0</span></div>
+            <div class="stat-label">AI-driven content pieces</div>
+        </div>
     </div>
 </section>
 
