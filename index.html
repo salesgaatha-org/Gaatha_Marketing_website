@@ -187,6 +187,45 @@
 .stat-label { font-size: 0.92rem; color: var(--muted); max-width: 18ch; }
 @media (max-width: 540px){ .stats-bento .bt { min-height: 148px; } }
 
+/* ===== Gradient cards (same palette as the Work page) ===== */
+.bt.bt-grad { border-color: transparent; color: var(--paper); }
+.bt.bt-grad::after { content: ''; position: absolute; right: -16%; top: -26%; width: 58%; height: 74%; background: radial-gradient(circle, rgba(212,175,55,0.24), transparent 70%); pointer-events: none; }
+.bt.bt-grad .stat-label, .bt.bt-grad p { color: rgba(244,238,223,0.74); }
+.bt.bt-grad .bt-idx { color: rgba(244,238,223,0.68); }
+.bt.bt-grad .bt-go { color: var(--accent-light); }
+.bt.bt-grad:hover { box-shadow: 0 40px 90px -30px rgba(40,26,12,0.6); }
+.bt.g-gold  { background: linear-gradient(160deg, var(--coffee) 0%, #3a2c14 55%, var(--gold-deep) 100%); }
+.bt.g-teal  { background: linear-gradient(160deg, var(--coffee) 0%, #17302d 55%, var(--teal) 100%); }
+.bt.g-rust  { background: linear-gradient(160deg, var(--coffee) 0%, #341c12 55%, var(--rust) 100%); }
+.bt.g-mocha { background: linear-gradient(160deg, var(--coffee) 0%, var(--mocha) 60%, var(--bronze) 100%); }
+.bt.g-gold .bt-stat  { color: var(--accent-light); }
+.bt.g-teal .bt-stat  { color: #86D6CD; }
+.bt.g-rust .bt-stat  { color: #F2AD83; }
+.bt.g-mocha .bt-stat { color: var(--gold-light); }
+.bt.bt-grad h3 { color: var(--paper); }
+.bt.bt-grad h3 .foil { -webkit-text-fill-color: transparent; }
+
+/* ===== Ribbons — crossing gold + ghost strips ===== */
+.ribbons { position: relative; padding: clamp(46px, 7vw, 96px) 0; overflow: clip; }
+.ribbons .marquee { width: 106vw; margin-left: -3vw; }
+.ribbon-gold {
+    position: relative; z-index: 1;
+    background: var(--foil); border: none; padding: clamp(16px, 2vw, 26px) 0;
+    transform: rotate(-1.6deg) skewX(var(--skew, 0deg));
+    box-shadow: 0 24px 60px -18px rgba(110, 83, 40, 0.45);
+}
+.ribbon-gold .marquee-item { color: var(--coffee); }
+.ribbon-gold .star { color: var(--coffee); opacity: 0.7; }
+.ribbon-ghost {
+    position: absolute; left: -3vw; top: 50%; z-index: 0;
+    background: transparent; border-block: 1px solid var(--line);
+    padding: clamp(12px, 1.6vw, 20px) 0;
+    transform: translateY(-50%) rotate(1.5deg) skewX(var(--skew, 0deg));
+}
+.ribbon-ghost .marquee-item { color: transparent; -webkit-text-stroke: 1px var(--line-2); font-size: clamp(1.3rem, 3.2vw, 2.5rem); }
+.ribbon-ghost .star { color: var(--accent); -webkit-text-stroke: 0; opacity: 0.6; }
+.ribbon-ghost .marquee-track { animation-direction: reverse; animation-duration: 44s; }
+
 /* ===== Statement — centered manifesto with scroll props ===== */
 .statement { padding: clamp(90px, 13vw, 170px) var(--pad); overflow: clip; }
 .stmt-inner { position: relative; max-width: 1060px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: clamp(28px, 4vw, 44px); text-align: center; }
@@ -391,40 +430,58 @@
     <div class="cine-cue" aria-hidden="true">Scroll <i></i></div>
 </header>
 
-<!-- MARQUEE -->
-<div class="marquee" aria-hidden="true">
-    <div class="marquee-track">
-        <span class="marquee-item">Strategy <span class="star">✦</span></span>
-        <span class="marquee-item">Storytelling <span class="star">✦</span></span>
-        <span class="marquee-item">AI-driven results <span class="star">✦</span></span>
-        <span class="marquee-item">Branding <span class="star">✦</span></span>
-        <span class="marquee-item">Performance <span class="star">✦</span></span>
-        <span class="marquee-item">Social <span class="star">✦</span></span>
-        <span class="marquee-item">Strategy <span class="star">✦</span></span>
-        <span class="marquee-item">Storytelling <span class="star">✦</span></span>
-        <span class="marquee-item">AI-driven results <span class="star">✦</span></span>
-        <span class="marquee-item">Branding <span class="star">✦</span></span>
-        <span class="marquee-item">Performance <span class="star">✦</span></span>
-        <span class="marquee-item">Social <span class="star">✦</span></span>
+<!-- RIBBONS — crossing gold + ghost strips -->
+<div class="ribbons" aria-hidden="true">
+    <div class="marquee ribbon-ghost">
+        <div class="marquee-track">
+            <span class="marquee-item">Reels <span class="star">✦</span></span>
+            <span class="marquee-item">Websites <span class="star">✦</span></span>
+            <span class="marquee-item">AI Ads <span class="star">✦</span></span>
+            <span class="marquee-item">UGC <span class="star">✦</span></span>
+            <span class="marquee-item">SEO · AEO · GEO <span class="star">✦</span></span>
+            <span class="marquee-item">Influencers <span class="star">✦</span></span>
+            <span class="marquee-item">Reels <span class="star">✦</span></span>
+            <span class="marquee-item">Websites <span class="star">✦</span></span>
+            <span class="marquee-item">AI Ads <span class="star">✦</span></span>
+            <span class="marquee-item">UGC <span class="star">✦</span></span>
+            <span class="marquee-item">SEO · AEO · GEO <span class="star">✦</span></span>
+            <span class="marquee-item">Influencers <span class="star">✦</span></span>
+        </div>
+    </div>
+    <div class="marquee ribbon-gold">
+        <div class="marquee-track">
+            <span class="marquee-item">Strategy <span class="star">✦</span></span>
+            <span class="marquee-item">Storytelling <span class="star">✦</span></span>
+            <span class="marquee-item">AI-driven results <span class="star">✦</span></span>
+            <span class="marquee-item">Branding <span class="star">✦</span></span>
+            <span class="marquee-item">Performance <span class="star">✦</span></span>
+            <span class="marquee-item">Social <span class="star">✦</span></span>
+            <span class="marquee-item">Strategy <span class="star">✦</span></span>
+            <span class="marquee-item">Storytelling <span class="star">✦</span></span>
+            <span class="marquee-item">AI-driven results <span class="star">✦</span></span>
+            <span class="marquee-item">Branding <span class="star">✦</span></span>
+            <span class="marquee-item">Performance <span class="star">✦</span></span>
+            <span class="marquee-item">Social <span class="star">✦</span></span>
+        </div>
     </div>
 </div>
 
 <!-- STATS -->
 <section class="section" aria-label="gaa-tha by the numbers" style="padding-block: clamp(40px,5vw,72px);">
     <div class="bento stats-bento" data-stagger="0.08">
-        <div class="bt reveal">
+        <div class="bt bt-grad g-gold reveal">
             <div class="bt-stat"><span data-count="15" data-suffix="+">0</span></div>
             <div class="stat-label">Clients we've worked with</div>
         </div>
-        <div class="bt reveal">
+        <div class="bt bt-grad g-teal reveal">
             <div class="bt-stat"><span data-count="100" data-suffix="+">0</span></div>
             <div class="stat-label">Campaigns delivered</div>
         </div>
-        <div class="bt reveal">
+        <div class="bt bt-grad g-rust reveal">
             <div class="bt-stat"><span data-count="50" data-suffix="M+">0</span></div>
             <div class="stat-label">Total reach attained</div>
         </div>
-        <div class="bt reveal">
+        <div class="bt bt-grad g-mocha reveal">
             <div class="bt-stat"><span data-count="1000" data-suffix="+">0</span></div>
             <div class="stat-label">AI-driven content pieces</div>
         </div>
@@ -460,11 +517,11 @@
                 <p>Short-form built to be re-watched — AI ads, UGC, influencer drops and AI clones. The hooks that make a thumb stop.</p>
             </div>
         </a>
-        <a class="bt bt-wide acc-teal reveal" href="websites.html" data-cursor="View">
+        <a class="bt bt-wide bt-grad g-teal reveal" href="websites.html" data-cursor="View">
             <div class="bt-top"><span class="bt-idx">02 · Web &amp; App</span><span class="bt-go">View →</span></div>
             <div><div class="bt-stat">20+ built</div><h3>Conversion websites &amp; apps</h3><p>Fast, beautiful — built to turn a click into a customer.</p></div>
         </a>
-        <a class="bt bt-wide acc-rust reveal" href="branding.html" data-cursor="View">
+        <a class="bt bt-wide bt-grad g-rust reveal" href="branding.html" data-cursor="View">
             <div class="bt-top"><span class="bt-idx">03 · Branding</span><span class="bt-go">View →</span></div>
             <div><div class="bt-stat">15+ Brands</div><h3>Brands people remember</h3><p>Logos, identities and creatives with a point of view.</p></div>
         </a>
