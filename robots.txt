@@ -25,6 +25,12 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
 User-agent: Claude-Web
 Allow: /
 
@@ -36,6 +42,20 @@ Allow: /
 
 User-agent: PerplexityBot
 Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Bing powers ChatGPT search — explicitly welcome
+User-agent: Bingbot
+Allow: /
+Disallow: /GaathaAdmin123.html
+Disallow: /admin/
+Disallow: /workers/
+Disallow: /manage.html
+Disallow: /reels-admin.html
+Disallow: /websites-admin.html
+Disallow: /branding-admin.html
 
 User-agent: Applebot-Extended
 Allow: /
