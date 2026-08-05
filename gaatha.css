@@ -728,23 +728,28 @@ a.cvel-item:hover { color: var(--accent-ink); }
 .client-logos > * {
     background: var(--white);
     display: flex; align-items: center; justify-content: center;
-    padding: 28px 24px;
+    padding: 20px 18px;
     min-height: 136px;
 }
+/* `height: auto` is load-bearing — the markup carries an intrinsic height
+   attribute, and without this the presentational hint wins and the cap below
+   never binds. */
 .client-logos img {
-    max-height: 64px; max-width: 100%; width: auto; object-fit: contain;
+    height: auto; max-height: 82px;
+    width: auto; max-width: 100%;
+    object-fit: contain;
     /* Always full colour. Several source logos ship with a baked-in white
        plate — multiply drops it against the white cell without touching hue. */
     mix-blend-mode: multiply;
 }
 @media (max-width: 900px) {
-    .client-logos > * { min-height: 116px; padding: 22px 16px; }
-    .client-logos img { max-height: 54px; }
+    .client-logos > * { min-height: 116px; padding: 18px 14px; }
+    .client-logos img { max-height: 66px; }
 }
 @media (max-width: 620px) {
     .client-logos { grid-template-columns: repeat(2, 1fr); }
-    .client-logos > * { min-height: 108px; padding: 20px 14px; }
-    .client-logos img { max-height: 50px; }
+    .client-logos > * { min-height: 108px; padding: 16px 12px; }
+    .client-logos img { max-height: 62px; }
 }
 
 /* ---------- 12 · Testimonials ---------- */
