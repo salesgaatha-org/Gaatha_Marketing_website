@@ -11,6 +11,7 @@ Disallow: /manage.html
 Disallow: /reels-admin.html
 Disallow: /websites-admin.html
 Disallow: /branding-admin.html
+Disallow: /clients-admin.html
 
 # AI / answer-engine crawlers — explicitly welcome (GEO)
 User-agent: GPTBot
@@ -56,6 +57,7 @@ Disallow: /manage.html
 Disallow: /reels-admin.html
 Disallow: /websites-admin.html
 Disallow: /branding-admin.html
+Disallow: /clients-admin.html
 
 User-agent: Applebot-Extended
 Allow: /

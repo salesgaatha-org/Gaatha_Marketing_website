@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clients &amp; logos — gaa-tha admin</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="stylesheet" href="gaatha.css">
+<style>
+  /* ---------- Admin chrome ---------- */
+  .adm { padding-block: 28px 80px; }
+  .adm-top {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 16px; flex-wrap: wrap;
+    padding-bottom: 22px; margin-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+  }
+  .adm-top img { height: 34px; width: auto; }
+  .adm-title { font-size: clamp(1.5rem, 3vw, 2.125rem); margin-top: 14px; }
+  .adm-sub { color: var(--muted); max-width: 62ch; margin-top: 10px; }
+  .adm-bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 26px 0; }
+
+  .adm-note {
+    display: flex; gap: 14px; align-items: flex-start;
+    padding: 16px 18px; border-radius: var(--r);
+    background: var(--accent-soft); border: 1px solid var(--accent-line);
+    color: var(--accent-ink); font-size: 0.9375rem;
+    margin-bottom: 26px;
+  }
+  .adm-note strong { display: block; margin-bottom: 3px; }
+
+  /* ---------- Live toggle ---------- */
+  .adm-live {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 18px; flex-wrap: wrap;
+    padding: 18px 20px; margin-bottom: 26px;
+    border: 1px solid var(--line); border-radius: var(--r-lg);
+    background: var(--surface);
+  }
+  .adm-live h3 { font-size: 1rem; margin-bottom: 4px; }
+  .adm-live p { font-size: 0.875rem; color: var(--muted); max-width: 58ch; }
+  .switch { position: relative; width: 56px; height: 32px; flex: none; }
+  .switch input { position: absolute; inset: 0; opacity: 0; cursor: pointer; margin: 0; }
+  .switch span {
+    position: absolute; inset: 0; border-radius: 100px;
+    background: var(--line-2); transition: background 0.2s var(--ease);
+    pointer-events: none;
+  }
+  .switch span::after {
+    content: ''; position: absolute; top: 4px; left: 4px;
+    width: 24px; height: 24px; border-radius: 50%;
+    background: var(--white); transition: transform 0.2s var(--ease);
+  }
+  .switch input:checked + span { background: var(--accent); }
+  .switch input:checked + span::after { transform: translateX(24px); }
+  .switch input:focus-visible + span { outline: 2px solid var(--accent-ink); outline-offset: 3px; }
+
+  /* ---------- Sortable list ---------- */
+  .cl-list { display: grid; gap: 10px; }
+  .cl-row {
+    display: grid;
+    grid-template-columns: auto 64px 1fr auto;
+    align-items: center; gap: 16px;
+    padding: 12px 16px;
+    background: var(--white);
+    border: 1px solid var(--line); border-radius: var(--r);
+    transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease), opacity 0.2s var(--ease);
+  }
+  .cl-row:hover { border-color: var(--line-2); }
+  .cl-row.dragging { opacity: 0.4; }
+  .cl-row.drop-target { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .cl-grab {
+    display: flex; align-items: center; gap: 10px;
+    color: var(--muted-2); cursor: grab;
+    font-variant-numeric: tabular-nums; font-weight: 700; font-size: 0.8125rem;
+  }
+  .cl-grab:active { cursor: grabbing; }
+  .cl-grab svg { width: 16px; height: 16px; flex: none; }
+  .cl-thumb {
+    height: 48px; display: flex; align-items: center; justify-content: center;
+    background: var(--white); border-radius: 6px; overflow: hidden;
+  }
+  .cl-thumb img { max-height: 44px; max-width: 100%; width: auto; height: auto; object-fit: contain; mix-blend-mode: multiply; }
+  .cl-name { font-weight: 600; font-size: 0.9375rem; }
+  .cl-url { font-size: 0.8125rem; color: var(--muted-2); overflow-wrap: anywhere; }
+  .cl-acts { display: flex; align-items: center; gap: 6px; }
+  .cl-btn {
+    width: 34px; height: 34px; border-radius: 8px;
+    border: 1px solid var(--line-2); background: var(--white);
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 0.875rem; color: var(--ink);
+    transition: background 0.18s var(--ease), color 0.18s var(--ease), border-color 0.18s var(--ease);
+  }
+  .cl-btn:hover:not(:disabled) { background: var(--ink); color: var(--white); border-color: var(--ink); }
+  .cl-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+  .cl-btn.danger:hover { background: #B4231F; border-color: #B4231F; color: var(--white); }
+  .cl-btn.wide { width: auto; padding: 0 14px; font-size: 0.8125rem; font-weight: 600; }
+
+  .cl-empty {
+    padding: 44px 24px; text-align: center;
+    border: 1px dashed var(--line-2); border-radius: var(--r-lg);
+    color: var(--muted);
+  }
+
+  /* ---------- Preview ---------- */
+  .adm-prev-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin: 48px 0 16px; }
+  .adm-prev-head h2 { font-size: 1.25rem; }
+  .adm-prev-head p { font-size: 0.875rem; color: var(--muted); }
+
+  /* ---------- Modal ---------- */
+  .adm-modal {
+    position: fixed; inset: 0; z-index: 300;
+    background: rgba(16, 17, 20, 0.55);
+    -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px);
+    display: flex; align-items: center; justify-content: center;
+    padding: 20px; overflow-y: auto;
+  }
+  .adm-modal-box {
+    position: relative;
+    width: 100%; max-width: 480px;
+    background: var(--white);
+    border-radius: var(--r-lg);
+    padding: clamp(22px, 3vw, 32px);
+    box-shadow: 0 30px 80px rgba(16, 17, 20, 0.28);
+  }
+  .adm-modal-box h3 { font-size: 1.25rem; margin-bottom: 20px; }
+  .adm-field { display: grid; gap: 7px; margin-bottom: 18px; }
+  .adm-field label { font-size: 0.8125rem; font-weight: 600; color: var(--ink); }
+  .adm-field input {
+    width: 100%; padding: 12px 14px;
+    border: 1px solid var(--line-2); border-radius: var(--r-sm);
+    font: inherit; font-size: 0.9375rem; background: var(--white); color: var(--ink);
+  }
+  .adm-field input:focus { outline: none; border-color: var(--ink); }
+  .adm-field small { font-size: 0.75rem; color: var(--muted-2); }
+  .adm-modal-acts { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 24px; }
+  .adm-busy {
+    position: absolute; inset: 0; border-radius: var(--r-lg);
+    background: rgba(255, 255, 255, 0.82);
+    display: none; align-items: center; justify-content: center;
+    font-weight: 600; font-size: 0.9375rem; color: var(--ink);
+  }
+  .adm-busy.on { display: flex; }
+
+  /* ---------- Toast ---------- */
+  .adm-toast {
+    position: fixed; left: 50%; bottom: 26px; transform: translate(-50%, 20px);
+    z-index: 400;
+    padding: 12px 22px; border-radius: 100px;
+    background: var(--ink); color: var(--white);
+    font-size: 0.875rem; font-weight: 600;
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.25s var(--ease), transform 0.25s var(--ease);
+  }
+  .adm-toast.on { opacity: 1; transform: translate(-50%, 0); }
+  .adm-toast.bad { background: #B4231F; }
+
+  .adm-locked { padding: 80px 0; text-align: center; }
+  .adm-locked h1 { font-size: 1.75rem; margin-bottom: 12px; }
+  .adm-locked p { color: var(--muted); margin-bottom: 24px; }
+
+  @media (max-width: 700px) {
+    .cl-row { grid-template-columns: auto 52px 1fr; row-gap: 12px; }
+    .cl-acts { grid-column: 1 / -1; justify-content: flex-end; }
+    .cl-thumb { height: 40px; }
+    .cl-thumb img { max-height: 38px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap adm" id="app" hidden>
+  <div class="adm-top">
+    <img src="assets/logo.png" alt="gaa-tha">
+    <a class="link-arrow" href="GaathaAdmin123.html">&larr; Back to admin</a>
+  </div>
+
+  <h1 class="display adm-title">Clients &amp; logos</h1>
+  <p class="adm-sub">Add the brands you work with, replace a logo, and drag the rows to set the exact order they appear in &ldquo;Partners in crime&rdquo; on the home page.</p>
+
+  <div class="adm-bar">
+    <button class="btn btn-primary" id="addBtn">+ Add client</button>
+    <button class="btn btn-ghost" id="seedBtn">Import the logos currently on the site</button>
+  </div>
+
+  <div class="adm-live">
+    <div>
+      <h3>Show this list on the home page</h3>
+      <p>Off means the home page keeps its built-in set of 16 logos and ignores this list &mdash; useful while you are still adding brands. Turn it on when the list below is the one you want live.</p>
+    </div>
+    <label class="switch" title="Publish this list to the home page">
+      <input type="checkbox" id="liveToggle">
+      <span></span>
+    </label>
+  </div>
+
+  <div class="adm-note" id="liveNote" hidden>
+    <div>
+      <strong>This list is live.</strong>
+      The home page is showing these logos, in this order.
+    </div>
+  </div>
+
+  <div class="cl-list" id="list"></div>
+
+  <div class="adm-prev-head">
+    <div>
+      <h2>Home page preview</h2>
+      <p>Exactly how the grid will look, in the order above.</p>
+    </div>
+  </div>
+  <div class="client-logos" id="preview"></div>
+</div>
+
+<div class="wrap adm-locked" id="locked" hidden>
+  <h1 class="display">Admin access required</h1>
+  <p>Sign in through the admin login, then come back to this page.</p>
+  <a class="btn btn-primary" href="admin/index.html">Go to admin login</a>
+</div>
+
+<div class="adm-toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  var ADMIN_KEY = 'gaatha_admin_2025_secret_key_xyz789';
+  if (localStorage.getItem('admin_secret') !== ADMIN_KEY) {
+    document.getElementById('locked').hidden = false;
+    return;
+  }
+  document.getElementById('app').hidden = false;
+
+  firebase.initializeApp({
+    apiKey: "AIzaSyBQlBj179byUqKjjXGH1TmpqT36nlDhwaY",
+    authDomain: "gaatha-b9ee5.firebaseapp.com",
+    databaseURL: "https://gaatha-b9ee5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "gaatha-b9ee5",
+    storageBucket: "gaatha-b9ee5.firebasestorage.app",
+    messagingSenderId: "661713784587",
+    appId: "1:661713784587:web:2b7bbcb40b18e53c361c0e"
+  });
+  var db = firebase.database();
+
+  var R2_ENDPOINT = 'https://r2-presign.moxshang.workers.dev';
+
+  /* The set that ships in index.html, in its current running order. */
+  var BUILT_IN = [
+    ['Charliee', 'charliee'], ['CDS Stores', 'cds'], ['Nirav Machines India', 'nmi'],
+    ['Madhuram', 'madhuram'], ['Sipss & Bitess', 'sipss'], ['Saurashtra Farsan', 'saurashtra'],
+    ['Rentastic', 'rentastic'], ['NITS Overseas', 'nits'], ['Navami', 'navami'],
+    ['Aathrr', 'aathrr'], ['Shailesh Construction', 'shailesh'], ['Ghanshyam Snacks', 'ghanshyam'],
+    ['GSPS Chartered Accountants', 'gsps'], ['New Rave', 'newrave'], ['Kitcoz', 'kitcoz'],
+    ['HPMG Group', 'hpmg']
+  ];
+
+  var rows = [];          // [{ id, name, imageUrl, websiteUrl, order }]
+  var listEl = document.getElementById('list');
+  var previewEl = document.getElementById('preview');
+  var toastEl = document.getElementById('toast');
+
+  /* ------------------------------ helpers ------------------------------- */
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  function absolute(url) {
+    url = String(url || '').trim();
+    if (!url) return '';
+    return /^(https?:|\/)/i.test(url) ? url : 'https://' + url;
+  }
+  var toastTimer = null;
+  function toast(msg, bad) {
+    toastEl.textContent = msg;
+    toastEl.classList.toggle('bad', !!bad);
+    toastEl.classList.add('on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { toastEl.classList.remove('on'); }, 2600);
+  }
+
+  async function uploadLogo(file) {
+    var ext = (file.name.split('.').pop() || 'png').toLowerCase();
+    var key = 'clients/' + Date.now() + '-' + Math.random().toString(36).slice(2, 10) + '.' + ext;
+    var res = await fetch(R2_ENDPOINT + '?fileName=' + encodeURIComponent(key), {
+      method: 'POST',
+      headers: { 'Content-Type': file.type || 'image/png' },
+      body: file
+    });
+    if (!res.ok) {
+      var err = await res.json().catch(function () { return {}; });
+      throw new Error(err.error || 'Upload failed');
+    }
+    var out = await res.json();
+    return out.publicUrl || ('https://media.gaa-tha.com/' + key);
+  }
+
+  /* ------------------------------- render -------------------------------- */
+  function render() {
+    if (!rows.length) {
+      listEl.innerHTML = '<div class="cl-empty">No clients yet. Add one, or import the logos already on the site.</div>';
+      previewEl.innerHTML = '';
+      return;
+    }
+
+    listEl.innerHTML = rows.map(function (r, i) {
+      return '' +
+        '<div class="cl-row" draggable="true" data-i="' + i + '">' +
+          '<span class="cl-grab" title="Drag to reorder">' +
+            '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">' +
+              '<circle cx="9" cy="6" r="1.6"/><circle cx="15" cy="6" r="1.6"/>' +
+              '<circle cx="9" cy="12" r="1.6"/><circle cx="15" cy="12" r="1.6"/>' +
+              '<circle cx="9" cy="18" r="1.6"/><circle cx="15" cy="18" r="1.6"/>' +
+            '</svg>' + String(i + 1).padStart(2, '0') +
+          '</span>' +
+          '<span class="cl-thumb"><img src="' + esc(absolute(r.imageUrl)) + '" alt=""></span>' +
+          '<span>' +
+            '<span class="cl-name">' + esc(r.name || 'Untitled') + '</span>' +
+            (r.websiteUrl ? '<br><span class="cl-url">' + esc(r.websiteUrl) + '</span>' : '') +
+          '</span>' +
+          '<span class="cl-acts">' +
+            '<button class="cl-btn" data-act="up" ' + (i === 0 ? 'disabled' : '') + ' title="Move up" aria-label="Move up">&uarr;</button>' +
+            '<button class="cl-btn" data-act="down" ' + (i === rows.length - 1 ? 'disabled' : '') + ' title="Move down" aria-label="Move down">&darr;</button>' +
+            '<button class="cl-btn wide" data-act="edit">Edit</button>' +
+            '<button class="cl-btn danger" data-act="del" title="Delete" aria-label="Delete">&#10005;</button>' +
+          '</span>' +
+        '</div>';
+    }).join('');
+
+    var cells = rows.map(function (r) {
+      return '<div><img src="' + esc(absolute(r.imageUrl)) + '" alt="' + esc(r.name) + '"></div>';
+    });
+    while (cells.length % 4 !== 0) cells.push('<div></div>');
+    previewEl.innerHTML = cells.join('');
+  }
+
+  /* ------------------------------- ordering ------------------------------ */
+  function persistOrder() {
+    var updates = {};
+    rows.forEach(function (r, i) { updates[r.id + '/order'] = (i + 1) * 10; });
+    return db.ref('clients').update(updates)
+      .then(function () { toast('Order saved'); })
+      .catch(function () { toast('Could not save the order', true); });
+  }
+
+  function move(from, to) {
+    if (to < 0 || to >= rows.length) return;
+    rows.splice(to, 0, rows.splice(from, 1)[0]);
+    render();
+    persistOrder();
+  }
+
+  /* Drag to reorder (desktop); the arrows cover touch. */
+  var dragFrom = null;
+  listEl.addEventListener('dragstart', function (e) {
+    var row = e.target.closest('.cl-row');
+    if (!row) return;
+    dragFrom = +row.dataset.i;
+    row.classList.add('dragging');
+    e.dataTransfer.effectAllowed = 'move';
+    try { e.dataTransfer.setData('text/plain', String(dragFrom)); } catch (_) {}
+  });
+  listEl.addEventListener('dragover', function (e) {
+    if (dragFrom === null) return;
+    e.preventDefault();
+    var row = e.target.closest('.cl-row');
+    listEl.querySelectorAll('.drop-target').forEach(function (r) { r.classList.remove('drop-target'); });
+    if (row && +row.dataset.i !== dragFrom) row.classList.add('drop-target');
+  });
+  listEl.addEventListener('drop', function (e) {
+    e.preventDefault();
+    var row = e.target.closest('.cl-row');
+    if (row && dragFrom !== null) move(dragFrom, +row.dataset.i);
+    dragFrom = null;
+  });
+  listEl.addEventListener('dragend', function () {
+    dragFrom = null;
+    listEl.querySelectorAll('.dragging, .drop-target').forEach(function (r) {
+      r.classList.remove('dragging', 'drop-target');
+    });
+  });
+
+  /* ------------------------------- actions ------------------------------- */
+  listEl.addEventListener('click', function (e) {
+    var btn = e.target.closest('[data-act]');
+    if (!btn) return;
+    var i = +btn.closest('.cl-row').dataset.i;
+    var act = btn.dataset.act;
+    if (act === 'up') move(i, i - 1);
+    else if (act === 'down') move(i, i + 1);
+    else if (act === 'edit') openModal(rows[i]);
+    else if (act === 'del') removeRow(rows[i]);
+  });
+
+  function removeRow(row) {
+    if (!confirm('Remove ' + (row.name || 'this client') + ' from the list?')) return;
+    var key = '';
+    try {
+      var u = new URL(absolute(row.imageUrl));
+      if (/media\.gaa-tha\.com$/i.test(u.hostname)) key = u.pathname.replace(/^\/+/, '');
+    } catch (_) {}
+    db.ref('clients/' + row.id).remove()
+      .then(function () {
+        // Only reap files this panel put in the bucket.
+        if (key) fetch(R2_ENDPOINT + '?fileName=' + encodeURIComponent(key), { method: 'DELETE' }).catch(function () {});
+        toast('Client removed');
+        return load();
+      })
+      .catch(function () { toast('Could not remove that client', true); });
+  }
+
+  /* -------------------------------- modal -------------------------------- */
+  function openModal(existing) {
+    var editing = !!existing;
+    var el = document.createElement('div');
+    el.className = 'adm-modal';
+    el.innerHTML = '' +
+      '<div class="adm-modal-box">' +
+        '<h3>' + (editing ? 'Edit client' : 'Add client') + '</h3>' +
+        '<form id="cf">' +
+          '<div class="adm-field">' +
+            '<label for="f-name">Brand name</label>' +
+            '<input id="f-name" value="' + esc(editing ? existing.name : '') + '" placeholder="e.g. Charliee" required>' +
+          '</div>' +
+          '<div class="adm-field">' +
+            '<label for="f-file">Logo file</label>' +
+            '<input type="file" id="f-file" accept="image/*">' +
+            '<small>PNG or WEBP with a transparent background works best.' +
+              (editing ? ' Leave empty to keep the current logo.' : '') + '</small>' +
+          '</div>' +
+          '<div class="adm-field">' +
+            '<label for="f-url">…or paste a logo URL</label>' +
+            '<input id="f-url" value="' + esc(editing ? existing.imageUrl : '') + '" placeholder="https://…">' +
+          '</div>' +
+          '<div class="adm-field">' +
+            '<label for="f-site">Website (optional)</label>' +
+            '<input id="f-site" value="' + esc(editing ? (existing.websiteUrl || '') : '') + '" placeholder="https://…">' +
+          '</div>' +
+          '<div class="adm-modal-acts">' +
+            '<button type="submit" class="btn btn-primary">' + (editing ? 'Save changes' : 'Add client') + '</button>' +
+            '<button type="button" class="btn btn-ghost" data-close>Cancel</button>' +
+          '</div>' +
+        '</form>' +
+        '<div class="adm-busy" id="busy">Saving…</div>' +
+      '</div>';
+    document.body.appendChild(el);
+
+    function close() { el.remove(); }
+    el.addEventListener('click', function (e) {
+      if (e.target === el || e.target.hasAttribute('data-close')) close();
+    });
+
+    el.querySelector('#cf').addEventListener('submit', async function (e) {
+      e.preventDefault();
+      var name = el.querySelector('#f-name').value.trim();
+      var file = el.querySelector('#f-file').files[0] || null;
+      var url = el.querySelector('#f-url').value.trim();
+      var site = el.querySelector('#f-site').value.trim();
+
+      if (!file && !url) { toast('Add a logo file or a logo URL', true); return; }
+
+      var busy = el.querySelector('#busy');
+      busy.classList.add('on');
+      try {
+        var imageUrl = url;
+        if (file) { busy.textContent = 'Uploading logo…'; imageUrl = await uploadLogo(file); }
+        busy.textContent = 'Saving…';
+
+        var payload = { name: name, imageUrl: imageUrl, image: imageUrl, websiteUrl: site };
+        if (editing) {
+          await db.ref('clients/' + existing.id).update(payload);
+        } else {
+          payload.order = (rows.length + 1) * 10;
+          payload.createdAt = new Date().toISOString();
+          await db.ref('clients').push(payload);
+        }
+        close();
+        toast(editing ? 'Client updated' : 'Client added');
+        await load();
+      } catch (err) {
+        busy.classList.remove('on');
+        busy.textContent = 'Saving…';
+        toast(err.message || 'Something went wrong', true);
+      }
+    });
+  }
+
+  document.getElementById('addBtn').addEventListener('click', function () { openModal(null); });
+
+  /* ------------------------------- seeding ------------------------------- */
+  document.getElementById('seedBtn').addEventListener('click', async function () {
+    if (rows.length && !confirm('This adds the 16 built-in logos to the end of your list. Continue?')) return;
+    try {
+      var base = rows.length;
+      var updates = {};
+      BUILT_IN.forEach(function (pair, i) {
+        var key = db.ref('clients').push().key;
+        updates[key] = {
+          name: pair[0],
+          imageUrl: '/assets/clients/' + pair[1] + '.webp',
+          image: '/assets/clients/' + pair[1] + '.webp',
+          websiteUrl: '',
+          order: (base + i + 1) * 10,
+          createdAt: new Date().toISOString()
+        };
+      });
+      await db.ref('clients').update(updates);
+      toast('Imported 16 logos');
+      await load();
+    } catch (err) {
+      toast('Import failed', true);
+    }
+  });
+
+  /* ------------------------------ live toggle ---------------------------- */
+  var liveToggle = document.getElementById('liveToggle');
+  var liveNote = document.getElementById('liveNote');
+  liveToggle.addEventListener('change', function () {
+    var on = liveToggle.checked;
+    if (on && !rows.length) {
+      liveToggle.checked = false;
+      toast('Add at least one client first', true);
+      return;
+    }
+    db.ref('siteConfig/clientsGridLive').set(on)
+      .then(function () {
+        liveNote.hidden = !on;
+        toast(on ? 'This list is now on the home page' : 'Home page is back to its built-in logos');
+      })
+      .catch(function () {
+        liveToggle.checked = !on;
+        toast('Could not change that setting', true);
+      });
+  });
+
+  /* -------------------------------- load --------------------------------- */
+  async function load() {
+    var snap = await db.ref('clients').once('value');
+    var val = snap.val() || {};
+    rows = Object.keys(val)
+      .map(function (k) {
+        var r = val[k];
+        return {
+          id: k,
+          name: r.name || r.title || r.company || '',
+          imageUrl: r.imageUrl || r.image || r.logo || '',
+          websiteUrl: r.websiteUrl || r.website || r.link || '',
+          order: typeof r.order === 'number' ? r.order : null
+        };
+      })
+      .sort(function (a, b) {
+        if (a.order === null && b.order === null) return 0;
+        if (a.order === null) return 1;
+        if (b.order === null) return -1;
+        return a.order - b.order;
+      });
+
+    // Older records predate the order field — stamp them so drag/arrows work.
+    if (rows.some(function (r) { return r.order === null; })) await persistOrder();
+
+    var live = await db.ref('siteConfig/clientsGridLive').once('value');
+    liveToggle.checked = live.val() === true;
+    liveNote.hidden = live.val() !== true;
+
+    render();
+  }
+
+  load().catch(function () { toast('Could not reach the database', true); });
+})();
+</script>
+</body>
+</html>

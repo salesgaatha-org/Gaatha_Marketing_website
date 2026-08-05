@@ -115,6 +115,36 @@
         if (tracks[1]) tracks[1].innerHTML = buildTrack(reversed);
     }
 
+    /* ---- Client logo grid (home) -------------------------------------------
+       Only takes over the hand-built grid once the roster has been published
+       from the admin panel, so a half-filled `clients` node can never wipe the
+       logos that are on the live page. */
+    function renderClientLogos(clients, live) {
+        var grid = document.querySelector('.client-logos');
+        if (!grid || !live) return;
+
+        var cells = clients
+            .map(function (c) {
+                return {
+                    src: ensureHttp(c.imageUrl || c.image || c.logo || ''),
+                    name: c.name || c.title || c.company || 'Client'
+                };
+            })
+            .filter(function (c) { return c.src; });
+
+        if (!cells.length) return; // keep the designed fallback
+
+        var html = cells.map(function (c) {
+            return '<div><img src="' + esc(c.src) + '" alt="' + esc(c.name) + '" loading="lazy"></div>';
+        });
+        // The grid is 4-up (2-up on phones) over a ruled background, so a
+        // partial last row would read as bare grey blocks — top it up.
+        while (html.length % 4 !== 0) html.push('<div aria-hidden="true"></div>');
+
+        grid.innerHTML = html.join('');
+        refreshReveals(grid);
+    }
+
     /* ---- Testimonials ------------------------------------------------------ */
     function renderTestimonials(items) {
         if (!items.length) return; // keep designed fallback
@@ -203,7 +233,12 @@
     function initHome() {
         wireContactForm();
         if (!db) return;
-        once('clients').then(function (v) { renderClients(toArray(v)); });
+        Promise.all([once('clients'), once('siteConfig/clientsGridLive')])
+            .then(function (res) {
+                var list = toArray(res[0]);
+                renderClients(list);
+                renderClientLogos(list, res[1] === true);
+            });
         once('testimonials').then(function (v) { renderTestimonials(toArray(v)); });
     }
 
