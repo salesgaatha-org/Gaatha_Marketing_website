@@ -86,35 +86,6 @@
 
     /* ============================= HOMEPAGE ================================== */
 
-    /* ---- Clients marquee --------------------------------------------------- */
-    function renderClients(clients) {
-        var vel = document.querySelector('.clients-vel');
-        if (!vel || !clients.length) return; // keep designed fallback
-        var tracks = vel.querySelectorAll('.cvel-track');
-        if (!tracks.length) return;
-
-        function itemHTML(c) {
-            var name = esc(c.name || c.title || 'Client');
-            var url = ensureHttp(c.websiteUrl || c.website || c.link || '');
-            var inner = name + ' <span class="dot">·</span>';
-            return url
-                ? '<a class="cvel-item" href="' + esc(url) + '" target="_blank" rel="noopener">' + inner + '</a>'
-                : '<span class="cvel-item">' + inner + '</span>';
-        }
-
-        // Build a comfortably long, seamless loop from however many clients exist.
-        var names = clients.slice();
-        var reversed = names.slice().reverse();
-        function buildTrack(list) {
-            var seq = list.slice();
-            while (seq.length < 6) seq = seq.concat(list); // pad short lists
-            var half = seq.map(itemHTML).join('');
-            return half + half; // duplicate for the -50% scroll loop
-        }
-        if (tracks[0]) tracks[0].innerHTML = buildTrack(names);
-        if (tracks[1]) tracks[1].innerHTML = buildTrack(reversed);
-    }
-
     /* ---- Client logo grid (home) -------------------------------------------
        Only takes over the hand-built grid once the roster has been published
        from the admin panel, so a half-filled `clients` node can never wipe the
@@ -235,9 +206,7 @@
         if (!db) return;
         Promise.all([once('clients'), once('siteConfig/clientsGridLive')])
             .then(function (res) {
-                var list = toArray(res[0]);
-                renderClients(list);
-                renderClientLogos(list, res[1] === true);
+                renderClientLogos(toArray(res[0]), res[1] === true);
             });
         once('testimonials').then(function (v) { renderTestimonials(toArray(v)); });
     }

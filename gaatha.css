@@ -685,31 +685,7 @@ a.card:hover { border-color: var(--ink); }
     .sw-retell { margin-left: 0.14em; }
 }
 
-/* ---------- 11 · Client marquee ---------- */
-.clients-vel { overflow: hidden; }
-.cvel-row { overflow: hidden; padding: 6px 0; }
-.cvel-track {
-    display: flex; align-items: center; gap: 0;
-    width: max-content;
-    animation: cvel 48s linear infinite;
-}
-.cvel-row.rev .cvel-track { animation-direction: reverse; }
-.cvel-track:hover { animation-play-state: paused; }
-@keyframes cvel { to { transform: translateX(-50%); } }
-
-.cvel-item {
-    display: inline-flex; align-items: center; gap: 20px;
-    padding-right: 20px;
-    font-family: var(--display); font-weight: 800;
-    font-size: clamp(1.125rem, 2.2vw, 1.625rem);
-    letter-spacing: -0.02em;
-    color: var(--ink-2);
-    white-space: nowrap;
-    transition: color 0.2s var(--ease);
-}
-a.cvel-item:hover { color: var(--accent-ink); }
-.cvel-item .dot { color: var(--accent); font-weight: 400; }
-
+/* ---------- 11 · Client logos ---------- */
 /* 16 client logos — column counts chosen so the grid never leaves empty cells. */
 .client-logos {
     display: grid;
@@ -1502,35 +1478,6 @@ a.cvel-item:hover { color: var(--accent-ink); }
 .footer-say .fsay-line:hover { color: var(--accent); }
 .footer-say .btn { margin-top: 16px; width: 100%; }
 
-/* Slow marquee of the name — the footer's signature. */
-.footer-ticker {
-    border-top: 1px solid var(--dark-line);
-    overflow: hidden;
-    padding-block: clamp(16px, 2.2vw, 26px);
-    -webkit-mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent);
-    mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent);
-}
-.fmarq {
-    display: flex; align-items: center;
-    width: max-content;
-    animation: fmarq 46s linear infinite;
-}
-/* Four identical sets — the -50% loop is seamless as long as two of them
-   are wider than the viewport. */
-.fmarq-set { display: flex; align-items: center; }
-.fmarq span {
-    display: inline-flex; align-items: center; gap: 0.4em;
-    padding-right: 0.4em;
-    font-family: var(--display); font-weight: 800;
-    font-size: clamp(1.5rem, 3.6vw, 2.75rem);
-    line-height: 1.25;
-    letter-spacing: -0.03em;
-    color: rgba(255, 255, 255, 0.1);
-    white-space: nowrap;
-}
-.fmarq i { font-style: normal; color: rgba(217, 151, 30, 0.55); }
-@keyframes fmarq { to { transform: translateX(-50%); } }
-
 .footer-bottom { border-top: 1px solid var(--dark-line); }
 .footer-bottom-inner {
     display: flex; align-items: center; justify-content: space-between;
@@ -1702,12 +1649,11 @@ a.cvel-item:hover { color: var(--accent-ink); }
     .reveal { opacity: 1; transform: none; }
     .stmt-art .sw.reveal { transform: rotate(var(--rot, 0deg)); }
     .sw-swash path { stroke-dashoffset: 0; }
-    .cvel-track, .fmarq { animation: none; }
     .maint-badge i, .maint-bar span { animation: none; }
 }
 
 @media print {
-    .nav, .mobile-menu, .footer-cta, .footer-ticker, .scroll-progress, .to-top { display: none !important; }
+    .nav, .mobile-menu, .footer-cta, .scroll-progress, .to-top { display: none !important; }
     body { color: #000; background: #fff; }
     .prose { max-width: none; }
 }
