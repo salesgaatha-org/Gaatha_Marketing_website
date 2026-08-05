@@ -61,8 +61,8 @@
       ],
       "knowsAbout": ["Digital Marketing", "Marketing Strategy", "Social Media Marketing", "Performance Marketing", "Branding", "Graphic Design", "Web Development", "AI-Based Ads", "AI Cloning", "Influencer Marketing", "UGC", "SEO", "Answer Engine Optimization", "Generative Engine Optimization"],
       "founder": [
-        { "@type": "Person", "name": "Abhishek Khuthiya", "jobTitle": "Co-Founder & CEO" },
-        { "@type": "Person", "name": "Getansh Savla", "jobTitle": "Co-Founder & CTO" }
+        { "@type": "Person", "name": "Abhishek Khuthiya", "jobTitle": "Co-Founder" },
+        { "@type": "Person", "name": "Getansh Savla", "jobTitle": "Co-Founder" }
       ],
       "address": { "@type": "PostalAddress", "addressCountry": "IN" },
       "contactPoint": {
@@ -209,9 +209,13 @@
           </div>
         </div>
         <div class="hero-media reveal">
-          <video src="assets/showreel.mp4" poster="assets/showreel-poster.jpg"
-                 autoplay muted loop playsinline preload="metadata"
-                 aria-label="gaa-tha showreel"></video>
+          <div class="hero-frame">
+            <video src="assets/showreel.mp4" poster="assets/showreel-poster.jpg"
+                   width="1280" height="720"
+                   autoplay muted loop playsinline preload="metadata"
+                   aria-label="gaa-tha showreel"></video>
+          </div>
+          <p class="hero-cap"><span class="live">Showreel on loop</span><span>2024 &ndash; today</span></p>
         </div>
       </div>
 
@@ -246,11 +250,17 @@
     </div>
   </section>
 
-  <!-- ============ Statement ============ -->
-  <section class="section statement">
-    <div class="wrap">
-      <p class="stmt-inner reveal">Anyone can be loud. We make you <em>impossible to ignore</em> — blending strategy, storytelling and AI-driven production into work the internet can't scroll past.</p>
-      <p class="stmt-foot reveal">gaa-tha · गाथा — a story worth retelling</p>
+  <!-- ============ Statement — the name, and what it means ============ -->
+  <section class="statement" aria-labelledby="stmtTitle">
+    <span class="stmt-ghost" aria-hidden="true">गाथा</span>
+    <div class="wrap stmt-wrap">
+      <p class="stmt-eyebrow reveal">gaa-tha <span class="deva">गाथा</span></p>
+      <h2 class="stmt-art" id="stmtTitle" data-stagger="0.09">
+        <span class="sw sw-a reveal">a</span>
+        <span class="sw sw-story reveal">story</span>
+        <span class="sw sw-worth reveal">worth</span>
+        <span class="sw sw-retell reveal">retelling<svg class="sw-swash" viewBox="0 0 320 24" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M6 17C58 5 112 21 168 12s96-9 146 3" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span>
+      </h2>
     </div>
   </section>
 
@@ -364,7 +374,8 @@
       </div>
 
       <div class="tcard reveal">
-        <blockquote class="tquote" id="tQuote">&ldquo;They made our brand impossible to scroll past — our reels went from background noise to the reason people followed.&rdquo;</blockquote>
+        <span class="tquote-mark" aria-hidden="true">&ldquo;</span>
+        <blockquote class="tquote" id="tQuote">They made our brand impossible to scroll past — our reels went from background noise to the reason people followed.</blockquote>
         <div class="tmeta" id="tMeta">
           <div>
             <div class="tname" id="tName">Riya Mehta</div>
@@ -496,7 +507,9 @@
   <div class="wrap">
     <div class="footer-grid">
       <div class="footer-brand">
-        <span class="footer-logo">gaa-tha</span>
+        <a class="footer-logo" href="index.html" aria-label="gaa-tha — home">
+          <img src="assets/logo.png" alt="gaa-tha — Crafting Tales" width="842" height="296" loading="lazy">
+        </a>
         <p>Crafting tales that turn brands into movements — strategy, storytelling and AI-driven results. India-rooted, globally minded.</p>
         <div class="footer-socials">
           <a href="https://instagram.com/__gaa.tha__/" target="_blank" rel="noopener">Instagram</a>
@@ -504,7 +517,7 @@
           <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/" target="_blank" rel="noopener">Facebook</a>
         </div>
       </div>
-      <div class="footer-col">
+      <nav class="footer-col" aria-label="Explore">
         <h3>Explore</h3>
         <ul>
           <li><a href="#services">Services</a></li>
@@ -513,23 +526,44 @@
           <li><a href="websites.html">Websites</a></li>
           <li><a href="branding.html">Branding</a></li>
         </ul>
-      </div>
-      <div class="footer-col">
+      </nav>
+      <nav class="footer-col" aria-label="Learn">
         <h3>Learn</h3>
         <ul>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="faq.html">FAQ</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a></li>
-          <li><a href="tel:+919737280309">+91 97372 80309</a></li>
+          <li><a href="blog-what-is-marketing.html">What is marketing?</a></li>
+          <li><a href="blog-seo-aeo-geo-guide.html">SEO &middot; AEO &middot; GEO</a></li>
         </ul>
+      </nav>
+      <div class="footer-col footer-say">
+        <h3>Say hello</h3>
+        <a class="fsay-line" href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
+        <a class="fsay-line" href="tel:+919737280309">+91 97372 80309</a>
+        <a class="fsay-line" href="tel:+917781818981">+91 77818 18981</a>
+        <a class="btn btn-primary" href="#contact">Start a project <span class="arr">&rarr;</span></a>
       </div>
     </div>
   </div>
+
+  <div class="footer-ticker" aria-hidden="true">
+    <div class="fmarq">
+      <div class="fmarq-set"><span>gaa-tha <i>&#9670;</i></span><span>गाथा <i>&#9670;</i></span><span>a story worth retelling <i>&#9670;</i></span><span>Crafting Tales <i>&#9670;</i></span></div>
+      <div class="fmarq-set"><span>gaa-tha <i>&#9670;</i></span><span>गाथा <i>&#9670;</i></span><span>a story worth retelling <i>&#9670;</i></span><span>Crafting Tales <i>&#9670;</i></span></div>
+      <div class="fmarq-set"><span>gaa-tha <i>&#9670;</i></span><span>गाथा <i>&#9670;</i></span><span>a story worth retelling <i>&#9670;</i></span><span>Crafting Tales <i>&#9670;</i></span></div>
+      <div class="fmarq-set"><span>gaa-tha <i>&#9670;</i></span><span>गाथा <i>&#9670;</i></span><span>a story worth retelling <i>&#9670;</i></span><span>Crafting Tales <i>&#9670;</i></span></div>
+    </div>
+  </div>
+
   <div class="footer-bottom">
     <div class="wrap footer-bottom-inner">
-      <span>&copy; <span data-year>2026</span> gaa-tha. All rights reserved.</span>
-      <a href="#" class="to-top">Back to top &uarr;</a>
+      <span class="fmeta">
+        <span>&copy; <span data-year>2026</span> gaa-tha. All rights reserved.</span>
+        <span class="fdot">&#9670;</span>
+        <span>Crafting tales since 2024</span>
+      </span>
+      <a href="#" class="to-top">Back to top <span aria-hidden="true">&uarr;</span></a>
     </div>
   </div>
 </footer>
@@ -567,7 +601,7 @@
     i = (k + TS.length) % TS.length;
     q.classList.add('fading'); meta.classList.add('fading');
     setTimeout(function () {
-      q.innerHTML = '&ldquo;' + TS[i].q + '&rdquo;';
+      q.textContent = TS[i].q;
       n.textContent = TS[i].n; r.textContent = TS[i].r;
       q.classList.remove('fading'); meta.classList.remove('fading');
       Array.prototype.forEach.call(dots.children, function (d, j) { d.classList.toggle('on', j === i); });
