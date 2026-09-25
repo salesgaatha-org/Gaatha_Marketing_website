@@ -17,86 +17,103 @@
   from = "/index.html"
   to = "/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/work.html"
   to = "/work"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog.html"
   to = "/blog"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/faq.html"
   to = "/faq"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/about.html"
   to = "/about"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/reels.html"
   to = "/reels"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/websites.html"
   to = "/websites"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/branding.html"
   to = "/branding"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog-what-is-marketing.html"
   to = "/blog-what-is-marketing"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog-how-to-do-better-marketing.html"
   to = "/blog-how-to-do-better-marketing"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog-what-is-graphic-design.html"
   to = "/blog-what-is-graphic-design"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog-marketing-strategy-guide.html"
   to = "/blog-marketing-strategy-guide"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog-best-digital-marketing-agency-india.html"
   to = "/blog-best-digital-marketing-agency-india"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog-ai-ads-and-ai-ad-shoots-guide.html"
   to = "/blog-ai-ads-and-ai-ad-shoots-guide"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog-seo-aeo-geo-guide.html"
   to = "/blog-seo-aeo-geo-guide"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog-instagram-reels-strategy.html"
   to = "/blog-instagram-reels-strategy"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog-branding-vs-marketing.html"
   to = "/blog-branding-vs-marketing"
   status = 301
+  force = true
 
 # Hub pages whose name is also a folder.
 [[redirects]]
@@ -118,6 +135,7 @@
   from = "/services.html"
   to = "/services"
   status = 301
+  force = true
 
 # Trailing-slash variants of the hubs collapse onto the canonical URL.
 [[redirects]]
