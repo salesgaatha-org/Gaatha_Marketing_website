@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fixing out-of-stocks on quick commerce: a working method | gaa-tha</title>
+<meta name="description" content="Why out-of-stocks quietly kill quick-commerce growth, how to track fill rate per dark store, and a weekly routine that keeps hero SKUs available.">
+<meta name="author" content="gaa-tha">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="canonical" href="https://gaa-tha.com/blog/fixing-out-of-stocks-on-quick-commerce">
+
+<link rel="icon" type="image/png" href="/assets/logo.png">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="gaa-tha">
+<meta property="og:title" content="Fixing out-of-stocks on quick commerce: a working method | gaa-tha">
+<meta property="og:description" content="Why out-of-stocks quietly kill quick-commerce growth, how to track fill rate per dark store, and a weekly routine that keeps hero SKUs available.">
+<meta property="og:url" content="https://gaa-tha.com/blog/fixing-out-of-stocks-on-quick-commerce">
+<meta property="og:image" content="https://gaa-tha.com/assets/logo.png">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fixing out-of-stocks on quick commerce: a working method | gaa-tha">
+<meta name="twitter:description" content="Why out-of-stocks quietly kill quick-commerce growth, how to track fill rate per dark store, and a weekly routine that keeps hero SKUs available.">
+<meta name="twitter:image" content="https://gaa-tha.com/assets/logo.png">
+<meta property="article:published_time" content="2026-09-25">
+<meta property="article:modified_time" content="2026-09-25">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/montserrat-400-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/poppins-800-latin.woff2" crossorigin>
+<link rel="stylesheet" href="/gaatha.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://gaa-tha.com/#organization",
+      "name": "gaa-tha",
+      "alternateName": [
+        "gaatha",
+        "Gaatha",
+        "Gaa-tha",
+        "Team Gaatha"
+      ],
+      "url": "https://gaa-tha.com/",
+      "logo": "https://gaa-tha.com/assets/logo.png",
+      "image": "https://gaa-tha.com/assets/logo.png",
+      "description": "gaa-tha is a storytelling-led digital marketing, branding, ecommerce and AI agency founded in Gujarat, India in 2024. It builds brands, websites and Shopify stores, runs Meta and Google ads, social media, SEO/AEO/GEO, and onboards and manages brands on Amazon, Flipkart, Myntra, Blinkit, Zepto and Swiggy Instamart.",
+      "slogan": "Crafting Tales — your brand, but unskippable.",
+      "foundingDate": "2024",
+      "email": "digimarketing@gaa-tha.com",
+      "telephone": "+919737280309",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Gujarat",
+        "addressCountry": "IN"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        "Worldwide"
+      ],
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Abhishek Khuthiya",
+          "jobTitle": "Co-Founder"
+        },
+        {
+          "@type": "Person",
+          "name": "Getansh Savla",
+          "jobTitle": "Co-Founder"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+919737280309",
+        "email": "digimarketing@gaa-tha.com",
+        "contactType": "sales",
+        "availableLanguage": [
+          "English",
+          "Hindi",
+          "Gujarati"
+        ]
+      },
+      "sameAs": [
+        "https://instagram.com/__gaa.tha__/",
+        "https://www.linkedin.com/company/teamgaatha/",
+        "https://www.facebook.com/people/Gaa-tha/61562303836796/"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Brand & Creative",
+            "url": "https://gaa-tha.com/services/brand-and-creative"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Growth Marketing",
+            "url": "https://gaa-tha.com/services/growth-marketing"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "D2C Ecommerce",
+            "url": "https://gaa-tha.com/services/ecommerce"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Marketplaces",
+            "url": "https://gaa-tha.com/services/marketplaces"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Quick Commerce",
+            "url": "https://gaa-tha.com/services/quick-commerce"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Websites & Technology",
+            "url": "https://gaa-tha.com/services/technology"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://gaa-tha.com/#website",
+      "url": "https://gaa-tha.com/",
+      "name": "gaa-tha",
+      "publisher": {
+        "@id": "https://gaa-tha.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://gaa-tha.com/blog/fixing-out-of-stocks-on-quick-commerce",
+      "headline": "Fixing out-of-stocks on quick commerce: a working method",
+      "description": "Why out-of-stocks quietly kill quick-commerce growth, how to track fill rate per dark store, and a weekly routine that keeps hero SKUs available.",
+      "url": "https://gaa-tha.com/blog/fixing-out-of-stocks-on-quick-commerce",
+      "mainEntityOfPage": "https://gaa-tha.com/blog/fixing-out-of-stocks-on-quick-commerce",
+      "image": "https://gaa-tha.com/assets/logo.png",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "inLanguage": "en",
+      "articleSection": "Commerce",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://gaa-tha.com/#organization",
+        "name": "gaa-tha"
+      },
+      "publisher": {
+        "@id": "https://gaa-tha.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://gaa-tha.com/blog#blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gaa-tha.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://gaa-tha.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fixing out-of-stocks on quick commerce: a working method",
+          "item": "https://gaa-tha.com/blog/fixing-out-of-stocks-on-quick-commerce"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a good fill rate on quick commerce?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aim for near-complete availability on hero SKUs in your priority stores, and judge yourself at store level rather than by a city average. Any store with repeated zeros needs a specific fix."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I pause ads when a SKU is out of stock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, in the affected cities. Paying for clicks on an unavailable listing wastes budget and worsens the platform’s view of your conversion rate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far ahead should I plan stock for festivals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Agree quantities with the category team several weeks before the season, because the platform’s buying calendar runs ahead of the consumer calendar and inbound capacity tightens near festivals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an agency manage purchase orders and availability for me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Availability tracking, PO coordination and monthly reconciliation are core parts of quick-commerce account management, alongside content, promotions and ads."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="post">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- chrome:nav -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/" aria-label="gaa-tha — home">
+      <img src="/assets/logo.png" alt="gaa-tha" width="120" height="26">
+    </a>
+    <div class="nav-links">
+      <div class="has-mega"><a href="/services">Services</a><div class="mega" aria-label="Services menu">
+        <div class="mega-inner">
+          <div class="mega-col"><h3><a href="/services/brand-and-creative">Brand &amp; Creative</a></h3><ul><li><a href="/services/branding-agency">Branding</a></li><li><a href="/services/graphic-design">Graphic design</a></li><li><a href="/services/reels-short-form-video">Reels</a></li><li><a href="/services/ai-ads-ai-ad-shoots">AI ads</a></li><li><a href="/services/cinema-ads-film-production">Cinema ads</a></li><li><a href="/services/ai-cloning-spokesperson">AI cloning</a></li><li><a href="/services/product-photography-ecommerce">Product photography</a></li><li><a href="/services/content-writing-copywriting">Copywriting</a></li><li><a href="/services/catalogues-presentations">Catalogues &amp; decks</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/growth-marketing">Growth Marketing</a></h3><ul><li><a href="/services/marketing-strategy">Marketing strategy</a></li><li><a href="/services/social-media-marketing">Social media</a></li><li><a href="/services/meta-ads-agency">Meta ads</a></li><li><a href="/services/google-ads-agency">Google ads</a></li><li><a href="/services/seo-aeo-geo">SEO, AEO &amp; GEO</a></li><li><a href="/services/local-seo-google-business-profile">Local SEO &amp; GBP</a></li><li><a href="/services/influencer-ugc-marketing">Influencer &amp; UGC</a></li><li><a href="/services/b2b-lead-generation">B2B &amp; export leads</a></li><li><a href="/services/campaign-planning">Campaign planning</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/ecommerce">D2C Ecommerce</a></h3><ul><li><a href="/services/shopify-development">Shopify stores</a></li><li><a href="/services/multi-location-shopify-local-delivery">Multi-location Shopify</a></li><li><a href="/services/ecommerce-website-development">Ecommerce websites</a></li><li><a href="/services/shopify-store-management">Store management</a></li><li><a href="/services/conversion-rate-optimisation">CRO</a></li><li><a href="/services/d2c-performance-marketing">D2C performance</a></li><li><a href="/services/ecommerce-seo">Ecommerce SEO</a></li><li><a href="/services/d2c-brand-launch">D2C brand launch</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/marketplaces">Marketplaces</a></h3><ul><li><a href="/services/amazon-onboarding">Amazon onboarding</a></li><li><a href="/services/amazon-account-management">Amazon management</a></li><li><a href="/services/flipkart-seller-management">Flipkart</a></li><li><a href="/services/myntra-onboarding">Myntra</a></li><li><a href="/services/nykaa-onboarding">Nykaa</a></li><li><a href="/services/ajio-onboarding">AJIO</a></li><li><a href="/services/meesho-jiomart-onboarding">Meesho &amp; JioMart</a></li><li><a href="/services/fashion-marketplace-growth">Fashion marketplace growth</a></li><li><a href="/services/marketplace-listing-optimisation">Listing optimisation</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/quick-commerce">Quick Commerce</a></h3><ul><li><a href="/services/quick-commerce-agency">Quick commerce</a></li><li><a href="/services/blinkit-onboarding">Blinkit onboarding</a></li><li><a href="/services/blinkit-account-management">Blinkit management</a></li><li><a href="/services/zepto-onboarding">Zepto onboarding</a></li><li><a href="/services/zepto-account-management">Zepto management</a></li><li><a href="/services/swiggy-instamart-onboarding">Instamart onboarding</a></li><li><a href="/services/instamart-account-management">Instamart management</a></li><li><a href="/services/flipkart-minutes-amazon-now-onboarding">Flipkart Minutes &amp; Amazon Now</a></li><li><a href="/services/bigbasket-onboarding">BigBasket onboarding</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/technology">Websites &amp; Tech</a></h3><ul><li><a href="/services/website-development">Websites</a></li><li><a href="/services/app-design-development">App design</a></li><li><a href="/services/business-tools-automation">Tools &amp; automations</a></li></ul></div>
+          <div class="mega-foot"><span>One team across brand, growth, ecommerce, marketplaces and quick commerce.</span><a class="link-arrow" href="/services">View all services <span class="arr">&rarr;</span></a></div>
+        </div>
+      </div></div>
+      <a href="/work">Work</a>
+      <a href="/blog" class="active">Blog</a>
+      <a href="/about">About</a>
+      <a href="/faq">FAQ</a>
+    </div>
+    <div class="nav-right">
+      <a class="btn btn-primary nav-cta" href="/#contact">Start a project</a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mm-top">
+    <span class="nav-logo"><img src="/assets/logo.png" alt="gaa-tha" width="120" height="26"></span>
+    <button class="mm-close" aria-label="Close menu">&#10005;</button>
+  </div>
+  <nav class="mm-links" aria-label="Mobile">
+    <details><summary><span class="num">01</span> Services</summary><div class="mm-sub"><div><h4><a href="/services/brand-and-creative">Brand &amp; Creative</a></h4><ul><li><a href="/services/branding-agency">Branding</a></li><li><a href="/services/graphic-design">Graphic design</a></li><li><a href="/services/reels-short-form-video">Reels</a></li><li><a href="/services/ai-ads-ai-ad-shoots">AI ads</a></li><li><a href="/services/cinema-ads-film-production">Cinema ads</a></li><li><a href="/services/ai-cloning-spokesperson">AI cloning</a></li><li><a href="/services/product-photography-ecommerce">Product photography</a></li><li><a href="/services/content-writing-copywriting">Copywriting</a></li><li><a href="/services/catalogues-presentations">Catalogues &amp; decks</a></li></ul></div><div><h4><a href="/services/growth-marketing">Growth Marketing</a></h4><ul><li><a href="/services/marketing-strategy">Marketing strategy</a></li><li><a href="/services/social-media-marketing">Social media</a></li><li><a href="/services/meta-ads-agency">Meta ads</a></li><li><a href="/services/google-ads-agency">Google ads</a></li><li><a href="/services/seo-aeo-geo">SEO, AEO &amp; GEO</a></li><li><a href="/services/local-seo-google-business-profile">Local SEO &amp; GBP</a></li><li><a href="/services/influencer-ugc-marketing">Influencer &amp; UGC</a></li><li><a href="/services/b2b-lead-generation">B2B &amp; export leads</a></li><li><a href="/services/campaign-planning">Campaign planning</a></li></ul></div><div><h4><a href="/services/ecommerce">D2C Ecommerce</a></h4><ul><li><a href="/services/shopify-development">Shopify stores</a></li><li><a href="/services/multi-location-shopify-local-delivery">Multi-location Shopify</a></li><li><a href="/services/ecommerce-website-development">Ecommerce websites</a></li><li><a href="/services/shopify-store-management">Store management</a></li><li><a href="/services/conversion-rate-optimisation">CRO</a></li><li><a href="/services/d2c-performance-marketing">D2C performance</a></li><li><a href="/services/ecommerce-seo">Ecommerce SEO</a></li><li><a href="/services/d2c-brand-launch">D2C brand launch</a></li></ul></div><div><h4><a href="/services/marketplaces">Marketplaces</a></h4><ul><li><a href="/services/amazon-onboarding">Amazon onboarding</a></li><li><a href="/services/amazon-account-management">Amazon management</a></li><li><a href="/services/flipkart-seller-management">Flipkart</a></li><li><a href="/services/myntra-onboarding">Myntra</a></li><li><a href="/services/nykaa-onboarding">Nykaa</a></li><li><a href="/services/ajio-onboarding">AJIO</a></li><li><a href="/services/meesho-jiomart-onboarding">Meesho &amp; JioMart</a></li><li><a href="/services/fashion-marketplace-growth">Fashion marketplace growth</a></li><li><a href="/services/marketplace-listing-optimisation">Listing optimisation</a></li><li><a href="/services/marketplace-ads-management">Marketplace ads</a></li><li><a href="/services/reviews-ratings-management">Reviews &amp; ratings</a></li></ul></div><div><h4><a href="/services/quick-commerce">Quick Commerce</a></h4><ul><li><a href="/services/quick-commerce-agency">Quick commerce</a></li><li><a href="/services/blinkit-onboarding">Blinkit onboarding</a></li><li><a href="/services/blinkit-account-management">Blinkit management</a></li><li><a href="/services/zepto-onboarding">Zepto onboarding</a></li><li><a href="/services/zepto-account-management">Zepto management</a></li><li><a href="/services/swiggy-instamart-onboarding">Instamart onboarding</a></li><li><a href="/services/instamart-account-management">Instamart management</a></li><li><a href="/services/flipkart-minutes-amazon-now-onboarding">Flipkart Minutes &amp; Amazon Now</a></li><li><a href="/services/bigbasket-onboarding">BigBasket onboarding</a></li><li><a href="/services/quick-commerce-ads">Quick commerce ads</a></li><li><a href="/services/quick-commerce-content">Q-commerce content</a></li></ul></div><div><h4><a href="/services/technology">Websites &amp; Tech</a></h4><ul><li><a href="/services/website-development">Websites</a></li><li><a href="/services/app-design-development">App design</a></li><li><a href="/services/business-tools-automation">Tools &amp; automations</a></li></ul></div><a class="link-arrow" href="/services">All services <span class="arr">&rarr;</span></a></div></details>
+    <a href="/work"><span class="num">02</span> Work</a>
+    <a href="/blog"><span class="num">03</span> Blog</a>
+    <a href="/about"><span class="num">04</span> About</a>
+    <a href="/faq"><span class="num">05</span> FAQ</a>
+    <a href="/#contact"><span class="num">06</span> Contact</a>
+  </nav>
+  <div class="mm-foot">
+    <a class="btn btn-primary" href="/#contact">Start a project</a>
+    <a class="mm-mail" href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
+  </div>
+</div>
+<!-- /chrome:nav -->
+
+<div class="site">
+
+<header class="article-hero">
+  <div class="wrap">
+    <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/blog">Blog</a><span class="sep">/</span><span>Commerce</span></nav>
+    <h1 class="reveal">Fixing out-of-stocks on quick commerce: a working method</h1>
+    <div class="article-meta reveal">
+      <span>By gaa-tha</span><span class="dot">&middot;</span>
+      <time datetime="2026-09-25">25 September 2026</time><span class="dot">&middot;</span>
+      
+      <span>4 min read</span><span class="dot">&middot;</span>
+      <span>Commerce</span>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <div class="ph r-16x9" data-slot="Blog cover" data-ref="blog/fixing-out-of-stocks-on-quick-commerce" data-key="cover"><span class="ph-label">Blog cover · 16:9</span></div>
+    <article class="prose" style="margin-top:36px">
+<p class="lead">Out-of-stocks on quick commerce are fixed by treating availability as a weekly operation: tracking fill rate per dark store rather than per city, responding to purchase orders fast, concentrating on a short list of hero SKUs, and planning stock around festivals and weekends. Repeated unavailability lowers ranking and wastes ad spend, so availability comes before content and ads in any growth plan.</p>
+<div class="takeaways"><h2>Key takeaways</h2><ul><li>An unavailable listing costs sales, ranking and ad budget at the same time.</li><li>Track availability at store level; city averages hide the problem.</li><li>Late or short purchase orders become empty shelves days later.</li><li>Fewer SKUs, always in stock, beats many SKUs, sometimes in stock.</li></ul></div>
+<h2>Why are out-of-stocks so damaging on quick commerce?</h2>
+<p>When a customer opens the app in a neighbourhood and your product shows as unavailable, they buy a competitor and the platform records a lost conversion against your listing. Do that often enough and placement drops. If ads are running, the click is paid for anyway. The damage compounds quietly because dashboards report averages that look fine.</p>
+<p>It also undermines every other investment. Better thumbnails, stronger titles and search ads all depend on the product being there when the customer looks, which is why availability is the first lever in any quick-commerce growth plan.</p>
+<h2>How do you measure availability properly?</h2>
+<p>Platform dashboards show stock and availability per dark store. Pull that view weekly for each hero SKU and record fill rate per store, not per city. A city at 85 percent availability may contain ten stores at zero, and those are usually the stores with the most demand.</p>
+<p>Set a simple threshold for action, and assign one person to look at the report every week. This is the core routine in our <a href="/services/blinkit-account-management">Blinkit</a> and <a href="/services/instamart-account-management">Instamart account management</a> work.</p>
+<h2>What causes out-of-stocks and how do you fix each cause?</h2>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Cause</th><th>Fix</th></tr></thead>
+<tbody>
+<tr><td>Late or short purchase-order fulfilment</td><td>Fixed dispatch rhythm; PO acknowledgement within a day</td></tr>
+<tr><td>Too many SKUs spread thinly</td><td>Cut to hero SKUs; earn expansion with velocity</td></tr>
+<tr><td>Demand spikes at festivals and weekends</td><td>Seasonal stock plan agreed with the category team in advance</td></tr>
+<tr><td>Inbound rejections (damaged, mislabelled, short shelf life)</td><td>Packaging and labelling QC before dispatch</td></tr>
+<tr><td>Store not mapped for the SKU</td><td>Review store mapping with the platform; request additions where demand exists</td></tr>
+</tbody></table></div>
+<h2>What does a weekly availability routine look like?</h2>
+<p>Monday: pull store-level availability for hero SKUs and flag stores below threshold. Tuesday: reconcile open purchase orders and dispatch status. Midweek: chase inbound issues and confirm next PO quantities against velocity. Friday: review ratings and any listing changes. Monthly: reconcile POs, invoices and deductions.</p>
+<p>The routine is unglamorous, which is why it is often skipped, and why brands that do it gain share. A manufacturer supplying bulk and packaged snacks, like <a href="/work/ghanshyam-snacks">Ghanshyam Snacks</a>, would build its dispatch calendar around it. <a href="/services/quick-commerce-agency">Quick commerce management</a> runs this routine across platforms.</p>
+<hr><h2>Frequently asked questions</h2><div class="faq-list"><div class="faq-item"><button class="faq-q" aria-expanded="false">What is a good fill rate on quick commerce?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Aim for near-complete availability on hero SKUs in your priority stores, and judge yourself at store level rather than by a city average. Any store with repeated zeros needs a specific fix.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Should I pause ads when a SKU is out of stock?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Yes, in the affected cities. Paying for clicks on an unavailable listing wastes budget and worsens the platform’s view of your conversion rate.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">How far ahead should I plan stock for festivals?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Agree quantities with the category team several weeks before the season, because the platform’s buying calendar runs ahead of the consumer calendar and inbound capacity tightens near festivals.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Can an agency manage purchase orders and availability for me?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Yes. Availability tracking, PO coordination and monthly reconciliation are core parts of quick-commerce account management, alongside content, promotions and ads.</p></div></div></div></div>
+      <div class="author-box"><span class="ab-mark">g</span><div><b>Written by the gaa-tha team</b><p>Founded in 2024 by Abhishek Khuthiya and Getansh Savla. <a href="/about">About the studio</a> · <a href="https://www.linkedin.com/company/teamgaatha/" rel="noopener" target="_blank">LinkedIn</a></p></div></div>
+      <div class="article-cta">
+        <h2>Want this done for you?</h2>
+        <p>gaa-tha builds the strategy, the creative and the commerce operations — for brands across India and beyond.</p>
+        <a class="btn btn-primary btn-lg" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+      </div>
+    </article>
+  </div>
+
+  <section class="section surface bordered" aria-label="Related">
+    <div class="wrap">
+      <div class="section-head"><p class="eyebrow">Go deeper</p><h2 class="section-title display">Related services and work</h2></div>
+      <div class="grid grid-4" data-stagger="0.06"><a class="card reveal" href="/services/quick-commerce-agency"><span class="card-idx">Quick Commerce</span><h3>Quick Commerce Management</h3><p>Blinkit, Zepto, Instamart, Flipkart Minutes, Amazon Now and BigBasket — run as one operation.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="card reveal" href="/services/blinkit-account-management"><span class="card-idx">Quick Commerce</span><h3>Blinkit Account Management</h3><p>In stock, visible and profitable on Blinkit, reviewed every month.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="card reveal" href="/services/instamart-account-management"><span class="card-idx">Quick Commerce</span><h3>Instamart Account Management</h3><p>In stock for the impulse basket on Swiggy Instamart, week after week.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="ccard reveal" href="/work/ghanshyam-snacks" data-f="performance-ads b2b-export social-reels campaigns-cinema">
+  <div class="ph r-4x3 sm" data-slot="Case card" data-ref="caseStudies/ghanshyam-snacks" data-key="card"><span class="ph-label">Case card · 4:3</span></div>
+  <div class="ccard-body">
+    <div class="ccard-logo"><img src="/assets/clients/ghanshyam.webp" alt="Ghanshyam Snacks" loading="lazy" decoding="async"></div>
+    <h3>From ad leads to real buyers — a B2B snack manufacturer&#39;s content and lead engine.</h3>
+    <div class="ccard-tags"><span class="tag">FMCG manufacturing / B2B</span><span class="tag">Meta ads</span><span class="tag">B2B &amp; export leads</span></div>
+    
+    <span class="bp-more">Read the case study &rarr;</span>
+  </div>
+</a></div>
+    </div>
+  </section>
+</main>
+
+<!-- chrome:footer -->
+<section class="footer-cta">
+  <div class="wrap footer-cta-row">
+    <h2 class="display">Got a story to tell? Let&#39;s make it legendary.</h2>
+    <a class="btn btn-primary btn-lg" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="footer-logo" href="/" aria-label="gaa-tha — home">
+          <img src="/assets/logo.png" alt="gaa-tha — Crafting Tales" width="842" height="296" loading="lazy">
+        </a>
+        <p>Crafting tales that turn brands into movements — strategy, storytelling and AI-driven results. India-rooted, globally minded.</p>
+        <div class="footer-socials">
+          <a href="https://instagram.com/__gaa.tha__/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.linkedin.com/company/teamgaatha/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+      <nav class="footer-col" aria-label="Services">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="/services">All services</a></li>
+          <li><a href="/services/brand-and-creative">Brand &amp; Creative</a></li>
+          <li><a href="/services/growth-marketing">Growth Marketing</a></li>
+          <li><a href="/services/ecommerce">D2C Ecommerce</a></li>
+          <li><a href="/services/marketplaces">Marketplaces</a></li>
+          <li><a href="/services/quick-commerce">Quick Commerce</a></li>
+          <li><a href="/services/technology">Websites &amp; Tech</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="Explore">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="/work">Work &amp; case studies</a></li>
+          <li><a href="/reels">Reels</a></li>
+          <li><a href="/websites">Websites</a></li>
+          <li><a href="/branding">Branding</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+      <div class="footer-col footer-say">
+        <h3>Say hello</h3>
+        <a class="fsay-line" href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
+        <a class="fsay-line" href="tel:+919737280309">+91 97372 80309</a>
+        <a class="fsay-line" href="tel:+917781818981">+91 77818 18981</a>
+        <a class="btn btn-primary" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer-bottom">
+    <div class="wrap footer-bottom-inner">
+      <span class="fmeta">
+        <span>&copy; <span data-year>2026</span> gaa-tha. All rights reserved.</span>
+        <span class="fdot">&#9670;</span>
+        <span>Crafting tales since 2024</span>
+      </span>
+      <a href="#" class="to-top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </div>
+</footer>
+<!-- /chrome:footer -->
+</div>
+
+<script defer src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script defer src="/gaatha.js"></script>
+<script defer src="/gaatha-cms.js"></script>
+
+</body>
+</html>

@@ -94,7 +94,14 @@ Sites, apps and tools built to convert and to be found.
 
 Hub: https://gaa-tha.com/work
 
-- Case studies are published as each client approves them; see https://gaa-tha.com/work
+- [CDS Stores](https://gaa-tha.com/work/cds-stores): A city-wide Diwali campaign — outdoor, influencers, Meta and a cinema ad — on one ₹2 lakh budget.
+- [Charliee](https://gaa-tha.com/work/charliee): Rebuilding a 200+ SKU snack brand's online store — and its sales engine.
+- [Colortek](https://gaa-tha.com/work/colortek): Making a 25-year coatings manufacturer look as advanced as its technology.
+- [Ghanshyam Snacks](https://gaa-tha.com/work/ghanshyam-snacks): From ad leads to real buyers — a B2B snack manufacturer's content and lead engine.
+- [GI PackTech](https://gaa-tha.com/work/gi-packtech): Turning a technical packaging range into an export sales engine.
+- [Kitcoz](https://gaa-tha.com/work/kitcoz): A concern-led skincare brand, built from identity to checkout.
+- [New Rave](https://gaa-tha.com/work/new-rave): Instagram content that drives collectors to the store and the website.
+- [Rentastic Homes](https://gaa-tha.com/work/rentastic-homes): Building trust for a PG brand — from brochures to a founder-led video series.
 
 ## Pages
 
@@ -118,6 +125,33 @@ Hub: https://gaa-tha.com/work
 - [SEO vs AEO vs GEO: how to rank on Google, ChatGPT, Claude & Gemini](https://gaa-tha.com/blog-seo-aeo-geo-guide)
 - [Instagram Reels strategy that actually converts (2026)](https://gaa-tha.com/blog-instagram-reels-strategy)
 - [Branding vs marketing: what your business needs first](https://gaa-tha.com/blog-branding-vs-marketing)
+- [AI product photography for marketplaces: what works](https://gaa-tha.com/blog/ai-product-photography-for-marketplaces)
+- [Amazon listing optimisation checklist for Indian brands](https://gaa-tha.com/blog/amazon-listing-optimisation-checklist)
+- [B2B and export lead generation for Indian manufacturers](https://gaa-tha.com/blog/b2b-export-lead-generation-indian-manufacturers)
+- [Cinema ads for local brands: do they work?](https://gaa-tha.com/blog/cinema-ads-for-local-brands-do-they-work)
+- [COD vs prepaid: how Indian D2C brands should set the rules](https://gaa-tha.com/blog/cod-vs-prepaid)
+- [D2C ecommerce growth guide: Shopify, ads and retention](https://gaa-tha.com/blog/d2c-ecommerce-growth-guide)
+- [Festive campaign planning on a ₹2 lakh budget](https://gaa-tha.com/blog/festive-campaign-planning-on-a-2-lakh-budget)
+- [Filtering fake leads from Meta ads: a system that works](https://gaa-tha.com/blog/filtering-fake-leads-from-meta-ads)
+- [Fixing out-of-stocks on quick commerce: a working method](https://gaa-tha.com/blog/fixing-out-of-stocks-on-quick-commerce)
+- [Flipkart ads guide: PLA, PCA and sale-event planning](https://gaa-tha.com/blog/flipkart-ads-guide)
+- [Flipkart Minutes vs Amazon Now vs Blinkit: which first?](https://gaa-tha.com/blog/flipkart-minutes-vs-amazon-now-vs-blinkit)
+- [Getting approved on Myntra, Nykaa Fashion and AJIO](https://gaa-tha.com/blog/getting-approved-on-myntra-nykaa-fashion-ajio)
+- [How to sell on Blinkit: a brand’s step-by-step guide](https://gaa-tha.com/blog/how-to-sell-on-blinkit)
+- [How to sell on Swiggy Instamart: a guide for brands](https://gaa-tha.com/blog/how-to-sell-on-swiggy-instamart)
+- [How to sell on Zepto: onboarding, catalogue and first orders](https://gaa-tha.com/blog/how-to-sell-on-zepto)
+- [LinkedIn outreach for exporters: a practical playbook](https://gaa-tha.com/blog/linkedin-outreach-for-exporters)
+- [Marketplace vs D2C for FMCG brands: which channel first?](https://gaa-tha.com/blog/marketplace-vs-d2c-for-fmcg)
+- [One website for multiple store locations: how it works](https://gaa-tha.com/blog/one-website-for-multiple-store-locations)
+- [Pack size and pricing for 10-minute delivery](https://gaa-tha.com/blog/pack-size-and-pricing-for-10-minute-delivery)
+- [Quick-commerce ads explained: search, category and banners](https://gaa-tha.com/blog/quick-commerce-ads-explained)
+- [Quick commerce for brands in India: the 2026 guide](https://gaa-tha.com/blog/quick-commerce-for-brands-in-india-guide)
+- [ROAS vs MER vs contribution margin: which number to run on](https://gaa-tha.com/blog/roas-vs-mer-vs-contribution-margin)
+- [Selling on Amazon, Flipkart & Myntra: the brand playbook](https://gaa-tha.com/blog/selling-on-amazon-flipkart-myntra-brand-playbook)
+- [Shopify speed and conversion checklist for Indian stores](https://gaa-tha.com/blog/shopify-speed-and-conversion-checklist)
+- [Shopify vs WooCommerce in India: which should you build on?](https://gaa-tha.com/blog/shopify-vs-woocommerce-in-india)
+- [Top ecommerce & quick-commerce agencies in India: honest comparison](https://gaa-tha.com/blog/top-ecommerce-quick-commerce-agencies-in-india)
+- [When A+ content pays on Amazon, and when it does not](https://gaa-tha.com/blog/when-a-plus-content-pays)
 
 ## Quick answers
 

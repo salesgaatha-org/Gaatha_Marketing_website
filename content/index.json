@@ -418,7 +418,7 @@
       "location": "Vapi & Valsad, Gujarat",
       "duration": "6 Oct – 14 Nov 2026",
       "channels": "Outdoor (store-front, auto-rickshaw, bus), influencer collaborations, Meta ads, cinema, Shopify",
-      "published": false,
+      "published": true,
       "featured": true,
       "metrics": [
         {
@@ -472,7 +472,7 @@
       "location": "Gujarat & Mumbai",
       "duration": "TODO-DATA",
       "channels": "Shopify, AI imagery, cinematic product ads, B2B/export creative, field sales material",
-      "published": false,
+      "published": true,
       "featured": true,
       "metrics": [
         {
@@ -524,7 +524,7 @@
       "location": "Gujarat",
       "duration": "TODO-DATA",
       "channels": "Website, brand, LinkedIn, Instagram, Facebook, search",
-      "published": false,
+      "published": true,
       "featured": false,
       "metrics": [
         {
@@ -572,7 +572,7 @@
       "location": "Gujarat",
       "duration": "TODO-DATA",
       "channels": "Meta ads, WhatsApp, IndiaMART, Instagram, catalogue",
-      "published": false,
+      "published": true,
       "featured": true,
       "metrics": [
         {
@@ -625,7 +625,7 @@
       "location": "Gujarat",
       "duration": "TODO-DATA",
       "channels": "Catalogue, LinkedIn, Meta, Google Business Profile, website",
-      "published": false,
+      "published": true,
       "featured": false,
       "metrics": [
         {
@@ -724,7 +724,7 @@
       "location": "India",
       "duration": "TODO-DATA",
       "channels": "Shopify, Meta ads, Instagram",
-      "published": false,
+      "published": true,
       "featured": true,
       "metrics": [
         {
@@ -823,7 +823,7 @@
       "location": "Canada",
       "duration": "TODO-DATA",
       "channels": "Instagram, website",
-      "published": false,
+      "published": true,
       "featured": false,
       "metrics": [
         {
@@ -963,7 +963,7 @@
       "location": "TODO-DATA",
       "duration": "TODO-DATA",
       "channels": "Instagram, YouTube, brochures",
-      "published": false,
+      "published": true,
       "featured": false,
       "metrics": [
         {
@@ -1248,189 +1248,189 @@
       "slug": "ai-product-photography-for-marketplaces",
       "title": "AI product photography for marketplaces: what works",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/ai-product-photography-for-marketplaces"
     },
     {
       "slug": "amazon-listing-optimisation-checklist",
       "title": "Amazon listing optimisation checklist for Indian brands",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/amazon-listing-optimisation-checklist"
     },
     {
       "slug": "b2b-export-lead-generation-indian-manufacturers",
       "title": "B2B and export lead generation for Indian manufacturers",
       "category": "B2B & Manufacturing",
-      "published": false,
+      "published": true,
       "url": "/blog/b2b-export-lead-generation-indian-manufacturers"
     },
     {
       "slug": "cinema-ads-for-local-brands-do-they-work",
       "title": "Cinema ads for local brands: do they work?",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/cinema-ads-for-local-brands-do-they-work"
     },
     {
       "slug": "cod-vs-prepaid",
       "title": "COD vs prepaid: how Indian D2C brands should set the rules",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/cod-vs-prepaid"
     },
     {
       "slug": "d2c-ecommerce-growth-guide",
       "title": "D2C ecommerce growth guide: Shopify, ads and retention",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/d2c-ecommerce-growth-guide"
     },
     {
       "slug": "festive-campaign-planning-on-a-2-lakh-budget",
       "title": "Festive campaign planning on a ₹2 lakh budget",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/festive-campaign-planning-on-a-2-lakh-budget"
     },
     {
       "slug": "filtering-fake-leads-from-meta-ads",
       "title": "Filtering fake leads from Meta ads: a system that works",
       "category": "B2B & Manufacturing",
-      "published": false,
+      "published": true,
       "url": "/blog/filtering-fake-leads-from-meta-ads"
     },
     {
       "slug": "fixing-out-of-stocks-on-quick-commerce",
       "title": "Fixing out-of-stocks on quick commerce: a working method",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/fixing-out-of-stocks-on-quick-commerce"
     },
     {
       "slug": "flipkart-ads-guide",
       "title": "Flipkart ads guide: PLA, PCA and sale-event planning",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/flipkart-ads-guide"
     },
     {
       "slug": "flipkart-minutes-vs-amazon-now-vs-blinkit",
       "title": "Flipkart Minutes vs Amazon Now vs Blinkit: which first?",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/flipkart-minutes-vs-amazon-now-vs-blinkit"
     },
     {
       "slug": "getting-approved-on-myntra-nykaa-fashion-ajio",
       "title": "Getting approved on Myntra, Nykaa Fashion and AJIO",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/getting-approved-on-myntra-nykaa-fashion-ajio"
     },
     {
       "slug": "how-to-sell-on-blinkit",
       "title": "How to sell on Blinkit: a brand’s step-by-step guide",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/how-to-sell-on-blinkit"
     },
     {
       "slug": "how-to-sell-on-swiggy-instamart",
       "title": "How to sell on Swiggy Instamart: a guide for brands",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/how-to-sell-on-swiggy-instamart"
     },
     {
       "slug": "how-to-sell-on-zepto",
       "title": "How to sell on Zepto: onboarding, catalogue and first orders",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/how-to-sell-on-zepto"
     },
     {
       "slug": "linkedin-outreach-for-exporters",
       "title": "LinkedIn outreach for exporters: a practical playbook",
       "category": "B2B & Manufacturing",
-      "published": false,
+      "published": true,
       "url": "/blog/linkedin-outreach-for-exporters"
     },
     {
       "slug": "marketplace-vs-d2c-for-fmcg",
       "title": "Marketplace vs D2C for FMCG brands: which channel first?",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/marketplace-vs-d2c-for-fmcg"
     },
     {
       "slug": "one-website-for-multiple-store-locations",
       "title": "One website for multiple store locations: how it works",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/one-website-for-multiple-store-locations"
     },
     {
       "slug": "pack-size-and-pricing-for-10-minute-delivery",
       "title": "Pack size and pricing for 10-minute delivery",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/pack-size-and-pricing-for-10-minute-delivery"
     },
     {
       "slug": "quick-commerce-ads-explained",
       "title": "Quick-commerce ads explained: search, category and banners",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/quick-commerce-ads-explained"
     },
     {
       "slug": "quick-commerce-for-brands-in-india-guide",
       "title": "Quick commerce for brands in India: the 2026 guide",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/quick-commerce-for-brands-in-india-guide"
     },
     {
       "slug": "roas-vs-mer-vs-contribution-margin",
       "title": "ROAS vs MER vs contribution margin: which number to run on",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/roas-vs-mer-vs-contribution-margin"
     },
     {
       "slug": "selling-on-amazon-flipkart-myntra-brand-playbook",
       "title": "Selling on Amazon, Flipkart & Myntra: the brand playbook",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/selling-on-amazon-flipkart-myntra-brand-playbook"
     },
     {
       "slug": "shopify-speed-and-conversion-checklist",
       "title": "Shopify speed and conversion checklist for Indian stores",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/shopify-speed-and-conversion-checklist"
     },
     {
       "slug": "shopify-vs-woocommerce-in-india",
       "title": "Shopify vs WooCommerce in India: which should you build on?",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/shopify-vs-woocommerce-in-india"
     },
     {
       "slug": "top-ecommerce-quick-commerce-agencies-in-india",
       "title": "Top ecommerce & quick-commerce agencies in India: honest comparison",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/top-ecommerce-quick-commerce-agencies-in-india"
     },
     {
       "slug": "when-a-plus-content-pays",
       "title": "When A+ content pays on Amazon, and when it does not",
       "category": "Commerce",
-      "published": false,
+      "published": true,
       "url": "/blog/when-a-plus-content-pays"
     }
   ]

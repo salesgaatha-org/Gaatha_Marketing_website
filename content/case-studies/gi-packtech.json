@@ -1,6 +1,6 @@
 {
   "slug": "gi-packtech",
-  "published": false,
+  "published": true,
   "featured": false,
   "client": "gi-packtech",
   "headline": "Turning a technical packaging range into an export sales engine.",
@@ -9,33 +9,84 @@
   "location": "Gujarat",
   "duration": "TODO-DATA",
   "channels": "Catalogue, LinkedIn, Meta, Google Business Profile, website",
-  "filters": ["b2b-export", "branding"],
-  "services": ["catalogues-presentations", "ai-ads-ai-ad-shoots", "b2b-lead-generation", "local-seo-google-business-profile", "website-development"],
+  "filters": [
+    "b2b-export",
+    "branding"
+  ],
+  "services": [
+    "catalogues-presentations",
+    "ai-ads-ai-ad-shoots",
+    "b2b-lead-generation",
+    "local-seo-google-business-profile",
+    "website-development"
+  ],
   "metrics": [
-    { "label": "Export enquiries", "value": "TODO-DATA" },
-    { "label": "Meetings booked", "value": "TODO-DATA" },
-    { "label": "LinkedIn response rate", "value": "TODO-DATA" },
-    { "label": "RFQs", "value": "TODO-DATA" }
+    {
+      "label": "Export enquiries",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Meetings booked",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "LinkedIn response rate",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "RFQs",
+      "value": "TODO-DATA"
+    }
   ],
   "challenge": [
     "GI PackTech makes specialised industrial packaging — VCI films, vacuum laminates, machine covers, reactor liners and more. The products are technical, the buyers are international, and the material explaining what each product does and when to use it did not exist in a form a buyer could act on.",
     "The brief was to explain a complex range clearly to overseas buyers and then run a structured export lead-generation push."
   ],
   "workstreams": [
-    { "title": "Product catalogue", "text": "A full catalogue with product explanations, applications, customisation options and sales guidance for each line — written so a buyer and a sales rep read the same page." },
-    { "title": "Brochures", "text": "Product-specific brochures, starting with a flexible reactor liner brochure PDF." },
-    { "title": "AI imagery", "text": "110 AI image prompts across 41 products for catalogue and website use, plus website hero imagery — consistent product visuals without a 41-product photoshoot." },
-    { "title": "Local SEO", "text": "Google Business Profile content so domestic buyers searching for packaging suppliers find a complete, current profile." },
-    { "title": "Export lead generation", "text": "A 50-company LinkedIn outreach tracker with curated messages, a Meta and LinkedIn marketing playbook, and Sales Navigator-led outreach to named buyers." }
+    {
+      "title": "Product catalogue",
+      "text": "A full catalogue with product explanations, applications, customisation options and sales guidance for each line — written so a buyer and a sales rep read the same page."
+    },
+    {
+      "title": "Brochures",
+      "text": "Product-specific brochures, starting with a flexible reactor liner brochure PDF."
+    },
+    {
+      "title": "AI imagery",
+      "text": "110 AI image prompts across 41 products for catalogue and website use, plus website hero imagery — consistent product visuals without a 41-product photoshoot."
+    },
+    {
+      "title": "Local SEO",
+      "text": "Google Business Profile content so domestic buyers searching for packaging suppliers find a complete, current profile."
+    },
+    {
+      "title": "Export lead generation",
+      "text": "A 50-company LinkedIn outreach tracker with curated messages, a Meta and LinkedIn marketing playbook, and Sales Navigator-led outreach to named buyers."
+    }
   ],
   "results": [
     "Export enquiries, meetings booked, LinkedIn response rate and RFQs are published once confirmed from the outreach tracker."
   ],
-  "quote": { "text": "", "name": "", "role": "" },
+  "quote": {
+    "text": "",
+    "name": "",
+    "role": ""
+  },
   "gallery": 6,
-  "galleryNotes": ["Catalogue spread 1", "Catalogue spread 2", "Brochure", "AI product visual 1", "AI product visual 2", "Outreach dashboard (data blurred)"],
+  "galleryNotes": [
+    "Catalogue spread 1",
+    "Catalogue spread 2",
+    "Brochure",
+    "AI product visual 1",
+    "AI product visual 2",
+    "Outreach dashboard (data blurred)"
+  ],
   "video": "",
-  "images": { "hero": "", "card": "", "og": "" },
+  "images": {
+    "hero": "",
+    "card": "",
+    "og": ""
+  },
   "meta": {
     "title": "GI PackTech case study — export lead engine | gaa-tha",
     "description": "How gaa-tha turned GI PackTech's technical packaging range into a catalogue, AI product imagery and a LinkedIn-led export lead-generation system."

@@ -3742,6 +3742,180 @@ A: Tools use role-based access, HTTPS, per-user logins and backups, and run on G
 https://gaa-tha.com/work
 
 
+## CDS Stores: A city-wide Diwali campaign — outdoor, influencers, Meta and a cinema ad — on one ₹2 lakh budget.
+https://gaa-tha.com/work/cds-stores
+
+Making CDS Stores the first-choice Diwali destination in Vapi and Valsad for sweets, hampers, dry fruits and bulk gifting.
+
+Industry: Retail / sweets, dry fruits & gifting. Services: Campaign Planning (Festive & Launch), Cinema & Film Ads, AI Ads & AI Ad Shoots, Graphic Design, Influencer & UGC Marketing, Meta Ads Agency, Shopify Store Design & Development.
+
+CDS Stores sells premium sweets, dry fruits, hampers and corporate gifting in Vapi and Valsad. Diwali is the season that decides the year, and the brief was simple to say and hard to do: be the first name people think of for gifting in both cities, on a total budget of ₹2 lakh.
+
+That meant one message carried across outdoor, influencers, Meta ads and a cinema screen — planned as one campaign, not four.
+
+Campaign planning: A 6 October – 14 November campaign with the budget split across outdoor banners (store-front, auto-rickshaw and bus panels), influencer collaborations (15–20 collab reels and 5 page collaborations) and Meta ads, with one key visual and one calendar.
+
+Outdoor creative: Premium, minimal category banners for sweets, hampers, dry fruits, corporate gifting and the live sweets counter — each category with its own colour code so the auto-rickshaw panels read from across the road.
+
+Cinema ad: A 10-second trailer-style AI film: products drop into frame with bold title cards — sweets, hampers, dry fruits, namkeen, chocolates, live sweets, bulk gifting — then the storefront and a closing card with locations and numbers, letterboxed to cinema scope.
+
+AI film (style reference): An earlier Ganpati festive AI ad set the visual language for the campaign and became the reference for the Diwali film.
+
+Shopify: Ongoing support for the cdsstores.in store so online hamper and gifting orders had a clean path during the campaign.
+
+Meta ads & social: Festive Meta campaigns targeted to Vapi and Valsad alongside the influencer content, with click-to-WhatsApp for bulk and corporate enquiries.
+
+The campaign runs until 14 November 2026. Footfall, sales uplift, corporate orders, reach and cost-per-result are published here once the season closes and the numbers are confirmed.
+
+## Charliee: Rebuilding a 200+ SKU snack brand's online store — and its sales engine.
+https://gaa-tha.com/work/charliee
+
+A full Shopify overhaul, a clean 200-SKU catalogue, export-facing creative and a sales-meet kit for Charliee (Baijay International).
+
+Industry: FMCG / packaged snacks. Services: Shopify Store Design & Development, Shopify Store Management & Maintenance, Ecommerce Product Photography, Graphic Design, Catalogues, Presentations & Sales Kits, AI Ads & AI Ad Shoots, Custom Tools & Automations.
+
+Charliee is a large regional snack brand with more than 200 SKUs across namkeen, chikki, khakhra, chips, sweets and bakery. Its online store did not reflect the quality of the products, the catalogue was inconsistent, and the brand needed marketing assets that worked for two very different buyers: domestic consumers and white-label export customers.
+
+The brief was to rebuild the store as a proper sales channel, bring the catalogue under control, and give the field sales team and export desk material they would actually use.
+
+Shopify website: A full UI/UX audit and overhaul of the store, starting with a homepage prototype and a product-content workbook covering all 200+ SKUs. We rebuilt the product cards and contact page, added a corporate-gifting page and category cover imagery, and built a batch-number lookup tool so customers can check a pack's details. Store handling is ongoing, including bulk MRP updates across categories.
+
+Branding & creative: Category visuals for the store and social, AI-produced product imagery for the long tail of SKUs, and cinematic product ads for launches and festive pushes.
+
+B2B & export creative: Advertising creatives that position Charliee as a white-label manufacturing partner for export buyers, separate in tone and format from the consumer-facing work.
+
+Sales enablement: An annual sales-meet kit for the field team across Gujarat and Mumbai — target workbooks, price lists, a standee and the speech — so the plan for the year was in every rep's hands on day one.
+
+The store now carries a complete, consistent catalogue with imagery per category, a gifting route for corporate buyers and tooling that reduces support queries. Impact figures are published here once confirmed from store and sales reports.
+
+## Colortek: Making a 25-year coatings manufacturer look as advanced as its technology.
+https://gaa-tha.com/work/colortek
+
+A credibility, brand and SEO/AEO/GEO audit, a naming exercise and the 'Colortek Veris' sub-brand direction for Colourtech Coating India.
+
+Industry: Manufacturing / industrial coatings. Services: Branding & Brand Identity, Website Design & Development, SEO, AEO & GEO, Social Media Marketing, Catalogues, Presentations & Sales Kits.
+
+Colortek (Colourtech Coating India) has 25 years of technical substance — compliance, specialised coating lines, demanding industrial customers. The website undermined it: contradictory figures, broken metadata, duplicate content, no structured data and performance bloat. The brand name also sat in a crowded space of similar-sounding companies.
+
+The brief was to make the company look as advanced online as it is on the factory floor, without losing recognition built over two decades.
+
+Website audit: A credibility, brand, SEO/AEO/GEO and UX audit that documented every contradiction, broken tag, duplicate page, missing schema and performance issue — with a prioritised fix list.
+
+Brand evolution: A naming exercise leading to the 'Colortek Veris' direction: keep the existing wordmark and colour swoosh for continuity, add a premium sub-brand for the advanced coating range.
+
+Brand brief: A seven-page branding brief covering the case for change, naming rationale, identity continuity, discoverability strategy and a phased rollout the company could approve section by section.
+
+Proposed engagement: Website redesign, a company presentation, LinkedIn, Instagram and Facebook content, and ongoing SEO/AEO/GEO maintenance.
+
+Post-launch organic traffic, enquiries and Lighthouse scores are published here once the redesign is live and measured.
+
+## Ghanshyam Snacks: From ad leads to real buyers — a B2B snack manufacturer's content and lead engine.
+https://gaa-tha.com/work/ghanshyam-snacks
+
+Meta lead campaigns with a self-filtering WhatsApp reply system, a lead-management SOP and tracker, social content and a cinematic product film for a bulk peanut and white-label snacks manufacturer.
+
+Industry: FMCG manufacturing / B2B. Services: Meta Ads Agency, B2B & Export Lead Generation, Social Media Marketing, Reels & Short-form Video, Catalogues, Presentations & Sales Kits, Cinema & Film Ads.
+
+Ghanshyam Snacks manufactures bulk peanuts and white-label snacks for B2B buyers. Paid campaigns were producing a high volume of leads, but many were fake or low-quality, and the sales team was spending its day filtering rather than selling.
+
+Alongside the lead problem, the brand needed B2B positioning, a proper product catalogue and consistent social content.
+
+Meta ads & lead generation: Lead campaigns rebuilt with a WhatsApp first-reply system designed so fake leads filter themselves out before a human replies, plus a B2B reply template for IndiaMART enquiries.
+
+Lead-management SOP & tracker: A five-stage pipeline — capture, 24-hour qualification, quote, Day 1/3/7 follow-up, weekly review — with an Excel/Sheets dashboard showing qualification rate, conversion rate, pipeline value and junk percentage by ad source.
+
+Social media: 50-post content sets and reel production briefs so the brand's Instagram reads as a manufacturer buyers can trust.
+
+Brand & sales assets: A product catalogue, B2B positioning material and IndiaMART listing assets built to the same visual system.
+
+Cinematic product film: A sand-roasted peanut macro ad sequence — the product as the hero, shot to make a commodity look premium.
+
+The lead pipeline now has a qualification step, a follow-up rhythm and a dashboard that shows which ad sources produce buyers and which produce noise. Figures for leads, qualification rate, junk reduction and conversions are published once confirmed from the tracker.
+
+## GI PackTech: Turning a technical packaging range into an export sales engine.
+https://gaa-tha.com/work/gi-packtech
+
+A full product catalogue, brochures, 110 AI image prompts across 41 products, Google Business Profile content and a LinkedIn-led export outreach system for GI PackTech.
+
+Industry: Manufacturing / industrial & export packaging. Services: Catalogues, Presentations & Sales Kits, AI Ads & AI Ad Shoots, B2B & Export Lead Generation, Local SEO & Google Business Profile, Website Design & Development.
+
+GI PackTech makes specialised industrial packaging — VCI films, vacuum laminates, machine covers, reactor liners and more. The products are technical, the buyers are international, and the material explaining what each product does and when to use it did not exist in a form a buyer could act on.
+
+The brief was to explain a complex range clearly to overseas buyers and then run a structured export lead-generation push.
+
+Product catalogue: A full catalogue with product explanations, applications, customisation options and sales guidance for each line — written so a buyer and a sales rep read the same page.
+
+Brochures: Product-specific brochures, starting with a flexible reactor liner brochure PDF.
+
+AI imagery: 110 AI image prompts across 41 products for catalogue and website use, plus website hero imagery — consistent product visuals without a 41-product photoshoot.
+
+Local SEO: Google Business Profile content so domestic buyers searching for packaging suppliers find a complete, current profile.
+
+Export lead generation: A 50-company LinkedIn outreach tracker with curated messages, a Meta and LinkedIn marketing playbook, and Sales Navigator-led outreach to named buyers.
+
+Export enquiries, meetings booked, LinkedIn response rate and RFQs are published once confirmed from the outreach tracker.
+
+## Kitcoz: A concern-led skincare brand, built from identity to checkout.
+https://gaa-tha.com/work/kitcoz
+
+Brand identity, a Shopify store built around skin concerns and kits, Pixel and Conversions API tracking, Meta ad creative and 300 Instagram copy variations for Kitcoz (Elvey Essentials).
+
+Industry: D2C beauty & personal care. Services: Branding & Brand Identity, Shopify Store Design & Development, Conversion Rate Optimisation (CRO), Meta Ads Agency, D2C Performance Marketing, Social Media Marketing, AI Ads & AI Ad Shoots.
+
+Kitcoz is a D2C skincare brand from Elvey Essentials. It needed to launch with a distinctive identity, a store built around skin concerns and product kits rather than a flat catalogue, and advertising that could be tracked accurately from the first rupee.
+
+Products were already listed on Amazon, so the store also had to absorb that catalogue cleanly.
+
+Brand identity: A teal colour system, a serif-plus-sans typography pairing, concern-led navigation and a brand manifesto that gave the store and the ads one voice.
+
+Shopify development: The initial build and an Amazon-to-Shopify product migration, with custom sections: a combo-kit selector, concern-based collection filters, a pincode checker, product carousels and a cart drawer with coupons. GoKwik checkout integration and cash-on-delivery configuration.
+
+Tracking: Meta Pixel and Conversions API setup with attribution troubleshooting, so campaign decisions were made on real purchase data.
+
+Meta ads: A nine-kit creative pack and campaign structure, with extensive ad copy variations for testing.
+
+Content: 300 Instagram copy variations, each with a unique AI image direction, giving the brand months of on-brand content.
+
+Conversion rate, kit AOV, ROAS, checkout completion and COD-versus-prepaid share are published once confirmed from Shopify and Meta reports.
+
+## New Rave: Instagram content that drives collectors to the store and the website.
+https://gaa-tha.com/work/new-rave
+
+Social strategy, content production and storefront policies for a trading-card-game and hobbies retailer in Canada — our international case.
+
+Industry: Retail (physical + online) / TCG & hobbies. Services: Social Media Marketing, Graphic Design, AI Ads & AI Ad Shoots, Copywriting & Content Writing.
+
+New Rave (newrave.ca) sells trading-card games and hobby products from a physical store and a website. The community is knowledgeable and fast-moving: launches, pre-orders and singles matter, and generic retail content is ignored.
+
+The brief was to grow footfall in the store and sales on the website with Instagram content that spoke to collectors, plus the storefront policies a serious TCG retailer needs.
+
+Social strategy: Four content pillars: new launches and pre-orders, card features and USPs, direct brand promotion, and witty community posts that collectors actually share.
+
+Content production: Static and carousel posts built on the retailer's supplied product mockups and brand assets, with AI-generated visual frames — never third-party card artwork — so every post stayed on-brand and cleared for use.
+
+Website support: A full storefront policy set written for the category: shipping, in-store pickup, pre-orders, TCG singles, fraud prevention and grading.
+
+Impact figures — follower growth, engagement, website sessions from Instagram, pre-order volume and store footfall — are published once confirmed with the client.
+
+## Rentastic Homes: Building trust for a PG brand — from brochures to a founder-led video series.
+https://gaa-tha.com/work/rentastic-homes
+
+Sales material, operations forms and a 15-episode founder series for Rentastic Homes, a co-living and PG accommodation brand.
+
+Industry: Real estate / co-living. Services: Graphic Design, Copywriting & Content Writing, Reels & Short-form Video, Social Media Marketing.
+
+Choosing a PG is a trust decision made by students and parents who have never met the operator. Rentastic Homes needed material that answered their questions before the first call, and content that put the founder in front of the audience consistently.
+
+Sales material: A Girls PG brochure covering rooms, safety, food, rules and pricing structure in a format parents could forward.
+
+Operations: A tenant check-out form so move-outs are documented the same way every time.
+
+Content: A 15-episode founder series — scripts and a branded script book — designed for Instagram and YouTube so the founder could record in batches.
+
+To confirm: Social media management, Meta lead ads for occupancy and Google Business Profile — scope to be confirmed with the team before publishing.
+
+Enquiries, site visits, occupancy and reel views are published once confirmed.
+
 
 # FAQ — ecommerce, marketplaces, quick commerce and case studies
 https://gaa-tha.com/faq

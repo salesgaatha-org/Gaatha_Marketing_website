@@ -12,13 +12,26 @@
   "filters": [],
   "services": [],
   "metrics": [],
-  "challenge": ["TODO-CONFIRM with team."],
+  "challenge": [
+    "TODO-CONFIRM with team."
+  ],
   "workstreams": [],
   "results": [],
-  "quote": { "text": "", "name": "", "role": "" },
+  "quote": {
+    "text": "",
+    "name": "",
+    "role": ""
+  },
   "gallery": 6,
   "video": "",
-  "images": { "hero": "", "card": "", "og": "" },
-  "meta": { "title": "HPMG Group case study | gaa-tha", "description": "Case study for HPMG Group — published once scope and results are confirmed." },
+  "images": {
+    "hero": "",
+    "card": "",
+    "og": ""
+  },
+  "meta": {
+    "title": "HPMG Group case study | gaa-tha",
+    "description": "Case study for HPMG Group — published once scope and results are confirmed."
+  },
   "updated": "2026-09-25"
 }

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New Rave case study — Instagram for a TCG retailer | gaa-tha</title>
+<meta name="description" content="How gaa-tha built an Instagram content system and storefront policies for New Rave, a trading-card and hobbies retailer in Canada.">
+<meta name="author" content="gaa-tha">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="canonical" href="https://gaa-tha.com/work/new-rave">
+
+<link rel="icon" type="image/png" href="/assets/logo.png">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="gaa-tha">
+<meta property="og:title" content="New Rave case study — Instagram for a TCG retailer | gaa-tha">
+<meta property="og:description" content="How gaa-tha built an Instagram content system and storefront policies for New Rave, a trading-card and hobbies retailer in Canada.">
+<meta property="og:url" content="https://gaa-tha.com/work/new-rave">
+<meta property="og:image" content="https://gaa-tha.com/assets/logo.png">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="New Rave case study — Instagram for a TCG retailer | gaa-tha">
+<meta name="twitter:description" content="How gaa-tha built an Instagram content system and storefront policies for New Rave, a trading-card and hobbies retailer in Canada.">
+<meta name="twitter:image" content="https://gaa-tha.com/assets/logo.png">
+<meta property="article:published_time" content="2026-09-25">
+<meta property="article:modified_time" content="2026-09-25">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/montserrat-400-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/poppins-800-latin.woff2" crossorigin>
+<link rel="stylesheet" href="/gaatha.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://gaa-tha.com/#organization",
+      "name": "gaa-tha",
+      "alternateName": [
+        "gaatha",
+        "Gaatha",
+        "Gaa-tha",
+        "Team Gaatha"
+      ],
+      "url": "https://gaa-tha.com/",
+      "logo": "https://gaa-tha.com/assets/logo.png",
+      "image": "https://gaa-tha.com/assets/logo.png",
+      "description": "gaa-tha is a storytelling-led digital marketing, branding, ecommerce and AI agency founded in Gujarat, India in 2024. It builds brands, websites and Shopify stores, runs Meta and Google ads, social media, SEO/AEO/GEO, and onboards and manages brands on Amazon, Flipkart, Myntra, Blinkit, Zepto and Swiggy Instamart.",
+      "slogan": "Crafting Tales — your brand, but unskippable.",
+      "foundingDate": "2024",
+      "email": "digimarketing@gaa-tha.com",
+      "telephone": "+919737280309",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Gujarat",
+        "addressCountry": "IN"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        "Worldwide"
+      ],
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Abhishek Khuthiya",
+          "jobTitle": "Co-Founder"
+        },
+        {
+          "@type": "Person",
+          "name": "Getansh Savla",
+          "jobTitle": "Co-Founder"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+919737280309",
+        "email": "digimarketing@gaa-tha.com",
+        "contactType": "sales",
+        "availableLanguage": [
+          "English",
+          "Hindi",
+          "Gujarati"
+        ]
+      },
+      "sameAs": [
+        "https://instagram.com/__gaa.tha__/",
+        "https://www.linkedin.com/company/teamgaatha/",
+        "https://www.facebook.com/people/Gaa-tha/61562303836796/"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Brand & Creative",
+            "url": "https://gaa-tha.com/services/brand-and-creative"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Growth Marketing",
+            "url": "https://gaa-tha.com/services/growth-marketing"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "D2C Ecommerce",
+            "url": "https://gaa-tha.com/services/ecommerce"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Marketplaces",
+            "url": "https://gaa-tha.com/services/marketplaces"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Quick Commerce",
+            "url": "https://gaa-tha.com/services/quick-commerce"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Websites & Technology",
+            "url": "https://gaa-tha.com/services/technology"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://gaa-tha.com/#website",
+      "url": "https://gaa-tha.com/",
+      "name": "gaa-tha",
+      "publisher": {
+        "@id": "https://gaa-tha.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://gaa-tha.com/work/new-rave",
+      "headline": "Instagram content that drives collectors to the store and the website.",
+      "description": "Social strategy, content production and storefront policies for a trading-card-game and hobbies retailer in Canada — our international case.",
+      "url": "https://gaa-tha.com/work/new-rave",
+      "mainEntityOfPage": "https://gaa-tha.com/work/new-rave",
+      "image": "https://gaa-tha.com/assets/logo.png",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "author": {
+        "@id": "https://gaa-tha.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://gaa-tha.com/#organization"
+      },
+      "about": {
+        "@type": "Organization",
+        "name": "New Rave",
+        "url": "https://newrave.ca"
+      },
+      "mentions": [
+        {
+          "@type": "Service",
+          "name": "Social Media Marketing",
+          "url": "https://gaa-tha.com/services/social-media-marketing"
+        },
+        {
+          "@type": "Service",
+          "name": "Graphic Design",
+          "url": "https://gaa-tha.com/services/graphic-design"
+        },
+        {
+          "@type": "Service",
+          "name": "AI Ads & AI Ad Shoots",
+          "url": "https://gaa-tha.com/services/ai-ads-ai-ad-shoots"
+        },
+        {
+          "@type": "Service",
+          "name": "Copywriting & Content Writing",
+          "url": "https://gaa-tha.com/services/content-writing-copywriting"
+        }
+      ],
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gaa-tha.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Work",
+          "item": "https://gaa-tha.com/work"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "New Rave",
+          "item": "https://gaa-tha.com/work/new-rave"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="case">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- chrome:nav -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/" aria-label="gaa-tha — home">
+      <img src="/assets/logo.png" alt="gaa-tha" width="120" height="26">
+    </a>
+    <div class="nav-links">
+      <div class="has-mega"><a href="/services">Services</a><div class="mega" aria-label="Services menu">
+        <div class="mega-inner">
+          <div class="mega-col"><h3><a href="/services/brand-and-creative">Brand &amp; Creative</a></h3><ul><li><a href="/services/branding-agency">Branding</a></li><li><a href="/services/graphic-design">Graphic design</a></li><li><a href="/services/reels-short-form-video">Reels</a></li><li><a href="/services/ai-ads-ai-ad-shoots">AI ads</a></li><li><a href="/services/cinema-ads-film-production">Cinema ads</a></li><li><a href="/services/ai-cloning-spokesperson">AI cloning</a></li><li><a href="/services/product-photography-ecommerce">Product photography</a></li><li><a href="/services/content-writing-copywriting">Copywriting</a></li><li><a href="/services/catalogues-presentations">Catalogues &amp; decks</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/growth-marketing">Growth Marketing</a></h3><ul><li><a href="/services/marketing-strategy">Marketing strategy</a></li><li><a href="/services/social-media-marketing">Social media</a></li><li><a href="/services/meta-ads-agency">Meta ads</a></li><li><a href="/services/google-ads-agency">Google ads</a></li><li><a href="/services/seo-aeo-geo">SEO, AEO &amp; GEO</a></li><li><a href="/services/local-seo-google-business-profile">Local SEO &amp; GBP</a></li><li><a href="/services/influencer-ugc-marketing">Influencer &amp; UGC</a></li><li><a href="/services/b2b-lead-generation">B2B &amp; export leads</a></li><li><a href="/services/campaign-planning">Campaign planning</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/ecommerce">D2C Ecommerce</a></h3><ul><li><a href="/services/shopify-development">Shopify stores</a></li><li><a href="/services/multi-location-shopify-local-delivery">Multi-location Shopify</a></li><li><a href="/services/ecommerce-website-development">Ecommerce websites</a></li><li><a href="/services/shopify-store-management">Store management</a></li><li><a href="/services/conversion-rate-optimisation">CRO</a></li><li><a href="/services/d2c-performance-marketing">D2C performance</a></li><li><a href="/services/ecommerce-seo">Ecommerce SEO</a></li><li><a href="/services/d2c-brand-launch">D2C brand launch</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/marketplaces">Marketplaces</a></h3><ul><li><a href="/services/amazon-onboarding">Amazon onboarding</a></li><li><a href="/services/amazon-account-management">Amazon management</a></li><li><a href="/services/flipkart-seller-management">Flipkart</a></li><li><a href="/services/myntra-onboarding">Myntra</a></li><li><a href="/services/nykaa-onboarding">Nykaa</a></li><li><a href="/services/ajio-onboarding">AJIO</a></li><li><a href="/services/meesho-jiomart-onboarding">Meesho &amp; JioMart</a></li><li><a href="/services/fashion-marketplace-growth">Fashion marketplace growth</a></li><li><a href="/services/marketplace-listing-optimisation">Listing optimisation</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/quick-commerce">Quick Commerce</a></h3><ul><li><a href="/services/quick-commerce-agency">Quick commerce</a></li><li><a href="/services/blinkit-onboarding">Blinkit onboarding</a></li><li><a href="/services/blinkit-account-management">Blinkit management</a></li><li><a href="/services/zepto-onboarding">Zepto onboarding</a></li><li><a href="/services/zepto-account-management">Zepto management</a></li><li><a href="/services/swiggy-instamart-onboarding">Instamart onboarding</a></li><li><a href="/services/instamart-account-management">Instamart management</a></li><li><a href="/services/flipkart-minutes-amazon-now-onboarding">Flipkart Minutes &amp; Amazon Now</a></li><li><a href="/services/bigbasket-onboarding">BigBasket onboarding</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/technology">Websites &amp; Tech</a></h3><ul><li><a href="/services/website-development">Websites</a></li><li><a href="/services/app-design-development">App design</a></li><li><a href="/services/business-tools-automation">Tools &amp; automations</a></li></ul></div>
+          <div class="mega-foot"><span>One team across brand, growth, ecommerce, marketplaces and quick commerce.</span><a class="link-arrow" href="/services">View all services <span class="arr">&rarr;</span></a></div>
+        </div>
+      </div></div>
+      <a href="/work" class="active">Work</a>
+      <a href="/blog">Blog</a>
+      <a href="/about">About</a>
+      <a href="/faq">FAQ</a>
+    </div>
+    <div class="nav-right">
+      <a class="btn btn-primary nav-cta" href="/#contact">Start a project</a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mm-top">
+    <span class="nav-logo"><img src="/assets/logo.png" alt="gaa-tha" width="120" height="26"></span>
+    <button class="mm-close" aria-label="Close menu">&#10005;</button>
+  </div>
+  <nav class="mm-links" aria-label="Mobile">
+    <details><summary><span class="num">01</span> Services</summary><div class="mm-sub"><div><h4><a href="/services/brand-and-creative">Brand &amp; Creative</a></h4><ul><li><a href="/services/branding-agency">Branding</a></li><li><a href="/services/graphic-design">Graphic design</a></li><li><a href="/services/reels-short-form-video">Reels</a></li><li><a href="/services/ai-ads-ai-ad-shoots">AI ads</a></li><li><a href="/services/cinema-ads-film-production">Cinema ads</a></li><li><a href="/services/ai-cloning-spokesperson">AI cloning</a></li><li><a href="/services/product-photography-ecommerce">Product photography</a></li><li><a href="/services/content-writing-copywriting">Copywriting</a></li><li><a href="/services/catalogues-presentations">Catalogues &amp; decks</a></li></ul></div><div><h4><a href="/services/growth-marketing">Growth Marketing</a></h4><ul><li><a href="/services/marketing-strategy">Marketing strategy</a></li><li><a href="/services/social-media-marketing">Social media</a></li><li><a href="/services/meta-ads-agency">Meta ads</a></li><li><a href="/services/google-ads-agency">Google ads</a></li><li><a href="/services/seo-aeo-geo">SEO, AEO &amp; GEO</a></li><li><a href="/services/local-seo-google-business-profile">Local SEO &amp; GBP</a></li><li><a href="/services/influencer-ugc-marketing">Influencer &amp; UGC</a></li><li><a href="/services/b2b-lead-generation">B2B &amp; export leads</a></li><li><a href="/services/campaign-planning">Campaign planning</a></li></ul></div><div><h4><a href="/services/ecommerce">D2C Ecommerce</a></h4><ul><li><a href="/services/shopify-development">Shopify stores</a></li><li><a href="/services/multi-location-shopify-local-delivery">Multi-location Shopify</a></li><li><a href="/services/ecommerce-website-development">Ecommerce websites</a></li><li><a href="/services/shopify-store-management">Store management</a></li><li><a href="/services/conversion-rate-optimisation">CRO</a></li><li><a href="/services/d2c-performance-marketing">D2C performance</a></li><li><a href="/services/ecommerce-seo">Ecommerce SEO</a></li><li><a href="/services/d2c-brand-launch">D2C brand launch</a></li></ul></div><div><h4><a href="/services/marketplaces">Marketplaces</a></h4><ul><li><a href="/services/amazon-onboarding">Amazon onboarding</a></li><li><a href="/services/amazon-account-management">Amazon management</a></li><li><a href="/services/flipkart-seller-management">Flipkart</a></li><li><a href="/services/myntra-onboarding">Myntra</a></li><li><a href="/services/nykaa-onboarding">Nykaa</a></li><li><a href="/services/ajio-onboarding">AJIO</a></li><li><a href="/services/meesho-jiomart-onboarding">Meesho &amp; JioMart</a></li><li><a href="/services/fashion-marketplace-growth">Fashion marketplace growth</a></li><li><a href="/services/marketplace-listing-optimisation">Listing optimisation</a></li><li><a href="/services/marketplace-ads-management">Marketplace ads</a></li><li><a href="/services/reviews-ratings-management">Reviews &amp; ratings</a></li></ul></div><div><h4><a href="/services/quick-commerce">Quick Commerce</a></h4><ul><li><a href="/services/quick-commerce-agency">Quick commerce</a></li><li><a href="/services/blinkit-onboarding">Blinkit onboarding</a></li><li><a href="/services/blinkit-account-management">Blinkit management</a></li><li><a href="/services/zepto-onboarding">Zepto onboarding</a></li><li><a href="/services/zepto-account-management">Zepto management</a></li><li><a href="/services/swiggy-instamart-onboarding">Instamart onboarding</a></li><li><a href="/services/instamart-account-management">Instamart management</a></li><li><a href="/services/flipkart-minutes-amazon-now-onboarding">Flipkart Minutes &amp; Amazon Now</a></li><li><a href="/services/bigbasket-onboarding">BigBasket onboarding</a></li><li><a href="/services/quick-commerce-ads">Quick commerce ads</a></li><li><a href="/services/quick-commerce-content">Q-commerce content</a></li></ul></div><div><h4><a href="/services/technology">Websites &amp; Tech</a></h4><ul><li><a href="/services/website-development">Websites</a></li><li><a href="/services/app-design-development">App design</a></li><li><a href="/services/business-tools-automation">Tools &amp; automations</a></li></ul></div><a class="link-arrow" href="/services">All services <span class="arr">&rarr;</span></a></div></details>
+    <a href="/work"><span class="num">02</span> Work</a>
+    <a href="/blog"><span class="num">03</span> Blog</a>
+    <a href="/about"><span class="num">04</span> About</a>
+    <a href="/faq"><span class="num">05</span> FAQ</a>
+    <a href="/#contact"><span class="num">06</span> Contact</a>
+  </nav>
+  <div class="mm-foot">
+    <a class="btn btn-primary" href="/#contact">Start a project</a>
+    <a class="mm-mail" href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
+  </div>
+</div>
+<!-- /chrome:nav -->
+
+<div class="site">
+<main id="main">
+  <div class="svc-hero">
+  <header class="page-hero">
+    <div class="wrap">
+      <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/work">Work</a><span class="sep">/</span><span>New Rave</span></nav>
+      <div class="hero-grid">
+        <div>
+          <div class="case-logo reveal" style="margin-top:18px"><img src="/assets/clients/newrave.webp" alt="New Rave" loading="lazy" decoding="async"></div>
+          <h1 class="display">Instagram content that drives collectors to the store and the website.</h1>
+          <p class="lead">Social strategy, content production and storefront policies for a trading-card-game and hobbies retailer in Canada — our international case.</p>
+          <div class="chips reveal" style="margin-top:22px"><span class="chip static">Retail (physical + online) / TCG &amp; hobbies</span><span class="chip static">Social media</span><span class="chip static">Graphic design</span><span class="chip static">AI ads</span><span class="chip static">Copywriting</span></div>
+        </div>
+        <div class="hero-media reveal svc-hero-media">
+          <div class="ph r-16x9" data-slot="Case hero" data-ref="caseStudies/new-rave" data-key="hero"><span class="ph-label">Case hero · 16:9</span></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  </div>
+
+  <section class="section tight" aria-label="At a glance">
+    <div class="wrap">
+      <dl class="case-glance reveal"><div><dt>Client</dt><dd>New Rave</dd></div><div><dt>Industry</dt><dd>Retail (physical + online) / TCG &amp; hobbies</dd></div><div><dt>Location</dt><dd>Canada</dd></div><div><dt>Services</dt><dd>Social media, Graphic design, AI ads, Copywriting</dd></div><div><dt>Channels</dt><dd>Instagram, website</dd></div></dl>
+    </div>
+  </section>
+
+  <section class="section tight" aria-label="Impact" data-cms-metrics="new-rave" hidden>
+    <div class="wrap">
+      <div class="stats reveal"><div class="stat" data-metric="0"><div class="stat-num"></div><div class="stat-label">Follower growth</div></div><div class="stat" data-metric="1"><div class="stat-num"></div><div class="stat-label">Engagement rate</div></div><div class="stat" data-metric="2"><div class="stat-num"></div><div class="stat-label">Website sessions from Instagram</div></div><div class="stat" data-metric="3"><div class="stat-num"></div><div class="stat-label">Pre-order volume</div></div></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head"><p class="eyebrow">The brief</p><h2 class="section-title display">What the client needed</h2></div>
+      <div class="prose"><p>New Rave (newrave.ca) sells trading-card games and hobby products from a physical store and a website. The community is knowledgeable and fast-moving: launches, pre-orders and singles matter, and generic retail content is ignored.</p><p>The brief was to grow footfall in the store and sales on the website with Instagram content that spoke to collectors, plus the storefront policies a serious TCG retailer needs.</p></div>
+    </div>
+  </section>
+
+  <section class="section surface bordered">
+    <div class="wrap">
+      <div class="section-head"><p class="eyebrow">What we did</p><h2 class="section-title display">The work, stream by stream</h2></div>
+      <div><div class="workstream reveal"><div><h3>Social strategy</h3><p>Four content pillars: new launches and pre-orders, card features and USPs, direct brand promotion, and witty community posts that collectors actually share.</p></div><div class="ws-media"><div class="ph r-16x10 sm" data-slot="Social strategy" data-ref="caseStudies/new-rave" data-key="workstreams/0"><span class="ph-label">Social strategy · 16:10</span></div></div></div><div class="workstream reveal"><div><h3>Content production</h3><p>Static and carousel posts built on the retailer&#39;s supplied product mockups and brand assets, with AI-generated visual frames — never third-party card artwork — so every post stayed on-brand and cleared for use.</p></div><div class="ws-media"><div class="ph r-16x10 sm" data-slot="Content production" data-ref="caseStudies/new-rave" data-key="workstreams/1"><span class="ph-label">Content production · 16:10</span></div></div></div><div class="workstream reveal"><div><h3>Website support</h3><p>A full storefront policy set written for the category: shipping, in-store pickup, pre-orders, TCG singles, fraud prevention and grading.</p></div><div class="ws-media"><div class="ph r-16x10 sm" data-slot="Website support" data-ref="caseStudies/new-rave" data-key="workstreams/2"><span class="ph-label">Website support · 16:10</span></div></div></div></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head"><p class="eyebrow">Gallery</p><h2 class="section-title display">The work up close</h2></div>
+      <div class="case-gallery" data-stagger="0.05"><div class="ph r-4x5 sm" data-slot="6-post grid" data-ref="caseStudies/new-rave" data-key="gallery/0"><span class="ph-label">6-post grid · 4:5</span></div><div class="ph r-4x5 sm" data-slot="Carousel 1" data-ref="caseStudies/new-rave" data-key="gallery/1"><span class="ph-label">Carousel 1 · 4:5</span></div><div class="ph r-4x5 sm" data-slot="Carousel 2" data-ref="caseStudies/new-rave" data-key="gallery/2"><span class="ph-label">Carousel 2 · 4:5</span></div><div class="ph r-4x5 sm" data-slot="Policy page screenshot" data-ref="caseStudies/new-rave" data-key="gallery/3"><span class="ph-label">Policy page screenshot · 4:5</span></div><div class="ph r-4x5 sm" data-slot="Launch post" data-ref="caseStudies/new-rave" data-key="gallery/4"><span class="ph-label">Launch post · 4:5</span></div><div class="ph r-4x5 sm" data-slot="Community post" data-ref="caseStudies/new-rave" data-key="gallery/5"><span class="ph-label">Community post · 4:5</span></div></div>
+      
+    </div>
+  </section>
+
+  <section class="section surface bordered">
+    <div class="wrap">
+      <div class="section-head"><p class="eyebrow">Impact &amp; results</p><h2 class="section-title display">What changed</h2></div>
+      <div class="prose"><p>Impact figures — follower growth, engagement, website sessions from Instagram, pre-order volume and store footfall — are published once confirmed with the client.</p></div>
+    </div>
+  </section>
+  <section class="section" data-cms-quote="new-rave" hidden>
+    <div class="wrap">
+      <div class="tcard reveal">
+        <span class="tquote-mark" aria-hidden="true">&ldquo;</span>
+        <blockquote class="tquote" data-q></blockquote>
+        <div class="tmeta"><div><div class="tname" data-n></div><div class="trole" data-r></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section surface bordered">
+    <div class="wrap">
+      <div class="section-head"><p class="eyebrow">Services used</p><h2 class="section-title display">How to get the same</h2></div>
+      <div class="grid grid-4" data-stagger="0.05"><a class="card reveal" href="/services/social-media-marketing"><span class="card-idx">Growth Marketing</span><h3>Social Media Marketing</h3><p>Always-on content that builds an audience worth selling to.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="card reveal" href="/services/graphic-design"><span class="card-idx">Brand &amp; Creative</span><h3>Graphic Design</h3><p>Campaign, social, print and packaging design that makes a message clearer, faster and more trustworthy.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="card reveal" href="/services/ai-ads-ai-ad-shoots"><span class="card-idx">Brand &amp; Creative</span><h3>AI Ads &amp; AI Ad Shoots</h3><p>Shoot-quality product and model creatives made with generative AI and human art direction, in days.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="card reveal" href="/services/content-writing-copywriting"><span class="card-idx">Brand &amp; Creative</span><h3>Copywriting &amp; Content Writing</h3><p>Words that sell and rank — website copy, listings, ad copy, scripts and articles.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a></div>
+    </div>
+  </section>
+  <section class="section tight">
+    <div class="wrap">
+      <a class="case-next reveal" href="/work/rentastic-homes"><span><span class="eyebrow">Next case study</span><h3>Building trust for a PG brand — from brochures to a founder-led video series.</h3></span><span class="btn btn-ghost">Read next <span class="arr">&rarr;</span></span></a>
+    </div>
+  </section>
+</main>
+
+<!-- chrome:footer -->
+<section class="footer-cta">
+  <div class="wrap footer-cta-row">
+    <h2 class="display">Got a story to tell? Let&#39;s make it legendary.</h2>
+    <a class="btn btn-primary btn-lg" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="footer-logo" href="/" aria-label="gaa-tha — home">
+          <img src="/assets/logo.png" alt="gaa-tha — Crafting Tales" width="842" height="296" loading="lazy">
+        </a>
+        <p>Crafting tales that turn brands into movements — strategy, storytelling and AI-driven results. India-rooted, globally minded.</p>
+        <div class="footer-socials">
+          <a href="https://instagram.com/__gaa.tha__/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.linkedin.com/company/teamgaatha/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+      <nav class="footer-col" aria-label="Services">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="/services">All services</a></li>
+          <li><a href="/services/brand-and-creative">Brand &amp; Creative</a></li>
+          <li><a href="/services/growth-marketing">Growth Marketing</a></li>
+          <li><a href="/services/ecommerce">D2C Ecommerce</a></li>
+          <li><a href="/services/marketplaces">Marketplaces</a></li>
+          <li><a href="/services/quick-commerce">Quick Commerce</a></li>
+          <li><a href="/services/technology">Websites &amp; Tech</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="Explore">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="/work">Work &amp; case studies</a></li>
+          <li><a href="/reels">Reels</a></li>
+          <li><a href="/websites">Websites</a></li>
+          <li><a href="/branding">Branding</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+      <div class="footer-col footer-say">
+        <h3>Say hello</h3>
+        <a class="fsay-line" href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
+        <a class="fsay-line" href="tel:+919737280309">+91 97372 80309</a>
+        <a class="fsay-line" href="tel:+917781818981">+91 77818 18981</a>
+        <a class="btn btn-primary" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer-bottom">
+    <div class="wrap footer-bottom-inner">
+      <span class="fmeta">
+        <span>&copy; <span data-year>2026</span> gaa-tha. All rights reserved.</span>
+        <span class="fdot">&#9670;</span>
+        <span>Crafting tales since 2024</span>
+      </span>
+      <a href="#" class="to-top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </div>
+</footer>
+<!-- /chrome:footer -->
+</div>
+
+<script defer src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script defer src="/gaatha.js"></script>
+<script defer src="/gaatha-cms.js"></script>
+
+</body>
+</html>

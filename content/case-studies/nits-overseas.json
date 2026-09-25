@@ -10,22 +10,57 @@
   "location": "TODO-DATA",
   "duration": "TODO-DATA",
   "channels": "TODO-DATA",
-  "filters": ["performance-ads", "social-reels"],
-  "services": ["social-media-marketing", "reels-short-form-video", "meta-ads-agency", "google-ads-agency", "website-development"],
-  "metrics": [
-    { "label": "Leads", "value": "TODO-DATA" },
-    { "label": "Cost per lead", "value": "TODO-DATA" },
-    { "label": "Counselling bookings", "value": "TODO-DATA" },
-    { "label": "Reel reach", "value": "TODO-DATA" }
+  "filters": [
+    "performance-ads",
+    "social-reels"
   ],
-  "challenge": ["TODO-CONFIRM with team: services delivered, target countries, intake seasons."],
+  "services": [
+    "social-media-marketing",
+    "reels-short-form-video",
+    "meta-ads-agency",
+    "google-ads-agency",
+    "website-development"
+  ],
+  "metrics": [
+    {
+      "label": "Leads",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Cost per lead",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Counselling bookings",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Reel reach",
+      "value": "TODO-DATA"
+    }
+  ],
+  "challenge": [
+    "TODO-CONFIRM with team: services delivered, target countries, intake seasons."
+  ],
   "workstreams": [],
   "results": [],
-  "quote": { "text": "", "name": "", "role": "" },
+  "quote": {
+    "text": "",
+    "name": "",
+    "role": ""
+  },
   "gallery": 6,
-  "galleryNotes": ["Reel covers", "Lead-ad creatives", "Landing page"],
+  "galleryNotes": [
+    "Reel covers",
+    "Lead-ad creatives",
+    "Landing page"
+  ],
   "video": "",
-  "images": { "hero": "", "card": "", "og": "" },
+  "images": {
+    "hero": "",
+    "card": "",
+    "og": ""
+  },
   "meta": {
     "title": "NITS Overseas case study | gaa-tha",
     "description": "Case study for NITS Overseas, an overseas-education consultancy — published once scope and results are confirmed."

@@ -1,6 +1,6 @@
 {
   "slug": "colortek",
-  "published": false,
+  "published": true,
   "featured": false,
   "client": "colortek",
   "headline": "Making a 25-year coatings manufacturer look as advanced as its technology.",
@@ -9,31 +9,77 @@
   "location": "Gujarat",
   "duration": "TODO-DATA",
   "channels": "Website, brand, LinkedIn, Instagram, Facebook, search",
-  "filters": ["branding", "websites-shopify", "b2b-export"],
-  "services": ["branding-agency", "website-development", "seo-aeo-geo", "social-media-marketing", "catalogues-presentations"],
+  "filters": [
+    "branding",
+    "websites-shopify",
+    "b2b-export"
+  ],
+  "services": [
+    "branding-agency",
+    "website-development",
+    "seo-aeo-geo",
+    "social-media-marketing",
+    "catalogues-presentations"
+  ],
   "metrics": [
-    { "label": "Organic traffic (post-launch)", "value": "TODO-DATA" },
-    { "label": "Enquiries", "value": "TODO-DATA" },
-    { "label": "Lighthouse performance", "value": "TODO-DATA" }
+    {
+      "label": "Organic traffic (post-launch)",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Enquiries",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Lighthouse performance",
+      "value": "TODO-DATA"
+    }
   ],
   "challenge": [
     "Colortek (Colourtech Coating India) has 25 years of technical substance — compliance, specialised coating lines, demanding industrial customers. The website undermined it: contradictory figures, broken metadata, duplicate content, no structured data and performance bloat. The brand name also sat in a crowded space of similar-sounding companies.",
     "The brief was to make the company look as advanced online as it is on the factory floor, without losing recognition built over two decades."
   ],
   "workstreams": [
-    { "title": "Website audit", "text": "A credibility, brand, SEO/AEO/GEO and UX audit that documented every contradiction, broken tag, duplicate page, missing schema and performance issue — with a prioritised fix list." },
-    { "title": "Brand evolution", "text": "A naming exercise leading to the 'Colortek Veris' direction: keep the existing wordmark and colour swoosh for continuity, add a premium sub-brand for the advanced coating range." },
-    { "title": "Brand brief", "text": "A seven-page branding brief covering the case for change, naming rationale, identity continuity, discoverability strategy and a phased rollout the company could approve section by section." },
-    { "title": "Proposed engagement", "text": "Website redesign, a company presentation, LinkedIn, Instagram and Facebook content, and ongoing SEO/AEO/GEO maintenance." }
+    {
+      "title": "Website audit",
+      "text": "A credibility, brand, SEO/AEO/GEO and UX audit that documented every contradiction, broken tag, duplicate page, missing schema and performance issue — with a prioritised fix list."
+    },
+    {
+      "title": "Brand evolution",
+      "text": "A naming exercise leading to the 'Colortek Veris' direction: keep the existing wordmark and colour swoosh for continuity, add a premium sub-brand for the advanced coating range."
+    },
+    {
+      "title": "Brand brief",
+      "text": "A seven-page branding brief covering the case for change, naming rationale, identity continuity, discoverability strategy and a phased rollout the company could approve section by section."
+    },
+    {
+      "title": "Proposed engagement",
+      "text": "Website redesign, a company presentation, LinkedIn, Instagram and Facebook content, and ongoing SEO/AEO/GEO maintenance."
+    }
   ],
   "results": [
     "Post-launch organic traffic, enquiries and Lighthouse scores are published here once the redesign is live and measured."
   ],
-  "quote": { "text": "", "name": "", "role": "" },
+  "quote": {
+    "text": "",
+    "name": "",
+    "role": ""
+  },
   "gallery": 6,
-  "galleryNotes": ["Logo before/after", "Brief page 1", "Brief page 2", "Website mockup — home", "Website mockup — product line", "Company presentation cover"],
+  "galleryNotes": [
+    "Logo before/after",
+    "Brief page 1",
+    "Brief page 2",
+    "Website mockup — home",
+    "Website mockup — product line",
+    "Company presentation cover"
+  ],
   "video": "",
-  "images": { "hero": "", "card": "", "og": "" },
+  "images": {
+    "hero": "",
+    "card": "",
+    "og": ""
+  },
   "meta": {
     "title": "Colortek case study — coatings brand evolution | gaa-tha",
     "description": "How gaa-tha audited Colortek's website and brand, ran a naming exercise and set the 'Colortek Veris' direction for a 25-year industrial coatings manufacturer."

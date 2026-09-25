@@ -1,6 +1,6 @@
 {
   "slug": "new-rave",
-  "published": false,
+  "published": true,
   "featured": false,
   "client": "new-rave",
   "headline": "Instagram content that drives collectors to the store and the website.",
@@ -9,32 +9,76 @@
   "location": "Canada",
   "duration": "TODO-DATA",
   "channels": "Instagram, website",
-  "filters": ["social-reels", "branding"],
-  "services": ["social-media-marketing", "graphic-design", "ai-ads-ai-ad-shoots", "content-writing-copywriting"],
+  "filters": [
+    "social-reels",
+    "branding"
+  ],
+  "services": [
+    "social-media-marketing",
+    "graphic-design",
+    "ai-ads-ai-ad-shoots",
+    "content-writing-copywriting"
+  ],
   "metrics": [
-    { "label": "Follower growth", "value": "TODO-DATA" },
-    { "label": "Engagement rate", "value": "TODO-DATA" },
-    { "label": "Website sessions from Instagram", "value": "TODO-DATA" },
-    { "label": "Pre-order volume", "value": "TODO-DATA" }
+    {
+      "label": "Follower growth",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Engagement rate",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Website sessions from Instagram",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Pre-order volume",
+      "value": "TODO-DATA"
+    }
   ],
   "challenge": [
     "New Rave (newrave.ca) sells trading-card games and hobby products from a physical store and a website. The community is knowledgeable and fast-moving: launches, pre-orders and singles matter, and generic retail content is ignored.",
     "The brief was to grow footfall in the store and sales on the website with Instagram content that spoke to collectors, plus the storefront policies a serious TCG retailer needs."
   ],
   "workstreams": [
-    { "title": "Social strategy", "text": "Four content pillars: new launches and pre-orders, card features and USPs, direct brand promotion, and witty community posts that collectors actually share." },
-    { "title": "Content production", "text": "Static and carousel posts built on the retailer's supplied product mockups and brand assets, with AI-generated visual frames — never third-party card artwork — so every post stayed on-brand and cleared for use." },
-    { "title": "Website support", "text": "A full storefront policy set written for the category: shipping, in-store pickup, pre-orders, TCG singles, fraud prevention and grading." }
+    {
+      "title": "Social strategy",
+      "text": "Four content pillars: new launches and pre-orders, card features and USPs, direct brand promotion, and witty community posts that collectors actually share."
+    },
+    {
+      "title": "Content production",
+      "text": "Static and carousel posts built on the retailer's supplied product mockups and brand assets, with AI-generated visual frames — never third-party card artwork — so every post stayed on-brand and cleared for use."
+    },
+    {
+      "title": "Website support",
+      "text": "A full storefront policy set written for the category: shipping, in-store pickup, pre-orders, TCG singles, fraud prevention and grading."
+    }
   ],
   "results": [
     "Impact figures — follower growth, engagement, website sessions from Instagram, pre-order volume and store footfall — are published once confirmed with the client."
   ],
-  "quote": { "text": "", "name": "", "role": "" },
+  "quote": {
+    "text": "",
+    "name": "",
+    "role": ""
+  },
   "gallery": 6,
-  "galleryNotes": ["6-post grid", "Carousel 1", "Carousel 2", "Policy page screenshot", "Launch post", "Community post"],
+  "galleryNotes": [
+    "6-post grid",
+    "Carousel 1",
+    "Carousel 2",
+    "Policy page screenshot",
+    "Launch post",
+    "Community post"
+  ],
   "notes": "Do not display third-party IP (e.g. Pokémon artwork or logos) in case-study imagery unless cleared; use our own creative frames or blurred versions.",
   "video": "",
-  "images": { "hero": "", "card": "", "og": "" },
+  "images": {
+    "hero": "",
+    "card": "",
+    "og": ""
+  },
   "meta": {
     "title": "New Rave case study — Instagram for a TCG retailer | gaa-tha",
     "description": "How gaa-tha built an Instagram content system and storefront policies for New Rave, a trading-card and hobbies retailer in Canada."

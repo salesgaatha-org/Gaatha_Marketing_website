@@ -1,6 +1,6 @@
 {
   "slug": "ghanshyam-snacks",
-  "published": false,
+  "published": true,
   "featured": true,
   "client": "ghanshyam-snacks",
   "headline": "From ad leads to real buyers — a B2B snack manufacturer's content and lead engine.",
@@ -9,33 +9,87 @@
   "location": "Gujarat",
   "duration": "TODO-DATA",
   "channels": "Meta ads, WhatsApp, IndiaMART, Instagram, catalogue",
-  "filters": ["performance-ads", "b2b-export", "social-reels", "campaigns-cinema"],
-  "services": ["meta-ads-agency", "b2b-lead-generation", "social-media-marketing", "reels-short-form-video", "catalogues-presentations", "cinema-ads-film-production"],
+  "filters": [
+    "performance-ads",
+    "b2b-export",
+    "social-reels",
+    "campaigns-cinema"
+  ],
+  "services": [
+    "meta-ads-agency",
+    "b2b-lead-generation",
+    "social-media-marketing",
+    "reels-short-form-video",
+    "catalogues-presentations",
+    "cinema-ads-film-production"
+  ],
   "metrics": [
-    { "label": "Leads per month", "value": "TODO-DATA" },
-    { "label": "Qualification rate", "value": "TODO-DATA" },
-    { "label": "Junk-lead reduction", "value": "TODO-DATA" },
-    { "label": "IndiaMART enquiries", "value": "TODO-DATA" }
+    {
+      "label": "Leads per month",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Qualification rate",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Junk-lead reduction",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "IndiaMART enquiries",
+      "value": "TODO-DATA"
+    }
   ],
   "challenge": [
     "Ghanshyam Snacks manufactures bulk peanuts and white-label snacks for B2B buyers. Paid campaigns were producing a high volume of leads, but many were fake or low-quality, and the sales team was spending its day filtering rather than selling.",
     "Alongside the lead problem, the brand needed B2B positioning, a proper product catalogue and consistent social content."
   ],
   "workstreams": [
-    { "title": "Meta ads & lead generation", "text": "Lead campaigns rebuilt with a WhatsApp first-reply system designed so fake leads filter themselves out before a human replies, plus a B2B reply template for IndiaMART enquiries." },
-    { "title": "Lead-management SOP & tracker", "text": "A five-stage pipeline — capture, 24-hour qualification, quote, Day 1/3/7 follow-up, weekly review — with an Excel/Sheets dashboard showing qualification rate, conversion rate, pipeline value and junk percentage by ad source." },
-    { "title": "Social media", "text": "50-post content sets and reel production briefs so the brand's Instagram reads as a manufacturer buyers can trust." },
-    { "title": "Brand & sales assets", "text": "A product catalogue, B2B positioning material and IndiaMART listing assets built to the same visual system." },
-    { "title": "Cinematic product film", "text": "A sand-roasted peanut macro ad sequence — the product as the hero, shot to make a commodity look premium." }
+    {
+      "title": "Meta ads & lead generation",
+      "text": "Lead campaigns rebuilt with a WhatsApp first-reply system designed so fake leads filter themselves out before a human replies, plus a B2B reply template for IndiaMART enquiries."
+    },
+    {
+      "title": "Lead-management SOP & tracker",
+      "text": "A five-stage pipeline — capture, 24-hour qualification, quote, Day 1/3/7 follow-up, weekly review — with an Excel/Sheets dashboard showing qualification rate, conversion rate, pipeline value and junk percentage by ad source."
+    },
+    {
+      "title": "Social media",
+      "text": "50-post content sets and reel production briefs so the brand's Instagram reads as a manufacturer buyers can trust."
+    },
+    {
+      "title": "Brand & sales assets",
+      "text": "A product catalogue, B2B positioning material and IndiaMART listing assets built to the same visual system."
+    },
+    {
+      "title": "Cinematic product film",
+      "text": "A sand-roasted peanut macro ad sequence — the product as the hero, shot to make a commodity look premium."
+    }
   ],
   "results": [
     "The lead pipeline now has a qualification step, a follow-up rhythm and a dashboard that shows which ad sources produce buyers and which produce noise. Figures for leads, qualification rate, junk reduction and conversions are published once confirmed from the tracker."
   ],
-  "quote": { "text": "", "name": "", "role": "" },
+  "quote": {
+    "text": "",
+    "name": "",
+    "role": ""
+  },
   "gallery": 6,
-  "galleryNotes": ["Catalogue spread", "Social grid", "Reel still 1", "Reel still 2", "Dashboard screenshot (data blurred)", "IndiaMART listing asset"],
+  "galleryNotes": [
+    "Catalogue spread",
+    "Social grid",
+    "Reel still 1",
+    "Reel still 2",
+    "Dashboard screenshot (data blurred)",
+    "IndiaMART listing asset"
+  ],
   "video": "",
-  "images": { "hero": "", "card": "", "og": "" },
+  "images": {
+    "hero": "",
+    "card": "",
+    "og": ""
+  },
   "meta": {
     "title": "Ghanshyam Snacks case study — B2B lead engine | gaa-tha",
     "description": "How gaa-tha turned Ghanshyam Snacks' Meta ad leads into qualified B2B buyers with a WhatsApp filter, a lead SOP and tracker, social content and a cinematic product film."

@@ -1,6 +1,6 @@
 {
   "slug": "charliee",
-  "published": false,
+  "published": true,
   "featured": true,
   "client": "charliee",
   "headline": "Rebuilding a 200+ SKU snack brand's online store — and its sales engine.",
@@ -9,32 +9,84 @@
   "location": "Gujarat & Mumbai",
   "duration": "TODO-DATA",
   "channels": "Shopify, AI imagery, cinematic product ads, B2B/export creative, field sales material",
-  "filters": ["websites-shopify", "ecommerce-marketplaces", "branding", "b2b-export"],
-  "services": ["shopify-development", "shopify-store-management", "product-photography-ecommerce", "graphic-design", "catalogues-presentations", "ai-ads-ai-ad-shoots", "business-tools-automation"],
+  "filters": [
+    "websites-shopify",
+    "ecommerce-marketplaces",
+    "branding",
+    "b2b-export"
+  ],
+  "services": [
+    "shopify-development",
+    "shopify-store-management",
+    "product-photography-ecommerce",
+    "graphic-design",
+    "catalogues-presentations",
+    "ai-ads-ai-ad-shoots",
+    "business-tools-automation"
+  ],
   "metrics": [
-    { "label": "Website orders", "value": "TODO-DATA" },
-    { "label": "Store conversion rate", "value": "TODO-DATA" },
-    { "label": "Catalogue completeness", "value": "TODO-DATA" },
-    { "label": "Export enquiries", "value": "TODO-DATA" }
+    {
+      "label": "Website orders",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Store conversion rate",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Catalogue completeness",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Export enquiries",
+      "value": "TODO-DATA"
+    }
   ],
   "challenge": [
     "Charliee is a large regional snack brand with more than 200 SKUs across namkeen, chikki, khakhra, chips, sweets and bakery. Its online store did not reflect the quality of the products, the catalogue was inconsistent, and the brand needed marketing assets that worked for two very different buyers: domestic consumers and white-label export customers.",
     "The brief was to rebuild the store as a proper sales channel, bring the catalogue under control, and give the field sales team and export desk material they would actually use."
   ],
   "workstreams": [
-    { "title": "Shopify website", "text": "A full UI/UX audit and overhaul of the store, starting with a homepage prototype and a product-content workbook covering all 200+ SKUs. We rebuilt the product cards and contact page, added a corporate-gifting page and category cover imagery, and built a batch-number lookup tool so customers can check a pack's details. Store handling is ongoing, including bulk MRP updates across categories." },
-    { "title": "Branding & creative", "text": "Category visuals for the store and social, AI-produced product imagery for the long tail of SKUs, and cinematic product ads for launches and festive pushes." },
-    { "title": "B2B & export creative", "text": "Advertising creatives that position Charliee as a white-label manufacturing partner for export buyers, separate in tone and format from the consumer-facing work." },
-    { "title": "Sales enablement", "text": "An annual sales-meet kit for the field team across Gujarat and Mumbai — target workbooks, price lists, a standee and the speech — so the plan for the year was in every rep's hands on day one." }
+    {
+      "title": "Shopify website",
+      "text": "A full UI/UX audit and overhaul of the store, starting with a homepage prototype and a product-content workbook covering all 200+ SKUs. We rebuilt the product cards and contact page, added a corporate-gifting page and category cover imagery, and built a batch-number lookup tool so customers can check a pack's details. Store handling is ongoing, including bulk MRP updates across categories."
+    },
+    {
+      "title": "Branding & creative",
+      "text": "Category visuals for the store and social, AI-produced product imagery for the long tail of SKUs, and cinematic product ads for launches and festive pushes."
+    },
+    {
+      "title": "B2B & export creative",
+      "text": "Advertising creatives that position Charliee as a white-label manufacturing partner for export buyers, separate in tone and format from the consumer-facing work."
+    },
+    {
+      "title": "Sales enablement",
+      "text": "An annual sales-meet kit for the field team across Gujarat and Mumbai — target workbooks, price lists, a standee and the speech — so the plan for the year was in every rep's hands on day one."
+    }
   ],
   "results": [
     "The store now carries a complete, consistent catalogue with imagery per category, a gifting route for corporate buyers and tooling that reduces support queries. Impact figures are published here once confirmed from store and sales reports."
   ],
-  "quote": { "text": "", "name": "", "role": "" },
+  "quote": {
+    "text": "",
+    "name": "",
+    "role": ""
+  },
   "gallery": 6,
-  "galleryNotes": ["Store homepage mockup (desktop + mobile)", "Product page", "Corporate gifting page", "Sales-meet standee", "Export ad creative", "Category cover imagery"],
+  "galleryNotes": [
+    "Store homepage mockup (desktop + mobile)",
+    "Product page",
+    "Corporate gifting page",
+    "Sales-meet standee",
+    "Export ad creative",
+    "Category cover imagery"
+  ],
   "video": "",
-  "images": { "hero": "", "card": "", "og": "" },
+  "images": {
+    "hero": "",
+    "card": "",
+    "og": ""
+  },
   "meta": {
     "title": "Charliee case study — 200+ SKU Shopify rebuild | gaa-tha",
     "description": "How gaa-tha rebuilt Charliee's Shopify store and 200-SKU catalogue, produced export-facing creative and equipped a field sales team across Gujarat and Mumbai."

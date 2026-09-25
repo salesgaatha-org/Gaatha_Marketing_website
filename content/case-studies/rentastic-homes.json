@@ -1,6 +1,6 @@
 {
   "slug": "rentastic-homes",
-  "published": false,
+  "published": true,
   "featured": false,
   "client": "rentastic-homes",
   "headline": "Building trust for a PG brand — from brochures to a founder-led video series.",
@@ -9,31 +9,78 @@
   "location": "TODO-DATA",
   "duration": "TODO-DATA",
   "channels": "Instagram, YouTube, brochures",
-  "filters": ["social-reels", "branding"],
-  "services": ["graphic-design", "content-writing-copywriting", "reels-short-form-video", "social-media-marketing"],
+  "filters": [
+    "social-reels",
+    "branding"
+  ],
+  "services": [
+    "graphic-design",
+    "content-writing-copywriting",
+    "reels-short-form-video",
+    "social-media-marketing"
+  ],
   "metrics": [
-    { "label": "Enquiries", "value": "TODO-DATA" },
-    { "label": "Site visits", "value": "TODO-DATA" },
-    { "label": "Occupancy rate", "value": "TODO-DATA" },
-    { "label": "Reel views", "value": "TODO-DATA" }
+    {
+      "label": "Enquiries",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Site visits",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Occupancy rate",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Reel views",
+      "value": "TODO-DATA"
+    }
   ],
   "challenge": [
     "Choosing a PG is a trust decision made by students and parents who have never met the operator. Rentastic Homes needed material that answered their questions before the first call, and content that put the founder in front of the audience consistently."
   ],
   "workstreams": [
-    { "title": "Sales material", "text": "A Girls PG brochure covering rooms, safety, food, rules and pricing structure in a format parents could forward." },
-    { "title": "Operations", "text": "A tenant check-out form so move-outs are documented the same way every time." },
-    { "title": "Content", "text": "A 15-episode founder series — scripts and a branded script book — designed for Instagram and YouTube so the founder could record in batches." },
-    { "title": "To confirm", "text": "Social media management, Meta lead ads for occupancy and Google Business Profile — scope to be confirmed with the team before publishing." }
+    {
+      "title": "Sales material",
+      "text": "A Girls PG brochure covering rooms, safety, food, rules and pricing structure in a format parents could forward."
+    },
+    {
+      "title": "Operations",
+      "text": "A tenant check-out form so move-outs are documented the same way every time."
+    },
+    {
+      "title": "Content",
+      "text": "A 15-episode founder series — scripts and a branded script book — designed for Instagram and YouTube so the founder could record in batches."
+    },
+    {
+      "title": "To confirm",
+      "text": "Social media management, Meta lead ads for occupancy and Google Business Profile — scope to be confirmed with the team before publishing."
+    }
   ],
   "results": [
     "Enquiries, site visits, occupancy and reel views are published once confirmed."
   ],
-  "quote": { "text": "", "name": "", "role": "" },
+  "quote": {
+    "text": "",
+    "name": "",
+    "role": ""
+  },
   "gallery": 6,
-  "galleryNotes": ["Brochure spread", "Founder-series still 1", "Founder-series still 2", "Script book cover", "Check-out form", "Instagram grid"],
+  "galleryNotes": [
+    "Brochure spread",
+    "Founder-series still 1",
+    "Founder-series still 2",
+    "Script book cover",
+    "Check-out form",
+    "Instagram grid"
+  ],
   "video": "",
-  "images": { "hero": "", "card": "", "og": "" },
+  "images": {
+    "hero": "",
+    "card": "",
+    "og": ""
+  },
   "meta": {
     "title": "Rentastic Homes case study — PG brand trust | gaa-tha",
     "description": "How gaa-tha built trust for Rentastic Homes with a PG brochure, operations forms and a 15-episode founder-led video series for Instagram and YouTube."
