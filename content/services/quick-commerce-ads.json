@@ -1,0 +1,63 @@
+{
+  "slug": "quick-commerce-ads",
+  "group": "quick-commerce",
+  "order": 10,
+  "published": true,
+  "name": "Quick Commerce Ads",
+  "shortName": "Quick commerce ads",
+  "promise": "Search, category and banner ads on Blinkit, Zepto and Instamart, run to a target ROAS.",
+  "intro": "gaa-tha runs quick commerce ads for brands in India: sponsored search and product listing ads, category placements and banner campaigns on Blinkit, Zepto and Swiggy Instamart, structured by SKU and city, switched off where stock is out, and optimised weekly against a target ROAS — with spend paid directly to each platform and reported alongside availability and sales.",
+  "glance": {
+    "bestFor": "FMCG, food and beverage, beauty and personal care brands live on at least one quick-commerce platform",
+    "timeline": "Setup in 1–2 weeks, then monthly",
+    "model": "Monthly management fee; ad spend paid directly to each platform",
+    "channels": "Blinkit Ads, Zepto Ads, Swiggy Instamart Ads, with Flipkart Minutes and Amazon Now via Flipkart Ads and Amazon Ads"
+  },
+  "whatIs": [
+    "Quick commerce ads are the paid placements inside 10-minute delivery apps — sponsored products on search results, sponsored slots on category pages and banner placements on the home and category screens — on Blinkit, Zepto and Swiggy Instamart, with Flipkart Minutes and Amazon Now reached through their parent marketplaces' ad systems. Because the shopper is minutes from buying, these ads convert on stock and price as much as on creative, and they only work where the SKU is actually available in that city.",
+    "At gaa-tha quick-commerce ads are run by the same team that tracks your availability, so budget follows stock. We structure campaigns by SKU, city and platform, agree a target ROAS from your margin, bid on the search terms shoppers actually type for your category, and pause any city where the product is out of stock. Reporting shows spend, ROAS and sales next to availability and organic rank, because a good ad month on quick commerce is usually a good availability month."
+  ],
+  "included": [
+    "Ad account setup or audit on Blinkit Ads, Zepto Ads and Swiggy Instamart Ads",
+    "Campaign structure by SKU, city and platform with a target ROAS derived from margin",
+    "Keyword research per platform: category terms, competitor terms, occasions and pack-size searches",
+    "Sponsored product and search campaigns with weekly bid and budget optimisation",
+    "Category-page and banner campaigns for launches, festive periods and platform sale events",
+    "Availability-linked pausing so ads do not run in cities where the SKU is out of stock",
+    "Creative for banners and thumbnails produced in-house to each platform's specifications",
+    "Coordination with promotions so ads and offers land in the same week",
+    "Monthly report on spend, ROAS, sales attributed, organic rank movement and availability by city"
+  ],
+  "steps": [
+    { "title": "Audit and targets", "text": "We review current ad accounts, availability by city, margins and past performance, then agree the target ROAS and the SKUs to lead with." },
+    { "title": "Structure and keywords", "text": "Campaigns are built by SKU, city and platform, with keyword lists researched per platform and negative terms set from day one." },
+    { "title": "Creative and placements", "text": "Banners and thumbnails are produced to each platform's specifications and placements chosen for launches, sale events and always-on search." },
+    { "title": "Launch and optimise", "text": "Campaigns go live with daily checks in week one, then weekly optimisation of bids, budgets and keywords, and pausing wherever stock runs out." },
+    { "title": "Report and scale", "text": "Monthly reporting on spend, ROAS, sales and rank next to availability, with scaling rules for the SKUs and cities that are working." }
+  ],
+  "deliverables": [
+    "Configured ad accounts on each platform with campaign naming conventions",
+    "Keyword and negative-keyword lists per platform and category",
+    "Banner and thumbnail creative sets for each campaign",
+    "Weekly optimisation log with availability-linked pauses",
+    "Monthly quick-commerce ads report with spend, ROAS, sales and rank by city"
+  ],
+  "tools": ["Blinkit Ads", "Zepto Ads", "Swiggy Instamart Ads", "Flipkart Ads", "Amazon Ads", "Google Sheets", "Looker Studio", "Adobe Photoshop"],
+  "pricing": "Monthly management fee scoped to platforms, SKUs and cities; ad spend is paid by you directly to each platform with no markup.",
+  "faq": [
+    { "q": "What ad formats are available on Blinkit, Zepto and Instamart?", "a": "All three offer sponsored product placements on search results and category pages, and banner placements on the home screen and category pages, with some platforms adding brand pages or takeover formats for larger campaigns. Search ads drive most day-to-day sales; banners and category placements suit launches, festive periods and platform sale events. We pick the mix by SKU and objective." },
+    { "q": "How much should I spend on quick commerce ads?", "a": "Enough to be visible on your core search terms in your live cities without exceeding what your margin allows — usually a few thousand rupees a day across platforms to start, scaled by city as ROAS holds. We size the budget from your margin and target ROAS rather than a fixed rule, and never spend in a city where the SKU is out of stock." },
+    { "q": "Do you charge a percentage of ad spend?", "a": "No. Our fee is a flat monthly management fee scoped to platforms, SKUs and cities. Ad spend is paid by you directly to Blinkit, Zepto or Swiggy from your own ad account, so you always see exactly what was spent." },
+    { "q": "Why do you link ads to availability?", "a": "Because on quick commerce a click on an out-of-stock SKU is wasted money and can hurt your rank. We track availability at dark-store level every week and pause campaigns by city as soon as stock runs low, then resume when the next purchase order lands." },
+    { "q": "How do you measure ROAS on quick commerce?", "a": "Each platform reports attributed sales against ad spend, and we read it alongside total sales, organic rank and availability so that a rise in ad sales is not simply cannibalising organic ones. Monthly reports show ROAS by platform, SKU and city and the margin left after ads and platform charges." },
+    { "q": "Can you run ads on Flipkart Minutes and Amazon Now?", "a": "Yes, through Flipkart Ads and Amazon Ads, where quick-commerce listings inherit the marketplace's sponsored-product and display formats. We manage them from the same plan so budget across all five platforms follows availability and margin." },
+    { "q": "Should I run ads before my listings are stable?", "a": "Only once thumbnails, titles with pack size and pricing are right and stock is reliable in the target cities. Ads amplify whatever the listing already is; fixing the catalogue first usually costs less and lifts both organic and paid results." }
+  ],
+  "related": ["quick-commerce-content", "blinkit-account-management", "zepto-account-management", "marketplace-ads-management"],
+  "reading": ["blog-how-to-do-better-marketing", "blog-ai-ads-and-ai-ad-shoots-guide", "blog-marketing-strategy-guide"],
+  "meta": {
+    "title": "Quick Commerce Ads Agency in India | gaa-tha",
+    "description": "Sponsored search, category and banner ads on Blinkit, Zepto and Swiggy Instamart, structured by SKU and city, linked to stock and run to a target ROAS."
+  },
+  "updated": "2026-09-25"
+}

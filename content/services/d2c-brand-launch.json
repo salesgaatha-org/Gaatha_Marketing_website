@@ -1,0 +1,65 @@
+{
+  "slug": "d2c-brand-launch",
+  "group": "ecommerce",
+  "order": 8,
+  "published": true,
+  "name": "D2C Brand Launch",
+  "shortName": "D2C brand launch",
+  "promise": "Brand, store and launch campaign as one package — from name to first order.",
+  "intro": "gaa-tha launches D2C brands in India as one package: naming and brand identity, packaging and product photography, a Shopify store with checkout, shipping and tracking, a launch campaign across Instagram, Meta ads and influencers, and the first month of operations, so a founder goes from an idea to a first order with one team and one timeline.",
+  "glance": {
+    "bestFor": "Founders and manufacturers launching a consumer brand in food, beauty, wellness, fashion or home",
+    "timeline": "8–14 weeks from brief to first orders",
+    "model": "Phased project fee; optional monthly growth retainer after launch",
+    "channels": "Shopify, Instagram, Meta ads, Google, WhatsApp, influencers; Amazon and quick commerce later"
+  },
+  "whatIs": [
+    "A D2C brand launch is the end-to-end process of taking a product from concept to its first customers online: positioning and naming, brand identity and packaging, product photography and copy, an ecommerce store with payments and shipping, tracking, a launch campaign and the operating rhythm for the first weeks. Done as one project it avoids the usual gap where the brand agency finishes and the store and ads start from scratch.",
+    "gaa-tha runs launches for founders and for manufacturers moving from white-label or B2B supply into their own consumer brand. Strategy comes first — who the buyer is, what the product is for, why it costs what it costs — and every asset from the logo to the first reel is made against that. The Shopify store, Meta ads, influencer seeding and WhatsApp follow-ups are built by the same team, so launch day is a campaign, not a hope."
+  ],
+  "included": [
+    "Positioning workshop: buyer, category, price point, promise and launch range",
+    "Naming, logo and brand identity system with guidelines",
+    "Packaging design and print-ready artwork with mandatory label information",
+    "Product photography and AI ad shoots for store, marketplace and social use",
+    "Shopify store design and development with checkout, shipping, COD rules and tracking",
+    "Launch content: Instagram profile, reels, statics and copy for the first 30 days",
+    "Launch campaign: Meta ads, influencer and UGC seeding, WhatsApp broadcast and Google Business Profile",
+    "Pre-launch waitlist or early-access offer and a first-order incentive",
+    "First-month operations: order handling SOP, customer replies, reviews and a launch report"
+  ],
+  "steps": [
+    { "title": "Strategy and positioning", "text": "We define the buyer, the category story, the launch range and the price architecture, and write the brand brief every team works from." },
+    { "title": "Brand and packaging", "text": "Name, identity, packaging and label artwork are designed, tested with real buyers where possible and prepared for print." },
+    { "title": "Store and content", "text": "The Shopify store is built while photography, copy and the first month of social content are produced in parallel." },
+    { "title": "Pre-launch and launch", "text": "A waitlist or early-access offer warms the audience, then ads, influencer drops, reels and WhatsApp go live together on launch day." },
+    { "title": "First month and handover", "text": "Orders, replies, reviews and ad performance are managed daily, then reported with a plan for the growth phase." }
+  ],
+  "deliverables": [
+    "Brand strategy and positioning document",
+    "Brand identity, guidelines and packaging artwork",
+    "Product photo and video library",
+    "Live Shopify store with verified tracking",
+    "30-day launch content and ad creative",
+    "Launch campaign setup across Meta, Instagram, influencers and WhatsApp",
+    "Launch report with first-month numbers and the growth plan"
+  ],
+  "tools": ["Shopify", "Meta Ads Manager", "Instagram", "WhatsApp Business", "Razorpay", "Shiprocket", "Google Business Profile", "Adobe Creative Cloud"],
+  "pricing": "Phased project fee covering strategy, brand, store and launch, with milestones tied to each phase; ad spend, Shopify, apps and influencer fees are paid directly by you, and an optional monthly retainer takes over after launch.",
+  "faq": [
+    { "q": "What does a D2C brand launch package include?", "a": "Positioning, naming and brand identity, packaging, product photography, a Shopify store with payments, shipping and tracking, thirty days of launch content, a launch campaign across Meta ads, influencers and WhatsApp, and the first month of operations. gaa-tha delivers it as one phased project with one timeline." },
+    { "q": "How long does it take to launch a D2C brand?", "a": "Eight to fourteen weeks from brief to first orders, if the product is ready. Branding and packaging take three to five weeks, the store and content run in parallel for four to six, and pre-launch and launch take two to three. Packaging print lead times and product readiness are the usual delays." },
+    { "q": "Do I need branding before the store, or can I launch first and brand later?", "a": "Brand first, at least a minimum viable identity, because packaging, the store and every ad depend on it and redoing them later costs more than doing them once. The launch package is sequenced so the identity is locked before store design starts." },
+    { "q": "Should I launch on Shopify or Amazon first?", "a": "Your own Shopify store first for margin, customer data and brand control, with Amazon and quick commerce added once the product, reviews and creative are proven. For some categories — commodity staples, impulse snacks — a marketplace or Blinkit listing can come sooner, and we advise by category." },
+    { "q": "What do I need to have ready before we start?", "a": "A product that is formulated or manufactured, its cost and target price, any licences your category needs such as FSSAI for food or cosmetic registrations, GST registration and a bank account. Everything else — name, identity, packaging, store, content and campaign — is part of the package." },
+    { "q": "How much budget should I keep for launch ads?", "a": "Separate from the project fee, keep a launch media budget for the first four to eight weeks that can buy enough purchase data to learn what converts; we size it from your unit economics in the strategy phase rather than quoting a fixed figure. Influencer fees and samples are budgeted alongside it." },
+    { "q": "Can you keep running the brand after launch?", "a": "Yes. Most launches move into a monthly retainer covering store management, performance marketing, social content and, when ready, Amazon and quick-commerce onboarding, with the same team that built the brand." }
+  ],
+  "related": ["shopify-development", "d2c-performance-marketing", "ecommerce-seo", "branding-agency"],
+  "reading": ["blog-branding-vs-marketing", "blog-marketing-strategy-guide", "blog-instagram-reels-strategy"],
+  "meta": {
+    "title": "D2C Brand Launch Agency in India | gaa-tha",
+    "description": "Launch a D2C brand in India as one package — positioning, identity, packaging, product photography, Shopify store, launch campaign and first orders."
+  },
+  "updated": "2026-09-25"
+}

@@ -1,0 +1,9 @@
+name = "gaatha-publish"
+main = "publish-hook.js"
+compatibility_date = "2024-01-01"
+
+# Deploy:   wrangler deploy -c publish-hook.wrangler.toml
+# Secrets:  wrangler secret put GITHUB_TOKEN   -c publish-hook.wrangler.toml
+#           wrangler secret put GITHUB_REPO    -c publish-hook.wrangler.toml
+#           wrangler secret put ALLOWED_ORIGIN -c publish-hook.wrangler.toml
+# Then set PUBLISH_HOOK in content-admin.html to the worker URL.

@@ -1,0 +1,44 @@
+{
+  "slug": "kitcoz",
+  "published": false,
+  "featured": true,
+  "client": "kitcoz",
+  "headline": "A concern-led skincare brand, built from identity to checkout.",
+  "summary": "Brand identity, a Shopify store built around skin concerns and kits, Pixel and Conversions API tracking, Meta ad creative and 300 Instagram copy variations for Kitcoz (Elvey Essentials).",
+  "industry": "D2C beauty & personal care",
+  "location": "India",
+  "duration": "TODO-DATA",
+  "channels": "Shopify, Meta ads, Instagram",
+  "filters": ["websites-shopify", "branding", "performance-ads", "ecommerce-marketplaces"],
+  "services": ["branding-agency", "shopify-development", "conversion-rate-optimisation", "meta-ads-agency", "d2c-performance-marketing", "social-media-marketing", "ai-ads-ai-ad-shoots"],
+  "metrics": [
+    { "label": "Store conversion rate", "value": "TODO-DATA" },
+    { "label": "Average order value (kits)", "value": "TODO-DATA" },
+    { "label": "ROAS", "value": "TODO-DATA" },
+    { "label": "Checkout completion", "value": "TODO-DATA" }
+  ],
+  "challenge": [
+    "Kitcoz is a D2C skincare brand from Elvey Essentials. It needed to launch with a distinctive identity, a store built around skin concerns and product kits rather than a flat catalogue, and advertising that could be tracked accurately from the first rupee.",
+    "Products were already listed on Amazon, so the store also had to absorb that catalogue cleanly."
+  ],
+  "workstreams": [
+    { "title": "Brand identity", "text": "A teal colour system, a serif-plus-sans typography pairing, concern-led navigation and a brand manifesto that gave the store and the ads one voice." },
+    { "title": "Shopify development", "text": "The initial build and an Amazon-to-Shopify product migration, with custom sections: a combo-kit selector, concern-based collection filters, a pincode checker, product carousels and a cart drawer with coupons. GoKwik checkout integration and cash-on-delivery configuration." },
+    { "title": "Tracking", "text": "Meta Pixel and Conversions API setup with attribution troubleshooting, so campaign decisions were made on real purchase data." },
+    { "title": "Meta ads", "text": "A nine-kit creative pack and campaign structure, with extensive ad copy variations for testing." },
+    { "title": "Content", "text": "300 Instagram copy variations, each with a unique AI image direction, giving the brand months of on-brand content." }
+  ],
+  "results": [
+    "Conversion rate, kit AOV, ROAS, checkout completion and COD-versus-prepaid share are published once confirmed from Shopify and Meta reports."
+  ],
+  "quote": { "text": "", "name": "", "role": "" },
+  "gallery": 6,
+  "galleryNotes": ["Brand board", "Homepage mockup", "Kit selector UI", "Concern filter", "Ad creative 1", "Ad creative 2"],
+  "video": "",
+  "images": { "hero": "", "card": "", "og": "" },
+  "meta": {
+    "title": "Kitcoz case study — D2C skincare brand & Shopify | gaa-tha",
+    "description": "How gaa-tha built Kitcoz from brand identity to a concern-led Shopify store with kit selector, GoKwik checkout, Pixel/CAPI tracking and Meta ad creative."
+  },
+  "updated": "2026-09-25"
+}

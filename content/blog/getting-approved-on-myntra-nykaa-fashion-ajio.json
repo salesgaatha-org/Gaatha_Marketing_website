@@ -1,0 +1,65 @@
+{
+  "slug": "getting-approved-on-myntra-nykaa-fashion-ajio",
+  "published": false,
+  "type": "cluster",
+  "category": "Commerce",
+  "title": "Getting approved on Myntra, Nykaa Fashion and AJIO",
+  "excerpt": "What fashion and beauty marketplaces look for before they approve a brand, how to prepare the catalogue and imagery, and what happens after approval.",
+  "intro": "Myntra, Nykaa Fashion and AJIO are curated platforms: a brand is approved on the strength of its identity, catalogue quality, imagery and commercial fit before it sells a single unit. Approval takes weeks rather than days and depends on presentation. Brands that arrive with a clear story, consistent model photography, complete size and attribute data and realistic pricing are approved faster and placed better.",
+  "takeaways": [
+    "Curated platforms judge the brand before the sales; presentation is the application.",
+    "Consistent model photography and complete attributes are non-negotiable.",
+    "Have a trademark and brand documents ready before applying.",
+    "After approval, the operating rhythm is style-level accuracy, drops and events."
+  ],
+  "sections": [
+    {
+      "h2": "What do fashion and beauty marketplaces look for?",
+      "html": "<p>Category teams assess whether the brand adds something to their assortment: a distinct positioning, a price band that fits the platform’s customers, a catalogue deep enough to merchandise, and imagery that meets the platform’s standard without rework. They also check brand ownership, existing sales channels and the ability to fulfil at the platform’s service levels.</p>\n<p>The application is therefore a brand presentation as much as a form. A brand built with a clear identity from the start, such as <a href=\"/work/kitcoz\">Kitcoz</a>, has most of what an eligibility review asks for already in hand.</p>"
+    },
+    {
+      "h2": "What documents and data are required?",
+      "html": "<p>Typically GST, PAN, bank details, a registered trademark or a pending application with authorisation, and for beauty products the applicable manufacturing or import licences and ingredient declarations. Product data includes style codes, colours, sizes with a size chart, fabric or ingredient details, care instructions and MRP. Requirements differ by platform and change over time; verify the current list before applying. Our <a href=\"/services/myntra-onboarding\">Myntra</a>, <a href=\"/services/nykaa-onboarding\">Nykaa</a> and <a href=\"/services/ajio-onboarding\">AJIO onboarding</a> pages keep the checklists current.</p>"
+    },
+    {
+      "h2": "How should the catalogue and imagery be prepared?",
+      "html": "<p>Each platform publishes image specifications: model shots against a specified background, a set of angles per style, a detail shot, and consistent lighting and cropping across the range. Submissions that fall short are sent back, which is the most common reason approval takes longer than expected.</p>\n<p>Plan one shoot to cover all three platforms plus your own store, producing the required angles for each. <a href=\"/services/product-photography-ecommerce\">Ecommerce product photography</a> plans shoots against platform specs, and AI-assisted imagery can extend a range where a full model shoot is not practical.</p>"
+    },
+    {
+      "h2": "What happens after approval?",
+      "html": "<p>Listings go live style by style after catalogue QC. From then on the work is keeping style data accurate, managing sizes and returns, planning seasonal drops, participating in the platform’s events and running ads where they pay. Pricing and assortment often need to differ slightly per platform. <a href=\"/services/fashion-marketplace-growth\">Fashion marketplace growth</a> is the plan that ties these together across Myntra, Nykaa Fashion, AJIO and Flipkart.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does Myntra approval take?",
+      "a": "Several weeks is typical, and longer if the catalogue or images need to be resubmitted. A complete application with spec-ready imagery and full attribute data is the fastest route."
+    },
+    {
+      "q": "Can a new brand get on Nykaa Fashion?",
+      "a": "Yes, if the brand fits the platform’s positioning and price band and presents a coherent identity and catalogue. Existing D2C or retail sales strengthen the case but are not the only factor."
+    },
+    {
+      "q": "Do I need a trademark to sell on Myntra or AJIO?",
+      "a": "A registered trademark, or a pending application with supporting authorisation, is normally required as proof of brand ownership. Apply for the trademark before approaching the platforms."
+    },
+    {
+      "q": "Should I apply to all three at once?",
+      "a": "You can, but it is often better to secure one approval, learn the catalogue and operating requirements, and then apply to the next with a stronger, proven submission."
+    }
+  ],
+  "relatedServices": [
+    "myntra-onboarding",
+    "nykaa-onboarding",
+    "ajio-onboarding",
+    "fashion-marketplace-growth",
+    "product-photography-ecommerce"
+  ],
+  "relatedCase": "kitcoz",
+  "author": "gaa-tha",
+  "readMinutes": 4,
+  "cover": "cov-a",
+  "mark": "My",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "graphic-design",
+  "group": "brand-and-creative",
+  "order": 2,
+  "published": true,
+  "name": "Graphic Design",
+  "shortName": "Graphic design",
+  "promise": "Campaign, social, print and packaging design that makes a message clearer, faster and more trustworthy.",
+  "intro": "gaa-tha's graphic design service produces campaign, social, print and packaging creative that makes a message clearer, faster and more trustworthy: Instagram posts and carousels, hoardings and transit ads, standees and in-store POS, labels, brochures, sales decks and infographics — designed by one team on a monthly retainer or per project, with most sets delivered in two to seven days.",
+  "glance": {
+    "bestFor": "Brands running always-on social content or seasonal campaigns across social, print and in-store",
+    "timeline": "2–7 days per set",
+    "model": "Monthly retainer or per project",
+    "channels": "Instagram, LinkedIn, WhatsApp, hoardings, transit, print, packaging, in-store"
+  },
+  "whatIs": [
+    "Graphic design is the craft of arranging type, colour, image and space so a message is understood quickly and trusted — on a social post, a hoarding, a product label or a sales deck. Good design is not decoration; it decides what a person reads first, what they feel about the brand, and whether they act.",
+    "gaa-tha runs graphic design as a production line with an art director at the front. Every brief starts from the brand guidelines and the campaign idea, is designed once for the lead format, then adapted correctly to every size — Instagram carousel, WhatsApp creative, auto-rickshaw panel, bus shelter, standee, catalogue page — so a festive campaign in Surat or Ahmedabad looks the same on the road as it does on the phone."
+  ],
+  "included": [
+    "Social media posts, carousels and stories for Instagram, LinkedIn and Facebook",
+    "WhatsApp broadcast creatives and status designs",
+    "Hoardings, banners and outdoor adaptations",
+    "Auto-rickshaw, bus and other transit creatives",
+    "Standees, danglers, shelf talkers and in-store POS",
+    "Catalogues, brochures and leaflets",
+    "Product labels and packaging artwork on print-ready dielines",
+    "Presentations and sales decks",
+    "Infographics and explainer visuals",
+    "Print-ready files with bleed, CMYK conversion and printer coordination"
+  ],
+  "steps": [
+    {
+      "title": "Brief",
+      "text": "Each request comes in on a shared tracker with the objective, the message, the formats and the deadline. We ask the questions that stop revisions later."
+    },
+    {
+      "title": "Concept",
+      "text": "The lead creative is designed first — the hero post, the master hoarding or the catalogue cover — and shared for one round of direction."
+    },
+    {
+      "title": "Adapt",
+      "text": "The approved concept is adapted to every size and surface with correct safe areas, resolution and colour profile for screen or print."
+    },
+    {
+      "title": "Review",
+      "text": "Two rounds of revisions are built into every set; copy, prices, dates and mandatory text are checked against the brief before release."
+    },
+    {
+      "title": "Release and archive",
+      "text": "Final files go out in the formats each channel needs, and everything is filed in your shared brand library so it can be reused."
+    }
+  ],
+  "deliverables": [
+    "Monthly creative sets aligned to a content calendar",
+    "Print-ready PDFs with bleed and crop marks for hoardings, transit and POS",
+    "Social-ready exports in every platform size",
+    "Editable source files in Figma, Illustrator or Canva",
+    "A shared brand asset library organised by campaign",
+    "Packaging artwork on printer dielines with a proof approval"
+  ],
+  "tools": [
+    "Figma",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe InDesign",
+    "Canva",
+    "Midjourney",
+    "Google Drive"
+  ],
+  "pricing": "Monthly retainer priced by the number of creative sets per month, or a per-project fee for one-off campaigns, catalogues and packaging; printing is billed by the printer directly.",
+  "faq": [
+    {
+      "q": "What does a graphic design agency do?",
+      "a": "A graphic design agency turns a brand's messages into visual assets: social posts, ads, hoardings, packaging, catalogues, decks and infographics, designed to the brand's guidelines and to the technical specs of each channel. gaa-tha runs this as an ongoing retainer for brands that need creative every week, and per project for launches and festive campaigns."
+    },
+    {
+      "q": "How many designs can you deliver in a month?",
+      "a": "It depends on the mix: a retainer might cover twenty to forty social creatives plus a few print or outdoor adaptations, while a catalogue or packaging job is scoped separately. We agree a monthly volume and a turnaround of two to seven days per set, and scale up around Diwali, Navratri or a launch."
+    },
+    {
+      "q": "Do you design for print and outdoor as well as social?",
+      "a": "Yes. Hoardings, auto-rickshaw and bus creatives, standees, shelf talkers, brochures and packaging are all part of the service, delivered as print-ready PDFs with bleed, crop marks and CMYK colour. We coordinate with your printer or vendor on sizes and materials so nothing gets resized badly on site."
+    },
+    {
+      "q": "Do you use AI in graphic design?",
+      "a": "Yes, where it helps: AI image generation for backgrounds, product scenes and concept boards, and AI-assisted resizing for large adaptation sets. Layout, typography, brand consistency and final judgement stay with a human designer, and every output is checked against your guidelines."
+    },
+    {
+      "q": "Can you work within our existing brand guidelines?",
+      "a": "Yes. Most retainers start with a brand we did not create. We audit the guidelines and existing assets, build a working template library in the first week, and flag gaps — a missing dark-background logo, no Gujarati or Hindi type pairing — for you to decide on."
+    },
+    {
+      "q": "What if we do not have brand guidelines?",
+      "a": "We can design from your existing logo and assets while we set a light system — colours, type, layout rules — in the first month. If you need a proper identity, our branding service builds it and the design retainer then runs on top of it."
+    },
+    {
+      "q": "How do revisions work?",
+      "a": "Every set includes two rounds of revisions. Feedback is collected in one place on a shared tracker so the whole team's comments arrive together, and changes to copy, prices or dates after final approval are handled as a quick fix rather than a new job."
+    },
+    {
+      "q": "Which file formats do we receive?",
+      "a": "Social creatives as PNG or JPG in every platform size, print as PDF with bleed, packaging as PDF on dielines, and editable sources in Figma, Illustrator or Canva as agreed at the start. Everything is stored in a shared Google Drive brand library that stays yours."
+    }
+  ],
+  "related": [
+    "branding-agency",
+    "catalogues-presentations",
+    "ai-ads-ai-ad-shoots",
+    "social-media-marketing"
+  ],
+  "reading": [
+    "blog-what-is-graphic-design",
+    "blog-branding-vs-marketing",
+    "blog-how-to-do-better-marketing"
+  ],
+  "meta": {
+    "title": "Graphic Design Agency in India | gaa-tha",
+    "description": "Social, print, packaging and outdoor design from one team — posts, carousels, hoardings, transit ads, POS, labels, decks and infographics in 2–7 days."
+  },
+  "updated": "2026-09-25"
+}

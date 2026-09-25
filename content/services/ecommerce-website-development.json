@@ -1,0 +1,65 @@
+{
+  "slug": "ecommerce-website-development",
+  "group": "ecommerce",
+  "order": 3,
+  "published": true,
+  "name": "Ecommerce Website Development",
+  "shortName": "Ecommerce websites",
+  "promise": "WooCommerce, headless and custom ecommerce builds for brands that need more than Shopify offers.",
+  "intro": "gaa-tha develops ecommerce websites on WordPress and WooCommerce, headless frameworks and custom stacks for Indian brands that need something Shopify does not offer — B2B price lists and quote flows, multi-currency export catalogues, deep ERP integrations or an existing WordPress site — with Razorpay or PayU payments, shipping integrations and full tracking built in.",
+  "glance": {
+    "bestFor": "B2B sellers, manufacturers and exporters, brands already on WordPress, and stores with custom pricing or catalogue logic",
+    "timeline": "4–10 weeks depending on platform and integrations",
+    "model": "Fixed-scope project; optional maintenance and hosting retainer",
+    "channels": "WordPress, WooCommerce, headless (Next.js), custom builds, Razorpay, PayU"
+  },
+  "whatIs": [
+    "Ecommerce website development is the design and coding of an online store on a platform other than a hosted builder: WordPress with WooCommerce, a headless front end connected to a commerce back end, or a fully custom application. It suits businesses whose catalogue, pricing or integrations do not fit a standard template — tiered B2B pricing, request-a-quote flows, dealer logins, configurable products or a connection to an existing ERP.",
+    "gaa-tha recommends Shopify for most D2C brands and builds elsewhere when there is a clear reason. WooCommerce is the common choice for brands already on WordPress or needing plugin-level control; headless builds are for brands where speed and a custom front end matter; custom applications are for genuinely unusual commerce logic. Whatever the stack, the store ships with Indian payment gateways, shipping integrations, structured data and verified tracking."
+  ],
+  "included": [
+    "Platform recommendation — Shopify, WooCommerce, headless or custom — with reasons",
+    "UX and information architecture for catalogue, product, cart, checkout and account pages",
+    "WooCommerce theme and plugin development, or a headless front end on a commerce API",
+    "B2B features: tiered pricing, dealer or distributor logins, minimum order quantities, request-a-quote",
+    "Payment integration with Razorpay, PayU or Cashfree, plus Stripe or PayPal for international buyers",
+    "Shipping integrations such as Shiprocket and Delhivery, pincode checks and COD rules",
+    "ERP, inventory, CRM or accounting integrations via API or scheduled sync",
+    "Product, Review and Breadcrumb schema, sitemap and technical SEO from day one",
+    "Meta Pixel, Conversions API and GA4 event tracking through Google Tag Manager",
+    "Hosting setup, security hardening, backups and a performance baseline"
+  ],
+  "steps": [
+    { "title": "Discovery and platform choice", "text": "We map your catalogue, pricing rules, buyers and integrations, then recommend the stack and document the scope." },
+    { "title": "Architecture and design", "text": "Site structure, data model and mobile-first designs for the key templates, including any B2B account or quote flows." },
+    { "title": "Development", "text": "Theme, plugin or front-end development, payment and shipping integrations, and API connections to your ERP or inventory system." },
+    { "title": "Data, content and SEO", "text": "Products, categories, images and copy are loaded, schema and redirects added, and the site is checked against a technical SEO list." },
+    { "title": "Testing, launch and handover", "text": "Test orders on every payment method, load and security checks, go-live and a training session with your team." }
+  ],
+  "deliverables": [
+    "Live ecommerce site on your domain and hosting, with full source access",
+    "Configured payments, shipping, tax and COD rules",
+    "Integration documentation for ERP, inventory or CRM connections",
+    "Verified tracking setup for Meta, Google Ads and GA4",
+    "Admin guide and recorded training for your team",
+    "Technical SEO and performance report at launch"
+  ],
+  "tools": ["WordPress", "WooCommerce", "Next.js", "Razorpay", "PayU", "Shiprocket", "Google Tag Manager", "Cloudflare"],
+  "pricing": "Fixed-scope project fee based on platform, templates and integrations; hosting, domain, plugins and payment-gateway charges are paid by you to the providers, and an optional monthly retainer covers updates, security and fixes.",
+  "faq": [
+    { "q": "When should I choose WooCommerce or a custom build over Shopify?", "a": "When you already run a WordPress site with content and rankings, need plugin-level control, have B2B pricing or quote logic, sell configurable or made-to-order products, or must integrate tightly with an ERP. For a standard D2C catalogue Shopify is usually faster and cheaper to run. gaa-tha tells you honestly which fits before quoting." },
+    { "q": "How long does an ecommerce website take to build?", "a": "Four to ten weeks. A WooCommerce store on a customised theme with a straightforward catalogue sits at the faster end; headless builds, B2B account systems and ERP integrations take longer because of data mapping and testing. Content and product data readiness is the biggest variable." },
+    { "q": "Can you build a B2B ecommerce site with dealer pricing?", "a": "Yes. Dealer and distributor logins, tiered or customer-group pricing, minimum order quantities, credit-terms checkout and request-a-quote flows are common in our manufacturer and exporter builds. Prices can be hidden from the public and shown only after approval." },
+    { "q": "Which payment gateways work for Indian and international buyers?", "a": "Razorpay, PayU and Cashfree cover UPI, cards, net banking, wallets and EMI for Indian buyers; Stripe or PayPal are added for export customers paying in other currencies. Gateway fees vary by provider and payment method, and we share the current structures before you choose." },
+    { "q": "Can you connect the store to my ERP or inventory system?", "a": "Yes, where the system has an API or an export we can schedule. Typical connections sync stock, prices and orders between the store and Tally, Zoho, Busy, SAP Business One or a custom system, so your team is not keying orders twice." },
+    { "q": "Who hosts and maintains the site after launch?", "a": "Hosting is in your name on a provider we recommend for your traffic, and you own every login. Maintenance — updates, security patches, backups, speed checks and fixes — is available as a monthly retainer, or your team can take over with our documentation." },
+    { "q": "Will the site be found on Google and by AI assistants?", "a": "It is built to be: clean semantic HTML, Product, Review and Breadcrumb schema, fast Core Web Vitals, an XML sitemap, an llms.txt file and answer-first category copy. Ongoing ecommerce SEO is a separate service if you want rankings actively grown." }
+  ],
+  "related": ["shopify-development", "ecommerce-seo", "d2c-performance-marketing", "website-development"],
+  "reading": ["blog-seo-aeo-geo-guide", "blog-how-to-do-better-marketing"],
+  "meta": {
+    "title": "Ecommerce Website Development in India | gaa-tha",
+    "description": "WooCommerce, headless and custom ecommerce builds for brands that need more than Shopify — B2B pricing, ERP integrations, Indian payments and tracking."
+  },
+  "updated": "2026-09-25"
+}

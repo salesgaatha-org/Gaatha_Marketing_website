@@ -1,0 +1,65 @@
+{
+  "slug": "shopify-development",
+  "group": "ecommerce",
+  "order": 1,
+  "published": true,
+  "name": "Shopify Store Design & Development",
+  "shortName": "Shopify stores",
+  "promise": "Shopify stores designed for conversion and built for speed — custom themes, custom sections and the checkout integrations Indian D2C brands need.",
+  "intro": "gaa-tha designs and develops Shopify stores for Indian D2C brands that are built to convert, not just to look good — custom themes and Liquid sections, GoKwik or Shopflo checkout and Razorpay payments, COD and pincode rules, Meta Pixel, Conversions API and GA4 tracking, and product migration from Amazon or your old platform, delivered in two to six weeks.",
+  "glance": {
+    "bestFor": "D2C brands in beauty, food, fashion, home and wellness selling from their own site",
+    "timeline": "2–6 weeks depending on catalogue size and integrations",
+    "model": "Fixed-scope project; optional monthly maintenance retainer",
+    "channels": "Shopify, Razorpay, GoKwik, Shopflo, Shiprocket, Meta, Google"
+  },
+  "whatIs": [
+    "Shopify store design and development is the work of planning, designing and coding an online store on Shopify: the theme and page layouts, custom sections such as kit builders and pincode checkers, checkout and payment integrations, shipping and cash-on-delivery rules, analytics tracking and the product catalogue itself. A good build is judged by how easily a visitor finds, trusts and buys a product on a phone, not by how the homepage looks on a designer's monitor.",
+    "At gaa-tha every store starts with a UX audit of what Indian shoppers actually do — browse on mobile, compare on WhatsApp, prefer COD until they trust you — and the theme is built around those habits. The same team handles product photography, copy and the Meta and Google tracking, so the store is ready to run ads on the day it goes live."
+  ],
+  "included": [
+    "UX audit and conversion-first wireframes for home, collection, product, cart and checkout",
+    "Custom Shopify theme, or Liquid customisation of a premium theme",
+    "Custom sections: combo and kit builders, concern-based filters, pincode checkers, product carousels, cart drawers with coupons",
+    "Checkout integrations such as GoKwik, Shopflo and Razorpay with UPI, cards, wallets and EMI",
+    "COD and prepaid rules, partial-payment and COD-verification setup",
+    "Shipping zones, rate rules and pincode serviceability logic",
+    "Meta Pixel and Conversions API, GA4 and Google Tag Manager with verified purchase events",
+    "Product migration from Amazon, Flipkart, WooCommerce or spreadsheets with cleaned titles, variants and images",
+    "Speed optimisation: image compression, app cleanup, script deferral and Core Web Vitals checks",
+    "Launch checklist: domain, SSL, policies, legal pages, abandoned-cart and order notifications"
+  ],
+  "steps": [
+    { "title": "Audit and scope", "text": "We review your catalogue, current site or marketplace listings, margins and customer questions, then agree the page list, integrations and timeline." },
+    { "title": "Wireframes and design", "text": "Mobile-first wireframes for the key templates, then a visual design that carries your brand identity into product, collection and cart pages." },
+    { "title": "Build and integrate", "text": "Theme development in Liquid, custom sections, checkout, payments, shipping and COD rules, and the Pixel, CAPI and GA4 events." },
+    { "title": "Catalogue and content", "text": "Products, variants, collections, images and copy are loaded and checked; migrations are cleaned before import so nothing breaks at launch." },
+    { "title": "Test, launch and hand over", "text": "Test orders on every payment method and device, a go-live checklist, and a walkthrough so your team can manage the store day to day." }
+  ],
+  "deliverables": [
+    "Live Shopify store on your domain with a custom or customised theme",
+    "Configured checkout, payments, shipping and COD rules",
+    "Verified Meta Pixel, Conversions API and GA4 tracking with a purchase-event test log",
+    "Imported, cleaned product catalogue with collections and navigation",
+    "Store admin guide and a recorded walkthrough for your team",
+    "Speed and launch checklist report"
+  ],
+  "tools": ["Shopify", "Shopify Liquid", "Razorpay", "GoKwik", "Shopflo", "Shiprocket", "Meta Conversions API", "Google Analytics 4"],
+  "pricing": "Fixed-scope project fee based on templates, custom sections and integrations; an optional monthly maintenance retainer covers updates and fixes after launch. Shopify subscription and app charges are paid by you to the platforms.",
+  "faq": [
+    { "q": "How long does a Shopify store take to build?", "a": "Two to six weeks. A store on a customised premium theme with a small catalogue is at the faster end; custom themes, kit builders, pincode logic and migrations from Amazon or another platform add time for design and data cleanup. Content and approvals arriving on time is the biggest factor. gaa-tha shares a week-by-week plan before starting." },
+    { "q": "Shopify or WooCommerce — which is better for a D2C brand in India?", "a": "Shopify for most D2C brands: it is faster to launch, easier for your team to maintain, and the Indian checkout, COD, shipping and WhatsApp apps are mature. WooCommerce or a custom build makes sense when you already run WordPress, need deep customisation or have specific B2B pricing logic. We build both and recommend based on your catalogue and team." },
+    { "q": "Can you move my products from Amazon or Flipkart to Shopify?", "a": "Yes. We export your listings, clean titles, descriptions, variants, images and pricing, map them to Shopify's product structure and import with collections and tags in place. Marketplace listings are written for marketplace search, so we usually rewrite the key product pages for your own store's buyers." },
+    { "q": "Which payment and checkout options do you set up?", "a": "Razorpay, Shopify Payments, PayU or Cashfree for UPI, cards, net banking, wallets and EMI, and one-page checkouts such as GoKwik or Shopflo where they suit your volume. COD is set up with rules — pincode limits, order-value caps and OTP or WhatsApp verification — to reduce returns to origin. Gateway fees are set by the providers and vary; we share the current structure before you choose." },
+    { "q": "Do you handle the Meta Pixel, Conversions API and GA4 setup?", "a": "Yes, on every build. Pixel and CAPI are configured for view, add-to-cart, checkout and purchase events, GA4 is connected through Google Tag Manager, and every event is verified with test orders before launch so your ads report real purchases." },
+    { "q": "Will the store be fast on mobile?", "a": "It is built to be. Most Indian D2C traffic is on mid-range Android phones over mobile data, so we compress images, limit apps, defer scripts and check Core Web Vitals before go-live. Speed checks continue under a maintenance retainer, because apps added later are the usual cause of slowdowns." },
+    { "q": "What do I need to give you before the build starts?", "a": "Your brand identity files, product data (names, descriptions, variants, MRP, images), policies for shipping, returns and privacy, domain access, and your GST and bank details for the payment gateway. If any of these are missing we can produce them — photography, copy and branding are in-house." }
+  ],
+  "related": ["multi-location-shopify-local-delivery", "shopify-store-management", "conversion-rate-optimisation", "product-photography-ecommerce"],
+  "reading": ["blog-how-to-do-better-marketing", "blog-seo-aeo-geo-guide", "blog-branding-vs-marketing"],
+  "meta": {
+    "title": "Shopify Development Agency in India | gaa-tha",
+    "description": "Shopify stores designed for conversion and built for speed — custom themes and sections, GoKwik and Razorpay checkout, COD rules and Pixel/CAPI tracking."
+  },
+  "updated": "2026-09-25"
+}

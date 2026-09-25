@@ -1,0 +1,124 @@
+{
+  "slug": "cinema-ads-film-production",
+  "group": "brand-and-creative",
+  "order": 5,
+  "published": true,
+  "name": "Cinema & Film Ads",
+  "shortName": "Cinema ads",
+  "promise": "Trailer-grade ads for the big screen, OTT, YouTube and in-store screens.",
+  "intro": "gaa-tha makes cinema and film ads — trailer-grade product films, shot or AI-produced, cut for theatre screens, OTT, YouTube and in-store displays. Concept and script, storyboard, production, sound design mixed for cinema audio, 10-, 20- and 30-second cuts, 2.39:1 scope and vertical versions, plus support with cinema media planning, delivered per film in one to three weeks.",
+  "glance": {
+    "bestFor": "Retail chains, FMCG launches, festive campaigns and local brands wanting city-wide recall",
+    "timeline": "1–3 weeks per film",
+    "model": "Per film; cinema screen time booked separately",
+    "channels": "Multiplex and single-screen cinemas, OTT, YouTube, Instagram, in-store screens"
+  },
+  "whatIs": [
+    "A cinema ad is a short film — usually 10 to 30 seconds — screened before the feature in multiplexes and single-screen theatres, where a captive audience watches it on a large screen with full surround sound and no skip button. The same film is then cut for OTT pre-rolls, YouTube, Instagram and in-store screens so the recall it builds is reinforced everywhere.",
+    "gaa-tha produces cinema ads as live-action shoots, as AI-generated films, or as a blend of the two, which is how most brands get trailer-grade visuals inside a local budget. Every film is written for a large screen first — composition in 2.39:1 scope, sound designed for cinema audio — and then reframed for vertical and square, so a Surat retail chain or a Gujarat FMCG launch is seen in the multiplex one evening and on Instagram the next morning."
+  ],
+  "included": [
+    "Concept, script and voiceover copy in English, Hindi or Gujarati",
+    "Storyboard and shot list",
+    "Live-action production: crew, location, talent and direction",
+    "AI-generated production for scenes a shoot cannot afford",
+    "Edit, colour grade and motion graphics",
+    "Sound design and mix built for cinema audio and for mobile speakers",
+    "10-, 20- and 30-second cuts",
+    "2.39:1 scope master plus 16:9, 1:1 and 9:16 versions",
+    "In-store screen loops and captioned silent versions",
+    "Cinema media planning support: screen selection, DCP delivery and certification guidance"
+  ],
+  "steps": [
+    {
+      "title": "Concept",
+      "text": "We start from the campaign objective — launch, festive, footfall — and write two or three film ideas with a one-line story each."
+    },
+    {
+      "title": "Script and storyboard",
+      "text": "The chosen idea becomes a script, storyboard and shot list, with the production route decided: live-action, AI or a blend."
+    },
+    {
+      "title": "Produce",
+      "text": "Shoot days are planned and directed, or AI scenes are generated under the same art direction; the founder or product is filmed for real where it matters."
+    },
+    {
+      "title": "Post-production",
+      "text": "Edit, colour, motion graphics, voiceover and a cinema-grade sound mix, reviewed at full scale before the final cuts."
+    },
+    {
+      "title": "Deliver and distribute",
+      "text": "Masters go out in every format with the DCP-ready file and certification guidance for cinema; we support media booking and cut the same film for OTT, YouTube and in-store screens."
+    }
+  ],
+  "deliverables": [
+    "Approved script and storyboard",
+    "Master film in 2.39:1 scope, plus 16:9, 1:1 and 9:16 versions",
+    "10-, 20- and 30-second cuts with cinema-mixed audio",
+    "DCP-ready export and certification guidance",
+    "In-store screen loop and captioned silent version",
+    "Stills pulled from the film for hoardings and social",
+    "Raw footage and project files archived on a shared drive"
+  ],
+  "tools": [
+    "Adobe Premiere Pro",
+    "DaVinci Resolve",
+    "Adobe After Effects",
+    "Runway",
+    "Kling",
+    "Midjourney",
+    "ElevenLabs",
+    "Adobe Audition"
+  ],
+  "pricing": "Per-film fee scoped to production route (live-action, AI or blend), duration and number of versions; cinema screen time, DCP mastering and certification fees are paid to the vendors directly.",
+  "faq": [
+    {
+      "q": "Do you make cinema ads?",
+      "a": "Yes. gaa-tha writes, produces and delivers cinema ads for multiplexes and single-screen theatres, as live-action shoots, AI-generated films or a blend, and cuts the same film for OTT, YouTube, Instagram and in-store screens. We also support cinema media planning so the film reaches the right screens in the right cities."
+    },
+    {
+      "q": "How much does a cinema ad cost in India?",
+      "a": "It depends far more on production than on screen time: a live-action shoot with crew, location and talent costs more than an AI-produced film, and a 30-second film with multiple versions costs more than a 10-second cut. Screen time is booked per screen per week and varies by city, theatre and film release. We quote the production as a fixed fee and share the media rates from the cinema advertising network before you commit."
+    },
+    {
+      "q": "How long does it take to produce a cinema ad?",
+      "a": "One to three weeks from concept to deliverable masters. AI-produced films sit at the shorter end; live-action shoots with talent and locations at the longer end. Certification and cinema scheduling add time on top, so plan four to six weeks ahead of a festive release."
+    },
+    {
+      "q": "What formats do cinemas need?",
+      "a": "Most Indian multiplexes and cinema advertising networks accept a DCP (Digital Cinema Package) or a high-bitrate video file in 2.39:1 scope or 16:9 flat, with a 5.1 or stereo mix, along with a CBFC certificate for the ad. We deliver the master to the spec of your chosen network and guide you through certification."
+    },
+    {
+      "q": "Can the same film run on OTT, YouTube and Instagram?",
+      "a": "Yes, and it should. Every cinema film is reframed and remixed for 16:9 pre-rolls and 1:1 and 9:16 social, with captions for sound-off viewing, so the story people saw on the big screen is reinforced on their phone."
+    },
+    {
+      "q": "Can a small local business afford a cinema ad?",
+      "a": "Increasingly, yes. AI-generated production removes crew, location and talent costs, and cinema networks sell screen time by city and theatre, so a retail chain in Vadodara or a sweets brand in Vapi can run a trailer-grade film in the theatres its customers actually visit. We size the production route and the screen plan to the budget."
+    },
+    {
+      "q": "Do you handle the CBFC certification?",
+      "a": "We prepare the film and the paperwork to the certification requirements and guide you through the application; the certificate is issued in the advertiser's name. Timelines vary, so we build them into the plan from the start."
+    },
+    {
+      "q": "Will an AI-produced film look like an AI film?",
+      "a": "Not if it is art-directed properly. We write scenes AI renders convincingly, keep real footage of the product and people where accuracy matters, grade everything consistently and mix the sound for the big screen. Every film is reviewed at full scale before release."
+    }
+  ],
+  "related": [
+    "ai-ads-ai-ad-shoots",
+    "reels-short-form-video",
+    "branding-agency",
+    "campaign-planning"
+  ],
+  "reading": [
+    "blog-ai-ads-and-ai-ad-shoots-guide",
+    "blog-marketing-strategy-guide",
+    "blog-how-to-do-better-marketing"
+  ],
+  "meta": {
+    "title": "Cinema & Film Ads Agency in India | gaa-tha",
+    "description": "Trailer-grade cinema and film ads, shot or AI-produced — script, storyboard, production, cinema sound mix and cuts for theatre, OTT, YouTube and in-store."
+  },
+  "updated": "2026-09-25"
+}

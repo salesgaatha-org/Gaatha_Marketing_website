@@ -1,0 +1,64 @@
+{
+  "slug": "when-a-plus-content-pays",
+  "published": false,
+  "type": "cluster",
+  "category": "Commerce",
+  "title": "When A+ content pays on Amazon, and when it does not",
+  "excerpt": "A+ content helps products that need explanation or trust, not commodity SKUs. How to pick the listings that deserve it and what to put in the modules.",
+  "intro": "A+ content pays when a product needs explanation, has several variants or sits in a category where trust beats price, and when the listing already receives traffic. It does little for a commodity SKU that competes on price alone. Decide per listing: prioritise hero products with traffic and reviews, use the modules to answer the objections that appear in reviews, and measure conversion before and after.",
+  "takeaways": [
+    "A+ improves conversion on listings that already get seen; it does not create traffic.",
+    "Products that need explanation or trust benefit most.",
+    "Write modules from real objections found in reviews and questions.",
+    "Measure conversion rate per listing before and after."
+  ],
+  "sections": [
+    {
+      "h2": "What is A+ content and what does it change?",
+      "html": "<p>A+ content replaces the plain product description on an Amazon listing with designed modules: image and text banners, comparison charts, feature grids and brand story blocks. It requires Brand Registry. It changes how the lower half of the listing looks and reads; it does not change where the listing appears in search.</p>\n<p>That distinction matters. A+ is a conversion tool. If the listing has no traffic, start with keywords and images, covered in our Amazon listing optimisation checklist, and add A+ later.</p>"
+    },
+    {
+      "h2": "Which products benefit most from A+ content?",
+      "html": "<ul>\n<li>Products with a mechanism or ingredient story to explain (skincare, supplements, appliances, technical accessories).</li>\n<li>Ranges with several variants where a comparison chart prevents wrong purchases and returns.</li>\n<li>Premium products competing against cheaper alternatives on trust and quality.</li>\n<li>Gifting and food products where presentation influences the decision.</li>\n</ul>\n<p>Commodity SKUs, single-variant low-price items and products bought purely on the main image gain little. For those, the effort is better spent on the main image, the price and the review flow.</p>"
+    },
+    {
+      "h2": "What should go into the modules?",
+      "html": "<p>Read the one- to three-star reviews and the customer questions on your listing and on competitors’. Each recurring doubt becomes a module: a size or fit chart, an ingredient explanation, a durability demonstration, a usage sequence. Add a comparison chart across your own variants and a short brand story that names the people behind the product.</p>\n<p>Keep the imagery consistent with your store and social content. <a href=\"/services/product-photography-ecommerce\">Product photography</a> and <a href=\"/services/graphic-design\">graphic design</a> produce A+ modules to Amazon’s specifications.</p>"
+    },
+    {
+      "h2": "How do you know whether it worked?",
+      "html": "<p>Record the listing’s sessions, conversion rate and return rate for a few weeks before publishing A+, then compare the same period after. Traffic should be roughly stable; conversion should rise and returns should fall on listings where the modules addressed real doubts. If nothing moves, the modules answered the wrong questions.</p>\n<p>A concern-led skincare brand such as <a href=\"/work/kitcoz\">Kitcoz</a> is the type of product where explanation earns its space. Prioritisation and measurement sit within <a href=\"/services/amazon-account-management\">Amazon account management</a> and <a href=\"/services/marketplace-listing-optimisation\">listing optimisation</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does A+ content improve Amazon ranking?",
+      "a": "Not directly. It improves conversion, and higher conversion supports ranking over time. Keywords, images, price and reviews remain the primary ranking inputs."
+    },
+    {
+      "q": "Do I need Brand Registry for A+ content?",
+      "a": "Yes. A+ content and Brand Stores are available to brand owners enrolled in Amazon Brand Registry, which requires a registered or pending trademark."
+    },
+    {
+      "q": "Should every listing have A+ content?",
+      "a": "No. Prioritise hero listings with traffic and products that need explanation or trust. Commodity SKUs rarely justify the effort."
+    },
+    {
+      "q": "Is Premium A+ worth it?",
+      "a": "Premium modules offer richer formats such as video and interactive comparison. They make sense for high-value ranges with proven traffic; standard A+ is enough for most listings."
+    }
+  ],
+  "relatedServices": [
+    "marketplace-listing-optimisation",
+    "amazon-account-management",
+    "product-photography-ecommerce",
+    "graphic-design"
+  ],
+  "relatedCase": "kitcoz",
+  "author": "gaa-tha",
+  "readMinutes": 4,
+  "cover": "cov-d",
+  "mark": "A+",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

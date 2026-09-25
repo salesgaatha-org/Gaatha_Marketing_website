@@ -1,0 +1,66 @@
+{
+  "slug": "b2b-lead-generation",
+  "group": "growth-marketing",
+  "order": 8,
+  "published": true,
+  "name": "B2B & Export Lead Generation",
+  "shortName": "B2B & export leads",
+  "promise": "Qualified buyers for manufacturers and exporters — LinkedIn, targeted ads, B2B marketplaces and a lead system your team will actually use.",
+  "intro": "gaa-tha runs B2B and export lead generation for Indian manufacturers, packaging, machinery and bulk food suppliers: ideal-buyer and country targeting, LinkedIn decision-maker lists and outreach sequences, Meta and LinkedIn lead ads, IndiaMART and TradeIndia listing optimisation, WhatsApp first-reply templates and a lead-qualification SOP with a CRM or Excel tracker, so enquiries turn into quotes and orders.",
+  "glance": {
+    "bestFor": "Manufacturers, exporters, packaging, machinery, industrial coatings and bulk food suppliers",
+    "timeline": "Setup in 2–3 weeks; first outreach cycles in month one; then monthly",
+    "model": "Monthly retainer; ad spend and platform subscriptions paid directly by you",
+    "channels": "LinkedIn, Meta lead ads, Google Search, IndiaMART, TradeIndia, WhatsApp, email"
+  },
+  "whatIs": [
+    "B2B lead generation is the systematic work of finding the companies that should be buying from you, reaching the right person inside them and turning the first reply into a qualified enquiry — through LinkedIn outreach, targeted ads, B2B marketplaces such as IndiaMART and TradeIndia, search and email. Export lead generation applies the same system to buyers in specific countries.",
+    "At gaa-tha the lead system is built before the outreach starts: who the ideal buyer is, which countries and categories, what the first message says, who replies on WhatsApp and within how long, and how every lead is tagged so the monthly report shows quotes and orders rather than a count of messages sent. The channels are then run together, with the tracker as the single source of truth."
+  ],
+  "included": [
+    "Ideal-buyer profile and country or region targeting by product, capacity and margin",
+    "LinkedIn company and decision-maker lists built for each target segment",
+    "LinkedIn profile and company-page optimisation for the founder and sales team",
+    "Outreach sequences — connection notes, follow-ups and email — written to earn a reply, not to spam",
+    "Meta and LinkedIn lead-generation ads with instant forms and WhatsApp click-to-chat",
+    "Google Search campaigns for product and export-intent keywords",
+    "IndiaMART and TradeIndia listing optimisation — catalogue, titles, images, specifications and pricing",
+    "WhatsApp first-reply templates and a response-time SOP for your sales team",
+    "Lead-qualification SOP — questions, scoring and hand-off rules",
+    "CRM or Excel tracker with a dashboard, and a monthly report on leads, qualified leads, quotes and orders"
+  ],
+  "steps": [
+    { "title": "Buyer profile and targets", "text": "We define the ideal buyer with your sales team — industry, size, country, order value — and agree what a qualified lead means and how many quotes a month is the goal." },
+    { "title": "Assets and lists", "text": "LinkedIn profiles, company page, product one-pagers and marketplace listings are brought up to standard, and decision-maker lists are built per segment." },
+    { "title": "Outreach and ads", "text": "Sequences go live on LinkedIn and email, lead ads run on Meta and LinkedIn, and search campaigns catch buyers already looking — all pointing to one WhatsApp or form." },
+    { "title": "Qualify and hand off", "text": "Every reply is answered with the first-reply template, scored against the SOP and handed to sales with context in the tracker." },
+    { "title": "Review and refine", "text": "A monthly review with the sales team on lead quality, quote conversion and which channel or segment produced the best buyers, then the lists and messages are adjusted." }
+  ],
+  "deliverables": [
+    "Ideal-buyer profile and country or segment targeting document",
+    "Optimised LinkedIn profiles, company page and marketplace listings",
+    "Outreach sequences and lead-ad campaigns live",
+    "WhatsApp first-reply templates and lead-qualification SOP",
+    "CRM or Excel lead tracker with dashboard",
+    "Monthly report on leads, qualified leads, quotes and orders by channel"
+  ],
+  "tools": ["LinkedIn Sales Navigator", "LinkedIn Ads", "Meta Ads Manager", "Google Ads", "IndiaMART Seller", "TradeIndia", "WhatsApp Business", "Google Sheets"],
+  "pricing": "Monthly retainer scoped to channels, countries and outreach volume; ad spend and tools such as LinkedIn Sales Navigator or marketplace subscriptions are paid directly by you.",
+  "faq": [
+    { "q": "What is B2B lead generation?", "a": "B2B lead generation is the process of identifying the companies that should buy from you, reaching the decision-maker and converting the first conversation into a qualified enquiry — using LinkedIn outreach, targeted ads, B2B marketplaces, search and email. gaa-tha runs it as one system with a tracker, so your sales team sees qualified leads, not raw messages." },
+    { "q": "Do you generate B2B and export leads for manufacturers?", "a": "Yes. Manufacturers, exporters, packaging, machinery, industrial coatings and bulk food suppliers are the businesses we do this for most. We combine LinkedIn outreach to buyers in target countries, lead ads, IndiaMART and TradeIndia optimisation and search campaigns with a WhatsApp reply SOP so enquiries turn into quotes." },
+    { "q": "Which countries can you target for export leads?", "a": "Any country where LinkedIn, Google and email reach buyers — typically the Middle East, Africa, Europe, the United States, the United Kingdom, Australia and South-East Asia for Indian exporters. We prioritise by your product's demand, import regulations, freight economics and where you already have references." },
+    { "q": "Does LinkedIn outreach actually work, or is it spam?", "a": "It works when the list is precise and the message is about the buyer's problem, not your company profile. We keep volumes modest, personalise by segment, follow up politely a limited number of times and stop when there is no interest, which is what keeps reply rates healthy and accounts safe." },
+    { "q": "IndiaMART or our own website — which is better for leads?", "a": "Both, for different buyers. IndiaMART and TradeIndia bring high-volume domestic enquiries that need fast qualification; your own website with Google Search and LinkedIn brings fewer but more serious buyers, especially for export. We optimise the marketplace listings and run the website channels together, then compare quote conversion by source." },
+    { "q": "How many leads will we get a month?", "a": "It depends on your category, order value, countries and budget, so we do not promise a number before the first month of data. What we agree upfront is the definition of a qualified lead and the monthly quote target, then report against that by channel and adjust the mix to whatever produces buyers who actually order." },
+    { "q": "How do you qualify leads before they reach our sales team?", "a": "With a short SOP: a WhatsApp or email first reply within agreed hours, three to five qualifying questions (quantity, application, location, timeline, budget or target price), a score, and a hand-off rule. Junk and price-shoppers are tagged by source so we can cut the channels producing them." },
+    { "q": "Do we need a website before starting lead generation?", "a": "A basic, credible one, yes — buyers check it before replying. A single well-built page with products, capacity, certifications, references and a WhatsApp button is enough to start; a full corporate site can follow. We build both under Website Design & Development." }
+  ],
+  "related": ["google-ads-agency", "meta-ads-agency", "marketing-strategy", "website-development"],
+  "reading": ["blog-how-to-do-better-marketing", "blog-marketing-strategy-guide", "blog-seo-aeo-geo-guide"],
+  "meta": {
+    "title": "B2B & Export Lead Generation Agency in India | gaa-tha",
+    "description": "Qualified buyers for manufacturers and exporters — LinkedIn outreach, lead ads, IndiaMART and TradeIndia optimisation, WhatsApp SOPs and a lead tracker."
+  },
+  "updated": "2026-09-25"
+}

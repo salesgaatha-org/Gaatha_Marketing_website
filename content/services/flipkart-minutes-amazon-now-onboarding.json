@@ -1,0 +1,64 @@
+{
+  "slug": "flipkart-minutes-amazon-now-onboarding",
+  "group": "quick-commerce",
+  "order": 8,
+  "published": true,
+  "name": "Flipkart Minutes & Amazon Now Onboarding",
+  "shortName": "Flipkart Minutes & Amazon Now",
+  "promise": "Get your marketplace listings into the 10-minute basket on Flipkart and Amazon.",
+  "intro": "gaa-tha handles Flipkart Minutes and Amazon Now onboarding for brands in India: eligibility review, seller-account and brand documentation, enrolment into each quick-commerce programme through Flipkart Seller Hub and Amazon Seller Central, catalogue and thumbnails adapted for 10-minute delivery, city and dark-store stocking plans, and go-live with stock showing as available in your launch cities.",
+  "glance": {
+    "bestFor": "Brands already selling on Flipkart or Amazon, and FMCG, beauty, electronics-accessory and home brands wanting marketplace shoppers on quick commerce",
+    "timeline": "2–5 weeks per platform for existing sellers; 4–8 weeks if a seller account is needed first",
+    "model": "One-time onboarding fee per platform; optional monthly account management after go-live",
+    "channels": "Flipkart Minutes inside the Flipkart app, Amazon Now inside the Amazon app"
+  },
+  "whatIs": [
+    "Flipkart Minutes and Amazon Now onboarding is the process of getting a brand's products stocked and visible on the 10-minute delivery services run by Flipkart and Amazon. Unlike Blinkit or Zepto, both are extensions of an existing marketplace: a brand needs an approved seller account with the right brand and category approvals, then enrols into the quick-commerce programme and arranges stock for the platform's local dark stores. Flipkart Minutes launched in 2024 and Amazon Now followed in 2025, and both are still expanding city by city.",
+    "gaa-tha runs the whole sequence, starting from wherever you are. If you already sell on Flipkart or Amazon we audit the account, brand approvals and listings, then handle programme enrolment, catalogue adaptation, stocking and go-live. If you do not, we set up the seller account and brand approvals first. Flipkart Minutes reaches beyond grocery into electronics accessories, mobiles, fashion basics and gifting; Amazon Now leans on Amazon's everyday-essentials and beauty range and its Prime base, so we plan the lead SKUs per platform."
+  ],
+  "included": [
+    "Eligibility review of your category, seller-account status, brand approvals and pack sizes for each programme",
+    "Document pack: GST, PAN, bank proof, trademark or brand authorisation, FSSAI and other category licences",
+    "Seller-account setup or audit on Flipkart Seller Hub and Amazon Seller Central, including brand registration where needed",
+    "Enrolment into Flipkart Minutes and Amazon Now with every query from the platform teams handled by us",
+    "Commercial terms review — commissions, quick-commerce charges and stocking arrangements explained before you sign",
+    "Catalogue adaptation: titles with pack size, thumbnails and attributes tuned for 10-minute delivery browsing",
+    "City and dark-store stocking plan, including inbound to the platform's local fulfilment points",
+    "Go-live checklist covering live quick-commerce listings, availability and pricing in each launch city",
+    "Handover to monthly account management or a self-management SOP"
+  ],
+  "steps": [
+    { "title": "Audit and eligibility", "text": "We review your existing Flipkart and Amazon accounts, brand approvals and listings, or plan the seller setup from scratch, and check each programme's category rules." },
+    { "title": "Documents and enrolment", "text": "The document pack is verified, seller and brand approvals completed, and enrolment into Flipkart Minutes and Amazon Now submitted and followed up." },
+    { "title": "Catalogue for quick commerce", "text": "Titles, thumbnails and attributes are adapted for the 10-minute browsing context, with pack sizes and combos chosen for it." },
+    { "title": "Cities and stocking", "text": "Launch cities are agreed, stock is planned for the platform's local fulfilment points and the first inbound coordinated with your warehouse." },
+    { "title": "Go-live and handover", "text": "Quick-commerce listings are checked live and available in each launch city, and the account moves to monthly management or your team." }
+  ],
+  "deliverables": [
+    "Programme-specific document checklist for Flipkart Minutes and Amazon Now",
+    "Approved seller accounts and brand approvals on Flipkart and Amazon",
+    "Enrolled and live quick-commerce listings with adapted thumbnails and titles",
+    "City and dark-store stocking plan with first inbound tracked",
+    "Go-live report and account-management SOP"
+  ],
+  "tools": ["Flipkart Seller Hub", "Amazon Seller Central", "Amazon Brand Registry", "Flipkart Ads", "Amazon Ads", "Google Sheets", "WhatsApp Business"],
+  "pricing": "One-time onboarding fee per platform scoped to seller-account status, SKU count and categories; platform commissions and charges are paid by you directly and shared in writing before you sign.",
+  "faq": [
+    { "q": "What documents do I need for Flipkart Minutes and Amazon Now?", "a": "The same core pack as the parent marketplaces: GST registration, PAN, bank proof, a trademark certificate or brand authorisation letter, FSSAI licence for food and beverages, and any category licence such as cosmetics approvals. Brand-gated categories on Amazon need Brand Registry or brand approval, and Flipkart needs its brand approval for restricted categories. We share a current checklist per programme." },
+    { "q": "Do I need an existing Flipkart or Amazon seller account?", "a": "Yes. Both programmes sit on top of the marketplace seller systems, so an approved seller account with the right category and brand approvals comes first. If you already have one, onboarding is faster; if not, we set it up as the first step and it adds a few weeks." },
+    { "q": "How long does Flipkart Minutes or Amazon Now onboarding take?", "a": "Usually 2–5 weeks per platform for an existing seller with approvals in place, and 4–8 weeks if the seller account and brand approvals have to be created first. Programme availability in your category and cities is the main variable, because both services are still opening cities." },
+    { "q": "Are there fees for Flipkart Minutes and Amazon Now?", "a": "Both run on marketplace commissions plus quick-commerce specific charges or stocking arrangements that vary by category, city and programme and change over time. We do not quote fixed figures; we get the current structure for your category and explain it before you commit." },
+    { "q": "Which categories work on Flipkart Minutes and Amazon Now?", "a": "Grocery, snacks and beverages, personal care and beauty, baby and pet care, home and kitchen essentials on both. Flipkart Minutes also carries electronics accessories, mobiles, fashion basics and gifting, and Amazon Now draws on Amazon's everyday-essentials and beauty catalogue. We choose lead SKUs per platform rather than copying one range to both." },
+    { "q": "Which cities are Flipkart Minutes and Amazon Now live in?", "a": "Flipkart Minutes operates in major metros including Bengaluru, Delhi NCR, Mumbai, Hyderabad, Chennai, Kolkata and Pune and keeps adding cities. Amazon Now launched in Bengaluru and has been expanding to Delhi NCR, Mumbai and further cities. Coverage changes quickly, so we confirm live cities for your category at the time of onboarding." },
+    { "q": "What happens at go-live?", "a": "We confirm the quick-commerce listings are live and searchable in each launch city, check pricing, thumbnails and pack-size titles, verify stock is showing as available at the local fulfilment points, and set up the availability tracker. The account then moves into monthly management or to your own team with an SOP." },
+    { "q": "Should I prioritise Flipkart Minutes and Amazon Now over Blinkit and Zepto?", "a": "If you already sell on Flipkart or Amazon, adding their quick-commerce programmes is the lowest-effort expansion because the seller account, brand approvals and catalogue already exist. If you are new to all of them, Blinkit and Zepto usually come first for grocery and FMCG. We plan the order by platform and city with you." }
+  ],
+  "related": ["blinkit-onboarding", "zepto-onboarding", "quick-commerce-agency", "amazon-onboarding"],
+  "reading": ["blog-marketing-strategy-guide", "blog-how-to-do-better-marketing"],
+  "meta": {
+    "title": "Flipkart Minutes & Amazon Now Onboarding | gaa-tha",
+    "description": "Flipkart Minutes and Amazon Now onboarding for Indian brands: seller and brand approvals, programme enrolment, catalogue, stocking and go-live."
+  },
+  "updated": "2026-09-25"
+}

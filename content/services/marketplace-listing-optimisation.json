@@ -1,0 +1,64 @@
+{
+  "slug": "marketplace-listing-optimisation",
+  "group": "marketplaces",
+  "order": 9,
+  "published": true,
+  "name": "Marketplace Listing & Catalogue Optimisation",
+  "shortName": "Listing optimisation",
+  "promise": "Marketplace SEO — titles, attributes, images and A+ content that rank and convert on each platform.",
+  "intro": "gaa-tha optimises marketplace listings and catalogues for Amazon, Flipkart, Myntra, Nykaa, AJIO, Meesho and JioMart: keyword research per platform, titles, bullets and descriptions written for the search algorithm and the buyer, complete attributes and backend keywords, image stacks and A+ modules, competitor benchmarking, and tracking of rank and conversion so you can see which change did what.",
+  "glance": {
+    "bestFor": "Brands with live listings that get traffic but not sales, or rank below competitors for their own category keywords",
+    "timeline": "Audit in week one; optimisation in 2–4 weeks depending on SKU count; then quarterly refreshes",
+    "model": "Project fee per catalogue, or included in a monthly account management retainer",
+    "channels": "Amazon, Flipkart, Myntra, Nykaa, AJIO, Meesho, JioMart"
+  },
+  "whatIs": [
+    "Marketplace listing optimisation, often called marketplace SEO, is the work of making a product listing rank higher in a marketplace's search results and convert more of the shoppers who see it: researching the keywords buyers use on that platform, writing titles, bullets and descriptions around them, filling every attribute so the listing appears in filters, adding backend search terms, building an image stack that answers the buyer's questions, and adding A+ or rich content where the platform supports it. Each marketplace has its own algorithm, so the same product is optimised differently on Amazon, Flipkart and Myntra.",
+    "At gaa-tha optimisation is measured, not assumed. We benchmark the listing against the top competitors for its keywords, change the elements most likely to move rank and conversion first, and track organic rank, click-through, conversion and sales for each SKU before and after so the effect of the work is visible in the monthly report."
+  ],
+  "included": [
+    "Listing audit against each platform's ranking factors and the top competitors for your keywords",
+    "Keyword research per platform using search-term data, autocomplete and competitor listings",
+    "Titles, bullets, key features and descriptions rewritten for search relevance and readability",
+    "Attribute completion so listings appear in filters: size, material, colour, fit, concern, pack size and more",
+    "Backend search terms and platform-specific fields such as Amazon's search terms and Flipkart's key features",
+    "Image stack planning: main image to spec, lifestyle, infographic, size, texture and packaging shots",
+    "A+ content and rich-content modules with comparison tables and brand story",
+    "Variation and parent–child structure fixes so reviews and rank are consolidated",
+    "Rank and conversion tracking by SKU with a before-and-after report"
+  ],
+  "steps": [
+    { "title": "Audit and benchmark", "text": "Every SKU is scored against the platform's ranking factors and compared with the top listings for its keywords, and the SKUs with the most to gain are prioritised." },
+    { "title": "Keyword research", "text": "Search terms are gathered per platform from search data, autocomplete, competitor listings and category browse paths, then mapped to each SKU by intent." },
+    { "title": "Copy and attributes", "text": "Titles, bullets, descriptions, attributes and backend keywords are rewritten to the platform's rules, with variations structured so rank and reviews consolidate." },
+    { "title": "Images and A+ content", "text": "The image stack is planned and produced or retouched, and A+ or rich-content modules are designed to answer objections and cross-sell." },
+    { "title": "Upload, track and refresh", "text": "Changes go live in batches, rank and conversion are tracked by SKU, and the listing is refreshed each quarter or when the algorithm, competitors or season change." }
+  ],
+  "deliverables": [
+    "Listing audit and competitor benchmark per SKU",
+    "Keyword map by platform and SKU",
+    "Optimised titles, bullets, descriptions, attributes and backend keywords, uploaded",
+    "Image stack briefs and finished images to platform specs",
+    "A+ and rich-content modules, published",
+    "Before-and-after rank and conversion report"
+  ],
+  "tools": ["Amazon Seller Central", "Amazon Brand Analytics", "Helium 10", "Flipkart Seller Hub", "Myntra Partner Portal", "Adobe Photoshop", "Google Sheets"],
+  "pricing": "Project fee scoped to the number of SKUs, platforms and images, or included in a monthly marketplace management retainer; no platform fees are charged through us.",
+  "faq": [
+    { "q": "What is marketplace listing optimisation?", "a": "It is the process of improving a product listing so it ranks higher in a marketplace's search and converts more visitors: keywords, titles, bullets, descriptions, attributes, backend search terms, images and A+ content, all written to that platform's algorithm and buyer. gaa-tha does this per platform and tracks rank and conversion by SKU to prove the change worked." },
+    { "q": "How is marketplace SEO different from Google SEO?", "a": "Marketplace algorithms rank on relevance plus performance — conversion rate, sales velocity, price, availability and reviews — rather than on backlinks and site authority. Keywords still matter, but a listing that converts poorly will not hold rank however well it is written, so images, price and reviews are part of the work." },
+    { "q": "My listings get views but few orders. What is usually wrong?", "a": "Most often the main image, price relative to the competitors shown next to it, missing reviews, or an image stack that does not answer size, material or usage questions. The audit tells us which, and we fix conversion before spending on ads to send more traffic to the same page." },
+    { "q": "Do you do keyword research separately for each platform?", "a": "Yes. Buyers search differently on Amazon, Flipkart and Myntra, and each platform exposes different data — Amazon's search-term reports, Flipkart's category and key-feature fields, Myntra's attribute filters. A keyword map is built per platform and SKU rather than copied across." },
+    { "q": "Is A+ content worth it?", "a": "For branded products with a story, comparisons or usage to explain, usually yes: it improves conversion and lets you cross-sell the range. It matters less for commodity SKUs where price and delivery decide. On Amazon it needs Brand Registry, which we can set up." },
+    { "q": "Do you create the product images too?", "a": "Yes. Our product photography and AI ad-shoot teams produce main images to platform spec, lifestyle and infographic images, and size or texture shots, or we retouch your existing images to pass QC and convert better." },
+    { "q": "How soon do optimised listings show results?", "a": "Rank and conversion typically start moving within two to four weeks of changes going live, as the platform re-indexes the listing and gathers new performance data. Competitive keywords take longer and usually need ads and reviews alongside the copy work." }
+  ],
+  "related": ["amazon-account-management", "marketplace-ads-management", "reviews-ratings-management", "product-photography-ecommerce"],
+  "reading": ["blog-seo-aeo-geo-guide", "blog-ai-ads-and-ai-ad-shoots-guide", "blog-how-to-do-better-marketing"],
+  "meta": {
+    "title": "Marketplace Listing Optimisation in India | gaa-tha",
+    "description": "Marketplace SEO for Amazon, Flipkart and Myntra: keyword research, titles, attributes, backend keywords, image stacks and A+ content, tracked by SKU."
+  },
+  "updated": "2026-09-25"
+}

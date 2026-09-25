@@ -1,0 +1,64 @@
+{
+  "slug": "pack-size-and-pricing-for-10-minute-delivery",
+  "published": false,
+  "type": "cluster",
+  "category": "Commerce",
+  "title": "Pack size and pricing for 10-minute delivery",
+  "excerpt": "Why pack size is the biggest lever a brand controls on quick commerce, how to pick trial and repeat packs, and how to price them without losing margin.",
+  "intro": "On quick commerce, pack size and price decide whether a product gets into the basket and whether the brand makes money when it does. A small trial pack at an accessible price point drives first purchase; a larger pack protects margin on repeat orders; a combo lifts basket value. The right answer is found per city from velocity and contribution data, not from the pack that sells in general trade.",
+  "takeaways": [
+    "Quick-commerce baskets are small and frequent; packs should match that rhythm.",
+    "Run a trial pack and a repeat pack, and read the data per city.",
+    "Price from contribution margin after platform terms, not from MRP alone.",
+    "Combos and multipacks raise basket value without a new product."
+  ],
+  "sections": [
+    {
+      "h2": "Why does pack size matter more on quick commerce than in stores?",
+      "html": "<p>A customer on Blinkit or Zepto is topping up, not stocking up. The basket is small, the decision is quick, and the thumbnail must communicate the pack at a glance. Dark stores also hold limited space per SKU, so the platform prefers packs that turn quickly and stack easily.</p>\n<p>The general-trade pack that works at a kirana counter is often the wrong shape or price for this behaviour. Treating pack architecture as a channel decision, rather than a factory decision, is the first step.</p>"
+    },
+    {
+      "h2": "How do you choose trial, repeat and combo packs?",
+      "html": "<p>A trial pack is the smallest size that still delivers the product experience, priced to make the first purchase easy. A repeat pack is the size a satisfied customer buys next, priced so that the margin per order is healthy. A combo pairs two products or flavours to raise basket value and to move a slower SKU alongside a faster one.</p>\n<p>Start with one of each for a hero product, list them as separate SKUs with their own barcodes and imagery, and let the data show which earns its shelf space. <a href=\"/services/quick-commerce-content\">Q-commerce catalogue and creative</a> covers combo design and thumbnail treatment.</p>"
+    },
+    {
+      "h2": "How should you price for 10-minute delivery?",
+      "html": "<p>Begin with the platform’s current commercial terms for your category, then subtract promotional contributions, logistics to the platform, expected damages and any ad spend per unit. What remains is the contribution margin. If it is thin at the intended price, change the pack rather than the discount. Terms vary and change, so this calculation has to be repeated when they do.</p>\n<p>Keep pricing consistent with your own store and with marketplaces. Customers compare, and platforms notice when a product is cheaper elsewhere.</p>"
+    },
+    {
+      "h2": "How do you read the results and adjust?",
+      "html": "<p>Look at units per store per week and contribution per unit, by pack and by city. A pack that sells well in one city and poorly in another is a signal about local price sensitivity or competition, not a verdict on the product. Prune packs that fail on both velocity and margin, and give the winners more availability. Our <a href=\"/services/quick-commerce-agency\">quick commerce management</a> reporting is built around this per-SKU view.</p>\n<p>A snack brand with many pack sizes, such as <a href=\"/work/charliee\">Charliee</a>, would use this method to pick a small quick-commerce range from a large catalogue.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the best pack size for quick commerce?",
+      "a": "There is no universal answer. A smaller trial pack at an easy price point and a larger repeat pack that protects margin is the usual starting pair; the data per city then shows which to keep."
+    },
+    {
+      "q": "Can I sell the same pack on quick commerce as in retail?",
+      "a": "You can, but the retail pack is often the wrong shape or price for a small, frequent basket. Test a channel-specific pack alongside it before deciding."
+    },
+    {
+      "q": "Should I discount to win on quick commerce?",
+      "a": "Discounting without knowing the contribution margin after platform terms is how brands lose money on every order. Adjust the pack and the price point first; use promotions for defined windows."
+    },
+    {
+      "q": "How often should I review pack and pricing decisions?",
+      "a": "Monthly, and whenever platform terms change. Velocity and contribution per SKU per city are the two numbers to review."
+    }
+  ],
+  "relatedServices": [
+    "quick-commerce-content",
+    "quick-commerce-agency",
+    "blinkit-account-management",
+    "zepto-account-management"
+  ],
+  "relatedCase": "charliee",
+  "author": "gaa-tha",
+  "readMinutes": 4,
+  "cover": "cov-a",
+  "mark": "Pk",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

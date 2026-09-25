@@ -1,0 +1,45 @@
+{
+  "slug": "cds-stores",
+  "published": false,
+  "featured": true,
+  "client": "cds-stores",
+  "headline": "A city-wide Diwali campaign — outdoor, influencers, Meta and a cinema ad — on one ₹2 lakh budget.",
+  "summary": "Making CDS Stores the first-choice Diwali destination in Vapi and Valsad for sweets, hampers, dry fruits and bulk gifting.",
+  "industry": "Retail / sweets, dry fruits & gifting",
+  "location": "Vapi & Valsad, Gujarat",
+  "duration": "6 Oct – 14 Nov 2026",
+  "channels": "Outdoor (store-front, auto-rickshaw, bus), influencer collaborations, Meta ads, cinema, Shopify",
+  "filters": ["campaigns-cinema", "performance-ads", "social-reels", "websites-shopify"],
+  "services": ["campaign-planning", "cinema-ads-film-production", "ai-ads-ai-ad-shoots", "graphic-design", "influencer-ugc-marketing", "meta-ads-agency", "shopify-development"],
+  "metrics": [
+    { "label": "Footfall vs last Diwali", "value": "TODO-DATA" },
+    { "label": "Sales uplift", "value": "TODO-DATA" },
+    { "label": "Corporate & bulk orders", "value": "TODO-DATA" },
+    { "label": "Campaign reach", "value": "TODO-DATA" }
+  ],
+  "challenge": [
+    "CDS Stores sells premium sweets, dry fruits, hampers and corporate gifting in Vapi and Valsad. Diwali is the season that decides the year, and the brief was simple to say and hard to do: be the first name people think of for gifting in both cities, on a total budget of ₹2 lakh.",
+    "That meant one message carried across outdoor, influencers, Meta ads and a cinema screen — planned as one campaign, not four."
+  ],
+  "workstreams": [
+    { "title": "Campaign planning", "text": "A 6 October – 14 November campaign with the budget split across outdoor banners (store-front, auto-rickshaw and bus panels), influencer collaborations (15–20 collab reels and 5 page collaborations) and Meta ads, with one key visual and one calendar." },
+    { "title": "Outdoor creative", "text": "Premium, minimal category banners for sweets, hampers, dry fruits, corporate gifting and the live sweets counter — each category with its own colour code so the auto-rickshaw panels read from across the road." },
+    { "title": "Cinema ad", "text": "A 10-second trailer-style AI film: products drop into frame with bold title cards — sweets, hampers, dry fruits, namkeen, chocolates, live sweets, bulk gifting — then the storefront and a closing card with locations and numbers, letterboxed to cinema scope." },
+    { "title": "AI film (style reference)", "text": "An earlier Ganpati festive AI ad set the visual language for the campaign and became the reference for the Diwali film." },
+    { "title": "Shopify", "text": "Ongoing support for the cdsstores.in store so online hamper and gifting orders had a clean path during the campaign." },
+    { "title": "Meta ads & social", "text": "Festive Meta campaigns targeted to Vapi and Valsad alongside the influencer content, with click-to-WhatsApp for bulk and corporate enquiries." }
+  ],
+  "results": [
+    "The campaign runs until 14 November 2026. Footfall, sales uplift, corporate orders, reach and cost-per-result are published here once the season closes and the numbers are confirmed."
+  ],
+  "quote": { "text": "", "name": "", "role": "" },
+  "gallery": 6,
+  "galleryNotes": ["Auto-rickshaw banner set", "Store-front banner", "Cinema-ad still 1", "Cinema-ad still 2", "Influencer reel covers", "Meta ad creatives"],
+  "video": "",
+  "images": { "hero": "", "card": "", "og": "" },
+  "meta": {
+    "title": "CDS Stores case study — Diwali campaign on ₹2 lakh | gaa-tha",
+    "description": "How gaa-tha planned a city-wide Diwali campaign for CDS Stores in Vapi and Valsad — outdoor, influencers, Meta ads and a cinema ad on one ₹2 lakh budget."
+  },
+  "updated": "2026-09-25"
+}

@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content &amp; media — gaa-tha admin</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="stylesheet" href="gaatha.css">
+<style>
+  /* ---------- Admin chrome (same as clients-admin) ---------- */
+  .adm { padding-block: 28px 80px; }
+  .adm-top { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-bottom: 22px; margin-bottom: 22px; border-bottom: 1px solid var(--line); }
+  .adm-top img { height: 34px; width: auto; }
+  .adm-title { font-size: clamp(1.5rem, 3vw, 2.125rem); margin-top: 8px; }
+  .adm-sub { color: var(--muted); max-width: 66ch; margin-top: 10px; }
+  .adm-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 28px; }
+  .adm-panel[hidden] { display: none; }
+  .adm-bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 0 0 22px; }
+  .adm-note { display: flex; gap: 14px; align-items: flex-start; padding: 16px 18px; border-radius: var(--r); background: var(--accent-soft); border: 1px solid var(--accent-line); color: var(--accent-ink); font-size: 0.9375rem; margin-bottom: 22px; }
+  .adm-note strong { display: block; margin-bottom: 3px; }
+  .adm-note.warn { background: #FBF0EC; border-color: #F1CFC2; color: #A9481F; }
+
+  .switch { position: relative; width: 48px; height: 28px; flex: none; }
+  .switch input { position: absolute; inset: 0; opacity: 0; cursor: pointer; margin: 0; }
+  .switch span { position: absolute; inset: 0; border-radius: 100px; background: var(--line-2); transition: background 0.2s var(--ease); pointer-events: none; }
+  .switch span::after { content: ''; position: absolute; top: 4px; left: 4px; width: 20px; height: 20px; border-radius: 50%; background: var(--white); transition: transform 0.2s var(--ease); }
+  .switch input:checked + span { background: var(--accent); }
+  .switch input:checked + span::after { transform: translateX(20px); }
+  .switch input:focus-visible + span { outline: 2px solid var(--accent-ink); outline-offset: 3px; }
+  .sw-label { display: inline-flex; align-items: center; gap: 10px; font-size: 0.8125rem; font-weight: 600; color: var(--muted); }
+
+  /* ---------- Rows ---------- */
+  .cl-list { display: grid; gap: 10px; }
+  .cl-row { display: grid; grid-template-columns: 72px 1fr auto; align-items: center; gap: 16px; padding: 12px 16px; background: var(--white); border: 1px solid var(--line); border-radius: var(--r); }
+  .cl-row.plain { grid-template-columns: 1fr auto; }
+  .cl-thumb { height: 52px; width: 72px; display: flex; align-items: center; justify-content: center; background: var(--surface); border-radius: 6px; overflow: hidden; border: 1px solid var(--line); }
+  .cl-thumb img { max-height: 48px; max-width: 100%; width: auto; height: auto; object-fit: contain; }
+  .cl-name { font-weight: 600; font-size: 0.9375rem; }
+  .cl-meta { font-size: 0.8125rem; color: var(--muted-2); }
+  .cl-acts { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+  .cl-btn { height: 34px; padding: 0 14px; border-radius: 8px; border: 1px solid var(--line-2); background: var(--white); display: inline-flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 600; color: var(--ink); transition: background 0.18s var(--ease), color 0.18s var(--ease), border-color 0.18s var(--ease); }
+  .cl-btn:hover:not(:disabled) { background: var(--ink); color: var(--white); border-color: var(--ink); }
+  .cl-btn.danger:hover { background: #B4231F; border-color: #B4231F; color: var(--white); }
+  .cl-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+  .cl-group { margin: 26px 0 10px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted-2); }
+  .cl-empty { padding: 44px 24px; text-align: center; border: 1px dashed var(--line-2); border-radius: var(--r-lg); color: var(--muted); }
+  .badge { display: inline-block; padding: 3px 9px; border-radius: 100px; font-size: 0.625rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; border: 1px solid var(--line); color: var(--muted); }
+  .badge.on { background: var(--accent-soft); border-color: var(--accent-line); color: var(--accent-ink); }
+
+  /* ---------- Media library ---------- */
+  .drop { border: 2px dashed var(--line-2); border-radius: var(--r-lg); padding: 34px 20px; text-align: center; color: var(--muted); background: var(--surface); transition: border-color 0.2s var(--ease), background 0.2s var(--ease); margin-bottom: 22px; }
+  .drop.over { border-color: var(--accent); background: var(--accent-soft); }
+  .drop input { display: none; }
+  .drop b { color: var(--ink); }
+  .m-tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 18px; }
+  .m-tools input, .m-tools select, .adm-field input, .adm-field select, .adm-field textarea { padding: 10px 12px; border: 1px solid var(--line-2); border-radius: var(--r-sm); font: inherit; font-size: 0.9063rem; background: var(--white); color: var(--ink); }
+  .m-tools input { min-width: 220px; }
+  .m-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 14px; }
+  .m-card { border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; background: var(--white); display: flex; flex-direction: column; cursor: pointer; transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease); }
+  .m-card:hover, .m-card.sel { border-color: var(--ink); box-shadow: 0 8px 24px rgba(16,17,20,0.08); }
+  .m-card.noalt { border-color: #F1CFC2; }
+  .m-thumb { aspect-ratio: 4 / 3; background: var(--surface-2) repeating-linear-gradient(135deg, transparent 0 14px, var(--accent-soft) 14px 15px); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .m-thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .m-body { padding: 10px 12px; font-size: 0.75rem; color: var(--muted); display: grid; gap: 4px; }
+  .m-body b { color: var(--ink); font-size: 0.8125rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .m-body .noalt-flag { color: #A9481F; font-weight: 700; }
+  .m-prog { height: 4px; background: var(--surface-2); border-radius: 2px; overflow: hidden; margin-top: 8px; }
+  .m-prog span { display: block; height: 100%; background: var(--accent); width: 0; transition: width 0.2s; }
+
+  /* ---------- Slots ---------- */
+  .slots { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
+  .slot { border: 1px solid var(--line); border-radius: var(--r); padding: 10px; background: var(--white); display: grid; gap: 8px; }
+  .slot .ph { border-radius: var(--r-sm); }
+  .slot h4 { font-family: var(--sans); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  .slot .acts { display: flex; gap: 6px; }
+
+  /* ---------- Modal ---------- */
+  .adm-modal { position: fixed; inset: 0; z-index: 300; background: rgba(16, 17, 20, 0.55); -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px); display: flex; align-items: flex-start; justify-content: center; padding: 20px; overflow-y: auto; }
+  .adm-modal-box { position: relative; width: 100%; max-width: 640px; background: var(--white); border-radius: var(--r-lg); padding: clamp(22px, 3vw, 32px); box-shadow: 0 30px 80px rgba(16, 17, 20, 0.28); margin: 20px 0; }
+  .adm-modal-box.wide { max-width: 1040px; }
+  .adm-modal-box h3 { font-size: 1.25rem; margin-bottom: 18px; }
+  .adm-field { display: grid; gap: 6px; margin-bottom: 14px; }
+  .adm-field label { font-size: 0.8125rem; font-weight: 600; color: var(--ink); }
+  .adm-field input, .adm-field select, .adm-field textarea { width: 100%; }
+  .adm-field textarea { min-height: 90px; resize: vertical; }
+  .adm-field small { font-size: 0.75rem; color: var(--muted-2); }
+  .adm-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+  .adm-modal-acts { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px; align-items: center; }
+  .adm-busy { position: absolute; inset: 0; border-radius: var(--r-lg); background: rgba(255, 255, 255, 0.85); display: none; align-items: center; justify-content: center; font-weight: 600; font-size: 0.9375rem; color: var(--ink); }
+  .adm-busy.on { display: flex; }
+  .adm-toast { position: fixed; left: 50%; bottom: 26px; transform: translate(-50%, 20px); z-index: 400; padding: 12px 22px; border-radius: 100px; background: var(--ink); color: var(--white); font-size: 0.875rem; font-weight: 600; opacity: 0; pointer-events: none; transition: opacity 0.25s var(--ease), transform 0.25s var(--ease); }
+  .adm-toast.on { opacity: 1; transform: translate(-50%, 0); }
+  .adm-toast.bad { background: #B4231F; }
+  .adm-locked { padding: 80px 0; text-align: center; }
+  .adm-locked h1 { font-size: 1.75rem; margin-bottom: 12px; }
+  .adm-locked p { color: var(--muted); margin-bottom: 24px; }
+  .kv { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+  @media (max-width: 700px) { .cl-row { grid-template-columns: 60px 1fr; } .cl-row.plain { grid-template-columns: 1fr; } .cl-acts { grid-column: 1 / -1; justify-content: flex-start; } .adm-2, .kv { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<div class="wrap adm" id="app" hidden>
+  <div class="adm-top">
+    <img src="assets/logo.png" alt="gaa-tha">
+    <a class="link-arrow" href="GaathaAdmin123.html">&larr; Back to admin</a>
+  </div>
+
+  <h1 class="display adm-title">Content &amp; media</h1>
+  <p class="adm-sub">Upload and swap every image on the site, fill in case-study numbers and quotes, approve testimonials, and switch pages on or off. Text copy lives in the repository (<code>content/</code>); everything here is applied on top of it.</p>
+
+  <div class="adm-tabs" role="tablist">
+    <button class="chip active" data-tab="media">Media library</button>
+    <button class="chip" data-tab="services">Services</button>
+    <button class="chip" data-tab="cases">Case studies</button>
+    <button class="chip" data-tab="clients">Clients</button>
+    <button class="chip" data-tab="testimonials">Testimonials</button>
+    <button class="chip" data-tab="settings">Settings</button>
+    <button class="chip" data-tab="publish">Publish</button>
+  </div>
+
+  <!-- ================= Media ================= -->
+  <section class="adm-panel" id="tab-media">
+    <div class="drop" id="drop">
+      <input type="file" id="fileInput" accept="image/*" multiple>
+      <p><b>Drop images here</b> or <button class="cl-btn" type="button" id="pickFiles">choose files</button></p>
+      <p style="font-size:0.8125rem;margin-top:8px">JPG, PNG or WEBP. Each upload is converted to WebP at 480, 768, 1200 and 1920 px, EXIF is stripped, and alt text is required before the image can be placed.</p>
+      <div class="m-prog" id="prog" hidden><span></span></div>
+    </div>
+    <div class="m-tools">
+      <input type="search" id="mSearch" placeholder="Search by name, alt or caption">
+      <select id="mFolder"><option value="">All folders</option><option>blog</option><option>case-studies</option><option>services</option><option>clients</option><option>og</option><option>general</option></select>
+      <select id="mUploadFolder" title="Folder for new uploads"><option value="general">Upload to: general</option><option value="blog">Upload to: blog</option><option value="case-studies">Upload to: case-studies</option><option value="services">Upload to: services</option><option value="clients">Upload to: clients</option><option value="og">Upload to: og</option></select>
+      <span class="cl-meta" id="mCount"></span>
+    </div>
+    <div class="m-grid" id="mGrid"></div>
+  </section>
+
+  <!-- ================= Services ================= -->
+  <section class="adm-panel" id="tab-services" hidden>
+    <div class="adm-note"><div><strong>Publish toggles take effect on the next site publish.</strong> Images you place here appear on the live page immediately and are baked into the HTML when you publish.</div></div>
+    <div class="cl-list" id="svcList"></div>
+  </section>
+
+  <!-- ================= Case studies ================= -->
+  <section class="adm-panel" id="tab-cases" hidden>
+    <div class="adm-note warn"><div><strong>Only publish a case study after the client has approved it</strong> and the numbers are confirmed from real reports. Empty metrics and quotes stay hidden on the page.</div></div>
+    <div class="cl-list" id="caseList"></div>
+  </section>
+
+  <!-- ================= Clients ================= -->
+  <section class="adm-panel" id="tab-clients" hidden>
+    <div class="adm-bar"><button class="btn btn-primary" id="addClient">+ Add client</button><span class="cl-meta">Logos are used on the home and services logo walls, case-study cards and case-study heroes. Order is the logo-wall order.</span></div>
+    <div class="cl-list" id="clientList"></div>
+  </section>
+
+  <!-- ================= Testimonials ================= -->
+  <section class="adm-panel" id="tab-testimonials" hidden>
+    <div class="adm-bar"><button class="btn btn-primary" id="addTesti">+ Add testimonial</button><span class="cl-meta">The home-page quote block is hidden until at least one testimonial is approved.</span></div>
+    <div class="cl-list" id="testiList"></div>
+  </section>
+
+  <!-- ================= Settings ================= -->
+  <section class="adm-panel" id="tab-settings" hidden>
+    <form id="settingsForm" class="kv">
+      <div class="adm-field"><label>Default social preview image (1200×630)</label><div class="slots"><div class="slot" id="ogSlot"></div></div></div>
+      <div></div>
+      <div class="adm-field"><label for="s-email">Email</label><input id="s-email" placeholder="digimarketing@gaa-tha.com"></div>
+      <div class="adm-field"><label for="s-phone1">Phone 1</label><input id="s-phone1" placeholder="+91 97372 80309"></div>
+      <div class="adm-field"><label for="s-phone2">Phone 2</label><input id="s-phone2" placeholder="+91 77818 18981"></div>
+      <div class="adm-field"><label for="s-insta">Instagram URL</label><input id="s-insta"></div>
+      <div class="adm-field"><label for="s-linkedin">LinkedIn URL</label><input id="s-linkedin"></div>
+      <div class="adm-field"><label for="s-facebook">Facebook URL</label><input id="s-facebook"></div>
+      <div class="adm-field"><label for="s-gbp">Google Business Profile URL</label><input id="s-gbp"></div>
+      <div class="adm-field"><label>Stats row (home)</label><div class="kv"><input id="s-stat1" placeholder="15+ · Client brands"><input id="s-stat2" placeholder="100+ · Campaigns delivered"><input id="s-stat3" placeholder="50M+ · Total reach"><input id="s-stat4" placeholder="1000+ · AI-driven content pieces"></div><small>Format: value · label. Applied by the build on the next publish.</small></div>
+      <div style="grid-column:1/-1"><button class="btn btn-primary" type="submit">Save settings</button></div>
+    </form>
+  </section>
+
+  <!-- ================= Publish ================= -->
+  <section class="adm-panel" id="tab-publish" hidden>
+    <div class="adm-note"><div><strong>How publishing works.</strong> Text lives in the repository; images, metrics, quotes and on/off toggles live here. Publishing rebuilds every page with both merged, regenerates the sitemap and llms.txt, and deploys to Netlify. Until then, images you place are still visible on the live page through the preview layer.</div></div>
+    <div class="adm-bar">
+      <button class="btn btn-primary btn-lg" id="publishBtn">Publish site <span class="arr">&rarr;</span></button>
+      <span class="cl-meta" id="publishState"></span>
+    </div>
+    <p class="cl-meta" style="max-width:70ch">If the button reports that the publish hook is not configured, run the <em>Deploy to Netlify</em> workflow from the GitHub Actions tab instead — it does exactly the same thing. Setup notes are in <code>workers/DEPLOY.md</code>.</p>
+  </section>
+</div>
+
+<div class="wrap adm-locked" id="locked" hidden>
+  <h1 class="display">Admin access required</h1>
+  <p>Sign in through the admin login, then come back to this page.</p>
+  <a class="btn btn-primary" href="admin/index.html">Go to admin login</a>
+</div>
+
+<div class="adm-toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  var ADMIN_KEY = 'gaatha_admin_2025_secret_key_xyz789';
+  if (localStorage.getItem('admin_secret') !== ADMIN_KEY) {
+    document.getElementById('locked').hidden = false;
+    return;
+  }
+  document.getElementById('app').hidden = false;
+
+  firebase.initializeApp({
+    apiKey: "AIzaSyBQlBj179byUqKjjXGH1TmpqT36nlDhwaY",
+    authDomain: "gaatha-b9ee5.firebaseapp.com",
+    databaseURL: "https://gaatha-b9ee5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "gaatha-b9ee5",
+    storageBucket: "gaatha-b9ee5.firebasestorage.app",
+    messagingSenderId: "661713784587",
+    appId: "1:661713784587:web:2b7bbcb40b18e53c361c0e"
+  });
+  var db = firebase.database();
+  var R2_ENDPOINT = 'https://r2-presign.moxshang.workers.dev';
+  // Cloudflare worker that triggers the GitHub rebuild (see workers/publish-hook.js). Leave empty to publish from GitHub Actions manually.
+  var PUBLISH_HOOK = 'https://gaatha-publish.moxshang.workers.dev';
+  var SIZES = [480, 768, 1200, 1920];
+  var SLOT_RATIO = { hero: '16:9', card: '4:3', og: '1200×630', gallery: '4:5', workstreams: '16:10', logo: 'logo', cover: '16:9' };
+  var RATIO_CLASS = { '16:9': 'r-16x9', '4:3': 'r-4x3', '4:5': 'r-4x5', '16:10': 'r-16x10', '1200×630': 'r-og', 'logo': 'r-logo' };
+
+  var idx = null;      // content/index.json (what the repo knows)
+  var cms = {};        // the whole cms/ tree
+  var media = {};
+
+  /* ------------------------------ helpers ------------------------------- */
+  function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;'); }
+  var toastEl = document.getElementById('toast'), toastTimer = null;
+  function toast(msg, bad) { toastEl.textContent = msg; toastEl.classList.toggle('bad', !!bad); toastEl.classList.add('on'); clearTimeout(toastTimer); toastTimer = setTimeout(function () { toastEl.classList.remove('on'); }, 2800); }
+  function get(path) { return db.ref(path).once('value').then(function (s) { return s.val(); }); }
+  function set(path, val) { return db.ref(path).set(val); }
+  function update(path, val) { return db.ref(path).update(val); }
+  function slug(s) { return String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''); }
+  function isFilled(v) { return v != null && String(v).trim() !== '' && !/^TODO-/i.test(String(v).trim()); }
+  function mediaOf(ref) { if (!ref) return null; if (media[ref]) return media[ref]; if (/^(https?:)?\//.test(ref)) return { url: ref, alt: '', id: '' }; return null; }
+  function usageOf(id) {
+    var used = [];
+    function walk(node, label) {
+      if (!node) return;
+      if (typeof node === 'string') { if (node === id) used.push(label); return; }
+      if (typeof node === 'object') Object.keys(node).forEach(function (k) { walk(node[k], label + '/' + k); });
+    }
+    ['services', 'caseStudies', 'clients', 'blog', 'settings'].forEach(function (c) { walk(cms[c], c); });
+    return used;
+  }
+
+  /* ------------------------------ tabs ---------------------------------- */
+  document.querySelectorAll('[data-tab]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      document.querySelectorAll('[data-tab]').forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      document.querySelectorAll('.adm-panel').forEach(function (p) { p.hidden = p.id !== 'tab-' + btn.dataset.tab; });
+    });
+  });
+
+  /* ------------------------------ modal --------------------------------- */
+  function modal(html, wide) {
+    var el = document.createElement('div');
+    el.className = 'adm-modal';
+    el.innerHTML = '<div class="adm-modal-box' + (wide ? ' wide' : '') + '">' + html + '<div class="adm-busy">Saving…</div></div>';
+    document.body.appendChild(el);
+    el.addEventListener('click', function (e) { if (e.target === el || e.target.hasAttribute('data-close')) el.remove(); });
+    el.busy = function (on, msg) { var b = el.querySelector('.adm-busy'); b.textContent = msg || 'Saving…'; b.classList.toggle('on', !!on); };
+    el.close = function () { el.remove(); };
+    return el;
+  }
+
+  /* ============================ MEDIA ==================================== */
+  function loadImage(file) {
+    return new Promise(function (res, rej) {
+      var url = URL.createObjectURL(file);
+      var img = new Image();
+      img.onload = function () { URL.revokeObjectURL(url); res(img); };
+      img.onerror = function () { URL.revokeObjectURL(url); rej(new Error('Could not read ' + file.name)); };
+      img.src = url;
+    });
+  }
+  function toWebp(img, width) {
+    var scale = Math.min(1, width / img.naturalWidth);
+    var w = Math.round(img.naturalWidth * scale), h = Math.round(img.naturalHeight * scale);
+    var c = document.createElement('canvas'); c.width = w; c.height = h;
+    c.getContext('2d').drawImage(img, 0, 0, w, h);
+    return new Promise(function (res) { c.toBlob(function (b) { res({ blob: b, w: w, h: h }); }, 'image/webp', 0.86); });
+  }
+  function putR2(key, blob, type) {
+    return fetch(R2_ENDPOINT + '?fileName=' + encodeURIComponent(key), { method: 'POST', headers: { 'Content-Type': type }, body: blob })
+      .then(function (r) { if (!r.ok) throw new Error('Upload failed (' + r.status + ')'); return r.json(); })
+      .then(function (o) { return o.publicUrl || ('https://media.gaa-tha.com/' + key); });
+  }
+  function delR2(url) {
+    try { var u = new URL(url); if (/media\.gaa-tha\.com$/i.test(u.hostname)) return fetch(R2_ENDPOINT + '?fileName=' + encodeURIComponent(u.pathname.replace(/^\/+/, '')), { method: 'DELETE' }).catch(function () {}); } catch (_) {}
+    return Promise.resolve();
+  }
+  // Re-encodes to WebP at each width (drops EXIF), uploads, and returns the media record.
+  async function processUpload(file, folder, existingId, onProgress) {
+    var img = await loadImage(file);
+    var id = existingId || (Date.now().toString(36) + Math.random().toString(36).slice(2, 8));
+    var base = 'media/' + folder + '/' + id;
+    var variants = {}, largest = null, done = 0;
+    var widths = SIZES.filter(function (w) { return w <= img.naturalWidth; });
+    if (!widths.length || widths[widths.length - 1] < img.naturalWidth) widths.push(Math.min(img.naturalWidth, 1920));
+    for (var i = 0; i < widths.length; i++) {
+      var v = await toWebp(img, widths[i]);
+      var url = await putR2(base + '-' + v.w + '.webp', v.blob, 'image/webp');
+      variants[v.w] = url; largest = { url: url, w: v.w, h: v.h };
+      done++; if (onProgress) onProgress(done / widths.length);
+    }
+    return { id: id, url: largest.url, width: largest.w, height: largest.h, variants: variants, folder: folder, name: file.name, size: file.size, createdAt: new Date().toISOString() };
+  }
+  function askAlt(rec, isNew) {
+    return new Promise(function (res) {
+      var m = modal('<h3>' + (isNew ? 'Describe this image' : 'Edit image') + '</h3>' +
+        '<div class="m-thumb" style="border-radius:8px;margin-bottom:14px;max-height:260px"><img src="' + esc(rec.url) + '" alt=""></div>' +
+        '<div class="adm-field"><label>Alt text <span style="color:#A9481F">*</span></label><input id="f-alt" value="' + esc(rec.alt || '') + '" placeholder="What is in the picture, in one sentence" required><small>Required. Screen readers, Google Images and AI tools read this.</small></div>' +
+        '<div class="adm-2"><div class="adm-field"><label>Caption (optional)</label><input id="f-cap" value="' + esc(rec.caption || '') + '"></div><div class="adm-field"><label>Credit (optional)</label><input id="f-credit" value="' + esc(rec.credit || '') + '"></div></div>' +
+        '<div class="adm-field"><label>Folder</label><select id="f-folder">' + ['blog', 'case-studies', 'services', 'clients', 'og', 'general'].map(function (f) { return '<option' + (f === rec.folder ? ' selected' : '') + '>' + f + '</option>'; }).join('') + '</select></div>' +
+        '<div class="adm-modal-acts"><button class="btn btn-primary" id="f-save">Save</button><button class="btn btn-ghost" data-close>' + (isNew ? 'Skip for now' : 'Cancel') + '</button></div>');
+      m.querySelector('#f-save').addEventListener('click', function () {
+        var alt = m.querySelector('#f-alt').value.trim();
+        if (!alt) { toast('Alt text is required', true); return; }
+        rec.alt = alt; rec.caption = m.querySelector('#f-cap').value.trim(); rec.credit = m.querySelector('#f-credit').value.trim(); rec.folder = m.querySelector('#f-folder').value;
+        m.close(); res(rec);
+      });
+      m.addEventListener('click', function (e) { if (e.target === m || e.target.hasAttribute('data-close')) res(rec); });
+    });
+  }
+  async function uploadFiles(files) {
+    var folder = document.getElementById('mUploadFolder').value;
+    var prog = document.getElementById('prog'); prog.hidden = false;
+    var bar = prog.firstElementChild;
+    for (var i = 0; i < files.length; i++) {
+      var f = files[i];
+      if (!/^image\//.test(f.type)) { toast(f.name + ' is not an image', true); continue; }
+      try {
+        bar.style.width = '0%';
+        var rec = await processUpload(f, folder, null, function (p) { bar.style.width = Math.round(p * 100) + '%'; });
+        await askAlt(rec, true);
+        await set('cms/media/' + rec.id, rec);
+        media[rec.id] = rec;
+        toast('Uploaded ' + f.name);
+      } catch (err) { toast(err.message || 'Upload failed', true); }
+    }
+    prog.hidden = true;
+    renderMedia();
+  }
+  var drop = document.getElementById('drop');
+  document.getElementById('pickFiles').addEventListener('click', function () { document.getElementById('fileInput').click(); });
+  document.getElementById('fileInput').addEventListener('change', function (e) { uploadFiles(Array.from(e.target.files)); e.target.value = ''; });
+  ['dragenter', 'dragover'].forEach(function (ev) { drop.addEventListener(ev, function (e) { e.preventDefault(); drop.classList.add('over'); }); });
+  ['dragleave', 'drop'].forEach(function (ev) { drop.addEventListener(ev, function (e) { e.preventDefault(); drop.classList.remove('over'); }); });
+  drop.addEventListener('drop', function (e) { uploadFiles(Array.from(e.dataTransfer.files)); });
+
+  function mediaCard(m, selectable) {
+    var noalt = !m.alt;
+    return '<div class="m-card' + (noalt ? ' noalt' : '') + '" data-id="' + esc(m.id) + '"' + (selectable && noalt ? ' title="Add alt text before using this image"' : '') + '>' +
+      '<div class="m-thumb"><img src="' + esc(m.variants && m.variants[480] ? m.variants[480] : m.url) + '" alt="' + esc(m.alt) + '" loading="lazy"></div>' +
+      '<div class="m-body"><b>' + esc(m.alt || m.name || m.id) + '</b><span>' + esc(m.folder || 'general') + ' · ' + (m.width || '?') + '×' + (m.height || '?') + '</span>' + (noalt ? '<span class="noalt-flag">Needs alt text</span>' : '') + '</div></div>';
+  }
+  function filteredMedia() {
+    var q = document.getElementById('mSearch').value.trim().toLowerCase();
+    var folder = document.getElementById('mFolder').value;
+    return Object.keys(media).map(function (k) { return Object.assign({ id: k }, media[k]); })
+      .filter(function (m) { return (!folder || m.folder === folder) && (!q || [m.alt, m.caption, m.name, m.credit].join(' ').toLowerCase().indexOf(q) !== -1); })
+      .sort(function (a, b) { return (b.createdAt || '').localeCompare(a.createdAt || ''); });
+  }
+  function renderMedia() {
+    var list = filteredMedia();
+    document.getElementById('mCount').textContent = list.length + ' image' + (list.length === 1 ? '' : 's');
+    document.getElementById('mGrid').innerHTML = list.length ? list.map(function (m) { return mediaCard(m); }).join('') : '<div class="cl-empty" style="grid-column:1/-1">No images yet. Drop a few above.</div>';
+  }
+  ['mSearch', 'mFolder'].forEach(function (id) { document.getElementById(id).addEventListener('input', renderMedia); });
+  document.getElementById('mGrid').addEventListener('click', function (e) {
+    var card = e.target.closest('.m-card'); if (!card) return;
+    openMediaDetail(card.dataset.id);
+  });
+  function openMediaDetail(id) {
+    var m = Object.assign({ id: id }, media[id]);
+    var used = usageOf(id);
+    var box = modal('<h3>' + esc(m.alt || m.name || id) + '</h3>' +
+      '<div class="m-thumb" style="border-radius:8px;margin-bottom:14px;max-height:320px"><img src="' + esc(m.url) + '" alt="' + esc(m.alt) + '"></div>' +
+      '<p class="cl-meta">' + esc(m.folder) + ' · ' + m.width + '×' + m.height + ' · ' + Object.keys(m.variants || {}).join(', ') + ' px</p>' +
+      '<p class="cl-meta" style="margin-top:6px"><b>Used in:</b> ' + (used.length ? esc(used.join(', ')) : 'nowhere yet') + '</p>' +
+      '<div class="adm-modal-acts"><button class="cl-btn" id="d-edit">Edit alt / caption</button><label class="cl-btn" style="cursor:pointer">Replace file<input type="file" accept="image/*" id="d-replace" hidden></label><button class="cl-btn" id="d-copy">Copy URL</button><button class="cl-btn danger" id="d-del">Delete</button><button class="btn btn-ghost" data-close>Close</button></div>');
+    box.querySelector('#d-edit').addEventListener('click', async function () {
+      await askAlt(m, false); await update('cms/media/' + id, { alt: m.alt, caption: m.caption, credit: m.credit, folder: m.folder }); media[id] = Object.assign(media[id] || {}, m); box.close(); renderMedia(); toast('Saved');
+    });
+    box.querySelector('#d-replace').addEventListener('change', async function (e) {
+      var f = e.target.files[0]; if (!f) return;
+      box.busy(true, 'Replacing…');
+      try {
+        var old = media[id] || {};
+        var rec = await processUpload(f, m.folder || 'general', id);
+        rec.alt = m.alt; rec.caption = m.caption || ''; rec.credit = m.credit || '';
+        await set('cms/media/' + id, rec); media[id] = rec;
+        // Old files are reaped only after the new ones are live; same id, so every page updates.
+        Object.keys(old.variants || {}).forEach(function (w) { if (rec.variants[w] !== old.variants[w]) delR2(old.variants[w]); });
+        box.close(); renderMedia(); toast('Replaced — every page using this image now shows the new file');
+      } catch (err) { box.busy(false); toast(err.message, true); }
+    });
+    box.querySelector('#d-copy').addEventListener('click', function () { navigator.clipboard.writeText(m.url).then(function () { toast('URL copied'); }); });
+    box.querySelector('#d-del').addEventListener('click', async function () {
+      var msg = used.length ? 'This image is used in ' + used.length + ' place(s):\n' + used.join('\n') + '\n\nThose slots go back to placeholders. Delete anyway?' : 'Delete this image?';
+      if (!confirm(msg)) return;
+      box.busy(true, 'Deleting…');
+      await db.ref('cms/media/' + id).remove();
+      Object.keys(m.variants || {}).forEach(function (w) { delR2(m.variants[w]); });
+      delete media[id];
+      box.close(); renderMedia(); toast('Deleted');
+    });
+  }
+
+  /* Image picker used by every slot. Resolves with a media id, '' to clear, or null on cancel. */
+  function pickImage(currentId) {
+    return new Promise(function (res) {
+      var list = Object.keys(media).map(function (k) { return Object.assign({ id: k }, media[k]); }).sort(function (a, b) { return (b.createdAt || '').localeCompare(a.createdAt || ''); });
+      var box = modal('<h3>Choose an image</h3><div class="m-tools"><input type="search" id="p-q" placeholder="Search"><label class="cl-btn" style="cursor:pointer">Upload new<input type="file" accept="image/*" id="p-up" hidden></label>' + (currentId ? '<button class="cl-btn danger" id="p-clear">Remove image from slot</button>' : '') + '<button class="btn btn-ghost" data-close>Cancel</button></div><div class="m-grid" id="p-grid"></div>', true);
+      function draw() {
+        var q = box.querySelector('#p-q').value.trim().toLowerCase();
+        var l = list.filter(function (m) { return !q || [m.alt, m.name, m.caption].join(' ').toLowerCase().indexOf(q) !== -1; });
+        box.querySelector('#p-grid').innerHTML = l.length ? l.map(function (m) { return mediaCard(m, true).replace('m-card', 'm-card' + (m.id === currentId ? ' sel' : '')); }).join('') : '<div class="cl-empty" style="grid-column:1/-1">No images match.</div>';
+      }
+      draw();
+      box.querySelector('#p-q').addEventListener('input', draw);
+      box.querySelector('#p-grid').addEventListener('click', function (e) {
+        var card = e.target.closest('.m-card'); if (!card) return;
+        if (!media[card.dataset.id] || !media[card.dataset.id].alt) { toast('Add alt text to this image first (Media library → click it → Edit)', true); return; }
+        box.close(); res(card.dataset.id);
+      });
+      box.querySelector('#p-up').addEventListener('change', async function (e) {
+        var f = e.target.files[0]; if (!f) return;
+        box.busy(true, 'Uploading…');
+        try {
+          var rec = await processUpload(f, document.getElementById('mUploadFolder').value);
+          box.busy(false);
+          await askAlt(rec, true);
+          if (!rec.alt) { toast('Alt text is required before an image can be placed', true); return; }
+          await set('cms/media/' + rec.id, rec); media[rec.id] = rec; renderMedia();
+          box.close(); res(rec.id);
+        } catch (err) { box.busy(false); toast(err.message, true); }
+      });
+      var clr = box.querySelector('#p-clear'); if (clr) clr.addEventListener('click', function () { box.close(); res(''); });
+      box.addEventListener('click', function (e) { if (e.target === box || e.target.hasAttribute('data-close')) res(null); });
+    });
+  }
+
+  /* Slot grid for a record: slots = [{ key, label, ratio }] ; images = record.images */
+  function slotHtml(s, images) {
+    var ref = keyGet(images, s.key);
+    var m = mediaOf(ref);
+    var cls = 'ph sm ' + (RATIO_CLASS[s.ratio] || 'r-16x9') + (m ? ' has-img' : '');
+    return '<div class="slot" data-key="' + esc(s.key) + '"><h4>' + esc(s.label) + ' · ' + esc(s.ratio) + '</h4><div class="' + cls + '">' + (m ? '<img src="' + esc(m.variants && m.variants[480] ? m.variants[480] : m.url) + '" alt="">' : '') + '<span class="ph-label">' + esc(s.label) + '</span></div><div class="acts"><button class="cl-btn" data-pick>' + (m ? 'Change' : 'Choose image') + '</button>' + (m ? '<button class="cl-btn danger" data-clear>Remove</button>' : '') + '</div></div>';
+  }
+  function keyGet(obj, key) { var parts = key.split('/'); var cur = obj || {}; for (var i = 0; i < parts.length; i++) { if (cur == null) return null; cur = cur[parts[i]]; } return cur; }
+  function keySet(obj, key, val) { var parts = key.split('/'); var cur = obj; for (var i = 0; i < parts.length - 1; i++) { if (typeof cur[parts[i]] !== 'object' || cur[parts[i]] == null) cur[parts[i]] = {}; cur = cur[parts[i]]; } cur[parts[parts.length - 1]] = val; }
+  function wireSlots(container, images, onChange) {
+    container.addEventListener('click', async function (e) {
+      var btn = e.target.closest('[data-pick],[data-clear]'); if (!btn) return;
+      var slotEl = btn.closest('.slot'); var key = slotEl.dataset.key;
+      var val = btn.hasAttribute('data-clear') ? '' : await pickImage(keyGet(images, key));
+      if (val === null) return;
+      keySet(images, key, val);
+      await onChange(images);
+      var spec = container._slots.find(function (s) { return s.key === key; });
+      slotEl.outerHTML = slotHtml(spec, images);
+    });
+  }
+  function openImages(title, path, slots, currentImages) {
+    var images = JSON.parse(JSON.stringify(currentImages || {}));
+    var box = modal('<h3>' + esc(title) + ' — images</h3><p class="cl-meta" style="margin:-8px 0 16px">Changes save instantly and show on the live page straight away.</p><div class="slots" id="slots">' + slots.map(function (s) { return slotHtml(s, images); }).join('') + '</div><div class="adm-modal-acts"><button class="btn btn-ghost" data-close>Done</button></div>', true);
+    var c = box.querySelector('#slots'); c._slots = slots;
+    wireSlots(c, images, function (imgs) { return update(path, { images: imgs }).then(function () { keySet(cms, path.replace(/^cms\//, '').replace(/\//g, '/') + '/images', imgs); toast('Saved'); }); });
+  }
+
+  /* ============================ SERVICES ================================= */
+  function svcOverride(slug) { return (cms.services && cms.services[slug]) || {}; }
+  function renderServices() {
+    var el = document.getElementById('svcList');
+    var byGroup = {};
+    idx.services.forEach(function (s) { (byGroup[s.group] = byGroup[s.group] || []).push(s); });
+    el.innerHTML = idx.groups.map(function (g) {
+      return '<div class="cl-group">' + esc(g.name) + '</div>' + (byGroup[g.slug] || []).map(function (s) {
+        var o = svcOverride(s.slug);
+        var pub = o.published != null ? o.published : s.published;
+        var imgs = o.images || {};
+        var n = ['hero', 'card', 'og'].filter(function (k) { return mediaOf(imgs[k]); }).length;
+        return '<div class="cl-row plain" data-slug="' + esc(s.slug) + '"><span><span class="cl-name">' + esc(s.name) + '</span><br><span class="cl-meta">' + esc(s.url) + ' · ' + n + '/3 images set</span></span><span class="cl-acts"><label class="sw-label">Published <span class="switch"><input type="checkbox" data-pub' + (pub ? ' checked' : '') + '><span></span></span></label><button class="cl-btn" data-imgs>Images</button><a class="cl-btn" href="' + esc(s.url) + '" target="_blank" rel="noopener">View</a></span></div>';
+      }).join('');
+    }).join('');
+  }
+  document.getElementById('svcList').addEventListener('click', function (e) {
+    var row = e.target.closest('.cl-row'); if (!row) return;
+    var s = idx.services.find(function (x) { return x.slug === row.dataset.slug; });
+    if (e.target.closest('[data-imgs]')) openImages(s.name, 'cms/services/' + s.slug, [{ key: 'hero', label: 'Service hero', ratio: '16:9' }, { key: 'card', label: 'Service card', ratio: '4:3' }, { key: 'og', label: 'Social preview', ratio: '1200×630' }], svcOverride(s.slug).images);
+  });
+  document.getElementById('svcList').addEventListener('change', function (e) {
+    if (!e.target.hasAttribute('data-pub')) return;
+    var slug = e.target.closest('.cl-row').dataset.slug;
+    update('cms/services/' + slug, { published: e.target.checked }).then(function () { keySet(cms, 'services/' + slug + '/published', e.target.checked); toast(e.target.checked ? 'Will publish on next site publish' : 'Will be removed on next site publish'); });
+  });
+
+  /* ============================ CASE STUDIES ============================= */
+  function caseRec(slug) { var base = idx.caseStudies.find(function (c) { return c.slug === slug; }); return Object.assign({}, base, (cms.caseStudies && cms.caseStudies[slug]) || {}); }
+  function renderCases() {
+    var el = document.getElementById('caseList');
+    el.innerHTML = idx.caseStudies.map(function (c0) {
+      var c = caseRec(c0.slug);
+      var client = (idx.clients.find(function (x) { return x.slug === c.client; }) || {}).name || c.client;
+      var filled = (c.metrics || []).filter(function (m) { return isFilled(m.value); }).length;
+      var logoRef = (cms.clients && cms.clients[c.client] && cms.clients[c.client].logo) || (idx.clients.find(function (x) { return x.slug === c.client; }) || {}).logo;
+      var lm = mediaOf(logoRef);
+      return '<div class="cl-row" data-slug="' + esc(c.slug) + '"><span class="cl-thumb">' + (lm ? '<img src="' + esc(lm.url) + '" alt="">' : '<span class="cl-meta">no logo</span>') + '</span><span><span class="cl-name">' + esc(client) + '</span> <span class="badge' + (c.published ? ' on' : '') + '">' + (c.published ? 'Published' : 'Draft') + '</span>' + (c.featured ? ' <span class="badge on">Featured</span>' : '') + '<br><span class="cl-meta">' + esc(isFilled(c.headline) ? c.headline : 'Headline to confirm') + ' · ' + filled + '/' + (c.metrics || []).length + ' metrics · ' + (isFilled(c.quote && c.quote.text) ? 'quote set' : 'no quote') + '</span></span><span class="cl-acts"><label class="sw-label">Published <span class="switch"><input type="checkbox" data-pub' + (c.published ? ' checked' : '') + '><span></span></span></label><button class="cl-btn" data-edit>Details &amp; numbers</button><button class="cl-btn" data-imgs>Images</button></span></div>';
+    }).join('');
+  }
+  document.getElementById('caseList').addEventListener('change', function (e) {
+    if (!e.target.hasAttribute('data-pub')) return;
+    var slug = e.target.closest('.cl-row').dataset.slug;
+    var c = caseRec(slug);
+    if (e.target.checked && !isFilled(c.headline)) { e.target.checked = false; toast('Add a headline before publishing', true); return; }
+    if (e.target.checked && !confirm('Publish this case study on the next site publish? Only do this once the client has approved it.')) { e.target.checked = false; return; }
+    update('cms/caseStudies/' + slug, { published: e.target.checked }).then(function () { keySet(cms, 'caseStudies/' + slug + '/published', e.target.checked); renderCases(); toast('Saved'); });
+  });
+  document.getElementById('caseList').addEventListener('click', function (e) {
+    var row = e.target.closest('.cl-row'); if (!row) return;
+    var c = caseRec(row.dataset.slug);
+    if (e.target.closest('[data-imgs]')) {
+      var slots = [{ key: 'hero', label: 'Case hero', ratio: '16:9' }, { key: 'card', label: 'Case card', ratio: '4:3' }, { key: 'og', label: 'Social preview', ratio: '1200×630' }];
+      (c.workstreams || []).forEach(function (t, i) { slots.push({ key: 'workstreams/' + i, label: t, ratio: '16:10' }); });
+      for (var i = 0; i < (c.gallery || 6); i++) slots.push({ key: 'gallery/' + i, label: (c.galleryNotes && c.galleryNotes[i]) || ('Gallery ' + (i + 1)), ratio: '4:5' });
+      openImages(c.headline && isFilled(c.headline) ? c.headline : c.slug, 'cms/caseStudies/' + c.slug, slots, c.images);
+    }
+    if (e.target.closest('[data-edit]')) openCaseEdit(c);
+  });
+  function openCaseEdit(c) {
+    var metrics = (c.metrics && c.metrics.length ? c.metrics : [{ label: '', value: '' }, { label: '', value: '' }, { label: '', value: '' }, { label: '', value: '' }]).slice(0, 4);
+    while (metrics.length < 4) metrics.push({ label: '', value: '' });
+    var box = modal('<h3>' + esc(c.slug) + ' — details &amp; numbers</h3>' +
+      '<div class="adm-field"><label>Outcome headline (H1)</label><input id="c-headline" value="' + esc(isFilled(c.headline) ? c.headline : '') + '" placeholder="e.g. Rebuilding a 200+ SKU snack brand\'s online store"></div>' +
+      '<div class="adm-field"><label>One-line summary</label><textarea id="c-summary">' + esc(isFilled(c.summary) ? c.summary : '') + '</textarea></div>' +
+      '<div class="adm-2"><div class="adm-field"><label>Industry</label><input id="c-industry" value="' + esc(isFilled(c.industry) ? c.industry : '') + '"></div><div class="adm-field"><label>Location</label><input id="c-location" value="' + esc(isFilled(c.location) ? c.location : '') + '"></div><div class="adm-field"><label>Duration</label><input id="c-duration" value="' + esc(isFilled(c.duration) ? c.duration : '') + '" placeholder="e.g. Mar–Aug 2026"></div><div class="adm-field"><label>Channels</label><input id="c-channels" value="' + esc(isFilled(c.channels) ? c.channels : '') + '"></div></div>' +
+      '<div class="cl-group">Impact numbers (hidden until filled — use real, client-approved figures only)</div>' +
+      metrics.map(function (m, i) { return '<div class="adm-2"><div class="adm-field"><label>Metric ' + (i + 1) + ' label</label><input data-ml="' + i + '" value="' + esc(m.label) + '" placeholder="e.g. Website orders"></div><div class="adm-field"><label>Value</label><input data-mv="' + i + '" value="' + esc(isFilled(m.value) ? m.value : '') + '" placeholder="e.g. +38%"></div></div>'; }).join('') +
+      '<div class="cl-group">Client quote (hidden until filled)</div>' +
+      '<div class="adm-field"><label>Quote</label><textarea id="c-qtext">' + esc((c.quote && c.quote.text) || '') + '</textarea></div>' +
+      '<div class="adm-2"><div class="adm-field"><label>Name</label><input id="c-qname" value="' + esc((c.quote && c.quote.name) || '') + '"></div><div class="adm-field"><label>Role, company</label><input id="c-qrole" value="' + esc((c.quote && c.quote.role) || '') + '"></div></div>' +
+      '<div class="adm-field"><label>Video embed URL (optional)</label><input id="c-video" value="' + esc(c.video || '') + '" placeholder="https://www.youtube.com/embed/… or Instagram embed"></div>' +
+      '<label class="sw-label" style="margin:6px 0 16px">Featured (shown first on /work) <span class="switch"><input type="checkbox" id="c-featured"' + (c.featured ? ' checked' : '') + '><span></span></span></label>' +
+      '<div class="adm-modal-acts"><button class="btn btn-primary" id="c-save">Save</button><button class="btn btn-ghost" data-close>Cancel</button><span class="cl-meta">Applied on the next site publish; numbers and quote show live immediately.</span></div>');
+    box.querySelector('#c-save').addEventListener('click', async function () {
+      var v = function (id) { return box.querySelector(id).value.trim(); };
+      var payload = {
+        headline: v('#c-headline') || 'TODO-CONFIRM', summary: v('#c-summary'), industry: v('#c-industry'), location: v('#c-location'), duration: v('#c-duration'), channels: v('#c-channels'),
+        metrics: metrics.map(function (_, i) { return { label: box.querySelector('[data-ml="' + i + '"]').value.trim(), value: box.querySelector('[data-mv="' + i + '"]').value.trim() }; }).filter(function (m) { return m.label; }),
+        quote: { text: v('#c-qtext'), name: v('#c-qname'), role: v('#c-qrole') },
+        video: v('#c-video'), featured: box.querySelector('#c-featured').checked
+      };
+      Object.keys(payload).forEach(function (k) { if (payload[k] === '') delete payload[k]; });
+      box.busy(true);
+      try { await update('cms/caseStudies/' + c.slug, payload); cms.caseStudies = cms.caseStudies || {}; cms.caseStudies[c.slug] = Object.assign(cms.caseStudies[c.slug] || {}, payload); box.close(); renderCases(); toast('Saved'); }
+      catch (err) { box.busy(false); toast('Could not save', true); }
+    });
+  }
+
+  /* ============================ CLIENTS ================================== */
+  function allClients() {
+    var map = {};
+    idx.clients.forEach(function (c) { map[c.slug] = Object.assign({}, c); });
+    Object.keys(cms.clients || {}).forEach(function (k) { map[k] = Object.assign(map[k] || { slug: k, logoWall: false, order: 999 }, cms.clients[k]); });
+    return Object.keys(map).map(function (k) { return map[k]; }).sort(function (a, b) { return (a.order || 999) - (b.order || 999); });
+  }
+  function renderClients() {
+    document.getElementById('clientList').innerHTML = allClients().map(function (c) {
+      var m = mediaOf(c.logo);
+      return '<div class="cl-row" data-slug="' + esc(c.slug) + '"><span class="cl-thumb">' + (m ? '<img src="' + esc(m.url) + '" alt="">' : '<span class="cl-meta">no logo</span>') + '</span><span><span class="cl-name">' + esc(c.name) + '</span> ' + (c.logoWall ? '<span class="badge on">Logo wall</span>' : '') + '<br><span class="cl-meta">' + esc(c.industry || '') + (c.website ? ' · ' + esc(c.website) : '') + ' · order ' + (c.order || '–') + '</span></span><span class="cl-acts"><button class="cl-btn" data-logo>Logo</button><button class="cl-btn" data-edit>Edit</button></span></div>';
+    }).join('');
+  }
+  document.getElementById('clientList').addEventListener('click', async function (e) {
+    var row = e.target.closest('.cl-row'); if (!row) return;
+    var c = allClients().find(function (x) { return x.slug === row.dataset.slug; });
+    if (e.target.closest('[data-logo]')) {
+      var id = await pickImage(c.logo && media[c.logo] ? c.logo : '');
+      if (id === null) return;
+      await update('cms/clients/' + c.slug, { logo: id, name: c.name }); keySet(cms, 'clients/' + c.slug + '/logo', id); keySet(cms, 'clients/' + c.slug + '/name', c.name); renderClients(); renderCases(); toast('Logo saved');
+    }
+    if (e.target.closest('[data-edit]')) openClientEdit(c);
+  });
+  document.getElementById('addClient').addEventListener('click', function () { openClientEdit(null); });
+  function openClientEdit(c) {
+    var isNew = !c; c = c || { name: '', industry: '', website: '', logoWall: true, order: allClients().length + 1 };
+    var box = modal('<h3>' + (isNew ? 'Add client' : 'Edit client') + '</h3>' +
+      '<div class="adm-field"><label>Brand name</label><input id="k-name" value="' + esc(c.name) + '"></div>' +
+      '<div class="adm-2"><div class="adm-field"><label>Industry</label><input id="k-ind" value="' + esc(c.industry || '') + '"></div><div class="adm-field"><label>Website</label><input id="k-web" value="' + esc(c.website || '') + '"></div><div class="adm-field"><label>Logo-wall order</label><input id="k-order" type="number" value="' + esc(c.order || '') + '"></div></div>' +
+      '<label class="sw-label" style="margin:6px 0 16px">Show on logo walls <span class="switch"><input type="checkbox" id="k-wall"' + (c.logoWall ? ' checked' : '') + '><span></span></span></label>' +
+      '<div class="adm-modal-acts"><button class="btn btn-primary" id="k-save">Save</button><button class="btn btn-ghost" data-close>Cancel</button></div>');
+    box.querySelector('#k-save').addEventListener('click', async function () {
+      var name = box.querySelector('#k-name').value.trim(); if (!name) { toast('Name is required', true); return; }
+      var s = isNew ? slug(name) : c.slug;
+      var payload = { name: name, industry: box.querySelector('#k-ind').value.trim(), website: box.querySelector('#k-web').value.trim(), order: Number(box.querySelector('#k-order').value) || 999, logoWall: box.querySelector('#k-wall').checked };
+      box.busy(true);
+      await update('cms/clients/' + s, payload); cms.clients = cms.clients || {}; cms.clients[s] = Object.assign(cms.clients[s] || {}, payload);
+      box.close(); renderClients(); toast('Saved — applied to the site on the next publish');
+    });
+  }
+
+  /* ============================ TESTIMONIALS ============================= */
+  function renderTesti() {
+    var list = Object.keys(cms.testimonials || {}).map(function (k) { return Object.assign({ id: k }, cms.testimonials[k]); }).sort(function (a, b) { return (a.order || 0) - (b.order || 0); });
+    document.getElementById('testiList').innerHTML = list.length ? list.map(function (t) {
+      return '<div class="cl-row plain" data-id="' + esc(t.id) + '"><span><span class="cl-name">' + esc(t.name) + '</span> <span class="cl-meta">' + esc([t.role, t.company].filter(Boolean).join(', ')) + '</span> ' + (t.approved ? '<span class="badge on">Approved · live</span>' : '<span class="badge">Not approved</span>') + '<br><span class="cl-meta">&ldquo;' + esc(t.quote) + '&rdquo;</span></span><span class="cl-acts"><label class="sw-label">Approved <span class="switch"><input type="checkbox" data-appr' + (t.approved ? ' checked' : '') + '><span></span></span></label><button class="cl-btn" data-edit>Edit</button><button class="cl-btn danger" data-del>Delete</button></span></div>';
+    }).join('') : '<div class="cl-empty">No testimonials yet. Add one and approve it once the client has signed off.</div>';
+  }
+  document.getElementById('addTesti').addEventListener('click', function () { openTestiEdit(null); });
+  document.getElementById('testiList').addEventListener('change', function (e) {
+    if (!e.target.hasAttribute('data-appr')) return;
+    var id = e.target.closest('.cl-row').dataset.id;
+    if (e.target.checked && !confirm('Confirm the client approved this exact wording for public use?')) { e.target.checked = false; return; }
+    update('cms/testimonials/' + id, { approved: e.target.checked }).then(function () { cms.testimonials[id].approved = e.target.checked; renderTesti(); toast('Saved'); });
+  });
+  document.getElementById('testiList').addEventListener('click', async function (e) {
+    var row = e.target.closest('.cl-row'); if (!row) return;
+    var t = Object.assign({ id: row.dataset.id }, cms.testimonials[row.dataset.id]);
+    if (e.target.closest('[data-edit]')) openTestiEdit(t);
+    if (e.target.closest('[data-del]') && confirm('Delete this testimonial?')) { await db.ref('cms/testimonials/' + t.id).remove(); delete cms.testimonials[t.id]; renderTesti(); toast('Deleted'); }
+  });
+  function openTestiEdit(t) {
+    var isNew = !t; t = t || { quote: '', name: '', role: '', company: '', client: '', approved: false };
+    var box = modal('<h3>' + (isNew ? 'Add testimonial' : 'Edit testimonial') + '</h3>' +
+      '<div class="adm-field"><label>Quote</label><textarea id="t-q">' + esc(t.quote) + '</textarea></div>' +
+      '<div class="adm-2"><div class="adm-field"><label>Name</label><input id="t-n" value="' + esc(t.name) + '"></div><div class="adm-field"><label>Role</label><input id="t-r" value="' + esc(t.role) + '"></div><div class="adm-field"><label>Company</label><input id="t-c" value="' + esc(t.company) + '"></div><div class="adm-field"><label>Client record</label><select id="t-cl"><option value="">—</option>' + allClients().map(function (c) { return '<option value="' + esc(c.slug) + '"' + (c.slug === t.client ? ' selected' : '') + '>' + esc(c.name) + '</option>'; }).join('') + '</select></div></div>' +
+      '<div class="adm-modal-acts"><button class="btn btn-primary" id="t-save">Save</button><button class="btn btn-ghost" data-close>Cancel</button><span class="cl-meta">Approve it from the list once the client signs off.</span></div>');
+    box.querySelector('#t-save').addEventListener('click', async function () {
+      var payload = { quote: box.querySelector('#t-q').value.trim(), name: box.querySelector('#t-n').value.trim(), role: box.querySelector('#t-r').value.trim(), company: box.querySelector('#t-c').value.trim(), client: box.querySelector('#t-cl').value, approved: !!t.approved };
+      if (!payload.quote || !payload.name) { toast('Quote and name are required', true); return; }
+      box.busy(true);
+      var id = isNew ? db.ref('cms/testimonials').push().key : t.id;
+      if (isNew) payload.order = Object.keys(cms.testimonials || {}).length + 1;
+      await update('cms/testimonials/' + id, payload); cms.testimonials = cms.testimonials || {}; cms.testimonials[id] = Object.assign(cms.testimonials[id] || {}, payload);
+      box.close(); renderTesti(); toast('Saved');
+    });
+  }
+
+  /* ============================ SETTINGS ================================= */
+  function renderSettings() {
+    var s = cms.settings || {};
+    var f = function (id, v) { document.getElementById(id).value = v || ''; };
+    f('s-email', s.email); f('s-phone1', s.phone1); f('s-phone2', s.phone2); f('s-insta', s.instagram); f('s-linkedin', s.linkedin); f('s-facebook', s.facebook); f('s-gbp', s.gbp);
+    (s.stats || []).forEach(function (st, i) { f('s-stat' + (i + 1), st); });
+    var slotEl = document.getElementById('ogSlot');
+    slotEl.outerHTML = slotHtml({ key: 'defaultOg', label: 'Default OG image', ratio: '1200×630' }, { defaultOg: s.defaultOg });
+    var c = document.querySelector('#tab-settings .slots'); c._slots = [{ key: 'defaultOg', label: 'Default OG image', ratio: '1200×630' }];
+    if (!c._wired) { c._wired = true; wireSlots(c, { defaultOg: s.defaultOg }, function (imgs) { return update('cms/settings', { defaultOg: imgs.defaultOg || '' }).then(function () { cms.settings = Object.assign(cms.settings || {}, { defaultOg: imgs.defaultOg || '' }); toast('Saved'); }); }); }
+  }
+  document.getElementById('settingsForm').addEventListener('submit', async function (e) {
+    e.preventDefault();
+    var v = function (id) { return document.getElementById(id).value.trim(); };
+    var payload = { email: v('s-email'), phone1: v('s-phone1'), phone2: v('s-phone2'), instagram: v('s-insta'), linkedin: v('s-linkedin'), facebook: v('s-facebook'), gbp: v('s-gbp'), stats: [v('s-stat1'), v('s-stat2'), v('s-stat3'), v('s-stat4')] };
+    await update('cms/settings', payload); cms.settings = Object.assign(cms.settings || {}, payload); toast('Settings saved — applied on the next publish');
+  });
+
+  /* ============================ PUBLISH ================================== */
+  function renderPublish() {
+    var p = cms.publish || {};
+    document.getElementById('publishState').textContent = p.requestedAt ? 'Last publish requested ' + new Date(p.requestedAt).toLocaleString() + (p.status ? ' · ' + p.status : '') : 'No publish requested from here yet.';
+  }
+  document.getElementById('publishBtn').addEventListener('click', async function () {
+    var btn = this; btn.disabled = true;
+    var stamp = new Date().toISOString();
+    try {
+      if (!PUBLISH_HOOK) throw new Error('Publish hook not configured — run the "Deploy to Netlify" workflow in GitHub Actions.');
+      var r = await fetch(PUBLISH_HOOK, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ requestedAt: stamp, by: 'content-admin' }) });
+      if (!r.ok) throw new Error('Publish hook returned ' + r.status);
+      await update('cms/publish', { requestedAt: stamp, status: 'requested' }); cms.publish = { requestedAt: stamp, status: 'requested' };
+      toast('Publishing — the site rebuilds and deploys in a few minutes');
+    } catch (err) { toast(err.message, true); }
+    btn.disabled = false; renderPublish();
+  });
+
+  /* ============================ LOAD ===================================== */
+  async function load() {
+    idx = await fetch('content/index.json', { cache: 'no-store' }).then(function (r) { return r.json(); });
+    cms = (await get('cms')) || {};
+    media = cms.media || {};
+    Object.keys(media).forEach(function (k) { media[k].id = k; });
+    renderMedia(); renderServices(); renderCases(); renderClients(); renderTesti(); renderSettings(); renderPublish();
+  }
+  load().catch(function (err) { console.error(err); toast('Could not load content index or database', true); });
+})();
+</script>
+</body>
+</html>

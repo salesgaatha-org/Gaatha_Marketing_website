@@ -1,0 +1,1437 @@
+{
+  "generated": "2026-09-25",
+  "groups": [
+    {
+      "slug": "brand-and-creative",
+      "name": "Brand & Creative"
+    },
+    {
+      "slug": "growth-marketing",
+      "name": "Growth Marketing"
+    },
+    {
+      "slug": "ecommerce",
+      "name": "D2C Ecommerce"
+    },
+    {
+      "slug": "marketplaces",
+      "name": "Marketplaces"
+    },
+    {
+      "slug": "quick-commerce",
+      "name": "Quick Commerce"
+    },
+    {
+      "slug": "technology",
+      "name": "Websites & Technology"
+    }
+  ],
+  "services": [
+    {
+      "slug": "branding-agency",
+      "name": "Branding & Brand Identity",
+      "group": "brand-and-creative",
+      "published": true,
+      "url": "/services/branding-agency"
+    },
+    {
+      "slug": "graphic-design",
+      "name": "Graphic Design",
+      "group": "brand-and-creative",
+      "published": true,
+      "url": "/services/graphic-design"
+    },
+    {
+      "slug": "reels-short-form-video",
+      "name": "Reels & Short-form Video",
+      "group": "brand-and-creative",
+      "published": true,
+      "url": "/services/reels-short-form-video"
+    },
+    {
+      "slug": "ai-ads-ai-ad-shoots",
+      "name": "AI Ads & AI Ad Shoots",
+      "group": "brand-and-creative",
+      "published": true,
+      "url": "/services/ai-ads-ai-ad-shoots"
+    },
+    {
+      "slug": "cinema-ads-film-production",
+      "name": "Cinema & Film Ads",
+      "group": "brand-and-creative",
+      "published": true,
+      "url": "/services/cinema-ads-film-production"
+    },
+    {
+      "slug": "ai-cloning-spokesperson",
+      "name": "AI Cloning (Digital Spokesperson)",
+      "group": "brand-and-creative",
+      "published": true,
+      "url": "/services/ai-cloning-spokesperson"
+    },
+    {
+      "slug": "product-photography-ecommerce",
+      "name": "Ecommerce Product Photography",
+      "group": "brand-and-creative",
+      "published": true,
+      "url": "/services/product-photography-ecommerce"
+    },
+    {
+      "slug": "content-writing-copywriting",
+      "name": "Copywriting & Content Writing",
+      "group": "brand-and-creative",
+      "published": true,
+      "url": "/services/content-writing-copywriting"
+    },
+    {
+      "slug": "catalogues-presentations",
+      "name": "Catalogues, Presentations & Sales Kits",
+      "group": "brand-and-creative",
+      "published": true,
+      "url": "/services/catalogues-presentations"
+    },
+    {
+      "slug": "shopify-development",
+      "name": "Shopify Store Design & Development",
+      "group": "ecommerce",
+      "published": true,
+      "url": "/services/shopify-development"
+    },
+    {
+      "slug": "multi-location-shopify-local-delivery",
+      "name": "Multi-location Shopify & Local Delivery",
+      "group": "ecommerce",
+      "published": true,
+      "url": "/services/multi-location-shopify-local-delivery"
+    },
+    {
+      "slug": "ecommerce-website-development",
+      "name": "Ecommerce Website Development",
+      "group": "ecommerce",
+      "published": true,
+      "url": "/services/ecommerce-website-development"
+    },
+    {
+      "slug": "shopify-store-management",
+      "name": "Shopify Store Management & Maintenance",
+      "group": "ecommerce",
+      "published": true,
+      "url": "/services/shopify-store-management"
+    },
+    {
+      "slug": "conversion-rate-optimisation",
+      "name": "Conversion Rate Optimisation (CRO)",
+      "group": "ecommerce",
+      "published": true,
+      "url": "/services/conversion-rate-optimisation"
+    },
+    {
+      "slug": "d2c-performance-marketing",
+      "name": "D2C Performance Marketing",
+      "group": "ecommerce",
+      "published": true,
+      "url": "/services/d2c-performance-marketing"
+    },
+    {
+      "slug": "ecommerce-seo",
+      "name": "Ecommerce SEO",
+      "group": "ecommerce",
+      "published": true,
+      "url": "/services/ecommerce-seo"
+    },
+    {
+      "slug": "d2c-brand-launch",
+      "name": "D2C Brand Launch",
+      "group": "ecommerce",
+      "published": true,
+      "url": "/services/d2c-brand-launch"
+    },
+    {
+      "slug": "marketing-strategy",
+      "name": "Marketing Strategy & Positioning",
+      "group": "growth-marketing",
+      "published": true,
+      "url": "/services/marketing-strategy"
+    },
+    {
+      "slug": "social-media-marketing",
+      "name": "Social Media Marketing",
+      "group": "growth-marketing",
+      "published": true,
+      "url": "/services/social-media-marketing"
+    },
+    {
+      "slug": "meta-ads-agency",
+      "name": "Meta Ads Agency",
+      "group": "growth-marketing",
+      "published": true,
+      "url": "/services/meta-ads-agency"
+    },
+    {
+      "slug": "google-ads-agency",
+      "name": "Google Ads Agency",
+      "group": "growth-marketing",
+      "published": true,
+      "url": "/services/google-ads-agency"
+    },
+    {
+      "slug": "seo-aeo-geo",
+      "name": "SEO, AEO & GEO",
+      "group": "growth-marketing",
+      "published": true,
+      "url": "/services/seo-aeo-geo"
+    },
+    {
+      "slug": "local-seo-google-business-profile",
+      "name": "Local SEO & Google Business Profile",
+      "group": "growth-marketing",
+      "published": true,
+      "url": "/services/local-seo-google-business-profile"
+    },
+    {
+      "slug": "influencer-ugc-marketing",
+      "name": "Influencer & UGC Marketing",
+      "group": "growth-marketing",
+      "published": true,
+      "url": "/services/influencer-ugc-marketing"
+    },
+    {
+      "slug": "b2b-lead-generation",
+      "name": "B2B & Export Lead Generation",
+      "group": "growth-marketing",
+      "published": true,
+      "url": "/services/b2b-lead-generation"
+    },
+    {
+      "slug": "campaign-planning",
+      "name": "Campaign Planning (Festive & Launch)",
+      "group": "growth-marketing",
+      "published": true,
+      "url": "/services/campaign-planning"
+    },
+    {
+      "slug": "amazon-onboarding",
+      "name": "Amazon Seller Onboarding",
+      "group": "marketplaces",
+      "published": true,
+      "url": "/services/amazon-onboarding"
+    },
+    {
+      "slug": "amazon-account-management",
+      "name": "Amazon Account Management",
+      "group": "marketplaces",
+      "published": true,
+      "url": "/services/amazon-account-management"
+    },
+    {
+      "slug": "flipkart-seller-management",
+      "name": "Flipkart Onboarding & Account Management",
+      "group": "marketplaces",
+      "published": true,
+      "url": "/services/flipkart-seller-management"
+    },
+    {
+      "slug": "myntra-onboarding",
+      "name": "Myntra Onboarding & Management",
+      "group": "marketplaces",
+      "published": true,
+      "url": "/services/myntra-onboarding"
+    },
+    {
+      "slug": "nykaa-onboarding",
+      "name": "Nykaa & Nykaa Fashion Onboarding",
+      "group": "marketplaces",
+      "published": true,
+      "url": "/services/nykaa-onboarding"
+    },
+    {
+      "slug": "ajio-onboarding",
+      "name": "AJIO Onboarding",
+      "group": "marketplaces",
+      "published": true,
+      "url": "/services/ajio-onboarding"
+    },
+    {
+      "slug": "meesho-jiomart-onboarding",
+      "name": "Meesho, JioMart & Other Marketplaces",
+      "group": "marketplaces",
+      "published": true,
+      "url": "/services/meesho-jiomart-onboarding"
+    },
+    {
+      "slug": "fashion-marketplace-growth",
+      "name": "Fashion & Licensed-Merch Marketplace Growth",
+      "group": "marketplaces",
+      "published": true,
+      "url": "/services/fashion-marketplace-growth"
+    },
+    {
+      "slug": "marketplace-listing-optimisation",
+      "name": "Marketplace Listing & Catalogue Optimisation",
+      "group": "marketplaces",
+      "published": true,
+      "url": "/services/marketplace-listing-optimisation"
+    },
+    {
+      "slug": "marketplace-ads-management",
+      "name": "Marketplace Ads Management",
+      "group": "marketplaces",
+      "published": true,
+      "url": "/services/marketplace-ads-management"
+    },
+    {
+      "slug": "reviews-ratings-management",
+      "name": "Reviews & Ratings Management",
+      "group": "marketplaces",
+      "published": true,
+      "url": "/services/reviews-ratings-management"
+    },
+    {
+      "slug": "quick-commerce-agency",
+      "name": "Quick Commerce Management",
+      "group": "quick-commerce",
+      "published": true,
+      "url": "/services/quick-commerce-agency"
+    },
+    {
+      "slug": "blinkit-onboarding",
+      "name": "Blinkit Seller Onboarding",
+      "group": "quick-commerce",
+      "published": true,
+      "url": "/services/blinkit-onboarding"
+    },
+    {
+      "slug": "blinkit-account-management",
+      "name": "Blinkit Account Management",
+      "group": "quick-commerce",
+      "published": true,
+      "url": "/services/blinkit-account-management"
+    },
+    {
+      "slug": "zepto-onboarding",
+      "name": "Zepto Onboarding",
+      "group": "quick-commerce",
+      "published": true,
+      "url": "/services/zepto-onboarding"
+    },
+    {
+      "slug": "zepto-account-management",
+      "name": "Zepto Account Management",
+      "group": "quick-commerce",
+      "published": true,
+      "url": "/services/zepto-account-management"
+    },
+    {
+      "slug": "swiggy-instamart-onboarding",
+      "name": "Swiggy Instamart Onboarding",
+      "group": "quick-commerce",
+      "published": true,
+      "url": "/services/swiggy-instamart-onboarding"
+    },
+    {
+      "slug": "instamart-account-management",
+      "name": "Instamart Account Management",
+      "group": "quick-commerce",
+      "published": true,
+      "url": "/services/instamart-account-management"
+    },
+    {
+      "slug": "flipkart-minutes-amazon-now-onboarding",
+      "name": "Flipkart Minutes & Amazon Now Onboarding",
+      "group": "quick-commerce",
+      "published": true,
+      "url": "/services/flipkart-minutes-amazon-now-onboarding"
+    },
+    {
+      "slug": "bigbasket-onboarding",
+      "name": "BigBasket & BB Now Onboarding",
+      "group": "quick-commerce",
+      "published": true,
+      "url": "/services/bigbasket-onboarding"
+    },
+    {
+      "slug": "quick-commerce-ads",
+      "name": "Quick Commerce Ads",
+      "group": "quick-commerce",
+      "published": true,
+      "url": "/services/quick-commerce-ads"
+    },
+    {
+      "slug": "quick-commerce-content",
+      "name": "Quick Commerce Catalogue & Creative",
+      "group": "quick-commerce",
+      "published": true,
+      "url": "/services/quick-commerce-content"
+    },
+    {
+      "slug": "website-development",
+      "name": "Website Design & Development",
+      "group": "technology",
+      "published": true,
+      "url": "/services/website-development"
+    },
+    {
+      "slug": "app-design-development",
+      "name": "Web & Mobile App Design",
+      "group": "technology",
+      "published": true,
+      "url": "/services/app-design-development"
+    },
+    {
+      "slug": "business-tools-automation",
+      "name": "Custom Tools & Automations",
+      "group": "technology",
+      "published": true,
+      "url": "/services/business-tools-automation"
+    }
+  ],
+  "caseStudies": [
+    {
+      "slug": "aathrr",
+      "client": "aathrr",
+      "headline": "TODO-CONFIRM",
+      "summary": "TODO-CONFIRM — logo-wall client; case study to be written with the team.",
+      "industry": "TODO-DATA",
+      "location": "TODO-DATA",
+      "duration": "TODO-DATA",
+      "channels": "TODO-DATA",
+      "published": false,
+      "featured": false,
+      "metrics": [],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [],
+      "workstreams": [],
+      "url": "/work/aathrr"
+    },
+    {
+      "slug": "cds-stores",
+      "client": "cds-stores",
+      "headline": "A city-wide Diwali campaign — outdoor, influencers, Meta and a cinema ad — on one ₹2 lakh budget.",
+      "summary": "Making CDS Stores the first-choice Diwali destination in Vapi and Valsad for sweets, hampers, dry fruits and bulk gifting.",
+      "industry": "Retail / sweets, dry fruits & gifting",
+      "location": "Vapi & Valsad, Gujarat",
+      "duration": "6 Oct – 14 Nov 2026",
+      "channels": "Outdoor (store-front, auto-rickshaw, bus), influencer collaborations, Meta ads, cinema, Shopify",
+      "published": false,
+      "featured": true,
+      "metrics": [
+        {
+          "label": "Footfall vs last Diwali",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Sales uplift",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Corporate & bulk orders",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Campaign reach",
+          "value": "TODO-DATA"
+        }
+      ],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [
+        "Auto-rickshaw banner set",
+        "Store-front banner",
+        "Cinema-ad still 1",
+        "Cinema-ad still 2",
+        "Influencer reel covers",
+        "Meta ad creatives"
+      ],
+      "workstreams": [
+        "Campaign planning",
+        "Outdoor creative",
+        "Cinema ad",
+        "AI film (style reference)",
+        "Shopify",
+        "Meta ads & social"
+      ],
+      "url": "/work/cds-stores"
+    },
+    {
+      "slug": "charliee",
+      "client": "charliee",
+      "headline": "Rebuilding a 200+ SKU snack brand's online store — and its sales engine.",
+      "summary": "A full Shopify overhaul, a clean 200-SKU catalogue, export-facing creative and a sales-meet kit for Charliee (Baijay International).",
+      "industry": "FMCG / packaged snacks",
+      "location": "Gujarat & Mumbai",
+      "duration": "TODO-DATA",
+      "channels": "Shopify, AI imagery, cinematic product ads, B2B/export creative, field sales material",
+      "published": false,
+      "featured": true,
+      "metrics": [
+        {
+          "label": "Website orders",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Store conversion rate",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Catalogue completeness",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Export enquiries",
+          "value": "TODO-DATA"
+        }
+      ],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [
+        "Store homepage mockup (desktop + mobile)",
+        "Product page",
+        "Corporate gifting page",
+        "Sales-meet standee",
+        "Export ad creative",
+        "Category cover imagery"
+      ],
+      "workstreams": [
+        "Shopify website",
+        "Branding & creative",
+        "B2B & export creative",
+        "Sales enablement"
+      ],
+      "url": "/work/charliee"
+    },
+    {
+      "slug": "colortek",
+      "client": "colortek",
+      "headline": "Making a 25-year coatings manufacturer look as advanced as its technology.",
+      "summary": "A credibility, brand and SEO/AEO/GEO audit, a naming exercise and the 'Colortek Veris' sub-brand direction for Colourtech Coating India.",
+      "industry": "Manufacturing / industrial coatings",
+      "location": "Gujarat",
+      "duration": "TODO-DATA",
+      "channels": "Website, brand, LinkedIn, Instagram, Facebook, search",
+      "published": false,
+      "featured": false,
+      "metrics": [
+        {
+          "label": "Organic traffic (post-launch)",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Enquiries",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Lighthouse performance",
+          "value": "TODO-DATA"
+        }
+      ],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [
+        "Logo before/after",
+        "Brief page 1",
+        "Brief page 2",
+        "Website mockup — home",
+        "Website mockup — product line",
+        "Company presentation cover"
+      ],
+      "workstreams": [
+        "Website audit",
+        "Brand evolution",
+        "Brand brief",
+        "Proposed engagement"
+      ],
+      "url": "/work/colortek"
+    },
+    {
+      "slug": "ghanshyam-snacks",
+      "client": "ghanshyam-snacks",
+      "headline": "From ad leads to real buyers — a B2B snack manufacturer's content and lead engine.",
+      "summary": "Meta lead campaigns with a self-filtering WhatsApp reply system, a lead-management SOP and tracker, social content and a cinematic product film for a bulk peanut and white-label snacks manufacturer.",
+      "industry": "FMCG manufacturing / B2B",
+      "location": "Gujarat",
+      "duration": "TODO-DATA",
+      "channels": "Meta ads, WhatsApp, IndiaMART, Instagram, catalogue",
+      "published": false,
+      "featured": true,
+      "metrics": [
+        {
+          "label": "Leads per month",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Qualification rate",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Junk-lead reduction",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "IndiaMART enquiries",
+          "value": "TODO-DATA"
+        }
+      ],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [
+        "Catalogue spread",
+        "Social grid",
+        "Reel still 1",
+        "Reel still 2",
+        "Dashboard screenshot (data blurred)",
+        "IndiaMART listing asset"
+      ],
+      "workstreams": [
+        "Meta ads & lead generation",
+        "Lead-management SOP & tracker",
+        "Social media",
+        "Brand & sales assets",
+        "Cinematic product film"
+      ],
+      "url": "/work/ghanshyam-snacks"
+    },
+    {
+      "slug": "gi-packtech",
+      "client": "gi-packtech",
+      "headline": "Turning a technical packaging range into an export sales engine.",
+      "summary": "A full product catalogue, brochures, 110 AI image prompts across 41 products, Google Business Profile content and a LinkedIn-led export outreach system for GI PackTech.",
+      "industry": "Manufacturing / industrial & export packaging",
+      "location": "Gujarat",
+      "duration": "TODO-DATA",
+      "channels": "Catalogue, LinkedIn, Meta, Google Business Profile, website",
+      "published": false,
+      "featured": false,
+      "metrics": [
+        {
+          "label": "Export enquiries",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Meetings booked",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "LinkedIn response rate",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "RFQs",
+          "value": "TODO-DATA"
+        }
+      ],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [
+        "Catalogue spread 1",
+        "Catalogue spread 2",
+        "Brochure",
+        "AI product visual 1",
+        "AI product visual 2",
+        "Outreach dashboard (data blurred)"
+      ],
+      "workstreams": [
+        "Product catalogue",
+        "Brochures",
+        "AI imagery",
+        "Local SEO",
+        "Export lead generation"
+      ],
+      "url": "/work/gi-packtech"
+    },
+    {
+      "slug": "gsps",
+      "client": "gsps",
+      "headline": "TODO-CONFIRM",
+      "summary": "TODO-CONFIRM — logo-wall client; case study to be written with the team.",
+      "industry": "Professional services",
+      "location": "TODO-DATA",
+      "duration": "TODO-DATA",
+      "channels": "TODO-DATA",
+      "published": false,
+      "featured": false,
+      "metrics": [],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [],
+      "workstreams": [],
+      "url": "/work/gsps"
+    },
+    {
+      "slug": "hpmg-group",
+      "client": "hpmg-group",
+      "headline": "TODO-CONFIRM",
+      "summary": "TODO-CONFIRM — brief to confirm with the team.",
+      "industry": "TODO-DATA",
+      "location": "TODO-DATA",
+      "duration": "TODO-DATA",
+      "channels": "TODO-DATA",
+      "published": false,
+      "featured": false,
+      "metrics": [],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [],
+      "workstreams": [],
+      "url": "/work/hpmg-group"
+    },
+    {
+      "slug": "kitcoz",
+      "client": "kitcoz",
+      "headline": "A concern-led skincare brand, built from identity to checkout.",
+      "summary": "Brand identity, a Shopify store built around skin concerns and kits, Pixel and Conversions API tracking, Meta ad creative and 300 Instagram copy variations for Kitcoz (Elvey Essentials).",
+      "industry": "D2C beauty & personal care",
+      "location": "India",
+      "duration": "TODO-DATA",
+      "channels": "Shopify, Meta ads, Instagram",
+      "published": false,
+      "featured": true,
+      "metrics": [
+        {
+          "label": "Store conversion rate",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Average order value (kits)",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "ROAS",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Checkout completion",
+          "value": "TODO-DATA"
+        }
+      ],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [
+        "Brand board",
+        "Homepage mockup",
+        "Kit selector UI",
+        "Concern filter",
+        "Ad creative 1",
+        "Ad creative 2"
+      ],
+      "workstreams": [
+        "Brand identity",
+        "Shopify development",
+        "Tracking",
+        "Meta ads",
+        "Content"
+      ],
+      "url": "/work/kitcoz"
+    },
+    {
+      "slug": "madhuram",
+      "client": "madhuram",
+      "headline": "TODO-CONFIRM",
+      "summary": "TODO-CONFIRM — logo-wall client; case study to be written with the team.",
+      "industry": "Food & snacks",
+      "location": "TODO-DATA",
+      "duration": "TODO-DATA",
+      "channels": "TODO-DATA",
+      "published": false,
+      "featured": false,
+      "metrics": [],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [],
+      "workstreams": [],
+      "url": "/work/madhuram"
+    },
+    {
+      "slug": "navami",
+      "client": "navami",
+      "headline": "TODO-CONFIRM",
+      "summary": "TODO-CONFIRM — industry, services, dates and results to be confirmed with the team.",
+      "industry": "TODO-DATA",
+      "location": "TODO-DATA",
+      "duration": "TODO-DATA",
+      "channels": "TODO-DATA",
+      "published": false,
+      "featured": false,
+      "metrics": [],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [],
+      "workstreams": [],
+      "url": "/work/navami"
+    },
+    {
+      "slug": "new-rave",
+      "client": "new-rave",
+      "headline": "Instagram content that drives collectors to the store and the website.",
+      "summary": "Social strategy, content production and storefront policies for a trading-card-game and hobbies retailer in Canada — our international case.",
+      "industry": "Retail (physical + online) / TCG & hobbies",
+      "location": "Canada",
+      "duration": "TODO-DATA",
+      "channels": "Instagram, website",
+      "published": false,
+      "featured": false,
+      "metrics": [
+        {
+          "label": "Follower growth",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Engagement rate",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Website sessions from Instagram",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Pre-order volume",
+          "value": "TODO-DATA"
+        }
+      ],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [
+        "6-post grid",
+        "Carousel 1",
+        "Carousel 2",
+        "Policy page screenshot",
+        "Launch post",
+        "Community post"
+      ],
+      "workstreams": [
+        "Social strategy",
+        "Content production",
+        "Website support"
+      ],
+      "url": "/work/new-rave"
+    },
+    {
+      "slug": "nirav-machines-india",
+      "client": "nirav-machines-india",
+      "headline": "TODO-CONFIRM",
+      "summary": "TODO-CONFIRM — scope likely covers website, product and landing pages, catalogue, Google Ads, LinkedIn/YouTube content and machine demo videos.",
+      "industry": "Manufacturing / B2B machinery",
+      "location": "Gujarat",
+      "duration": "TODO-DATA",
+      "channels": "TODO-DATA",
+      "published": false,
+      "featured": false,
+      "metrics": [
+        {
+          "label": "Enquiries",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "RFQs",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Organic rankings (machine keywords)",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Video views",
+          "value": "TODO-DATA"
+        }
+      ],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [
+        "Website mockup",
+        "Product/landing page",
+        "Catalogue",
+        "Demo video still"
+      ],
+      "workstreams": [],
+      "url": "/work/nirav-machines-india"
+    },
+    {
+      "slug": "nits-overseas",
+      "client": "nits-overseas",
+      "headline": "TODO-CONFIRM",
+      "summary": "TODO-CONFIRM — overseas-education consultancy; likely social media, reels, Meta lead ads, Google search ads and landing pages.",
+      "industry": "Education / study abroad",
+      "location": "TODO-DATA",
+      "duration": "TODO-DATA",
+      "channels": "TODO-DATA",
+      "published": false,
+      "featured": false,
+      "metrics": [
+        {
+          "label": "Leads",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Cost per lead",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Counselling bookings",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Reel reach",
+          "value": "TODO-DATA"
+        }
+      ],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [
+        "Reel covers",
+        "Lead-ad creatives",
+        "Landing page"
+      ],
+      "workstreams": [],
+      "url": "/work/nits-overseas"
+    },
+    {
+      "slug": "rentastic-homes",
+      "client": "rentastic-homes",
+      "headline": "Building trust for a PG brand — from brochures to a founder-led video series.",
+      "summary": "Sales material, operations forms and a 15-episode founder series for Rentastic Homes, a co-living and PG accommodation brand.",
+      "industry": "Real estate / co-living",
+      "location": "TODO-DATA",
+      "duration": "TODO-DATA",
+      "channels": "Instagram, YouTube, brochures",
+      "published": false,
+      "featured": false,
+      "metrics": [
+        {
+          "label": "Enquiries",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Site visits",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Occupancy rate",
+          "value": "TODO-DATA"
+        },
+        {
+          "label": "Reel views",
+          "value": "TODO-DATA"
+        }
+      ],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [
+        "Brochure spread",
+        "Founder-series still 1",
+        "Founder-series still 2",
+        "Script book cover",
+        "Check-out form",
+        "Instagram grid"
+      ],
+      "workstreams": [
+        "Sales material",
+        "Operations",
+        "Content",
+        "To confirm"
+      ],
+      "url": "/work/rentastic-homes"
+    },
+    {
+      "slug": "saurashtra-farsan",
+      "client": "saurashtra-farsan",
+      "headline": "TODO-CONFIRM",
+      "summary": "TODO-CONFIRM — logo-wall client; case study to be written with the team.",
+      "industry": "Food & snacks",
+      "location": "TODO-DATA",
+      "duration": "TODO-DATA",
+      "channels": "TODO-DATA",
+      "published": false,
+      "featured": false,
+      "metrics": [],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [],
+      "workstreams": [],
+      "url": "/work/saurashtra-farsan"
+    },
+    {
+      "slug": "shailesh-construction",
+      "client": "shailesh-construction",
+      "headline": "TODO-CONFIRM",
+      "summary": "TODO-CONFIRM — logo-wall client; case study to be written with the team.",
+      "industry": "Construction",
+      "location": "TODO-DATA",
+      "duration": "TODO-DATA",
+      "channels": "TODO-DATA",
+      "published": false,
+      "featured": false,
+      "metrics": [],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [],
+      "workstreams": [],
+      "url": "/work/shailesh-construction"
+    },
+    {
+      "slug": "sipss-bitess",
+      "client": "sipss-bitess",
+      "headline": "TODO-CONFIRM",
+      "summary": "TODO-CONFIRM — logo-wall client; case study to be written with the team.",
+      "industry": "Food & beverage",
+      "location": "TODO-DATA",
+      "duration": "TODO-DATA",
+      "channels": "TODO-DATA",
+      "published": false,
+      "featured": false,
+      "metrics": [],
+      "quote": {
+        "text": "",
+        "name": "",
+        "role": ""
+      },
+      "video": "",
+      "gallery": 6,
+      "galleryNotes": [],
+      "workstreams": [],
+      "url": "/work/sipss-bitess"
+    }
+  ],
+  "clients": [
+    {
+      "slug": "charliee",
+      "name": "Charliee",
+      "legalName": "Baijay International",
+      "logo": "/assets/clients/charliee.webp",
+      "industry": "FMCG / packaged snacks",
+      "website": "",
+      "logoWall": true,
+      "order": 1
+    },
+    {
+      "slug": "cds-stores",
+      "name": "CDS Stores",
+      "logo": "/assets/clients/cds.webp",
+      "industry": "Retail / sweets & gifting",
+      "website": "https://cdsstores.in",
+      "logoWall": true,
+      "order": 2
+    },
+    {
+      "slug": "nirav-machines-india",
+      "name": "Nirav Machines India",
+      "logo": "/assets/clients/nmi.webp",
+      "industry": "Manufacturing / B2B",
+      "website": "",
+      "logoWall": true,
+      "order": 3
+    },
+    {
+      "slug": "madhuram",
+      "name": "Madhuram",
+      "logo": "/assets/clients/madhuram.webp",
+      "industry": "Food & snacks",
+      "website": "",
+      "logoWall": true,
+      "order": 4
+    },
+    {
+      "slug": "sipss-bitess",
+      "name": "Sipss & Bitess",
+      "logo": "/assets/clients/sipss.webp",
+      "industry": "Food & beverage",
+      "website": "",
+      "logoWall": true,
+      "order": 5
+    },
+    {
+      "slug": "saurashtra-farsan",
+      "name": "Saurashtra Farsan",
+      "logo": "/assets/clients/saurashtra.webp",
+      "industry": "Food & snacks",
+      "website": "",
+      "logoWall": true,
+      "order": 6
+    },
+    {
+      "slug": "rentastic-homes",
+      "name": "Rentastic Homes",
+      "logo": "/assets/clients/rentastic.webp",
+      "industry": "Real estate / co-living",
+      "website": "",
+      "logoWall": true,
+      "order": 7
+    },
+    {
+      "slug": "nits-overseas",
+      "name": "NITS Overseas",
+      "logo": "/assets/clients/nits.webp",
+      "industry": "Education / study abroad",
+      "website": "",
+      "logoWall": true,
+      "order": 8
+    },
+    {
+      "slug": "navami",
+      "name": "Navami",
+      "logo": "/assets/clients/navami.webp",
+      "industry": "TODO-DATA",
+      "website": "",
+      "logoWall": true,
+      "order": 9
+    },
+    {
+      "slug": "aathrr",
+      "name": "Aathrr",
+      "logo": "/assets/clients/aathrr.webp",
+      "industry": "TODO-DATA",
+      "website": "",
+      "logoWall": true,
+      "order": 10
+    },
+    {
+      "slug": "shailesh-construction",
+      "name": "Shailesh Construction",
+      "logo": "/assets/clients/shailesh.webp",
+      "industry": "Construction",
+      "website": "",
+      "logoWall": true,
+      "order": 11
+    },
+    {
+      "slug": "ghanshyam-snacks",
+      "name": "Ghanshyam Snacks",
+      "logo": "/assets/clients/ghanshyam.webp",
+      "industry": "FMCG manufacturing / B2B",
+      "website": "",
+      "logoWall": true,
+      "order": 12
+    },
+    {
+      "slug": "gsps",
+      "name": "GSPS Chartered Accountants",
+      "logo": "/assets/clients/gsps.webp",
+      "industry": "Professional services",
+      "website": "",
+      "logoWall": true,
+      "order": 13
+    },
+    {
+      "slug": "new-rave",
+      "name": "New Rave",
+      "logo": "/assets/clients/newrave.webp",
+      "industry": "Retail / TCG & hobbies (Canada)",
+      "website": "https://newrave.ca",
+      "logoWall": true,
+      "order": 14
+    },
+    {
+      "slug": "kitcoz",
+      "name": "Kitcoz",
+      "legalName": "Elvey Essentials",
+      "logo": "/assets/clients/kitcoz.webp",
+      "industry": "D2C beauty & personal care",
+      "website": "",
+      "logoWall": true,
+      "order": 15
+    },
+    {
+      "slug": "hpmg-group",
+      "name": "HPMG Group",
+      "logo": "/assets/clients/hpmg.webp",
+      "industry": "TODO-DATA",
+      "website": "",
+      "logoWall": true,
+      "order": 16
+    },
+    {
+      "slug": "colortek",
+      "name": "Colortek",
+      "legalName": "Colourtech Coating India",
+      "logo": "",
+      "industry": "Manufacturing / industrial coatings",
+      "website": "",
+      "logoWall": false,
+      "order": 17
+    },
+    {
+      "slug": "gi-packtech",
+      "name": "GI PackTech",
+      "logo": "",
+      "industry": "Manufacturing / industrial & export packaging",
+      "website": "",
+      "logoWall": false,
+      "order": 18
+    }
+  ],
+  "blog": [
+    {
+      "slug": "ai-product-photography-for-marketplaces",
+      "title": "AI product photography for marketplaces: what works",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/ai-product-photography-for-marketplaces"
+    },
+    {
+      "slug": "amazon-listing-optimisation-checklist",
+      "title": "Amazon listing optimisation checklist for Indian brands",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/amazon-listing-optimisation-checklist"
+    },
+    {
+      "slug": "b2b-export-lead-generation-indian-manufacturers",
+      "title": "B2B and export lead generation for Indian manufacturers",
+      "category": "B2B & Manufacturing",
+      "published": false,
+      "url": "/blog/b2b-export-lead-generation-indian-manufacturers"
+    },
+    {
+      "slug": "cinema-ads-for-local-brands-do-they-work",
+      "title": "Cinema ads for local brands: do they work?",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/cinema-ads-for-local-brands-do-they-work"
+    },
+    {
+      "slug": "cod-vs-prepaid",
+      "title": "COD vs prepaid: how Indian D2C brands should set the rules",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/cod-vs-prepaid"
+    },
+    {
+      "slug": "d2c-ecommerce-growth-guide",
+      "title": "D2C ecommerce growth guide: Shopify, ads and retention",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/d2c-ecommerce-growth-guide"
+    },
+    {
+      "slug": "festive-campaign-planning-on-a-2-lakh-budget",
+      "title": "Festive campaign planning on a ₹2 lakh budget",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/festive-campaign-planning-on-a-2-lakh-budget"
+    },
+    {
+      "slug": "filtering-fake-leads-from-meta-ads",
+      "title": "Filtering fake leads from Meta ads: a system that works",
+      "category": "B2B & Manufacturing",
+      "published": false,
+      "url": "/blog/filtering-fake-leads-from-meta-ads"
+    },
+    {
+      "slug": "fixing-out-of-stocks-on-quick-commerce",
+      "title": "Fixing out-of-stocks on quick commerce: a working method",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/fixing-out-of-stocks-on-quick-commerce"
+    },
+    {
+      "slug": "flipkart-ads-guide",
+      "title": "Flipkart ads guide: PLA, PCA and sale-event planning",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/flipkart-ads-guide"
+    },
+    {
+      "slug": "flipkart-minutes-vs-amazon-now-vs-blinkit",
+      "title": "Flipkart Minutes vs Amazon Now vs Blinkit: which first?",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/flipkart-minutes-vs-amazon-now-vs-blinkit"
+    },
+    {
+      "slug": "getting-approved-on-myntra-nykaa-fashion-ajio",
+      "title": "Getting approved on Myntra, Nykaa Fashion and AJIO",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/getting-approved-on-myntra-nykaa-fashion-ajio"
+    },
+    {
+      "slug": "how-to-sell-on-blinkit",
+      "title": "How to sell on Blinkit: a brand’s step-by-step guide",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/how-to-sell-on-blinkit"
+    },
+    {
+      "slug": "how-to-sell-on-swiggy-instamart",
+      "title": "How to sell on Swiggy Instamart: a guide for brands",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/how-to-sell-on-swiggy-instamart"
+    },
+    {
+      "slug": "how-to-sell-on-zepto",
+      "title": "How to sell on Zepto: onboarding, catalogue and first orders",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/how-to-sell-on-zepto"
+    },
+    {
+      "slug": "linkedin-outreach-for-exporters",
+      "title": "LinkedIn outreach for exporters: a practical playbook",
+      "category": "B2B & Manufacturing",
+      "published": false,
+      "url": "/blog/linkedin-outreach-for-exporters"
+    },
+    {
+      "slug": "marketplace-vs-d2c-for-fmcg",
+      "title": "Marketplace vs D2C for FMCG brands: which channel first?",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/marketplace-vs-d2c-for-fmcg"
+    },
+    {
+      "slug": "one-website-for-multiple-store-locations",
+      "title": "One website for multiple store locations: how it works",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/one-website-for-multiple-store-locations"
+    },
+    {
+      "slug": "pack-size-and-pricing-for-10-minute-delivery",
+      "title": "Pack size and pricing for 10-minute delivery",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/pack-size-and-pricing-for-10-minute-delivery"
+    },
+    {
+      "slug": "quick-commerce-ads-explained",
+      "title": "Quick-commerce ads explained: search, category and banners",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/quick-commerce-ads-explained"
+    },
+    {
+      "slug": "quick-commerce-for-brands-in-india-guide",
+      "title": "Quick commerce for brands in India: the 2026 guide",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/quick-commerce-for-brands-in-india-guide"
+    },
+    {
+      "slug": "roas-vs-mer-vs-contribution-margin",
+      "title": "ROAS vs MER vs contribution margin: which number to run on",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/roas-vs-mer-vs-contribution-margin"
+    },
+    {
+      "slug": "selling-on-amazon-flipkart-myntra-brand-playbook",
+      "title": "Selling on Amazon, Flipkart & Myntra: the brand playbook",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/selling-on-amazon-flipkart-myntra-brand-playbook"
+    },
+    {
+      "slug": "shopify-speed-and-conversion-checklist",
+      "title": "Shopify speed and conversion checklist for Indian stores",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/shopify-speed-and-conversion-checklist"
+    },
+    {
+      "slug": "shopify-vs-woocommerce-in-india",
+      "title": "Shopify vs WooCommerce in India: which should you build on?",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/shopify-vs-woocommerce-in-india"
+    },
+    {
+      "slug": "top-ecommerce-quick-commerce-agencies-in-india",
+      "title": "Top ecommerce & quick-commerce agencies in India: honest comparison",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/top-ecommerce-quick-commerce-agencies-in-india"
+    },
+    {
+      "slug": "when-a-plus-content-pays",
+      "title": "When A+ content pays on Amazon, and when it does not",
+      "category": "Commerce",
+      "published": false,
+      "url": "/blog/when-a-plus-content-pays"
+    }
+  ]
+}

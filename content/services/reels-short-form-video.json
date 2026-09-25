@@ -1,0 +1,67 @@
+{
+  "slug": "reels-short-form-video",
+  "group": "brand-and-creative",
+  "order": 3,
+  "published": true,
+  "name": "Reels & Short-form Video",
+  "shortName": "Reels",
+  "promise": "Short-form built to be re-watched — hooks in the first second, retention by design.",
+  "intro": "gaa-tha produces Instagram Reels, YouTube Shorts and short-form video built to be re-watched: content pillars and a monthly calendar, scripts with a hook in the first second, on-ground shoot direction, editing with captions and sound design, UGC-style and founder-led formats, and a monthly review of retention, saves and shares — delivered in three-to-seven-day batches on a monthly retainer.",
+  "glance": {
+    "bestFor": "D2C, FMCG, retail, real estate and education brands that need to show up every week",
+    "timeline": "3–7 days per batch",
+    "model": "Monthly retainer with a fixed number of reels",
+    "channels": "Instagram Reels, YouTube Shorts, Facebook, LinkedIn, WhatsApp status, Meta ads"
+  },
+  "whatIs": [
+    "Short-form video is vertical video of roughly 90 seconds or less made for Instagram Reels, YouTube Shorts and similar feeds, where the platform decides who sees it based on how long people watch, whether they rewatch, and whether they save or share it. A reel earns reach by holding attention, not by being posted.",
+    "gaa-tha treats every reel as a small piece of engineering: a hook written for the first second, a structure that gives a reason to keep watching, captions for sound-off viewing, and a clear next step. Content pillars are set monthly, shoots are planned so one day on the ground yields a full batch, and each batch is reviewed on retention, saves and shares before the next one is scripted."
+  ],
+  "included": [
+    "Content pillars, formats and a monthly reels calendar",
+    "Scripting with hook, structure and CTA for every reel",
+    "Shoot planning: locations, props, talent and shot list",
+    "On-ground shoot direction at your store, factory, site or office",
+    "Editing, captions, colour and sound design",
+    "UGC-style, founder-led and product-demo formats",
+    "Trend and audio adaptation within brand tone",
+    "Cover frames, captions and hashtag sets ready for posting",
+    "Cut-downs and versions for Meta ads and WhatsApp",
+    "Monthly performance review of retention, saves, shares and follows"
+  ],
+  "steps": [
+    { "title": "Pillars and calendar", "text": "We define three to five content pillars from your positioning and audience, then plan a month of reels against them." },
+    { "title": "Script", "text": "Every reel gets a written hook, beat-by-beat structure and CTA. You approve scripts before anyone picks up a camera." },
+    { "title": "Shoot", "text": "One planned shoot day covers a batch — your outlet, factory, site or a founder on camera — with a shot list that makes the edit fast." },
+    { "title": "Edit and deliver", "text": "Reels are cut with captions, sound design and brand-matched colour, delivered in three to seven days with cover frames and captions ready to post." },
+    { "title": "Review and refine", "text": "Each month we read retention curves, saves, shares and profile visits, keep what works, and rewrite the next calendar around it." }
+  ],
+  "deliverables": [
+    "Monthly reels calendar with pillars and approved scripts",
+    "Finished reels in 9:16 with captions and cover frames",
+    "Post captions, hashtag sets and a posting schedule",
+    "Ad-ready cut-downs in 15- and 30-second versions where needed",
+    "Raw footage archive on a shared drive",
+    "Monthly retention and engagement review"
+  ],
+  "tools": ["Instagram Reels", "YouTube Shorts", "Adobe Premiere Pro", "CapCut", "DaVinci Resolve", "Meta Business Suite", "Google Sheets"],
+  "pricing": "Monthly retainer priced by the number of reels per month and shoot days; travel outside Gujarat and paid talent are quoted at cost.",
+  "faq": [
+    { "q": "What makes a reel perform on Instagram?", "a": "Watch time. Instagram distributes reels that people watch to the end, rewatch, save or share, so the first second has to promise something, the middle has to keep delivering, and the length has to match the idea. Consistent posting and a recognisable format help both the algorithm and the audience know what to expect from you." },
+    { "q": "How many reels should a brand post per month?", "a": "Eight to twelve is a realistic starting point for most brands — two to three a week is enough to learn what works without burning the team out. Volume matters less than consistency and a clear set of formats; we would rather ship ten good reels a month than thirty forgettable ones." },
+    { "q": "Do you shoot the reels or only edit them?", "a": "Both. We plan and direct on-ground shoots at your store, factory, showroom or site, and we also edit footage you shoot yourself on a phone using our shot lists. Most retainers combine one planned shoot day a month with founder or team footage in between." },
+    { "q": "Do we need to be on camera?", "a": "It helps, but it is not required. Founder-led reels build trust fastest for services, real estate and education brands; product-led, UGC-style and voiceover formats work well for FMCG and D2C brands whose founders prefer to stay off camera. An AI digital spokesperson is also an option for brands that want a consistent face without daily shoots." },
+    { "q": "How long does a batch take?", "a": "Three to seven days from shoot to delivery for a batch of reels, once scripts are approved. The first month takes a little longer because pillars, formats and shoot logistics are being set up." },
+    { "q": "Can the same reels be used as ads?", "a": "Yes, and they should be. We deliver ad-ready cut-downs with the hook tightened and a clear offer, and our Meta ads team tests them alongside static creatives. Organic reels tell us which hooks earn attention before money is spent on them." },
+    { "q": "Do you follow trends?", "a": "Selectively. Trending audio and formats are adapted when they fit your brand tone and your audience, and we skip the ones that would look off-brand. Original formats you can repeat are what build a following; trends are the seasoning." },
+    { "q": "Which industries do you make reels for?", "a": "D2C and FMCG brands, retail chains, real estate, education, manufacturers and B2B companies. The formats change — product demos and recipes for food, walkthroughs for real estate, founder explainers for B2B — but the process is the same." }
+  ],
+  "related": ["ai-ads-ai-ad-shoots", "ai-cloning-spokesperson", "cinema-ads-film-production", "social-media-marketing"],
+  "reading": ["blog-instagram-reels-strategy", "blog-ai-ads-and-ai-ad-shoots-guide", "blog-how-to-do-better-marketing"],
+  "existingPage": "/reels",
+  "meta": {
+    "title": "Reels & Short-form Video Agency in India | gaa-tha",
+    "description": "Instagram Reels and Shorts built to be re-watched — pillars, scripts, on-ground shoots, editing with captions and sound, and a monthly retention review."
+  },
+  "updated": "2026-09-25"
+}

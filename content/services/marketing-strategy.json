@@ -1,0 +1,64 @@
+{
+  "slug": "marketing-strategy",
+  "group": "growth-marketing",
+  "order": 1,
+  "published": true,
+  "name": "Marketing Strategy & Positioning",
+  "shortName": "Marketing strategy",
+  "promise": "Insight before a single pixel — who you serve, why you win, and what success looks like in numbers.",
+  "intro": "gaa-tha's marketing strategy and positioning service decides who your brand serves, why buyers should choose you, which channels deserve budget and what success looks like in numbers — before any creative is made. Delivered in two to three weeks as a written strategy, a 90-day roadmap and a KPI framework your team and ours execute against.",
+  "glance": {
+    "bestFor": "Founders and marketing heads at D2C, FMCG, retail, manufacturing and real-estate brands before a launch or a budget decision",
+    "timeline": "2–3 weeks",
+    "model": "One-time project, often followed by an execution retainer",
+    "channels": "Channel-agnostic — covers social, Meta and Google ads, search, marketplaces and offline"
+  },
+  "whatIs": [
+    "A marketing strategy is the set of choices about who you serve, what you promise, which channels you will use and how success will be measured — written down before any campaign starts. It is not a content calendar or a list of posts; those are tactics, and strategy is what makes the tactics agree with each other.",
+    "At gaa-tha the strategy phase starts with research, not opinion: your market, your competitors, the people who already buy from you and the reasons they give. From that we write the positioning, the messaging, the offer, the channel plan with a budget split, a 90-day roadmap and the KPI framework — so every rupee spent afterwards has a job."
+  ],
+  "included": [
+    "Market and competitor research — category, pricing, claims, channels and gaps",
+    "Customer interviews and audience personas with buying triggers and objections",
+    "Positioning statement and messaging hierarchy (promise, proof points, tone)",
+    "Offer design — what you sell, at what price point, with what hook",
+    "Channel plan and budget split across social, Meta and Google ads, search, marketplaces and offline",
+    "90-day roadmap with owners, milestones and content and campaign priorities",
+    "KPI framework — one primary number per objective, with targets and a reporting cadence",
+    "Founder and sales-team workshop to align on the strategy before execution",
+    "Creative and content brief for the team executing the plan"
+  ],
+  "steps": [
+    { "title": "Discovery", "text": "A working session with the founders and sales team on goals, margins, current channels and what has and has not worked, plus access to analytics and ad accounts." },
+    { "title": "Research", "text": "We study the category, competitors, search demand and customer conversations, and interview a handful of existing customers to hear the words they use." },
+    { "title": "Positioning and offer", "text": "We write the positioning, the messaging hierarchy and the offer, and test them against the alternatives your buyers are already considering." },
+    { "title": "Channel plan and roadmap", "text": "Channels are ranked by where your buyers actually look, budget is split accordingly, and a 90-day roadmap sets the order of work." },
+    { "title": "Workshop and handover", "text": "The strategy is presented to your team, questions are worked through live, and the KPI framework and briefs are handed to whoever executes — us or your in-house team." }
+  ],
+  "deliverables": [
+    "Marketing strategy document (research, positioning, messaging, offer)",
+    "Audience personas with triggers, objections and channel habits",
+    "Channel plan with budget split and expected roles per channel",
+    "90-day roadmap with owners and milestones",
+    "KPI framework and a reporting template",
+    "Creative and content brief for execution"
+  ],
+  "tools": ["Google Analytics 4", "Google Search Console", "Google Trends", "Meta Ads Library", "Semrush", "Google Sheets", "Notion"],
+  "pricing": "One-time project fee scoped to the depth of research and the number of markets or product lines; execution can follow as a monthly retainer.",
+  "faq": [
+    { "q": "What is a marketing strategy?", "a": "A marketing strategy is the set of choices about who you serve, what you stand for and how you will reach them, written down before any campaign starts. It answers four questions: which segment, what promise, which channels, and what success looks like in numbers. gaa-tha delivers it as a document, a roadmap and a KPI framework rather than a slide deck that gets filed away." },
+    { "q": "How long does a marketing strategy take?", "a": "Two to three weeks for most Indian SMEs and D2C brands: one week of discovery and research, one week of positioning and channel planning, and a few days for the workshop and handover. Brands with several product lines or export markets may need an extra week of research." },
+    { "q": "Do I need a strategy before running ads or social media?", "a": "Yes, at least a short one. Without agreed positioning, an offer and a primary metric, ads and content are tested against nothing, and money goes to whatever looks busy. A two-week strategy phase typically saves far more than it costs in wasted spend and redone creative." },
+    { "q": "What is the difference between a marketing strategy and a marketing plan?", "a": "Strategy is the choices — audience, promise, channels, success metric. A plan is the schedule of activity that follows from those choices: which posts, which campaigns, which months. gaa-tha delivers both: the strategy document and a 90-day roadmap that turns it into work." },
+    { "q": "How much should a business spend on marketing?", "a": "A common working range is 5–10% of revenue for established businesses and 15–20% for brands in a launch or growth phase, but the better question is what a customer is worth to you. We calculate customer lifetime value and a target cost per acquisition in the strategy phase, and the budget follows those two numbers." },
+    { "q": "Can you also execute the strategy?", "a": "Yes. Social media, Meta and Google ads, SEO/AEO/GEO, influencer campaigns and creative are all in-house, so most clients move from the strategy project into a monthly execution retainer with the same team. If you have an in-house team or another agency, the strategy and briefs are written so they can execute it." },
+    { "q": "What do you need from us to start?", "a": "Two or three hours of founder and sales-team time for discovery, access to your analytics, ad accounts and sales data, and introductions to a few customers we can interview. Everything else — research, competitor analysis and drafting — is on us." }
+  ],
+  "related": ["social-media-marketing", "campaign-planning", "seo-aeo-geo", "branding-agency"],
+  "reading": ["blog-marketing-strategy-guide", "blog-what-is-marketing", "blog-branding-vs-marketing"],
+  "meta": {
+    "title": "Marketing Strategy Agency in India | gaa-tha",
+    "description": "Research-led positioning, messaging, offer, channel plan and a 90-day roadmap in 2–3 weeks for D2C, FMCG, retail, B2B and real-estate brands."
+  },
+  "updated": "2026-09-25"
+}

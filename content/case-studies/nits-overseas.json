@@ -1,0 +1,34 @@
+{
+  "slug": "nits-overseas",
+  "published": false,
+  "featured": false,
+  "client": "nits-overseas",
+  "headline": "TODO-CONFIRM",
+  "headlineDraft": "Filling counselling calendars with students ready to study abroad.",
+  "summary": "TODO-CONFIRM — overseas-education consultancy; likely social media, reels, Meta lead ads, Google search ads and landing pages.",
+  "industry": "Education / study abroad",
+  "location": "TODO-DATA",
+  "duration": "TODO-DATA",
+  "channels": "TODO-DATA",
+  "filters": ["performance-ads", "social-reels"],
+  "services": ["social-media-marketing", "reels-short-form-video", "meta-ads-agency", "google-ads-agency", "website-development"],
+  "metrics": [
+    { "label": "Leads", "value": "TODO-DATA" },
+    { "label": "Cost per lead", "value": "TODO-DATA" },
+    { "label": "Counselling bookings", "value": "TODO-DATA" },
+    { "label": "Reel reach", "value": "TODO-DATA" }
+  ],
+  "challenge": ["TODO-CONFIRM with team: services delivered, target countries, intake seasons."],
+  "workstreams": [],
+  "results": [],
+  "quote": { "text": "", "name": "", "role": "" },
+  "gallery": 6,
+  "galleryNotes": ["Reel covers", "Lead-ad creatives", "Landing page"],
+  "video": "",
+  "images": { "hero": "", "card": "", "og": "" },
+  "meta": {
+    "title": "NITS Overseas case study | gaa-tha",
+    "description": "Case study for NITS Overseas, an overseas-education consultancy — published once scope and results are confirmed."
+  },
+  "updated": "2026-09-25"
+}

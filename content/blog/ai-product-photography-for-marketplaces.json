@@ -1,0 +1,64 @@
+{
+  "slug": "ai-product-photography-for-marketplaces",
+  "published": false,
+  "type": "cluster",
+  "category": "Commerce",
+  "title": "AI product photography for marketplaces: what works",
+  "excerpt": "Where AI-assisted imagery helps a marketplace catalogue, where it does not, how to keep it accurate and compliant, and how to combine it with real packshots.",
+  "intro": "AI product photography uses generative tools, guided by art direction, to produce lifestyle scenes, infographics, seasonal variations and catalogue imagery from real product references. For marketplaces it works best for secondary images and large catalogues, where a traditional shoot for every SKU is impractical. The main image should still be an accurate packshot, and every AI image must show the product truthfully.",
+  "takeaways": [
+    "Use AI for lifestyle, seasonal and infographic images; keep the main image a true packshot.",
+    "Accuracy is the rule: the product in the image must match the product in the box.",
+    "AI pays most for large catalogues and frequent campaigns.",
+    "Brand-matched grading and typography keep AI imagery consistent with the rest of the brand."
+  ],
+  "sections": [
+    {
+      "h2": "Where does AI imagery help a marketplace listing?",
+      "html": "<p>In the image stack behind the main image: lifestyle scenes that show context, infographics that explain benefits, size and pack visuals, festive and seasonal variants, and A+ modules. These are the images that persuade, and they are the expensive ones to shoot conventionally for every SKU. A brand with dozens or hundreds of listings, such as <a href=\"/work/charliee\">Charliee</a>, can keep its catalogue visually complete this way.</p>"
+    },
+    {
+      "h2": "Where should you not rely on AI?",
+      "html": "<p>The main image on a white background should be a real photograph of the real pack, because marketplaces check it and customers compare it with what arrives. Anything that shows the product’s exact colour, texture, size or contents should be photographed or built from photographs, not generated. Model imagery for fashion should follow each platform’s rules on authenticity. When in doubt, shoot the product and use AI for the environment around it.</p>"
+    },
+    {
+      "h2": "How do you keep AI imagery accurate and compliant?",
+      "html": "<ul>\n<li>Start from real packshots and use them as the reference for every generated scene.</li>\n<li>Check labels, claims and pack sizes in every output against the actual product.</li>\n<li>Follow marketplace image policies on backgrounds, text overlays and prohibited elements.</li>\n<li>Keep a brand-approval step before anything is uploaded.</li>\n<li>Apply consistent colour grading and typography so AI and photographed images sit together.</li>\n</ul>\n<p>Our <a href=\"/services/ai-ads-ai-ad-shoots\">AI ads and AI ad shoots</a> process has an art director and a brand approval on every output for exactly these reasons.</p>"
+    },
+    {
+      "h2": "How do you combine AI with a real shoot?",
+      "html": "<p>Plan one efficient packshot session for every SKU, then produce the secondary and seasonal images with AI from those references. Refresh the AI layer for festivals and launches without reshooting. For quick-commerce thumbnails and marketplace main images, the real packshot remains the asset; for everything that tells a story around it, AI keeps the catalogue current at a fraction of the cost. <a href=\"/services/product-photography-ecommerce\">Ecommerce product photography</a> plans the shoot and the AI layer together, and <a href=\"/services/marketplace-listing-optimisation\">listing optimisation</a> decides what each image in the stack needs to say.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do marketplaces allow AI-generated product images?",
+      "a": "Policies vary and change. In general the main image must be an accurate photograph of the product, while secondary lifestyle and infographic images have more flexibility, provided they represent the product truthfully. Check the current policy for each platform."
+    },
+    {
+      "q": "Is AI product photography cheaper than a shoot?",
+      "a": "For secondary and seasonal images across a large catalogue it is usually far cheaper and faster. For the main packshot of each SKU, a real photograph is still the right investment."
+    },
+    {
+      "q": "Will customers notice AI imagery?",
+      "a": "Poorly made AI imagery is obvious and damages trust. Well-directed imagery built from real product references, with consistent grading and honest representation, reads as brand photography."
+    },
+    {
+      "q": "Can AI imagery be used for A+ content and Brand Stores?",
+      "a": "Yes, and it is one of the best uses: explanatory modules, comparison visuals and lifestyle banners built from real packshots, checked for accuracy before upload."
+    }
+  ],
+  "relatedServices": [
+    "product-photography-ecommerce",
+    "ai-ads-ai-ad-shoots",
+    "marketplace-listing-optimisation",
+    "quick-commerce-content"
+  ],
+  "relatedCase": "charliee",
+  "author": "gaa-tha",
+  "readMinutes": 4,
+  "cover": "cov-c",
+  "mark": "Ai",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "website-development",
+  "group": "technology",
+  "order": 1,
+  "published": true,
+  "name": "Website Design & Development",
+  "shortName": "Websites",
+  "promise": "Fast, accessible, search-ready sites built to turn a click into a customer.",
+  "intro": "gaa-tha designs and develops websites for corporate, B2B, manufacturing, export, real-estate and investor-relations needs — fast, accessible, mobile-first sites with clean semantic HTML, structured data, Core Web Vitals in the green and answer-first copy, so they convert visitors into enquiries and are found by Google and AI assistants. Landing pages in about a week; corporate sites in two to five.",
+  "glance": {
+    "bestFor": "Manufacturers and exporters, B2B services, real-estate developers, education and listed companies needing investor-relations pages",
+    "timeline": "Landing pages in about a week; corporate sites 2–5 weeks; larger sites 6–8 weeks",
+    "model": "Project fee, with an optional monthly care plan",
+    "channels": "Custom-coded and WordPress builds; hosted on Cloudflare, Vercel, Firebase or your own hosting"
+  },
+  "whatIs": [
+    "Website design and development is the work of planning, designing, writing and building a website that does a job for the business — earning enquiries, qualifying buyers, supporting a sales team or informing investors — and making sure it loads fast, works on every phone, can be read by search engines and AI assistants and can be updated without a developer. A website is a salesperson that never sleeps, and it should be built like one.",
+    "At gaa-tha every site starts with the visitor's question and the action we want them to take, then the structure, the copy and the design follow. We build on the existing brand or create one alongside, write answer-first content, add structured data, sitemaps and llms.txt, and ship with analytics and lead tracking connected — the same SEO, AEO and GEO approach we use on gaa-tha.com."
+  ],
+  "included": [
+    "Discovery — goals, audiences, competitor sites, content inventory and the actions the site must drive",
+    "Sitemap, page structure and wireframes for desktop and mobile",
+    "UI design in your brand system, or a minimum viable identity created alongside",
+    "Answer-first copywriting and content structure for every page, with FAQs",
+    "Development — custom HTML/CSS/JS or WordPress, responsive, accessible and fast",
+    "Product or project catalogues, enquiry forms, WhatsApp and call buttons, maps and downloads",
+    "Technical SEO — semantic HTML, structured data, XML sitemap, robots and llms.txt",
+    "Analytics and lead tracking with Google Analytics 4, Google Tag Manager and Search Console",
+    "Domain, hosting, SSL and email setup or migration, with staging before go-live",
+    "Training and a simple admin so your team can update text and images"
+  ],
+  "steps": [
+    { "title": "Discovery and structure", "text": "We agree the site's job, the audiences and the actions, audit what exists, and produce the sitemap and wireframes." },
+    { "title": "Design", "text": "Key pages are designed for mobile and desktop in your brand system and approved before development starts." },
+    { "title": "Content", "text": "Copy is written answer-first for people and AI assistants, images and videos are shot, sourced or produced, and FAQs are drafted for the pages that need them." },
+    { "title": "Build and test", "text": "The site is developed, connected to forms, WhatsApp, analytics and search tools, and tested for speed, accessibility and every screen size on a staging link." },
+    { "title": "Launch and care", "text": "Domain, hosting and SSL are configured, the site goes live with sitemap and Search Console submission, your team is trained, and an optional care plan keeps it updated." }
+  ],
+  "deliverables": [
+    "Sitemap, wireframes and approved page designs",
+    "Live, responsive website on your domain with SSL",
+    "Written page content and FAQs",
+    "Structured data, XML sitemap, robots.txt and llms.txt",
+    "Connected analytics, Tag Manager, Search Console and lead forms",
+    "Admin training and a handover document with all logins"
+  ],
+  "tools": ["HTML, CSS and JavaScript", "WordPress", "Figma", "Google Analytics 4", "Google Tag Manager", "Google Search Console", "Cloudflare", "Firebase"],
+  "pricing": "Project fee scoped to the number of pages, integrations and languages; hosting and domain are paid by you directly, and a monthly care plan is optional.",
+  "faq": [
+    { "q": "What kind of websites do you build?", "a": "Corporate and B2B sites for manufacturers and exporters, real-estate and project sites, investor-relations pages, education and service-business sites, and campaign landing pages. Ecommerce stores on Shopify and WooCommerce are handled under D2C Ecommerce. All are built for speed, accessibility, SEO and AI-search visibility." },
+    { "q": "How long does a website take?", "a": "Landing pages in about a week; corporate sites in two to five weeks; larger sites with catalogues, tools or multiple languages in six to eight. Timelines depend mostly on how quickly content and approvals arrive, which is why we help write the content rather than wait for it." },
+    { "q": "How much does a website cost in India?", "a": "It depends on the number of pages, the design effort, integrations such as catalogues or CRMs, and the number of languages, so we scope each project rather than sell fixed packages. A one-page landing site and a fifty-page multilingual corporate site are very different jobs; you receive an itemised proposal after a short discovery call." },
+    { "q": "Will my site be found by Google and AI tools?", "a": "Every site ships with clean semantic HTML, structured data, fast Core Web Vitals, an XML sitemap and an llms.txt, and the copy is written answer-first so it can be quoted by Google AI Overviews, ChatGPT, Claude and Gemini. Ongoing ranking work is available under SEO, AEO & GEO." },
+    { "q": "Do you write the website content?", "a": "Yes. Copywriting is part of the project: we interview your team, structure each page around the visitor's question and write answer-first copy with FAQs. You review and correct facts; we do the drafting. Product photography and video can be produced by the same team." },
+    { "q": "Do we own the website, domain and code?", "a": "Yes. The domain and hosting are registered in your name, the code and content are yours, and every login is handed over at launch. Nothing is locked to gaa-tha; if you leave, the site goes with you." },
+    { "q": "What happens after launch — do you maintain the site?", "a": "An optional monthly care plan covers updates, backups, security patches, speed checks and small content changes. Without it, your team can edit text and images through the admin we train you on, and we are available for larger changes on a project basis." },
+    { "q": "Can the site be in Hindi or Gujarati as well as English?", "a": "Yes. We build multilingual sites with correct language tags, hreflang and translated content so each version can be found in search. Manufacturers and real-estate developers often run English plus Hindi or Gujarati; exporters may add Arabic, French or Spanish for target markets." }
+  ],
+  "related": ["app-design-development", "business-tools-automation", "seo-aeo-geo", "shopify-development"],
+  "reading": ["blog-seo-aeo-geo-guide", "blog-best-digital-marketing-agency-india", "blog-how-to-do-better-marketing"],
+  "existingPage": "/websites",
+  "meta": {
+    "title": "Website Design & Development Agency in India | gaa-tha",
+    "description": "Corporate, B2B, manufacturing, real-estate and investor-relations websites — fast, accessible, answer-first and structured so Google and AI find them."
+  },
+  "updated": "2026-09-25"
+}

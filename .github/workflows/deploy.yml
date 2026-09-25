@@ -1,28 +1,34 @@
 name: Deploy to Netlify
 
-# Publishes the site to Netlify on every push to `main`.
-# FREE, and works with a PRIVATE org-owned repo (no Netlify Pro needed),
-# because GitHub Actions deploys via the Netlify CLI using a token.
+# Publishes the site to Netlify:
+#   • on every push to `main`
+#   • when the admin panel's "Publish site" button fires a `cms-publish`
+#     repository_dispatch (via workers/publish-hook.js)
+#   • manually from the Actions tab
 #
-# ── One-time setup (adds free auto-deploy) ───────────────────────────────────
-# 1. Netlify → your avatar → User settings → Applications → Personal access
-#    tokens → "New access token" → copy it.
-# 2. Netlify → your site → Site configuration → Site details → copy the
-#    "Site ID" (a.k.a. API ID).
-# 3. GitHub → this repo → Settings → Secrets and variables → Actions →
-#    "New repository secret", add BOTH:
+# Before deploying it runs `node build/build.js`, which regenerates every
+# service, case-study and blog page with the Firebase admin overrides
+# (images, metrics, quotes, publish toggles) merged in, plus sitemap.xml and
+# llms.txt. If that produced changes they are committed back to `main`, so
+# the repository always matches what is live.
+#
+# ── One-time setup ──────────────────────────────────────────────────────────
+# 1. Netlify → User settings → Applications → Personal access tokens → new.
+# 2. Netlify → your site → Site configuration → Site details → copy Site ID.
+# 3. GitHub → this repo → Settings → Secrets and variables → Actions → add:
 #       NETLIFY_AUTH_TOKEN  = the token from step 1
 #       NETLIFY_SITE_ID     = the Site ID from step 2
-# 4. GitHub → Actions tab → run "Deploy to Netlify" (or push any commit).
-# Until both secrets exist, this workflow runs but safely skips (no failures).
+# Until both secrets exist, the workflow builds but safely skips the deploy.
 
 on:
   push:
     branches: [main]
+  repository_dispatch:
+    types: [cms-publish]
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: netlify-deploy
@@ -32,20 +38,41 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Build pages (merge admin overrides from Firebase)
+        run: node build/build.js
+
+      - name: Commit generated pages back to main
+        run: |
+          git config user.name "gaa-tha publish bot"
+          git config user.email "digimarketing@gaa-tha.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "Publish: regenerate pages from content and admin overrides"
+            git push origin HEAD:main
+          else
+            echo "No content changes to commit."
+          fi
+
       - name: Check for Netlify credentials
         id: gate
         run: echo "ready=${{ secrets.NETLIFY_AUTH_TOKEN != '' && secrets.NETLIFY_SITE_ID != '' }}" >> "$GITHUB_OUTPUT"
-
-      - name: Checkout
-        if: steps.gate.outputs.ready == 'true'
-        uses: actions/checkout@v4
 
       - name: Deploy to Netlify (production)
         if: steps.gate.outputs.ready == 'true'
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        run: npx --yes netlify-cli@17 deploy --prod --dir=. --message "Deploy ${{ github.sha }} via GitHub Actions"
+        run: npx --yes netlify-cli@17 deploy --prod --dir=. --message "Deploy ${{ github.sha }} (${{ github.event_name }}) via GitHub Actions"
 
       - name: Not configured yet
         if: steps.gate.outputs.ready != 'true'

@@ -1,0 +1,68 @@
+{
+  "slug": "linkedin-outreach-for-exporters",
+  "published": false,
+  "type": "cluster",
+  "category": "B2B & Manufacturing",
+  "title": "LinkedIn outreach for exporters: a practical playbook",
+  "excerpt": "How an Indian manufacturer finds overseas buyers on LinkedIn: profile fixes, a target list, message sequences, proof posts and a tracker for replies.",
+  "intro": "LinkedIn outreach for exporters is a structured programme of connection requests and short messages to a curated list of overseas companies and decision-makers, supported by a credible profile, a catalogue and regular proof posts. It is slower than advertising but reaches buyers that ads cannot, and it compounds: every reply, even a no, improves the list and the message for the next round.",
+  "takeaways": [
+    "Fix the founder’s and sales lead’s profiles before sending anything.",
+    "Build a list of 50 to 100 target companies with the right contact at each.",
+    "Send sequences of short, specific messages over weeks, not one pitch.",
+    "Post proof between messages and log every reply in a tracker."
+  ],
+  "sections": [
+    {
+      "h2": "What should the profiles say before outreach begins?",
+      "html": "<p>A buyer who receives a message checks the sender’s profile first. It should state what the company makes, for which industries and countries, with certifications, capacity and a link to the catalogue or website. The company page should match. Recent posts showing the plant, dispatches and applications turn a cold message into a plausible introduction. <a href=\"/services/content-writing-copywriting\">Copywriting</a> for profiles and posts is a small investment with a large effect on reply rates.</p>"
+    },
+    {
+      "h2": "How do you build the target list?",
+      "html": "<p>Start from the ideal buyer profile: industries that use your product, countries where you have a cost or quality advantage, company sizes that match your minimum order. Use LinkedIn search or Sales Navigator to find companies, then the procurement, plant, quality or ownership contact at each. Record company, country, contact, product fit, status and notes in a tracker. Fifty to a hundred well-chosen companies is enough to begin; quality of fit matters more than volume.</p>"
+    },
+    {
+      "h2": "What does a message sequence look like?",
+      "html": "<ol>\n<li><strong>Connection note:</strong> one line on who you are and why this company specifically.</li>\n<li><strong>Follow-up after acceptance:</strong> a specific reason the product fits their business, with one proof point and a catalogue link.</li>\n<li><strong>Second follow-up:</strong> an offer, such as a sample, a spec sheet for their application or a short call.</li>\n<li><strong>Final touch:</strong> a polite close that leaves the door open.</li>\n</ol>\n<p>Space the messages over two to four weeks, personalise the first line, and never paste a brochure into the message. For <a href=\"/work/gi-packtech\">GI PackTech</a>, an industrial and export packaging manufacturer, the programme took the form of a 50-company outreach tracker with curated messages and a Meta plus LinkedIn playbook, run through Sales Navigator.</p>"
+    },
+    {
+      "h2": "How do you track and improve results?",
+      "html": "<p>Log every outcome: accepted, replied, interested, not now, wrong contact, no response. Review weekly which countries, industries and message variants earn replies, and adjust the next batch. Move interested contacts into the sales pipeline with the same 24-hour qualification rule used for ad leads. Support the programme with the catalogue and company profile buyers expect, produced under <a href=\"/services/catalogues-presentations\">catalogues and sales kits</a>. <a href=\"/services/b2b-lead-generation\">B2B lead generation and export outreach</a> runs the list, the sequences and the tracker as one service.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does LinkedIn outreach work for Indian exporters?",
+      "a": "Yes, when it is run as a structured programme with a credible profile, a targeted list, short message sequences and consistent follow-up. It is slower than ads but reaches decision-makers directly."
+    },
+    {
+      "q": "Do I need Sales Navigator?",
+      "a": "It helps with finding the right contacts and saving lead lists, and it is usually worth it once the programme is running. A free account can start with a smaller, manually built list."
+    },
+    {
+      "q": "How many messages should I send per day?",
+      "a": "Enough to work the list steadily without triggering LinkedIn’s limits or looking automated. Consistency over weeks matters more than volume in any single day."
+    },
+    {
+      "q": "What reply rate should I expect?",
+      "a": "It varies widely by industry, country and message quality, so track your own rate by batch and improve it. The tracker will show which segments respond within a few weeks."
+    },
+    {
+      "q": "What should I send when someone replies?",
+      "a": "A short, specific answer to their question, the relevant spec sheet or catalogue page, and a proposal for the next step such as a sample or a call. Reply within a day."
+    }
+  ],
+  "relatedServices": [
+    "b2b-lead-generation",
+    "catalogues-presentations",
+    "content-writing-copywriting",
+    "website-development"
+  ],
+  "relatedCase": "gi-packtech",
+  "author": "gaa-tha",
+  "readMinutes": 4,
+  "cover": "cov-b",
+  "mark": "Li",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

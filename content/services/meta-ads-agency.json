@@ -1,0 +1,116 @@
+{
+  "slug": "meta-ads-agency",
+  "group": "growth-marketing",
+  "order": 3,
+  "published": true,
+  "name": "Meta Ads Agency",
+  "shortName": "Meta ads",
+  "promise": "Facebook and Instagram ads built around your margins, reported to the rupee.",
+  "intro": "gaa-tha is a Meta ads agency in India that plans, builds and optimises Facebook and Instagram campaigns around your margins — structured account architecture, relentless creative testing, WhatsApp and lead-gen formats, and weekly reporting on cost per lead, cost per purchase and ROAS rather than impressions.",
+  "glance": {
+    "bestFor": "D2C, retail, FMCG, real estate, education and B2B lead generation",
+    "timeline": "Setup in 1–2 weeks, then monthly",
+    "model": "Monthly management fee; ad spend paid directly to Meta",
+    "channels": "Facebook, Instagram, WhatsApp, Messenger, Audience Network"
+  },
+  "whatIs": [
+    "Meta ads management is the ongoing work of running paid campaigns on Facebook, Instagram, WhatsApp and Messenger: setting up the ad account and tracking, deciding who sees which creative, testing hooks and offers, and moving budget to what converts. Done well it is a system, not a boost button.",
+    "At gaa-tha the account is built around your unit economics first. We agree the number that matters — cost per lead, cost per purchase or blended ROAS — and structure campaigns, audiences and creative testing to hit it, with a lead-quality process so sales teams are not chasing junk."
+  ],
+  "included": [
+    "Ad account, Meta Pixel and Conversions API (CAPI) setup and audit",
+    "Audience and campaign architecture (prospecting, retargeting, retention)",
+    "Creative testing framework — hooks, formats and offers tested in batches",
+    "Lead-generation campaigns with instant forms and WhatsApp click-to-chat",
+    "Sales campaigns including catalogue and Advantage+ shopping",
+    "Retargeting across site visitors, engagers and customer lists",
+    "Weekly optimisation of budgets, bids, placements and exclusions",
+    "Lead-quality SOPs, first-reply templates and a lead tracker",
+    "Monthly report on CPL, cost per purchase, ROAS/MER and lead-to-sale rate"
+  ],
+  "steps": [
+    {
+      "title": "Audit and targets",
+      "text": "We review the account, pixel, past campaigns and margins, then agree the one number the account is run against."
+    },
+    {
+      "title": "Tracking and structure",
+      "text": "Pixel and CAPI are fixed or set up, events verified, and the campaign architecture built for prospecting, retargeting and retention."
+    },
+    {
+      "title": "Creative and offers",
+      "text": "Reels, statics, carousels and copy variations are produced in batches against a testing plan — with a clear offer on every ad."
+    },
+    {
+      "title": "Launch and optimise",
+      "text": "Campaigns go live with daily monitoring in week one, then weekly optimisation of budgets, audiences and creative rotation."
+    },
+    {
+      "title": "Report and scale",
+      "text": "Monthly reporting against the target, lead-quality review with your sales team, and scaling rules for what is working."
+    }
+  ],
+  "deliverables": [
+    "Configured ad account with verified Pixel and Conversions API",
+    "Campaign architecture document and naming conventions",
+    "Monthly creative batches (reels, statics, carousels, copy)",
+    "Lead-quality SOP and lead tracker (Sheets/CRM)",
+    "Weekly optimisation log and monthly performance report"
+  ],
+  "tools": [
+    "Meta Ads Manager",
+    "Meta Business Suite",
+    "Conversions API",
+    "Google Analytics 4",
+    "Google Tag Manager",
+    "WhatsApp Business",
+    "Google Sheets"
+  ],
+  "pricing": "Monthly management retainer scoped to spend and channels; ad spend is paid directly to Meta from your own ad account, with no markup.",
+  "faq": [
+    {
+      "q": "What does a Meta ads agency do?",
+      "a": "A Meta ads agency plans, builds and optimises paid campaigns on Facebook, Instagram, WhatsApp and Messenger. That covers account and tracking setup, audience and campaign structure, creative production and testing, budget management and reporting. gaa-tha runs this as a monthly retainer with the account owned by you."
+    },
+    {
+      "q": "How much should I spend on Meta ads to start?",
+      "a": "Enough to get statistically useful data within two to three weeks — for most Indian SMEs that means a few hundred to a few thousand rupees per day per campaign objective, scaled once cost per result is stable. We size the starting budget from your margin and target cost per lead or purchase rather than a fixed rule."
+    },
+    {
+      "q": "Do you charge a percentage of ad spend?",
+      "a": "No. Our fee is a flat monthly management retainer scoped to the channels and volume of creative. Ad spend is paid directly to Meta from your own ad account, so you always see exactly what was spent."
+    },
+    {
+      "q": "How long before Meta ads show results?",
+      "a": "Lead campaigns usually produce leads within days; the first two to four weeks are for learning which audiences, creatives and offers convert. Stable cost per result and scaling typically follow in the second and third month."
+    },
+    {
+      "q": "How do you handle fake or low-quality leads?",
+      "a": "With a qualification layer: instant-form questions, WhatsApp first-reply templates that ask the buyer to confirm intent, exclusions for non-buying audiences, and a lead tracker that tags junk by ad source so we cut the campaigns generating it."
+    },
+    {
+      "q": "Do you make the ad creatives too?",
+      "a": "Yes. Reels, AI ad shoots, statics, carousels and copy are produced in-house by the same team, so creative testing does not wait on a separate agency."
+    },
+    {
+      "q": "Can you run WhatsApp ads?",
+      "a": "Yes. Click-to-WhatsApp campaigns are one of the strongest formats for Indian retail, real estate and services brands, and we pair them with reply templates and a follow-up SOP so conversations turn into sales."
+    }
+  ],
+  "related": [
+    "google-ads-agency",
+    "social-media-marketing",
+    "b2b-lead-generation",
+    "d2c-performance-marketing"
+  ],
+  "reading": [
+    "blog-how-to-do-better-marketing",
+    "blog-ai-ads-and-ai-ad-shoots-guide",
+    "blog-marketing-strategy-guide"
+  ],
+  "meta": {
+    "title": "Meta Ads Agency in India | gaa-tha",
+    "description": "Facebook and Instagram ads built around your margins — Pixel/CAPI setup, creative testing, WhatsApp and lead-gen campaigns, reported on CPL, CPP and ROAS."
+  },
+  "updated": "2026-09-25"
+}

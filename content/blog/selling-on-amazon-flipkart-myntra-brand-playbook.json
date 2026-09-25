@@ -1,0 +1,94 @@
+{
+  "slug": "selling-on-amazon-flipkart-myntra-brand-playbook",
+  "published": false,
+  "type": "pillar",
+  "category": "Commerce",
+  "title": "Selling on Amazon, Flipkart & Myntra: the brand playbook",
+  "excerpt": "Which marketplace to start with, what onboarding needs, how to build listings that rank, when A+ and ads pay, and how to read a monthly marketplace P&L.",
+  "intro": "Selling on Amazon, Flipkart and Myntra as a brand means registering as a seller, proving you own or are authorised to sell the brand, building listings that rank for the words customers search, and then managing stock, ads, reviews and account health every week. The platforms differ in category strength and in how they treat fashion versus general merchandise. This playbook walks through the decisions in order, so that a brand can launch on the right marketplace and grow without losing its margin.",
+  "takeaways": [
+    "Choose the first marketplace by category fit and existing demand, not by size; Amazon and Flipkart cover general merchandise, Myntra is fashion-first.",
+    "Brand protection (Brand Registry, trademark, authorisation letters) should be in place before the first listing goes live.",
+    "Listings rank on relevance and conversion together: keywords in the right fields, images that answer objections, and reviews that arrive steadily.",
+    "Ads amplify a listing that already converts; they cannot rescue one that does not. Judge the channel on a monthly P&L, not on ROAS alone."
+  ],
+  "sections": [
+    {
+      "h2": "Which marketplace should a brand start with?",
+      "html": "<p>Start where your category is strongest and where you can support the operation. Amazon and Flipkart are broad marketplaces that cover almost every category; Myntra is a fashion and lifestyle destination with its own catalogue standards; Nykaa and AJIO are specialist platforms for beauty and fashion. A brand rarely needs all of them on day one.</p>\n<div class=\"tbl-wrap\"><table>\n<thead><tr><th>Marketplace</th><th>Strength</th><th>Good first choice for</th><th>Watch out for</th></tr></thead>\n<tbody>\n<tr><td>Amazon</td><td>Search-led buying, Brand Registry, A+ content, FBA logistics</td><td>Packaged food, home, electronics accessories, books, personal care, B2B-friendly categories</td><td>Crowded categories; ad costs rise with competition</td></tr>\n<tr><td>Flipkart</td><td>Strong in tier-2 and tier-3 cities, sale events, fashion and electronics</td><td>Value-led products, apparel, home and kitchen, festive-driven categories</td><td>Listing QC is strict; returns in fashion can be high</td></tr>\n<tr><td>Myntra</td><td>Fashion-first audience, curated brand presence, style-based catalogue</td><td>Apparel, footwear, accessories, beauty with a fashion angle</td><td>Approval is selective; image and attribute specs are demanding</td></tr>\n<tr><td>Nykaa / Nykaa Fashion</td><td>Beauty and premium fashion audience</td><td>Skincare, cosmetics, wellness, premium apparel</td><td>Brand curation; expect an eligibility review</td></tr>\n<tr><td>AJIO</td><td>Reliance-backed fashion platform</td><td>Fashion brands broadening reach beyond Myntra</td><td>Similar approval process to other fashion platforms</td></tr>\n<tr><td>Meesho / JioMart</td><td>Value and reseller-led demand; grocery on JioMart</td><td>Low-price, high-volume products</td><td>Thin margins; positioning matters</td></tr>\n</tbody></table></div>\n<p>For most non-fashion brands, Amazon first and Flipkart second is the common path. For fashion, Myntra approval is the prize, with Flipkart as volume support. Our <a href=\"/services/amazon-onboarding\">Amazon onboarding</a>, <a href=\"/services/flipkart-seller-management\">Flipkart</a> and <a href=\"/services/myntra-onboarding\">Myntra onboarding</a> pages list the specific steps for each.</p>"
+    },
+    {
+      "h2": "What does a brand need before it can be onboarded?",
+      "html": "<p>Every marketplace asks for the same core documents, and each adds a few of its own. Get them in one folder before you begin.</p>\n<ul>\n<li><strong>Business identity:</strong> GST registration, PAN, a current-account bank statement or cancelled cheque, and a business address for pickups.</li>\n<li><strong>Brand ownership:</strong> a registered trademark, or a trademark application together with a brand authorisation letter if you are selling someone else's brand. Amazon Brand Registry needs a trademark that is registered or pending.</li>\n<li><strong>Category approvals:</strong> some categories (food, cosmetics, supplements, electronics) require licences such as FSSAI or BIS, and product-level safety or ingredient information.</li>\n<li><strong>Product data:</strong> barcodes (GTIN/EAN) for each SKU, dimensions and weights, HSN codes, MRP and manufacturing details for the label.</li>\n<li><strong>Imagery to spec:</strong> white-background main images at the required resolution, plus lifestyle and infographic images. Fashion platforms specify model shots, angles and backgrounds.</li>\n</ul>\n<p>Timelines vary from a few days for a straightforward Amazon or Flipkart registration to several weeks when category approvals or a Myntra eligibility review are involved.</p>"
+    },
+    {
+      "h2": "How do you build listings that rank and convert?",
+      "html": "<p>A marketplace listing ranks on two things at once: how relevant it looks to the search engine and how well it converts once shown. The two feed each other, which is why a listing with the right keywords and poor images still sinks.</p>\n<ol>\n<li><strong>Keyword research per platform.</strong> Amazon, Flipkart and Myntra searches differ. Pull terms from search suggestions, competitor listings and your own ad search-term reports.</li>\n<li><strong>Title structure.</strong> Brand, product type, key attribute, size or pack, variant. Front-load what customers search; avoid stuffing.</li>\n<li><strong>Bullets and description.</strong> Bullets answer the buying questions in order of importance (what it is, who it is for, what is inside, how to use, why this one). The description carries the story and the secondary keywords.</li>\n<li><strong>Backend keywords and attributes.</strong> Fill every attribute field; filters on Myntra and Flipkart depend on them.</li>\n<li><strong>Image stack.</strong> Main image on white, then infographics for benefits, a size or pack visual, a lifestyle scene, and a comparison or \"what is in the box\" image.</li>\n<li><strong>Price and offers.</strong> Consistent pricing across channels avoids losing the buy box or being flagged.</li>\n</ol>\n<p>This is the work we do under <a href=\"/services/marketplace-listing-optimisation\">listing and catalogue optimisation</a>, with images produced through <a href=\"/services/product-photography-ecommerce\">ecommerce product photography</a>.</p>"
+    },
+    {
+      "h2": "When do A+ content and a Brand Store pay for themselves?",
+      "html": "<p>A+ content (Amazon's enhanced description modules) and a Brand Store add rich imagery, comparison tables and brand storytelling below or alongside the listing. They tend to pay when a product needs explanation, has several variants, or sits in a category where trust matters more than price. A commodity SKU competing on price alone gains less.</p>\n<p>Prioritise A+ for hero SKUs that already get traffic, and use the modules to answer the objections that appear in reviews and customer questions. A Brand Store is worth building once you have a range to cross-sell and are running Sponsored Brands ads that can point to it. Flipkart offers its own rich-content options with similar logic.</p>"
+    },
+    {
+      "h2": "How do marketplace ads work on Amazon and Flipkart?",
+      "html": "<p>Both platforms sell sponsored placements auctioned on cost per click. On Amazon the main formats are Sponsored Products (individual listings in search and on product pages), Sponsored Brands (a headline banner with several products or a store link) and Sponsored Display (retargeting and audience placements). Flipkart's Product Listing Ads and Product Contextual Ads follow the same idea.</p>\n<p>A sensible structure separates brand keywords, category keywords and competitor keywords into their own campaigns, with automatic campaigns used only to discover new search terms. Negative keywords are added weekly. Budgets move toward the SKUs with the best return and the best organic-rank lift, not simply the lowest cost per click. Sale events on Flipkart and festive windows on Amazon deserve their own plans and budgets. We run this under <a href=\"/services/marketplace-ads-management\">marketplace ads management</a>.</p>"
+    },
+    {
+      "h2": "How do you manage inventory, fulfilment and account health?",
+      "html": "<p>Operations decide whether a listing keeps its rank. Marketplaces reward sellers who ship on time, keep stock available and keep cancellations, returns and complaints low.</p>\n<ul>\n<li><strong>Fulfilment model.</strong> Amazon FBA or Flipkart's warehousing services take over storage and delivery for a fee; self-ship keeps control but demands discipline. Many brands use both by SKU.</li>\n<li><strong>Stock planning.</strong> Forecast by SKU and marketplace, with buffers for sale events. A stock-out on a ranking listing can take weeks to recover.</li>\n<li><strong>Account health metrics.</strong> Late shipment rate, order defect rate, cancellation rate and policy compliance. Set alerts and act on them the same day.</li>\n<li><strong>Returns and claims.</strong> File claims for damaged or lost inventory within the window; reconcile settlement reports monthly.</li>\n</ul>\n<p>Our <a href=\"/services/amazon-account-management\">Amazon account management</a> service covers this operational layer alongside listings and ads.</p>"
+    },
+    {
+      "h2": "How do reviews and ratings shape marketplace sales?",
+      "html": "<p>Reviews are both a ranking input and a conversion input. A new listing with no reviews converts poorly regardless of price; a listing with a steady flow of honest reviews earns rank and holds it. The only sustainable approach is policy-compliant: use the platform's own review request tools, include a well-designed package insert that invites feedback without offering incentives, and respond to every negative review with a fix rather than an argument.</p>\n<p>Ratings problems are usually product or packaging problems in disguise. Read the one- and two-star reviews monthly, group them by cause, and fix the cause. We manage this loop under <a href=\"/services/reviews-ratings-management\">reviews and ratings management</a>.</p>"
+    },
+    {
+      "h2": "How do you read the numbers: a monthly marketplace P&L?",
+      "html": "<p>Marketplace dashboards report sales and ad performance, but not profit. A brand should build a simple monthly P&L per marketplace that turns gross sales into contribution.</p>\n<div class=\"tbl-wrap\"><table>\n<thead><tr><th>Line</th><th>Source</th></tr></thead>\n<tbody>\n<tr><td>Gross sales (units × selling price)</td><td>Order reports</td></tr>\n<tr><td>Less returns and cancellations</td><td>Returns reports</td></tr>\n<tr><td>Less marketplace fees (referral, closing, shipping, storage)</td><td>Settlement reports</td></tr>\n<tr><td>Less ad spend</td><td>Ad console</td></tr>\n<tr><td>Less cost of goods and packaging</td><td>Your own costing</td></tr>\n<tr><td>Contribution margin</td><td>What remains; track by SKU where possible</td></tr>\n</tbody></table></div>\n<p>Fee structures differ by category and change over time, so use the platform's current fee calculator rather than a remembered percentage. Once the P&L exists, decisions become simpler: which SKUs get ad budget, which get discounted, which get delisted.</p>"
+    },
+    {
+      "h2": "When should a brand add Myntra, Nykaa or AJIO?",
+      "html": "<p>Fashion and beauty brands should apply to specialist platforms once their catalogue, imagery and sizing data are ready, because those platforms judge brands on presentation before they judge on sales. Approval is selective, and a strong brand story, consistent model photography and complete attribute data improve the odds.</p>\n<p>Once live, the operating rhythm is similar to Amazon and Flipkart, with more emphasis on style-level catalogue accuracy, size charts, seasonal drops and event participation. Growth across several fashion platforms benefits from a shared plan that adapts assortment, pricing and content per platform, which is what our <a href=\"/services/fashion-marketplace-growth\">fashion marketplace growth</a> service does. A concern-led D2C brand such as <a href=\"/work/kitcoz\">Kitcoz</a> illustrates the wider point: the marketplace listing and the brand's own store should tell the same story, so that a shopper who researches on one and buys on the other feels no gap.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need a trademark to sell on Amazon or Flipkart?",
+      "a": "You can register as a seller without one, but brand protection features such as Amazon Brand Registry require a registered or pending trademark. If you sell another company’s brand, you need a brand authorisation letter. We recommend filing the trademark before launch."
+    },
+    {
+      "q": "What is marketplace account management?",
+      "a": "It is the ongoing operation of a brand’s presence on a marketplace: listings, pricing, stock, ads, account health, reviews and monthly reconciliation. The aim is to hold rank, protect margin and grow sales without the brand’s own team watching dashboards every day."
+    },
+    {
+      "q": "How much does it cost to sell on Amazon in India?",
+      "a": "Amazon charges referral fees by category plus closing, shipping and storage fees depending on the fulfilment model, and the rates change periodically. Use the platform’s current fee calculator for your category and build a per-SKU P&L before listing."
+    },
+    {
+      "q": "My listings are live but not selling. What should I check first?",
+      "a": "Check whether the listing shows for the keywords customers use, whether the main image and price are competitive in the search results, and whether reviews and stock are in place. In most cases the fix is a rebuilt listing and a steady review flow before any ad spend."
+    },
+    {
+      "q": "How long does Myntra onboarding take?",
+      "a": "Longer than a general marketplace, because Myntra reviews brand eligibility and catalogue quality before approval. Expect several weeks, with time added for image reshoots or attribute corrections if the first submission falls short of spec."
+    },
+    {
+      "q": "Should I run marketplace ads from day one?",
+      "a": "Run a small brand-keyword and discovery campaign early to gather search-term data, but hold larger budgets until the listing converts on its own. Ads scale a listing that works; they rarely fix one that does not."
+    }
+  ],
+  "relatedServices": [
+    "amazon-onboarding",
+    "amazon-account-management",
+    "flipkart-seller-management",
+    "myntra-onboarding",
+    "marketplace-listing-optimisation",
+    "marketplace-ads-management"
+  ],
+  "relatedCase": "kitcoz",
+  "author": "gaa-tha",
+  "readMinutes": 10,
+  "cover": "cov-c",
+  "mark": "M",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

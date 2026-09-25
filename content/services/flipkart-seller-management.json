@@ -1,0 +1,66 @@
+{
+  "slug": "flipkart-seller-management",
+  "group": "marketplaces",
+  "order": 3,
+  "published": true,
+  "name": "Flipkart Onboarding & Account Management",
+  "shortName": "Flipkart",
+  "promise": "From Seller Hub registration to Big Billion Days — listings, PLA ads, sale events and claims handled.",
+  "intro": "gaa-tha manages Flipkart seller onboarding and account management for Indian brands: Seller Hub registration, catalogue and listing QC, Flipkart Ads (PLA and PCA), Big Billion Days and sale-event participation, pricing and offers, account health, returns and SPF claims, and monthly reporting — so the platform that reaches tier-2 and value-conscious buyers is run properly, not just switched on.",
+  "glance": {
+    "bestFor": "Fashion, home, kitchen, electronics accessories, FMCG and value-led D2C brands",
+    "timeline": "Onboarding in 2–3 weeks; account management monthly",
+    "model": "One-time onboarding fee, then a monthly retainer; ad spend paid directly to Flipkart",
+    "channels": "Flipkart Seller Hub, Flipkart Ads, Flipkart Fulfilment (FBF), Shopsy"
+  },
+  "whatIs": [
+    "Flipkart seller management is the work of registering a brand on Flipkart Seller Hub and then running the account every week: catalogue and listing quality checks, pricing and offers, Flipkart Ads (Product Listing Ads and Product Contextual Ads), participation in sale events such as Big Billion Days and Big Saving Days, account health metrics, returns, and Seller Protection Fund claims for damaged, wrong or missing returns. Flipkart rewards sellers who keep listings clean, prices sharp and service metrics green.",
+    "At gaa-tha Flipkart is run as its own channel with its own economics rather than a copy of the Amazon account. Buyers on Flipkart are more price-led and more likely to come from tier-2 and tier-3 cities, returns behave differently, and the sale-event calendar drives a larger share of the year, so the assortment, pricing ladder and ad plan are built for that."
+  ],
+  "included": [
+    "Seller Hub registration, brand approval and category listing permissions",
+    "Catalogue creation to Flipkart's attribute and image templates, with QC-rejection fixes",
+    "Listing optimisation: titles, key features, descriptions and search-relevant attributes",
+    "Flipkart Ads management — Product Listing Ads (PLA) and Product Contextual Ads (PCA) with weekly optimisation",
+    "Sale-event planning and nominations for Big Billion Days, Big Saving Days and category events",
+    "Pricing, discounts, Flipkart coupons and offer participation against a margin floor",
+    "Fulfilment setup: Flipkart Fulfilment (FBF) or seller-fulfilled, with Flipkart Assured eligibility work",
+    "Account health: cancellation, returns, breach and seller-rating metrics tracked weekly",
+    "Returns handling and Seller Protection Fund (SPF) claims with evidence",
+    "Shopsy cross-listing for price-led SKUs and a monthly performance report"
+  ],
+  "steps": [
+    { "title": "Eligibility and setup", "text": "We confirm GST, bank, brand and category requirements, register the Seller Hub account in your business's name and secure brand and category approvals." },
+    { "title": "Catalogue and QC", "text": "SKUs are built to Flipkart's templates with complete attributes and compliant images, and every QC rejection is fixed until the catalogue is fully live." },
+    { "title": "Pricing and fulfilment", "text": "A pricing ladder is set against fees and return costs, fulfilment is configured through FBF or your own warehouse, and Flipkart Assured eligibility is worked towards." },
+    { "title": "Ads and events", "text": "PLA and PCA campaigns are launched by product and keyword, and sale events are planned months ahead with stock, pricing and ad budgets." },
+    { "title": "Operate and report", "text": "Weekly work on listings, ads, account health, returns and SPF claims, with a monthly report on orders, revenue, ad efficiency, returns and net margin." }
+  ],
+  "deliverables": [
+    "Verified Flipkart Seller Hub account with brand and category approvals",
+    "Fully live catalogue with QC issues cleared",
+    "PLA and PCA campaign structure with a weekly optimisation log",
+    "Sale-event calendar with stock, pricing and ad plans",
+    "Returns and SPF claims tracker",
+    "Monthly performance report by SKU"
+  ],
+  "tools": ["Flipkart Seller Hub", "Flipkart Ads", "Flipkart Fulfilment (FBF)", "Shopsy", "Google Sheets", "Looker Studio"],
+  "pricing": "One-time onboarding fee scoped to SKU count, then a monthly management retainer; Flipkart's commission, fixed, collection and shipping fees and your ad spend are paid directly to Flipkart, and we share the current structure before you begin.",
+  "faq": [
+    { "q": "What documents do I need to sell on Flipkart?", "a": "GST registration, PAN, a current bank account with a cancelled cheque, identity and business address proof, and product details with MRP and HSN. Brand-owned listings usually need a trademark certificate or a brand authorisation letter, and categories like food or cosmetics need their licences. gaa-tha shares the current checklist before you apply." },
+    { "q": "How long does Flipkart onboarding take?", "a": "Registration and verification usually take a few days, and the catalogue takes one to two weeks depending on SKU count and how many QC rounds are needed. Most brands are live within two to three weeks, with the first sale-event nomination planned straight after." },
+    { "q": "What fees does Flipkart charge?", "a": "A commission by category, a fixed fee by order value, a collection fee and shipping fees, plus optional FBF storage and advertising. The rates vary by category and price band and are revised periodically, so we share the current structure and model your net margin per SKU before listing." },
+    { "q": "What is the difference between PLA and PCA on Flipkart Ads?", "a": "Product Listing Ads (PLA) show your products in search results and product pages against keywords or categories and are paid per click; Product Contextual Ads (PCA) are banner placements on Flipkart's pages, better for brand visibility and event pushes. Most brands start with PLA and add PCA around sale events." },
+    { "q": "How do we prepare for Big Billion Days?", "a": "Nominations, pricing and stock are usually locked weeks before the event, so we plan two to three months out: which SKUs go into the event, the discount ladder, FBF inbound dates, ad budgets and creative. During the event, ads and prices are watched daily." },
+    { "q": "How do you handle returns and SPF claims?", "a": "Returns are checked against reasons and images, and every wrong, damaged or missing return that qualifies is filed as a Seller Protection Fund claim with the evidence Flipkart asks for within the deadline. A claims tracker shows what was filed, approved and paid." },
+    { "q": "Is Flipkart Assured worth it?", "a": "Usually, yes: the badge signals quality and reliable delivery, and buyers filter for it. Eligibility depends on fulfilment through FBF or meeting service metrics, packaging standards and quality checks, so we work towards it as part of onboarding." },
+    { "q": "Should I also list on Shopsy?", "a": "If your SKUs work at low ticket sizes, yes — Shopsy is Flipkart's price-led app and listings can be extended from the same Seller Hub account. We select SKUs where the margin still holds after Shopsy's fee structure and returns." }
+  ],
+  "related": ["amazon-onboarding", "marketplace-ads-management", "meesho-jiomart-onboarding", "d2c-performance-marketing"],
+  "reading": ["blog-seo-aeo-geo-guide", "blog-how-to-do-better-marketing", "blog-marketing-strategy-guide"],
+  "meta": {
+    "title": "Flipkart Seller Management Agency in India | gaa-tha",
+    "description": "Flipkart onboarding and management: Seller Hub registration, catalogue QC, PLA and PCA ads, Big Billion Days planning, account health and SPF claims."
+  },
+  "updated": "2026-09-25"
+}

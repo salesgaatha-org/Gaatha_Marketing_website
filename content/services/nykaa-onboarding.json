@@ -1,0 +1,65 @@
+{
+  "slug": "nykaa-onboarding",
+  "group": "marketplaces",
+  "order": 5,
+  "published": true,
+  "name": "Nykaa & Nykaa Fashion Onboarding",
+  "shortName": "Nykaa",
+  "promise": "Beauty on Nykaa, fashion on Nykaa Fashion — approvals, compliant catalogues and campaign calendars.",
+  "intro": "gaa-tha manages Nykaa and Nykaa Fashion onboarding for beauty, personal care, wellness and fashion brands: eligibility review, brand and product-compliance documentation, registration, an ingredient- and claim-checked catalogue for Nykaa or a style-level catalogue for Nykaa Fashion, images to each platform's specs, ad placements and an event calendar built around Pink Friday and Hot Pink Sale.",
+  "glance": {
+    "bestFor": "Skincare, haircare, makeup, fragrance, wellness and premium fashion brands with compliance in order",
+    "timeline": "Approval 3–8 weeks; catalogue and go-live 2–4 weeks after approval",
+    "model": "One-time onboarding fee; optional monthly management retainer",
+    "channels": "Nykaa, Nykaa Fashion, Nykaa Luxe, Nykaa's ad placements, Pink Friday and Hot Pink sales"
+  },
+  "whatIs": [
+    "Nykaa onboarding is the process of getting a beauty or personal-care brand approved and live on Nykaa, and a fashion brand on Nykaa Fashion, India's leading beauty-led marketplaces: passing brand curation, proving product compliance with manufacturing licences, ingredient lists, shelf life and label requirements, agreeing a commercial model, and building a catalogue that explains ingredients, benefits and usage the way Nykaa's shoppers read it. Nykaa is a curated, brand-led platform, so a compliance-ready pitch matters more than a fast upload.",
+    "At gaa-tha we run the two platforms as two different jobs. Nykaa buyers research ingredients, shade and skin type and trust expert-style content, so the beauty catalogue is built around claims that can be substantiated and images that show the product, its label and its texture. Nykaa Fashion buyers shop premium and occasion-led styles, so that catalogue follows fashion attributes and portrait model imagery. Both get an event calendar and ad plan built for Nykaa's audience."
+  ],
+  "included": [
+    "Eligibility review: brand positioning, price band, category fit and compliance readiness for Nykaa or Nykaa Fashion",
+    "Compliance file: cosmetics manufacturing licence, ingredient (INCI) lists, shelf life, batch and expiry, legal metrology label checks and claim substantiation",
+    "Brand pitch and registration, with the commercial model on offer explained before you sign",
+    "Nykaa catalogue: product type, concern, skin or hair type, key ingredients, benefits, how to use, shade or variant mapping and size or volume",
+    "Nykaa Fashion catalogue: style-level listings with fit, fabric, occasion, care and size charts",
+    "Imagery to spec: square white-background product shots, back-label shots, texture or swatch images and shade charts for Nykaa; portrait model imagery for Nykaa Fashion",
+    "Pricing and offer ladder for regular periods and Nykaa's sale events",
+    "Ad placements: sponsored product listings, category banners and sampling with orders, planned with Nykaa's ad team",
+    "Event calendar and nominations for Pink Friday Sale, Hot Pink Sale and category campaigns, plus ongoing management"
+  ],
+  "steps": [
+    { "title": "Eligibility and compliance", "text": "We review positioning, pricing and category fit, then assemble the compliance file — licences, ingredient lists, shelf life, labels and claims — so the application does not stall on paperwork." },
+    { "title": "Pitch and registration", "text": "A short brand deck and registration go to the relevant Nykaa or Nykaa Fashion category team, and the commercial model and agreement are walked through with you before signature." },
+    { "title": "Catalogue and imagery", "text": "Beauty SKUs are written around ingredients, concerns and usage with shade and variant mapping; fashion styles are built with full attributes and size charts. Images are shot or QC'd to each platform's specification." },
+    { "title": "Pricing, ads and events", "text": "An offer ladder is set for regular and event periods, ad placements and sampling are planned for hero SKUs, and the first Pink Friday or Hot Pink Sale nomination is scheduled." },
+    { "title": "Go-live and management", "text": "Listings go live after QC, and the account moves to a monthly rhythm: stock, orders, ratings and reviews, new launches, campaign participation and a sell-through review by SKU." }
+  ],
+  "deliverables": [
+    "Eligibility report and compliance file ready for submission",
+    "Registered account and completed agreements on Nykaa or Nykaa Fashion",
+    "Approved catalogue with ingredient, claim and attribute data and QC-passed images",
+    "Offer ladder for regular and event periods",
+    "Ad placement and sampling plan with an event calendar for the season",
+    "Monthly review of sell-through, ratings and campaign results"
+  ],
+  "tools": ["Nykaa seller tools", "Nykaa Fashion seller tools", "Nykaa ad placements", "Adobe Photoshop", "Google Sheets", "Looker Studio"],
+  "pricing": "One-time onboarding fee scoped to SKU count, compliance work and imagery, then an optional monthly management retainer; Nykaa's margins, marketing contributions and logistics charges vary by category and model and are shared with you before you sign.",
+  "faq": [
+    { "q": "Can any beauty brand sell on Nykaa?", "a": "No. Nykaa curates its brands and expects a clear positioning, a sensible price band, and full product compliance before it lists you. gaa-tha runs an eligibility review first and tells you what to fix — usually labels, claims or ingredient documentation — before the application goes in." },
+    { "q": "What documents does Nykaa ask for?", "a": "Typically a trademark certificate or authorisation letter, GST, PAN and bank details, a cosmetics manufacturing licence or importer registration, ingredient lists, shelf-life and batch details, product images including the back label, and proof for any claims such as dermatologically tested. Nykaa Fashion asks for brand and business documents and size charts instead of product compliance. We share the current checklist at the start." },
+    { "q": "How long does Nykaa onboarding take?", "a": "Approval by a category team typically takes three to eight weeks because compliance is checked, and the catalogue and image QC take another two to four weeks. Nykaa Fashion is usually quicker. We time applications so you are live before Pink Friday or a Hot Pink Sale rather than during one." },
+    { "q": "What does Nykaa charge sellers?", "a": "Nykaa works on margins or commissions by category, with logistics charges and sometimes marketing contributions, and the structure depends on the commercial model you are offered. The numbers vary and change, so we do not publish them; we walk you through the current terms and model your margin per SKU before you sign." },
+    { "q": "What are Nykaa's image requirements?", "a": "For beauty: square, white-background product images with the product filling most of the frame, a legible back-label image, texture or swatch shots, and shade charts for colour cosmetics; no text overlays or watermarks. For Nykaa Fashion: portrait model imagery with front, back and detail views on a plain background. We shoot or retouch to these specs so listings pass QC." },
+    { "q": "What is the difference between Nykaa and Nykaa Fashion for a brand?", "a": "Nykaa is the beauty, personal-care and wellness platform; Nykaa Fashion is a separate curated fashion and lifestyle platform with its own category teams, catalogue templates, image standards and events. A brand with both beauty and fashion lines is onboarded on each separately, and we manage them as two accounts with one plan." },
+    { "q": "Which Nykaa sale events matter?", "a": "The Pink Friday Sale around the Black Friday period and the Hot Pink Sale are the biggest, alongside category campaigns and festive events. Nominations, stock and offers are locked in advance, so we plan the calendar a season ahead and prepare content for each campaign." },
+    { "q": "Do you also handle Nykaa reviews and ratings?", "a": "Yes, as part of ongoing management: replies to reviews and questions, monitoring of shade and skin-type complaints that signal a listing problem, and product fixes when the same feedback repeats. We work within Nykaa's policies and never buy or incentivise reviews." }
+  ],
+  "related": ["myntra-onboarding", "ajio-onboarding", "marketplace-listing-optimisation", "product-photography-ecommerce"],
+  "reading": ["blog-branding-vs-marketing", "blog-ai-ads-and-ai-ad-shoots-guide", "blog-marketing-strategy-guide"],
+  "meta": {
+    "title": "Nykaa Onboarding Agency in India | gaa-tha",
+    "description": "Nykaa and Nykaa Fashion onboarding for beauty and fashion brands: eligibility, compliance, ingredient-led catalogue, image specs, ads and sale calendars."
+  },
+  "updated": "2026-09-25"
+}

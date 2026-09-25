@@ -1,0 +1,65 @@
+{
+  "slug": "shopify-store-management",
+  "group": "ecommerce",
+  "order": 4,
+  "published": true,
+  "name": "Shopify Store Management & Maintenance",
+  "shortName": "Store management",
+  "promise": "We run your store so you can run your business — uploads, pricing, banners, apps and fixes every month.",
+  "intro": "gaa-tha runs Shopify store management and maintenance for Indian D2C brands on a monthly retainer: product uploads and bulk MRP changes, collection and banner updates, app audits, bug fixes, speed checks, festive-season setup and a monthly store health report, so the store stays current and fast without your team having to learn Shopify.",
+  "glance": {
+    "bestFor": "D2C brands with a live Shopify store and no in-house developer",
+    "timeline": "Onboarding in the first week, then monthly",
+    "model": "Monthly retainer scoped to catalogue size and change volume",
+    "channels": "Shopify, Shopify apps, Razorpay, GoKwik, Shiprocket, WhatsApp"
+  },
+  "whatIs": [
+    "Shopify store management is the ongoing operation of a live store: adding and updating products, changing prices and MRPs, refreshing collections and banners, keeping apps and the theme working, fixing bugs, watching speed and preparing the store for sales and festivals. It is the difference between a store that was launched once and a store that is looked after.",
+    "gaa-tha takes this on as a monthly retainer with a named store manager, a shared task board and an agreed turnaround time for routine changes. Because design, copy, photography and performance marketing sit in the same team, a new launch or a Diwali sale is set up end to end — product pages, banners, offers, tracking — rather than being passed between vendors."
+  ],
+  "included": [
+    "Product uploads and edits: new SKUs, variants, images, descriptions and tags",
+    "Bulk price and MRP changes, compare-at pricing and discount setup",
+    "Collection, navigation, homepage and banner updates on a monthly calendar",
+    "Quarterly app audit: remove unused apps, review charges, fix conflicts",
+    "Bug fixes and theme tweaks with a tracked turnaround time",
+    "Monthly speed and Core Web Vitals check with fixes",
+    "Festive and sale-season setup: offers, landing pages, countdowns, gift options",
+    "Checkout, payment, shipping and COD rule changes as your policies evolve",
+    "Tracking checks so Pixel, CAPI and GA4 keep reporting purchases correctly",
+    "Monthly store health report: orders, conversion, speed, errors and tasks completed"
+  ],
+  "steps": [
+    { "title": "Store audit and onboarding", "text": "We review the theme, apps, tracking, speed and catalogue quality, fix urgent issues and agree the monthly scope and turnaround times." },
+    { "title": "Shared task board", "text": "Every request — new product, price change, banner, bug — goes on a shared board with an owner and a due date, so nothing lives only in WhatsApp chats." },
+    { "title": "Monthly content calendar", "text": "Homepage, collections and banners are planned a month ahead around launches, festivals and sale events, with creative made in-house." },
+    { "title": "Maintain and protect", "text": "Apps, theme updates, speed and tracking are checked on a schedule, and fixes are made before customers notice." },
+    { "title": "Report and improve", "text": "A monthly health report covers what changed, what broke, conversion trends and the recommendations for next month." }
+  ],
+  "deliverables": [
+    "Shared task board with agreed turnaround times",
+    "Monthly homepage, collection and banner refresh",
+    "Updated catalogue with clean product data and pricing",
+    "Quarterly app and charges audit",
+    "Monthly store health report with speed and tracking checks",
+    "Festive and sale-season store setup"
+  ],
+  "tools": ["Shopify", "Shopify Flow", "Matrixify", "Google Analytics 4", "Google Search Console", "PageSpeed Insights", "Notion", "WhatsApp Business"],
+  "pricing": "Monthly retainer scoped to catalogue size, the volume of changes and whether design and copy are included; Shopify subscription and app charges are paid by you to the providers.",
+  "faq": [
+    { "q": "What does Shopify store management include?", "a": "Product and price updates, collection and banner changes, app management, bug fixes, speed checks, festive-season setup, tracking checks and a monthly health report. It is everything a store needs after launch that would otherwise wait for a developer. gaa-tha runs it as a monthly retainer with a named store manager." },
+    { "q": "How quickly are changes made?", "a": "Routine changes such as a price update, a new banner or a product upload are typically turned around within one to two working days, and urgent fixes on the same day. Larger changes such as a new landing page or a custom section are scheduled on the shared board with a date." },
+    { "q": "Can you handle bulk price or MRP changes?", "a": "Yes. Bulk changes are done through a spreadsheet import with a backup taken first, checked against a sample of products, and scheduled for a time when traffic is low. Compare-at prices, discount codes and automatic discounts are updated together so the store never shows a mismatched offer." },
+    { "q": "Do you set up Diwali and other festive sales?", "a": "Yes. Offer structure, sale collections, homepage takeover banners, countdowns, gift options, free-shipping thresholds and a checkout stress check are set up ahead of the event and rolled back afterwards. Ads and creative for the sale can be run by the same team." },
+    { "q": "Will you audit the apps I already have?", "a": "Yes, at onboarding and then quarterly. Unused and overlapping apps are the most common cause of slow stores and rising monthly bills, so we list every app, its charge and its purpose, remove what is redundant and replace what is slowing pages." },
+    { "q": "Do we still own the store and all accounts?", "a": "Yes. The store, domain, payment gateway, apps and ad accounts stay in your name. We work through staff accounts with the permissions needed, and everything we build is documented so you can change agencies or bring it in-house." },
+    { "q": "Can you also manage our marketplace and quick-commerce listings?", "a": "Yes. Many brands ask us to keep the Shopify store, Amazon and Flipkart listings and Blinkit or Zepto catalogues consistent — same images, same prices, same launches — and we run those as one operation with one monthly review." }
+  ],
+  "related": ["shopify-development", "conversion-rate-optimisation", "ecommerce-seo", "amazon-account-management"],
+  "reading": ["blog-how-to-do-better-marketing", "blog-marketing-strategy-guide"],
+  "meta": {
+    "title": "Shopify Store Management in India | gaa-tha",
+    "description": "Monthly Shopify store management for D2C brands — product uploads, bulk MRP changes, banners, app audits, bug fixes, speed checks and festive setup."
+  },
+  "updated": "2026-09-25"
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "quick-commerce-agency",
+  "group": "quick-commerce",
+  "order": 1,
+  "published": true,
+  "name": "Quick Commerce Management",
+  "shortName": "Quick commerce",
+  "promise": "Blinkit, Zepto, Instamart, Flipkart Minutes, Amazon Now and BigBasket — run as one operation.",
+  "intro": "gaa-tha is a quick commerce agency in India that gets brands listed and selling on Blinkit, Zepto, Swiggy Instamart, Flipkart Minutes, Amazon Now and BigBasket — platform and city prioritisation, margin and pack-size planning, onboarding, catalogue and thumbnails, dark-store availability, purchase-order coordination, quick-commerce ads and ratings, run as one monthly operation with one report.",
+  "glance": {
+    "bestFor": "FMCG, food and beverage, beauty and personal care, baby and pet care, home and kitchen brands",
+    "timeline": "Onboarding in 3–6 weeks per platform, then monthly management",
+    "model": "One-time onboarding fee plus monthly management retainer; ad spend paid directly to each platform",
+    "channels": "Blinkit, Zepto, Swiggy Instamart, Flipkart Minutes, Amazon Now, BigBasket and BB Now"
+  },
+  "whatIs": [
+    "Quick commerce management is the end-to-end operation of a brand's presence on 10-minute delivery platforms: choosing which platforms and cities to enter, planning pack sizes and margins so the listing is profitable, completing onboarding, building the catalogue, keeping products in stock across dark stores, coordinating purchase orders, running ads and promotions, and reconciling what the platform pays. It is closer to running a distribution business than to running a marketplace listing.",
+    "At gaa-tha one team owns all six platforms for a brand. We start with a platform-by-city map of where your category sells, fix the pack sizes and price points before onboarding, and then run availability, purchase orders, content, ads and ratings on a weekly rhythm with a single monthly review across Blinkit, Zepto, Instamart, Flipkart Minutes, Amazon Now and BigBasket."
+  ],
+  "included": [
+    "Platform and city prioritisation based on category demand, competition and your distribution reach",
+    "Margin, pack-size and price-point planning so each SKU works after platform margins and promotions",
+    "Onboarding and documentation on every platform you choose, including category licences",
+    "Catalogue build: titles with pack size, thumbnails, secondary images, attributes and descriptions",
+    "Dark-store availability and fill-rate tracking by city, with weekly out-of-stock alerts",
+    "Purchase-order and replenishment coordination with your warehouse or distributor",
+    "Quick-commerce ads on Blinkit, Zepto and Instamart planned to a target ROAS",
+    "Promotions and visibility events aligned to festivals and platform sale days",
+    "Ratings and customer-feedback monitoring with product and packaging fixes fed back to you",
+    "Monthly review covering sales, availability, ads, promotions and settlement reconciliation"
+  ],
+  "steps": [
+    { "title": "Map and prioritise", "text": "We map your SKUs and target cities against each platform's category strength, then agree an entry order — usually two platforms first, not six." },
+    { "title": "Fix the economics", "text": "Pack sizes, MRP, platform margin, promotional depth and logistics cost are modelled per SKU so nothing goes live at a loss." },
+    { "title": "Onboard and list", "text": "Documents, brand approvals, category licences, catalogue and images are completed platform by platform, with the first purchase order as the finish line." },
+    { "title": "Run the operation", "text": "Weekly availability checks, PO follow-ups, content fixes, ad optimisation and promotion planning across every live platform." },
+    { "title": "Review and expand", "text": "A monthly review with sales, fill rate, ad ROAS and reconciliation, then a decision on new cities, SKUs or platforms." }
+  ],
+  "deliverables": [
+    "Platform-by-city entry plan with recommended launch order",
+    "SKU economics sheet (pack size, MRP, margin, promo depth, landed cost)",
+    "Live, approved catalogues on each chosen platform",
+    "Weekly availability and fill-rate tracker by city and dark store",
+    "Purchase-order log with dispatch and receipt status",
+    "Monthly quick-commerce review report and reconciliation summary"
+  ],
+  "tools": ["Blinkit Seller Hub", "Zepto Brand Portal", "Instamart Seller Hub", "Flipkart Seller Hub", "Amazon Seller Central", "BigBasket Vendor Portal", "Google Sheets", "WhatsApp Business"],
+  "pricing": "A one-time onboarding fee per platform plus a monthly management retainer scoped to platforms, cities and SKU count; ad spend and platform charges are paid by you directly.",
+  "faq": [
+    { "q": "What does a quick commerce agency do?", "a": "A quick commerce agency gets a brand listed on 10-minute delivery platforms and then runs the account: catalogue and images, city and dark-store availability, purchase orders and replenishment, promotions and ads, ratings and monthly reporting. gaa-tha does this for Blinkit, Zepto, Swiggy Instamart, Flipkart Minutes, Amazon Now and BigBasket from one team." },
+    { "q": "What is quick commerce and which platforms matter in India?", "a": "Quick commerce is delivery of groceries, FMCG, beauty and everyday items in roughly 10–30 minutes from local dark stores. In India the platforms that matter are Blinkit, Zepto, Swiggy Instamart, Flipkart Minutes, Amazon Now and BigBasket with BB Now. Each has different category strengths and city coverage, which is why we plan by platform and city rather than treating them as one channel." },
+    { "q": "Which quick commerce platform should I launch on first?", "a": "Start where your category and target cities overlap best. Blinkit and Zepto lead in metro grocery and FMCG, Swiggy Instamart adds strong snack and impulse demand, Flipkart Minutes and Amazon Now bring their marketplace shoppers, and BigBasket suits staples and larger packs. We map your SKUs and cities against each platform before recommending an order." },
+    { "q": "Do I need to be on all six platforms?", "a": "No. Most brands do better launching on two platforms, proving availability and sell-through in a few cities, and then expanding. Each platform adds purchase orders, stock commitments and ad budget, so spreading thin before the operation is stable usually costs more than it earns." },
+    { "q": "How do you keep products in stock on quick commerce?", "a": "By tracking availability at dark-store level every week, forecasting from sell-through so purchase orders are raised before stock runs out, and chasing dispatch and receipt on every PO. Out-of-stock on quick commerce means losing the search rank and the shelf, so availability is the first number we manage." },
+    { "q": "Are there fees to get listed on quick commerce platforms?", "a": "Platforms work on margins, listing or onboarding charges and sometimes marketing contributions, and these vary by category and change over time. We share the current structure for your category before you sign anything, and plan pack sizes and pricing so the margin works after those charges." },
+    { "q": "Can you manage D2C, marketplaces and quick commerce together?", "a": "Yes. The same team runs Shopify stores, Amazon and Flipkart accounts and quick commerce, with one content library and one monthly review. That keeps pricing, pack sizes and creative consistent across channels and stops one channel undercutting another." },
+    { "q": "How do you price quick commerce management?", "a": "A one-time onboarding fee per platform and a monthly management retainer that scales with platforms, cities and SKUs. Ad spend and any platform charges are paid by you directly to the platform, so there is no markup on media." }
+  ],
+  "related": ["blinkit-onboarding", "quick-commerce-ads", "quick-commerce-content", "amazon-account-management"],
+  "reading": ["blog-marketing-strategy-guide", "blog-how-to-do-better-marketing", "blog-best-digital-marketing-agency-india"],
+  "meta": {
+    "title": "Quick Commerce Agency in India | gaa-tha",
+    "description": "Onboarding, catalogue, dark-store availability, purchase orders, ads and ratings on Blinkit, Zepto, Instamart, Flipkart Minutes, Amazon Now and BigBasket."
+  },
+  "updated": "2026-09-25"
+}

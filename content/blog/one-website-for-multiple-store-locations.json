@@ -1,0 +1,64 @@
+{
+  "slug": "one-website-for-multiple-store-locations",
+  "published": false,
+  "type": "cluster",
+  "category": "Commerce",
+  "title": "One website for multiple store locations: how it works",
+  "excerpt": "How a chain, franchise or local-delivery brand runs one Shopify website that routes each order to the right outlet, with outlet-level availability control.",
+  "intro": "One website can serve multiple store locations by asking the customer for a location or pincode, assigning the order to the nearest outlet, and notifying that outlet instantly, usually by WhatsApp. Each outlet controls its own availability, while pricing and branding stay unified. This is how sweet shops, snack chains, bakeries, pharmacies and franchise brands sell online without building a separate site per store.",
+  "takeaways": [
+    "Location or pincode capture is the first step in the customer journey.",
+    "Order routing sends each order to one outlet with an instant notification.",
+    "Outlets toggle availability; the brand controls pricing and design.",
+    "Prepaid or COD rules can differ by outlet and order value."
+  ],
+  "sections": [
+    {
+      "h2": "Why not build a separate site for every store?",
+      "html": "<p>Separate sites split the brand, the SEO authority and the maintenance effort, and customers do not know which one to use. A single site with location logic keeps one brand and one catalogue while letting each outlet fulfil its own orders. It is also easier to market: one URL on every banner, one Google Business Profile link per store pointing to the same site with the location preselected.</p>"
+    },
+    {
+      "h2": "How does location-based routing work?",
+      "html": "<ol>\n<li>The customer enters a pincode or picks a location, or the site suggests one from the browser.</li>\n<li>The site maps the pincode to an outlet using a serviceable-area table.</li>\n<li>The catalogue shows what that outlet has switched on.</li>\n<li>At checkout, the order is tagged to the outlet and a WhatsApp or email notification goes to the outlet team.</li>\n<li>The outlet confirms, prepares and delivers or hands over for pickup.</li>\n</ol>\n<p>This is the core of our <a href=\"/services/multi-location-shopify-local-delivery\">multi-location and local-delivery Shopify builds</a>.</p>"
+    },
+    {
+      "h2": "What controls do outlets and head office need?",
+      "html": "<p>Outlets need a simple availability toggle per product, order notifications, and a way to mark orders as ready or delivered. Head office needs unified pricing, design and catalogue, reporting by outlet, and rules for prepaid-only or COD by outlet and by order value. Perishable categories often run prepaid-only for larger orders and allow COD for small local ones.</p>\n<p>Keep the outlet interface as light as possible; store staff will not use a complicated dashboard during a festive rush.</p>"
+    },
+    {
+      "h2": "What else should the build include?",
+      "html": "<p>Pickup and delivery slot selection, delivery charges by distance or zone, per-outlet Google Business Profile links with the location preselected, and tracking so that marketing can be measured per outlet. Festive gifting, corporate orders and combos usually deserve their own pages. Each outlet should also have its own <a href=\"/services/local-seo-google-business-profile\">Google Business Profile</a> pointing to the site, so \"near me\" searches land on the right store. A sweets and gifting retailer with more than one city, such as <a href=\"/work/cds-stores\">CDS Stores</a>, is the typical use case; <a href=\"/services/shopify-development\">Shopify development</a> and <a href=\"/services/business-tools-automation\">custom tools</a> cover the build and the routing logic.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can Shopify handle multiple store locations?",
+      "a": "Yes. Shopify supports multiple inventory locations, and with custom development it can capture the customer’s location, route orders to the right outlet and notify that outlet automatically."
+    },
+    {
+      "q": "Can each outlet have different prices?",
+      "a": "It is possible, but most brands keep unified pricing to avoid confusion and to protect the brand. Availability and delivery charges are the usual per-outlet differences."
+    },
+    {
+      "q": "How do outlets receive orders?",
+      "a": "Typically by WhatsApp or email notification with the order details, plus a simple order list they can update. The aim is that store staff act on an order within minutes without training."
+    },
+    {
+      "q": "Does this work for franchises with separate owners?",
+      "a": "Yes. Orders are tagged to the franchise outlet, reporting is split by outlet, and settlement can follow the brand’s franchise agreement. The brand keeps control of design, catalogue and pricing."
+    }
+  ],
+  "relatedServices": [
+    "multi-location-shopify-local-delivery",
+    "shopify-development",
+    "local-seo-google-business-profile",
+    "business-tools-automation"
+  ],
+  "relatedCase": "cds-stores",
+  "author": "gaa-tha",
+  "readMinutes": 4,
+  "cover": "cov-e",
+  "mark": "ML",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

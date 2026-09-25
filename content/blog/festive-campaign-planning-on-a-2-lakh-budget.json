@@ -1,0 +1,65 @@
+{
+  "slug": "festive-campaign-planning-on-a-2-lakh-budget",
+  "published": false,
+  "type": "cluster",
+  "category": "Commerce",
+  "title": "Festive campaign planning on a ₹2 lakh budget",
+  "excerpt": "How a local retailer plans a Diwali or festive campaign on about ₹2 lakh: one message, a budget split across outdoor, influencers and Meta, and a timeline.",
+  "intro": "A festive campaign on a ₹2 lakh budget works when it has one message, one key visual and a deliberate split across a few channels that reinforce each other, typically outdoor near the store, local influencer collaborations, Meta ads and, where it fits, a short cinema or in-store film. The plan runs for five to six weeks around the festival with measurement set up before the first banner goes up.",
+  "takeaways": [
+    "One idea, one key visual, adapted to every channel.",
+    "Split the budget across outdoor, influencers and Meta; add cinema where the city and product fit.",
+    "Start four to six weeks before the festival and plan the last two weeks hardest.",
+    "Set the baseline and the measures before launch."
+  ],
+  "sections": [
+    {
+      "h2": "What can ₹2 lakh realistically cover?",
+      "html": "<p>Enough for a focused local campaign: creative production, a set of outdoor placements near the store and on the routes customers use, a batch of influencer collaborations, a Meta ads budget for the festive window, and the planning and reporting to hold it together. It is not enough for a city-wide media blitz, so every rupee should point at the same message and the same catchment.</p>\n<p>Costs for outdoor sites, influencers and media vary by city and season and change every year, so treat the split below as a starting shape rather than a price list.</p>"
+    },
+    {
+      "h2": "How should the budget be split?",
+      "html": "<div class=\"tbl-wrap\"><table>\n<thead><tr><th>Line</th><th>Indicative share</th><th>What it buys</th></tr></thead>\n<tbody>\n<tr><td>Creative and production</td><td>Around 15–20%</td><td>Key visual, category banners, reel templates, a short film if included</td></tr>\n<tr><td>Outdoor</td><td>Around 25–35%</td><td>Store-front, auto-rickshaw panels, bus or local hoardings on customer routes</td></tr>\n<tr><td>Influencers</td><td>Around 20–30%</td><td>A set of collaboration reels and page collaborations with local creators</td></tr>\n<tr><td>Meta ads</td><td>Around 20–30%</td><td>Festive campaigns to the catchment, retargeting, WhatsApp click-to-chat for bulk orders</td></tr>\n<tr><td>Cinema or in-store screens</td><td>Optional</td><td>Where a screen sits in the catchment and the product suits it</td></tr>\n</tbody></table></div>\n<p>The shares move with the business: a store with heavy walk-in traffic leans outdoor; a brand selling gifting online leans Meta.</p>"
+    },
+    {
+      "h2": "What does the timeline look like?",
+      "html": "<ol>\n<li><strong>Six weeks out:</strong> idea, key visual, category banners, media plan, influencer shortlist, measurement baseline.</li>\n<li><strong>Four weeks out:</strong> outdoor goes up, influencer briefs sent, Meta campaigns built and tested.</li>\n<li><strong>Three to one weeks out:</strong> influencer content publishes in waves; Meta budget rises; corporate and bulk gifting outreach.</li>\n<li><strong>Festival week:</strong> peak spend, in-store activation, daily monitoring.</li>\n<li><strong>After:</strong> report footfall, sales versus last season, offer redemption, reach and cost per result.</li>\n</ol>\n<p>This is the structure of the Diwali campaign planned for <a href=\"/work/cds-stores\">CDS Stores</a>, a sweets and gifting retailer in Vapi and Valsad, on a ₹2 lakh budget across outdoor, influencer collaborations, Meta ads and a short cinema film. The results are reported once the campaign closes.</p>"
+    },
+    {
+      "h2": "How do you keep the campaign coherent?",
+      "html": "<p>Use the same key visual and colour coding per category on every surface, so a customer who sees an auto-rickshaw panel recognises the reel and the ad. Brief influencers on the message, not just the product. Point every channel at one action: visit, call or order. <a href=\"/services/campaign-planning\">Campaign planning</a>, <a href=\"/services/graphic-design\">graphic design</a>, <a href=\"/services/influencer-ugc-marketing\">influencer marketing</a> and <a href=\"/services/meta-ads-agency\">Meta ads</a> are run as one plan for this reason.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is ₹2 lakh enough for a Diwali campaign?",
+      "a": "For a local retailer or brand in one or two towns, yes, if the campaign is focused on one message, one catchment and a few reinforcing channels. It is not enough for a broad multi-city campaign."
+    },
+    {
+      "q": "When should festive campaign planning start?",
+      "a": "Five to six weeks before the festival for a local campaign, and earlier if outdoor sites or cinema slots need booking. The last two weeks carry the most spend."
+    },
+    {
+      "q": "Should I spend on outdoor or on Meta ads?",
+      "a": "Usually both. Outdoor builds recall in the catchment; Meta targets the same people with an offer and a way to act. The split depends on whether sales happen in store or online."
+    },
+    {
+      "q": "How do I measure a festive campaign?",
+      "a": "Compare footfall and sales with the same period last year, track offer redemption, reach and cost per result, and count bulk or corporate orders. Set the baseline before launch."
+    }
+  ],
+  "relatedServices": [
+    "campaign-planning",
+    "graphic-design",
+    "influencer-ugc-marketing",
+    "meta-ads-agency",
+    "cinema-ads-film-production"
+  ],
+  "relatedCase": "cds-stores",
+  "author": "gaa-tha",
+  "readMinutes": 4,
+  "cover": "cov-e",
+  "mark": "Fe",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "marketplace-vs-d2c-for-fmcg",
+  "published": false,
+  "type": "cluster",
+  "category": "Commerce",
+  "title": "Marketplace vs D2C for FMCG brands: which channel first?",
+  "excerpt": "How an FMCG brand should weigh Amazon, Flipkart and quick commerce against its own D2C store, and how to give each channel a role instead of choosing one.",
+  "intro": "For most FMCG brands the answer is not marketplace or D2C but marketplace and D2C with different jobs. Marketplaces and quick commerce bring reach, trust and impulse purchase for hero SKUs; a D2C store carries the full range, bundles, gifting and the customer relationship, at a better margin per order. The sequence depends on where demand already exists and on how much margin each channel can carry.",
+  "takeaways": [
+    "Marketplaces buy reach; D2C builds margin and relationship.",
+    "FMCG unit economics often favour marketplaces for single packs and D2C for bundles and gifting.",
+    "Give each channel a role and keep pricing consistent across them.",
+    "Sequence by existing demand, not by fashion."
+  ],
+  "sections": [
+    {
+      "h2": "What does each channel do well for an FMCG brand?",
+      "html": "<div class=\"tbl-wrap\"><table>\n<thead><tr><th>Channel</th><th>Strength</th><th>Cost of that strength</th></tr></thead>\n<tbody>\n<tr><td>Amazon and Flipkart</td><td>Search demand, trust, logistics, national reach</td><td>Fees, ad competition, no customer relationship</td></tr>\n<tr><td>Quick commerce</td><td>Impulse and top-up purchase, city-level velocity</td><td>Margin pressure, availability operations, limited SKUs</td></tr>\n<tr><td>D2C store</td><td>Full range, bundles, gifting, margin, customer data</td><td>You buy the traffic; conversion is your problem</td></tr>\n</tbody></table></div>\n<p>Few FMCG brands sell single low-value packs profitably on their own store; few sell gift hampers profitably on quick commerce. The channel plan follows the product.</p>"
+    },
+    {
+      "h2": "How do the economics compare?",
+      "html": "<p>On a marketplace, the brand pays referral and fulfilment fees plus ads, but does not pay for the traffic that the platform already has. On D2C, the brand keeps the margin the platform would have taken but pays to acquire every visitor and to convert them. Quick commerce sits between: platform terms are significant, but velocity can be high in dense cities.</p>\n<p>Work out contribution per order for each channel using current fee structures, which vary and change. For low-value single packs the marketplace often wins; for bundles and gifting at a higher order value, D2C often wins. Our guide on ROAS versus MER versus contribution margin sets out the arithmetic.</p>"
+    },
+    {
+      "h2": "Which should an FMCG brand launch first?",
+      "html": "<p>If the brand already sells in retail and people search for it, Amazon first captures that demand cheaply. If the brand is new and needs to be explained, a D2C store plus Meta ads builds the story, with Amazon added once reviews exist. Quick commerce follows in the cities where demand has been proven through either route. A regional brand with a wide range, like <a href=\"/work/charliee\">Charliee</a>, uses the D2C store for the full catalogue and corporate gifting, with hero packs on other channels.</p>"
+    },
+    {
+      "h2": "How do you run all three without them fighting?",
+      "html": "<p>Keep pricing consistent, so no channel undercuts another. Give the store exclusives: bundles, larger packs, gifting, launches. Reuse keyword research and imagery across channels so the brand looks the same everywhere. Report on one blended view of revenue, marketing cost and contribution. <a href=\"/services/d2c-brand-launch\">D2C brand launch</a>, <a href=\"/services/amazon-onboarding\">Amazon onboarding</a> and <a href=\"/services/quick-commerce-agency\">quick commerce management</a> are designed to run as one plan.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is D2C worth it for a low-price FMCG product?",
+      "a": "Rarely for single packs, because acquisition and shipping costs exceed the margin. D2C works for FMCG when the order value is raised through bundles, multipacks, subscriptions or gifting."
+    },
+    {
+      "q": "Will selling on Amazon hurt my D2C store?",
+      "a": "Not if pricing is consistent and the store offers something the marketplace does not, such as bundles, exclusives or gifting. Many customers discover on Amazon and later buy direct."
+    },
+    {
+      "q": "Should an FMCG brand be on quick commerce before marketplaces?",
+      "a": "Usually after, because quick-commerce platforms favour brands with proven demand and because availability operations are demanding. Brands with strong city-level retail presence are the exception."
+    },
+    {
+      "q": "How do I keep pricing consistent across channels?",
+      "a": "Set one MRP and one everyday selling price policy, plan promotions per channel for defined windows, and check listings weekly. Platforms and customers both notice discrepancies."
+    }
+  ],
+  "relatedServices": [
+    "d2c-brand-launch",
+    "amazon-onboarding",
+    "quick-commerce-agency",
+    "shopify-development"
+  ],
+  "relatedCase": "charliee",
+  "author": "gaa-tha",
+  "readMinutes": 4,
+  "cover": "cov-b",
+  "mark": "F",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

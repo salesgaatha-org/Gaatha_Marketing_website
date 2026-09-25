@@ -1,0 +1,72 @@
+{
+  "slug": "amazon-listing-optimisation-checklist",
+  "published": false,
+  "type": "cluster",
+  "category": "Commerce",
+  "title": "Amazon listing optimisation checklist for Indian brands",
+  "excerpt": "A working checklist for Amazon India listings: keywords, title, bullets, backend terms, image stack, A+ content, pricing and reviews, in the order to fix them.",
+  "intro": "An optimised Amazon listing has the right keywords in the title, bullets and backend fields, an image stack that answers buying questions, complete attributes so it appears in filters, a competitive price, and a steady flow of reviews. Relevance gets the listing shown; conversion keeps it ranked. This checklist covers both in the order that produces results fastest.",
+  "takeaways": [
+    "Research keywords per platform; Amazon search terms differ from Google.",
+    "Front-load the title, use bullets to answer objections, fill every attribute.",
+    "Images do most of the selling on mobile; build a deliberate stack.",
+    "Reviews and price decide conversion, and conversion decides rank."
+  ],
+  "sections": [
+    {
+      "h2": "What keyword research does an Amazon listing need?",
+      "html": "<p>Collect terms from Amazon’s search suggestions, competitor listings, your own sponsored ads search-term reports and customer questions. Group them into primary terms (what the product is), attribute terms (size, material, flavour, use) and long-tail phrases. Assign primary terms to the title, attribute terms to bullets and long-tail phrases to the description and backend keywords.</p>"
+    },
+    {
+      "h2": "How should the title, bullets and backend fields be written?",
+      "html": "<p>Title: brand, product type, key attribute, size or pack, variant, within the category’s character limit and without repetition. Bullets: five statements, each answering a buying question in order of importance, with the benefit first and the feature second. Description: the story and secondary keywords, in short paragraphs. Backend keywords: terms not already in the visible copy, without brand names you do not own.</p>\n<p>Fill every attribute the category offers; filters on Amazon depend on them and an empty field can hide the listing from a filtered search. <a href=\"/services/content-writing-copywriting\">Copywriting</a> for large catalogues follows this structure SKU by SKU.</p>"
+    },
+    {
+      "h2": "What should the image stack contain?",
+      "html": "<ol>\n<li>Main image on pure white, product filling the frame, to Amazon’s specification.</li>\n<li>Benefit infographic: the three reasons to buy, in large text.</li>\n<li>Size, quantity or pack visual with a reference for scale.</li>\n<li>Lifestyle image showing the product in use.</li>\n<li>Comparison or variant chart.</li>\n<li>What is in the box, ingredients or specifications.</li>\n<li>Short video where the category allows it.</li>\n</ol>\n<p>We produce these under <a href=\"/services/product-photography-ecommerce\">ecommerce product photography</a>, with AI-assisted imagery for large ranges.</p>"
+    },
+    {
+      "h2": "When should you add A+ content and a Brand Store?",
+      "html": "<p>After the listing has traffic and reviews. A+ modules help products that need explanation or that compete on trust rather than price; a Brand Store is worth building once there is a range to cross-sell. Both require Brand Registry. Our separate guide on when A+ content pays covers the decision.</p>"
+    },
+    {
+      "h2": "How do price and reviews complete the listing?",
+      "html": "<p>A listing that is priced above comparable products in the search results will lose the click regardless of copy. Keep pricing consistent with your own store and with other marketplaces. For reviews, use Amazon’s own request tools and a compliant package insert, respond to negative reviews with a fix, and read one- and two-star reviews monthly for product and packaging issues.</p>\n<p>Run through this checklist for every hero SKU before spending on ads. The full service is described under <a href=\"/services/marketplace-listing-optimisation\">listing and catalogue optimisation</a> and <a href=\"/services/amazon-account-management\">Amazon account management</a>. A D2C brand that migrated its Amazon catalogue to Shopify, such as <a href=\"/work/kitcoz\">Kitcoz</a>, would keep both listings telling the same story.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many keywords should an Amazon title contain?",
+      "a": "Enough to state what the product is and its key attribute, size and variant, within the category limit. Repetition does not help; the title should read naturally to a shopper."
+    },
+    {
+      "q": "Do backend keywords still matter on Amazon?",
+      "a": "Yes. They capture terms that do not fit the visible copy, such as synonyms and regional spellings. Do not repeat words already in the title or bullets, and do not include competitor brand names."
+    },
+    {
+      "q": "How often should I update an Amazon listing?",
+      "a": "Review hero listings quarterly and after any change in search-term data, reviews or competition. Avoid frequent small edits that trigger re-indexing without a clear reason."
+    },
+    {
+      "q": "Why is my listing not showing in filtered searches?",
+      "a": "Usually because attribute fields are empty or inconsistent. Fill every attribute the category offers with accurate values so the listing qualifies for filters."
+    },
+    {
+      "q": "Should I fix the listing before running Sponsored Products?",
+      "a": "Yes. Ads amplify conversion; a listing that does not convert wastes the clicks and lowers the account’s efficiency. Complete the checklist first, then advertise."
+    }
+  ],
+  "relatedServices": [
+    "marketplace-listing-optimisation",
+    "amazon-account-management",
+    "product-photography-ecommerce",
+    "content-writing-copywriting"
+  ],
+  "relatedCase": "kitcoz",
+  "author": "gaa-tha",
+  "readMinutes": 5,
+  "cover": "cov-c",
+  "mark": "Am",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

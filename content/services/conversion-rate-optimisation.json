@@ -1,0 +1,63 @@
+{
+  "slug": "conversion-rate-optimisation",
+  "group": "ecommerce",
+  "order": 5,
+  "published": true,
+  "name": "Conversion Rate Optimisation (CRO)",
+  "shortName": "CRO",
+  "promise": "More orders from the traffic you already pay for — fixes on product, cart and checkout, proven by tests.",
+  "intro": "Conversion rate optimisation (CRO) at gaa-tha turns more of your existing store visitors into buyers: a funnel and analytics audit, heatmaps and session recordings, fixes to product pages, cart and checkout, trust elements, offer and bundle design, and A/B tests that prove what moved the number before you spend more on ads.",
+  "glance": {
+    "bestFor": "Shopify and WooCommerce stores with steady traffic and a conversion rate that has plateaued",
+    "timeline": "Audit in 2 weeks, then a 3-month test cycle",
+    "model": "Fixed-fee audit, then a monthly optimisation retainer",
+    "channels": "Shopify, WooCommerce, Google Analytics 4, Microsoft Clarity, Hotjar"
+  },
+  "whatIs": [
+    "Conversion rate optimisation (CRO) is the practice of increasing the share of website visitors who complete a purchase, by finding where they hesitate or leave and fixing it with evidence. It uses analytics, heatmaps, session recordings and customer feedback to diagnose problems, then tests changes to product pages, cart, checkout, offers and trust signals to see which actually lift orders.",
+    "For Indian D2C stores the usual leaks are predictable: slow mobile pages, product pages that answer none of the buyer's questions, no clarity on size or ingredients, missing COD and delivery information, a cart with no reason to add more and a checkout with too many steps. gaa-tha fixes the obvious problems first, then runs A/B tests on the changes that carry risk, so every improvement is measured rather than assumed."
+  ],
+  "included": [
+    "Funnel and analytics audit: GA4 events, drop-off by step, device and traffic source",
+    "Heatmaps, scroll maps and session recordings on product, cart and checkout pages",
+    "Product page fixes: above-the-fold clarity, image order, variant selectors, FAQs, delivery and COD information",
+    "Cart and checkout fixes: drawer cart, free-shipping progress bar, coupon logic, guest checkout, fewer fields",
+    "Trust elements: reviews, badges, return policy, WhatsApp support and founder story where it helps",
+    "Offer and bundle design: combos, kits, subscriptions and first-order incentives",
+    "A/B and split tests with a hypothesis, sample size and decision rule for each",
+    "Site speed and mobile usability fixes that affect conversion",
+    "Monthly CRO report: conversion rate by device and source, test results and next hypotheses"
+  ],
+  "steps": [
+    { "title": "Measure", "text": "We verify tracking, map the funnel from landing to purchase and find the steps and devices where visitors leave." },
+    { "title": "Diagnose", "text": "Heatmaps, recordings, customer-support chats and reviews explain why people leave at those steps." },
+    { "title": "Fix the obvious", "text": "Broken, slow or confusing elements are fixed straight away without a test, because the evidence is already clear." },
+    { "title": "Test the rest", "text": "Riskier changes — offers, layouts, pricing presentation — run as A/B tests with a hypothesis and a decision rule." },
+    { "title": "Report and repeat", "text": "Monthly results by device and source, winning changes made permanent, and the next set of hypotheses agreed." }
+  ],
+  "deliverables": [
+    "CRO audit report with prioritised fixes and expected impact",
+    "Implemented product, cart and checkout improvements",
+    "Test plan with hypotheses, results and decisions",
+    "Offer and bundle structure for the store",
+    "Monthly conversion report by device and traffic source"
+  ],
+  "tools": ["Google Analytics 4", "Microsoft Clarity", "Hotjar", "Shopify", "Google Tag Manager", "PageSpeed Insights", "Judge.me"],
+  "pricing": "A fixed-fee audit to start, then a monthly optimisation retainer scoped to the number of tests and the design and development time each month; tool subscriptions are paid by you to the providers.",
+  "faq": [
+    { "q": "What is a good ecommerce conversion rate in India?", "a": "It depends on category, price point and traffic source, so any single benchmark is misleading; stores selling low-ticket consumables convert far better than furniture or jewellery, and returning visitors convert several times better than cold ad traffic. The useful comparison is your own rate by device and source, month on month. gaa-tha sets a baseline in the audit and reports against it." },
+    { "q": "How long before CRO shows results?", "a": "The audit takes about two weeks and the first fixes usually go live in the same month. Tests need enough orders to reach a decision, which for most Indian D2C stores means two to six weeks per test, so a meaningful programme runs for at least three months." },
+    { "q": "Do I need a lot of traffic for A/B testing?", "a": "For tests, yes — a few hundred orders a month is a practical minimum to reach decisions in reasonable time. Below that, we rely on analytics, recordings and best-practice fixes rather than split tests, and measure before-and-after conversion instead." },
+    { "q": "What are the most common conversion problems on Indian D2C stores?", "a": "Slow mobile pages, product pages that leave buyer questions unanswered, unclear delivery time and COD availability, missing reviews, no reason to add a second item to the cart, and long checkouts. Most stores have three or four of these, and fixing them comes before any testing." },
+    { "q": "Should I fix conversion before spending more on ads?", "a": "Usually, yes. Every improvement in conversion rate lowers cost per purchase across all channels at once, so a store that converts poorly wastes ad budget. We often run CRO and performance marketing together so that landing pages and ads are improved as one system." },
+    { "q": "Do you change the design of my store?", "a": "Only where the evidence says to. CRO works within your brand and theme — reordering information, adding trust elements, simplifying steps — and is not a redesign. When a full redesign is the right answer, we say so and scope it separately." },
+    { "q": "Which tools do you use for CRO?", "a": "GA4 for the funnel, Microsoft Clarity or Hotjar for heatmaps and recordings, Shopify or WooCommerce features and testing apps for experiments, and review platforms such as Judge.me for social proof. All are set up in your own accounts." }
+  ],
+  "related": ["shopify-development", "d2c-performance-marketing", "shopify-store-management", "google-ads-agency"],
+  "reading": ["blog-how-to-do-better-marketing", "blog-marketing-strategy-guide"],
+  "meta": {
+    "title": "Conversion Rate Optimisation Agency in India | gaa-tha",
+    "description": "CRO for Shopify and WooCommerce stores — funnel audit, heatmaps and recordings, product, cart and checkout fixes, offers and A/B tests that lift orders."
+  },
+  "updated": "2026-09-25"
+}

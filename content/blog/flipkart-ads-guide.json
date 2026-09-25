@@ -1,0 +1,64 @@
+{
+  "slug": "flipkart-ads-guide",
+  "published": false,
+  "type": "cluster",
+  "category": "Commerce",
+  "title": "Flipkart ads guide: PLA, PCA and sale-event planning",
+  "excerpt": "How Flipkart’s sponsored formats work, how to structure campaigns around keywords and products, how to prepare for sale events, and how to judge results.",
+  "intro": "Flipkart ads are sponsored placements bought through Flipkart’s advertising platform: Product Listing Ads (PLA) that promote individual listings in search and browse results on a cost-per-click basis, and Product Contextual Ads (PCA) that place banner-style creative in contextual slots. They work best on listings that already convert, and they need separate plans and budgets for Flipkart’s sale events, when traffic and competition both rise.",
+  "takeaways": [
+    "PLA promotes listings in search; PCA places banner creative in context.",
+    "Structure by intent: brand, category and competitor terms in separate campaigns.",
+    "Sale events need their own budgets, stock and creative.",
+    "Judge on return per SKU and on organic rank after paid activity."
+  ],
+  "sections": [
+    {
+      "h2": "What ad formats does Flipkart offer?",
+      "html": "<div class=\"tbl-wrap\"><table>\n<thead><tr><th>Format</th><th>How it works</th><th>Best for</th></tr></thead>\n<tbody>\n<tr><td>Product Listing Ads (PLA)</td><td>Sponsored listings in search and browse, cost per click</td><td>Everyday demand capture on hero SKUs</td></tr>\n<tr><td>Product Contextual Ads (PCA)</td><td>Banner creative in contextual placements, cost per impression or click</td><td>Launches, ranges, sale-event visibility</td></tr>\n<tr><td>Other placements</td><td>Brand and event-linked options that change over time</td><td>Check current availability with the platform</td></tr>\n</tbody></table></div>\n<p>Formats and buying models change periodically; the principles below hold.</p>"
+    },
+    {
+      "h2": "How should Flipkart campaigns be structured?",
+      "html": "<p>Separate campaigns for brand keywords, category keywords and competitor terms, so bids and budgets can differ. Group SKUs by margin so that ad spend is capped where margins are thin. Use automatic targeting only to discover new search terms, then move the winners into manual campaigns and add negatives weekly.</p>\n<p>Listing quality comes first: Flipkart’s catalogue QC is strict, and a listing with weak images or incomplete attributes will convert poorly whatever the bid. <a href=\"/services/marketplace-listing-optimisation\">Listing optimisation</a> precedes ads in our process.</p>"
+    },
+    {
+      "h2": "How do you plan for Flipkart sale events?",
+      "html": "<p>Flipkart’s sale events concentrate demand into a few days. Prepare weeks ahead: confirm event participation and pricing with the category team, secure stock in Flipkart’s warehousing where used, build event creative for PCA, and set higher daily budgets for the event window with a plan to taper afterwards. Expect higher cost per click during the event and judge it on total contribution over the window, not on daily ROAS.</p>"
+    },
+    {
+      "h2": "How do you measure Flipkart ads properly?",
+      "html": "<p>Track return on ad spend per SKU, cost per click trend, and the share of sales from ads versus organic. Watch organic rank and sales for the two weeks after a paid push; the aim is for paid velocity to lift organic placement. Fold ad spend into a monthly marketplace P&L alongside fees and returns, so decisions reflect profit rather than platform metrics. <a href=\"/services/marketplace-ads-management\">Marketplace ads management</a> and <a href=\"/services/flipkart-seller-management\">Flipkart seller management</a> cover this end to end. A value-led fashion or home brand growing on Flipkart, or a D2C brand like <a href=\"/work/kitcoz\">Kitcoz</a> adding marketplaces to its store, would apply the same rules.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the difference between PLA and PCA on Flipkart?",
+      "a": "PLA promotes individual listings in search and browse results on a cost-per-click basis. PCA places banner creative in contextual slots for range or launch visibility. Most brands run PLA always-on and PCA around events."
+    },
+    {
+      "q": "How much should I budget for Flipkart ads?",
+      "a": "Start with a small daily budget on brand and close category terms and scale on per-SKU return. Costs are auction-based and vary by category and season, rising during sale events."
+    },
+    {
+      "q": "Do Flipkart ads work for new listings with no reviews?",
+      "a": "They can generate initial traffic, but conversion is usually low without reviews and strong images. Fix the listing and gather early reviews before increasing spend."
+    },
+    {
+      "q": "Should I participate in every Flipkart sale event?",
+      "a": "No. Participate where the event fits your category and the required pricing still leaves a positive contribution. Plan stock and creative in advance for the events you choose."
+    }
+  ],
+  "relatedServices": [
+    "marketplace-ads-management",
+    "flipkart-seller-management",
+    "marketplace-listing-optimisation",
+    "reviews-ratings-management"
+  ],
+  "relatedCase": "kitcoz",
+  "author": "gaa-tha",
+  "readMinutes": 4,
+  "cover": "cov-e",
+  "mark": "Fk",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

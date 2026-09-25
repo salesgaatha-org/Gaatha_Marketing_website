@@ -1,10 +1,161 @@
 # Netlify configuration — gaa-tha
 # Static site served straight from the repository root (index.html at root).
-# No build step is required.
+# Generated pages (services/, work/, blog/, sitemap.xml, llms.txt) are
+# committed, so no build step is required here; `node build/build.js`
+# regenerates them locally or in the GitHub Actions deploy workflow.
 
 [build]
   publish = "."
   command = ""
+
+# ---- Clean URLs -------------------------------------------------------------
+# Canonical URLs are extensionless. Netlify serves /foo from foo.html
+# natively; these rules 301 the old .html addresses and make sure /work,
+# /blog and /services resolve to the page even though a folder of the same
+# name now holds the case studies, posts and service pages.
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/work.html"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/blog.html"
+  to = "/blog"
+  status = 301
+
+[[redirects]]
+  from = "/faq.html"
+  to = "/faq"
+  status = 301
+
+[[redirects]]
+  from = "/about.html"
+  to = "/about"
+  status = 301
+
+[[redirects]]
+  from = "/reels.html"
+  to = "/reels"
+  status = 301
+
+[[redirects]]
+  from = "/websites.html"
+  to = "/websites"
+  status = 301
+
+[[redirects]]
+  from = "/branding.html"
+  to = "/branding"
+  status = 301
+
+[[redirects]]
+  from = "/blog-what-is-marketing.html"
+  to = "/blog-what-is-marketing"
+  status = 301
+
+[[redirects]]
+  from = "/blog-how-to-do-better-marketing.html"
+  to = "/blog-how-to-do-better-marketing"
+  status = 301
+
+[[redirects]]
+  from = "/blog-what-is-graphic-design.html"
+  to = "/blog-what-is-graphic-design"
+  status = 301
+
+[[redirects]]
+  from = "/blog-marketing-strategy-guide.html"
+  to = "/blog-marketing-strategy-guide"
+  status = 301
+
+[[redirects]]
+  from = "/blog-best-digital-marketing-agency-india.html"
+  to = "/blog-best-digital-marketing-agency-india"
+  status = 301
+
+[[redirects]]
+  from = "/blog-ai-ads-and-ai-ad-shoots-guide.html"
+  to = "/blog-ai-ads-and-ai-ad-shoots-guide"
+  status = 301
+
+[[redirects]]
+  from = "/blog-seo-aeo-geo-guide.html"
+  to = "/blog-seo-aeo-geo-guide"
+  status = 301
+
+[[redirects]]
+  from = "/blog-instagram-reels-strategy.html"
+  to = "/blog-instagram-reels-strategy"
+  status = 301
+
+[[redirects]]
+  from = "/blog-branding-vs-marketing.html"
+  to = "/blog-branding-vs-marketing"
+  status = 301
+
+# Hub pages whose name is also a folder.
+[[redirects]]
+  from = "/work"
+  to = "/work.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog"
+  to = "/blog.html"
+  status = 200
+
+[[redirects]]
+  from = "/services"
+  to = "/services.html"
+  status = 200
+
+[[redirects]]
+  from = "/services.html"
+  to = "/services"
+  status = 301
+
+# Trailing-slash variants of the hubs collapse onto the canonical URL.
+[[redirects]]
+  from = "/work/"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/blog/"
+  to = "/blog"
+  status = 301
+
+[[redirects]]
+  from = "/services/"
+  to = "/services"
+  status = 301
+
+# Generated pages: /services/<slug>, /work/<slug>, /blog/<slug>.
+[[redirects]]
+  from = "/services/:slug"
+  to = "/services/:slug.html"
+  status = 200
+
+[[redirects]]
+  from = "/work/:slug"
+  to = "/work/:slug.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/:slug"
+  to = "/blog/:slug.html"
+  status = 200
+
+# Admin lives at /admin (login) — the panels are noindex and blocked in robots.
+[[redirects]]
+  from = "/admin"
+  to = "/admin/index.html"
+  status = 200
 
 # ---- Security headers (site-wide) ----
 [[headers]]
@@ -14,6 +165,17 @@
     X-Frame-Options = "SAMEORIGIN"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# Admin pages must never be indexed, whatever the HTML says.
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/content-admin.html"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
 
 # ---- Caching: long-lived for static media, revalidated for code ----
 # Images/video in /assets rarely change.
@@ -39,3 +201,15 @@
   for = "/*.js"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/llms.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/llms-full.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=3600"

@@ -1,0 +1,64 @@
+{
+  "slug": "multi-location-shopify-local-delivery",
+  "group": "ecommerce",
+  "order": 2,
+  "published": true,
+  "name": "Multi-location Shopify & Local Delivery",
+  "shortName": "Multi-location Shopify",
+  "promise": "One website for a chain of stores or franchises — the customer picks a location, the right outlet gets the order instantly.",
+  "intro": "gaa-tha builds multi-location Shopify stores for retail chains, franchises and local-delivery brands in India: one website where the customer enters a pincode or picks an outlet, and the order is routed to that store with a WhatsApp notification, outlet-level availability toggles, unified pricing and prepaid or COD rules set per location.",
+  "glance": {
+    "bestFor": "Retail chains, franchises, sweet and snack shops, bakeries, pharmacies and local-delivery brands",
+    "timeline": "3–6 weeks for the first set of outlets",
+    "model": "Project build; optional retainer to add outlets and maintain",
+    "channels": "Shopify, Shopify Locations, WhatsApp Business, pincode and local-delivery apps"
+  },
+  "whatIs": [
+    "A multi-location Shopify store is a single ecommerce website that serves several physical outlets: the customer enters a pincode or chooses a store, the site shows what that outlet has in stock and can deliver, and the order is sent to that outlet to fulfil. It replaces the alternatives of one website per branch, or one central warehouse shipping everything by courier, for businesses whose products are made or held locally.",
+    "gaa-tha builds these for chains that sell fresh or heavy goods — sweets, snacks, bakery, dairy, pharmacy, groceries — and for franchise networks that want one brand storefront with outlet-level control. Each outlet gets its own WhatsApp order alerts, its own availability switches and its own delivery rules, while the brand keeps one catalogue, one price list and one set of reports."
+  ],
+  "included": [
+    "Location or pincode-based store assignment with a serviceability check before checkout",
+    "Order routing logic to the assigned outlet using Shopify Locations and fulfilment rules",
+    "WhatsApp order notifications to each outlet, with order details and a confirmation step",
+    "Outlet-level availability toggles so a store can switch products off when they run out",
+    "Prepaid-only or COD rules per outlet, per pincode or per order value",
+    "Unified pricing and promotions across outlets, with optional outlet-specific offers",
+    "Local delivery, pick-up and slot options with delivery charges by distance or zone",
+    "Outlet dashboard and staff roles so each store sees only its own orders",
+    "Reporting by outlet: orders, revenue, cancellations and delivery times"
+  ],
+  "steps": [
+    { "title": "Map the network", "text": "We list every outlet, its pincodes or delivery radius, opening hours, product range and who takes the order, then define the routing rules." },
+    { "title": "Design the location flow", "text": "The pincode or store-picker experience is designed so a customer knows within seconds which outlet will serve them and what it can deliver." },
+    { "title": "Build routing and notifications", "text": "Shopify Locations, fulfilment rules, WhatsApp alerts, availability toggles and prepaid or COD rules are built and tested outlet by outlet." },
+    { "title": "Train the outlets", "text": "Store staff get a short guide and a walkthrough for confirming, packing and closing orders, plus a rule for what to do when a product runs out." },
+    { "title": "Launch and expand", "text": "The site goes live with a pilot set of outlets, edge cases are fixed in the first two weeks, and new outlets are added from a template." }
+  ],
+  "deliverables": [
+    "Live Shopify store with pincode or outlet selection and routing rules",
+    "Outlet-wise WhatsApp notification setup and confirmation flow",
+    "Availability, pricing and payment rules configured per outlet",
+    "Outlet onboarding template for adding new stores or franchisees",
+    "Staff guide and recorded walkthrough for outlet teams",
+    "Outlet-level reporting view"
+  ],
+  "tools": ["Shopify", "Shopify Locations", "Shopify Flow", "WhatsApp Business API", "Razorpay", "Google Maps Platform", "Google Sheets"],
+  "pricing": "Project fee scoped to the number of outlets, routing complexity and integrations, with an optional monthly retainer to add outlets, tune rules and maintain the store. Shopify, WhatsApp API and app charges are paid by you to the providers.",
+  "faq": [
+    { "q": "Can one website serve multiple store locations or franchises?", "a": "Yes. A multi-location Shopify build lets a customer enter a pincode or pick an outlet, and routes the order to that store with its own notification, stock availability and payment rules. The brand keeps one domain, one catalogue and one set of reports. gaa-tha builds and maintains these for chains and franchise networks across India." },
+    { "q": "How does the order reach the right outlet?", "a": "The customer's pincode or chosen store is matched to an outlet during checkout, the order is assigned to that Shopify location, and a WhatsApp message with the order details goes to the outlet's number. Staff confirm from their phone or the outlet dashboard, and the customer receives the usual order and dispatch updates." },
+    { "q": "What happens if an outlet runs out of a product?", "a": "Outlet staff switch the product off for their location from a simple toggle, and it stops showing as available to customers in that outlet's pincodes while staying live elsewhere. Rules can also fall back to a nearby outlet or to central dispatch if you prefer." },
+    { "q": "Can each outlet have its own prices and offers?", "a": "The default is unified pricing across the brand, which most chains want for trust and simplicity. Outlet-specific offers, delivery charges and minimum order values can be added where a franchise agreement or local competition needs them." },
+    { "q": "Can we restrict COD to certain locations?", "a": "Yes. Prepaid-only or COD rules can be set per outlet, per pincode or per order value, which is useful for new outlets, far-away pincodes and high-value orders where returns to origin hurt." },
+    { "q": "How long does a multi-location store take to build?", "a": "Three to six weeks for the first set of outlets, depending on how many locations there are, whether the catalogue differs by outlet and which delivery and payment rules you need. Once the template exists, adding a new outlet usually takes days rather than weeks." },
+    { "q": "Does this work for franchises where each outlet is a separate business?", "a": "Yes. Each franchisee can receive and fulfil only their own orders, see only their own reports and settle with the brand on whatever terms you agree, while the customer sees one brand and one checkout. We document the roles and the settlement view before building." }
+  ],
+  "related": ["shopify-development", "shopify-store-management", "conversion-rate-optimisation", "local-seo-google-business-profile"],
+  "reading": ["blog-how-to-do-better-marketing", "blog-marketing-strategy-guide"],
+  "meta": {
+    "title": "Multi-location Shopify Stores in India | gaa-tha",
+    "description": "One Shopify website for a chain of stores or franchises — pincode-based outlet routing, WhatsApp order alerts, outlet availability toggles and COD rules."
+  },
+  "updated": "2026-09-25"
+}

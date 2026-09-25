@@ -1,0 +1,65 @@
+{
+  "slug": "blinkit-onboarding",
+  "group": "quick-commerce",
+  "order": 2,
+  "published": true,
+  "name": "Blinkit Seller Onboarding",
+  "shortName": "Blinkit onboarding",
+  "promise": "From documents to your first Blinkit purchase order, without the back-and-forth.",
+  "intro": "gaa-tha handles Blinkit seller onboarding for brands in India: registration on the Blinkit seller and brand portals, GST, FSSAI and brand documentation, category approvals, catalogue and thumbnails built to Blinkit's specifications, city and dark-store mapping, and a go-live checklist that ends with your first purchase order rather than a pending application.",
+  "glance": {
+    "bestFor": "FMCG, snacks and beverages, beauty, baby care, pet care, home and kitchen brands entering Delhi NCR, Mumbai, Bengaluru and other metros",
+    "timeline": "3–6 weeks from complete documents to first purchase order, depending on category",
+    "model": "One-time onboarding fee; optional monthly Blinkit account management after go-live",
+    "channels": "Blinkit app and website across its dark-store network"
+  },
+  "whatIs": [
+    "Blinkit seller onboarding is the process of getting a brand approved, listed and stocked on Blinkit, the 10-minute delivery platform owned by Eternal (formerly Zomato). It covers business and brand documentation, category and licence checks, commercial terms, catalogue creation to Blinkit's image and attribute standards, and the first purchase order that puts stock into Blinkit's dark stores. Blinkit is inventory-led for most brands, so onboarding is as much a supply arrangement as a listing.",
+    "gaa-tha runs the whole sequence for you. We prepare the document pack, present the range and pack sizes in the way Blinkit's category team expects, build the catalogue and thumbnails, map which cities and dark stores to stock first, and stay on the application until the first PO is raised and received. Blinkit's strongest markets are Delhi NCR, Mumbai, Bengaluru, Hyderabad, Pune and Kolkata, with a growing tier-2 footprint, so we plan the launch cities from where your category already sells."
+  ],
+  "included": [
+    "Eligibility review of your category, pack sizes and margins against Blinkit's current requirements",
+    "Document pack: GST, PAN, bank proof, brand ownership or authorisation letter, FSSAI and other category licences",
+    "Registration on Blinkit's seller and brand portals and follow-up with the category team",
+    "Commercial terms review — margins, listing charges and marketing contributions explained before you sign",
+    "Catalogue creation: titles with pack size, thumbnails, secondary images, attributes and descriptions",
+    "City and dark-store mapping for the launch, matched to your distribution and warehouse locations",
+    "First purchase order coordination: quantities, packaging and labelling, dispatch and receipt",
+    "Go-live checklist covering live listings, search visibility, pricing and initial availability",
+    "Handover to monthly Blinkit account management, or a self-management SOP if you prefer"
+  ],
+  "steps": [
+    { "title": "Eligibility and economics", "text": "We check your category, licences, shelf life and pack sizes against Blinkit's requirements and model the margin per SKU before applying." },
+    { "title": "Documents and registration", "text": "The document pack is assembled and verified, the seller and brand registration submitted, and every query from Blinkit's team answered by us." },
+    { "title": "Catalogue and content", "text": "Titles, thumbnails, secondary images and attributes are built to Blinkit's specifications so listings pass QC the first time." },
+    { "title": "Cities, stores and first PO", "text": "Launch cities and dark stores are agreed, the first purchase order is raised and we coordinate packaging, labelling and dispatch to Blinkit's warehouse." },
+    { "title": "Go-live and handover", "text": "Listings are checked live in every launch city, availability is verified, and the account moves into monthly management or your own team's hands." }
+  ],
+  "deliverables": [
+    "Blinkit-ready document checklist with every item verified",
+    "Approved seller and brand registration on Blinkit",
+    "Live catalogue with thumbnails and attributes for every launch SKU",
+    "City and dark-store launch map",
+    "First purchase order tracked from raise to receipt",
+    "Go-live report and account-management SOP"
+  ],
+  "tools": ["Blinkit Seller Hub", "Blinkit Ads", "Google Sheets", "WhatsApp Business", "Adobe Photoshop", "AI image tools"],
+  "pricing": "One-time onboarding fee scoped to SKU count and categories; platform margins and charges are paid by you to Blinkit directly and shared in writing before you sign.",
+  "faq": [
+    { "q": "What documents do I need to sell on Blinkit?", "a": "Typically GST registration, PAN, a cancelled cheque or bank proof, brand ownership proof such as a trademark certificate or a brand authorisation letter, FSSAI licence for food and beverages, and any other category licence such as cosmetics or drug licences where relevant. Blinkit may also ask for product data, MRP labels and pack images. Requirements change, so we share a current checklist before you apply." },
+    { "q": "How long does Blinkit onboarding take?", "a": "Usually 3–6 weeks from a complete document pack to the first purchase order. Registration and category approval take the first one to two weeks, catalogue build and QC another one to two, and the first PO and dispatch the rest. Missing licences or incomplete product data are the most common causes of delay." },
+    { "q": "Are there fees to get listed on Blinkit?", "a": "Blinkit works on margins and may charge listing, onboarding or marketing contributions that vary by category and change over time. We do not quote fixed figures because they differ brand to brand; we obtain the current structure for your category and walk you through it before you commit." },
+    { "q": "Which categories does Blinkit accept?", "a": "Grocery and staples, snacks and beverages, dairy and fresh, personal care and beauty, baby and pet care, home and kitchen, health and wellness, stationery, electronics accessories and seasonal or festive ranges. Each category has its own licence and shelf-life requirements, and some are invite-only or capacity-limited by city." },
+    { "q": "How does the Blinkit dark-store model work for a brand?", "a": "Blinkit raises purchase orders, receives stock at its warehouses and distributes it to dark stores across a city, so every store carries only a curated range. A brand needs to be reliable on supply and packaging, and to earn its place on the shelf with sell-through. We plan quantities city by city so the first PO is realistic." },
+    { "q": "Which cities should I launch on Blinkit first?", "a": "Start where your brand already has distribution and demand — often Delhi NCR, Mumbai, Bengaluru, Hyderabad or Pune — and add cities as sell-through proves the range. Launching everywhere at once spreads stock thin and creates availability gaps that hurt ranking." },
+    { "q": "What happens at go-live?", "a": "We verify every listing is live and searchable in each launch city, check pricing, thumbnails and pack-size titles, confirm stock is showing as available in the dark stores that received it, and set up the availability tracker. Then the account moves to monthly management or to your own team with an SOP." },
+    { "q": "Should I onboard Blinkit or Zepto first?", "a": "If your priority cities are Delhi NCR and the north, Blinkit usually comes first; if Mumbai, Bengaluru or Hyderabad, Zepto is a close call. Many brands onboard both within the same quarter. We compare category demand in your cities before recommending, and the document pack for one is largely reusable for the other." }
+  ],
+  "related": ["blinkit-account-management", "zepto-onboarding", "quick-commerce-content", "amazon-onboarding"],
+  "reading": ["blog-marketing-strategy-guide", "blog-how-to-do-better-marketing"],
+  "meta": {
+    "title": "Blinkit Seller Onboarding Agency in India | gaa-tha",
+    "description": "Blinkit seller onboarding for Indian brands: documents, category approvals, catalogue and thumbnails, dark-store mapping, first purchase order and go-live."
+  },
+  "updated": "2026-09-25"
+}

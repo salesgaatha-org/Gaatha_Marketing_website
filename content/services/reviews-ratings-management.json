@@ -1,0 +1,64 @@
+{
+  "slug": "reviews-ratings-management",
+  "group": "marketplaces",
+  "order": 11,
+  "published": true,
+  "name": "Reviews & Ratings Management",
+  "shortName": "Reviews & ratings",
+  "promise": "More genuine reviews, faster responses and rating recovery — inside every platform's rules.",
+  "intro": "gaa-tha manages reviews and ratings on Amazon, Flipkart, Myntra, Nykaa and other marketplaces the policy-compliant way: review requests through each platform's tools, Amazon Vine where it fits, packaging inserts that stay within the rules, response templates for negative reviews, root-cause fixes for recurring complaints, and a rating recovery plan for listings that have slipped below the level buyers trust.",
+  "glance": {
+    "bestFor": "New listings with no reviews, and established listings whose rating has dropped or whose negative reviews go unanswered",
+    "timeline": "Setup in 1–2 weeks; review velocity builds over 2–3 months; then ongoing",
+    "model": "Monthly retainer, standalone or as part of account management",
+    "channels": "Amazon, Flipkart, Myntra, Nykaa, AJIO, JioMart, Google Business Profile"
+  },
+  "whatIs": [
+    "Reviews and ratings management is the work of earning more genuine reviews for a product, responding to the ones it gets, and recovering a rating that has fallen — all within the marketplace's policies. It includes review requests through the platform's own tools, programmes such as Amazon Vine, compliant packaging inserts, response templates and service-level targets for negative reviews and buyer questions, analysis of complaint themes, and fixes to the product, packaging or listing that remove the cause. Buying reviews, incentivising positive reviews or asking only happy customers to review are policy violations that put the whole account at risk, so none of that is part of it.",
+    "At gaa-tha reviews are treated as a signal about the product and the listing, not only as a number to push up. Every negative review is tagged by cause — size, damage in transit, expectation set by the listing, quality — and the monthly review shows which causes are growing so the fix goes into the product or the page rather than into more requests."
+  ],
+  "included": [
+    "Review audit: rating, review count, velocity and complaint themes by SKU against competitors",
+    "Automated review requests through Seller Central and each platform's equivalent, timed to delivery",
+    "Amazon Vine enrolment for eligible new products and other platform review programmes where available",
+    "Policy-compliant packaging inserts and thank-you cards that ask for honest feedback without incentives",
+    "Response templates and a service-level target for negative reviews, ratings and buyer questions",
+    "Complaint-theme analysis with fixes to size charts, imagery, packaging or product",
+    "Reporting of reviews that breach platform guidelines through the proper channels",
+    "Rating recovery plan for listings below the rating buyers filter for, including variation and relaunch options",
+    "Monthly report on rating, review count, velocity and complaint themes by SKU"
+  ],
+  "steps": [
+    { "title": "Audit and targets", "text": "We review rating, velocity and complaint themes for every SKU, compare them with competitors, and agree which listings need volume, which need recovery and which need a product fix." },
+    { "title": "Compliant request system", "text": "Platform review requests are switched on and timed, Vine or equivalent programmes are enrolled where eligible, and inserts are designed to stay inside the rules." },
+    { "title": "Response process", "text": "Templates, tone and a response-time target are set for negative reviews and buyer questions, so no complaint sits unanswered on the page." },
+    { "title": "Fix the causes", "text": "Complaints are tagged by cause each week and the recurring ones are fixed at the source — listing expectations, size charts, packaging or the product itself." },
+    { "title": "Recover and report", "text": "Listings below the trusted rating get a recovery plan, and the monthly report shows rating, velocity and complaint trends by SKU." }
+  ],
+  "deliverables": [
+    "Review audit and per-SKU targets",
+    "Configured review-request system and Vine or programme enrolments",
+    "Compliant packaging insert designs",
+    "Response templates and service-level guide",
+    "Complaint-theme tracker with fixes logged",
+    "Monthly ratings and reviews report"
+  ],
+  "tools": ["Amazon Seller Central", "Amazon Vine", "Flipkart Seller Hub", "Myntra Partner Portal", "Nykaa seller tools", "Google Business Profile", "Google Sheets"],
+  "pricing": "Monthly retainer scoped to the number of SKUs and platforms, standalone or bundled into account management; programme fees such as Amazon Vine are paid by you directly to the platform.",
+  "faq": [
+    { "q": "Can you get me more reviews on Amazon or Flipkart?", "a": "Yes, within the rules: review requests through the platform's own tools timed to delivery, Amazon Vine for eligible new products, and compliant inserts that ask for honest feedback. What we will not do is buy reviews, offer incentives or steer only happy customers to review, because that risks listing removal or account suspension." },
+    { "q": "Is Amazon Vine worth it?", "a": "For a new product with few reviews, usually yes: Vine sends units to trusted reviewers who leave honest reviews quickly, which helps conversion and ads. It has an enrolment fee paid to Amazon and needs Brand Registry, so we use it for launches where early reviews change the outcome." },
+    { "q": "How do you respond to negative reviews?", "a": "Quickly, publicly where the platform allows and always calmly: acknowledge the issue, state what has been done or offer a route to resolve it, and never argue. Buyer questions get the same treatment. A response target is agreed at the start so nothing sits unanswered." },
+    { "q": "Can bad reviews be removed?", "a": "Only if they breach the platform's guidelines — for example, they are about delivery rather than the product, contain abuse, or are clearly for a different item. We report those through the proper channels with evidence. Genuine negative reviews cannot be removed; they are answered and their cause is fixed." },
+    { "q": "How do you recover a listing whose rating has dropped?", "a": "First by finding the cause in the review themes and fixing it, then by rebuilding velocity with compliant requests so newer, better reviews shift the average. Where a product has changed materially, a new variation or relaunch is sometimes the honest route. Recovery usually takes two to three months." },
+    { "q": "Do packaging inserts get sellers into trouble?", "a": "They can if they offer a reward, ask for a positive review or push buyers to review outside the platform. A neutral card that thanks the buyer, gives care or usage tips and asks for honest feedback is allowed on most platforms. We design inserts to those rules and review them when policies change." },
+    { "q": "Which platforms do you cover?", "a": "Amazon, Flipkart, Myntra, Nykaa, AJIO and JioMart, plus Google Business Profile reviews for brands with stores or a local presence. Each has its own tools and policies, so the request and response process is set up per platform." }
+  ],
+  "related": ["amazon-account-management", "marketplace-listing-optimisation", "flipkart-seller-management", "local-seo-google-business-profile"],
+  "reading": ["blog-how-to-do-better-marketing", "blog-branding-vs-marketing", "blog-marketing-strategy-guide"],
+  "meta": {
+    "title": "Reviews & Ratings Management in India | gaa-tha",
+    "description": "Policy-compliant review generation, Amazon Vine, response templates, complaint fixes and rating recovery for Amazon, Flipkart, Myntra and Nykaa listings."
+  },
+  "updated": "2026-09-25"
+}

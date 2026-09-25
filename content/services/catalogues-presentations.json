@@ -1,0 +1,66 @@
+{
+  "slug": "catalogues-presentations",
+  "group": "brand-and-creative",
+  "order": 9,
+  "published": true,
+  "name": "Catalogues, Presentations & Sales Kits",
+  "shortName": "Catalogues & decks",
+  "promise": "The documents your sales team actually uses — catalogues, company profiles, pitch decks and price lists.",
+  "intro": "gaa-tha designs the documents a sales team actually uses: product catalogues in print and PDF, company profile decks, investor and pitch decks, price lists, sales-meet material, export brochures and IndiaMART or B2B listing assets. Built for manufacturers, distributors, FMCG brands and exporters who need to look credible on WhatsApp, in a meeting and at a trade fair.",
+  "glance": {
+    "bestFor": "Manufacturers, B2B companies, FMCG distributors and exporters",
+    "timeline": "1–3 weeks per document depending on pages and SKUs",
+    "model": "Per project, with updates on a small retainer",
+    "channels": "Print, PDF, WhatsApp, email, IndiaMART, trade fairs, investor meetings"
+  },
+  "whatIs": [
+    "A sales kit is the set of documents a business uses to win an order: a product catalogue, a company profile, a pitch or investor deck, a price list and the brochures a buyer takes away from a meeting or a trade fair. Its job is to answer a buyer's questions — who are you, what do you make, at what capacity, at what price, and why should I trust you — before the salesperson gets a second call.",
+    "gaa-tha designs these as one family, so the catalogue, profile and deck share the same structure, photography and tone, and can be updated without a redesign. Documents are built to be sent on WhatsApp and email as light PDFs, printed properly for a sales meet or Diwali distribution, and reused as IndiaMART and LinkedIn assets — with the product data kept in a sheet so price and SKU changes are a quick edit."
+  ],
+  "included": [
+    "Product catalogues for print and PDF, with SKU tables, specifications and imagery",
+    "Company profile decks and brochures",
+    "Investor and pitch decks with narrative, financial slide templates and design",
+    "Price lists and rate cards, sheet-linked for fast updates",
+    "Sales-meet and dealer-meet material: presentations, standees and handouts",
+    "Export brochures with certifications, capacity and compliance details",
+    "IndiaMART, TradeIndia and B2B marketplace listing assets",
+    "Product photography and infographics where needed",
+    "Copywriting or copy editing for every document",
+    "Print coordination and press-ready files"
+  ],
+  "steps": [
+    { "title": "Structure", "text": "We map who reads the document and what they need to decide, then write the page-by-page structure before any design." },
+    { "title": "Content", "text": "Product data, specifications, certifications and imagery are collected into a master sheet; missing photos and copy are produced by our team." },
+    { "title": "Design", "text": "A master layout system is designed and applied across the catalogue, profile and deck, so every product page and slide follows the same grid." },
+    { "title": "Proof", "text": "Two review rounds with sales and management; prices, codes and claims are checked against the master sheet before sign-off." },
+    { "title": "Deliver", "text": "Press-ready PDFs go to the printer, light PDFs go to WhatsApp and email, and editable files stay with you for quick updates." }
+  ],
+  "deliverables": [
+    "Print-ready and digital PDF versions of every document",
+    "Editable source files in InDesign, Figma, PowerPoint or Google Slides",
+    "Master product data sheet linked to the catalogue",
+    "Lightweight WhatsApp and email versions",
+    "IndiaMART and B2B listing images and descriptions",
+    "Print coordination and proof approval"
+  ],
+  "tools": ["Adobe InDesign", "Figma", "Microsoft PowerPoint", "Google Slides", "Canva", "Adobe Photoshop", "Google Sheets"],
+  "pricing": "Per-project fee scoped to page count, SKU count and the number of documents in the kit; printing is paid to the printer directly, and periodic updates can run on a small retainer.",
+  "faq": [
+    { "q": "What should a product catalogue include?", "a": "A short company introduction, a clear product index, one page or block per product or range with images, specifications, pack sizes and codes, certifications and compliance details, and how to order. Price lists are usually kept separate so the catalogue stays current when rates change. gaa-tha structures the catalogue around how your buyers actually search and order." },
+    { "q": "How long does a catalogue or deck take?", "a": "One to three weeks depending on page count, the number of SKUs and whether photography and copy already exist. A company profile or pitch deck sits at the short end; a catalogue of 100 or more SKUs with new photography at the long end." },
+    { "q": "Can you design a pitch deck or investor deck?", "a": "Yes. We work with founders on the narrative — problem, product, traction, market, ask — then design the deck so the numbers and the story land quickly, with templates for the financial slides so you can update them yourself." },
+    { "q": "Do you also write the copy and shoot the products?", "a": "Yes, if you need it. Our copywriting and product photography teams produce what is missing, so a manufacturer can hand over a price list and a factory tour and receive a finished catalogue." },
+    { "q": "Can you make it easy to update prices and SKUs?", "a": "Yes. Product data lives in a master sheet, price lists are designed as separate inserts or linked tables, and you receive editable files, so a rate change is an edit rather than a redesign. For frequent changes we offer a small update retainer." },
+    { "q": "Will the same catalogue work for export buyers?", "a": "With adjustments. Export brochures need certifications, capacity, MOQ, lead times, packaging and Incoterms visible, and imagery that reads well to buyers in the Gulf, Europe or the US. We produce an export version alongside the domestic catalogue where needed." },
+    { "q": "What format do we get for WhatsApp and IndiaMART?", "a": "A compressed PDF small enough to send comfortably on WhatsApp, plus JPG or PNG images for each product and short descriptions sized for IndiaMART and TradeIndia listings, so the sales team can share and list without asking a designer." },
+    { "q": "Do you handle printing?", "a": "We prepare press-ready files with bleed, crop marks and CMYK, recommend paper and finishes, coordinate with your printer or ours, and check the proof before the full run. Printing itself is paid to the printer directly." }
+  ],
+  "related": ["graphic-design", "content-writing-copywriting", "product-photography-ecommerce", "b2b-lead-generation"],
+  "reading": ["blog-what-is-graphic-design", "blog-branding-vs-marketing", "blog-how-to-do-better-marketing"],
+  "meta": {
+    "title": "Catalogues, Presentations & Sales Kits in India | gaa-tha",
+    "description": "Product catalogues, company profiles, pitch decks, price lists and export brochures designed as one sales kit — print, PDF, WhatsApp and IndiaMART ready."
+  },
+  "updated": "2026-09-25"
+}

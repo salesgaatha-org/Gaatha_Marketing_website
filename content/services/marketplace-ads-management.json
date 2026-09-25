@@ -1,0 +1,63 @@
+{
+  "slug": "marketplace-ads-management",
+  "group": "marketplaces",
+  "order": 10,
+  "published": true,
+  "name": "Marketplace Ads Management",
+  "shortName": "Marketplace ads",
+  "promise": "Amazon, Flipkart, Myntra, Nykaa and AJIO ads run to ACoS and TACoS targets, not to spend.",
+  "intro": "gaa-tha manages marketplace advertising on Amazon (Sponsored Products, Brands and Display), Flipkart (PLA and PCA), Myntra, Nykaa and AJIO: campaign structure by product and intent, keyword and placement harvesting, bid and budget management every week, event-period plans for Prime Day, Big Billion Days and End of Reason Sale, and reporting on ACoS, TACoS and organic rank.",
+  "glance": {
+    "bestFor": "Brands with optimised listings and stock in place, ready to buy rank and volume profitably",
+    "timeline": "Setup in 1–2 weeks, then monthly with weekly optimisation",
+    "model": "Monthly management fee; ad spend paid directly to each platform",
+    "channels": "Amazon Ads, Flipkart Ads, Myntra Ads, Nykaa ad placements, AJIO sponsored placements"
+  },
+  "whatIs": [
+    "Marketplace ads management is the ongoing work of running paid placements inside marketplaces — Sponsored Products, Sponsored Brands and Sponsored Display on Amazon, Product Listing Ads and Product Contextual Ads on Flipkart, and sponsored listings and banners on Myntra, Nykaa and AJIO — so that products win search positions and category placements at a cost that fits the margin. It covers campaign structure, keyword and placement selection, bids, budgets, negatives, event-period pushes and reporting on ACoS, TACoS and the organic rank the ads help build.",
+    "At gaa-tha marketplace ads are run against the unit economics of each SKU rather than a single account-wide target. Launch SKUs are allowed a higher cost of sale to earn rank and reviews; mature SKUs are held inside their margin; event periods get their own budgets and bid rules. Ad spend stays in your own ad accounts and is reported alongside organic sales so you can see whether the ads are growing the business or just replacing sales you already had."
+  ],
+  "included": [
+    "Ad account audit or setup on Amazon Ads, Flipkart Ads, Myntra Ads and Nykaa or AJIO placements",
+    "Campaign architecture by product, match type and intent: branded, category, competitor and defensive",
+    "Keyword and placement harvesting from search-term reports, with negatives to cut waste",
+    "Weekly bid, budget and placement optimisation against per-SKU ACoS and TACoS targets",
+    "Sponsored Brands and Display creative, including brand-store and video placements where available",
+    "Event-period plans and budgets for Prime Day, Great Indian Festival, Big Billion Days, End of Reason Sale and platform sale events",
+    "Coordination with listing, pricing, stock and reviews so ads are not sent to pages that cannot convert",
+    "Monthly report on spend, sales, ACoS, TACoS, organic rank movement and new-to-brand customers"
+  ],
+  "steps": [
+    { "title": "Audit and targets", "text": "We review current campaigns, listings, margins and stock, then set ACoS and TACoS targets per SKU group — launch, growth and mature — instead of one number for the account." },
+    { "title": "Structure and keywords", "text": "Campaigns are rebuilt by product and intent, keywords and placements are chosen from search-term and competitor data, and negatives are set from day one." },
+    { "title": "Launch and learn", "text": "Campaigns go live with daily checks in the first two weeks to catch runaway spend, then bids and budgets are moved to the terms and placements that convert." },
+    { "title": "Events and scale", "text": "Event budgets, bid rules and creative are planned ahead of Prime Day, Big Billion Days and End of Reason Sale, and winners are scaled with rank as the check." },
+    { "title": "Report and refine", "text": "A monthly report shows spend, sales, ACoS, TACoS, organic rank and cannibalisation by SKU, and sets the next month's budget and tests." }
+  ],
+  "deliverables": [
+    "Campaign architecture document and naming conventions per platform",
+    "Keyword and placement map with negatives, updated monthly",
+    "Weekly optimisation log",
+    "Event-period budget and bid plan for each sale event",
+    "Sponsored Brands and Display creative assets",
+    "Monthly ads report on ACoS, TACoS and organic rank by SKU"
+  ],
+  "tools": ["Amazon Ads console", "Amazon Brand Analytics", "Flipkart Ads", "Myntra Ads", "Helium 10", "Google Sheets", "Looker Studio"],
+  "pricing": "Monthly management fee scoped to platforms and spend; ad spend is paid by you directly to each marketplace from your own ad accounts, with no markup.",
+  "faq": [
+    { "q": "What does a marketplace ads agency do?", "a": "It runs paid placements inside marketplaces — Amazon Sponsored Products, Brands and Display, Flipkart PLA and PCA, and sponsored listings and banners on Myntra, Nykaa and AJIO — from campaign structure and keyword selection to weekly bid work, event budgets and reporting. gaa-tha does this on a monthly fee with the ad accounts owned by you." },
+    { "q": "What is the difference between ACoS and TACoS?", "a": "ACoS is ad spend divided by the sales those ads produced; TACoS is ad spend divided by total sales including organic. ACoS tells you whether a campaign is efficient; TACoS tells you whether ads are growing the whole business or just replacing organic sales. We report both and manage to TACoS over time." },
+    { "q": "How much should I spend on marketplace ads?", "a": "Enough to gather useful data on each SKU group within a few weeks and to defend your own brand terms, sized from your margin and the target cost of sale rather than a fixed rule. Launch SKUs need more relative to sales; mature SKUs should need less as organic rank builds. We set a starting budget per platform and adjust monthly." },
+    { "q": "Should I run ads before my listings are optimised?", "a": "No. Ads send traffic to the listing, so a weak main image, incomplete attributes, no reviews or an uncompetitive price wastes the spend. We fix the listing and pricing first or in parallel, then scale ads once conversion is sound." },
+    { "q": "How do you plan ads for Prime Day, Big Billion Days or End of Reason Sale?", "a": "With a separate event plan: higher budgets and bid ceilings for the days that matter, creative and deals aligned, stock confirmed, and daily monitoring during the event. Budgets are wound down after the event so the account does not keep bidding at event levels." },
+    { "q": "Do you run Flipkart and Myntra ads as well as Amazon?", "a": "Yes. Flipkart PLA and PCA, Myntra Ads and Nykaa and AJIO placements each have their own tools and rules, and we run them from one team with a shared view of budget and results, so spend goes to the platform where each SKU converts best." },
+    { "q": "Do I keep the ad accounts and the data?", "a": "Yes. Every ad account is created in your business's name or accessed through your existing seller account, spend is billed to you by the platform, and all campaign history stays with you if we stop working together." }
+  ],
+  "related": ["amazon-account-management", "marketplace-listing-optimisation", "flipkart-seller-management", "google-ads-agency"],
+  "reading": ["blog-how-to-do-better-marketing", "blog-marketing-strategy-guide", "blog-seo-aeo-geo-guide"],
+  "meta": {
+    "title": "Marketplace Ads Management Agency in India | gaa-tha",
+    "description": "Amazon Sponsored ads, Flipkart PLA and PCA, Myntra, Nykaa and AJIO placements managed weekly to ACoS and TACoS targets, with event plans and rank tracking."
+  },
+  "updated": "2026-09-25"
+}

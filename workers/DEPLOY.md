@@ -199,3 +199,34 @@ Once the worker is deployed and tested:
 - Check R2 docs: https://developers.cloudflare.com/r2/
 - View worker logs: `wrangler tail`
 
+
+---
+
+## Publish hook (content-admin.html → GitHub → Netlify)
+
+`publish-hook.js` is a second, tiny worker. The **Publish site** button in
+`/content-admin.html` POSTs to it; it fires a `repository_dispatch` event on
+the site repository, and `.github/workflows/deploy.yml` then rebuilds every
+page with the Firebase admin data merged in, commits the output and deploys.
+
+```bash
+cd workers
+wrangler deploy -c publish-hook.wrangler.toml
+wrangler secret put GITHUB_TOKEN   -c publish-hook.wrangler.toml   # fine-grained PAT, Contents: read & write
+wrangler secret put GITHUB_REPO    -c publish-hook.wrangler.toml   # salesgaatha-org/Gaatha_Marketing_website
+wrangler secret put ALLOWED_ORIGIN -c publish-hook.wrangler.toml   # https://gaa-tha.com
+```
+
+Copy the worker URL into `PUBLISH_HOOK` near the top of the script in
+`content-admin.html`. Until the worker exists, the button explains how to run
+the **Deploy to Netlify** workflow manually from the GitHub Actions tab —
+which does exactly the same thing.
+
+### Media uploads
+
+The Media library in `content-admin.html` uploads to the existing
+`r2-presign` worker under `media/<folder>/<id>-<width>.webp`. Images are
+re-encoded to WebP in the browser at 480/768/1200/1920 px (EXIF dropped) and
+recorded in Firebase at `cms/media/<id>` with alt text, dimensions and the
+variant URLs. Pages reference the media **id**, so "Replace file" swaps the
+picture everywhere it is used.

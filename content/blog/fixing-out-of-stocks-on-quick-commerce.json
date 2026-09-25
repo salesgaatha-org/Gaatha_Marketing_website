@@ -1,0 +1,64 @@
+{
+  "slug": "fixing-out-of-stocks-on-quick-commerce",
+  "published": false,
+  "type": "cluster",
+  "category": "Commerce",
+  "title": "Fixing out-of-stocks on quick commerce: a working method",
+  "excerpt": "Why out-of-stocks quietly kill quick-commerce growth, how to track fill rate per dark store, and a weekly routine that keeps hero SKUs available.",
+  "intro": "Out-of-stocks on quick commerce are fixed by treating availability as a weekly operation: tracking fill rate per dark store rather than per city, responding to purchase orders fast, concentrating on a short list of hero SKUs, and planning stock around festivals and weekends. Repeated unavailability lowers ranking and wastes ad spend, so availability comes before content and ads in any growth plan.",
+  "takeaways": [
+    "An unavailable listing costs sales, ranking and ad budget at the same time.",
+    "Track availability at store level; city averages hide the problem.",
+    "Late or short purchase orders become empty shelves days later.",
+    "Fewer SKUs, always in stock, beats many SKUs, sometimes in stock."
+  ],
+  "sections": [
+    {
+      "h2": "Why are out-of-stocks so damaging on quick commerce?",
+      "html": "<p>When a customer opens the app in a neighbourhood and your product shows as unavailable, they buy a competitor and the platform records a lost conversion against your listing. Do that often enough and placement drops. If ads are running, the click is paid for anyway. The damage compounds quietly because dashboards report averages that look fine.</p>\n<p>It also undermines every other investment. Better thumbnails, stronger titles and search ads all depend on the product being there when the customer looks, which is why availability is the first lever in any quick-commerce growth plan.</p>"
+    },
+    {
+      "h2": "How do you measure availability properly?",
+      "html": "<p>Platform dashboards show stock and availability per dark store. Pull that view weekly for each hero SKU and record fill rate per store, not per city. A city at 85 percent availability may contain ten stores at zero, and those are usually the stores with the most demand.</p>\n<p>Set a simple threshold for action, and assign one person to look at the report every week. This is the core routine in our <a href=\"/services/blinkit-account-management\">Blinkit</a> and <a href=\"/services/instamart-account-management\">Instamart account management</a> work.</p>"
+    },
+    {
+      "h2": "What causes out-of-stocks and how do you fix each cause?",
+      "html": "<div class=\"tbl-wrap\"><table>\n<thead><tr><th>Cause</th><th>Fix</th></tr></thead>\n<tbody>\n<tr><td>Late or short purchase-order fulfilment</td><td>Fixed dispatch rhythm; PO acknowledgement within a day</td></tr>\n<tr><td>Too many SKUs spread thinly</td><td>Cut to hero SKUs; earn expansion with velocity</td></tr>\n<tr><td>Demand spikes at festivals and weekends</td><td>Seasonal stock plan agreed with the category team in advance</td></tr>\n<tr><td>Inbound rejections (damaged, mislabelled, short shelf life)</td><td>Packaging and labelling QC before dispatch</td></tr>\n<tr><td>Store not mapped for the SKU</td><td>Review store mapping with the platform; request additions where demand exists</td></tr>\n</tbody></table></div>"
+    },
+    {
+      "h2": "What does a weekly availability routine look like?",
+      "html": "<p>Monday: pull store-level availability for hero SKUs and flag stores below threshold. Tuesday: reconcile open purchase orders and dispatch status. Midweek: chase inbound issues and confirm next PO quantities against velocity. Friday: review ratings and any listing changes. Monthly: reconcile POs, invoices and deductions.</p>\n<p>The routine is unglamorous, which is why it is often skipped, and why brands that do it gain share. A manufacturer supplying bulk and packaged snacks, like <a href=\"/work/ghanshyam-snacks\">Ghanshyam Snacks</a>, would build its dispatch calendar around it. <a href=\"/services/quick-commerce-agency\">Quick commerce management</a> runs this routine across platforms.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a good fill rate on quick commerce?",
+      "a": "Aim for near-complete availability on hero SKUs in your priority stores, and judge yourself at store level rather than by a city average. Any store with repeated zeros needs a specific fix."
+    },
+    {
+      "q": "Should I pause ads when a SKU is out of stock?",
+      "a": "Yes, in the affected cities. Paying for clicks on an unavailable listing wastes budget and worsens the platform’s view of your conversion rate."
+    },
+    {
+      "q": "How far ahead should I plan stock for festivals?",
+      "a": "Agree quantities with the category team several weeks before the season, because the platform’s buying calendar runs ahead of the consumer calendar and inbound capacity tightens near festivals."
+    },
+    {
+      "q": "Can an agency manage purchase orders and availability for me?",
+      "a": "Yes. Availability tracking, PO coordination and monthly reconciliation are core parts of quick-commerce account management, alongside content, promotions and ads."
+    }
+  ],
+  "relatedServices": [
+    "quick-commerce-agency",
+    "blinkit-account-management",
+    "instamart-account-management",
+    "zepto-account-management"
+  ],
+  "relatedCase": "ghanshyam-snacks",
+  "author": "gaa-tha",
+  "readMinutes": 4,
+  "cover": "cov-b",
+  "mark": "OS",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

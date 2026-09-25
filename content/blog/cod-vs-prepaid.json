@@ -1,0 +1,64 @@
+{
+  "slug": "cod-vs-prepaid",
+  "published": false,
+  "type": "cluster",
+  "category": "Commerce",
+  "title": "COD vs prepaid: how Indian D2C brands should set the rules",
+  "excerpt": "Why cash on delivery still matters in India, what it costs in refusals and working capital, and the rules that let a brand offer COD without losing margin.",
+  "intro": "Cash on delivery still drives a large share of first-time D2C orders in India, but it costs the brand in refused deliveries, return-to-origin shipping and delayed cash. The answer is rarely to switch COD off; it is to set rules: verify COD orders, restrict COD by order value and by pincode performance, nudge toward prepaid with a small incentive, and track refusal rates monthly.",
+  "takeaways": [
+    "COD widens the funnel for new customers; prepaid protects margin and cash flow.",
+    "Refusal and return-to-origin rates are the numbers to manage.",
+    "Rules by order value and pincode beat a blanket policy.",
+    "Confirmation by WhatsApp and small prepaid incentives shift the mix over time."
+  ],
+  "sections": [
+    {
+      "h2": "Why does COD still matter in India?",
+      "html": "<p>Many first-time buyers do not yet trust an unfamiliar brand with a prepaid payment, particularly outside the metros and in categories where the product needs to be seen. Removing COD lowers conversion among exactly the customers a growing brand needs. The trade-off is that a share of COD orders are refused at the door or never collected, and the brand pays forward and return shipping on each one while the cash from delivered orders arrives later.</p>"
+    },
+    {
+      "h2": "What does COD actually cost?",
+      "html": "<ul>\n<li>Refused or undelivered orders: forward shipping, return shipping and handling.</li>\n<li>Working capital tied up until the courier remits.</li>\n<li>Courier COD charges on each order.</li>\n<li>Damaged returns that cannot be resold.</li>\n</ul>\n<p>Measure the refusal rate and return-to-origin rate by pincode, by product and by traffic source. Ads that bring impulse traffic often show higher refusal rates, which changes the real cost per order from that channel; this is part of the blended view in <a href=\"/services/d2c-performance-marketing\">D2C performance marketing</a>.</p>"
+    },
+    {
+      "h2": "What rules reduce COD losses without hurting conversion?",
+      "html": "<ol>\n<li>Confirm every COD order by WhatsApp or an automated call before dispatch; cancel unconfirmed orders.</li>\n<li>Set a maximum order value for COD and require prepaid above it.</li>\n<li>Restrict COD in pincodes with persistently high refusal rates, reviewed monthly.</li>\n<li>Offer a modest prepaid incentive, such as free shipping or a small discount, only where margin allows.</li>\n<li>Show accurate delivery dates; late deliveries drive refusals.</li>\n<li>Use a checkout provider with COD risk scoring where it fits the store.</li>\n</ol>\n<p>These rules are configured in the store build; the <a href=\"/work/kitcoz\">Kitcoz</a> Shopify build included COD configuration alongside its checkout integration. See <a href=\"/services/shopify-development\">Shopify development</a> and <a href=\"/services/conversion-rate-optimisation\">CRO</a>.</p>"
+    },
+    {
+      "h2": "How should the COD and prepaid mix change over time?",
+      "html": "<p>New customers lean COD; repeat customers who trust the brand move to prepaid. As reviews accumulate and the brand becomes known, the prepaid share rises on its own, and the rules can loosen. Track the mix monthly by new versus returning customers, and revisit the rules each quarter rather than reacting to a bad week.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Should a new D2C brand offer cash on delivery?",
+      "a": "Usually yes, with rules. COD widens the funnel for first-time buyers; confirmation, order-value limits and pincode restrictions keep the cost of refusals under control."
+    },
+    {
+      "q": "What is a normal COD refusal rate?",
+      "a": "It varies widely by category, price point, delivery speed and traffic source, so benchmark against your own history by pincode and channel rather than a published figure. The aim is a downward trend."
+    },
+    {
+      "q": "How do I encourage prepaid orders?",
+      "a": "Offer a small, margin-safe incentive such as free shipping, show trust signals at checkout, make UPI the default option, and confirm delivery dates accurately. The prepaid share rises as the brand earns trust."
+    },
+    {
+      "q": "Does COD confirmation by WhatsApp reduce refusals?",
+      "a": "In most stores it does, because it filters accidental and impulse orders before dispatch and sets an expectation of delivery. Measure refusal rate before and after enabling it."
+    }
+  ],
+  "relatedServices": [
+    "shopify-development",
+    "conversion-rate-optimisation",
+    "d2c-performance-marketing",
+    "shopify-store-management"
+  ],
+  "relatedCase": "kitcoz",
+  "author": "gaa-tha",
+  "readMinutes": 4,
+  "cover": "cov-b",
+  "mark": "CO",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

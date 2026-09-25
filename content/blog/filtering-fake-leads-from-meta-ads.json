@@ -1,0 +1,64 @@
+{
+  "slug": "filtering-fake-leads-from-meta-ads",
+  "published": false,
+  "type": "cluster",
+  "category": "B2B & Manufacturing",
+  "title": "Filtering fake leads from Meta ads: a system that works",
+  "excerpt": "Why Meta lead campaigns produce junk, how to filter it at the form, at first reply and in the tracker, and how to judge ad sources on qualified leads.",
+  "intro": "Fake and low-quality leads from Meta ads are reduced by adding qualifying questions to the form, sending an automated WhatsApp first reply that asks the enquirer to confirm their requirement, tagging every lead by campaign and ad, and reviewing junk percentage by source each week. The goal is not zero junk; it is a system where junk costs nothing to remove and budgets move toward the sources that produce real buyers.",
+  "takeaways": [
+    "Instant forms are easy to submit, so some junk is inevitable; design for it.",
+    "Qualify inside the form and again at first reply.",
+    "Tag leads by source so junk can be measured per campaign.",
+    "Judge campaigns on qualified leads and cost per qualified lead."
+  ],
+  "sections": [
+    {
+      "h2": "Why do Meta lead ads produce junk?",
+      "html": "<p>Instant forms pre-fill name and phone from the user’s profile, so a curious tap becomes a lead. Broad targeting adds people with no buying intent, and some submissions are simply wrong numbers. For a manufacturer or B2B brand, the result is a sales team calling students, job-seekers and price-checkers. The ads are not broken; the process after the form is missing.</p>"
+    },
+    {
+      "h2": "How do you filter at the form?",
+      "html": "<ul>\n<li>Switch on the higher-intent form option so the user reviews before submitting.</li>\n<li>Add one or two qualifying questions: company name, monthly or annual volume, city or country, intended use.</li>\n<li>Use a custom question with a short free-text answer; junk rarely fills it.</li>\n<li>State plainly who the product is for, such as bulk buyers and distributors, in the ad copy.</li>\n</ul>\n<p>Volume drops when you do this. That is the point; cost per lead rises and cost per qualified lead falls. This is standard practice in our <a href=\"/services/meta-ads-agency\">Meta ads</a> work for B2B accounts.</p>"
+    },
+    {
+      "h2": "How does a WhatsApp first reply filter leads automatically?",
+      "html": "<p>Within minutes of submission, an automated WhatsApp message thanks the enquirer and asks two or three short questions: what quantity, for which use, and where. Real buyers answer; junk goes quiet. The sales team only calls people who replied. A separate template handles marketplace enquiries such as IndiaMART, where the pattern is similar.</p>\n<p>This was the approach for <a href=\"/work/ghanshyam-snacks\">Ghanshyam Snacks</a>, a bulk peanut and white-label snack manufacturer whose paid campaigns produced high lead volume with many fake leads: a WhatsApp first-reply system designed so that fake leads self-filter, plus a B2B reply template for IndiaMART.</p>"
+    },
+    {
+      "h2": "How do you measure and act on lead quality?",
+      "html": "<p>Every lead lands in one tracker with its campaign, ad set and ad recorded. Within 24 hours it is marked qualified, nurture or junk. Each week, review qualification rate, cost per qualified lead and junk percentage by source, and move budget accordingly. A five-stage pipeline with a dashboard, described in our B2B and export lead generation guide, makes this routine. <a href=\"/services/b2b-lead-generation\">B2B lead generation</a> and <a href=\"/services/business-tools-automation\">custom tools and automations</a> set up the tracker and the reply flows.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Why am I getting fake leads from Facebook ads?",
+      "a": "Instant forms pre-fill details and make submission effortless, and broad targeting reaches people with no intent. Adding qualifying questions, an automated first reply and source tagging removes most of the problem."
+    },
+    {
+      "q": "Will qualifying questions reduce my lead volume?",
+      "a": "Yes, and that is desirable. Fewer leads with a higher share of real buyers lowers cost per qualified lead and frees the sales team for conversations that matter."
+    },
+    {
+      "q": "Should I use a website form instead of instant forms?",
+      "a": "Website forms usually produce fewer but better leads because they take more effort. Test both; many B2B accounts run instant forms with qualifying questions and a landing page in parallel."
+    },
+    {
+      "q": "What is a good junk percentage for Meta lead ads?",
+      "a": "It varies by industry and targeting. Track your own rate by source and aim for a steady decline; a source whose junk percentage stays high after form and reply fixes should lose budget."
+    }
+  ],
+  "relatedServices": [
+    "meta-ads-agency",
+    "b2b-lead-generation",
+    "business-tools-automation",
+    "google-ads-agency"
+  ],
+  "relatedCase": "ghanshyam-snacks",
+  "author": "gaa-tha",
+  "readMinutes": 4,
+  "cover": "cov-a",
+  "mark": "Ld",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

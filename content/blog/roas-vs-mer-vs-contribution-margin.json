@@ -1,0 +1,64 @@
+{
+  "slug": "roas-vs-mer-vs-contribution-margin",
+  "published": false,
+  "type": "cluster",
+  "category": "Commerce",
+  "title": "ROAS vs MER vs contribution margin: which number to run on",
+  "excerpt": "What ROAS, MER and contribution margin each measure, why platform ROAS misleads, and how to set targets that keep a D2C brand profitable as it scales.",
+  "intro": "ROAS measures revenue attributed by one ad platform against spend on that platform; MER (marketing efficiency ratio) measures total revenue against total marketing spend; contribution margin measures what is left after product, shipping, payment, returns and marketing costs. Run the business on contribution margin, manage the blend on MER, and use ROAS only to compare campaigns within a platform.",
+  "takeaways": [
+    "Platform ROAS over-attributes and ignores costs; it is a campaign metric, not a business metric.",
+    "MER is harder to game because it uses total revenue and total spend.",
+    "Contribution margin is the number that decides whether growth is profitable.",
+    "Set the contribution target first, then derive the MER and ROAS each channel must hit."
+  ],
+  "sections": [
+    {
+      "h2": "What does each metric actually measure?",
+      "html": "<div class=\"tbl-wrap\"><table>\n<thead><tr><th>Metric</th><th>Formula</th><th>Use it for</th><th>Weakness</th></tr></thead>\n<tbody>\n<tr><td>ROAS</td><td>Platform-attributed revenue ÷ platform spend</td><td>Comparing campaigns and creatives inside one platform</td><td>Attribution overlap; ignores costs</td></tr>\n<tr><td>MER</td><td>Total revenue ÷ total marketing spend</td><td>Judging the whole marketing mix month to month</td><td>Says nothing about margin</td></tr>\n<tr><td>Contribution margin</td><td>Revenue − COGS − shipping − payment fees − returns − marketing</td><td>Deciding whether to scale, hold or cut</td><td>Needs accurate cost data</td></tr>\n</tbody></table></div>"
+    },
+    {
+      "h2": "Why does platform ROAS mislead?",
+      "html": "<p>Meta and Google each claim the purchases they touched, so the same order can appear in both dashboards. Platforms also count some purchases that would have happened anyway, particularly from brand searches and retargeting. And ROAS treats a ₹1,000 order with a ₹200 margin the same as one with a ₹600 margin. A campaign can show a healthy ROAS while the business loses money on every order.</p>\n<p>Fixing tracking with Conversions API and consistent UTMs helps, but the structural problem remains. That is why our <a href=\"/services/d2c-performance-marketing\">D2C performance marketing</a> reporting leads with blended numbers.</p>"
+    },
+    {
+      "h2": "How do you set targets in the right order?",
+      "html": "<ol>\n<li>Work out contribution margin per order before marketing, from real cost data.</li>\n<li>Decide how much of that margin can go to marketing while leaving the profit the business needs.</li>\n<li>That gives a target MER for the month.</li>\n<li>Split the marketing budget by channel and derive the platform ROAS each channel must achieve for the blend to hit the MER.</li>\n<li>Review weekly; when MER slips, look at creative, conversion rate and returns before cutting spend.</li>\n</ol>\n<p>A concern-led brand selling kits at a higher order value, such as <a href=\"/work/kitcoz\">Kitcoz</a>, will tolerate a lower ROAS than a brand selling single low-value packs, because the margin per order is higher.</p>"
+    },
+    {
+      "h2": "What else changes when you run on contribution?",
+      "html": "<p>Bundles and kits become priorities because they raise margin per order. Returns and COD refusals get measured and reduced, because they destroy contribution. <a href=\"/services/conversion-rate-optimisation\">Conversion rate optimisation</a> is valued correctly, because a higher conversion rate lowers cost per order across every channel. And retention becomes visible: a repeat order carries little or no marketing cost and lands almost entirely in contribution. See the D2C ecommerce growth guide for how these fit together.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a good ROAS for a D2C brand in India?",
+      "a": "It depends entirely on margin per order. Derive it from your contribution target rather than from a benchmark: a brand with high-margin kits can accept a lower ROAS than one selling low-margin single packs."
+    },
+    {
+      "q": "What is MER in marketing?",
+      "a": "Marketing efficiency ratio is total revenue divided by total marketing spend across all channels for a period. It shows how efficiently the whole mix turns spend into revenue, without relying on platform attribution."
+    },
+    {
+      "q": "How do I calculate contribution margin for an ecommerce order?",
+      "a": "Take the order revenue and subtract cost of goods, packaging, shipping, payment gateway fees, expected returns or refusals and the marketing cost to acquire it. What remains is the contribution before fixed costs."
+    },
+    {
+      "q": "Should I stop looking at ROAS altogether?",
+      "a": "No. ROAS remains useful for comparing campaigns, audiences and creatives inside one platform. It is simply the wrong number to run the business on."
+    }
+  ],
+  "relatedServices": [
+    "d2c-performance-marketing",
+    "conversion-rate-optimisation",
+    "meta-ads-agency",
+    "google-ads-agency"
+  ],
+  "relatedCase": "kitcoz",
+  "author": "gaa-tha",
+  "readMinutes": 4,
+  "cover": "cov-a",
+  "mark": "R",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

@@ -1,0 +1,20 @@
+[
+  { "slug": "charliee", "name": "Charliee", "legalName": "Baijay International", "logo": "/assets/clients/charliee.webp", "industry": "FMCG / packaged snacks", "website": "", "logoWall": true, "order": 1 },
+  { "slug": "cds-stores", "name": "CDS Stores", "logo": "/assets/clients/cds.webp", "industry": "Retail / sweets & gifting", "website": "https://cdsstores.in", "logoWall": true, "order": 2 },
+  { "slug": "nirav-machines-india", "name": "Nirav Machines India", "logo": "/assets/clients/nmi.webp", "industry": "Manufacturing / B2B", "website": "", "logoWall": true, "order": 3 },
+  { "slug": "madhuram", "name": "Madhuram", "logo": "/assets/clients/madhuram.webp", "industry": "Food & snacks", "website": "", "logoWall": true, "order": 4 },
+  { "slug": "sipss-bitess", "name": "Sipss & Bitess", "logo": "/assets/clients/sipss.webp", "industry": "Food & beverage", "website": "", "logoWall": true, "order": 5 },
+  { "slug": "saurashtra-farsan", "name": "Saurashtra Farsan", "logo": "/assets/clients/saurashtra.webp", "industry": "Food & snacks", "website": "", "logoWall": true, "order": 6 },
+  { "slug": "rentastic-homes", "name": "Rentastic Homes", "logo": "/assets/clients/rentastic.webp", "industry": "Real estate / co-living", "website": "", "logoWall": true, "order": 7 },
+  { "slug": "nits-overseas", "name": "NITS Overseas", "logo": "/assets/clients/nits.webp", "industry": "Education / study abroad", "website": "", "logoWall": true, "order": 8 },
+  { "slug": "navami", "name": "Navami", "logo": "/assets/clients/navami.webp", "industry": "TODO-DATA", "website": "", "logoWall": true, "order": 9 },
+  { "slug": "aathrr", "name": "Aathrr", "logo": "/assets/clients/aathrr.webp", "industry": "TODO-DATA", "website": "", "logoWall": true, "order": 10 },
+  { "slug": "shailesh-construction", "name": "Shailesh Construction", "logo": "/assets/clients/shailesh.webp", "industry": "Construction", "website": "", "logoWall": true, "order": 11 },
+  { "slug": "ghanshyam-snacks", "name": "Ghanshyam Snacks", "logo": "/assets/clients/ghanshyam.webp", "industry": "FMCG manufacturing / B2B", "website": "", "logoWall": true, "order": 12 },
+  { "slug": "gsps", "name": "GSPS Chartered Accountants", "logo": "/assets/clients/gsps.webp", "industry": "Professional services", "website": "", "logoWall": true, "order": 13 },
+  { "slug": "new-rave", "name": "New Rave", "logo": "/assets/clients/newrave.webp", "industry": "Retail / TCG & hobbies (Canada)", "website": "https://newrave.ca", "logoWall": true, "order": 14 },
+  { "slug": "kitcoz", "name": "Kitcoz", "legalName": "Elvey Essentials", "logo": "/assets/clients/kitcoz.webp", "industry": "D2C beauty & personal care", "website": "", "logoWall": true, "order": 15 },
+  { "slug": "hpmg-group", "name": "HPMG Group", "logo": "/assets/clients/hpmg.webp", "industry": "TODO-DATA", "website": "", "logoWall": true, "order": 16 },
+  { "slug": "colortek", "name": "Colortek", "legalName": "Colourtech Coating India", "logo": "", "industry": "Manufacturing / industrial coatings", "website": "", "logoWall": false, "order": 17 },
+  { "slug": "gi-packtech", "name": "GI PackTech", "logo": "", "industry": "Manufacturing / industrial & export packaging", "website": "", "logoWall": false, "order": 18 }
+]

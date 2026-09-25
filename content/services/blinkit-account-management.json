@@ -1,0 +1,65 @@
+{
+  "slug": "blinkit-account-management",
+  "group": "quick-commerce",
+  "order": 3,
+  "published": true,
+  "name": "Blinkit Account Management",
+  "shortName": "Blinkit management",
+  "promise": "In stock, visible and profitable on Blinkit, reviewed every month.",
+  "intro": "gaa-tha runs Blinkit account management for brands in India as a monthly operation: dark-store availability and fill rate tracked by city, purchase orders chased from raise to receipt, catalogue and thumbnails kept sharp, pricing and promotions planned to margin, Blinkit Ads optimised to a target ROAS, ratings monitored, settlements reconciled and one monthly review.",
+  "glance": {
+    "bestFor": "FMCG, food and beverage, beauty, baby and pet care brands already live on Blinkit",
+    "timeline": "Audit and setup in 1–2 weeks, then monthly",
+    "model": "Monthly management retainer; ad spend and platform charges paid directly to Blinkit",
+    "channels": "Blinkit app and website, Blinkit Ads"
+  },
+  "whatIs": [
+    "Blinkit account management is the ongoing operation of a brand's account on Blinkit after go-live: keeping SKUs available across dark stores, forecasting and coordinating purchase orders, maintaining catalogue content, planning pricing and promotions, running Blinkit Ads, monitoring ratings and reconciling what Blinkit pays against what was supplied. On a 10-minute platform an out-of-stock SKU loses its search rank within days, so availability is managed weekly rather than monthly.",
+    "At gaa-tha a named account manager owns the Blinkit account and reports on one dashboard. We track availability and fill rate by city and dark store, keep the PO cycle moving with your warehouse, plan promotions around Blinkit's sale days and festivals, and run ads only where stock can support the demand. The month ends with a review that shows sales, availability, ad ROAS, ratings and reconciled settlements side by side."
+  ],
+  "included": [
+    "Weekly dark-store availability and fill-rate tracking by city, with out-of-stock alerts",
+    "Purchase-order forecasting, follow-up, dispatch coordination and receipt confirmation",
+    "Catalogue upkeep: titles with pack size, thumbnails, secondary images, attributes and new SKU additions",
+    "Pricing and promotion planning to margin, including Blinkit sale days and festive events",
+    "Blinkit Ads management — product listing ads on search and category, plus banner campaigns — to a target ROAS",
+    "Ratings and customer-feedback monitoring with product, packaging and delivery issues routed to you",
+    "Settlement reconciliation: PO versus goods receipt, short receipts, damages, debit notes and marketing invoices",
+    "Account-health and compliance checks on labelling, MRP and shelf-life requirements",
+    "Monthly review report covering sales, availability, POs, ads, promotions, ratings and reconciliation"
+  ],
+  "steps": [
+    { "title": "Audit and baseline", "text": "We review current listings, availability by city, PO history, ad performance and past settlements, then agree the numbers the account is run against." },
+    { "title": "Availability and PO rhythm", "text": "A weekly availability check and a PO forecast are set up with your warehouse so stock is raised before dark stores run dry." },
+    { "title": "Content and pricing", "text": "Thumbnails, titles and attributes are fixed, pricing checked against margin, and a promotion calendar aligned to Blinkit's events." },
+    { "title": "Ads and visibility", "text": "Blinkit Ads campaigns are structured by SKU and city, run only where stock supports them, and optimised weekly against ROAS." },
+    { "title": "Reconcile and review", "text": "Settlements are reconciled against POs and receipts, disputes raised, and a monthly review covers every number in one report." }
+  ],
+  "deliverables": [
+    "Weekly availability and fill-rate tracker by city and dark store",
+    "Purchase-order log with forecast, raise, dispatch and receipt dates",
+    "Maintained Blinkit catalogue with current thumbnails and attributes",
+    "Promotion calendar and Blinkit Ads campaign structure",
+    "Monthly reconciliation statement with disputes and claims status",
+    "Monthly Blinkit account review report"
+  ],
+  "tools": ["Blinkit Seller Hub", "Blinkit Ads", "Google Sheets", "Looker Studio", "WhatsApp Business", "Adobe Photoshop"],
+  "pricing": "Monthly management retainer scoped to SKU count, cities and ad activity; Blinkit Ads spend and platform charges are paid by you directly to Blinkit.",
+  "faq": [
+    { "q": "How do you manage availability and fill rate on Blinkit?", "a": "We check availability at dark-store level every week, flag SKUs that are out of stock or low in any city, and measure supplier fill rate as quantity received against quantity ordered on each PO. Low availability is fixed by forecasting earlier and correcting quantities; low fill rate is fixed at your warehouse with packaging, labelling and dispatch discipline." },
+    { "q": "How do purchase orders work on Blinkit and what do you handle?", "a": "Blinkit raises POs for its warehouses based on demand and current stock, and the brand dispatches within the PO window. We forecast expected POs from sell-through, follow up when a PO is late, coordinate quantities and packaging with your team, track dispatch and receipt, and log short receipts or rejections so they can be disputed." },
+    { "q": "Do you maintain the catalogue and content?", "a": "Yes. Titles with pack size, thumbnails, secondary images, attributes and descriptions are kept current, new SKUs and pack variants are added, and listings are checked after every Blinkit template change. Content that stops a shopper in a two-second scroll is produced by the same in-house team." },
+    { "q": "How do you handle pricing and promotions on Blinkit?", "a": "Every promotion is planned to margin first: we model the discount, the platform's share and the expected uplift before agreeing to a sale day or festive event. Pricing is also checked across Zepto, Instamart and your own store so one channel does not undercut another." },
+    { "q": "Do you run Blinkit Ads?", "a": "Yes. Blinkit Ads offers product listing ads on search and category pages and banner placements, and we run them by SKU and city against a target ROAS. Ads are switched off in cities where the SKU is out of stock, because paying for clicks that cannot convert is the fastest way to waste budget on quick commerce." },
+    { "q": "How do you manage ratings on Blinkit?", "a": "We monitor ratings and feedback weekly, separate product complaints from packaging and delivery issues, and route each to the right owner — your production team, your warehouse or Blinkit's support. Recurring themes are reported monthly so pack or label changes can be made." },
+    { "q": "What does reconciliation involve?", "a": "Matching Blinkit's settlements to POs, goods receipt notes, short receipts, damages, returns, debit notes and marketing or ad invoices. Discrepancies are raised with Blinkit within the dispute window and tracked until closed, so your books reflect what was actually supplied and sold." },
+    { "q": "What is in the monthly review?", "a": "Sales and units by city and SKU, availability and fill rate, PO status, catalogue changes, promotions run and their margin impact, Blinkit Ads spend and ROAS, ratings trends and the reconciliation summary — followed by decisions on SKUs, cities and budget for the next month." }
+  ],
+  "related": ["blinkit-onboarding", "quick-commerce-ads", "zepto-account-management", "amazon-account-management"],
+  "reading": ["blog-how-to-do-better-marketing", "blog-marketing-strategy-guide"],
+  "meta": {
+    "title": "Blinkit Account Management Agency in India | gaa-tha",
+    "description": "Monthly Blinkit account management: dark-store availability, purchase orders, catalogue, pricing and promotions, Blinkit Ads, ratings and reconciliation."
+  },
+  "updated": "2026-09-25"
+}

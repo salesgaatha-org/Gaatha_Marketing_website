@@ -1,0 +1,65 @@
+{
+  "slug": "bigbasket-onboarding",
+  "group": "quick-commerce",
+  "order": 9,
+  "published": true,
+  "name": "BigBasket & BB Now Onboarding",
+  "shortName": "BigBasket onboarding",
+  "promise": "Vendor-registered, listed and stocked on BigBasket and BB Now, with the first PO received.",
+  "intro": "gaa-tha manages BigBasket and BB Now onboarding for brands in India: eligibility and margin review, GST, FSSAI and brand documentation, vendor registration and category approval with BigBasket's team, catalogue and images built to BigBasket's standards, city and warehouse planning across Bengaluru, Mumbai, Delhi NCR, Hyderabad and beyond, and go-live with the first purchase order received.",
+  "glance": {
+    "bestFor": "Staples, packaged food, fresh and dairy, household, personal care and regional brands with larger pack sizes",
+    "timeline": "3–6 weeks from complete documents to first purchase order",
+    "model": "One-time onboarding fee; optional monthly BigBasket account management after go-live",
+    "channels": "BigBasket app and website, BB Now quick delivery"
+  },
+  "whatIs": [
+    "BigBasket onboarding is the process of registering as a vendor, getting products approved and catalogued, and receiving the first purchase order on BigBasket, the Tata-owned online grocer, and BB Now, its 10–30-minute quick-delivery service. It covers business and brand documents, category and licence checks, commercial terms, catalogue creation to BigBasket's image and attribute standards, and supply into BigBasket's warehouses and dark stores. BigBasket is inventory-led, so brands supply against POs.",
+    "gaa-tha runs the application end to end and plans the range for how BigBasket is used. BigBasket started as a scheduled monthly-grocery platform and its shoppers still buy staples, fresh, dairy and larger packs alongside BB Now's quick baskets, so we lead with the pack sizes that suit both. It also has one of the widest city footprints in Indian quick commerce, reaching beyond the metros into tier-2 cities, which makes it a strong platform for regional brands. We plan launch cities from where your category already sells."
+  ],
+  "included": [
+    "Eligibility review of category, licences, shelf life and pack sizes against BigBasket's current requirements",
+    "Document pack: GST, PAN, bank proof, trademark or brand authorisation letter, FSSAI and other category licences",
+    "Vendor registration on BigBasket's vendor portal with every query from the category team handled by us",
+    "Commercial terms review — margins, listing and marketing contributions explained before you sign",
+    "Catalogue build: titles with pack size, thumbnails, secondary images, attributes and descriptions for BigBasket and BB Now",
+    "Range and pack-size plan that covers both scheduled grocery baskets and BB Now quick baskets",
+    "City and warehouse launch plan matched to your distribution, including tier-2 cities where BigBasket is present",
+    "First purchase order coordination: quantities, packaging, labelling, dispatch and goods receipt",
+    "Go-live checklist and handover to monthly account management or a self-management SOP"
+  ],
+  "steps": [
+    { "title": "Eligibility and economics", "text": "We check your category, licences and pack sizes against BigBasket's requirements and model the margin per SKU after platform terms before applying." },
+    { "title": "Documents and vendor registration", "text": "The document pack is verified and submitted through BigBasket's vendor process, and follow-ups with the category team are handled until approval." },
+    { "title": "Catalogue and range", "text": "Titles with pack size, thumbnails, secondary images and attributes are produced to BigBasket's specifications, with lead SKUs chosen for both scheduled and BB Now baskets." },
+    { "title": "Cities and first PO", "text": "Launch cities and warehouses are agreed, the first purchase order raised, and packaging, labelling and dispatch to BigBasket's warehouse coordinated." },
+    { "title": "Go-live and handover", "text": "Listings are checked live in every launch city on BigBasket and BB Now, availability verified, and the account handed to monthly management or your team." }
+  ],
+  "deliverables": [
+    "BigBasket document checklist with every item verified",
+    "Approved vendor registration on BigBasket",
+    "Live catalogue with thumbnails and attributes for every launch SKU",
+    "Range and pack-size plan for BigBasket and BB Now",
+    "City and warehouse launch map with the first PO tracked to goods receipt",
+    "Go-live report and account-management SOP"
+  ],
+  "tools": ["BigBasket Vendor Portal", "BigBasket Ads", "Google Sheets", "WhatsApp Business", "Adobe Photoshop", "AI image tools"],
+  "pricing": "One-time onboarding fee scoped to SKU count and categories; BigBasket's margins and charges are paid by you directly and shared in writing before you sign.",
+  "faq": [
+    { "q": "What documents do I need to sell on BigBasket?", "a": "Usually GST registration, PAN, bank proof, a trademark certificate or brand authorisation letter, FSSAI licence for food and beverages, and any category-specific licence such as cosmetics or organic certification. BigBasket also asks for product master data with MRP, barcodes, shelf life and pack images. We share a current checklist because requirements change by category." },
+    { "q": "How long does BigBasket onboarding take?", "a": "Typically 3–6 weeks from a complete document pack to the first purchase order. Vendor registration and category review come first, then catalogue QC, then the first PO and dispatch. Delays usually trace back to missing licences, barcodes or product data, so we verify the pack before submission." },
+    { "q": "Are there fees to get listed on BigBasket?", "a": "BigBasket works on category margins and may ask for listing, onboarding or marketing contributions that vary by category and change over time. We do not quote fixed figures; we obtain the current terms for your category and explain them before you commit." },
+    { "q": "Which categories does BigBasket accept?", "a": "Staples and grains, fresh produce, dairy and bakery, packaged food, snacks and beverages, household and cleaning, personal care and beauty, baby care, pet care, kitchen and home, and regional and speciality food. Larger pack sizes and monthly-grocery formats do better on BigBasket than on most quick-commerce rivals, and BB Now carries the quick-basket range." },
+    { "q": "What is the difference between BigBasket and BB Now?", "a": "BigBasket is the main app with scheduled delivery slots and BB Now is its quick-delivery service that brings orders in roughly 10–30 minutes from local dark stores; in many cities they are now one experience inside the same app. A brand is onboarded once as a vendor, and the range for BB Now is a curated subset chosen for quick baskets, which we plan with you." },
+    { "q": "Which cities should I launch on BigBasket first?", "a": "Bengaluru is BigBasket's home market, with Mumbai, Delhi NCR, Hyderabad, Chennai, Pune and Kolkata following, and a longer tier-2 footprint than most rivals. Start where your brand already has distribution and demand, and add cities as sell-through proves the range." },
+    { "q": "What happens at go-live?", "a": "We confirm every listing is live and searchable in each launch city on BigBasket and BB Now, check pricing, thumbnails and pack-size titles, verify stock is showing as available at the warehouses and dark stores that received it, and set up the availability tracker. The account then moves to monthly management or your own team with an SOP." },
+    { "q": "Should I onboard BigBasket before Blinkit and Zepto?", "a": "If your range is staples, fresh or larger packs, or your strength is in tier-2 cities, BigBasket can be the best first platform. For impulse FMCG in the metros, Blinkit and Zepto usually come first. We map your SKUs and cities against all of them before recommending, and the document pack largely carries across." }
+  ],
+  "related": ["blinkit-onboarding", "zepto-onboarding", "quick-commerce-agency", "meesho-jiomart-onboarding"],
+  "reading": ["blog-marketing-strategy-guide", "blog-how-to-do-better-marketing"],
+  "meta": {
+    "title": "BigBasket & BB Now Onboarding in India | gaa-tha",
+    "description": "BigBasket and BB Now onboarding for Indian brands: vendor registration, documents, category approvals, catalogue, pack-size planning, first PO and go-live."
+  },
+  "updated": "2026-09-25"
+}

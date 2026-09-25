@@ -1,0 +1,64 @@
+{
+  "slug": "ecommerce-seo",
+  "group": "ecommerce",
+  "order": 7,
+  "published": true,
+  "name": "Ecommerce SEO",
+  "shortName": "Ecommerce SEO",
+  "promise": "Collections and product pages that rank on Google and get cited by AI assistants — without paying for every click.",
+  "intro": "gaa-tha provides ecommerce SEO for Shopify and WooCommerce stores in India: keyword-mapped collection and product pages, Product, Review and Breadcrumb schema, technical fixes for crawl, speed and duplicate URLs, and blog clusters that feed your collections, so the store earns organic traffic on Google and gets cited in AI answers alongside paid ads.",
+  "glance": {
+    "bestFor": "Shopify and WooCommerce stores with 30+ products that want organic revenue to reduce ad dependence",
+    "timeline": "Audit and fixes in the first month; rankings build over 3–6 months",
+    "model": "Monthly retainer; one-time audit available",
+    "channels": "Google Search, Google Shopping free listings, AI Overviews, ChatGPT, Perplexity"
+  },
+  "whatIs": [
+    "Ecommerce SEO is the practice of making an online store's collection, product and content pages rank in Google and appear in AI-generated answers, so the store earns traffic and orders without paying per click. It differs from general SEO because stores have hundreds of similar pages, faceted filters, variants and out-of-stock products, all of which create duplicate and thin pages that must be managed deliberately.",
+    "gaa-tha maps buying keywords to collections first — because a collection page for cold-pressed groundnut oil converts better than a blog about it — then fixes the technical layer, adds schema so Google and AI assistants can read price, availability and ratings, and builds blog clusters that link into those collections. Rankings are reported alongside organic revenue, not just positions."
+  ],
+  "included": [
+    "Keyword research mapped to collections, sub-collections and product pages by buying intent",
+    "Collection page copy, titles and descriptions written answer-first for Google and AI assistants",
+    "Product page optimisation: titles, descriptions, alt text, variant and FAQ content",
+    "Product, Offer, Review, Breadcrumb and Organization schema markup",
+    "Technical SEO: crawl budget, faceted navigation, canonical tags, pagination, redirects and out-of-stock handling",
+    "Site speed and Core Web Vitals fixes on mobile",
+    "Internal linking from blog clusters to collections and from products to related collections",
+    "Google Merchant Center free listings and Search Console monitoring",
+    "Monthly report on rankings, organic sessions, organic revenue and AI citations"
+  ],
+  "steps": [
+    { "title": "Audit", "text": "Technical crawl, index coverage, current rankings, competitor collections and where organic revenue is coming from today." },
+    { "title": "Keyword map", "text": "Every target keyword is assigned to one collection, product or article so pages do not compete with each other." },
+    { "title": "Fix and build", "text": "Technical fixes, schema, collection copy and product page templates go live, with new collections created where demand exists." },
+    { "title": "Content clusters", "text": "Guides and comparisons are written around each priority collection and linked into it, giving Google and AI tools reasons to cite the store." },
+    { "title": "Track and expand", "text": "Monthly reporting on rankings and organic revenue, with the next collections and clusters chosen from the data." }
+  ],
+  "deliverables": [
+    "Ecommerce SEO audit with prioritised technical fixes",
+    "Keyword-to-page map for collections, products and content",
+    "Optimised collection and product page copy and metadata",
+    "Implemented schema markup validated in Search Console",
+    "Monthly content cluster articles linked to collections",
+    "Monthly ranking and organic revenue report"
+  ],
+  "tools": ["Google Search Console", "Google Analytics 4", "Google Merchant Center", "Screaming Frog", "Ahrefs", "Semrush", "Shopify", "WooCommerce"],
+  "pricing": "Monthly retainer scoped to catalogue size, the number of priority collections and the content volume; a one-time audit with a fix list is available for stores that want to implement in-house.",
+  "faq": [
+    { "q": "What is ecommerce SEO and how is it different from regular SEO?", "a": "Ecommerce SEO makes a store's collection and product pages rank and get cited, and it must handle problems ordinary websites do not have: hundreds of similar pages, filter URLs, variants, seasonal stock and product schema. Regular SEO focuses on a smaller set of service or content pages. gaa-tha runs ecommerce SEO for Shopify and WooCommerce stores as a monthly retainer." },
+    { "q": "How long does ecommerce SEO take to show results?", "a": "Technical fixes and schema can change how pages appear within weeks, while new rankings for competitive collection keywords usually take three to six months to build. Stores with existing authority and a clean structure move faster; new domains take longer and benefit from running ads in the meantime." },
+    { "q": "Should I optimise collection pages or write blogs?", "a": "Collections first. A collection page that ranks for a buying keyword sends visitors straight to products, while a blog post ranks for research keywords and needs a second step. Blogs come after, in clusters that link into the collections and give AI assistants a reason to cite you." },
+    { "q": "What schema markup does an online store need?", "a": "Product and Offer schema with price, currency and availability, AggregateRating and Review where you have reviews, BreadcrumbList on every page and Organization on the site. Shopify themes add some by default but it is often incomplete or duplicated, so we validate every template in Search Console." },
+    { "q": "How do you handle out-of-stock and discontinued products?", "a": "Temporarily out-of-stock products stay live with availability schema and a back-in-stock option, because deleting them loses rankings. Discontinued products are redirected to the closest replacement or the parent collection, never left as 404 pages." },
+    { "q": "Can ecommerce SEO get my products into ChatGPT and AI Overviews?", "a": "It helps. AI assistants draw on pages that answer clearly, carry structured data and are cited elsewhere, so answer-first collection copy, complete schema, FAQs on product pages and consistent brand facts across the web all raise the chance of being recommended. We track AI citations as part of monthly reporting." },
+    { "q": "Do you also run Google Shopping ads?", "a": "Yes, through our D2C performance marketing service. The same Merchant Center feed powers free listings and paid Shopping ads, so fixing the feed for SEO improves both." }
+  ],
+  "related": ["d2c-performance-marketing", "conversion-rate-optimisation", "shopify-development", "seo-aeo-geo"],
+  "reading": ["blog-seo-aeo-geo-guide", "blog-how-to-do-better-marketing"],
+  "meta": {
+    "title": "Ecommerce SEO Agency in India | gaa-tha",
+    "description": "Ecommerce SEO for Shopify and WooCommerce stores — keyword-mapped collections, Product and Review schema, technical fixes and blog clusters that convert."
+  },
+  "updated": "2026-09-25"
+}

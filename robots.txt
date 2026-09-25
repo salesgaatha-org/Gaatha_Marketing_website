@@ -1,17 +1,22 @@
 # gaa-tha — robots.txt
 # Welcome, crawlers and AI answer engines.
 # Machine-readable brand summary: https://gaa-tha.com/llms.txt
+# Full plain-text services and FAQs:  https://gaa-tha.com/llms-full.txt
 
 User-agent: *
 Allow: /
-Disallow: /GaathaAdmin123.html
 Disallow: /admin/
-Disallow: /workers/
+Disallow: /admin
+Disallow: /content-admin.html
+Disallow: /GaathaAdmin123.html
 Disallow: /manage.html
 Disallow: /reels-admin.html
 Disallow: /websites-admin.html
 Disallow: /branding-admin.html
 Disallow: /clients-admin.html
+Disallow: /workers/
+Disallow: /build/
+Disallow: /content/
 
 # AI / answer-engine crawlers — explicitly welcome (GEO)
 User-agent: GPTBot
@@ -47,18 +52,6 @@ Allow: /
 User-agent: Perplexity-User
 Allow: /
 
-# Bing powers ChatGPT search — explicitly welcome
-User-agent: Bingbot
-Allow: /
-Disallow: /GaathaAdmin123.html
-Disallow: /admin/
-Disallow: /workers/
-Disallow: /manage.html
-Disallow: /reels-admin.html
-Disallow: /websites-admin.html
-Disallow: /branding-admin.html
-Disallow: /clients-admin.html
-
 User-agent: Applebot-Extended
 Allow: /
 
@@ -70,6 +63,22 @@ Allow: /
 
 User-agent: meta-externalagent
 Allow: /
+
+# Bing powers several AI assistants — explicitly welcome
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Disallow: /admin
+Disallow: /content-admin.html
+Disallow: /GaathaAdmin123.html
+Disallow: /manage.html
+Disallow: /reels-admin.html
+Disallow: /websites-admin.html
+Disallow: /branding-admin.html
+Disallow: /clients-admin.html
+Disallow: /workers/
+Disallow: /build/
+Disallow: /content/
 
 # Sitemap
 Sitemap: https://gaa-tha.com/sitemap.xml

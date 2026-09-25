@@ -1,0 +1,18 @@
+{
+  "h1": "Everything your brand needs to be seen, chosen and bought.",
+  "intro": "From the first logo to the ten-minute delivery — one team, one story, every channel.",
+  "summary": "gaa-tha offers six practices from one in-house team in Gujarat, India: Brand & Creative (identity, design, reels, AI and cinema ads, product imagery, copy), Growth Marketing (strategy, social, Meta and Google ads, SEO/AEO/GEO, influencers, B2B leads, campaigns), D2C Ecommerce (Shopify and custom stores, CRO, shopping ads), Marketplaces (Amazon, Flipkart, Myntra, Nykaa, AJIO, Meesho, JioMart), Quick Commerce (Blinkit, Zepto, Swiggy Instamart, Flipkart Minutes, Amazon Now, BigBasket) and Websites & Technology.",
+  "stages": [
+    { "title": "Build", "text": "Brand, website, catalogue and the content system behind them." },
+    { "title": "Launch", "text": "Go live on your store, on marketplaces and on quick-commerce platforms." },
+    { "title": "Operate", "text": "Listings, availability, purchase orders, ratings and monthly reporting." },
+    { "title": "Grow", "text": "Ads, content, search and AI visibility that compound month on month." }
+  ],
+  "faq": [
+    { "q": "What services does gaa-tha offer?", "a": "Branding and graphic design, reels and short-form video, AI ads and cinema films, product photography and copywriting; marketing strategy, social media, Meta and Google ads, SEO/AEO/GEO, local SEO, influencer marketing, B2B lead generation and campaign planning; Shopify and ecommerce development, CRO and D2C performance marketing; marketplace onboarding and account management for Amazon, Flipkart, Myntra, Nykaa, AJIO, Meesho and JioMart; quick-commerce onboarding and management for Blinkit, Zepto, Swiggy Instamart, Flipkart Minutes, Amazon Now and BigBasket; and websites, apps and custom tools." },
+    { "q": "Do I have to buy a package, or can I start with one service?", "a": "Start with one. Most clients begin with a single project — a website, a brand identity, a marketplace onboarding — and add channels once the first one is working. Every service page lists what it includes on its own." },
+    { "q": "Which services are one-time projects and which are monthly?", "a": "Branding, websites, Shopify builds, catalogues, films and onboarding are one-time projects. Social media, ads management, SEO/AEO/GEO, store management and marketplace or quick-commerce account management are monthly retainers. Each service page shows its engagement model in the At a glance strip." },
+    { "q": "Is everything done in-house?", "a": "Yes. Strategy, design, video, AI production, copy, development, media buying and marketplace operations are in-house. For influencer campaigns we bring in creators from our network." },
+    { "q": "How do we start?", "a": "Use the contact form and tell us the service you are interested in, or email digimarketing@gaa-tha.com or call +91 97372 80309. We reply with a plan, scope and timeline, usually within 48 hours." }
+  ]
+}

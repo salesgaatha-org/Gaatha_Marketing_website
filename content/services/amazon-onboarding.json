@@ -1,0 +1,65 @@
+{
+  "slug": "amazon-onboarding",
+  "group": "marketplaces",
+  "order": 1,
+  "published": true,
+  "name": "Amazon Seller Onboarding",
+  "shortName": "Amazon onboarding",
+  "promise": "From GST certificate to live listings, Brand Registry and A+ content — without the rejections.",
+  "intro": "gaa-tha handles Amazon seller onboarding in India end to end: Seller Central registration, Brand Registry, category and restricted-category approvals, a clean catalogue with the right attributes, A+ content, a Brand Store and a go-live checklist covering pricing, FBA or Easy Ship and tax settings — so your first order arrives on a listing built to rank.",
+  "glance": {
+    "bestFor": "D2C, FMCG, home, beauty, fashion and manufacturers launching a retail brand on Amazon.in",
+    "timeline": "2–4 weeks from documents to live listings; Brand Registry and gated categories can add time",
+    "model": "One-time onboarding fee; optional monthly account management afterwards",
+    "channels": "Amazon.in Seller Central, Brand Registry, FBA, Easy Ship, Amazon Business"
+  },
+  "whatIs": [
+    "Amazon seller onboarding is the process of setting a brand up to sell on Amazon.in: registering a Seller Central account with GST, PAN and bank details, enrolling the trademark in Brand Registry, getting approval for gated categories, creating listings with correct attributes and images, adding A+ content and a Brand Store, and choosing how orders will be fulfilled. Done properly it takes a few weeks; done badly it becomes months of suppressed listings and support cases.",
+    "At gaa-tha onboarding is treated as the foundation of a marketplace P&L rather than a form-filling exercise. We work out the fee, shipping and return economics per SKU before anything goes live, build the catalogue so it can be optimised and advertised later, and hand over an account you own — every credential, document and approval in your business's name, not ours."
+  ],
+  "included": [
+    "Seller Central registration with GST, PAN, bank account and address verification",
+    "Brand Registry enrolment using your registered or applied-for trademark",
+    "Category and restricted-category (gated) approvals with the invoices and certificates Amazon asks for",
+    "Catalogue creation: parent–child variations, attributes, bullets, backend search terms and images to Amazon's specifications",
+    "A+ content modules and a Brand Store with a homepage and category pages",
+    "Fulfilment setup: FBA shipment plan, Easy Ship or Self Ship, and shipping templates",
+    "Pricing, MRP, HSN codes and tax settings checked SKU by SKU",
+    "Go-live checklist: listing QC, Buy Box eligibility, a test order and return settings",
+    "Handover document with logins, policies to watch and a 30-day post-launch plan"
+  ],
+  "steps": [
+    { "title": "Eligibility and documents", "text": "We check your GST, trademark status, category restrictions and product compliance, then share a documents checklist and the fee and margin picture for each SKU." },
+    { "title": "Registration and Brand Registry", "text": "The Seller Central account is registered and verified in your business's name, Brand Registry is filed, and gated-category applications go in with the right supporting paperwork." },
+    { "title": "Catalogue build", "text": "SKUs are structured into parent–child variations with complete attributes, keyword-led titles and bullets, backend search terms and images shot or retouched to Amazon's rules." },
+    { "title": "Content and store", "text": "A+ content modules and a Brand Store are designed and published so the listing tells the brand story and cross-sells the range from day one." },
+    { "title": "Go-live and handover", "text": "Fulfilment, pricing, tax and return settings are verified with a test order, listings go live, and you receive a handover pack plus a 30-day watch on suppressions, Buy Box and first reviews." }
+  ],
+  "deliverables": [
+    "Verified Seller Central account registered in your business's name",
+    "Brand Registry approval and any gated-category approvals",
+    "Uploaded catalogue with variations, attributes, search terms and compliant images",
+    "Published A+ content pages and Brand Store",
+    "Fulfilment configuration (FBA, Easy Ship or Self Ship) with shipping templates",
+    "Go-live checklist, handover document and 30-day post-launch plan"
+  ],
+  "tools": ["Amazon Seller Central", "Amazon Brand Registry", "A+ Content Manager", "Amazon Stores builder", "Fulfilment by Amazon (FBA)", "Amazon Easy Ship", "Google Sheets"],
+  "pricing": "One-time onboarding fee scoped to SKU count, categories and content volume; Amazon's own referral, closing and fulfilment fees are paid by you to Amazon, and we share the current structure for your category before you start.",
+  "faq": [
+    { "q": "What documents do I need to sell on Amazon India?", "a": "For most categories: a GST registration (regular scheme, not composition), PAN, a current bank account, identity and business address proof, and product details with MRP and HSN codes. Brand Registry needs a registered or applied-for trademark, and gated categories such as food, beauty or toys ask for invoices, FSSAI or BIS certificates. Requirements change, so gaa-tha shares a current checklist before you apply." },
+    { "q": "How long does Amazon seller onboarding take?", "a": "Account verification usually takes a few days to a week once documents are correct. Catalogue, images and A+ content take one to three weeks depending on SKU count, and Brand Registry or gated-category approvals can run in parallel or add a week or two. Most brands we onboard are live within two to four weeks." },
+    { "q": "What fees does Amazon charge sellers in India?", "a": "Amazon charges a referral fee by category, a closing fee by price band, shipping or FBA fulfilment fees, and storage fees if you use FBA; advertising is extra. The percentages vary by category and are revised from time to time, so we do not quote a number here — we share the current structure and model your net margin per SKU before listing." },
+    { "q": "Do I need a trademark to sell on Amazon?", "a": "No, you can sell without one, but Brand Registry requires a registered or pending trademark and unlocks A+ content, a Brand Store, Sponsored Brands ads and protection against copycat listings. If you do not have one, we help you file through a trademark attorney and start listing while the application is pending." },
+    { "q": "FBA or Easy Ship — which should I choose?", "a": "FBA suits fast-moving SKUs where the Prime badge and delivery speed drive conversion; Easy Ship suits bulky, fragile or slower SKUs shipped from your own warehouse; Self Ship rarely makes sense for a new seller. We model fees, returns and stock-holding per SKU and often recommend a mix." },
+    { "q": "I already sell on Flipkart. Can you reuse that catalogue for Amazon?", "a": "Largely, yes. Product data, sizes and pricing carry over, but Amazon's attribute fields, image rules (a pure white background main image, product filling most of the frame) and title conventions differ, so we re-map and re-check everything rather than pasting it across." },
+    { "q": "What happens once the listings go live?", "a": "The first 30 days are a watch period: we monitor suppressed listings, Buy Box status, first orders and early reviews, and fix anything Amazon flags. After that you can run the account yourself or move to our monthly Amazon account management." },
+    { "q": "What if a listing is suppressed or the account is deactivated during onboarding?", "a": "The usual causes are mismatched documents, missing attributes, MRP or image violations, or a category that needs approval. We fix the root cause, respond through Account Health with the evidence Amazon wants, and keep GST, bank and trademark details consistent from the start so it rarely happens." }
+  ],
+  "related": ["amazon-account-management", "marketplace-listing-optimisation", "flipkart-seller-management", "product-photography-ecommerce"],
+  "reading": ["blog-seo-aeo-geo-guide", "blog-ai-ads-and-ai-ad-shoots-guide", "blog-marketing-strategy-guide"],
+  "meta": {
+    "title": "Amazon Seller Onboarding Agency in India | gaa-tha",
+    "description": "Amazon.in seller registration, Brand Registry, gated-category approvals, catalogue, A+ content and Brand Store — onboarding done right the first time."
+  },
+  "updated": "2026-09-25"
+}

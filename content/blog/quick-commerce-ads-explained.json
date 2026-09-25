@@ -1,0 +1,64 @@
+{
+  "slug": "quick-commerce-ads-explained",
+  "published": false,
+  "type": "cluster",
+  "category": "Commerce",
+  "title": "Quick-commerce ads explained: search, category and banners",
+  "excerpt": "The ad formats on Blinkit, Zepto and Instamart, how they are bought and measured, when to start, and how to judge them at SKU level.",
+  "intro": "Quick-commerce ads are sponsored placements inside apps such as Blinkit, Zepto and Swiggy Instamart: search ads shown against keywords, category or listing ads shown while browsing, and banners for launches and festivals. They are bought on cost-per-click or cost-per-impression models and reported against attributed sales. They work best after availability and content are stable, and they should be judged on return per SKU and on organic rank lift, not on clicks.",
+  "takeaways": [
+    "Three formats: search, category or listing, and banner.",
+    "Start with brand and close category keywords; widen once data exists.",
+    "Ads on out-of-stock or poorly presented listings waste budget.",
+    "Judge at SKU level on return and on whether organic rank improves."
+  ],
+  "sections": [
+    {
+      "h2": "What ad formats do quick-commerce platforms offer?",
+      "html": "<div class=\"tbl-wrap\"><table>\n<thead><tr><th>Format</th><th>Where it appears</th><th>Use it for</th></tr></thead>\n<tbody>\n<tr><td>Search ads</td><td>Results for a typed keyword</td><td>Brand terms, close category terms, competitor terms with care</td></tr>\n<tr><td>Category or listing ads</td><td>Category pages and product carousels</td><td>Discovery for hero SKUs in relevant aisles</td></tr>\n<tr><td>Banner placements</td><td>Home and category banners</td><td>Launches, festivals, combo offers</td></tr>\n</tbody></table></div>\n<p>Names and buying models differ by platform and change periodically; the logic is stable.</p>\n<p>Search ads are the workhorse because intent is highest: a customer typing a product name is ready to buy. Category and banner placements are for discovery and for moments when the whole category is in demand, such as a festival week.</p>"
+    },
+    {
+      "h2": "When should a brand start running ads?",
+      "html": "<p>After fill rate is consistent on the SKUs you intend to promote and the thumbnails and titles are strong. A click that lands on an unavailable or unconvincing listing costs money twice: once for the click and again in the platform’s view of your conversion rate. Our sequence is availability, then <a href=\"/services/quick-commerce-content\">content</a>, then ads.</p>\n<p>A useful readiness test: would you be happy for a stranger to see the listing exactly as it is today, in every city you plan to advertise in? If the answer is no, fix that first.</p>"
+    },
+    {
+      "h2": "How should campaigns be structured?",
+      "html": "<p>Separate brand keywords from category keywords so budgets and bids can differ. Begin with a small daily budget on brand terms, add close category terms, then generic terms as the data shows which convert. Keep a list of terms that spend without selling and exclude them where the platform allows. Rotate creative for banners with each festival or launch. The full approach is described under <a href=\"/services/quick-commerce-ads\">quick commerce ads</a>.</p>"
+    },
+    {
+      "h2": "How do you measure quick-commerce ads honestly?",
+      "html": "<p>Read return on ad spend by SKU and by city rather than as one account average, and watch what happens to organic rank and sales when ads pause. Paid velocity that lifts organic placement is a good investment; paid sales that vanish the moment ads stop are a subsidy. Feed the ad numbers into the same per-SKU contribution view used for <a href=\"/services/quick-commerce-agency\">the whole channel</a>. A multi-SKU brand such as <a href=\"/work/charliee\">Charliee</a> would concentrate spend on a few packs rather than spread it thinly.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much do quick-commerce ads cost?",
+      "a": "Rates are auction-based and vary by platform, category and keyword competition, and they change over time. Start with a small daily budget on brand terms and scale on the basis of per-SKU return."
+    },
+    {
+      "q": "Do quick-commerce ads improve organic ranking?",
+      "a": "Paid velocity can improve organic placement on several platforms, but only when the listing converts and stays in stock. Test by watching organic sales after a period of paid activity."
+    },
+    {
+      "q": "Should I bid on competitor brand names?",
+      "a": "It can work for discovery in crowded categories, but conversion is usually lower and platform policies vary. Test with a small budget and keep it only if the return holds."
+    },
+    {
+      "q": "What is a good ROAS on quick commerce?",
+      "a": "It depends on the SKU’s margin after platform terms. Work out the return each SKU needs to stay profitable and judge campaigns against that, not against a general benchmark."
+    }
+  ],
+  "relatedServices": [
+    "quick-commerce-ads",
+    "quick-commerce-content",
+    "quick-commerce-agency",
+    "blinkit-account-management"
+  ],
+  "relatedCase": "charliee",
+  "author": "gaa-tha",
+  "readMinutes": 4,
+  "cover": "cov-e",
+  "mark": "Ad",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25"
+}

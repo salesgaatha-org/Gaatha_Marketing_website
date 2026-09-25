@@ -1,0 +1,68 @@
+{
+  "slug": "branding-agency",
+  "group": "brand-and-creative",
+  "order": 1,
+  "published": true,
+  "name": "Branding & Brand Identity",
+  "shortName": "Branding",
+  "promise": "The name, look, voice and rules that make a brand recognisable everywhere.",
+  "intro": "gaa-tha is a branding agency in India that builds the name, look, voice and rules that make a brand recognisable everywhere — from a 16px favicon to a 40-foot hoarding. Discovery workshop, positioning and brand story, logo and visual system, tone of voice, packaging direction and a guidelines PDF, delivered as a one-time project in two to four weeks.",
+  "glance": {
+    "bestFor": "New launches, rebrands and legacy businesses modernising — for example manufacturers moving into B2B export",
+    "timeline": "2–4 weeks",
+    "model": "One-time project, with optional retainer for ongoing design",
+    "channels": "Logo, print, packaging, social, website, signage and hoardings"
+  },
+  "whatIs": [
+    "Brand identity is the complete system of name, logo, colour, typography, imagery, tone of voice and usage rules that lets people recognise a business before they read a word. It is the difference between a logo file and a brand: the logo is one asset, the identity is the set of decisions that keeps every asset looking and sounding like the same company.",
+    "At gaa-tha branding starts with the story, not the sketch. A discovery workshop with the founders sets the positioning and the one idea the brand stands for; the logo, colour, type and graphic system are then designed to carry that idea across a favicon, a WhatsApp post, a pack of snacks and a highway hoarding, and written into a guidelines PDF so the identity survives new designers, printers and platforms."
+  ],
+  "included": [
+    "Brand discovery workshop with founders and the sales team",
+    "Positioning, brand story and messaging pillars",
+    "Naming and sub-brand naming support",
+    "Logo design or logo refresh, with responsive versions from favicon to hoarding",
+    "Colour, typography and graphic system",
+    "Tone of voice and writing rules",
+    "Stationery and collateral: visiting cards, letterheads, email signatures",
+    "Packaging direction and label system",
+    "Brand guidelines PDF",
+    "Social media templates for Instagram, LinkedIn and WhatsApp"
+  ],
+  "steps": [
+    { "title": "Discover", "text": "A half-day workshop with the founders covers the origin story, customers, competitors, ambitions and what must not change. We audit the current identity and every surface it appears on." },
+    { "title": "Position", "text": "We write the positioning, brand story and messaging pillars, and agree them before any visual work starts, so the design has something to say." },
+    { "title": "Design", "text": "Two or three logo and identity directions are presented as real mock-ups — packaging, hoarding, Instagram grid, website — not on white paper. One direction is chosen and refined." },
+    { "title": "Build the system", "text": "Colour, type, graphic devices, photography style, stationery, packaging direction and social templates are built out and tested at every size." },
+    { "title": "Hand over", "text": "You receive the guidelines PDF, all source and export files and a launch checklist; we can then roll the identity out across your website, socials and print." }
+  ],
+  "deliverables": [
+    "Positioning and brand story document",
+    "Primary logo, secondary marks and favicon in SVG, PNG and PDF with Illustrator and Figma source",
+    "Colour, typography and graphic system with usage rules",
+    "Brand guidelines PDF",
+    "Stationery and collateral files ready for print",
+    "Editable social media templates in Canva or Figma",
+    "Packaging or label direction with dielines where required"
+  ],
+  "tools": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "Canva", "Google Fonts", "Adobe Fonts", "Notion"],
+  "pricing": "One-time project fee scoped to the number of deliverables (logo only, identity system, or full rebrand with packaging and collateral); rollout across website, social and print is quoted separately.",
+  "faq": [
+    { "q": "What does a brand identity include?", "a": "A brand identity includes the logo and its variants, the colour palette, typography, graphic devices and imagery style, tone of voice, and the rules for using all of them — usually collected in a brand guidelines document. It often also covers stationery, social templates and packaging direction. gaa-tha delivers all of these in one project so nothing is left to interpretation later." },
+    { "q": "How much does branding cost in India?", "a": "Branding fees in India vary widely: a logo-only job from a freelancer costs a small fraction of a full identity system with research, packaging and rollout from a studio, and the price follows the depth of discovery, the number of deliverables and the seniority of the team. gaa-tha quotes a fixed project fee after a short call, scoped to exactly what you need, so there is no open-ended billing." },
+    { "q": "Can you refresh our logo without losing recognition?", "a": "Yes. A logo refresh keeps the elements people already recognise — usually the symbol, the colour or the name lockup — and fixes what is dated: proportions, typography, legibility at small sizes and how it works in a single colour. We test the refreshed mark next to the old one on your actual packaging and signage before you commit." },
+    { "q": "How long does a rebrand take?", "a": "Two to four weeks for the identity itself, from discovery workshop to guidelines. Rollout across website, packaging, signage and social depends on how many surfaces you have and on printer lead times, and usually runs a further two to six weeks." },
+    { "q": "Do we get the source files?", "a": "Yes. You receive editable source files in Adobe Illustrator and Figma, exports in SVG, PNG and PDF, and the fonts or licence links, along with the guidelines. The identity is yours outright; nothing is held back behind a retainer." },
+    { "q": "Do I need branding before I start marketing?", "a": "Usually yes, at least a minimum viable identity: logo, colours, type and a tone of voice. Marketing spends money to make people notice you; branding decides what they remember. If your current identity works, we build on it rather than replacing it." },
+    { "q": "Can you handle packaging and labels?", "a": "Yes. We set the packaging direction as part of the identity — hierarchy, colour coding by variant, space for mandatory declarations such as FSSAI and MRP panels — and design labels and boxes to your printer's dielines. Regulatory text is checked with you before print." },
+    { "q": "Do you rename businesses?", "a": "We do, when a name is blocking growth: too generic to trademark, too local for export, or too close to a competitor. Naming includes shortlists checked for domain availability, social handles and a preliminary trademark search, with the final legal search done by your trademark attorney." }
+  ],
+  "related": ["graphic-design", "catalogues-presentations", "content-writing-copywriting", "marketing-strategy"],
+  "reading": ["blog-branding-vs-marketing", "blog-what-is-graphic-design", "blog-marketing-strategy-guide"],
+  "existingPage": "/branding",
+  "meta": {
+    "title": "Branding Agency in India | gaa-tha",
+    "description": "Brand identity from positioning to guidelines — logo, colour, type, tone of voice, packaging direction and social templates, delivered in 2–4 weeks."
+  },
+  "updated": "2026-09-25"
+}

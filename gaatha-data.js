@@ -117,16 +117,17 @@
     }
 
     /* ---- Testimonials ------------------------------------------------------ */
+    /* Only quotes marked approved in the admin panel are ever shown; the
+       section stays hidden otherwise. */
     function renderTestimonials(items) {
-        if (!items.length) return; // keep designed fallback
-        var mapped = items.map(function (t) {
+        var mapped = items.filter(function (t) { return t.approved === true; }).map(function (t) {
+            var role = [t.role, t.company].filter(Boolean).join(', ');
             return {
-                q: t.description || t.quote || t.text || '',
-                n: t.clientName || t.name || '',
-                r: t.designation || t.role || t.company || '',
-                rating: t.rating || 5
+                q: t.quote || t.text || '',
+                n: t.name || '',
+                r: role || t.designation || ''
             };
-        }).filter(function (t) { return t.q; });
+        }).filter(function (t) { return t.q && t.n; });
         if (mapped.length && typeof window.setTestimonials === 'function') {
             window.setTestimonials(mapped);
         }
@@ -136,6 +137,17 @@
     function wireContactForm() {
         var form = document.querySelector('form.cform');
         if (!form) return;
+
+        // Service CTAs link here as /?service=<slug>#contact — pre-select it.
+        try {
+            var wanted = new URLSearchParams(window.location.search).get('service');
+            var sel = form.querySelector('select[name="service"]');
+            if (wanted && sel) {
+                for (var k = 0; k < sel.options.length; k++) {
+                    if (sel.options[k].value === wanted) { sel.selectedIndex = k; break; }
+                }
+            }
+        } catch (e) { /* no-op */ }
 
         var btn = form.querySelector('button[type="submit"], .btn-primary');
         var defaultLabel = btn ? btn.innerHTML : '';
@@ -159,6 +171,7 @@
                 email: get('email'),
                 company: get('company'),
                 budget: get('budget'),
+                service: get('service'),
                 message: get('message')
             };
 
@@ -192,6 +205,7 @@
                 var body = encodeURIComponent(
                     'Name: ' + data.name + '\nEmail: ' + data.email +
                     '\nCompany: ' + data.company + '\nBudget: ' + data.budget +
+                    '\nService: ' + data.service +
                     '\n\n' + data.message
                 );
                 window.location.href = 'mailto:digimarketing@gaa-tha.com?subject=' + subject + '&body=' + body;
@@ -208,7 +222,7 @@
             .then(function (res) {
                 renderClientLogos(toArray(res[0]), res[1] === true);
             });
-        once('testimonials').then(function (v) { renderTestimonials(toArray(v)); });
+        once('cms/testimonials').then(function (v) { renderTestimonials(toArray(v)); });
     }
 
     /* ============================== REELS =================================== */

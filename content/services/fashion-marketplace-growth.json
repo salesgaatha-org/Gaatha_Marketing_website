@@ -1,0 +1,64 @@
+{
+  "slug": "fashion-marketplace-growth",
+  "group": "marketplaces",
+  "order": 8,
+  "published": true,
+  "name": "Fashion & Licensed-Merch Marketplace Growth",
+  "shortName": "Fashion marketplace growth",
+  "promise": "Assortment, content, pricing and ads per platform — for fashion labels and licensed-IP merchandise.",
+  "intro": "gaa-tha builds growth plans for fashion and licensed-merchandise brands across Myntra, Flipkart, Nykaa Fashion, AJIO and Amazon: which styles go where, platform-specific content and imagery, a pricing and discount ladder that keeps margin through sale events, sponsored ads per platform, and monthly reviews of sell-through, returns and rank — one plan instead of five disconnected seller accounts.",
+  "glance": {
+    "bestFor": "Apparel, footwear and accessory labels, and brands selling licensed character, film, sports, anime or music merchandise",
+    "timeline": "Growth plan in 2–3 weeks, then a monthly retainer across platforms",
+    "model": "Monthly retainer scoped to platforms and style count; ad spend paid directly to each platform",
+    "channels": "Myntra, Flipkart, Nykaa Fashion, AJIO, Amazon Fashion, Shopsy"
+  },
+  "whatIs": [
+    "Fashion marketplace growth is the practice of running a fashion or licensed-merchandise brand across several marketplaces as one business: deciding the assortment each platform gets, producing content and imagery to each platform's standard, setting a pricing and discount ladder that holds through End of Reason Sale, Big Billion Days and festive events, running sponsored ads per platform, and reviewing sell-through, returns and rank by style every month. For licensed merchandise it also covers licensor approvals, IP paperwork and drop calendars tied to releases.",
+    "At gaa-tha the plan starts with the style sheet and the margin, not the platform. A hero style may deserve model imagery and ads on Myntra, a value variant may belong on Flipkart and Shopsy, and a limited licensed drop may need a launch date, artwork approvals and stock held back for one platform's event. We run the accounts so these decisions are made deliberately and reviewed monthly."
+  ],
+  "included": [
+    "Assortment plan: which styles, colours and price points go on Myntra, Flipkart, Nykaa Fashion, AJIO and Amazon",
+    "Platform-specific content: titles, attributes, size charts and imagery to each platform's template",
+    "Pricing and discount ladder for regular, event and end-of-season periods, with a margin floor per style",
+    "Sale-event calendar across platforms: End of Reason Sale, Big Fashion Festival, Big Billion Days, Big Bold Sale, Pink Friday and festive events",
+    "Sponsored ads per platform for hero styles and new drops, managed weekly",
+    "Licensed-merch workflow: licensor artwork and listing approvals, authorisation letters for marketplace IP checks, royalty-ready sales reporting",
+    "Drop planning for licensed releases and seasonal collections, with stock allocation by platform",
+    "Returns analysis by style and size, with fixes to size charts, imagery and packaging",
+    "Monthly sell-through, rank, returns and net-margin review by style and platform"
+  ],
+  "steps": [
+    { "title": "Range and margin review", "text": "We go through the style sheet, costs, current platform performance and, for licensed brands, the licence terms and approval process, and agree the number the plan is run against." },
+    { "title": "Assortment and pricing plan", "text": "Each style is assigned to the platforms where it can sell at margin, with a discount ladder that survives event pricing and a stock allocation by platform." },
+    { "title": "Content and catalogue", "text": "Listings, attributes, size charts and imagery are produced or fixed to each platform's standard, and licensed artwork and listings are cleared with the licensor before upload." },
+    { "title": "Ads, events and drops", "text": "Sponsored ads are set up per platform for hero styles, sale-event nominations are planned a season ahead, and licensed drops are scheduled around release dates." },
+    { "title": "Review and rebalance", "text": "Every month we review sell-through, returns, rank and net margin by style and platform, then move stock, budget and discounting to what is working." }
+  ],
+  "deliverables": [
+    "Assortment and platform allocation plan by style",
+    "Pricing and discount ladder with margin floors",
+    "Cross-platform sale-event and drop calendar for the season",
+    "Platform-ready catalogues and imagery",
+    "Licensor approval log and authorisation documents for marketplaces",
+    "Monthly sell-through, returns and net-margin review by style and platform"
+  ],
+  "tools": ["Myntra Partner Portal", "Flipkart Seller Hub", "Amazon Seller Central", "Nykaa Fashion seller tools", "AJIO seller tools", "Google Sheets", "Looker Studio"],
+  "pricing": "Monthly retainer scoped to the number of platforms, styles and ad accounts; platform commissions and ad spend are paid by you directly to each marketplace, and we share each platform's current structure before you commit.",
+  "faq": [
+    { "q": "What is a fashion marketplace growth plan?", "a": "It is a single plan for selling a fashion range across Myntra, Flipkart, Nykaa Fashion, AJIO and Amazon: which styles go where, how each is priced and discounted through the year, what content and imagery each platform gets, how much ad budget each hero style receives, and how sell-through and returns are reviewed. gaa-tha builds it and then runs the accounts against it." },
+    { "q": "Should a fashion brand be on every marketplace?", "a": "Usually not with the whole range. Each platform has a different buyer, fee structure and return behaviour, so a style that makes money on Myntra can lose money on a value platform. We put each style where the margin holds and keep a shared pricing ladder so platforms do not undercut each other." },
+    { "q": "How do you handle licensed merchandise on marketplaces?", "a": "Marketplaces check IP ownership, so listings need the licensor's authorisation letter and approved artwork, and licensors usually need to sign off on product images, listing copy and sometimes pricing. We run the approval workflow, keep the paperwork ready for brand-registry and IP checks, and produce sales reports in the format royalty statements need." },
+    { "q": "How do you keep margin through sale events?", "a": "With a discount ladder set in advance: a regular price, an event price and an end-of-season floor per style, each checked against fees, returns and cost. Styles that cannot meet the floor at event pricing are held out of the event or given limited stock rather than discounted into a loss." },
+    { "q": "How do you reduce fashion returns?", "a": "By analysing return reasons by style and size every month and fixing the cause: accurate size charts and measurement tables, honest colour and fabric imagery, fit notes in the listing, and packaging that arrives well. Styles with persistently high returns are repriced or dropped from the platforms where they are returned most." },
+    { "q": "Do you plan drops for licensed releases and collections?", "a": "Yes. Licensed drops are scheduled around film, series, sports or music release dates with artwork cleared in advance, stock allocated to the platforms where the audience is, and ads and event placements booked for launch week. Seasonal collections follow the same drop calendar." },
+    { "q": "Can you also run our own website alongside the marketplaces?", "a": "Yes. Many fashion brands keep exclusive styles or full-price launches on their Shopify store and use marketplaces for reach, and we plan the two together so pricing and stock make sense across both. Our D2C ecommerce team handles the store and performance marketing." }
+  ],
+  "related": ["myntra-onboarding", "ajio-onboarding", "marketplace-ads-management", "d2c-brand-launch"],
+  "reading": ["blog-marketing-strategy-guide", "blog-branding-vs-marketing", "blog-instagram-reels-strategy"],
+  "meta": {
+    "title": "Fashion Marketplace Growth Agency in India | gaa-tha",
+    "description": "Growth plans for fashion and licensed-merch brands across Myntra, Flipkart, Nykaa Fashion and AJIO — assortment, content, pricing ladders, ads and drops."
+  },
+  "updated": "2026-09-25"
+}
