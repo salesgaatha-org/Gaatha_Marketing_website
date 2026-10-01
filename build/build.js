@@ -390,6 +390,10 @@ function faqList(items, openFirst) {
     return `<div class="faq-item${open ? ' open' : ''}"><button class="faq-q" aria-expanded="${open ? 'true' : 'false'}">${esc(f.q)}<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div>${paras}${link}</div></div></div>`;
   }).join('\n')}</div>`;
 }
+// Long titles (case headlines, long post titles) take the smaller H1 size.
+const h1Class = (text, base = 'display') => `${base}${(text || '').length > 56 ? ' h1-long' : ''}`;
+// Headline text: keep hyphenated words ("in-store", "city-wide") on one line.
+const headline = (text) => esc(text).replace(/(\S*\w-\w\S*)/g, '<span class="nb">$1</span>');
 const sectionHead = (eyebrow, title, lead) => `<div class="section-head"><p class="eyebrow">${esc(eyebrow)}</p><h2 class="section-title display">${esc(title)}</h2>${lead ? `<p class="lead">${esc(lead)}</p>` : ''}</div>`;
 function stepsGrid(steps, cols, arrows) {
   return `<div class="steps cols-${cols}${arrows ? ' step-arrow' : ''}" data-stagger="0.06">${steps.map((s, i) => `<div class="step reveal"><span class="step-n">${pad2(i + 1)}</span><h3>${esc(s.title)}</h3><p>${esc(s.text)}</p></div>`).join('')}</div>`;
@@ -414,7 +418,7 @@ function caseCard(c) {
   ${slot({ ref: c.images && c.images.card, kind: 'Case card', ratio: '4:3', refPath: `caseStudies/${c.slug}`, key: 'card', small: true, alt: c.headline })}
   <div class="ccard-body">
     <div class="ccard-logo">${logoImg(client)}</div>
-    <h3>${esc(c.headline)}</h3>
+    <h3>${headline(c.headline)}</h3>
     <div class="ccard-tags">${tags.map((t) => `<span class="tag">${esc(t)}</span>`).join('')}</div>
     ${metrics.length ? `<div class="ccard-metrics">${metrics.map((m) => `<div><b>${esc(m.value)}</b><span>${esc(m.label)}</span></div>`).join('')}</div>` : ''}
     <span class="bp-more">Read the case study &rarr;</span>
@@ -451,10 +455,10 @@ function renderService(s) {
   <header class="page-hero">
     <div class="wrap">
       ${crumbs([['Home', '/'], ['Services', '/services'], [g.name, groupUrl(g)], [s.name]])}
+      <p class="eyebrow reveal hero-kicker">${esc(g.menuName || g.name)}</p>
       <div class="hero-grid">
-        <div>
-          <p class="eyebrow reveal" style="margin-top:18px">${esc(g.menuName || g.name)}</p>
-          <h1 class="display">${esc(s.name)}</h1>
+        <div class="hero-copy">
+          <h1 class="${h1Class(s.name)}">${esc(s.name)}</h1>
           <p class="lead">${esc(s.intro)}</p>
           <div class="hero-actions reveal" style="margin-top:26px">
             <a class="btn btn-primary btn-lg" href="${ctaFor(s.slug)}">Start a project <span class="arr">&rarr;</span></a>
@@ -573,7 +577,7 @@ function renderGroup(g) {
   <header class="page-hero">
     <div class="wrap">
       ${crumbs([['Home', '/'], ['Services', '/services'], [g.name]])}
-      <h1 class="display">${esc(g.name)}</h1>
+      <h1 class="${h1Class(g.name)}">${esc(g.name)}</h1>
       <p class="lead">${esc(g.tagline)}</p>
       <p class="ai-summary">${esc(g.intro)}</p>
     </div>
@@ -626,7 +630,7 @@ function renderHub() {
   <header class="page-hero">
     <div class="wrap">
       ${crumbs([['Home', '/'], ['Services']])}
-      <h1 class="display">${esc(hub.h1)}</h1>
+      <h1 class="${h1Class(hub.h1)}">${esc(hub.h1)}</h1>
       <p class="lead">${esc(hub.intro)}</p>
       <p class="ai-summary">${esc(hub.summary)}</p>
     </div>
@@ -689,22 +693,26 @@ function renderCase(c, next) {
     crumbSchema([['Home', '/'], ['Work', '/work'], [client.name, url]])
   ].concat((c.faq || []).length ? [faqSchema(c.faq)] : []);
   const galleryN = Number(c.gallery) || 6;
+  // Hero chips: industry plus the first four services; the rest sit in "Services used".
+  const chipNames = used.map((s) => s.shortName || s.name);
+  const heroChips = [c.industry].concat(chipNames.slice(0, 4)).filter(isFilled).map((t) => `<span class="chip static">${esc(t)}</span>`).join('')
+    + (chipNames.length > 4 ? `<a class="chip more" href="#services-used">+${chipNames.length - 4} more</a>` : '');
   let html = head({ title: c.meta.title, description: c.meta.description, canonical: url, ogType: 'article', ogImage: og && og.src, schema, active: 'Work', page: 'case', published: c.updated, modified: c.updated });
   html += `
   <div class="svc-hero">
   <header class="page-hero">
     <div class="wrap">
       ${crumbs([['Home', '/'], ['Work', '/work'], [client.name]])}
+      <div class="case-logo reveal hero-kicker">${logoImg(client)}</div>
       <div class="hero-grid">
-        <div>
-          <div class="case-logo reveal" style="margin-top:18px">${logoImg(client)}</div>
-          <h1 class="display">${esc(c.headline)}</h1>
+        <div class="hero-copy">
+          <h1 class="${h1Class(c.headline)}">${headline(c.headline)}</h1>
           <p class="lead">${esc(c.summary)}</p>
-          ${isFilled(c.answer) ? `<p class="ai-summary">${esc(c.answer)}</p>` : ''}
-          <div class="chips reveal" style="margin-top:22px">${[c.industry].concat(used.map((s) => s.shortName || s.name)).filter(isFilled).map((t) => `<span class="chip static">${esc(t)}</span>`).join('')}</div>
+          <div class="chips hero-chips reveal">${heroChips}</div>
         </div>
         <div class="hero-media reveal svc-hero-media">
           ${slot({ ref: c.images && c.images.hero, kind: 'Case hero', ratio: '16:9', refPath: `caseStudies/${c.slug}`, key: 'hero', alt: c.headline, eager: true })}
+          ${isFilled(c.answer) ? `<p class="ai-summary">${esc(c.answer)}</p>` : ''}
         </div>
       </div>
     </div>
@@ -767,7 +775,7 @@ ${(c.faq || []).length ? `
     </div>
   </section>` : ''}
 ${used.length ? `
-  <section class="section surface bordered">
+  <section class="section surface bordered" id="services-used">
     <div class="wrap">
       ${sectionHead('Services used', 'How to get the same')}
       <div class="grid grid-4" data-stagger="0.05">${used.map((s) => serviceCard(s)).join('')}</div>
@@ -775,7 +783,7 @@ ${used.length ? `
   </section>` : ''}
   <section class="section tight">
     <div class="wrap">
-      ${next ? `<a class="case-next reveal" href="${caseUrl(next)}"><span><span class="eyebrow">Next case study</span><h3>${esc(next.headline)}</h3></span><span class="btn btn-ghost">Read next <span class="arr">&rarr;</span></span></a>` : `<a class="case-next reveal" href="/work"><span><span class="eyebrow">More work</span><h3>Browse every case study</h3></span><span class="btn btn-ghost">Back to work <span class="arr">&rarr;</span></span></a>`}
+      ${next ? `<a class="case-next reveal" href="${caseUrl(next)}"><span><span class="eyebrow">Next case study</span><h3>${headline(next.headline)}</h3></span><span class="btn btn-ghost">Read next <span class="arr">&rarr;</span></span></a>` : `<a class="case-next reveal" href="/work"><span><span class="eyebrow">More work</span><h3>Browse every case study</h3></span><span class="btn btn-ghost">Back to work <span class="arr">&rarr;</span></span></a>`}
     </div>
   </section>
 `;
@@ -799,7 +807,7 @@ function renderBlogPost(b) {
 <header class="article-hero">
   <div class="wrap">
     ${crumbs([['Home', '/'], ['Blog', '/blog'], [b.category]])}
-    <h1 class="reveal">${esc(b.title)}</h1>
+    <h1 class="${h1Class(b.title, 'reveal')}">${headline(b.title)}</h1>
     <div class="article-meta reveal">
       <span>By gaa-tha</span><span class="dot">&middot;</span>
       <time datetime="${b.datePublished}">${fmtDate(b.datePublished)}</time><span class="dot">&middot;</span>
@@ -939,6 +947,17 @@ function blogGeneratedCards() {
     return `<a class="bpost reveal" href="${p.url}" data-cat="${esc(p.category)}"><div class="bp-cover ${p.cover}">${esc(p.mark)}</div><div class="bp-body"><span class="bp-tag">${esc(p.tag)}</span><h3>${esc(p.title)}</h3><p>${esc(b.excerpt)}</p><div class="bp-meta"><span>${fmtDate(p.date)} &middot; ${p.minutes} min read</span><span class="bp-more">Read &rarr;</span></div></div></a>`;
   }).join('\n');
 }
+// Hand-written H1s get the same treatment as generated ones: long titles take
+// the smaller size and hyphenated words stay on one line. Idempotent.
+function syncTitles(html) {
+  return html.replace(/(<h1\b[^>]*>)([\s\S]*?)(<\/h1>)/g, (m, open, inner, close) => {
+    const text = inner.replace(/<[^>]+>/g, '');
+    if (text.length > 56 && !/\bh1-long\b/.test(open)) open = /class="/.test(open) ? open.replace('class="', 'class="h1-long ') : open.replace('<h1', '<h1 class="h1-long"');
+    const parts = inner.split(/(<[^>]+>)/);
+    const out = parts.map((part, i) => (i % 2 || parts[i - 1] === '<span class="nb">') ? part : part.replace(/(\S*\w-\w\S*)/g, '<span class="nb">$1</span>'));
+    return open + out.join('') + close;
+  });
+}
 function syncExistingPages() {
   PUBLIC_PAGES().forEach((file) => {
     const p = path.join(ROOT, file);
@@ -946,6 +965,7 @@ function syncExistingPages() {
     const before = html;
     html = fixLinks(html);
     html = syncChrome(file, html);
+    html = syncTitles(html);
     if (file === 'index.html') {
       html = fillMarker(html, 'home:services-groups', homeServiceGroups());
       html = fillMarker(html, 'home:faq-commerce', homeFaqCommerce());

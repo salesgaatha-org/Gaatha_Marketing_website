@@ -127,6 +127,11 @@
     /* Metrics */
     --maxw: 1200px;
     --pad: clamp(20px, 5vw, 56px);
+    /* Heading scale — one H1 pair (short / long titles) and one H2 size shared
+       by every interior page, so headings sit the same everywhere. */
+    --fs-h1: clamp(2.125rem, 1.45rem + 2.4vw, 3.5rem);      /* 34 → 56px */
+    --fs-h1-long: clamp(1.75rem, 1.2rem + 1.7vw, 2.75rem);  /* 28 → 44px */
+    --fs-h2: clamp(1.75rem, 1.25rem + 1.7vw, 2.75rem);      /* 28 → 44px */
     --nav-h: 72px;
     --r-sm: 8px;
     --r:    12px;
@@ -234,6 +239,7 @@ h1, h2, h3, h4 {
 
 .accent { color: var(--accent-ink); }
 .it { font-style: italic; }
+.nb { white-space: nowrap; }
 
 .sep { color: var(--line-2); margin: 0 10px; }
 .num, .gnum {
@@ -262,7 +268,7 @@ h1, h2, h3, h4 {
     margin-bottom: clamp(28px, 3.6vw, 46px);
     max-width: 760px;
 }
-.section-head .section-title { font-size: clamp(1.875rem, 4.2vw, 3rem); }
+.section-head .section-title { font-size: var(--fs-h2); }
 .section-head.center { margin-inline: auto; align-items: center; text-align: center; }
 
 .head-row {
@@ -452,7 +458,7 @@ a:hover > .arr, .btn:hover .arr { transform: translateX(3px); }
 .hero-lead { margin-bottom: 28px; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
 
-.hero-media { display: flex; flex-direction: column; }
+.hero-media { display: flex; flex-direction: column; min-width: 0; }
 /* The showreel is a 1280×720 master — 16:9 is held at every width so it is
    never letterboxed or cropped. */
 .hero-frame {
@@ -829,7 +835,6 @@ a.card:hover { border-color: var(--ink); }
 .faq-group {
     margin-bottom: clamp(40px, 5vw, 64px);
     max-width: 880px;
-    margin-inline: auto;
 }
 .faq-group-title {
     display: flex; align-items: baseline; gap: 12px;
@@ -929,7 +934,7 @@ a.card:hover { border-color: var(--ink); }
     padding-bottom: clamp(28px, 4vw, 44px);
 }
 .article-hero h1 {
-    font-size: clamp(2rem, 4.8vw, 3.375rem);
+    font-size: var(--fs-h1);
     line-height: 1.08; letter-spacing: -0.03em;
     margin: 20px 0 20px;
     max-width: 20ch;
@@ -1089,12 +1094,20 @@ a.card:hover { border-color: var(--ink); }
     padding-bottom: clamp(40px, 5vw, 64px);
 }
 .page-hero h1 {
-    font-size: clamp(2.25rem, 5.6vw, 4rem);
-    line-height: 1.05; letter-spacing: -0.035em;
+    font-size: var(--fs-h1);
+    line-height: 1.06; letter-spacing: -0.035em;
     margin: 18px 0 22px;
-    max-width: 18ch;
+    max-width: 20ch;
 }
 .page-hero .lead { max-width: 60ch; }
+/* Long titles (case-study headlines, long post titles) step down one size and
+   wrap "pretty" instead of balanced, so they never stack into a tall column. */
+.page-hero h1.h1-long, .article-hero h1.h1-long {
+    font-size: var(--fs-h1-long);
+    line-height: 1.12; letter-spacing: -0.025em;
+    max-width: 28ch;
+    text-wrap: pretty;
+}
 
 /* AI/answer-engine summary paragraph */
 .ai-summary {
@@ -1399,7 +1412,7 @@ a.card:hover { border-color: var(--ink); }
 }
 .footer-cta h2 {
     color: var(--white);
-    font-size: clamp(1.75rem, 4vw, 3rem);
+    font-size: var(--fs-h2);
     letter-spacing: -0.03em;
     max-width: 16ch;
 }
@@ -1619,6 +1632,11 @@ a.card:hover { border-color: var(--ink); }
 
 @media (max-width: 620px) {
     body { font-size: 15.5px; }
+    /* Interior heroes: tighter top, titles use the full width, lead one step down. */
+    .page-hero { padding-top: calc(var(--nav-h) + 28px); padding-bottom: 32px; }
+    .page-hero h1, .page-hero h1.h1-long, .article-hero h1, .article-hero h1.h1-long { max-width: none; }
+    .page-hero .lead { font-size: 1rem; line-height: 1.6; }
+    .hero-kicker { margin: 14px 0 12px; }
     .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
     .stats { grid-template-columns: repeat(2, 1fr); }
     .frow { grid-template-columns: 1fr; }
@@ -1777,7 +1795,7 @@ a.card:hover { border-color: var(--ink); }
     background: rgba(255, 255, 255, 0.92); border: 1px solid var(--accent-line);
     color: var(--accent-ink);
     font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
-    white-space: nowrap;
+    max-width: calc(100% - 28px); text-align: center;
 }
 .ph-label::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
 .ph.sm .ph-label { padding: 6px 10px; font-size: 0.5625rem; gap: 7px; }
@@ -1789,13 +1807,25 @@ a.card:hover { border-color: var(--ink); }
 .ph.r-og   { --ratio: 1200 / 630; }
 .ph.r-logo { --ratio: 5 / 2; }
 
-/* Service / case hero: copy left, media right. */
-.svc-hero .hero-grid { grid-template-columns: 1.05fr 1fr; }
+/* Service / case hero: copy left, media right. The kicker (eyebrow or client
+   logo) sits above the grid, so the media's top edge lines up with the title
+   instead of floating beside the middle of a column of copy. */
 .svc-hero .page-hero { padding-bottom: 0; }
-.svc-hero-media { margin-top: clamp(24px, 3vw, 40px); }
+.svc-hero .hero-grid {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    gap: clamp(28px, 5vw, 72px);
+    align-items: start;
+}
+.hero-kicker { display: flex; margin: 18px 0 16px; }
+.svc-hero .hero-grid h1 { margin-top: 0; }
+.hero-chips { margin-top: 22px; }
+.hero-chips .chip { padding: 7px 14px; font-size: 0.8125rem; }
+.hero-chips .chip.more { color: var(--accent-ink); border-color: var(--accent-line); }
+.svc-hero-media { margin-top: 6px; }
+.svc-hero-media .ai-summary { margin-top: 18px; max-width: none; }
 @media (max-width: 960px) {
-    .svc-hero .hero-grid { grid-template-columns: 1fr; }
-    .svc-hero-media { order: 1; }
+    .svc-hero .hero-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+    .svc-hero-media { order: 1; margin-top: 0; }
 }
 
 /* At-a-glance chips */
@@ -1889,9 +1919,10 @@ a.card:hover { border-color: var(--ink); }
 .ccard-logo { height: 34px; display: flex; align-items: center; }
 .ccard-logo img { max-height: 34px; width: auto; max-width: 150px; mix-blend-mode: multiply; }
 .ccard-logo span { font-family: var(--display); font-weight: 800; font-size: 1rem; letter-spacing: -0.02em; }
-.ccard h3 { font-size: 1.125rem; line-height: 1.3; }
+.ccard h3 { font-size: 1.0625rem; line-height: 1.32; text-wrap: pretty; }
 .ccard-tags { display: flex; flex-wrap: wrap; gap: 6px; }
-.ccard-tags .tag { font-size: 0.625rem; }
+/* A long industry tag shrinks to the card and ellipsises rather than poking out of it. */
+.ccard-tags .tag { font-size: 0.625rem; flex: 0 1 auto; min-width: 0; max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .ccard-metrics {
     margin-top: auto; padding-top: 14px; border-top: 1px solid var(--line);
     display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;
@@ -1904,6 +1935,7 @@ a.card:hover { border-color: var(--ink); }
 /* Case-study page pieces */
 .case-logo { display: inline-flex; align-items: center; height: 52px; margin-bottom: 8px; }
 .case-logo img { max-height: 52px; width: auto; max-width: 220px; mix-blend-mode: multiply; }
+.case-logo span { font-family: var(--display); font-weight: 800; font-size: 1.25rem; letter-spacing: -0.02em; color: var(--ink); }
 .case-glance {
     display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
     background: var(--line); border: 1px solid var(--line); border-radius: var(--r-lg); overflow: hidden;
@@ -1915,12 +1947,12 @@ a.card:hover { border-color: var(--ink); }
 @media (max-width: 760px) { .case-glance { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px) { .case-glance { grid-template-columns: 1fr; } }
 
-.workstream { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 4vw, 48px); align-items: center; padding-block: clamp(22px, 3vw, 34px); border-top: 1px solid var(--line); }
+.workstream { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(24px, 4vw, 48px); align-items: center; padding-block: clamp(22px, 3vw, 34px); border-top: 1px solid var(--line); }
 .workstream:first-child { border-top: 0; padding-top: 0; }
 .workstream:nth-child(even) .ws-media { order: -1; }
 .workstream h3 { font-size: 1.25rem; margin-bottom: 10px; }
 .workstream p { font-size: 0.9688rem; color: var(--muted); max-width: 52ch; }
-@media (max-width: 760px) { .workstream { grid-template-columns: 1fr; } .workstream:nth-child(even) .ws-media { order: 0; } }
+@media (max-width: 760px) { .workstream { grid-template-columns: minmax(0, 1fr); } .workstream:nth-child(even) .ws-media { order: 0; } }
 
 .case-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 @media (max-width: 760px) { .case-gallery { grid-template-columns: repeat(2, 1fr); gap: 12px; } }
