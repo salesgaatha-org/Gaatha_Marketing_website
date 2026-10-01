@@ -1,6 +1,6 @@
 # gaa-tha — full text of services and FAQs
 
-Generated 2026-09-25. Source: https://gaa-tha.com. Short version: https://gaa-tha.com/llms.txt
+Generated 2026-10-01. Source: https://gaa-tha.com. Short version: https://gaa-tha.com/llms.txt
 
 
 
@@ -3742,125 +3742,192 @@ A: Tools use role-based access, HTTPS, per-user logins and backups, and run on G
 https://gaa-tha.com/work
 
 
-## CDS Stores: A city-wide Diwali campaign — outdoor, influencers, Meta and a cinema ad — on one ₹2 lakh budget.
+## CDS Stores: CDS Stores: year-round Meta campaigns, city-wide outdoor and in-store marketing for a gifting retailer.
 https://gaa-tha.com/work/cds-stores
 
-Making CDS Stores the first-choice Diwali destination in Vapi and Valsad for sweets, hampers, dry fruits and bulk gifting.
+gaa-tha is CDS Stores' 360° marketing partner in Vapi and Valsad — Meta campaigns, city-wide banners and print, in-store branding and screen content, festive campaigns with cinema ads and influencers, and the cdsstores.in website we built.
 
-Industry: Retail / sweets, dry fruits & gifting. Services: Campaign Planning (Festive & Launch), Cinema & Film Ads, AI Ads & AI Ad Shoots, Graphic Design, Influencer & UGC Marketing, Meta Ads Agency, Shopify Store Design & Development.
+Industry: Retail / sweets, dry fruits & gifting. Services: Meta Ads Agency, Campaign Planning (Festive & Launch), Graphic Design, Cinema & Film Ads, AI Ads & AI Ad Shoots, Influencer & UGC Marketing, Social Media Marketing, Shopify Store Design & Development, Shopify Store Management & Maintenance.
 
-CDS Stores sells premium sweets, dry fruits, hampers and corporate gifting in Vapi and Valsad. Diwali is the season that decides the year, and the brief was simple to say and hard to do: be the first name people think of for gifting in both cities, on a total budget of ₹2 lakh.
+gaa-tha is the retainer marketing agency for CDS Stores, a sweets, dry-fruits and gifting retailer in Vapi and Valsad, Gujarat. We run its Meta ad campaigns, city-wide banners and print media, in-store marketing including the TV screens and media banners inside the stores, festive campaigns with influencers and cinema ads, and its website.
 
-That meant one message carried across outdoor, influencers, Meta ads and a cinema screen — planned as one campaign, not four.
+CDS Stores sells premium sweets, dry fruits, hampers and corporate gifting from stores in Vapi and Valsad. Its year is a series of festive peaks — Ganpati, Raksha Bandhan, Diwali, weddings — and each one is won or lost in the same two cities, on the street, on Instagram and inside the store.
 
-Campaign planning: A 6 October – 14 November campaign with the budget split across outdoor banners (store-front, auto-rickshaw and bus panels), influencer collaborations (15–20 collab reels and 5 page collaborations) and Meta ads, with one key visual and one calendar.
+The retailer needed one partner who could keep demand steady between festivals and then turn each season into a city-wide campaign: Meta ads, outdoor and print across both cities, in-store branding and screen content that sells at the counter, and a website that takes hamper and gifting orders. gaa-tha handles all of it on a retainer.
 
-Outdoor creative: Premium, minimal category banners for sweets, hampers, dry fruits, corporate gifting and the live sweets counter — each category with its own colour code so the auto-rickshaw panels read from across the road.
+Meta ad campaigns, all year: Always-on and festive campaigns on Facebook and Instagram targeted to Vapi and Valsad, with click-to-WhatsApp for bulk and corporate gifting enquiries and creative refreshed for every occasion.
 
-Cinema ad: A 10-second trailer-style AI film: products drop into frame with bold title cards — sweets, hampers, dry fruits, namkeen, chocolates, live sweets, bulk gifting — then the storefront and a closing card with locations and numbers, letterboxed to cinema scope.
+City-wide banners and print media: Outdoor and print across both cities — store-front banners, auto-rickshaw and bus panels, hoardings and leaflets — designed as premium, minimal category systems with a colour code per category so they read from across the road.
 
-AI film (style reference): An earlier Ganpati festive AI ad set the visual language for the campaign and became the reference for the Diwali film.
+In-store marketing and branding: Everything the shopper sees inside the stores: content for the in-store TV screens, media banners, category signage and counter displays, so the message from the street carries through to the shelf and the billing counter.
 
-Shopify: Ongoing support for the cdsstores.in store so online hamper and gifting orders had a clean path during the campaign.
+Festive campaigns and cinema ads: 360° festive campaigns planned as one idea, one budget and one calendar — for example a Diwali campaign split across outdoor, 15–20 influencer collab reels, Meta ads and a 10-second trailer-style AI cinema ad, with an earlier Ganpati AI film setting the visual language.
 
-Meta ads & social: Festive Meta campaigns targeted to Vapi and Valsad alongside the influencer content, with click-to-WhatsApp for bulk and corporate enquiries.
+Website — built and managed: We built and handle the cdsstores.in Shopify store so hamper, gifting and festive orders have a clean online path, with seasonal collections and banners set up for every campaign.
 
-The campaign runs until 14 November 2026. Footfall, sales uplift, corporate orders, reach and cost-per-result are published here once the season closes and the numbers are confirmed.
+Social media and influencers: Instagram content and influencer collaborations that keep CDS Stores visible between festivals and amplify each campaign when it lands.
 
-## Charliee: Rebuilding a 200+ SKU snack brand's online store — and its sales engine.
+CDS Stores now runs every touchpoint — Meta, the street, print, in-store screens, cinema, influencers and the website — through one team, so each festive season is planned as one campaign rather than four. Footfall, sales uplift, corporate orders and reach are published here per campaign once the numbers are confirmed.
+
+Q: Which agency handles marketing for CDS Stores in Vapi and Valsad?
+A: gaa-tha handles CDS Stores' marketing on a retainer — Meta ads, city-wide banners and print media, in-store branding and screen content, festive campaigns with influencers and cinema ads, and the cdsstores.in website.
+
+Q: What in-store marketing does gaa-tha do for CDS Stores?
+A: We create the content for the in-store TV screens, media banners, category signage and counter displays, matched to whatever campaign is running outside the store.
+
+Q: How does gaa-tha plan a festive campaign for a local retailer?
+A: One idea, one budget and one calendar across outdoor, print, Meta ads, influencers, cinema and in-store — so every channel says the same thing at the same time and results are reported together.
+
+## Charliee: Charliee: a 360° growth partnership across Shopify, marketplaces, quick commerce and brand campaigns.
 https://gaa-tha.com/work/charliee
 
-A full Shopify overhaul, a clean 200-SKU catalogue, export-facing creative and a sales-meet kit for Charliee (Baijay International).
+gaa-tha runs Charliee's (Baijay International) digital business year-round — the Shopify store we built, Amazon and Flipkart, Blinkit, Zepto and Swiggy Instamart, Meta and Google brand campaigns, creative and sales material for a 200+ SKU snack range.
 
-Industry: FMCG / packaged snacks. Services: Shopify Store Design & Development, Shopify Store Management & Maintenance, Ecommerce Product Photography, Graphic Design, Catalogues, Presentations & Sales Kits, AI Ads & AI Ad Shoots, Custom Tools & Automations.
+Industry: FMCG / packaged snacks. Services: Shopify Store Design & Development, Shopify Store Management & Maintenance, Amazon Account Management, Flipkart Onboarding & Account Management, Quick Commerce Management, Blinkit Account Management, Zepto Account Management, Instamart Account Management, Quick Commerce Ads, Meta Ads Agency, Google Ads Agency, Ecommerce Product Photography, AI Ads & AI Ad Shoots, Catalogues, Presentations & Sales Kits, Custom Tools & Automations.
 
-Charliee is a large regional snack brand with more than 200 SKUs across namkeen, chikki, khakhra, chips, sweets and bakery. Its online store did not reflect the quality of the products, the catalogue was inconsistent, and the brand needed marketing assets that worked for two very different buyers: domestic consumers and white-label export customers.
+gaa-tha is the retainer marketing and ecommerce partner for Charliee, a 200+ SKU packaged-snack brand from Gujarat. We designed and built its Shopify website and manage it, run its Amazon and Flipkart accounts, manage quick commerce on Blinkit, Zepto and Swiggy Instamart, and plan its brand campaigns across Meta and Google — one team for every channel.
 
-The brief was to rebuild the store as a proper sales channel, bring the catalogue under control, and give the field sales team and export desk material they would actually use.
+Charliee is a large regional snack brand with more than 200 SKUs across namkeen, chikki, khakhra, chips, sweets and bakery, sold through its own website, on Amazon and Flipkart, and on 10-minute delivery apps. Each channel has its own catalogue rules, ad system, pricing pressure and reporting — and the brand also sells white-label to export buyers and through a field sales team in Gujarat and Mumbai.
 
-Shopify website: A full UI/UX audit and overhaul of the store, starting with a homepage prototype and a product-content workbook covering all 200+ SKUs. We rebuilt the product cards and contact page, added a corporate-gifting page and category cover imagery, and built a batch-number lookup tool so customers can check a pack's details. Store handling is ongoing, including bulk MRP updates across categories.
+Charliee did not need another one-off campaign. It needed one partner who could run every digital channel to the same plan, all year: build and handle the website, grow the marketplaces and quick-commerce apps, keep brand campaigns running on Meta and Google, and supply the creative and sales material that ties it together. That is the retainer gaa-tha runs.
 
-Branding & creative: Category visuals for the store and social, AI-produced product imagery for the long tail of SKUs, and cinematic product ads for launches and festive pushes.
+Shopify website — built and managed: We designed and built Charliee's Shopify store from a UI/UX audit and homepage prototype, with a product-content workbook covering all 200+ SKUs, rebuilt product cards, a corporate-gifting page, category cover imagery and a batch-number lookup tool customers use to check a pack's details. We handle the store month to month — product uploads, bulk MRP updates across categories, banners, festive setups and fixes.
 
-B2B & export creative: Advertising creatives that position Charliee as a white-label manufacturing partner for export buyers, separate in tone and format from the consumer-facing work.
+Quick commerce: Blinkit, Zepto and Swiggy Instamart: We manage Charliee on the quick-commerce apps end to end: catalogue and thumbnails that win a two-second scroll, pack sizes, dark-store availability, purchase orders, pricing and promotions, and sponsored search, category and banner ads run by SKU and city.
 
-Sales enablement: An annual sales-meet kit for the field team across Gujarat and Mumbai — target workbooks, price lists, a standee and the speech — so the plan for the year was in every rep's hands on day one.
+Ecommerce marketplaces: Amazon and Flipkart: Account management for Amazon.in and Flipkart — listings and titles written for search, image stacks, pricing, deals and sale events, Sponsored ads and Flipkart PLA/PCA campaigns, account health and monthly reporting on sales by platform.
 
-The store now carries a complete, consistent catalogue with imagery per category, a gifting route for corporate buyers and tooling that reduces support queries. Impact figures are published here once confirmed from store and sales reports.
+Brand campaigns on Meta and Google: Always-on and festive brand campaigns across Facebook, Instagram, Google Search, Performance Max and YouTube — building awareness for the brand and pushing shoppers to the website, the marketplaces and the quick-commerce apps.
 
-## Colortek: Making a 25-year coatings manufacturer look as advanced as its technology.
+Creative, AI product imagery and product films: Category visuals for the store, marketplaces and social; AI-produced product imagery for the long tail of SKUs; and cinematic product ads for launches and festive pushes.
+
+B2B, export and sales enablement: Advertising creative that positions Charliee as a white-label manufacturing partner for export buyers, and an annual sales-meet kit for the field team across Gujarat and Mumbai — target workbooks, price lists, a standee and the speech.
+
+Charliee runs every digital channel through one team and one plan: a website built and handled by us, a consistent 200+ SKU catalogue across Shopify, Amazon, Flipkart, Blinkit, Zepto and Swiggy Instamart, and brand campaigns that feed all of them. Growth figures by platform — quick commerce, marketplaces, website orders and campaign results — are published here from platform dashboards as they are confirmed.
+
+Q: Who manages Charliee's ecommerce and quick commerce?
+A: gaa-tha manages Charliee's ecommerce and quick commerce on a retainer. That covers the Shopify website we built, Amazon and Flipkart account management, and Blinkit, Zepto and Swiggy Instamart catalogue, availability and ads.
+
+Q: What does gaa-tha do for Charliee on Blinkit, Zepto and Instamart?
+A: We run catalogue and thumbnails, pack-size and pricing decisions, dark-store availability and purchase orders, promotions, and sponsored ads by SKU and city — and report growth platform by platform.
+
+Q: Did gaa-tha build Charliee's website?
+A: Yes. gaa-tha designed and built Charliee's Shopify website, including the 200+ SKU catalogue, a corporate-gifting page and a batch-number lookup tool, and manages the store every month.
+
+Q: Which ad platforms does gaa-tha run for Charliee?
+A: Meta (Facebook and Instagram) and Google (Search, Performance Max and YouTube) for brand campaigns, plus marketplace ads on Amazon and Flipkart and quick-commerce ads on Blinkit, Zepto and Swiggy Instamart.
+
+## Colortek: Colortek: rebranding a 25-year coatings manufacturer and building the website to match.
 https://gaa-tha.com/work/colortek
 
-A credibility, brand and SEO/AEO/GEO audit, a naming exercise and the 'Colortek Veris' sub-brand direction for Colourtech Coating India.
+Branding briefs, a rebranding structure with the 'Colortek Veris' direction, a website gaa-tha designed, built and manages, plus SEO/AEO/GEO and social for Colourtech Coating India.
 
-Industry: Manufacturing / industrial coatings. Services: Branding & Brand Identity, Website Design & Development, SEO, AEO & GEO, Social Media Marketing, Catalogues, Presentations & Sales Kits.
+Industry: Manufacturing / industrial coatings. Services: Branding & Brand Identity, Marketing Strategy & Positioning, Website Design & Development, SEO, AEO & GEO, Social Media Marketing, Catalogues, Presentations & Sales Kits, Copywriting & Content Writing.
 
-Colortek (Colourtech Coating India) has 25 years of technical substance — compliance, specialised coating lines, demanding industrial customers. The website undermined it: contradictory figures, broken metadata, duplicate content, no structured data and performance bloat. The brand name also sat in a crowded space of similar-sounding companies.
+gaa-tha is the branding and website partner for Colortek (Colourtech Coating India), a 25-year industrial coatings manufacturer in Gujarat. We wrote its branding briefs and rebranding structure, set the 'Colortek Veris' sub-brand direction, designed and built its website from scratch, and manage the site, search visibility and social channels.
 
-The brief was to make the company look as advanced online as it is on the factory floor, without losing recognition built over two decades.
+Colortek (Colourtech Coating India) has 25 years of technical substance — compliance, specialised coating lines and demanding industrial customers. Its online presence undermined it: contradictory figures, broken metadata, duplicate content, no structured data and a slow site. The name also sat in a crowded field of similar-sounding companies.
 
-Website audit: A credibility, brand, SEO/AEO/GEO and UX audit that documented every contradiction, broken tag, duplicate page, missing schema and performance issue — with a prioritised fix list.
+The company needed a partner to rethink the brand without losing two decades of recognition, then rebuild and run the digital presence so buyers, search engines and AI assistants see the manufacturer as it really is.
 
-Brand evolution: A naming exercise leading to the 'Colortek Veris' direction: keep the existing wordmark and colour swoosh for continuity, add a premium sub-brand for the advanced coating range.
+Branding briefs: A seven-page branding brief covering the case for change, naming rationale, identity continuity, discoverability and a phased rollout the company could approve section by section.
 
-Brand brief: A seven-page branding brief covering the case for change, naming rationale, identity continuity, discoverability strategy and a phased rollout the company could approve section by section.
+Rebranding structure: A naming exercise leading to the 'Colortek Veris' direction: keep the existing wordmark and colour swoosh for continuity, and add a premium sub-brand for the advanced coating range — with a clear brand architecture for parent and product lines.
 
-Proposed engagement: Website redesign, a company presentation, LinkedIn, Instagram and Facebook content, and ongoing SEO/AEO/GEO maintenance.
+Website — designed, built and managed: We audited the old site for credibility, brand, SEO/AEO/GEO and UX issues, then designed and built a new website from scratch with clear product lines, accurate company facts and structured data. We publish updates and manage the site on an ongoing basis.
 
-Post-launch organic traffic, enquiries and Lighthouse scores are published here once the redesign is live and measured.
+SEO, AEO and GEO: Technical fixes, schema, answer-first product content and consistent company facts so Colortek ranks on Google and can be cited by AI assistants such as ChatGPT, Claude and Gemini.
 
-## Ghanshyam Snacks: From ad leads to real buyers — a B2B snack manufacturer's content and lead engine.
+Company presentation and social: A company presentation for sales meetings and content for LinkedIn, Instagram and Facebook built on the new brand system.
+
+Colortek now has a documented brand direction, a rebranding structure it can roll out in phases and a website that matches the quality of its products. Organic traffic, enquiries, AI-search visibility and performance scores are published here once measured.
+
+Q: Who designed Colortek's website?
+A: gaa-tha designed and built Colortek's website from scratch after a full credibility, SEO/AEO/GEO and UX audit of the old site, and manages it on an ongoing basis.
+
+Q: What is Colortek Veris?
+A: Colortek Veris is the premium sub-brand direction gaa-tha proposed for Colortek's advanced coating range, keeping the existing wordmark and colour swoosh for continuity.
+
+Q: How does gaa-tha rebrand an established manufacturer?
+A: We start with a branding brief and naming rationale, keep the recognisable parts of the identity, add a clear brand architecture, and roll the change out in phases across website, presentation and social.
+
+## Ghanshyam Snacks: Ghanshyam Snacks: brand strategy, lead and traffic campaigns, and the founder's personal brand.
 https://gaa-tha.com/work/ghanshyam-snacks
 
-Meta lead campaigns with a self-filtering WhatsApp reply system, a lead-management SOP and tracker, social content and a cinematic product film for a bulk peanut and white-label snacks manufacturer.
+Branding strategy, marketing, lead-generation and traffic campaigns, founder personal-brand management and founder campaigns, social content, a product film and the website gaa-tha built for a bulk peanut and white-label snacks manufacturer.
 
-Industry: FMCG manufacturing / B2B. Services: Meta Ads Agency, B2B & Export Lead Generation, Social Media Marketing, Reels & Short-form Video, Catalogues, Presentations & Sales Kits, Cinema & Film Ads.
+Industry: FMCG manufacturing / B2B. Services: Marketing Strategy & Positioning, Branding & Brand Identity, Meta Ads Agency, B2B & Export Lead Generation, Social Media Marketing, Reels & Short-form Video, AI Cloning (Digital Spokesperson), Catalogues, Presentations & Sales Kits, Cinema & Film Ads, Website Design & Development.
 
-Ghanshyam Snacks manufactures bulk peanuts and white-label snacks for B2B buyers. Paid campaigns were producing a high volume of leads, but many were fake or low-quality, and the sales team was spending its day filtering rather than selling.
+gaa-tha is the retainer marketing partner for Ghanshyam Snacks, a Gujarat manufacturer of bulk peanuts and white-label snacks. We handle its branding strategy, lead-generation and traffic campaigns on Meta, a WhatsApp lead-qualification system and tracker, the founder's personal brand and founder campaigns, social content, product films and its website.
 
-Alongside the lead problem, the brand needed B2B positioning, a proper product catalogue and consistent social content.
+Ghanshyam Snacks manufactures bulk peanuts and white-label snacks for B2B buyers. Paid campaigns were producing plenty of leads, but many were fake or low-quality, the brand was not positioned for the buyers it wanted, and the founder — the company's most credible voice — was not visible online.
 
-Meta ads & lead generation: Lead campaigns rebuilt with a WhatsApp first-reply system designed so fake leads filter themselves out before a human replies, plus a B2B reply template for IndiaMART enquiries.
+The company needed a partner for the whole picture: brand strategy, campaigns that bring real buyers and traffic, a system to qualify them, and a personal brand for the founder that builds trust with distributors and white-label clients.
 
-Lead-management SOP & tracker: A five-stage pipeline — capture, 24-hour qualification, quote, Day 1/3/7 follow-up, weekly review — with an Excel/Sheets dashboard showing qualification rate, conversion rate, pipeline value and junk percentage by ad source.
+Branding strategy: B2B positioning that presents Ghanshyam as a manufacturer buyers can trust, carried through a product catalogue, IndiaMART listing assets and every campaign.
 
-Social media: 50-post content sets and reel production briefs so the brand's Instagram reads as a manufacturer buyers can trust.
+Lead-generation campaigns: Meta lead campaigns rebuilt with a WhatsApp first-reply system that lets fake leads filter themselves out before a human replies, plus a B2B reply template for IndiaMART enquiries.
 
-Brand & sales assets: A product catalogue, B2B positioning material and IndiaMART listing assets built to the same visual system.
+Traffic campaigns: Traffic campaigns that bring buyers to the website and catalogue, so prospects see the full range before they call.
 
-Cinematic product film: A sand-roasted peanut macro ad sequence — the product as the hero, shot to make a commodity look premium.
+Lead-management SOP and tracker: A five-stage pipeline — capture, 24-hour qualification, quote, Day 1/3/7 follow-up and weekly review — with a dashboard showing qualification rate, conversion rate, pipeline value and junk percentage by ad source.
 
-The lead pipeline now has a qualification step, a follow-up rhythm and a dashboard that shows which ad sources produce buyers and which produce noise. Figures for leads, qualification rate, junk reduction and conversions are published once confirmed from the tracker.
+Founder personal brand and founder campaigns: Personal-brand management for the founder — positioning, content and founder-led campaigns on Instagram and LinkedIn — so the person behind the factory becomes the brand's strongest proof.
 
-## GI PackTech: Turning a technical packaging range into an export sales engine.
+Social media and product films: 50-post content sets, reel production briefs, and a cinematic sand-roasted peanut macro film that makes a commodity look premium.
+
+Website — built and managed: We built and manage the Ghanshyam Snacks website as the destination for traffic campaigns and the first stop for B2B buyers.
+
+Ghanshyam Snacks now has a brand positioned for B2B buyers, campaigns for both leads and traffic, a pipeline that shows which ad sources produce buyers, and a visible founder. Lead volumes, qualified-lead rate, website traffic and founder content reach are published once confirmed from the tracker and platforms.
+
+Q: Who handles marketing for Ghanshyam Snacks?
+A: gaa-tha handles Ghanshyam Snacks' branding strategy, lead-generation and traffic campaigns, lead qualification system, founder personal brand and founder campaigns, social content, product films and website on a retainer.
+
+Q: How does gaa-tha filter fake leads from Meta ads?
+A: A WhatsApp first-reply step lets low-intent and fake leads drop out before a salesperson replies, and a tracker scores every ad source on qualified leads rather than raw volume.
+
+Q: Does gaa-tha manage founders' personal brands?
+A: Yes. For Ghanshyam Snacks we manage the founder's personal brand — positioning, content and founder-led campaigns on Instagram and LinkedIn.
+
+## GI PackTech: GI PackTech: international lead generation and an export sales engine for an industrial packaging maker.
 https://gaa-tha.com/work/gi-packtech
 
-A full product catalogue, brochures, 110 AI image prompts across 41 products, Google Business Profile content and a LinkedIn-led export outreach system for GI PackTech.
+International lead-generation campaigns across markets worldwide, a website gaa-tha built and manages, a full product catalogue, AI product imagery for 41 products and Google Business Profile for GI PackTech.
 
-Industry: Manufacturing / industrial & export packaging. Services: Catalogues, Presentations & Sales Kits, AI Ads & AI Ad Shoots, B2B & Export Lead Generation, Local SEO & Google Business Profile, Website Design & Development.
+Industry: Manufacturing / industrial & export packaging. Services: B2B & Export Lead Generation, Meta Ads Agency, Website Design & Development, Catalogues, Presentations & Sales Kits, AI Ads & AI Ad Shoots, Local SEO & Google Business Profile, Marketing Strategy & Positioning.
 
-GI PackTech makes specialised industrial packaging — VCI films, vacuum laminates, machine covers, reactor liners and more. The products are technical, the buyers are international, and the material explaining what each product does and when to use it did not exist in a form a buyer could act on.
+gaa-tha runs international marketing for GI PackTech, an Indian maker of VCI films, vacuum laminates, machine covers and reactor liners. We run its lead-generation campaigns for buyers around the world on LinkedIn and Meta, built and manage its website, and produced its product catalogue, brochures and AI product imagery.
 
-The brief was to explain a complex range clearly to overseas buyers and then run a structured export lead-generation push.
+GI PackTech makes specialised industrial packaging — VCI films, vacuum laminates, machine covers, reactor liners and more. The products are technical, the buyers are international, and there was no material that explained each product clearly enough for an overseas buyer to act on.
 
-Product catalogue: A full catalogue with product explanations, applications, customisation options and sales guidance for each line — written so a buyer and a sales rep read the same page.
+The company needed a partner to explain the range, build the website buyers check first, and then run international lead generation month after month — not a single campaign.
 
-Brochures: Product-specific brochures, starting with a flexible reactor liner brochure PDF.
+International lead-generation campaigns: Campaigns for buyers across the world on LinkedIn and Meta, a 50-company Sales Navigator outreach tracker with curated message sequences, and a marketing playbook for both channels — with leads qualified before they reach the sales team.
 
-AI imagery: 110 AI image prompts across 41 products for catalogue and website use, plus website hero imagery — consistent product visuals without a 41-product photoshoot.
+Website — built and managed: We built and manage GI PackTech's website with product pages, applications and enquiry routes for international buyers, plus AI-produced hero imagery.
+
+Product catalogue and brochures: A full catalogue with product explanations, applications, customisation options and sales guidance for each line, and product-specific brochures such as the flexible reactor liner brochure.
+
+AI product imagery: 110 AI image prompts across 41 products for the catalogue and website — consistent product visuals without a 41-product photoshoot.
 
 Local SEO: Google Business Profile content so domestic buyers searching for packaging suppliers find a complete, current profile.
 
-Export lead generation: A 50-company LinkedIn outreach tracker with curated messages, a Meta and LinkedIn marketing playbook, and Sales Navigator-led outreach to named buyers.
+GI PackTech now has a website, catalogue and image library an international buyer can act on, and a lead-generation engine that runs every month. International leads, countries reached, meetings booked and RFQs are published once confirmed from the outreach tracker.
 
-Export enquiries, meetings booked, LinkedIn response rate and RFQs are published once confirmed from the outreach tracker.
+Q: Who runs GI PackTech's international marketing?
+A: gaa-tha runs GI PackTech's international lead-generation campaigns on LinkedIn and Meta, and built and manages its website, catalogue and product imagery.
 
-## Kitcoz: A concern-led skincare brand, built from identity to checkout.
+Q: How does gaa-tha generate export leads for Indian manufacturers?
+A: We build the material buyers expect — website, catalogue, brochures — then run LinkedIn outreach and ads plus Meta lead campaigns by market, and qualify every lead in a shared tracker.
+
+## Kitcoz: Kitcoz: a D2C skincare brand built and grown end to end — identity, Shopify, tracking and Meta ads.
 https://gaa-tha.com/work/kitcoz
 
 Brand identity, a Shopify store built around skin concerns and kits, Pixel and Conversions API tracking, Meta ad creative and 300 Instagram copy variations for Kitcoz (Elvey Essentials).
 
 Industry: D2C beauty & personal care. Services: Branding & Brand Identity, Shopify Store Design & Development, Conversion Rate Optimisation (CRO), Meta Ads Agency, D2C Performance Marketing, Social Media Marketing, AI Ads & AI Ad Shoots.
+
+gaa-tha is the D2C partner for Kitcoz, a skincare brand from Elvey Essentials. We created its brand identity, designed and built its concern-led Shopify store with a kit selector and GoKwik checkout, set up Meta Pixel and Conversions API tracking, and run its Meta ad creative and Instagram content.
 
 Kitcoz is a D2C skincare brand from Elvey Essentials. It needed to launch with a distinctive identity, a store built around skin concerns and product kits rather than a flat catalogue, and advertising that could be tracked accurately from the first rupee.
 
@@ -3878,43 +3945,75 @@ Content: 300 Instagram copy variations, each with a unique AI image direction, g
 
 Conversion rate, kit AOV, ROAS, checkout completion and COD-versus-prepaid share are published once confirmed from Shopify and Meta reports.
 
-## New Rave: Instagram content that drives collectors to the store and the website.
+Q: Who built the Kitcoz Shopify store?
+A: gaa-tha designed and built the Kitcoz Shopify store, including the combo-kit selector, concern-based filters, pincode checker, cart drawer and GoKwik checkout, and migrated products from Amazon.
+
+Q: What does gaa-tha do for D2C skincare brands?
+A: Brand identity, a Shopify store built around concerns and kits, Pixel and Conversions API tracking, Meta ad creative and campaigns, and ongoing social content.
+
+## New Rave: New Rave: campaigns across Canada, a managed website and product data for a trading-card retailer.
 https://gaa-tha.com/work/new-rave
 
-Social strategy, content production and storefront policies for a trading-card-game and hobbies retailer in Canada — our international case.
+Marketing strategy, campaigns across Canada, Instagram content, product scraping for the catalogue and the newrave.ca website gaa-tha manages — our international retainer.
 
-Industry: Retail (physical + online) / TCG & hobbies. Services: Social Media Marketing, Graphic Design, AI Ads & AI Ad Shoots, Copywriting & Content Writing.
+Industry: Retail (physical + online) / TCG & hobbies. Services: Marketing Strategy & Positioning, Meta Ads Agency, Social Media Marketing, Website Design & Development, Custom Tools & Automations, Graphic Design, AI Ads & AI Ad Shoots, Copywriting & Content Writing.
 
-New Rave (newrave.ca) sells trading-card games and hobby products from a physical store and a website. The community is knowledgeable and fast-moving: launches, pre-orders and singles matter, and generic retail content is ignored.
+gaa-tha is the marketing partner for New Rave, a trading-card-game and hobbies retailer in Canada. We plan its marketing strategy, run its campaigns across Canada, produce its Instagram content, handle product scraping to keep the online catalogue current, and manage the newrave.ca website including its storefront policies.
 
-The brief was to grow footfall in the store and sales on the website with Instagram content that spoke to collectors, plus the storefront policies a serious TCG retailer needs.
+New Rave (newrave.ca) sells trading-card games and hobby products from a physical store and a website in Canada. The community is knowledgeable and fast-moving: launches, pre-orders and singles matter, catalogues change weekly, and generic retail content is ignored.
 
-Social strategy: Four content pillars: new launches and pre-orders, card features and USPs, direct brand promotion, and witty community posts that collectors actually share.
+The retailer needed a partner who could run strategy, campaigns, content and the website together from India for a Canadian market — and keep a large, changing product catalogue accurate.
 
-Content production: Static and carousel posts built on the retailer's supplied product mockups and brand assets, with AI-generated visual frames — never third-party card artwork — so every post stayed on-brand and cleared for use.
+Marketing strategy: A plan built around launches, pre-orders and the collector community, with four content pillars: new launches and pre-orders, card features, direct brand promotion and witty community posts collectors actually share.
 
-Website support: A full storefront policy set written for the category: shipping, in-store pickup, pre-orders, TCG singles, fraud prevention and grading.
+Campaigns across Canada: Paid campaigns targeted across Canada to drive website orders, pre-orders and store visits, timed to product launches.
 
-Impact figures — follower growth, engagement, website sessions from Instagram, pre-order volume and store footfall — are published once confirmed with the client.
+Website — managed: We manage the newrave.ca website, including a full storefront policy set written for the category: shipping, in-store pickup, pre-orders, TCG singles, fraud prevention and grading.
 
-## Rentastic Homes: Building trust for a PG brand — from brochures to a founder-led video series.
+Product scraping and catalogue data: Product scraping and data preparation so new releases and product details reach the website quickly and accurately.
+
+Instagram content: Static and carousel posts built on the retailer's product mockups and brand assets, with AI-generated visual frames — never third-party card artwork — so every post stays on-brand and cleared for use.
+
+New Rave runs strategy, Canada-wide campaigns, content, product data and its website through one team. Website sessions, online orders, pre-order volume and follower growth are published once confirmed with the client.
+
+Q: Does gaa-tha work with brands outside India?
+A: Yes. New Rave is a trading-card retailer in Canada; gaa-tha runs its marketing strategy, campaigns across Canada, Instagram content, product scraping and website.
+
+Q: What does gaa-tha manage on New Rave's website?
+A: We manage the newrave.ca website and its product data, and wrote its storefront policies for shipping, pickup, pre-orders, TCG singles, fraud prevention and grading.
+
+## Rentastic Homes: Rentastic Homes: strategy, lead generation and on-ground branding for a multi-city PG brand.
 https://gaa-tha.com/work/rentastic-homes
 
-Sales material, operations forms and a 15-episode founder series for Rentastic Homes, a co-living and PG accommodation brand.
+Marketing and offer strategy, lead-generation campaigns and lead conversion, banners and branding at PG locations across cities, a founder-led video series and the website gaa-tha built for Rentastic Homes.
 
-Industry: Real estate / co-living. Services: Graphic Design, Copywriting & Content Writing, Reels & Short-form Video, Social Media Marketing.
+Industry: Real estate / PG & co-living. Services: Marketing Strategy & Positioning, Meta Ads Agency, Google Ads Agency, Graphic Design, Reels & Short-form Video, Social Media Marketing, Copywriting & Content Writing, Website Design & Development, Custom Tools & Automations.
 
-Choosing a PG is a trust decision made by students and parents who have never met the operator. Rentastic Homes needed material that answered their questions before the first call, and content that put the founder in front of the audience consistently.
+gaa-tha is the marketing partner for Rentastic Homes, a PG and co-living brand operating across cities in India. We set its marketing and offer strategy, run lead-generation campaigns and help convert those leads into tenants, produce the banners and branding at every PG location, created its founder-led video series and built and manage its website.
 
-Sales material: A Girls PG brochure covering rooms, safety, food, rules and pricing structure in a format parents could forward.
+Choosing a PG is a trust decision made by students, working professionals and parents who have never met the operator. Rentastic Homes runs PGs in more than one city, so it needed demand in every location, offers that filled beds in the right season, and a brand that looked the same on Instagram, on the website and on the building.
 
-Operations: A tenant check-out form so move-outs are documented the same way every time.
+The brief was a full partner: strategy, leads, conversion, on-ground branding and the website — run all year, not just at admission season.
 
-Content: A 15-episode founder series — scripts and a branded script book — designed for Instagram and YouTube so the founder could record in batches.
+Marketing and offer strategy: Positioning by audience and location, and offer strategies — seasonal offers, referral and early-booking deals — planned around admission and job-joining cycles.
 
-To confirm: Social media management, Meta lead ads for occupancy and Google Business Profile — scope to be confirmed with the team before publishing.
+Lead generation and conversion: Lead-generation campaigns that bring enquiries for each property, plus the follow-up process, scripts and tracking that turn those leads into site visits and tenants.
 
-Enquiries, site visits, occupancy and reel views are published once confirmed.
+On-ground branding across cities: Banners, signage and branding at the PG locations across cities, so every property looks like one brand and the building itself sells.
+
+Sales and operations material: A Girls PG brochure covering rooms, safety, food, rules and pricing in a format parents can forward, and a tenant check-out form so move-outs are documented the same way every time.
+
+Founder-led content: A 15-episode founder series — scripts and a branded script book — for Instagram and YouTube so the founder can record in batches and build trust before the first call.
+
+Website — built and managed: We built and manage the Rentastic Homes website, with property pages and enquiry routes that feed the lead process.
+
+Rentastic Homes runs strategy, leads, conversion, on-ground branding, content and the website through one team, with the same brand at every location. Leads, conversion, occupancy and cost per lead are published once confirmed.
+
+Q: Who does marketing for Rentastic Homes?
+A: gaa-tha runs Rentastic Homes' marketing on a retainer — strategy and offers, lead-generation campaigns and lead conversion, on-ground branding at PG locations across cities, founder-led video content and the website.
+
+Q: How does gaa-tha generate leads for a PG or co-living brand?
+A: We run location-targeted lead campaigns, answer the trust questions with brochures and founder content, and set up a follow-up process and tracker that converts enquiries into site visits and tenants.
 
 
 # FAQ — ecommerce, marketplaces, quick commerce and case studies

@@ -3,25 +3,32 @@
   "published": true,
   "featured": true,
   "client": "ghanshyam-snacks",
-  "headline": "From ad leads to real buyers — a B2B snack manufacturer's content and lead engine.",
-  "summary": "Meta lead campaigns with a self-filtering WhatsApp reply system, a lead-management SOP and tracker, social content and a cinematic product film for a bulk peanut and white-label snacks manufacturer.",
+  "headline": "Ghanshyam Snacks: brand strategy, lead and traffic campaigns, and the founder's personal brand.",
+  "summary": "Branding strategy, marketing, lead-generation and traffic campaigns, founder personal-brand management and founder campaigns, social content, a product film and the website gaa-tha built for a bulk peanut and white-label snacks manufacturer.",
+  "answer": "gaa-tha is the retainer marketing partner for Ghanshyam Snacks, a Gujarat manufacturer of bulk peanuts and white-label snacks. We handle its branding strategy, lead-generation and traffic campaigns on Meta, a WhatsApp lead-qualification system and tracker, the founder's personal brand and founder campaigns, social content, product films and its website.",
   "industry": "FMCG manufacturing / B2B",
   "location": "Gujarat",
-  "duration": "TODO-DATA",
-  "channels": "Meta ads, WhatsApp, IndiaMART, Instagram, catalogue",
+  "duration": "Ongoing retainer",
+  "channels": "Meta ads, WhatsApp, IndiaMART, Instagram, LinkedIn, website, catalogue",
   "filters": [
     "performance-ads",
     "b2b-export",
     "social-reels",
-    "campaigns-cinema"
+    "campaigns-cinema",
+    "branding",
+    "websites-shopify"
   ],
   "services": [
+    "marketing-strategy",
+    "branding-agency",
     "meta-ads-agency",
     "b2b-lead-generation",
     "social-media-marketing",
     "reels-short-form-video",
+    "ai-cloning-spokesperson",
     "catalogues-presentations",
-    "cinema-ads-film-production"
+    "cinema-ads-film-production",
+    "website-development"
   ],
   "metrics": [
     {
@@ -29,60 +36,71 @@
       "value": "TODO-DATA"
     },
     {
-      "label": "Qualification rate",
+      "label": "Qualified-lead rate",
       "value": "TODO-DATA"
     },
     {
-      "label": "Junk-lead reduction",
+      "label": "Website traffic",
       "value": "TODO-DATA"
     },
     {
-      "label": "IndiaMART enquiries",
+      "label": "Founder content reach",
       "value": "TODO-DATA"
     }
   ],
   "challenge": [
-    "Ghanshyam Snacks manufactures bulk peanuts and white-label snacks for B2B buyers. Paid campaigns were producing a high volume of leads, but many were fake or low-quality, and the sales team was spending its day filtering rather than selling.",
-    "Alongside the lead problem, the brand needed B2B positioning, a proper product catalogue and consistent social content."
+    "Ghanshyam Snacks manufactures bulk peanuts and white-label snacks for B2B buyers. Paid campaigns were producing plenty of leads, but many were fake or low-quality, the brand was not positioned for the buyers it wanted, and the founder — the company's most credible voice — was not visible online.",
+    "The company needed a partner for the whole picture: brand strategy, campaigns that bring real buyers and traffic, a system to qualify them, and a personal brand for the founder that builds trust with distributors and white-label clients."
   ],
   "workstreams": [
     {
-      "title": "Meta ads & lead generation",
-      "text": "Lead campaigns rebuilt with a WhatsApp first-reply system designed so fake leads filter themselves out before a human replies, plus a B2B reply template for IndiaMART enquiries."
+      "title": "Branding strategy",
+      "text": "B2B positioning that presents Ghanshyam as a manufacturer buyers can trust, carried through a product catalogue, IndiaMART listing assets and every campaign."
     },
     {
-      "title": "Lead-management SOP & tracker",
-      "text": "A five-stage pipeline — capture, 24-hour qualification, quote, Day 1/3/7 follow-up, weekly review — with an Excel/Sheets dashboard showing qualification rate, conversion rate, pipeline value and junk percentage by ad source."
+      "title": "Lead-generation campaigns",
+      "text": "Meta lead campaigns rebuilt with a WhatsApp first-reply system that lets fake leads filter themselves out before a human replies, plus a B2B reply template for IndiaMART enquiries."
     },
     {
-      "title": "Social media",
-      "text": "50-post content sets and reel production briefs so the brand's Instagram reads as a manufacturer buyers can trust."
+      "title": "Traffic campaigns",
+      "text": "Traffic campaigns that bring buyers to the website and catalogue, so prospects see the full range before they call."
     },
     {
-      "title": "Brand & sales assets",
-      "text": "A product catalogue, B2B positioning material and IndiaMART listing assets built to the same visual system."
+      "title": "Lead-management SOP and tracker",
+      "text": "A five-stage pipeline — capture, 24-hour qualification, quote, Day 1/3/7 follow-up and weekly review — with a dashboard showing qualification rate, conversion rate, pipeline value and junk percentage by ad source."
     },
     {
-      "title": "Cinematic product film",
-      "text": "A sand-roasted peanut macro ad sequence — the product as the hero, shot to make a commodity look premium."
+      "title": "Founder personal brand and founder campaigns",
+      "text": "Personal-brand management for the founder — positioning, content and founder-led campaigns on Instagram and LinkedIn — so the person behind the factory becomes the brand's strongest proof."
+    },
+    {
+      "title": "Social media and product films",
+      "text": "50-post content sets, reel production briefs, and a cinematic sand-roasted peanut macro film that makes a commodity look premium."
+    },
+    {
+      "title": "Website — built and managed",
+      "text": "We built and manage the Ghanshyam Snacks website as the destination for traffic campaigns and the first stop for B2B buyers."
     }
   ],
   "results": [
-    "The lead pipeline now has a qualification step, a follow-up rhythm and a dashboard that shows which ad sources produce buyers and which produce noise. Figures for leads, qualification rate, junk reduction and conversions are published once confirmed from the tracker."
+    "Ghanshyam Snacks now has a brand positioned for B2B buyers, campaigns for both leads and traffic, a pipeline that shows which ad sources produce buyers, and a visible founder. Lead volumes, qualified-lead rate, website traffic and founder content reach are published once confirmed from the tracker and platforms."
   ],
   "quote": {
     "text": "",
     "name": "",
     "role": ""
   },
-  "gallery": 6,
+  "gallery": 9,
   "galleryNotes": [
-    "Catalogue spread",
+    "Lead campaign results",
+    "Traffic campaign results",
+    "Lead tracker dashboard (data blurred)",
+    "Founder content & campaigns",
+    "Ad creatives",
     "Social grid",
-    "Reel still 1",
-    "Reel still 2",
-    "Dashboard screenshot (data blurred)",
-    "IndiaMART listing asset"
+    "Product film stills",
+    "Catalogue spread",
+    "Website — page collage"
   ],
   "video": "",
   "images": {
@@ -90,9 +108,23 @@
     "card": "",
     "og": ""
   },
+  "faq": [
+    {
+      "q": "Who handles marketing for Ghanshyam Snacks?",
+      "a": "gaa-tha handles Ghanshyam Snacks' branding strategy, lead-generation and traffic campaigns, lead qualification system, founder personal brand and founder campaigns, social content, product films and website on a retainer."
+    },
+    {
+      "q": "How does gaa-tha filter fake leads from Meta ads?",
+      "a": "A WhatsApp first-reply step lets low-intent and fake leads drop out before a salesperson replies, and a tracker scores every ad source on qualified leads rather than raw volume."
+    },
+    {
+      "q": "Does gaa-tha manage founders' personal brands?",
+      "a": "Yes. For Ghanshyam Snacks we manage the founder's personal brand — positioning, content and founder-led campaigns on Instagram and LinkedIn."
+    }
+  ],
   "meta": {
-    "title": "Ghanshyam Snacks case study — B2B lead engine | gaa-tha",
-    "description": "How gaa-tha turned Ghanshyam Snacks' Meta ad leads into qualified B2B buyers with a WhatsApp filter, a lead SOP and tracker, social content and a cinematic product film."
+    "title": "Ghanshyam Snacks case study — leads, traffic & founder brand | gaa-tha",
+    "description": "How gaa-tha runs Ghanshyam Snacks' brand strategy, lead and traffic campaigns, founder personal brand, social content and website as one retainer."
   },
-  "updated": "2026-09-25"
+  "updated": "2026-10-01"
 }

@@ -3,83 +3,107 @@
   "published": true,
   "featured": true,
   "client": "charliee",
-  "headline": "Rebuilding a 200+ SKU snack brand's online store — and its sales engine.",
-  "summary": "A full Shopify overhaul, a clean 200-SKU catalogue, export-facing creative and a sales-meet kit for Charliee (Baijay International).",
+  "headline": "Charliee: a 360° growth partnership across Shopify, marketplaces, quick commerce and brand campaigns.",
+  "summary": "gaa-tha runs Charliee's (Baijay International) digital business year-round — the Shopify store we built, Amazon and Flipkart, Blinkit, Zepto and Swiggy Instamart, Meta and Google brand campaigns, creative and sales material for a 200+ SKU snack range.",
+  "answer": "gaa-tha is the retainer marketing and ecommerce partner for Charliee, a 200+ SKU packaged-snack brand from Gujarat. We designed and built its Shopify website and manage it, run its Amazon and Flipkart accounts, manage quick commerce on Blinkit, Zepto and Swiggy Instamart, and plan its brand campaigns across Meta and Google — one team for every channel.",
   "industry": "FMCG / packaged snacks",
   "location": "Gujarat & Mumbai",
-  "duration": "TODO-DATA",
-  "channels": "Shopify, AI imagery, cinematic product ads, B2B/export creative, field sales material",
+  "duration": "Ongoing retainer",
+  "channels": "Shopify, Amazon, Flipkart, Blinkit, Zepto, Swiggy Instamart, Meta ads, Google ads, B2B/export, field sales",
   "filters": [
     "websites-shopify",
     "ecommerce-marketplaces",
+    "performance-ads",
     "branding",
     "b2b-export"
   ],
   "services": [
     "shopify-development",
     "shopify-store-management",
+    "amazon-account-management",
+    "flipkart-seller-management",
+    "quick-commerce-agency",
+    "blinkit-account-management",
+    "zepto-account-management",
+    "instamart-account-management",
+    "quick-commerce-ads",
+    "meta-ads-agency",
+    "google-ads-agency",
     "product-photography-ecommerce",
-    "graphic-design",
-    "catalogues-presentations",
     "ai-ads-ai-ad-shoots",
+    "catalogues-presentations",
     "business-tools-automation"
   ],
   "metrics": [
     {
-      "label": "Website orders",
+      "label": "Quick-commerce sales growth",
       "value": "TODO-DATA"
     },
     {
-      "label": "Store conversion rate",
+      "label": "Marketplace sales growth",
       "value": "TODO-DATA"
     },
     {
-      "label": "Catalogue completeness",
+      "label": "Shopify website orders",
       "value": "TODO-DATA"
     },
     {
-      "label": "Export enquiries",
+      "label": "Campaign reach",
       "value": "TODO-DATA"
     }
   ],
   "challenge": [
-    "Charliee is a large regional snack brand with more than 200 SKUs across namkeen, chikki, khakhra, chips, sweets and bakery. Its online store did not reflect the quality of the products, the catalogue was inconsistent, and the brand needed marketing assets that worked for two very different buyers: domestic consumers and white-label export customers.",
-    "The brief was to rebuild the store as a proper sales channel, bring the catalogue under control, and give the field sales team and export desk material they would actually use."
+    "Charliee is a large regional snack brand with more than 200 SKUs across namkeen, chikki, khakhra, chips, sweets and bakery, sold through its own website, on Amazon and Flipkart, and on 10-minute delivery apps. Each channel has its own catalogue rules, ad system, pricing pressure and reporting — and the brand also sells white-label to export buyers and through a field sales team in Gujarat and Mumbai.",
+    "Charliee did not need another one-off campaign. It needed one partner who could run every digital channel to the same plan, all year: build and handle the website, grow the marketplaces and quick-commerce apps, keep brand campaigns running on Meta and Google, and supply the creative and sales material that ties it together. That is the retainer gaa-tha runs."
   ],
   "workstreams": [
     {
-      "title": "Shopify website",
-      "text": "A full UI/UX audit and overhaul of the store, starting with a homepage prototype and a product-content workbook covering all 200+ SKUs. We rebuilt the product cards and contact page, added a corporate-gifting page and category cover imagery, and built a batch-number lookup tool so customers can check a pack's details. Store handling is ongoing, including bulk MRP updates across categories."
+      "title": "Shopify website — built and managed",
+      "text": "We designed and built Charliee's Shopify store from a UI/UX audit and homepage prototype, with a product-content workbook covering all 200+ SKUs, rebuilt product cards, a corporate-gifting page, category cover imagery and a batch-number lookup tool customers use to check a pack's details. We handle the store month to month — product uploads, bulk MRP updates across categories, banners, festive setups and fixes."
     },
     {
-      "title": "Branding & creative",
-      "text": "Category visuals for the store and social, AI-produced product imagery for the long tail of SKUs, and cinematic product ads for launches and festive pushes."
+      "title": "Quick commerce: Blinkit, Zepto and Swiggy Instamart",
+      "text": "We manage Charliee on the quick-commerce apps end to end: catalogue and thumbnails that win a two-second scroll, pack sizes, dark-store availability, purchase orders, pricing and promotions, and sponsored search, category and banner ads run by SKU and city."
     },
     {
-      "title": "B2B & export creative",
-      "text": "Advertising creatives that position Charliee as a white-label manufacturing partner for export buyers, separate in tone and format from the consumer-facing work."
+      "title": "Ecommerce marketplaces: Amazon and Flipkart",
+      "text": "Account management for Amazon.in and Flipkart — listings and titles written for search, image stacks, pricing, deals and sale events, Sponsored ads and Flipkart PLA/PCA campaigns, account health and monthly reporting on sales by platform."
     },
     {
-      "title": "Sales enablement",
-      "text": "An annual sales-meet kit for the field team across Gujarat and Mumbai — target workbooks, price lists, a standee and the speech — so the plan for the year was in every rep's hands on day one."
+      "title": "Brand campaigns on Meta and Google",
+      "text": "Always-on and festive brand campaigns across Facebook, Instagram, Google Search, Performance Max and YouTube — building awareness for the brand and pushing shoppers to the website, the marketplaces and the quick-commerce apps."
+    },
+    {
+      "title": "Creative, AI product imagery and product films",
+      "text": "Category visuals for the store, marketplaces and social; AI-produced product imagery for the long tail of SKUs; and cinematic product ads for launches and festive pushes."
+    },
+    {
+      "title": "B2B, export and sales enablement",
+      "text": "Advertising creative that positions Charliee as a white-label manufacturing partner for export buyers, and an annual sales-meet kit for the field team across Gujarat and Mumbai — target workbooks, price lists, a standee and the speech."
     }
   ],
   "results": [
-    "The store now carries a complete, consistent catalogue with imagery per category, a gifting route for corporate buyers and tooling that reduces support queries. Impact figures are published here once confirmed from store and sales reports."
+    "Charliee runs every digital channel through one team and one plan: a website built and handled by us, a consistent 200+ SKU catalogue across Shopify, Amazon, Flipkart, Blinkit, Zepto and Swiggy Instamart, and brand campaigns that feed all of them. Growth figures by platform — quick commerce, marketplaces, website orders and campaign results — are published here from platform dashboards as they are confirmed."
   ],
   "quote": {
     "text": "",
     "name": "",
     "role": ""
   },
-  "gallery": 6,
+  "gallery": 12,
   "galleryNotes": [
-    "Store homepage mockup (desktop + mobile)",
-    "Product page",
-    "Corporate gifting page",
-    "Sales-meet standee",
+    "Blinkit growth dashboard",
+    "Zepto sales dashboard",
+    "Swiggy Instamart dashboard",
+    "Amazon sales & listing screenshots",
+    "Flipkart sales & listing screenshots",
+    "Shopify website — page collage",
+    "Shopify orders & growth",
+    "Meta & Google campaign results",
+    "Best ad creatives",
+    "Quick-commerce thumbnails & banners",
     "Export ad creative",
-    "Category cover imagery"
+    "Sales-meet kit & standee"
   ],
   "video": "",
   "images": {
@@ -87,9 +111,27 @@
     "card": "",
     "og": ""
   },
+  "faq": [
+    {
+      "q": "Who manages Charliee's ecommerce and quick commerce?",
+      "a": "gaa-tha manages Charliee's ecommerce and quick commerce on a retainer. That covers the Shopify website we built, Amazon and Flipkart account management, and Blinkit, Zepto and Swiggy Instamart catalogue, availability and ads."
+    },
+    {
+      "q": "What does gaa-tha do for Charliee on Blinkit, Zepto and Instamart?",
+      "a": "We run catalogue and thumbnails, pack-size and pricing decisions, dark-store availability and purchase orders, promotions, and sponsored ads by SKU and city — and report growth platform by platform."
+    },
+    {
+      "q": "Did gaa-tha build Charliee's website?",
+      "a": "Yes. gaa-tha designed and built Charliee's Shopify website, including the 200+ SKU catalogue, a corporate-gifting page and a batch-number lookup tool, and manages the store every month."
+    },
+    {
+      "q": "Which ad platforms does gaa-tha run for Charliee?",
+      "a": "Meta (Facebook and Instagram) and Google (Search, Performance Max and YouTube) for brand campaigns, plus marketplace ads on Amazon and Flipkart and quick-commerce ads on Blinkit, Zepto and Swiggy Instamart."
+    }
+  ],
   "meta": {
-    "title": "Charliee case study — 200+ SKU Shopify rebuild | gaa-tha",
-    "description": "How gaa-tha rebuilt Charliee's Shopify store and 200-SKU catalogue, produced export-facing creative and equipped a field sales team across Gujarat and Mumbai."
+    "title": "Charliee case study — Shopify, marketplaces & quick commerce | gaa-tha",
+    "description": "How gaa-tha runs Charliee's Shopify website, Amazon and Flipkart, Blinkit, Zepto and Instamart, and Meta and Google brand campaigns as one 360° retainer."
   },
-  "updated": "2026-09-25"
+  "updated": "2026-10-01"
 }

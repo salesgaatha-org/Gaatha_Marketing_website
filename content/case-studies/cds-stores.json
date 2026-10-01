@@ -3,34 +3,38 @@
   "published": true,
   "featured": true,
   "client": "cds-stores",
-  "headline": "A city-wide Diwali campaign — outdoor, influencers, Meta and a cinema ad — on one ₹2 lakh budget.",
-  "summary": "Making CDS Stores the first-choice Diwali destination in Vapi and Valsad for sweets, hampers, dry fruits and bulk gifting.",
+  "headline": "CDS Stores: year-round Meta campaigns, city-wide outdoor and in-store marketing for a gifting retailer.",
+  "summary": "gaa-tha is CDS Stores' 360° marketing partner in Vapi and Valsad — Meta campaigns, city-wide banners and print, in-store branding and screen content, festive campaigns with cinema ads and influencers, and the cdsstores.in website we built.",
+  "answer": "gaa-tha is the retainer marketing agency for CDS Stores, a sweets, dry-fruits and gifting retailer in Vapi and Valsad, Gujarat. We run its Meta ad campaigns, city-wide banners and print media, in-store marketing including the TV screens and media banners inside the stores, festive campaigns with influencers and cinema ads, and its website.",
   "industry": "Retail / sweets, dry fruits & gifting",
   "location": "Vapi & Valsad, Gujarat",
-  "duration": "6 Oct – 14 Nov 2026",
-  "channels": "Outdoor (store-front, auto-rickshaw, bus), influencer collaborations, Meta ads, cinema, Shopify",
+  "duration": "Ongoing retainer",
+  "channels": "Meta ads, outdoor & print, in-store screens & banners, influencers, cinema, website",
   "filters": [
     "campaigns-cinema",
     "performance-ads",
     "social-reels",
-    "websites-shopify"
+    "websites-shopify",
+    "branding"
   ],
   "services": [
+    "meta-ads-agency",
     "campaign-planning",
+    "graphic-design",
     "cinema-ads-film-production",
     "ai-ads-ai-ad-shoots",
-    "graphic-design",
     "influencer-ugc-marketing",
-    "meta-ads-agency",
-    "shopify-development"
+    "social-media-marketing",
+    "shopify-development",
+    "shopify-store-management"
   ],
   "metrics": [
     {
-      "label": "Footfall vs last Diwali",
+      "label": "Footfall growth",
       "value": "TODO-DATA"
     },
     {
-      "label": "Sales uplift",
+      "label": "Sales uplift in campaign periods",
       "value": "TODO-DATA"
     },
     {
@@ -43,51 +47,55 @@
     }
   ],
   "challenge": [
-    "CDS Stores sells premium sweets, dry fruits, hampers and corporate gifting in Vapi and Valsad. Diwali is the season that decides the year, and the brief was simple to say and hard to do: be the first name people think of for gifting in both cities, on a total budget of ₹2 lakh.",
-    "That meant one message carried across outdoor, influencers, Meta ads and a cinema screen — planned as one campaign, not four."
+    "CDS Stores sells premium sweets, dry fruits, hampers and corporate gifting from stores in Vapi and Valsad. Its year is a series of festive peaks — Ganpati, Raksha Bandhan, Diwali, weddings — and each one is won or lost in the same two cities, on the street, on Instagram and inside the store.",
+    "The retailer needed one partner who could keep demand steady between festivals and then turn each season into a city-wide campaign: Meta ads, outdoor and print across both cities, in-store branding and screen content that sells at the counter, and a website that takes hamper and gifting orders. gaa-tha handles all of it on a retainer."
   ],
   "workstreams": [
     {
-      "title": "Campaign planning",
-      "text": "A 6 October – 14 November campaign with the budget split across outdoor banners (store-front, auto-rickshaw and bus panels), influencer collaborations (15–20 collab reels and 5 page collaborations) and Meta ads, with one key visual and one calendar."
+      "title": "Meta ad campaigns, all year",
+      "text": "Always-on and festive campaigns on Facebook and Instagram targeted to Vapi and Valsad, with click-to-WhatsApp for bulk and corporate gifting enquiries and creative refreshed for every occasion."
     },
     {
-      "title": "Outdoor creative",
-      "text": "Premium, minimal category banners for sweets, hampers, dry fruits, corporate gifting and the live sweets counter — each category with its own colour code so the auto-rickshaw panels read from across the road."
+      "title": "City-wide banners and print media",
+      "text": "Outdoor and print across both cities — store-front banners, auto-rickshaw and bus panels, hoardings and leaflets — designed as premium, minimal category systems with a colour code per category so they read from across the road."
     },
     {
-      "title": "Cinema ad",
-      "text": "A 10-second trailer-style AI film: products drop into frame with bold title cards — sweets, hampers, dry fruits, namkeen, chocolates, live sweets, bulk gifting — then the storefront and a closing card with locations and numbers, letterboxed to cinema scope."
+      "title": "In-store marketing and branding",
+      "text": "Everything the shopper sees inside the stores: content for the in-store TV screens, media banners, category signage and counter displays, so the message from the street carries through to the shelf and the billing counter."
     },
     {
-      "title": "AI film (style reference)",
-      "text": "An earlier Ganpati festive AI ad set the visual language for the campaign and became the reference for the Diwali film."
+      "title": "Festive campaigns and cinema ads",
+      "text": "360° festive campaigns planned as one idea, one budget and one calendar — for example a Diwali campaign split across outdoor, 15–20 influencer collab reels, Meta ads and a 10-second trailer-style AI cinema ad, with an earlier Ganpati AI film setting the visual language."
     },
     {
-      "title": "Shopify",
-      "text": "Ongoing support for the cdsstores.in store so online hamper and gifting orders had a clean path during the campaign."
+      "title": "Website — built and managed",
+      "text": "We built and handle the cdsstores.in Shopify store so hamper, gifting and festive orders have a clean online path, with seasonal collections and banners set up for every campaign."
     },
     {
-      "title": "Meta ads & social",
-      "text": "Festive Meta campaigns targeted to Vapi and Valsad alongside the influencer content, with click-to-WhatsApp for bulk and corporate enquiries."
+      "title": "Social media and influencers",
+      "text": "Instagram content and influencer collaborations that keep CDS Stores visible between festivals and amplify each campaign when it lands."
     }
   ],
   "results": [
-    "The campaign runs until 14 November 2026. Footfall, sales uplift, corporate orders, reach and cost-per-result are published here once the season closes and the numbers are confirmed."
+    "CDS Stores now runs every touchpoint — Meta, the street, print, in-store screens, cinema, influencers and the website — through one team, so each festive season is planned as one campaign rather than four. Footfall, sales uplift, corporate orders and reach are published here per campaign once the numbers are confirmed."
   ],
   "quote": {
     "text": "",
     "name": "",
     "role": ""
   },
-  "gallery": 6,
+  "gallery": 10,
   "galleryNotes": [
-    "Auto-rickshaw banner set",
-    "Store-front banner",
-    "Cinema-ad still 1",
-    "Cinema-ad still 2",
+    "Meta campaign results",
+    "Best Meta ad creatives",
+    "City-wide hoardings & auto-rickshaw banners",
+    "Store-front banners",
+    "Print media & leaflets",
+    "In-store TV screen content",
+    "In-store media banners & signage",
+    "Cinema-ad stills",
     "Influencer reel covers",
-    "Meta ad creatives"
+    "Website — page collage"
   ],
   "video": "",
   "images": {
@@ -95,9 +103,23 @@
     "card": "",
     "og": ""
   },
+  "faq": [
+    {
+      "q": "Which agency handles marketing for CDS Stores in Vapi and Valsad?",
+      "a": "gaa-tha handles CDS Stores' marketing on a retainer — Meta ads, city-wide banners and print media, in-store branding and screen content, festive campaigns with influencers and cinema ads, and the cdsstores.in website."
+    },
+    {
+      "q": "What in-store marketing does gaa-tha do for CDS Stores?",
+      "a": "We create the content for the in-store TV screens, media banners, category signage and counter displays, matched to whatever campaign is running outside the store."
+    },
+    {
+      "q": "How does gaa-tha plan a festive campaign for a local retailer?",
+      "a": "One idea, one budget and one calendar across outdoor, print, Meta ads, influencers, cinema and in-store — so every channel says the same thing at the same time and results are reported together."
+    }
+  ],
   "meta": {
-    "title": "CDS Stores case study — Diwali campaign on ₹2 lakh | gaa-tha",
-    "description": "How gaa-tha planned a city-wide Diwali campaign for CDS Stores in Vapi and Valsad — outdoor, influencers, Meta ads and a cinema ad on one ₹2 lakh budget."
+    "title": "CDS Stores case study — Meta, outdoor & in-store marketing | gaa-tha",
+    "description": "How gaa-tha runs CDS Stores' Meta campaigns, city-wide banners and print, in-store screens and branding, festive cinema ads and website in Vapi and Valsad."
   },
-  "updated": "2026-09-25"
+  "updated": "2026-10-01"
 }

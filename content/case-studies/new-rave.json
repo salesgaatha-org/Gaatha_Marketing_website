@@ -3,74 +3,90 @@
   "published": true,
   "featured": false,
   "client": "new-rave",
-  "headline": "Instagram content that drives collectors to the store and the website.",
-  "summary": "Social strategy, content production and storefront policies for a trading-card-game and hobbies retailer in Canada — our international case.",
+  "headline": "New Rave: campaigns across Canada, a managed website and product data for a trading-card retailer.",
+  "summary": "Marketing strategy, campaigns across Canada, Instagram content, product scraping for the catalogue and the newrave.ca website gaa-tha manages — our international retainer.",
+  "answer": "gaa-tha is the marketing partner for New Rave, a trading-card-game and hobbies retailer in Canada. We plan its marketing strategy, run its campaigns across Canada, produce its Instagram content, handle product scraping to keep the online catalogue current, and manage the newrave.ca website including its storefront policies.",
   "industry": "Retail (physical + online) / TCG & hobbies",
   "location": "Canada",
-  "duration": "TODO-DATA",
-  "channels": "Instagram, website",
+  "duration": "Ongoing retainer",
+  "channels": "Meta ads, Instagram, website, product data",
   "filters": [
     "social-reels",
-    "branding"
+    "performance-ads",
+    "websites-shopify",
+    "ecommerce-marketplaces"
   ],
   "services": [
+    "marketing-strategy",
+    "meta-ads-agency",
     "social-media-marketing",
+    "website-development",
+    "business-tools-automation",
     "graphic-design",
     "ai-ads-ai-ad-shoots",
     "content-writing-copywriting"
   ],
   "metrics": [
     {
-      "label": "Follower growth",
+      "label": "Website sessions",
       "value": "TODO-DATA"
     },
     {
-      "label": "Engagement rate",
-      "value": "TODO-DATA"
-    },
-    {
-      "label": "Website sessions from Instagram",
+      "label": "Online orders",
       "value": "TODO-DATA"
     },
     {
       "label": "Pre-order volume",
       "value": "TODO-DATA"
+    },
+    {
+      "label": "Follower growth",
+      "value": "TODO-DATA"
     }
   ],
   "challenge": [
-    "New Rave (newrave.ca) sells trading-card games and hobby products from a physical store and a website. The community is knowledgeable and fast-moving: launches, pre-orders and singles matter, and generic retail content is ignored.",
-    "The brief was to grow footfall in the store and sales on the website with Instagram content that spoke to collectors, plus the storefront policies a serious TCG retailer needs."
+    "New Rave (newrave.ca) sells trading-card games and hobby products from a physical store and a website in Canada. The community is knowledgeable and fast-moving: launches, pre-orders and singles matter, catalogues change weekly, and generic retail content is ignored.",
+    "The retailer needed a partner who could run strategy, campaigns, content and the website together from India for a Canadian market — and keep a large, changing product catalogue accurate."
   ],
   "workstreams": [
     {
-      "title": "Social strategy",
-      "text": "Four content pillars: new launches and pre-orders, card features and USPs, direct brand promotion, and witty community posts that collectors actually share."
+      "title": "Marketing strategy",
+      "text": "A plan built around launches, pre-orders and the collector community, with four content pillars: new launches and pre-orders, card features, direct brand promotion and witty community posts collectors actually share."
     },
     {
-      "title": "Content production",
-      "text": "Static and carousel posts built on the retailer's supplied product mockups and brand assets, with AI-generated visual frames — never third-party card artwork — so every post stayed on-brand and cleared for use."
+      "title": "Campaigns across Canada",
+      "text": "Paid campaigns targeted across Canada to drive website orders, pre-orders and store visits, timed to product launches."
     },
     {
-      "title": "Website support",
-      "text": "A full storefront policy set written for the category: shipping, in-store pickup, pre-orders, TCG singles, fraud prevention and grading."
+      "title": "Website — managed",
+      "text": "We manage the newrave.ca website, including a full storefront policy set written for the category: shipping, in-store pickup, pre-orders, TCG singles, fraud prevention and grading."
+    },
+    {
+      "title": "Product scraping and catalogue data",
+      "text": "Product scraping and data preparation so new releases and product details reach the website quickly and accurately."
+    },
+    {
+      "title": "Instagram content",
+      "text": "Static and carousel posts built on the retailer's product mockups and brand assets, with AI-generated visual frames — never third-party card artwork — so every post stays on-brand and cleared for use."
     }
   ],
   "results": [
-    "Impact figures — follower growth, engagement, website sessions from Instagram, pre-order volume and store footfall — are published once confirmed with the client."
+    "New Rave runs strategy, Canada-wide campaigns, content, product data and its website through one team. Website sessions, online orders, pre-order volume and follower growth are published once confirmed with the client."
   ],
   "quote": {
     "text": "",
     "name": "",
     "role": ""
   },
-  "gallery": 6,
+  "gallery": 7,
   "galleryNotes": [
-    "6-post grid",
-    "Carousel 1",
-    "Carousel 2",
-    "Policy page screenshot",
-    "Launch post",
-    "Community post"
+    "Campaign results",
+    "Ad creatives",
+    "Website — page collage",
+    "Storefront policy pages",
+    "Instagram grid",
+    "Carousel posts",
+    "Launch post"
   ],
   "notes": "Do not display third-party IP (e.g. Pokémon artwork or logos) in case-study imagery unless cleared; use our own creative frames or blurred versions.",
   "video": "",
@@ -79,9 +95,19 @@
     "card": "",
     "og": ""
   },
+  "faq": [
+    {
+      "q": "Does gaa-tha work with brands outside India?",
+      "a": "Yes. New Rave is a trading-card retailer in Canada; gaa-tha runs its marketing strategy, campaigns across Canada, Instagram content, product scraping and website."
+    },
+    {
+      "q": "What does gaa-tha manage on New Rave's website?",
+      "a": "We manage the newrave.ca website and its product data, and wrote its storefront policies for shipping, pickup, pre-orders, TCG singles, fraud prevention and grading."
+    }
+  ],
   "meta": {
-    "title": "New Rave case study — Instagram for a TCG retailer | gaa-tha",
-    "description": "How gaa-tha built an Instagram content system and storefront policies for New Rave, a trading-card and hobbies retailer in Canada."
+    "title": "New Rave case study — Canada campaigns & website | gaa-tha",
+    "description": "How gaa-tha runs marketing strategy, campaigns across Canada, Instagram, product scraping and the website for New Rave, a trading-card retailer."
   },
-  "updated": "2026-09-25"
+  "updated": "2026-10-01"
 }

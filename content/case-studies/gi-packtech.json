@@ -3,34 +3,39 @@
   "published": true,
   "featured": false,
   "client": "gi-packtech",
-  "headline": "Turning a technical packaging range into an export sales engine.",
-  "summary": "A full product catalogue, brochures, 110 AI image prompts across 41 products, Google Business Profile content and a LinkedIn-led export outreach system for GI PackTech.",
+  "headline": "GI PackTech: international lead generation and an export sales engine for an industrial packaging maker.",
+  "summary": "International lead-generation campaigns across markets worldwide, a website gaa-tha built and manages, a full product catalogue, AI product imagery for 41 products and Google Business Profile for GI PackTech.",
+  "answer": "gaa-tha runs international marketing for GI PackTech, an Indian maker of VCI films, vacuum laminates, machine covers and reactor liners. We run its lead-generation campaigns for buyers around the world on LinkedIn and Meta, built and manage its website, and produced its product catalogue, brochures and AI product imagery.",
   "industry": "Manufacturing / industrial & export packaging",
-  "location": "Gujarat",
-  "duration": "TODO-DATA",
-  "channels": "Catalogue, LinkedIn, Meta, Google Business Profile, website",
+  "location": "Gujarat — selling worldwide",
+  "duration": "Ongoing retainer",
+  "channels": "LinkedIn, Meta, website, catalogue, Google Business Profile",
   "filters": [
     "b2b-export",
+    "performance-ads",
+    "websites-shopify",
     "branding"
   ],
   "services": [
+    "b2b-lead-generation",
+    "meta-ads-agency",
+    "website-development",
     "catalogues-presentations",
     "ai-ads-ai-ad-shoots",
-    "b2b-lead-generation",
     "local-seo-google-business-profile",
-    "website-development"
+    "marketing-strategy"
   ],
   "metrics": [
     {
-      "label": "Export enquiries",
+      "label": "International leads",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "Countries reached",
       "value": "TODO-DATA"
     },
     {
       "label": "Meetings booked",
-      "value": "TODO-DATA"
-    },
-    {
-      "label": "LinkedIn response rate",
       "value": "TODO-DATA"
     },
     {
@@ -39,47 +44,49 @@
     }
   ],
   "challenge": [
-    "GI PackTech makes specialised industrial packaging — VCI films, vacuum laminates, machine covers, reactor liners and more. The products are technical, the buyers are international, and the material explaining what each product does and when to use it did not exist in a form a buyer could act on.",
-    "The brief was to explain a complex range clearly to overseas buyers and then run a structured export lead-generation push."
+    "GI PackTech makes specialised industrial packaging — VCI films, vacuum laminates, machine covers, reactor liners and more. The products are technical, the buyers are international, and there was no material that explained each product clearly enough for an overseas buyer to act on.",
+    "The company needed a partner to explain the range, build the website buyers check first, and then run international lead generation month after month — not a single campaign."
   ],
   "workstreams": [
     {
-      "title": "Product catalogue",
-      "text": "A full catalogue with product explanations, applications, customisation options and sales guidance for each line — written so a buyer and a sales rep read the same page."
+      "title": "International lead-generation campaigns",
+      "text": "Campaigns for buyers across the world on LinkedIn and Meta, a 50-company Sales Navigator outreach tracker with curated message sequences, and a marketing playbook for both channels — with leads qualified before they reach the sales team."
     },
     {
-      "title": "Brochures",
-      "text": "Product-specific brochures, starting with a flexible reactor liner brochure PDF."
+      "title": "Website — built and managed",
+      "text": "We built and manage GI PackTech's website with product pages, applications and enquiry routes for international buyers, plus AI-produced hero imagery."
     },
     {
-      "title": "AI imagery",
-      "text": "110 AI image prompts across 41 products for catalogue and website use, plus website hero imagery — consistent product visuals without a 41-product photoshoot."
+      "title": "Product catalogue and brochures",
+      "text": "A full catalogue with product explanations, applications, customisation options and sales guidance for each line, and product-specific brochures such as the flexible reactor liner brochure."
+    },
+    {
+      "title": "AI product imagery",
+      "text": "110 AI image prompts across 41 products for the catalogue and website — consistent product visuals without a 41-product photoshoot."
     },
     {
       "title": "Local SEO",
       "text": "Google Business Profile content so domestic buyers searching for packaging suppliers find a complete, current profile."
-    },
-    {
-      "title": "Export lead generation",
-      "text": "A 50-company LinkedIn outreach tracker with curated messages, a Meta and LinkedIn marketing playbook, and Sales Navigator-led outreach to named buyers."
     }
   ],
   "results": [
-    "Export enquiries, meetings booked, LinkedIn response rate and RFQs are published once confirmed from the outreach tracker."
+    "GI PackTech now has a website, catalogue and image library an international buyer can act on, and a lead-generation engine that runs every month. International leads, countries reached, meetings booked and RFQs are published once confirmed from the outreach tracker."
   ],
   "quote": {
     "text": "",
     "name": "",
     "role": ""
   },
-  "gallery": 6,
+  "gallery": 8,
   "galleryNotes": [
-    "Catalogue spread 1",
-    "Catalogue spread 2",
-    "Brochure",
-    "AI product visual 1",
-    "AI product visual 2",
-    "Outreach dashboard (data blurred)"
+    "International campaign results",
+    "LinkedIn outreach dashboard (data blurred)",
+    "Lead-gen ad creatives",
+    "Website — page collage",
+    "Catalogue spreads",
+    "Reactor liner brochure",
+    "AI product visuals",
+    "Google Business Profile"
   ],
   "video": "",
   "images": {
@@ -87,9 +94,19 @@
     "card": "",
     "og": ""
   },
+  "faq": [
+    {
+      "q": "Who runs GI PackTech's international marketing?",
+      "a": "gaa-tha runs GI PackTech's international lead-generation campaigns on LinkedIn and Meta, and built and manages its website, catalogue and product imagery."
+    },
+    {
+      "q": "How does gaa-tha generate export leads for Indian manufacturers?",
+      "a": "We build the material buyers expect — website, catalogue, brochures — then run LinkedIn outreach and ads plus Meta lead campaigns by market, and qualify every lead in a shared tracker."
+    }
+  ],
   "meta": {
-    "title": "GI PackTech case study — export lead engine | gaa-tha",
-    "description": "How gaa-tha turned GI PackTech's technical packaging range into a catalogue, AI product imagery and a LinkedIn-led export lead-generation system."
+    "title": "GI PackTech case study — international lead generation | gaa-tha",
+    "description": "How gaa-tha runs GI PackTech's international lead-generation campaigns and built its website, catalogue and AI product imagery for buyers worldwide."
   },
-  "updated": "2026-09-25"
+  "updated": "2026-10-01"
 }

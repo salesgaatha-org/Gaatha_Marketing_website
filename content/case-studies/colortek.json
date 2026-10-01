@@ -3,12 +3,13 @@
   "published": true,
   "featured": false,
   "client": "colortek",
-  "headline": "Making a 25-year coatings manufacturer look as advanced as its technology.",
-  "summary": "A credibility, brand and SEO/AEO/GEO audit, a naming exercise and the 'Colortek Veris' sub-brand direction for Colourtech Coating India.",
+  "headline": "Colortek: rebranding a 25-year coatings manufacturer and building the website to match.",
+  "summary": "Branding briefs, a rebranding structure with the 'Colortek Veris' direction, a website gaa-tha designed, built and manages, plus SEO/AEO/GEO and social for Colourtech Coating India.",
+  "answer": "gaa-tha is the branding and website partner for Colortek (Colourtech Coating India), a 25-year industrial coatings manufacturer in Gujarat. We wrote its branding briefs and rebranding structure, set the 'Colortek Veris' sub-brand direction, designed and built its website from scratch, and manage the site, search visibility and social channels.",
   "industry": "Manufacturing / industrial coatings",
   "location": "Gujarat",
-  "duration": "TODO-DATA",
-  "channels": "Website, brand, LinkedIn, Instagram, Facebook, search",
+  "duration": "Ongoing retainer",
+  "channels": "Website, brand, search (SEO/AEO/GEO), LinkedIn, Instagram, Facebook",
   "filters": [
     "branding",
     "websites-shopify",
@@ -16,18 +17,24 @@
   ],
   "services": [
     "branding-agency",
+    "marketing-strategy",
     "website-development",
     "seo-aeo-geo",
     "social-media-marketing",
-    "catalogues-presentations"
+    "catalogues-presentations",
+    "content-writing-copywriting"
   ],
   "metrics": [
     {
-      "label": "Organic traffic (post-launch)",
+      "label": "Organic traffic",
       "value": "TODO-DATA"
     },
     {
-      "label": "Enquiries",
+      "label": "Website enquiries",
+      "value": "TODO-DATA"
+    },
+    {
+      "label": "AI-search visibility",
       "value": "TODO-DATA"
     },
     {
@@ -36,43 +43,49 @@
     }
   ],
   "challenge": [
-    "Colortek (Colourtech Coating India) has 25 years of technical substance — compliance, specialised coating lines, demanding industrial customers. The website undermined it: contradictory figures, broken metadata, duplicate content, no structured data and performance bloat. The brand name also sat in a crowded space of similar-sounding companies.",
-    "The brief was to make the company look as advanced online as it is on the factory floor, without losing recognition built over two decades."
+    "Colortek (Colourtech Coating India) has 25 years of technical substance — compliance, specialised coating lines and demanding industrial customers. Its online presence undermined it: contradictory figures, broken metadata, duplicate content, no structured data and a slow site. The name also sat in a crowded field of similar-sounding companies.",
+    "The company needed a partner to rethink the brand without losing two decades of recognition, then rebuild and run the digital presence so buyers, search engines and AI assistants see the manufacturer as it really is."
   ],
   "workstreams": [
     {
-      "title": "Website audit",
-      "text": "A credibility, brand, SEO/AEO/GEO and UX audit that documented every contradiction, broken tag, duplicate page, missing schema and performance issue — with a prioritised fix list."
+      "title": "Branding briefs",
+      "text": "A seven-page branding brief covering the case for change, naming rationale, identity continuity, discoverability and a phased rollout the company could approve section by section."
     },
     {
-      "title": "Brand evolution",
-      "text": "A naming exercise leading to the 'Colortek Veris' direction: keep the existing wordmark and colour swoosh for continuity, add a premium sub-brand for the advanced coating range."
+      "title": "Rebranding structure",
+      "text": "A naming exercise leading to the 'Colortek Veris' direction: keep the existing wordmark and colour swoosh for continuity, and add a premium sub-brand for the advanced coating range — with a clear brand architecture for parent and product lines."
     },
     {
-      "title": "Brand brief",
-      "text": "A seven-page branding brief covering the case for change, naming rationale, identity continuity, discoverability strategy and a phased rollout the company could approve section by section."
+      "title": "Website — designed, built and managed",
+      "text": "We audited the old site for credibility, brand, SEO/AEO/GEO and UX issues, then designed and built a new website from scratch with clear product lines, accurate company facts and structured data. We publish updates and manage the site on an ongoing basis."
     },
     {
-      "title": "Proposed engagement",
-      "text": "Website redesign, a company presentation, LinkedIn, Instagram and Facebook content, and ongoing SEO/AEO/GEO maintenance."
+      "title": "SEO, AEO and GEO",
+      "text": "Technical fixes, schema, answer-first product content and consistent company facts so Colortek ranks on Google and can be cited by AI assistants such as ChatGPT, Claude and Gemini."
+    },
+    {
+      "title": "Company presentation and social",
+      "text": "A company presentation for sales meetings and content for LinkedIn, Instagram and Facebook built on the new brand system."
     }
   ],
   "results": [
-    "Post-launch organic traffic, enquiries and Lighthouse scores are published here once the redesign is live and measured."
+    "Colortek now has a documented brand direction, a rebranding structure it can roll out in phases and a website that matches the quality of its products. Organic traffic, enquiries, AI-search visibility and performance scores are published here once measured."
   ],
   "quote": {
     "text": "",
     "name": "",
     "role": ""
   },
-  "gallery": 6,
+  "gallery": 8,
   "galleryNotes": [
-    "Logo before/after",
-    "Brief page 1",
-    "Brief page 2",
-    "Website mockup — home",
-    "Website mockup — product line",
-    "Company presentation cover"
+    "Logo before / after",
+    "Branding brief pages",
+    "Rebranding structure",
+    "Website — homepage",
+    "Website — product line pages",
+    "Website — page collage",
+    "Company presentation",
+    "Social posts"
   ],
   "video": "",
   "images": {
@@ -80,9 +93,23 @@
     "card": "",
     "og": ""
   },
+  "faq": [
+    {
+      "q": "Who designed Colortek's website?",
+      "a": "gaa-tha designed and built Colortek's website from scratch after a full credibility, SEO/AEO/GEO and UX audit of the old site, and manages it on an ongoing basis."
+    },
+    {
+      "q": "What is Colortek Veris?",
+      "a": "Colortek Veris is the premium sub-brand direction gaa-tha proposed for Colortek's advanced coating range, keeping the existing wordmark and colour swoosh for continuity."
+    },
+    {
+      "q": "How does gaa-tha rebrand an established manufacturer?",
+      "a": "We start with a branding brief and naming rationale, keep the recognisable parts of the identity, add a clear brand architecture, and roll the change out in phases across website, presentation and social."
+    }
+  ],
   "meta": {
-    "title": "Colortek case study — coatings brand evolution | gaa-tha",
-    "description": "How gaa-tha audited Colortek's website and brand, ran a naming exercise and set the 'Colortek Veris' direction for a 25-year industrial coatings manufacturer."
+    "title": "Colortek case study — rebranding & website | gaa-tha",
+    "description": "How gaa-tha wrote Colortek's branding briefs and rebranding structure, set the 'Colortek Veris' direction and built and manages its website and search presence."
   },
-  "updated": "2026-09-25"
+  "updated": "2026-10-01"
 }

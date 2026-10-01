@@ -3,11 +3,12 @@
   "published": true,
   "featured": true,
   "client": "kitcoz",
-  "headline": "A concern-led skincare brand, built from identity to checkout.",
+  "headline": "Kitcoz: a D2C skincare brand built and grown end to end — identity, Shopify, tracking and Meta ads.",
   "summary": "Brand identity, a Shopify store built around skin concerns and kits, Pixel and Conversions API tracking, Meta ad creative and 300 Instagram copy variations for Kitcoz (Elvey Essentials).",
+  "answer": "gaa-tha is the D2C partner for Kitcoz, a skincare brand from Elvey Essentials. We created its brand identity, designed and built its concern-led Shopify store with a kit selector and GoKwik checkout, set up Meta Pixel and Conversions API tracking, and run its Meta ad creative and Instagram content.",
   "industry": "D2C beauty & personal care",
   "location": "India",
-  "duration": "TODO-DATA",
+  "duration": "Ongoing retainer",
   "channels": "Shopify, Meta ads, Instagram",
   "filters": [
     "websites-shopify",
@@ -76,14 +77,15 @@
     "name": "",
     "role": ""
   },
-  "gallery": 6,
+  "gallery": 7,
   "galleryNotes": [
     "Brand board",
-    "Homepage mockup",
+    "Shopify website — page collage",
     "Kit selector UI",
     "Concern filter",
-    "Ad creative 1",
-    "Ad creative 2"
+    "Meta ad creatives",
+    "Campaign results",
+    "Instagram content"
   ],
   "video": "",
   "images": {
@@ -91,9 +93,19 @@
     "card": "",
     "og": ""
   },
+  "faq": [
+    {
+      "q": "Who built the Kitcoz Shopify store?",
+      "a": "gaa-tha designed and built the Kitcoz Shopify store, including the combo-kit selector, concern-based filters, pincode checker, cart drawer and GoKwik checkout, and migrated products from Amazon."
+    },
+    {
+      "q": "What does gaa-tha do for D2C skincare brands?",
+      "a": "Brand identity, a Shopify store built around concerns and kits, Pixel and Conversions API tracking, Meta ad creative and campaigns, and ongoing social content."
+    }
+  ],
   "meta": {
     "title": "Kitcoz case study — D2C skincare brand & Shopify | gaa-tha",
     "description": "How gaa-tha built Kitcoz from brand identity to a concern-led Shopify store with kit selector, GoKwik checkout, Pixel/CAPI tracking and Meta ad creative."
   },
-  "updated": "2026-09-25"
+  "updated": "2026-10-01"
 }

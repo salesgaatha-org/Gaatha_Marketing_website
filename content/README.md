@@ -64,6 +64,7 @@ array contains this slug is shown in the Proof block (max 3).
   "client": "charliee",                // key in clients.json (logo comes from there)
   "headline": "outcome headline (H1)",
   "summary": "one line",
+  "answer": "40–60 words, answer-first: who we are to this brand and what we run",
   "industry": "FMCG / packaged snacks",
   "location": "Gujarat & Mumbai",
   "duration": "TODO-DATA",
@@ -76,6 +77,8 @@ array contains this slug is shown in the Proof block (max 3).
   "results": ["para"],
   "quote": { "text": "", "name": "", "role": "" },      // hidden while empty
   "gallery": 6,                                          // number of 4:5 slots
+  "galleryNotes": ["Blinkit growth dashboard", "…"],     // label per gallery slot
+  "faq": [{ "q": "…", "a": "…" }],                      // optional; adds FAQPage schema
   "video": "",                                           // optional embed URL
   "images": { "hero": "", "card": "", "og": "" },        // admin-managed media ids/urls
   "meta": { "title": "…", "description": "…" },

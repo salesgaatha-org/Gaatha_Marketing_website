@@ -3,77 +3,96 @@
   "published": true,
   "featured": false,
   "client": "rentastic-homes",
-  "headline": "Building trust for a PG brand — from brochures to a founder-led video series.",
-  "summary": "Sales material, operations forms and a 15-episode founder series for Rentastic Homes, a co-living and PG accommodation brand.",
-  "industry": "Real estate / co-living",
-  "location": "TODO-DATA",
-  "duration": "TODO-DATA",
-  "channels": "Instagram, YouTube, brochures",
+  "headline": "Rentastic Homes: strategy, lead generation and on-ground branding for a multi-city PG brand.",
+  "summary": "Marketing and offer strategy, lead-generation campaigns and lead conversion, banners and branding at PG locations across cities, a founder-led video series and the website gaa-tha built for Rentastic Homes.",
+  "answer": "gaa-tha is the marketing partner for Rentastic Homes, a PG and co-living brand operating across cities in India. We set its marketing and offer strategy, run lead-generation campaigns and help convert those leads into tenants, produce the banners and branding at every PG location, created its founder-led video series and built and manage its website.",
+  "industry": "Real estate / PG & co-living",
+  "location": "Multiple cities, India",
+  "duration": "Ongoing retainer",
+  "channels": "Meta lead ads, Google, Instagram, YouTube, on-site branding, website",
   "filters": [
+    "performance-ads",
     "social-reels",
-    "branding"
+    "branding",
+    "websites-shopify"
   ],
   "services": [
+    "marketing-strategy",
+    "meta-ads-agency",
+    "google-ads-agency",
     "graphic-design",
-    "content-writing-copywriting",
     "reels-short-form-video",
-    "social-media-marketing"
+    "social-media-marketing",
+    "content-writing-copywriting",
+    "website-development",
+    "business-tools-automation"
   ],
   "metrics": [
     {
-      "label": "Enquiries",
+      "label": "Leads generated",
       "value": "TODO-DATA"
     },
     {
-      "label": "Site visits",
+      "label": "Lead-to-tenant conversion",
       "value": "TODO-DATA"
     },
     {
-      "label": "Occupancy rate",
+      "label": "Occupancy",
       "value": "TODO-DATA"
     },
     {
-      "label": "Reel views",
+      "label": "Cost per lead",
       "value": "TODO-DATA"
     }
   ],
   "challenge": [
-    "Choosing a PG is a trust decision made by students and parents who have never met the operator. Rentastic Homes needed material that answered their questions before the first call, and content that put the founder in front of the audience consistently."
+    "Choosing a PG is a trust decision made by students, working professionals and parents who have never met the operator. Rentastic Homes runs PGs in more than one city, so it needed demand in every location, offers that filled beds in the right season, and a brand that looked the same on Instagram, on the website and on the building.",
+    "The brief was a full partner: strategy, leads, conversion, on-ground branding and the website — run all year, not just at admission season."
   ],
   "workstreams": [
     {
-      "title": "Sales material",
-      "text": "A Girls PG brochure covering rooms, safety, food, rules and pricing structure in a format parents could forward."
+      "title": "Marketing and offer strategy",
+      "text": "Positioning by audience and location, and offer strategies — seasonal offers, referral and early-booking deals — planned around admission and job-joining cycles."
     },
     {
-      "title": "Operations",
-      "text": "A tenant check-out form so move-outs are documented the same way every time."
+      "title": "Lead generation and conversion",
+      "text": "Lead-generation campaigns that bring enquiries for each property, plus the follow-up process, scripts and tracking that turn those leads into site visits and tenants."
     },
     {
-      "title": "Content",
-      "text": "A 15-episode founder series — scripts and a branded script book — designed for Instagram and YouTube so the founder could record in batches."
+      "title": "On-ground branding across cities",
+      "text": "Banners, signage and branding at the PG locations across cities, so every property looks like one brand and the building itself sells."
     },
     {
-      "title": "To confirm",
-      "text": "Social media management, Meta lead ads for occupancy and Google Business Profile — scope to be confirmed with the team before publishing."
+      "title": "Sales and operations material",
+      "text": "A Girls PG brochure covering rooms, safety, food, rules and pricing in a format parents can forward, and a tenant check-out form so move-outs are documented the same way every time."
+    },
+    {
+      "title": "Founder-led content",
+      "text": "A 15-episode founder series — scripts and a branded script book — for Instagram and YouTube so the founder can record in batches and build trust before the first call."
+    },
+    {
+      "title": "Website — built and managed",
+      "text": "We built and manage the Rentastic Homes website, with property pages and enquiry routes that feed the lead process."
     }
   ],
   "results": [
-    "Enquiries, site visits, occupancy and reel views are published once confirmed."
+    "Rentastic Homes runs strategy, leads, conversion, on-ground branding, content and the website through one team, with the same brand at every location. Leads, conversion, occupancy and cost per lead are published once confirmed."
   ],
   "quote": {
     "text": "",
     "name": "",
     "role": ""
   },
-  "gallery": 6,
+  "gallery": 8,
   "galleryNotes": [
-    "Brochure spread",
-    "Founder-series still 1",
-    "Founder-series still 2",
-    "Script book cover",
-    "Check-out form",
-    "Instagram grid"
+    "Lead campaign results",
+    "Lead-gen ad creatives",
+    "On-site banners & branding",
+    "PG brochure spread",
+    "Founder-series stills",
+    "Instagram grid",
+    "Website — page collage",
+    "Offer creatives"
   ],
   "video": "",
   "images": {
@@ -81,9 +100,19 @@
     "card": "",
     "og": ""
   },
+  "faq": [
+    {
+      "q": "Who does marketing for Rentastic Homes?",
+      "a": "gaa-tha runs Rentastic Homes' marketing on a retainer — strategy and offers, lead-generation campaigns and lead conversion, on-ground branding at PG locations across cities, founder-led video content and the website."
+    },
+    {
+      "q": "How does gaa-tha generate leads for a PG or co-living brand?",
+      "a": "We run location-targeted lead campaigns, answer the trust questions with brochures and founder content, and set up a follow-up process and tracker that converts enquiries into site visits and tenants."
+    }
+  ],
   "meta": {
-    "title": "Rentastic Homes case study — PG brand trust | gaa-tha",
-    "description": "How gaa-tha built trust for Rentastic Homes with a PG brochure, operations forms and a 15-episode founder-led video series for Instagram and YouTube."
+    "title": "Rentastic Homes case study — PG lead generation & branding | gaa-tha",
+    "description": "How gaa-tha runs strategy, offers, lead-generation campaigns, on-ground branding across cities, founder content and the website for Rentastic Homes."
   },
-  "updated": "2026-09-25"
+  "updated": "2026-10-01"
 }
