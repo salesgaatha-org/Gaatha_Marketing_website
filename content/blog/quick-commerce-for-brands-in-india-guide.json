@@ -88,6 +88,8 @@
   "author": "gaa-tha",
   "readMinutes": 10,
   "cover": "cov-b",
+  "image": {"src":"/assets/blog/quick-commerce-for-brands-in-india-guide.webp","width":1600,"height":893,"srcset":"/assets/blog/quick-commerce-for-brands-in-india-guide-800.webp 800w, /assets/blog/quick-commerce-for-brands-in-india-guide.webp 1600w"},
+  "ogImage": "/assets/og/blog/quick-commerce-for-brands-in-india-guide.jpg",
   "mark": "Q",
   "datePublished": "2026-09-25",
   "dateModified": "2026-09-25"

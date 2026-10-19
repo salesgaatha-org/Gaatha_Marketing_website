@@ -57,6 +57,7 @@
   ],
   "related": ["nykaa-onboarding", "ajio-onboarding", "fashion-marketplace-growth", "product-photography-ecommerce"],
   "reading": ["blog-ai-ads-and-ai-ad-shoots-guide", "blog-branding-vs-marketing", "blog-marketing-strategy-guide"],
+  "images": {"hero":{"src":"/assets/services/myntra-onboarding-hero.webp","width":1600,"height":893,"srcset":"/assets/services/myntra-onboarding-hero-800.webp 800w, /assets/services/myntra-onboarding-hero.webp 1600w"},"card":{"src":"/assets/services/myntra-onboarding-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/myntra-onboarding.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Myntra Onboarding Agency in India | gaa-tha",
     "description": "Myntra onboarding and management for fashion and beauty brands: eligibility, registration, style-level catalogue, image specs, Myntra Ads, EORS and BFF."

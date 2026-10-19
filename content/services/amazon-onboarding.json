@@ -57,6 +57,7 @@
   ],
   "related": ["amazon-account-management", "marketplace-listing-optimisation", "flipkart-seller-management", "product-photography-ecommerce"],
   "reading": ["blog-seo-aeo-geo-guide", "blog-ai-ads-and-ai-ad-shoots-guide", "blog-marketing-strategy-guide"],
+  "images": {"hero":{"src":"/assets/services/amazon-onboarding-hero.webp","width":1600,"height":893,"srcset":"/assets/services/amazon-onboarding-hero-800.webp 800w, /assets/services/amazon-onboarding-hero.webp 1600w"},"card":{"src":"/assets/services/amazon-onboarding-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/amazon-onboarding.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Amazon Seller Onboarding Agency in India | gaa-tha",
     "description": "Amazon.in seller registration, Brand Registry, gated-category approvals, catalogue, A+ content and Brand Store — onboarding done right the first time."

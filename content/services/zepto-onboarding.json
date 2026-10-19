@@ -57,6 +57,7 @@
   ],
   "related": ["zepto-account-management", "blinkit-onboarding", "quick-commerce-content", "amazon-onboarding"],
   "reading": ["blog-marketing-strategy-guide", "blog-how-to-do-better-marketing"],
+  "images": {"hero":{"src":"/assets/services/zepto-onboarding-hero.webp","width":1600,"height":893,"srcset":"/assets/services/zepto-onboarding-hero-800.webp 800w, /assets/services/zepto-onboarding-hero.webp 1600w"},"card":{"src":"/assets/services/zepto-onboarding-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/zepto-onboarding.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Zepto Onboarding Agency in India | gaa-tha",
     "description": "Zepto onboarding for Indian brands: documents, category approvals, catalogue and thumbnails, dark-store planning, first purchase order and go-live."

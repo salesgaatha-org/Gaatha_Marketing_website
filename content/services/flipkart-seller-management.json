@@ -58,6 +58,7 @@
   ],
   "related": ["amazon-onboarding", "marketplace-ads-management", "meesho-jiomart-onboarding", "d2c-performance-marketing"],
   "reading": ["blog-seo-aeo-geo-guide", "blog-how-to-do-better-marketing", "blog-marketing-strategy-guide"],
+  "images": {"hero":{"src":"/assets/services/flipkart-seller-management-hero.webp","width":1600,"height":893,"srcset":"/assets/services/flipkart-seller-management-hero-800.webp 800w, /assets/services/flipkart-seller-management-hero.webp 1600w"},"card":{"src":"/assets/services/flipkart-seller-management-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/flipkart-seller-management.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Flipkart Seller Management Agency in India | gaa-tha",
     "description": "Flipkart onboarding and management: Seller Hub registration, catalogue QC, PLA and PCA ads, Big Billion Days planning, account health and SPF claims."

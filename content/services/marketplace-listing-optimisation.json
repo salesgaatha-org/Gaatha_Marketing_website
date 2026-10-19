@@ -56,6 +56,7 @@
   ],
   "related": ["amazon-account-management", "marketplace-ads-management", "reviews-ratings-management", "product-photography-ecommerce"],
   "reading": ["blog-seo-aeo-geo-guide", "blog-ai-ads-and-ai-ad-shoots-guide", "blog-how-to-do-better-marketing"],
+  "images": {"hero":{"src":"/assets/services/marketplace-listing-optimisation-hero.webp","width":1600,"height":893,"srcset":"/assets/services/marketplace-listing-optimisation-hero-800.webp 800w, /assets/services/marketplace-listing-optimisation-hero.webp 1600w"},"card":{"src":"/assets/services/marketplace-listing-optimisation-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/marketplace-listing-optimisation.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Marketplace Listing Optimisation in India | gaa-tha",
     "description": "Marketplace SEO for Amazon, Flipkart and Myntra: keyword research, titles, attributes, backend keywords, image stacks and A+ content, tracked by SKU."

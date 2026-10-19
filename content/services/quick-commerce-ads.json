@@ -55,6 +55,7 @@
   ],
   "related": ["quick-commerce-content", "blinkit-account-management", "zepto-account-management", "marketplace-ads-management"],
   "reading": ["blog-how-to-do-better-marketing", "blog-ai-ads-and-ai-ad-shoots-guide", "blog-marketing-strategy-guide"],
+  "images": {"hero":{"src":"/assets/services/quick-commerce-ads-hero.webp","width":1600,"height":893,"srcset":"/assets/services/quick-commerce-ads-hero-800.webp 800w, /assets/services/quick-commerce-ads-hero.webp 1600w"},"card":{"src":"/assets/services/quick-commerce-ads-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/quick-commerce-ads.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Quick Commerce Ads Agency in India | gaa-tha",
     "description": "Sponsored search, category and banner ads on Blinkit, Zepto and Swiggy Instamart, structured by SKU and city, linked to stock and run to a target ROAS."

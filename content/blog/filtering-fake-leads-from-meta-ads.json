@@ -58,6 +58,8 @@
   "author": "gaa-tha",
   "readMinutes": 4,
   "cover": "cov-a",
+  "image": {"src":"/assets/blog/filtering-fake-leads-from-meta-ads.webp","width":1600,"height":893,"srcset":"/assets/blog/filtering-fake-leads-from-meta-ads-800.webp 800w, /assets/blog/filtering-fake-leads-from-meta-ads.webp 1600w"},
+  "ogImage": "/assets/og/blog/filtering-fake-leads-from-meta-ads.jpg",
   "mark": "Ld",
   "datePublished": "2026-09-25",
   "dateModified": "2026-09-25"

@@ -57,6 +57,7 @@
   ],
   "related": ["blinkit-onboarding", "zepto-onboarding", "quick-commerce-agency", "meesho-jiomart-onboarding"],
   "reading": ["blog-marketing-strategy-guide", "blog-how-to-do-better-marketing"],
+  "images": {"hero":{"src":"/assets/services/bigbasket-onboarding-hero.webp","width":1600,"height":893,"srcset":"/assets/services/bigbasket-onboarding-hero-800.webp 800w, /assets/services/bigbasket-onboarding-hero.webp 1600w"},"card":{"src":"/assets/services/bigbasket-onboarding-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/bigbasket-onboarding.jpg","width":1200,"height":630}},
   "meta": {
     "title": "BigBasket & BB Now Onboarding in India | gaa-tha",
     "description": "BigBasket and BB Now onboarding for Indian brands: vendor registration, documents, category approvals, catalogue, pack-size planning, first PO and go-live."

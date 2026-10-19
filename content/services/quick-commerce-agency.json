@@ -58,6 +58,7 @@
   ],
   "related": ["blinkit-onboarding", "quick-commerce-ads", "quick-commerce-content", "amazon-account-management"],
   "reading": ["blog-marketing-strategy-guide", "blog-how-to-do-better-marketing", "blog-best-digital-marketing-agency-india"],
+  "images": {"hero":{"src":"/assets/services/quick-commerce-agency-hero.webp","width":1600,"height":893,"srcset":"/assets/services/quick-commerce-agency-hero-800.webp 800w, /assets/services/quick-commerce-agency-hero.webp 1600w"},"card":{"src":"/assets/services/quick-commerce-agency-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/quick-commerce-agency.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Quick Commerce Agency in India | gaa-tha",
     "description": "Onboarding, catalogue, dark-store availability, purchase orders, ads and ratings on Blinkit, Zepto, Instamart, Flipkart Minutes, Amazon Now and BigBasket."

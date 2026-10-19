@@ -58,6 +58,8 @@
   "author": "gaa-tha",
   "readMinutes": 4,
   "cover": "cov-e",
+  "image": {"src":"/assets/blog/quick-commerce-ads-explained.webp","width":1600,"height":893,"srcset":"/assets/blog/quick-commerce-ads-explained-800.webp 800w, /assets/blog/quick-commerce-ads-explained.webp 1600w"},
+  "ogImage": "/assets/og/blog/quick-commerce-ads-explained.jpg",
   "mark": "Ad",
   "datePublished": "2026-09-25",
   "dateModified": "2026-09-25"

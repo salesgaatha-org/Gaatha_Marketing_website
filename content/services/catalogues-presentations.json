@@ -58,6 +58,7 @@
   ],
   "related": ["graphic-design", "content-writing-copywriting", "product-photography-ecommerce", "b2b-lead-generation"],
   "reading": ["blog-what-is-graphic-design", "blog-branding-vs-marketing", "blog-how-to-do-better-marketing"],
+  "images": {"hero":{"src":"/assets/services/catalogues-presentations-hero.webp","width":1600,"height":893,"srcset":"/assets/services/catalogues-presentations-hero-800.webp 800w, /assets/services/catalogues-presentations-hero.webp 1600w"},"card":{"src":"/assets/services/catalogues-presentations-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/catalogues-presentations.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Catalogues, Presentations & Sales Kits in India | gaa-tha",
     "description": "Product catalogues, company profiles, pitch decks, price lists and export brochures designed as one sales kit — print, PDF, WhatsApp and IndiaMART ready."

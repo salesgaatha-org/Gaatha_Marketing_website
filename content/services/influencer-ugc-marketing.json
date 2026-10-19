@@ -58,6 +58,7 @@
   ],
   "related": ["social-media-marketing", "campaign-planning", "meta-ads-agency", "reels-short-form-video"],
   "reading": ["blog-instagram-reels-strategy", "blog-ai-ads-and-ai-ad-shoots-guide", "blog-how-to-do-better-marketing"],
+  "images": {"hero":{"src":"/assets/services/influencer-ugc-marketing-hero.webp","width":1600,"height":893,"srcset":"/assets/services/influencer-ugc-marketing-hero-800.webp 800w, /assets/services/influencer-ugc-marketing-hero.webp 1600w"},"card":{"src":"/assets/services/influencer-ugc-marketing-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/influencer-ugc-marketing.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Influencer & UGC Marketing Agency in India | gaa-tha",
     "description": "Creator discovery and vetting, briefs, collab reels, UGC video, usage rights and tracked reporting — influencer and UGC campaigns for Indian brands."

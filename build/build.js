@@ -103,7 +103,12 @@ function overlay(list, map, keys, idKey = 'slug') {
     const o = map[rec[idKey]];
     if (!o || typeof o !== 'object') return rec;
     const out = Object.assign({}, rec);
-    keys.forEach((k) => { if (o[k] !== undefined && o[k] !== null) out[k] = o[k]; });
+    keys.forEach((k) => {
+      if (o[k] === undefined || o[k] === null) return;
+      // Admin image slots layer over the repo's images, so setting one slot keeps the rest.
+      const both = k === 'images' && typeof o[k] === 'object' && rec[k] && typeof rec[k] === 'object';
+      out[k] = both ? Object.assign({}, rec[k], o[k]) : o[k];
+    });
     return out;
   });
 }
@@ -158,8 +163,18 @@ const svcUrl = (s) => `/services/${s.slug}`;
 const groupUrl = (g) => `/services/${g.slug}`;
 const caseUrl = (c) => `/work/${c.slug}`;
 const abs = (u) => SITE_URL + u;
+const absUrl = (u) => (u && /^\/(?!\/)/.test(u) ? abs(u) : u);
+// A blog cover is an image (`image`, or an admin media ref in `cover`) with the
+// `cov-*` colour block as the fallback when no image is set.
+const blogCoverRef = (b) => b.image || (b.cover && !b.cover.startsWith('cov-') ? b.cover : '');
 function postFromBlog(b) {
-  return { key: b.slug, url: `/blog/${b.slug}`, title: b.title, tag: b.category, category: b.category, minutes: b.readMinutes || 8, cover: b.cover || 'cov-c', mark: b.mark || 'G', date: b.datePublished };
+  return { key: b.slug, url: `/blog/${b.slug}`, title: b.title, tag: b.category, category: b.category, minutes: b.readMinutes || 8, cover: b.cover && b.cover.startsWith('cov-') ? b.cover : 'cov-c', image: resolveImage(blogCoverRef(b)), mark: b.mark || 'G', date: b.datePublished };
+}
+function bpCover(p) {
+  if (!p.image) return `<div class="bp-cover ${p.cover}">${esc(p.mark)}</div>`;
+  const dims = p.image.width && p.image.height ? ` width="${p.image.width}" height="${p.image.height}"` : '';
+  const srcset = p.image.srcset ? ` srcset="${esc(p.image.srcset)}" sizes="(max-width: 700px) 100vw, 33vw"` : '';
+  return `<div class="bp-cover has-img"><img src="${esc(p.image.src)}" alt="${esc(p.image.alt || p.title)}"${dims}${srcset} loading="lazy" decoding="async"></div>`;
 }
 
 /* ------------------------------------------------------------- chrome */
@@ -322,7 +337,7 @@ const faqSchema = (items) => ({ '@type': 'FAQPage', mainEntity: items.map((f) =>
 /* --------------------------------------------------------------- pieces */
 function head(o) {
   // o: { title, description, canonical, ogType, ogImage, schema:[...], noindex, published, modified }
-  const og = o.ogImage || (resolveImage(settings.defaultOg) || {}).src || site.logo;
+  const og = absUrl(o.ogImage || (resolveImage(settings.defaultOg) || {}).src || site.ogImage || site.logo);
   const url = abs(o.canonical);
   const graph = { '@context': 'https://schema.org', '@graph': [orgSchema(), webSiteSchema()].concat(o.schema || []) };
   return `<!DOCTYPE html>
@@ -400,7 +415,7 @@ function stepsGrid(steps, cols, arrows) {
 }
 function postCard(p) {
   if (!p) return '';
-  return `<a class="bpost reveal" href="${p.url}"><div class="bp-cover ${p.cover}">${esc(p.mark)}</div><div class="bp-body"><span class="bp-tag">${esc(p.tag)}</span><h3>${esc(p.title)}</h3><div class="bp-meta"><span>${p.minutes} min</span><span class="bp-more">Read &rarr;</span></div></div></a>`;
+  return `<a class="bpost reveal" href="${p.url}">${bpCover(p)}<div class="bp-body"><span class="bp-tag">${esc(p.tag)}</span><h3>${esc(p.title)}</h3><div class="bp-meta"><span>${p.minutes} min</span><span class="bp-more">Read &rarr;</span></div></div></a>`;
 }
 function serviceCard(s, idx, withMedia) {
   const g = groupBySlug(s.group);
@@ -445,7 +460,7 @@ function renderService(s) {
   const schema = [
     { '@type': 'WebPage', '@id': abs(url), url: abs(url), name: s.meta.title, description: s.meta.description, isPartOf: { '@id': `${SITE_URL}/#website` }, dateModified: s.updated, breadcrumb: { '@id': abs(url) + '#breadcrumb' } },
     Object.assign(crumbSchema([['Home', '/'], ['Services', '/services'], [g.name, groupUrl(g)], [s.name, url]]), { '@id': abs(url) + '#breadcrumb' }),
-    { '@type': 'Service', '@id': abs(url) + '#service', name: s.name, serviceType: s.name, description: s.intro, url: abs(url), provider: { '@id': `${SITE_URL}/#organization` }, areaServed: { '@type': 'Country', name: 'India' }, category: g.name, image: hero ? hero.src : undefined, hasOfferCatalog: { '@type': 'OfferCatalog', name: `${s.name} — what's included`, itemListElement: s.included.map((i) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: i } })) } },
+    { '@type': 'Service', '@id': abs(url) + '#service', name: s.name, serviceType: s.name, description: s.intro, url: abs(url), provider: { '@id': `${SITE_URL}/#organization` }, areaServed: { '@type': 'Country', name: 'India' }, category: g.name, image: hero ? absUrl(hero.src) : undefined, hasOfferCatalog: { '@type': 'OfferCatalog', name: `${s.name} — what's included`, itemListElement: s.included.map((i) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: i } })) } },
     faqSchema(s.faq)
   ];
   const glance = [['Best for', s.glance.bestFor], ['Timeline', s.glance.timeline], ['Engagement model', s.glance.model], ['Channels / platforms', s.glance.channels]];
@@ -689,7 +704,7 @@ function renderCase(c, next) {
   const quoteOk = c.quote && isFilled(c.quote.text) && isFilled(c.quote.name);
   const glance = [['Client', client.name], ['Industry', c.industry], ['Location', c.location], ['Services', used.map((s) => s.shortName || s.name).join(', ')], ['Duration', c.duration], ['Channels', c.channels]].filter(([, v]) => isFilled(v));
   const schema = [
-    { '@type': 'Article', '@id': abs(url), headline: c.headline, description: c.summary, url: abs(url), mainEntityOfPage: abs(url), image: og ? og.src : site.logo, datePublished: c.updated, dateModified: c.updated, author: { '@id': `${SITE_URL}/#organization` }, publisher: { '@id': `${SITE_URL}/#organization` }, about: { '@type': 'Organization', name: client.name, url: client.website || undefined }, mentions: used.map((s) => ({ '@type': 'Service', name: s.name, url: abs(svcUrl(s)) })), inLanguage: 'en' },
+    { '@type': 'Article', '@id': abs(url), headline: c.headline, description: c.summary, url: abs(url), mainEntityOfPage: abs(url), image: og ? absUrl(og.src) : site.logo, datePublished: c.updated, dateModified: c.updated, author: { '@id': `${SITE_URL}/#organization` }, publisher: { '@id': `${SITE_URL}/#organization` }, about: { '@type': 'Organization', name: client.name, url: client.website || undefined }, mentions: used.map((s) => ({ '@type': 'Service', name: s.name, url: abs(svcUrl(s)) })), inLanguage: 'en' },
     crumbSchema([['Home', '/'], ['Work', '/work'], [client.name, url]])
   ].concat((c.faq || []).length ? [faqSchema(c.faq)] : []);
   const galleryN = Number(c.gallery) || 6;
@@ -796,12 +811,13 @@ function renderBlogPost(b) {
   const url = `/blog/${b.slug}`;
   const related = (b.relatedServices || []).map(svcBySlug).filter((s) => s && s.published).slice(0, 3);
   const rc = b.relatedCase ? cases.find((c) => c.slug === b.relatedCase && c.published) : null;
+  const cover = resolveImage(blogCoverRef(b));
   const schema = [
-    { '@type': 'BlogPosting', '@id': abs(url), headline: b.title, description: b.excerpt, url: abs(url), mainEntityOfPage: abs(url), image: site.logo, datePublished: b.datePublished, dateModified: b.dateModified || b.datePublished, inLanguage: 'en', articleSection: b.category, author: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: 'gaa-tha' }, publisher: { '@id': `${SITE_URL}/#organization` }, isPartOf: { '@id': `${SITE_URL}/blog#blog` } },
+    { '@type': 'BlogPosting', '@id': abs(url), headline: b.title, description: b.excerpt, url: abs(url), mainEntityOfPage: abs(url), image: cover ? absUrl(cover.src) : site.logo, datePublished: b.datePublished, dateModified: b.dateModified || b.datePublished, inLanguage: 'en', articleSection: b.category, author: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: 'gaa-tha' }, publisher: { '@id': `${SITE_URL}/#organization` }, isPartOf: { '@id': `${SITE_URL}/blog#blog` } },
     crumbSchema([['Home', '/'], ['Blog', '/blog'], [b.title, url]]),
     faqSchema(b.faq || [])
   ];
-  let html = head({ title: `${b.title} | gaa-tha`, description: b.excerpt, canonical: url, ogType: 'article', schema, active: 'Blog', page: 'post', published: b.datePublished, modified: b.dateModified });
+  let html = head({ title: `${b.title} | gaa-tha`, description: b.excerpt, canonical: url, ogType: 'article', ogImage: b.ogImage || (cover && cover.src), schema, active: 'Blog', page: 'post', published: b.datePublished, modified: b.dateModified });
   html = html.replace('<main id="main">', '');
   html += `
 <header class="article-hero">
@@ -820,7 +836,7 @@ function renderBlogPost(b) {
 
 <main id="main">
   <div class="wrap">
-    ${slot({ ref: b.cover && b.cover.startsWith('cov-') ? '' : b.cover, kind: 'Blog cover', ratio: '16:9', refPath: `blog/${b.slug}`, key: 'cover', alt: b.title, eager: true })}
+    ${slot({ ref: blogCoverRef(b), kind: 'Blog cover', ratio: '16:9', refPath: `blog/${b.slug}`, key: 'cover', alt: b.title, eager: true })}
     <article class="prose" style="margin-top:36px">
 <p class="lead">${esc(b.intro)}</p>
 ${b.takeaways && b.takeaways.length ? `<div class="takeaways"><h2>Key takeaways</h2><ul>${b.takeaways.map((t) => `<li>${esc(t)}</li>`).join('')}</ul></div>` : ''}
@@ -944,7 +960,7 @@ function workGrid() {
 function blogGeneratedCards() {
   return blogPosts.filter((b) => b.published).sort((a, b) => (b.datePublished || '').localeCompare(a.datePublished || '')).map((b) => {
     const p = postFromBlog(b);
-    return `<a class="bpost reveal" href="${p.url}" data-cat="${esc(p.category)}"><div class="bp-cover ${p.cover}">${esc(p.mark)}</div><div class="bp-body"><span class="bp-tag">${esc(p.tag)}</span><h3>${esc(p.title)}</h3><p>${esc(b.excerpt)}</p><div class="bp-meta"><span>${fmtDate(p.date)} &middot; ${p.minutes} min read</span><span class="bp-more">Read &rarr;</span></div></div></a>`;
+    return `<a class="bpost reveal" href="${p.url}" data-cat="${esc(p.category)}">${bpCover(p)}<div class="bp-body"><span class="bp-tag">${esc(p.tag)}</span><h3>${esc(p.title)}</h3><p>${esc(b.excerpt)}</p><div class="bp-meta"><span>${fmtDate(p.date)} &middot; ${p.minutes} min read</span><span class="bp-more">Read &rarr;</span></div></div></a>`;
   }).join('\n');
 }
 // Hand-written H1s get the same treatment as generated ones: long titles take

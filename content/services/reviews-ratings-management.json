@@ -56,6 +56,7 @@
   ],
   "related": ["amazon-account-management", "marketplace-listing-optimisation", "flipkart-seller-management", "local-seo-google-business-profile"],
   "reading": ["blog-how-to-do-better-marketing", "blog-branding-vs-marketing", "blog-marketing-strategy-guide"],
+  "images": {"hero":{"src":"/assets/services/reviews-ratings-management-hero.webp","width":1600,"height":893,"srcset":"/assets/services/reviews-ratings-management-hero-800.webp 800w, /assets/services/reviews-ratings-management-hero.webp 1600w"},"card":{"src":"/assets/services/reviews-ratings-management-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/reviews-ratings-management.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Reviews & Ratings Management in India | gaa-tha",
     "description": "Policy-compliant review generation, Amazon Vine, response templates, complaint fixes and rating recovery for Amazon, Flipkart, Myntra and Nykaa listings."

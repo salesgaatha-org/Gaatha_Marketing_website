@@ -58,6 +58,8 @@
   "author": "gaa-tha",
   "readMinutes": 4,
   "cover": "cov-b",
+  "image": {"src":"/assets/blog/cod-vs-prepaid.webp","width":1600,"height":893,"srcset":"/assets/blog/cod-vs-prepaid-800.webp 800w, /assets/blog/cod-vs-prepaid.webp 1600w"},
+  "ogImage": "/assets/og/blog/cod-vs-prepaid.jpg",
   "mark": "CO",
   "datePublished": "2026-09-25",
   "dateModified": "2026-09-25"

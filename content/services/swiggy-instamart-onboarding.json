@@ -57,6 +57,7 @@
   ],
   "related": ["instamart-account-management", "blinkit-onboarding", "zepto-onboarding", "amazon-onboarding"],
   "reading": ["blog-marketing-strategy-guide", "blog-how-to-do-better-marketing"],
+  "images": {"hero":{"src":"/assets/services/swiggy-instamart-onboarding-hero.webp","width":1600,"height":893,"srcset":"/assets/services/swiggy-instamart-onboarding-hero-800.webp 800w, /assets/services/swiggy-instamart-onboarding-hero.webp 1600w"},"card":{"src":"/assets/services/swiggy-instamart-onboarding-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/swiggy-instamart-onboarding.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Swiggy Instamart Onboarding Agency in India | gaa-tha",
     "description": "Swiggy Instamart onboarding for Indian brands: documents, category approvals, catalogue and thumbnails, pack-size planning, dark-store mapping and go-live."

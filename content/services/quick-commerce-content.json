@@ -56,6 +56,7 @@
   ],
   "related": ["quick-commerce-ads", "quick-commerce-agency", "blinkit-onboarding", "product-photography-ecommerce"],
   "reading": ["blog-what-is-graphic-design", "blog-ai-ads-and-ai-ad-shoots-guide"],
+  "images": {"hero":{"src":"/assets/services/quick-commerce-content-hero.webp","width":1600,"height":893,"srcset":"/assets/services/quick-commerce-content-hero-800.webp 800w, /assets/services/quick-commerce-content-hero.webp 1600w"},"card":{"src":"/assets/services/quick-commerce-content-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/quick-commerce-content.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Quick Commerce Catalogue & Creative in India | gaa-tha",
     "description": "Thumbnails that win in a two-second scroll, titles with pack size, combo strategy and banner creative for Blinkit, Zepto, Instamart and BigBasket."

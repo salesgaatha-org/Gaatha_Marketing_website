@@ -59,6 +59,8 @@
   "author": "gaa-tha",
   "readMinutes": 4,
   "cover": "cov-a",
+  "image": {"src":"/assets/blog/getting-approved-on-myntra-nykaa-fashion-ajio.webp","width":1600,"height":893,"srcset":"/assets/blog/getting-approved-on-myntra-nykaa-fashion-ajio-800.webp 800w, /assets/blog/getting-approved-on-myntra-nykaa-fashion-ajio.webp 1600w"},
+  "ogImage": "/assets/og/blog/getting-approved-on-myntra-nykaa-fashion-ajio.jpg",
   "mark": "My",
   "datePublished": "2026-09-25",
   "dateModified": "2026-09-25"

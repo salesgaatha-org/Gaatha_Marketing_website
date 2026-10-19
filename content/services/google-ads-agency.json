@@ -58,6 +58,7 @@
   ],
   "related": ["meta-ads-agency", "seo-aeo-geo", "b2b-lead-generation", "d2c-performance-marketing"],
   "reading": ["blog-how-to-do-better-marketing", "blog-marketing-strategy-guide", "blog-seo-aeo-geo-guide"],
+  "images": {"hero":{"src":"/assets/services/google-ads-agency-hero.webp","width":1600,"height":893,"srcset":"/assets/services/google-ads-agency-hero-800.webp 800w, /assets/services/google-ads-agency-hero.webp 1600w"},"card":{"src":"/assets/services/google-ads-agency-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/google-ads-agency.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Google Ads Agency in India | gaa-tha",
     "description": "Search, Performance Max, Shopping, YouTube and Maps campaigns with GA4 tracking and Merchant Center feeds — reported on cost per lead and cost per sale."

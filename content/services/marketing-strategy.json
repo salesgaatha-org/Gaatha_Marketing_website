@@ -56,6 +56,7 @@
   ],
   "related": ["social-media-marketing", "campaign-planning", "seo-aeo-geo", "branding-agency"],
   "reading": ["blog-marketing-strategy-guide", "blog-what-is-marketing", "blog-branding-vs-marketing"],
+  "images": {"hero":{"src":"/assets/services/marketing-strategy-hero.webp","width":1600,"height":893,"srcset":"/assets/services/marketing-strategy-hero-800.webp 800w, /assets/services/marketing-strategy-hero.webp 1600w"},"card":{"src":"/assets/services/marketing-strategy-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/marketing-strategy.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Marketing Strategy Agency in India | gaa-tha",
     "description": "Research-led positioning, messaging, offer, channel plan and a 90-day roadmap in 2–3 weeks for D2C, FMCG, retail, B2B and real-estate brands."

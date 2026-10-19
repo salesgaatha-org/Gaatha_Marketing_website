@@ -57,6 +57,7 @@
   ],
   "related": ["blinkit-account-management", "zepto-onboarding", "quick-commerce-content", "amazon-onboarding"],
   "reading": ["blog-marketing-strategy-guide", "blog-how-to-do-better-marketing"],
+  "images": {"hero":{"src":"/assets/services/blinkit-onboarding-hero.webp","width":1600,"height":893,"srcset":"/assets/services/blinkit-onboarding-hero-800.webp 800w, /assets/services/blinkit-onboarding-hero.webp 1600w"},"card":{"src":"/assets/services/blinkit-onboarding-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/blinkit-onboarding.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Blinkit Seller Onboarding Agency in India | gaa-tha",
     "description": "Blinkit seller onboarding for Indian brands: documents, category approvals, catalogue and thumbnails, dark-store mapping, first purchase order and go-live."

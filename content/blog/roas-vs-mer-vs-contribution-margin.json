@@ -58,6 +58,8 @@
   "author": "gaa-tha",
   "readMinutes": 4,
   "cover": "cov-a",
+  "image": {"src":"/assets/blog/roas-vs-mer-vs-contribution-margin.webp","width":1600,"height":893,"srcset":"/assets/blog/roas-vs-mer-vs-contribution-margin-800.webp 800w, /assets/blog/roas-vs-mer-vs-contribution-margin.webp 1600w"},
+  "ogImage": "/assets/og/blog/roas-vs-mer-vs-contribution-margin.jpg",
   "mark": "R",
   "datePublished": "2026-09-25",
   "dateModified": "2026-09-25"

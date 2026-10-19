@@ -46,10 +46,20 @@ panel is `content-admin.html`.
   "related": ["slug", "slug", "slug", "cross-group-slug"],
   "reading": ["blog-seo-aeo-geo-guide"],          // 2–3 keys from posts.json
   "existingPage": "/reels",                       // optional: the craft page it extends
+  "images": {                                     // files live in assets/services/ and assets/og/services/
+    "hero": { "src": "/assets/services/<slug>-hero.webp", "width": 1600, "height": 893, "srcset": "…-hero-800.webp 800w, …-hero.webp 1600w" },
+    "card": { "src": "/assets/services/<slug>-card.webp", "width": 960, "height": 717 },
+    "og":   { "src": "/assets/og/services/<slug>.jpg", "width": 1200, "height": 630 }
+  },                                              // an admin-set slot overrides just that slot
   "meta": { "title": "≤60 chars", "description": "≤155 chars" },
   "updated": "2026-09-25"
 }
 ```
+
+Blog posts take the same image object as `image` (cover, `assets/blog/`) plus an
+`ogImage` path (`assets/og/blog/`); without an image the `cover: "cov-*"` colour
+block shows instead. Pages with no image of their own share `site.json → ogImage`
+(`assets/og-default.jpg`).
 
 Case studies pull in automatically: any published case whose `services`
 array contains this slug is shown in the Proof block (max 3).

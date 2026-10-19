@@ -56,6 +56,7 @@
   ],
   "related": ["shopify-development", "shopify-store-management", "conversion-rate-optimisation", "local-seo-google-business-profile"],
   "reading": ["blog-how-to-do-better-marketing", "blog-marketing-strategy-guide"],
+  "images": {"hero":{"src":"/assets/services/multi-location-shopify-local-delivery-hero.webp","width":1600,"height":893,"srcset":"/assets/services/multi-location-shopify-local-delivery-hero-800.webp 800w, /assets/services/multi-location-shopify-local-delivery-hero.webp 1600w"},"card":{"src":"/assets/services/multi-location-shopify-local-delivery-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/multi-location-shopify-local-delivery.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Multi-location Shopify Stores in India | gaa-tha",
     "description": "One Shopify website for a chain of stores or franchises — pincode-based outlet routing, WhatsApp order alerts, outlet availability toggles and COD rules."

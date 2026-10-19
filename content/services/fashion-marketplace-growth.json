@@ -56,6 +56,7 @@
   ],
   "related": ["myntra-onboarding", "ajio-onboarding", "marketplace-ads-management", "d2c-brand-launch"],
   "reading": ["blog-marketing-strategy-guide", "blog-branding-vs-marketing", "blog-instagram-reels-strategy"],
+  "images": {"hero":{"src":"/assets/services/fashion-marketplace-growth-hero.webp","width":1600,"height":893,"srcset":"/assets/services/fashion-marketplace-growth-hero-800.webp 800w, /assets/services/fashion-marketplace-growth-hero.webp 1600w"},"card":{"src":"/assets/services/fashion-marketplace-growth-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/fashion-marketplace-growth.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Fashion Marketplace Growth Agency in India | gaa-tha",
     "description": "Growth plans for fashion and licensed-merch brands across Myntra, Flipkart, Nykaa Fashion and AJIO — assortment, content, pricing ladders, ads and drops."

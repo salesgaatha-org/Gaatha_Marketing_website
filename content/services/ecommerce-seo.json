@@ -56,6 +56,7 @@
   ],
   "related": ["d2c-performance-marketing", "conversion-rate-optimisation", "shopify-development", "seo-aeo-geo"],
   "reading": ["blog-seo-aeo-geo-guide", "blog-how-to-do-better-marketing"],
+  "images": {"hero":{"src":"/assets/services/ecommerce-seo-hero.webp","width":1600,"height":893,"srcset":"/assets/services/ecommerce-seo-hero-800.webp 800w, /assets/services/ecommerce-seo-hero.webp 1600w"},"card":{"src":"/assets/services/ecommerce-seo-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/ecommerce-seo.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Ecommerce SEO Agency in India | gaa-tha",
     "description": "Ecommerce SEO for Shopify and WooCommerce stores — keyword-mapped collections, Product and Review schema, technical fixes and blog clusters that convert."

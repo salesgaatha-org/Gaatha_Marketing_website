@@ -59,6 +59,7 @@
   "related": ["ai-ads-ai-ad-shoots", "ai-cloning-spokesperson", "cinema-ads-film-production", "social-media-marketing"],
   "reading": ["blog-instagram-reels-strategy", "blog-ai-ads-and-ai-ad-shoots-guide", "blog-how-to-do-better-marketing"],
   "existingPage": "/reels",
+  "images": {"hero":{"src":"/assets/services/reels-short-form-video-hero.webp","width":1600,"height":893,"srcset":"/assets/services/reels-short-form-video-hero-800.webp 800w, /assets/services/reels-short-form-video-hero.webp 1600w"},"card":{"src":"/assets/services/reels-short-form-video-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/reels-short-form-video.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Reels & Short-form Video Agency in India | gaa-tha",
     "description": "Instagram Reels and Shorts built to be re-watched — pillars, scripts, on-ground shoots, editing with captions and sound, and a monthly retention review."

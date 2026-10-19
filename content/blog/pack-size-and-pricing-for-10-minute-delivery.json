@@ -58,6 +58,8 @@
   "author": "gaa-tha",
   "readMinutes": 4,
   "cover": "cov-a",
+  "image": {"src":"/assets/blog/pack-size-and-pricing-for-10-minute-delivery.webp","width":1600,"height":893,"srcset":"/assets/blog/pack-size-and-pricing-for-10-minute-delivery-800.webp 800w, /assets/blog/pack-size-and-pricing-for-10-minute-delivery.webp 1600w"},
+  "ogImage": "/assets/og/blog/pack-size-and-pricing-for-10-minute-delivery.jpg",
   "mark": "Pk",
   "datePublished": "2026-09-25",
   "dateModified": "2026-09-25"

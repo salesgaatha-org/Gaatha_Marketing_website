@@ -58,6 +58,8 @@
   "author": "gaa-tha",
   "readMinutes": 4,
   "cover": "cov-c",
+  "image": {"src":"/assets/blog/ai-product-photography-for-marketplaces.webp","width":1600,"height":893,"srcset":"/assets/blog/ai-product-photography-for-marketplaces-800.webp 800w, /assets/blog/ai-product-photography-for-marketplaces.webp 1600w"},
+  "ogImage": "/assets/og/blog/ai-product-photography-for-marketplaces.jpg",
   "mark": "Ai",
   "datePublished": "2026-09-25",
   "dateModified": "2026-09-25"

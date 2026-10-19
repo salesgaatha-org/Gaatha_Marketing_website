@@ -58,6 +58,8 @@
   "author": "gaa-tha",
   "readMinutes": 4,
   "cover": "cov-e",
+  "image": {"src":"/assets/blog/one-website-for-multiple-store-locations.webp","width":1600,"height":893,"srcset":"/assets/blog/one-website-for-multiple-store-locations-800.webp 800w, /assets/blog/one-website-for-multiple-store-locations.webp 1600w"},
+  "ogImage": "/assets/og/blog/one-website-for-multiple-store-locations.jpg",
   "mark": "ML",
   "datePublished": "2026-09-25",
   "dateModified": "2026-09-25"

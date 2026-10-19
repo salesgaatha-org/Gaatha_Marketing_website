@@ -56,6 +56,7 @@
   ],
   "related": ["blinkit-onboarding", "zepto-onboarding", "quick-commerce-agency", "amazon-onboarding"],
   "reading": ["blog-marketing-strategy-guide", "blog-how-to-do-better-marketing"],
+  "images": {"hero":{"src":"/assets/services/flipkart-minutes-amazon-now-onboarding-hero.webp","width":1600,"height":893,"srcset":"/assets/services/flipkart-minutes-amazon-now-onboarding-hero-800.webp 800w, /assets/services/flipkart-minutes-amazon-now-onboarding-hero.webp 1600w"},"card":{"src":"/assets/services/flipkart-minutes-amazon-now-onboarding-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/flipkart-minutes-amazon-now-onboarding.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Flipkart Minutes & Amazon Now Onboarding | gaa-tha",
     "description": "Flipkart Minutes and Amazon Now onboarding for Indian brands: seller and brand approvals, programme enrolment, catalogue, stocking and go-live."

@@ -887,6 +887,8 @@ a.card:hover { border-color: var(--ink); }
 .bp-cover.cov-c { background: var(--surface-2); }
 .bp-cover.cov-d { background: #EEF3F1; color: #2A6F66; }
 .bp-cover.cov-e { background: #FBF0EC; color: #A9481F; }
+.bp-cover.has-img { position: relative; overflow: hidden; }
+.bp-cover.has-img > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 
 .bp-body { padding: 24px; display: flex; flex-direction: column; flex: 1; }
 .bp-tag {

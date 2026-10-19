@@ -66,6 +66,8 @@
   "author": "gaa-tha",
   "readMinutes": 5,
   "cover": "cov-a",
+  "image": {"src":"/assets/blog/how-to-sell-on-blinkit.webp","width":1600,"height":893,"srcset":"/assets/blog/how-to-sell-on-blinkit-800.webp 800w, /assets/blog/how-to-sell-on-blinkit.webp 1600w"},
+  "ogImage": "/assets/og/blog/how-to-sell-on-blinkit.jpg",
   "mark": "Bl",
   "datePublished": "2026-09-25",
   "dateModified": "2026-09-25"

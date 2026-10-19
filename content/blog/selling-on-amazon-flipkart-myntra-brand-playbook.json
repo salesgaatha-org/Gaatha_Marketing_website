@@ -88,6 +88,8 @@
   "author": "gaa-tha",
   "readMinutes": 10,
   "cover": "cov-c",
+  "image": {"src":"/assets/blog/selling-on-amazon-flipkart-myntra-brand-playbook.webp","width":1600,"height":893,"srcset":"/assets/blog/selling-on-amazon-flipkart-myntra-brand-playbook-800.webp 800w, /assets/blog/selling-on-amazon-flipkart-myntra-brand-playbook.webp 1600w"},
+  "ogImage": "/assets/og/blog/selling-on-amazon-flipkart-myntra-brand-playbook.jpg",
   "mark": "M",
   "datePublished": "2026-09-25",
   "dateModified": "2026-09-25"
