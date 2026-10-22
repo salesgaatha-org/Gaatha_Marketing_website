@@ -1,7 +1,7 @@
 {
   "slug": "business-tools-automation",
-  "group": "technology",
-  "order": 3,
+  "group": "ai-software-engineering",
+  "order": 6,
   "published": true,
   "name": "Custom Tools & Automations",
   "shortName": "Tools & automations",
@@ -56,12 +56,12 @@
     { "q": "Will it work on mobile for our sales team in the field?", "a": "Yes. Tools are built as responsive web apps that work on any phone browser and can be added to the home screen, with WhatsApp as the notification channel because that is where your team already is." },
     { "q": "Is our customer and sales data secure?", "a": "Tools use role-based access, HTTPS, per-user logins and backups, and run on Google or Firebase infrastructure or your own hosting. We keep customer data inside your accounts rather than ours, and document who has access to what at handover." }
   ],
-  "related": ["website-development", "app-design-development", "b2b-lead-generation", "shopify-store-management"],
-  "reading": ["blog-how-to-do-better-marketing", "blog-best-digital-marketing-agency-india"],
+  "related": ["ai-workflow-automation", "ai-agent-development", "erp-development", "b2b-lead-generation"],
+  "reading": ["ai-workflow-automation-n8n-make-zapier", "custom-erp-vs-odoo-vs-erpnext-vs-tally"],
   "images": {"hero":{"src":"/assets/services/business-tools-automation-hero.webp","width":1600,"height":893,"srcset":"/assets/services/business-tools-automation-hero-800.webp 800w, /assets/services/business-tools-automation-hero.webp 1600w"},"card":{"src":"/assets/services/business-tools-automation-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/business-tools-automation.jpg","width":1200,"height":630}},
   "meta": {
     "title": "Custom Tools & Automations in India | gaa-tha",
     "description": "Lead trackers with WhatsApp follow-up, batch-number lookups, sales dashboards and automated quotes — small tools built in weeks and owned by you."
   },
-  "updated": "2026-09-25"
+  "updated": "2026-10-22"
 }

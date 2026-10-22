@@ -1,0 +1,84 @@
+{
+  "slug": "ai-chatbot-for-website-and-whatsapp",
+  "published": true,
+  "type": "cluster",
+  "category": "AI & Software",
+  "title": "AI chatbots for websites and WhatsApp: a guide for brands",
+  "excerpt": "What a modern AI chatbot does, how the WhatsApp Business API works, Hindi and Hinglish, Shopify order tracking, handoff, metrics and mistakes to avoid.",
+  "intro": "An AI chatbot for a website or WhatsApp answers customer questions in natural language from your own catalogue, FAQs and policies, looks up live data such as order status, captures leads and hands complex conversations to a person. Unlike older rule-based bots, it understands free text, including Hindi, Gujarati and Hinglish. For most Indian brands WhatsApp is the higher-value channel, but it needs the WhatsApp Business API, approved templates and customer opt-in.",
+  "takeaways": [
+    "AI chatbots understand free text and answer from your own content; rule-based bots only follow menus.",
+    "WhatsApp needs the Business API through Meta or a BSP, approved templates and opt-in; check Meta’s current pricing.",
+    "Sync the catalogue and policies rather than pasting them into a prompt, and test on real customer questions.",
+    "Reply in the customer’s language and script, and always offer a clear route to a person.",
+    "Measure verified resolution, handoff reasons and commercial outcomes, not chat volume."
+  ],
+  "sections": [
+    {
+      "h2": "What can a modern AI chatbot do that old rule-based bots could not?",
+      "html": "<p>A modern AI chatbot understands free-text questions, answers from your own content and looks up live data, where an old rule-based bot could only follow button menus and keyword matches.</p>\n<div class=\"tbl-wrap\"><table>\n<thead><tr><th>Aspect</th><th>Rule-based bot</th><th>AI chatbot</th></tr></thead>\n<tbody>\n<tr><td>Input</td><td>Buttons and exact keywords</td><td>Free text, voice notes, typos, mixed languages</td></tr>\n<tr><td>Knowledge</td><td>Answers typed into a flow builder</td><td>Your catalogue, FAQs and policies, retrieved at answer time</td></tr>\n<tr><td>Live data</td><td>Rarely</td><td>Order status, stock, delivery estimates by pincode, appointment slots</td></tr>\n<tr><td>When it fails</td><td>Loops back to the menu</td><td>Can sound confident and be wrong, unless grounded and tested</td></tr>\n<tr><td>Maintenance</td><td>Every new question needs a new branch</td><td>Update the source document; the bot follows</td></tr>\n</tbody></table></div>\n<p>Buttons still have a place: for payments, address confirmation or choosing a size, a tap is faster and safer than typing. The best bots mix free-text understanding with structured buttons where precision matters.</p>\n<p>A typical exchange shows the difference. A customer writes “is the vitamin C serum ok for oily skin and will it reach Surat by Friday?”. A rule bot matches “serum” and shows a product menu. An AI chatbot answers the suitability question from the product’s own ingredient notes, checks the delivery estimate for the customer’s pincode, and offers a button to order or to ask a skincare adviser.</p>"
+    },
+    {
+      "h2": "How does the WhatsApp Business API work for brands?",
+      "html": "<p>The WhatsApp Business API, now called the WhatsApp Business Platform, lets a business connect WhatsApp to software, such as a chatbot, CRM or shared inbox, instead of replying from a phone app. The essentials:</p>\n<ul>\n<li><strong>Access.</strong> Connect directly through Meta’s Cloud API, or through a Business Solution Provider (BSP) such as Gupshup, Interakt, AiSensy, WATI, Twilio or 360dialog, which adds an inbox, broadcasts, flow builders and support.</li>\n<li><strong>Set-up.</strong> A Meta Business account, a verified business for higher limits, an approved display name and a dedicated phone number.</li>\n<li><strong>The 24-hour window.</strong> When a customer messages you, you can reply freely for 24 hours. Outside that window you may only send pre-approved templates.</li>\n<li><strong>Templates.</strong> Each template is approved by Meta and belongs to a category: marketing, utility (order updates, payment reminders) or authentication (one-time passwords). Each language version needs its own approval.</li>\n<li><strong>Opt-in.</strong> Customers must agree to receive messages from you; collect consent at checkout or on forms and record it.</li>\n<li><strong>Pricing.</strong> Meta used to charge per 24-hour conversation and moved in 2025 to charging per delivered template message, with rates by category and country; replies inside the customer service window are not charged. Rules and rates change, so check Meta’s current pricing for India and your BSP’s fees.</li>\n<li><strong>Quality and limits.</strong> Blocks and reports lower your quality rating, which can reduce how many people you can message per day.</li>\n</ul>\n<p>Meta’s terms also do not allow general-purpose AI assistants on the platform; a bot that serves your own customers about your products, orders and services is the intended use.</p>\n<p>A website chat widget is simpler: no Meta approvals, no template rules and no per-message charges, and it can be added to a Shopify theme or any site with a script. It suits pre-purchase questions from web visitors and international customers, and it can hand the conversation over to WhatsApp when the customer prefers.</p>"
+    },
+    {
+      "h2": "How do you train a chatbot on your catalogue, FAQs and policies?",
+      "html": "<p>You train a business chatbot by connecting it to clean source content that it searches at answer time, not by retraining a model. The sources that matter:</p>\n<ul>\n<li><strong>Catalogue:</strong> synced from Shopify or your ERP through the API, with prices, variants, stock, ingredients or specifications, so answers never go stale.</li>\n<li><strong>Policies:</strong> shipping times by region, COD rules, returns, exchanges, warranty, cancellations.</li>\n<li><strong>FAQs and guides:</strong> size charts, usage instructions, care, compatibility, B2B minimum order quantities.</li>\n<li><strong>Past conversations:</strong> the questions customers really ask, mined from WhatsApp and email history.</li>\n</ul>\n<p>Then write the rules: tone of voice, what it must never say (medical claims for skincare, promised delivery dates it cannot check, discounts it has no authority to give), and when to hand over. Before launch, test it against a hundred or more real questions and fix the source content, not just the prompt, wherever it gets something wrong. Policies written as short, direct question-and-answer pairs (“Can I return a product after opening it? No, except for damage in transit, reported within 48 hours.”) give far better answers than long legal pages. The approach is the same retrieval method described in our <a href=\"/blog/ai-agents-for-business-guide\">guide to AI agents for business</a>.</p>"
+    },
+    {
+      "h2": "Can an AI chatbot reply in Hindi, Gujarati and Hinglish?",
+      "html": "<p>Yes. Current large language models handle Hindi and Hinglish well and Gujarati reasonably well, but you must test with real customer messages before launch. Indian customers write in Devanagari, in Gujarati script and in romanised forms such as “maro order kyare aavse?”, often mixing English product names in the same sentence. Set the bot to reply in the language and script the customer used, transcribe voice notes, which are common on WhatsApp, and keep product names, prices and order numbers in a consistent form. Decide in advance how the bot handles prices and quantities, so “do sau rupaye” and “₹200” are read the same way. Remember that templates sent outside the 24-hour window need an approved version in each language you use. For international customers, the same set-up works for English, French or any other language you serve.</p>"
+    },
+    {
+      "h2": "How should handoff, order tracking and lead capture work?",
+      "html": "<h3>Human handoff</h3>\n<p>Hand over to a person whenever the customer asks for one, sounds angry, raises a refund or damage claim, or the bot fails to answer twice. Pass the full transcript and order details so the customer never repeats themselves, show business hours honestly, and route to a shared inbox in your BSP or helpdesk, such as Freshdesk, Zoho Desk or Gorgias.</p>\n<h3>Shopify order tracking</h3>\n<p>Identify the customer by WhatsApp number or order number plus a verification detail, fetch the order from the Shopify Admin API, and pull the latest courier scan from Shiprocket, Delhivery or your aggregator. Explain the status in plain words with an expected date. The same flow can confirm COD orders and reschedule failed deliveries, which reduces return-to-origin losses; our post on <a href=\"/blog/cod-vs-prepaid\">COD vs prepaid</a> explains why. Clean order and tracking data starts with the <a href=\"/services/shopify-development\">Shopify build</a> itself.</p>\n<h3>Lead capture</h3>\n<p>For B2B and high-ticket brands, ask two or three qualifying questions in conversation, such as quantity, city and timeline, then create the lead in your CRM and offer a call slot. Click-to-WhatsApp ads on Meta feed this flow directly, and the routing behind it is covered in our guide to <a href=\"/blog/ai-workflow-automation-n8n-make-zapier\">AI workflow automation</a>.</p>"
+    },
+    {
+      "h2": "Which metrics show whether a chatbot is working?",
+      "html": "<p>Measure verified resolution and business outcomes, not the number of chats. Track:</p>\n<ul>\n<li><strong>Resolution rate:</strong> conversations closed without a person, checked by sampling, not assumed.</li>\n<li><strong>Handoff rate and reasons:</strong> which questions the bot cannot answer yet.</li>\n<li><strong>Wrong-answer rate:</strong> from a weekly review of a random sample.</li>\n<li><strong>First response time and customer satisfaction.</strong></li>\n<li><strong>Commercial outcomes:</strong> orders or leads from chat, COD confirmation rate, RTO change, lead-to-meeting rate.</li>\n<li><strong>Cost per conversation,</strong> including model usage, BSP and Meta charges.</li>\n</ul>\n<p>Review these weekly for the first two months, then monthly. The handoff reasons are the most useful list you will get: each one is either a gap in your content, a missing integration, or a question that genuinely needs a person.</p>"
+    },
+    {
+      "h2": "What mistakes should brands avoid with AI chatbots?",
+      "html": "<p>The common mistakes are about scope, data and honesty, not technology:</p>\n<ol>\n<li>Launching on every channel at once instead of proving one.</li>\n<li>Copy-pasting the catalogue into a prompt instead of syncing it, so prices and stock go stale.</li>\n<li>Hiding the human option; customers who cannot reach a person leave.</li>\n<li>Pretending the bot is a person; say it is an assistant.</li>\n<li>Sending marketing templates without clear opt-in, which damages your quality rating.</li>\n<li>Letting the bot promise refunds, discounts or delivery dates it cannot check.</li>\n<li>Never reading the transcripts after launch.</li>\n<li>Measuring success by chat volume rather than resolved questions and orders.</li>\n</ol>\n<p>The clear, question-shaped answers you write for the bot also help elsewhere: the same FAQ content, published on your site, is what search engines and AI answer engines quote, which is the focus of our <a href=\"/services/seo-aeo-geo\">SEO, AEO and GEO</a> work.</p>\n<p>gaa-tha designs and builds website and WhatsApp assistants under <a href=\"/services/ai-chatbot-development\">AI chatbot development</a>, connected to Shopify, CRMs and helpdesks, and extends them into <a href=\"/services/ai-agent-development\">AI agents</a> when they need to act across more systems.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use my existing WhatsApp Business app number with the API?",
+      "a": "Often, yes. Meta now lets many businesses use the WhatsApp Business app and the platform on the same number, with some feature limits; otherwise the number moves from the app to the API. Check the current options with Meta or your BSP before you switch."
+    },
+    {
+      "q": "What does a WhatsApp AI chatbot cost to run?",
+      "a": "Running cost has four parts: the BSP subscription if you use one, Meta’s charges for template messages, AI model usage per conversation, and maintenance. Replies inside the 24-hour customer service window are not charged by Meta, so support-led bots cost far less to run than broadcast-heavy ones."
+    },
+    {
+      "q": "Will an AI chatbot make up answers?",
+      "a": "It can if it answers from the model’s general knowledge. Grounding answers in your own catalogue and policies, telling it to hand over when unsure, and reviewing transcripts weekly keeps wrong answers rare and quickly corrected."
+    },
+    {
+      "q": "Should we start with a website chatbot or WhatsApp?",
+      "a": "For most Indian consumer brands, start with WhatsApp, because that is where customers already ask about orders and products. A website chat widget suits brands with high-intent web traffic, international customers or longer pre-purchase questions."
+    },
+    {
+      "q": "Can a WhatsApp chatbot take payments?",
+      "a": "Yes, most simply by sending a Razorpay, Cashfree or UPI payment link and confirming payment by webhook. Native payments inside WhatsApp in India are available through supported payment partners; check eligibility with your BSP."
+    },
+    {
+      "q": "How long does it take to launch an AI chatbot?",
+      "a": "A focused chatbot covering FAQs and order status can usually launch in a few weeks, including WhatsApp approvals and testing. Lead qualification, CRM integration and multiple languages add time, mostly for testing with real conversations."
+    }
+  ],
+  "relatedServices": [
+    "ai-chatbot-development",
+    "ai-agent-development",
+    "shopify-development",
+    "ai-workflow-automation"
+  ],
+  "author": "gaa-tha",
+  "readMinutes": 8,
+  "cover": "cov-a",
+  "mark": "Ch",
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22"
+}
