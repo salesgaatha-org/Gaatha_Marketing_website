@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI workflow automation: n8n vs Make vs Zapier vs custom code | gaa-tha</title>
+<meta name="description" content="n8n, Make, Zapier and custom code compared for AI workflow automation, with 12 workflows Indian businesses can run and how to keep them reliable.">
+<meta name="author" content="gaa-tha">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="canonical" href="https://gaa-tha.com/blog/ai-workflow-automation-n8n-make-zapier">
+<link rel="alternate" type="text/markdown" href="https://gaa-tha.com/blog/ai-workflow-automation-n8n-make-zapier.md" title="Markdown version for AI assistants">
+
+<link rel="icon" type="image/png" href="/assets/logo.png">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="gaa-tha">
+<meta property="og:title" content="AI workflow automation: n8n vs Make vs Zapier vs custom code | gaa-tha">
+<meta property="og:description" content="n8n, Make, Zapier and custom code compared for AI workflow automation, with 12 workflows Indian businesses can run and how to keep them reliable.">
+<meta property="og:url" content="https://gaa-tha.com/blog/ai-workflow-automation-n8n-make-zapier">
+<meta property="og:image" content="https://gaa-tha.com/assets/og/blog/ai-workflow-automation-n8n-make-zapier.jpg">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI workflow automation: n8n vs Make vs Zapier vs custom code | gaa-tha">
+<meta name="twitter:description" content="n8n, Make, Zapier and custom code compared for AI workflow automation, with 12 workflows Indian businesses can run and how to keep them reliable.">
+<meta name="twitter:image" content="https://gaa-tha.com/assets/og/blog/ai-workflow-automation-n8n-make-zapier.jpg">
+<meta property="article:published_time" content="2026-10-22">
+<meta property="article:modified_time" content="2026-10-22">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/montserrat-400-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/poppins-800-latin.woff2" crossorigin>
+<link rel="stylesheet" href="/gaatha.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://gaa-tha.com/#organization",
+      "name": "gaa-tha",
+      "alternateName": [
+        "gaatha",
+        "Gaatha",
+        "Gaa-tha",
+        "Team Gaatha"
+      ],
+      "url": "https://gaa-tha.com/",
+      "logo": "https://gaa-tha.com/assets/logo.png",
+      "image": "https://gaa-tha.com/assets/logo.png",
+      "description": "gaa-tha is a storytelling-led digital marketing, branding, ecommerce, technology and AI agency founded in Gujarat, India in 2024. It builds brands, websites, Shopify stores, mobile apps, SaaS products, AI agents, automations and ERPs; runs Meta and Google ads, social media and SEO/AEO/GEO; and onboards and manages brands on Amazon, Flipkart, Myntra, Blinkit, Zepto and Swiggy Instamart.",
+      "slogan": "Crafting Tales — your brand, but unskippable.",
+      "foundingDate": "2024",
+      "email": "digimarketing@gaa-tha.com",
+      "telephone": "+919737280309",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Gujarat",
+        "addressCountry": "IN"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        "Worldwide"
+      ],
+      "knowsAbout": [
+        "Digital Marketing",
+        "Marketing Strategy",
+        "Branding",
+        "Graphic Design",
+        "Social Media Marketing",
+        "Performance Marketing",
+        "Meta Ads",
+        "Google Ads",
+        "SEO",
+        "Answer Engine Optimization",
+        "Generative Engine Optimization",
+        "Influencer Marketing",
+        "AI-Based Ads",
+        "Cinema Advertising",
+        "B2B Lead Generation",
+        "Ecommerce",
+        "Shopify Development",
+        "Shopify Plus",
+        "Headless Commerce",
+        "Shopify Migration",
+        "Conversion Rate Optimization",
+        "Marketplace Account Management",
+        "Amazon Seller Onboarding",
+        "Quick Commerce",
+        "Blinkit Onboarding",
+        "Zepto Onboarding",
+        "Swiggy Instamart Onboarding",
+        "Web Development",
+        "Website Design",
+        "Portfolio Websites",
+        "UI/UX Design",
+        "Mobile App Development",
+        "Flutter",
+        "React Native",
+        "Ecommerce App Development",
+        "SaaS Product Development",
+        "AI Agent Development",
+        "AI Workflow Automation",
+        "AI Chatbots",
+        "WhatsApp Business API",
+        "ERP Development",
+        "Odoo Implementation",
+        "ERPNext Implementation",
+        "Custom Software Development",
+        "System Integration"
+      ],
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Abhishek Khuthiya",
+          "jobTitle": "Co-Founder"
+        },
+        {
+          "@type": "Person",
+          "name": "Getansh Savla",
+          "jobTitle": "Co-Founder"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+919737280309",
+        "email": "digimarketing@gaa-tha.com",
+        "contactType": "sales",
+        "availableLanguage": [
+          "English",
+          "Hindi",
+          "Gujarati"
+        ]
+      },
+      "sameAs": [
+        "https://instagram.com/__gaa.tha__/",
+        "https://www.linkedin.com/company/teamgaatha/",
+        "https://www.facebook.com/people/Gaa-tha/61562303836796/"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Brand & Creative",
+            "url": "https://gaa-tha.com/services/brand-and-creative"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Growth Marketing",
+            "url": "https://gaa-tha.com/services/growth-marketing"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "D2C Ecommerce",
+            "url": "https://gaa-tha.com/services/ecommerce"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Marketplaces",
+            "url": "https://gaa-tha.com/services/marketplaces"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Quick Commerce",
+            "url": "https://gaa-tha.com/services/quick-commerce"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Websites & Apps",
+            "url": "https://gaa-tha.com/services/technology"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI & Software Engineering",
+            "url": "https://gaa-tha.com/services/ai-software-engineering"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://gaa-tha.com/#website",
+      "url": "https://gaa-tha.com/",
+      "name": "gaa-tha",
+      "publisher": {
+        "@id": "https://gaa-tha.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://gaa-tha.com/blog/ai-workflow-automation-n8n-make-zapier",
+      "headline": "AI workflow automation: n8n vs Make vs Zapier vs custom code",
+      "description": "n8n, Make, Zapier and custom code compared for AI workflow automation, with 12 workflows Indian businesses can run and how to keep them reliable.",
+      "url": "https://gaa-tha.com/blog/ai-workflow-automation-n8n-make-zapier",
+      "mainEntityOfPage": "https://gaa-tha.com/blog/ai-workflow-automation-n8n-make-zapier",
+      "image": "https://gaa-tha.com/assets/blog/ai-workflow-automation-n8n-make-zapier.webp",
+      "datePublished": "2026-10-22",
+      "dateModified": "2026-10-22",
+      "inLanguage": "en",
+      "articleSection": "AI & Software",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://gaa-tha.com/#organization",
+        "name": "gaa-tha"
+      },
+      "publisher": {
+        "@id": "https://gaa-tha.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://gaa-tha.com/blog#blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gaa-tha.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://gaa-tha.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI workflow automation: n8n vs Make vs Zapier vs custom code",
+          "item": "https://gaa-tha.com/blog/ai-workflow-automation-n8n-make-zapier"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is n8n free to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The self-hosted community edition of n8n is free to use inside your own business under its fair-code licence, but you pay for the server and the time to maintain it. n8n Cloud and enterprise features are paid subscriptions; check current plans before deciding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Zapier, Make or n8n connect to Tally?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, usually through Tally’s XML interface over HTTP, its ODBC access, or a third-party connector, rather than a native integration. Because Tally typically runs on a computer or server in the office, a small bridge service is often needed so cloud workflows can reach it securely."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which tool is best for WhatsApp automation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Any of the three can automate WhatsApp through a WhatsApp Business Solution Provider or Meta’s Cloud API, using webhooks and HTTP steps. The choice depends more on your volume and data needs than on WhatsApp itself; n8n or custom code tends to suit high-volume order and COD flows."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a developer to build AI workflows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not for simple flows in Zapier or Make, which a capable operations person can build. You do need technical help for self-hosting, Tally or ERP integration, validation logic and anything that touches payments or large volumes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to automate a workflow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A simple SaaS-to-SaaS flow can be live in a few days. Flows that involve Tally, an ERP, document extraction or approvals typically take a few weeks including testing on real data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is AI workflow automation the same as RPA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. RPA (robotic process automation) imitates a person clicking through screens, which breaks when a screen changes, while API-based workflow automation exchanges data directly between systems. AI adds judgement to either, but API-based flows are more reliable wherever an API exists."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="post">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- chrome:nav -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/" aria-label="gaa-tha — home">
+      <img src="/assets/logo.png" alt="gaa-tha" width="120" height="26">
+    </a>
+    <div class="nav-links">
+      <div class="has-mega"><a href="/services">Services</a><div class="mega" aria-label="Services menu">
+        <div class="mega-inner">
+          <div class="mega-col"><h3><a href="/services/brand-and-creative">Brand &amp; Creative</a></h3><ul><li><a href="/services/branding-agency">Branding</a></li><li><a href="/services/graphic-design">Graphic design</a></li><li><a href="/services/reels-short-form-video">Reels</a></li><li><a href="/services/ai-ads-ai-ad-shoots">AI ads</a></li><li><a href="/services/cinema-ads-film-production">Cinema ads</a></li><li><a href="/services/ai-cloning-spokesperson">AI cloning</a></li><li><a href="/services/product-photography-ecommerce">Product photography</a></li><li><a href="/services/content-writing-copywriting">Copywriting</a></li><li><a href="/services/catalogues-presentations">Catalogues &amp; decks</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/growth-marketing">Growth Marketing</a></h3><ul><li><a href="/services/marketing-strategy">Marketing strategy</a></li><li><a href="/services/social-media-marketing">Social media</a></li><li><a href="/services/meta-ads-agency">Meta ads</a></li><li><a href="/services/google-ads-agency">Google ads</a></li><li><a href="/services/seo-aeo-geo">SEO, AEO &amp; GEO</a></li><li><a href="/services/local-seo-google-business-profile">Local SEO &amp; GBP</a></li><li><a href="/services/influencer-ugc-marketing">Influencer &amp; UGC</a></li><li><a href="/services/b2b-lead-generation">B2B &amp; export leads</a></li><li><a href="/services/campaign-planning">Campaign planning</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/ecommerce">D2C Ecommerce</a></h3><ul><li><a href="/services/shopify-development">Shopify stores</a></li><li><a href="/services/shopify-migration">Shopify migration</a></li><li><a href="/services/shopify-plus-headless-development">Shopify Plus &amp; headless</a></li><li><a href="/services/multi-location-shopify-local-delivery">Multi-location Shopify</a></li><li><a href="/services/ecommerce-website-development">Ecommerce websites</a></li><li><a href="/services/shopify-store-management">Store management</a></li><li><a href="/services/conversion-rate-optimisation">CRO</a></li><li><a href="/services/d2c-performance-marketing">D2C performance</a></li><li><a href="/services/ecommerce-seo">Ecommerce SEO</a></li><li><a href="/services/d2c-brand-launch">D2C brand launch</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/marketplaces">Marketplaces</a></h3><ul><li><a href="/services/amazon-onboarding">Amazon onboarding</a></li><li><a href="/services/amazon-account-management">Amazon management</a></li><li><a href="/services/flipkart-seller-management">Flipkart</a></li><li><a href="/services/myntra-onboarding">Myntra</a></li><li><a href="/services/nykaa-onboarding">Nykaa</a></li><li><a href="/services/ajio-onboarding">AJIO</a></li><li><a href="/services/meesho-jiomart-onboarding">Meesho &amp; JioMart</a></li><li><a href="/services/fashion-marketplace-growth">Fashion marketplace growth</a></li><li><a href="/services/marketplace-listing-optimisation">Listing optimisation</a></li><li><a href="/services/marketplace-ads-management">Marketplace ads</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/quick-commerce">Quick Commerce</a></h3><ul><li><a href="/services/quick-commerce-agency">Quick commerce</a></li><li><a href="/services/blinkit-onboarding">Blinkit onboarding</a></li><li><a href="/services/blinkit-account-management">Blinkit management</a></li><li><a href="/services/zepto-onboarding">Zepto onboarding</a></li><li><a href="/services/zepto-account-management">Zepto management</a></li><li><a href="/services/swiggy-instamart-onboarding">Instamart onboarding</a></li><li><a href="/services/instamart-account-management">Instamart management</a></li><li><a href="/services/flipkart-minutes-amazon-now-onboarding">Flipkart Minutes &amp; Amazon Now</a></li><li><a href="/services/bigbasket-onboarding">BigBasket onboarding</a></li><li><a href="/services/quick-commerce-ads">Quick commerce ads</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/technology">Websites &amp; Apps</a></h3><ul><li><a href="/services/website-development">Websites</a></li><li><a href="/services/portfolio-brand-website-design">Portfolio sites</a></li><li><a href="/services/app-design-development">App design</a></li><li><a href="/services/mobile-app-development">Mobile apps</a></li><li><a href="/services/ecommerce-app-development">Ecommerce &amp; sales apps</a></li><li><a href="/services/saas-product-development">SaaS products</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/ai-software-engineering">AI &amp; Engineering</a></h3><ul><li><a href="/services/ai-agent-development">AI agents</a></li><li><a href="/services/ai-workflow-automation">AI automation</a></li><li><a href="/services/ai-chatbot-development">AI chatbots</a></li><li><a href="/services/erp-development">ERP</a></li><li><a href="/services/custom-software-development">Custom software</a></li><li><a href="/services/business-tools-automation">Tools &amp; automations</a></li></ul></div>
+          <div class="mega-foot"><span>One team across brand, growth, ecommerce, marketplaces, quick commerce, apps and AI.</span><a class="link-arrow" href="/services">View all services <span class="arr">&rarr;</span></a></div>
+        </div>
+      </div></div>
+      <a href="/work">Work</a>
+      <a href="/blog" class="active">Blog</a>
+      <a href="/about">About</a>
+      <a href="/faq">FAQ</a>
+    </div>
+    <div class="nav-right">
+      <a class="btn btn-primary nav-cta" href="/#contact">Start a project</a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mm-top">
+    <span class="nav-logo"><img src="/assets/logo.png" alt="gaa-tha" width="120" height="26"></span>
+    <button class="mm-close" aria-label="Close menu">&#10005;</button>
+  </div>
+  <nav class="mm-links" aria-label="Mobile">
+    <details><summary><span class="num">01</span> Services</summary><div class="mm-sub"><div><h4><a href="/services/brand-and-creative">Brand &amp; Creative</a></h4><ul><li><a href="/services/branding-agency">Branding</a></li><li><a href="/services/graphic-design">Graphic design</a></li><li><a href="/services/reels-short-form-video">Reels</a></li><li><a href="/services/ai-ads-ai-ad-shoots">AI ads</a></li><li><a href="/services/cinema-ads-film-production">Cinema ads</a></li><li><a href="/services/ai-cloning-spokesperson">AI cloning</a></li><li><a href="/services/product-photography-ecommerce">Product photography</a></li><li><a href="/services/content-writing-copywriting">Copywriting</a></li><li><a href="/services/catalogues-presentations">Catalogues &amp; decks</a></li></ul></div><div><h4><a href="/services/growth-marketing">Growth Marketing</a></h4><ul><li><a href="/services/marketing-strategy">Marketing strategy</a></li><li><a href="/services/social-media-marketing">Social media</a></li><li><a href="/services/meta-ads-agency">Meta ads</a></li><li><a href="/services/google-ads-agency">Google ads</a></li><li><a href="/services/seo-aeo-geo">SEO, AEO &amp; GEO</a></li><li><a href="/services/local-seo-google-business-profile">Local SEO &amp; GBP</a></li><li><a href="/services/influencer-ugc-marketing">Influencer &amp; UGC</a></li><li><a href="/services/b2b-lead-generation">B2B &amp; export leads</a></li><li><a href="/services/campaign-planning">Campaign planning</a></li></ul></div><div><h4><a href="/services/ecommerce">D2C Ecommerce</a></h4><ul><li><a href="/services/shopify-development">Shopify stores</a></li><li><a href="/services/shopify-migration">Shopify migration</a></li><li><a href="/services/shopify-plus-headless-development">Shopify Plus &amp; headless</a></li><li><a href="/services/multi-location-shopify-local-delivery">Multi-location Shopify</a></li><li><a href="/services/ecommerce-website-development">Ecommerce websites</a></li><li><a href="/services/shopify-store-management">Store management</a></li><li><a href="/services/conversion-rate-optimisation">CRO</a></li><li><a href="/services/d2c-performance-marketing">D2C performance</a></li><li><a href="/services/ecommerce-seo">Ecommerce SEO</a></li><li><a href="/services/d2c-brand-launch">D2C brand launch</a></li></ul></div><div><h4><a href="/services/marketplaces">Marketplaces</a></h4><ul><li><a href="/services/amazon-onboarding">Amazon onboarding</a></li><li><a href="/services/amazon-account-management">Amazon management</a></li><li><a href="/services/flipkart-seller-management">Flipkart</a></li><li><a href="/services/myntra-onboarding">Myntra</a></li><li><a href="/services/nykaa-onboarding">Nykaa</a></li><li><a href="/services/ajio-onboarding">AJIO</a></li><li><a href="/services/meesho-jiomart-onboarding">Meesho &amp; JioMart</a></li><li><a href="/services/fashion-marketplace-growth">Fashion marketplace growth</a></li><li><a href="/services/marketplace-listing-optimisation">Listing optimisation</a></li><li><a href="/services/marketplace-ads-management">Marketplace ads</a></li><li><a href="/services/reviews-ratings-management">Reviews &amp; ratings</a></li></ul></div><div><h4><a href="/services/quick-commerce">Quick Commerce</a></h4><ul><li><a href="/services/quick-commerce-agency">Quick commerce</a></li><li><a href="/services/blinkit-onboarding">Blinkit onboarding</a></li><li><a href="/services/blinkit-account-management">Blinkit management</a></li><li><a href="/services/zepto-onboarding">Zepto onboarding</a></li><li><a href="/services/zepto-account-management">Zepto management</a></li><li><a href="/services/swiggy-instamart-onboarding">Instamart onboarding</a></li><li><a href="/services/instamart-account-management">Instamart management</a></li><li><a href="/services/flipkart-minutes-amazon-now-onboarding">Flipkart Minutes &amp; Amazon Now</a></li><li><a href="/services/bigbasket-onboarding">BigBasket onboarding</a></li><li><a href="/services/quick-commerce-ads">Quick commerce ads</a></li><li><a href="/services/quick-commerce-content">Q-commerce content</a></li></ul></div><div><h4><a href="/services/technology">Websites &amp; Apps</a></h4><ul><li><a href="/services/website-development">Websites</a></li><li><a href="/services/portfolio-brand-website-design">Portfolio sites</a></li><li><a href="/services/app-design-development">App design</a></li><li><a href="/services/mobile-app-development">Mobile apps</a></li><li><a href="/services/ecommerce-app-development">Ecommerce &amp; sales apps</a></li><li><a href="/services/saas-product-development">SaaS products</a></li></ul></div><div><h4><a href="/services/ai-software-engineering">AI &amp; Engineering</a></h4><ul><li><a href="/services/ai-agent-development">AI agents</a></li><li><a href="/services/ai-workflow-automation">AI automation</a></li><li><a href="/services/ai-chatbot-development">AI chatbots</a></li><li><a href="/services/erp-development">ERP</a></li><li><a href="/services/custom-software-development">Custom software</a></li><li><a href="/services/business-tools-automation">Tools &amp; automations</a></li></ul></div><a class="link-arrow" href="/services">All services <span class="arr">&rarr;</span></a></div></details>
+    <a href="/work"><span class="num">02</span> Work</a>
+    <a href="/blog"><span class="num">03</span> Blog</a>
+    <a href="/about"><span class="num">04</span> About</a>
+    <a href="/faq"><span class="num">05</span> FAQ</a>
+    <a href="/#contact"><span class="num">06</span> Contact</a>
+  </nav>
+  <div class="mm-foot">
+    <a class="btn btn-primary" href="/#contact">Start a project</a>
+    <a class="mm-mail" href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
+  </div>
+</div>
+<!-- /chrome:nav -->
+
+<div class="site">
+
+<header class="article-hero">
+  <div class="wrap">
+    <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/blog">Blog</a><span class="sep">/</span><span>AI &amp; Software</span></nav>
+    <h1 class="reveal h1-long">AI workflow automation: n8n vs Make vs Zapier vs custom code</h1>
+    <div class="article-meta reveal">
+      <span>By gaa-tha</span><span class="dot">&middot;</span>
+      <time datetime="2026-10-22">22 October 2026</time><span class="dot">&middot;</span>
+      
+      <span>11 min read</span><span class="dot">&middot;</span>
+      <span>AI &amp; Software</span>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <div class="ph r-16x9 has-img" data-slot="Blog cover" data-ref="blog/ai-workflow-automation-n8n-make-zapier" data-key="cover"><img src="/assets/blog/ai-workflow-automation-n8n-make-zapier.webp" alt="AI workflow automation: n8n vs Make vs Zapier vs custom code" width="1600" height="893" srcset="/assets/blog/ai-workflow-automation-n8n-make-zapier-800.webp 800w, /assets/blog/ai-workflow-automation-n8n-make-zapier.webp 1600w" sizes="(max-width: 960px) 100vw, 50vw" decoding="async"><span class="ph-label">Blog cover · 16:9</span></div>
+    <article class="prose" style="margin-top:36px">
+<p class="lead">AI workflow automation connects your apps into repeatable workflows and adds AI steps where judgement is needed, such as reading an invoice, scoring a lead or drafting a reply. Zapier is quickest for simple, low-volume flows; Make suits visual, multi-branch scenarios; n8n suits technical teams that want self-hosting, code and high volume; custom code wins at very high volume, strict security or unusual logic. Choose by volume, complexity, data sensitivity and who will maintain it.</p>
+<div class="takeaways"><h2>Key takeaways</h2><ul><li>A workflow is a fixed path; an AI step adds judgement inside it. Keep AI where rules break down.</li><li>Zapier for speed, Make for visual complexity, n8n for control and self-hosting, custom code for scale or strict data rules.</li><li>Pricing units differ (tasks, operations or credits, executions), so model your monthly volume before choosing.</li><li>Reliability is designed in: retries, duplicate protection, validation, logging, alerts and a named owner.</li><li>Start with the one workflow that saves the most hours each week, measure it, then expand.</li></ul></div>
+<h2>What is AI workflow automation?</h2>
+<p>AI workflow automation is a fixed sequence of steps, started by a trigger, that moves data between your apps and uses an AI model at the points where a rule cannot decide. The trigger might be a new Shopify order, a lead form, an email with an attachment or a time of day. The steps fetch, transform and send data. The AI steps do the parts that used to need a person: read an invoice, classify a message, extract fields from a PDF, summarise a call, draft a reply, translate, or choose which team a request belongs to.</p>
+<p>The difference from an <a href="/blog/ai-agents-for-business-guide">AI agent</a> is who decides the path. In a workflow you design the path and the AI fills in judgement inside it; in an agent the model chooses the path. Workflows are more predictable, cheaper to run and easier to audit, so they should be the default. Use an agent only where the steps genuinely vary from case to case.</p>
+<h2>How do n8n, Make, Zapier and custom code compare?</h2>
+<p>Zapier is the easiest, Make is the most visual for complex branching, n8n gives the most control and can be self-hosted, and custom code has no ceiling but needs engineers. In more detail:</p>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Aspect</th><th>Zapier</th><th>Make</th><th>n8n</th><th>Custom code</th></tr></thead>
+<tbody>
+<tr><td>Pricing model</td><td>Subscription by tasks (each action step that runs)</td><td>Subscription by operations or credits (each module run)</td><td>Cloud plans by workflow executions; self-hosted community edition free for internal use</td><td>Hosting plus developer time</td></tr>
+<tr><td>Self-hosting</td><td>No</td><td>No</td><td>Yes (Docker, any cloud or your own server)</td><td>Yes</td></tr>
+<tr><td>Learning curve</td><td>Lowest</td><td>Moderate</td><td>Moderate to high; code nodes for JavaScript and Python</td><td>Needs developers</td></tr>
+<tr><td>AI features</td><td>AI steps, Zapier Agents, MCP access, AI-assisted building</td><td>AI modules for major model providers, Make AI Agents</td><td>AI Agent node, vector stores, chat triggers, MCP nodes, any model by API</td><td>Any model, SDK or framework</td></tr>
+<tr><td>Integrations</td><td>Largest app directory</td><td>Large, with deep options per app</td><td>Hundreds of nodes plus a generic HTTP node</td><td>Whatever you build</td></tr>
+<tr><td>Best for</td><td>Non-technical teams, simple linear flows, quick wins</td><td>Operations teams with multi-branch, moderate-volume scenarios</td><td>Technical teams, high volume, sensitive data, complex logic</td><td>Core product flows, very high volume, strict compliance</td></tr>
+<tr><td>Watch out for</td><td>Cost grows quickly with volume and multi-step flows</td><td>Loops over line items consume many operations</td><td>Self-hosting means you own updates, backups and security</td><td>Higher build cost and ongoing maintenance</td></tr>
+</tbody></table></div>
+<p>Plans and limits change often, so model your expected monthly volume against each vendor’s current pricing page before committing. The pricing unit matters more than the headline plan: a ten-step flow that runs a thousand times a month is ten thousand tasks on a per-step model but a thousand executions on a per-run model. n8n’s self-hosted edition is free to use inside your own business under its fair-code licence; enterprise features such as single sign-on are paid.</p>
+<h2>Which workflows should Indian businesses automate first?</h2>
+<p>Start with workflows that run every day, touch money or customers, and currently depend on someone copying data between screens. Twelve that consistently earn their keep:</p>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Workflow</th><th>Trigger</th><th>AI step</th><th>Output</th></tr></thead>
+<tbody>
+<tr><td>Lead → CRM → WhatsApp</td><td>Meta lead form, IndiaMART enquiry or website form</td><td>Clean name and phone, de-duplicate, score fit</td><td>CRM record, WhatsApp template within minutes, salesperson assigned</td></tr>
+<tr><td>Invoice extraction → Tally</td><td>Supplier invoice by email or WhatsApp</td><td>Extract GSTIN, invoice number, HSN, taxable value, CGST, SGST, IGST</td><td>Draft purchase voucher in Tally; mismatches flagged for the accountant</td></tr>
+<tr><td>Review replies</td><td>New Google, Amazon or Shopify review</td><td>Classify sentiment and issue, draft reply in brand voice</td><td>Positive replies posted; complaints routed with order details</td></tr>
+<tr><td>Daily sales report</td><td>9 am every day</td><td>Summarise and flag anomalies</td><td>WhatsApp or Slack note: orders, revenue, spend, MER, RTO by channel</td></tr>
+<tr><td>Catalogue enrichment</td><td>New SKU in a sheet or PIM</td><td>Draft titles, bullets and attributes per marketplace format; translate</td><td>Approved content pushed to Shopify and marketplace files</td></tr>
+<tr><td>COD confirmation</td><td>New COD order in Shopify</td><td>Read free-text replies (“kal bhejo”, address changes)</td><td>Confirmed, rescheduled or cancelled order; fewer RTOs</td></tr>
+<tr><td>Support triage</td><td>Email, WhatsApp or Instagram DM</td><td>Detect intent and language, attach order data</td><td>Auto-answer for FAQs, routed ticket for the rest</td></tr>
+<tr><td>Payment reminders</td><td>Outstanding report from Tally or the ERP</td><td>Draft polite reminders by ageing bucket</td><td>WhatsApp or email with a Razorpay or UPI payment link</td></tr>
+<tr><td>Stock alerts</td><td>Stock below reorder level on any channel</td><td>Suggest reorder quantity from recent sales velocity</td><td>Purchase manager approves a draft PO</td></tr>
+<tr><td>Call notes → CRM</td><td>Call recording or meeting transcript</td><td>Summary, next steps, deal stage</td><td>CRM updated and follow-up tasks created</td></tr>
+<tr><td>Resume screening</td><td>Applications to a careers inbox</td><td>Extract experience and match against the job description</td><td>Shortlist sheet; people make the decisions</td></tr>
+<tr><td>Content repurposing</td><td>Blog post published</td><td>Draft LinkedIn post, Instagram caption and WhatsApp broadcast</td><td>Drafts sent for approval before posting</td></tr>
+</tbody></table></div>
+<p>Several of these sit on top of a <a href="/services/shopify-development">Shopify store</a> and its order data; support triage can grow into a full <a href="/blog/ai-chatbot-for-website-and-whatsapp">AI chatbot for the website and WhatsApp</a>; and the finance and stock flows get easier once operations run on a proper <a href="/services/erp-development">ERP</a> rather than spreadsheets.</p>
+<h3>What the lead-to-WhatsApp flow looks like in practice</h3>
+<p>A Meta lead form fires a webhook. The workflow normalises the phone number to the +91 format, checks the CRM for an existing contact, and asks a model to score the lead against your ideal customer description using the form answers. Hot leads get a WhatsApp template at once and a task for the salesperson on duty; the rest enter a nurture sequence. Every lead is logged with its score so the sales team can challenge it. This pairs naturally with <a href="/services/b2b-lead-generation">B2B lead generation</a> campaigns, where speed of first response decides much of the outcome.</p>
+<h3>What the invoice-to-Tally flow looks like in practice</h3>
+<p>An invoice PDF lands in a shared inbox. The workflow sends it to a model with a fixed output schema, then validates the result in code: GSTIN format and checksum, tax arithmetic, a known supplier, no duplicate invoice number. Clean invoices become draft purchase vouchers in Tally through its XML interface; anything that fails a check goes to a review sheet. The accountant reviews exceptions instead of keying every invoice.</p>
+<h2>How do you pick the right tool for each workflow?</h2>
+<p>Pick the tool by who will maintain the workflow, how often it runs and how sensitive the data is. Simple decision rules:</p>
+<ul>
+<li><strong>Choose Zapier</strong> when a non-technical team will own a handful of simple flows between popular SaaS apps and volume is modest.</li>
+<li><strong>Choose Make</strong> when an operations person wants to see and edit multi-branch logic visually, and volume is moderate.</li>
+<li><strong>Choose n8n</strong> when you have a developer or technical partner, run thousands of executions, handle financial or customer data you prefer to keep on your own server, or need code inside the flow.</li>
+<li><strong>Choose custom code</strong> when the workflow is part of your product, needs sub-second responses, or must pass security reviews that a third-party platform cannot.</li>
+<li><strong>Mix them</strong> when it makes sense: marketing can run its own Zapier flows while finance automations live on a self-hosted n8n.</li>
+</ul>
+<p>Check Indian connectors before you commit. Tally, IndiaMART, Shiprocket, Indian WhatsApp Business Solution Providers and some marketplace portals may not have native nodes on every platform, so plan for webhooks, the generic HTTP step or a small bridge service.</p>
+<h2>When should you move from no-code to custom code?</h2>
+<p>Move a workflow to custom code when the no-code version costs more in fees, failures or workarounds than writing and maintaining code would. The signals:</p>
+<ul>
+<li>The monthly platform bill is growing faster than the value of the flows.</li>
+<li>A single workflow has grown past fifty steps and nobody can read it any more.</li>
+<li>You need version control, automated tests and code review for changes.</li>
+<li>Several workflows repeat the same business logic and drift out of step.</li>
+<li>Rate limits, timeouts or execution caps cause regular failures.</li>
+<li>Auditors or enterprise clients ask questions about data handling the platform cannot answer.</li>
+</ul>
+<p>Migrate the hot path first, usually the highest-volume or most business-critical flow, and leave low-volume flows on the platform. A common middle step is self-hosted n8n with code nodes, which keeps the visual view while giving developers control. When a flow becomes a product feature, our <a href="/services/custom-software-development">custom software development</a> team builds it as a proper service with tests and monitoring.</p>
+<h2>How do you make AI automations reliable?</h2>
+<p>Reliability is designed in from the first workflow: every flow needs retries, protection against duplicates, logging, alerts and a named owner. A checklist:</p>
+<ol>
+<li><strong>Retries with back-off</strong> for calls to APIs that occasionally time out, including model providers.</li>
+<li><strong>Idempotency.</strong> Use the order ID or invoice number as a key so a retried run never creates a second Tally voucher or sends a second WhatsApp message.</li>
+<li><strong>Error workflows.</strong> Every flow routes failures to a handler that records the input and the error.</li>
+<li><strong>A review queue.</strong> Items that fail validation or have low-confidence AI output go to a sheet or inbox for a person, never silently dropped.</li>
+<li><strong>Schema validation for AI output.</strong> Ask the model for structured JSON and check fields, types and totals in code before acting.</li>
+<li><strong>Alerts</strong> on failure counts to a named owner on WhatsApp, Slack or email.</li>
+<li><strong>Run logs</strong> kept long enough to answer “what happened to order 10432?” weeks later.</li>
+<li><strong>Documentation:</strong> purpose, owner, credentials used and what to do if it stops, for every workflow.</li>
+<li><strong>Test data</strong> and a staging copy for changes, so fixes are not tried on live orders.</li>
+</ol>
+<p>Most automation failures are not AI failures; they are a changed form field, an expired token or a renamed column that nobody noticed for weeks.</p>
+<h2>How do you keep data secure in AI workflows?</h2>
+<p>Keep data secure by giving each workflow the least access it needs, sending the model only the fields it must see, and choosing hosting that matches the sensitivity of the data. In practice:</p>
+<ul>
+<li>Use separate service accounts and API keys per workflow, with read-only access wherever possible, stored in the platform’s credential vault rather than inside steps.</li>
+<li>Strip or mask personal data such as phone numbers, addresses and PAN before an AI step if the step does not need it.</li>
+<li>Use business API tiers of model providers and confirm their data retention and training terms.</li>
+<li>Self-host n8n in an Indian cloud region when financial or customer data should stay under your control.</li>
+<li>Treat text from emails, reviews and web pages as untrusted: an AI step that reads it should return structured data, not trigger payments or messages directly, which limits prompt injection.</li>
+<li>Review access when staff leave, and keep audit logs of who changed which workflow.</li>
+</ul>
+<p>Indian businesses should design to the Digital Personal Data Protection Act, 2023; brands serving customers in Canada or Europe should also meet PIPEDA or GDPR.</p>
+<h2>What does AI workflow automation cost?</h2>
+<p>The cost of AI workflow automation comes from four places: the platform subscription, model usage, hosting if you self-host, and the time to build and maintain flows. Platform cost follows your volume and the vendor’s pricing unit; model cost follows the number and length of AI steps; hosting for self-hosted n8n is usually modest; and build effort depends on how many systems are involved and how clean their data is. A Tally or ERP integration takes longer than a SaaS-to-SaaS flow.</p>
+<p>To judge return, multiply the hours a workflow saves each month by the loaded cost of those hours, then add the value of faster responses and fewer errors, such as leads answered in minutes rather than hours or RTOs avoided through COD confirmation. Our post on <a href="/blog/cod-vs-prepaid">COD vs prepaid</a> shows why that last one matters for D2C margins.</p>
+<h2>How should a business get started?</h2>
+<p>Start with a one-week audit of repetitive work, then automate the single workflow that saves the most hours with the least risk. List every task where someone copies, checks or forwards information; note how often it happens and how long it takes; score each by hours saved and the damage a mistake could cause. Build the top one, measure it for a month, then move to the next. Five flows that run reliably are worth more than twenty that someone has to babysit.</p>
+<p>gaa-tha builds these flows end to end under <a href="/services/ai-workflow-automation">AI workflow automation</a>, alongside the dashboards and internal tools in <a href="/services/business-tools-automation">business tools and automation</a>. When a process needs judgement across many steps, we scope an <a href="/services/ai-agent-development">AI agent</a> instead. Our work for New Rave, a Canadian trading-card retailer, included product scraping alongside the website, the kind of data plumbing that sits underneath most useful automation. For ERP-connected flows, see <a href="/blog/custom-erp-vs-odoo-vs-erpnext-vs-tally">Custom ERP vs Odoo vs ERPNext vs Tally</a>.</p>
+<hr><h2>Frequently asked questions</h2><div class="faq-list"><div class="faq-item"><button class="faq-q" aria-expanded="false">Is n8n free to use?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>The self-hosted community edition of n8n is free to use inside your own business under its fair-code licence, but you pay for the server and the time to maintain it. n8n Cloud and enterprise features are paid subscriptions; check current plans before deciding.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Can Zapier, Make or n8n connect to Tally?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Yes, usually through Tally’s XML interface over HTTP, its ODBC access, or a third-party connector, rather than a native integration. Because Tally typically runs on a computer or server in the office, a small bridge service is often needed so cloud workflows can reach it securely.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Which tool is best for WhatsApp automation?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Any of the three can automate WhatsApp through a WhatsApp Business Solution Provider or Meta’s Cloud API, using webhooks and HTTP steps. The choice depends more on your volume and data needs than on WhatsApp itself; n8n or custom code tends to suit high-volume order and COD flows.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Do I need a developer to build AI workflows?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Not for simple flows in Zapier or Make, which a capable operations person can build. You do need technical help for self-hosting, Tally or ERP integration, validation logic and anything that touches payments or large volumes.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">How long does it take to automate a workflow?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>A simple SaaS-to-SaaS flow can be live in a few days. Flows that involve Tally, an ERP, document extraction or approvals typically take a few weeks including testing on real data.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Is AI workflow automation the same as RPA?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>No. RPA (robotic process automation) imitates a person clicking through screens, which breaks when a screen changes, while API-based workflow automation exchanges data directly between systems. AI adds judgement to either, but API-based flows are more reliable wherever an API exists.</p></div></div></div></div>
+      <div class="author-box"><span class="ab-mark">g</span><div><b>Written by the gaa-tha team</b><p>Founded in 2024 by Abhishek Khuthiya and Getansh Savla. <a href="/about">About the studio</a> · <a href="https://www.linkedin.com/company/teamgaatha/" rel="noopener" target="_blank">LinkedIn</a></p></div></div>
+      <div class="article-cta">
+        <h2>Want this done for you?</h2>
+        <p>gaa-tha builds the strategy, the creative and the commerce operations — for brands across India and beyond.</p>
+        <a class="btn btn-primary btn-lg" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+      </div>
+    </article>
+  </div>
+
+  <section class="section surface bordered" aria-label="Related">
+    <div class="wrap">
+      <div class="section-head"><p class="eyebrow">Go deeper</p><h2 class="section-title display">Related services and work</h2></div>
+      <div class="grid grid-4" data-stagger="0.06"><a class="card reveal" href="/services/ai-workflow-automation"><span class="card-idx">AI &amp; Engineering</span><h3>AI Workflow Automation</h3><p>Automations across your apps, with AI steps that read, sort and write — so data moves without copy-paste.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="card reveal" href="/services/business-tools-automation"><span class="card-idx">AI &amp; Engineering</span><h3>Custom Tools &amp; Automations</h3><p>Small, purpose-built software that removes manual work — lead trackers, lookups, dashboards and document automation.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="card reveal" href="/services/ai-agent-development"><span class="card-idx">AI &amp; Engineering</span><h3>AI Agent Development</h3><p>Custom AI agents that take a goal, use your tools and finish the task — inside guardrails, approvals and logs.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="ccard reveal" href="/work/new-rave" data-f="social-reels performance-ads websites-shopify ecommerce-marketplaces">
+  <div class="ph r-4x3 sm" data-slot="Case card" data-ref="caseStudies/new-rave" data-key="card"><span class="ph-label">Case card · 4:3</span></div>
+  <div class="ccard-body">
+    <div class="ccard-logo"><img src="/assets/clients/newrave.webp" alt="New Rave" loading="lazy" decoding="async"></div>
+    <h3>New Rave: campaigns across Canada, a managed website and product data for a <span class="nb">trading-card</span> retailer.</h3>
+    <div class="ccard-tags"><span class="tag">Retail (physical + online) / TCG &amp; hobbies</span><span class="tag">Marketing strategy</span><span class="tag">Meta ads</span></div>
+    
+    <span class="bp-more">Read the case study &rarr;</span>
+  </div>
+</a></div>
+    </div>
+  </section>
+</main>
+
+<!-- chrome:footer -->
+<section class="footer-cta">
+  <div class="wrap footer-cta-row">
+    <h2 class="display">Got a story to tell? Let&#39;s make it legendary.</h2>
+    <a class="btn btn-primary btn-lg" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="footer-logo" href="/" aria-label="gaa-tha — home">
+          <img src="/assets/logo.png" alt="gaa-tha — Crafting Tales" width="842" height="296" loading="lazy">
+        </a>
+        <p>Crafting tales that turn brands into movements — strategy, storytelling and AI-driven results. India-rooted, globally minded.</p>
+        <div class="footer-socials">
+          <a href="https://instagram.com/__gaa.tha__/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.linkedin.com/company/teamgaatha/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+      <nav class="footer-col" aria-label="Services">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="/services">All services</a></li>
+          <li><a href="/services/brand-and-creative">Brand &amp; Creative</a></li>
+          <li><a href="/services/growth-marketing">Growth Marketing</a></li>
+          <li><a href="/services/ecommerce">D2C Ecommerce</a></li>
+          <li><a href="/services/marketplaces">Marketplaces</a></li>
+          <li><a href="/services/quick-commerce">Quick Commerce</a></li>
+          <li><a href="/services/technology">Websites &amp; Apps</a></li>
+          <li><a href="/services/ai-software-engineering">AI &amp; Engineering</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="Explore">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="/work">Work &amp; case studies</a></li>
+          <li><a href="/reels">Reels</a></li>
+          <li><a href="/websites">Websites</a></li>
+          <li><a href="/branding">Branding</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+      <div class="footer-col footer-say">
+        <h3>Say hello</h3>
+        <a class="fsay-line" href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
+        <a class="fsay-line" href="tel:+919737280309">+91 97372 80309</a>
+        <a class="fsay-line" href="tel:+917781818981">+91 77818 18981</a>
+        <a class="btn btn-primary" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer-bottom">
+    <div class="wrap footer-bottom-inner">
+      <span class="fmeta">
+        <span>&copy; <span data-year>2026</span> gaa-tha. All rights reserved.</span>
+        <span class="fdot">&#9670;</span>
+        <span>Crafting tales since 2024</span>
+      </span>
+      <a href="#" class="to-top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </div>
+</footer>
+<!-- /chrome:footer -->
+</div>
+
+<script defer src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script defer src="/gaatha.js"></script>
+<script defer src="/gaatha-cms.js"></script>
+
+</body>
+</html>

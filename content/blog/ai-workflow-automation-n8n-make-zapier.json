@@ -87,6 +87,8 @@
   "author": "gaa-tha",
   "readMinutes": 11,
   "cover": "cov-e",
+  "image": {"src":"/assets/blog/ai-workflow-automation-n8n-make-zapier.webp","width":1600,"height":893,"srcset":"/assets/blog/ai-workflow-automation-n8n-make-zapier-800.webp 800w, /assets/blog/ai-workflow-automation-n8n-make-zapier.webp 1600w"},
+  "ogImage": "/assets/og/blog/ai-workflow-automation-n8n-make-zapier.jpg",
   "mark": "Wf",
   "datePublished": "2026-10-22",
   "dateModified": "2026-10-22"

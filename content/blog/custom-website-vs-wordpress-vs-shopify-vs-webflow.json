@@ -87,6 +87,8 @@
   "author": "gaa-tha",
   "readMinutes": 13,
   "cover": "cov-a",
+  "image": {"src":"/assets/blog/custom-website-vs-wordpress-vs-shopify-vs-webflow.webp","width":1600,"height":893,"srcset":"/assets/blog/custom-website-vs-wordpress-vs-shopify-vs-webflow-800.webp 800w, /assets/blog/custom-website-vs-wordpress-vs-shopify-vs-webflow.webp 1600w"},
+  "ogImage": "/assets/og/blog/custom-website-vs-wordpress-vs-shopify-vs-webflow.jpg",
   "mark": "Vs",
   "datePublished": "2026-10-22",
   "dateModified": "2026-10-22"

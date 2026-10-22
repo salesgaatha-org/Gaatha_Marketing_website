@@ -90,6 +90,8 @@
   "author": "gaa-tha",
   "readMinutes": 13,
   "cover": "cov-b",
+  "image": {"src":"/assets/blog/ai-agents-for-business-guide.webp","width":1600,"height":893,"srcset":"/assets/blog/ai-agents-for-business-guide-800.webp 800w, /assets/blog/ai-agents-for-business-guide.webp 1600w"},
+  "ogImage": "/assets/og/blog/ai-agents-for-business-guide.jpg",
   "mark": "AI",
   "datePublished": "2026-10-22",
   "dateModified": "2026-10-22"

@@ -5,7 +5,7 @@
   "category": "Websites & Apps",
   "title": "Website development cost in India: a 2026 pricing guide",
   "excerpt": "Indicative 2026 website costs in India by site type and builder, what drives the price, yearly running costs, hidden costs and how to compare quotes.",
-  "intro": "In 2026, most Indian businesses should budget roughly ₹50,000–₹2 lakh for a professionally built 5–10 page website, ₹1.5–10 lakh for a corporate or B2B site, ₹1–6 lakh for a Shopify store and ₹5 lakh upward for a custom web app. These are indicative market ranges, not quotes. Then set aside 15–25% of the build cost every year for hosting, maintenance and content, because that is what keeps the site earning.",
+  "intro": "In 2026, most Indian businesses should budget roughly ₹50,000–₹2 lakh for a professionally built 5–10 page website, ₹1.5–10 lakh for a corporate or B2B site, ₹75,000–2.5 lakh for a first Shopify store and ₹5 lakh upward for a custom web app. These are indicative market ranges, not quotes. Then set aside 15–25% of the build cost every year for hosting, maintenance and content, because that is what keeps the site earning.",
   "takeaways": [
     "The same “10-page website” can honestly cost ₹25,000 or ₹4 lakh; the difference is strategy, original design, copywriting, integrations and who is accountable after launch.",
     "Budget for the whole first year: build, plus domain, hosting, email, licences, content and maintenance, plus 18% GST on Indian invoices.",
@@ -95,6 +95,8 @@
   "author": "gaa-tha",
   "readMinutes": 11,
   "cover": "cov-b",
+  "image": {"src":"/assets/blog/website-development-cost-in-india.webp","width":1600,"height":893,"srcset":"/assets/blog/website-development-cost-in-india-800.webp 800w, /assets/blog/website-development-cost-in-india.webp 1600w"},
+  "ogImage": "/assets/og/blog/website-development-cost-in-india.jpg",
   "mark": "₹",
   "datePublished": "2026-10-22",
   "dateModified": "2026-10-22"

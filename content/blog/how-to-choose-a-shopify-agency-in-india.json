@@ -1,0 +1,87 @@
+{
+  "slug": "how-to-choose-a-shopify-agency-in-india",
+  "published": true,
+  "type": "cluster",
+  "category": "Shopify",
+  "title": "How to choose a Shopify agency in India: what top agencies do",
+  "excerpt": "Types of Shopify partners in India, what the best agencies do differently, red flags, questions to ask and a weighted scorecard to compare proposals.",
+  "intro": "To choose a Shopify agency in India, first decide which type of partner you need (freelancer, theme customiser, Shopify-only studio, full-service D2C agency, or Plus and headless specialist), then compare them on discovery, conversion-led design, tracking, speed, Indian checkout and COD expertise, and post-launch support. Ask for live stores, a written scope and full ownership in your name. Price matters, but scope and process decide the result.",
+  "takeaways": [
+    "Match the partner type to the job: a freelancer for a quick setup, a studio for a conversion-led build, a full-service agency when the store and growth must work together.",
+    "The best agencies start with discovery and tracking, not the homepage design.",
+    "Indian checkout, COD and RTO experience separates good Shopify partners from generic web designers.",
+    "Red flags: no live examples, accounts in the agency’s name, vague scope, app-heavy builds and no post-launch plan.",
+    "Score every proposal on the same weighted criteria before comparing price."
+  ],
+  "sections": [
+    {
+      "h2": "What types of Shopify partners are there in India?",
+      "html": "<p>Shopify partners in India fall into six broad types, and each is the right choice for a different job.</p>\n<div class=\"tbl-wrap\"><table><thead><tr><th>Partner type</th><th>Best for</th><th>Watch out for</th></tr></thead><tbody><tr><td>Freelancer</td><td>Small setups, quick fixes, tight budgets</td><td>Availability, a single point of failure, limited design or tracking depth</td></tr><tr><td>Theme customiser</td><td>Installing and adjusting a theme fast</td><td>Little strategy or conversion thinking; heavy reliance on apps</td></tr><tr><td>Shopify-only studio</td><td>Conversion-led builds, custom sections, migrations</td><td>May not handle ads, content or marketplaces</td></tr><tr><td>Full-service D2C agency</td><td>Store, brand, content, ads and retention under one plan</td><td>Check that Shopify depth is in-house, not outsourced</td></tr><tr><td>Shopify Plus and headless specialist</td><td>Checkout extensions, B2B, Hydrogen, ERP integrations</td><td>Higher cost; more than a first store needs</td></tr><tr><td>Offshore development shop</td><td>Large volumes of code at low hourly rates</td><td>Communication, D2C context and ownership of outcomes</td></tr></tbody></table></div>\n<p>No type is better in general. Decide whether you need a website, a website plus growth, or engineering depth, then shortlist two or three partners of that type. For marketing-agency types, see our guide to the <a href=\"/blog-best-digital-marketing-agency-india\">best digital marketing agency in India</a>.</p>"
+    },
+    {
+      "h2": "What do the best Shopify agencies do differently?",
+      "html": "<p>The best Shopify agencies treat the store as a sales system rather than a design project, which shows up in seven habits.</p>\n<ul>\n<li><strong>Discovery before design.</strong> They study your products, margins, buyers, competitors and current analytics, and write down what the store must achieve before opening Figma.</li>\n<li><strong>Conversion-led design.</strong> Navigation by buyer need, product pages that answer objections, bundles that raise order value, mobile first, with every design choice explained by buyer behaviour rather than taste.</li>\n<li><strong>Tracking as a deliverable.</strong> Meta Pixel with Conversions API, GA4 and Google Ads conversions, verified on a real order, including on third-party checkouts.</li>\n<li><strong>Speed discipline.</strong> Fewer apps, custom sections instead of scripts, compressed media and a mobile performance target agreed upfront.</li>\n<li><strong>Indian checkout and COD.</strong> Gateway choice, one-click checkout trade-offs, COD rules by pincode and order value, WhatsApp confirmation and shipping integration; see <a href=\"/blog/shopify-integrations-for-indian-brands\">Shopify integrations for Indian brands</a>.</li>\n<li><strong>Content readiness.</strong> Photography and copy are planned with the build, so the store launches complete.</li>\n<li><strong>Life after launch.</strong> A bug-fix window, training, a <a href=\"/services/conversion-rate-optimisation\">conversion rate optimisation</a> roadmap and optional <a href=\"/services/shopify-store-management\">store management</a>.</li>\n</ul>\n<p>A quick test: ask each agency what it would change on your current store or a store you admire. An average answer talks about colours and a new homepage; a strong one talks about product pages, checkout friction, COD rules, tracking gaps and the few pages that carry most of the revenue.</p>"
+    },
+    {
+      "h2": "What are the red flags when hiring a Shopify agency?",
+      "html": "<p>The biggest red flag is an agency that cannot show live Shopify stores and explain exactly what it did on each. Others to watch for:</p>\n<ul>\n<li>The store, domain, theme or app accounts set up in the agency’s name rather than yours.</li>\n<li>A quote without a list of templates, sections and integrations.</li>\n<li>Another app as the answer to every requirement.</li>\n<li>No mention of tracking, mobile speed or checkout testing.</li>\n<li>Guaranteed sales or rankings, or “number one agency” claims without evidence.</li>\n<li>A design copied wholesale from another brand’s store.</li>\n<li>No redirect and SEO plan when replacing an existing site.</li>\n<li>Vagueness about who will actually do the work, or undisclosed subcontracting.</li>\n</ul>\n<p>Price itself can be a flag. A quote far below the others usually means content, tracking or integrations are missing from the scope; a quote far above them should come with features or depth the others do not offer. Ask either to explain the gap line by line.</p>"
+    },
+    {
+      "h2": "Which questions should you ask a Shopify agency before signing?",
+      "html": "<p>Ask questions that force specific answers about scope, process and ownership; vague answers to any of these are a warning.</p>\n<ol>\n<li>Which live Shopify stores have you built, and what exactly did you do on each?</li>\n<li>Will you customise a theme or build a custom one, and why is that right for us?</li>\n<li>How many templates and custom sections are included?</li>\n<li>Which gateway, checkout, shipping and WhatsApp integrations are included and tested?</li>\n<li>How will you set up and verify Meta Pixel, Conversions API and GA4?</li>\n<li>What mobile speed target will you meet, and how many apps will the store run?</li>\n<li>Who supplies photography and copy?</li>\n<li>How do you handle redirects and SEO in a <a href=\"/services/shopify-migration\">Shopify migration</a>?</li>\n<li>What happens in the first 30 days after launch, and what does ongoing support cost?</li>\n<li>Will the store, theme code, accounts and files all be owned by us?</li>\n</ol>"
+    },
+    {
+      "h2": "How should you run the agency selection process?",
+      "html": "<p>Run Shopify agency selection as a short, structured process over two to four weeks, so you compare like with like.</p>\n<ol>\n<li><strong>Write a one-page brief:</strong> products and catalogue size, target buyers, must-have features, integrations, content you already have, budget band and launch date.</li>\n<li><strong>Shortlist three partners</strong> of the type that fits the job, from referrals, live stores you admire and the Shopify Partner Directory.</li>\n<li><strong>Hold a 45-minute call with each</strong> and listen to their questions; good agencies ask about margins, COD share and repeat rate before talking about design.</li>\n<li><strong>Request written proposals</strong> against the same brief and scope sheet.</li>\n<li><strong>Call two references per agency</strong> and test their live stores on a mid-range Android phone.</li>\n<li><strong>Score with the scorecard below,</strong> then negotiate scope rather than only price.</li>\n<li><strong>Consider a paid discovery phase</strong> for large builds, so both sides agree the plan before committing to the whole project.</li>\n</ol>"
+    },
+    {
+      "h2": "How do you score Shopify agencies side by side?",
+      "html": "<p>Score each shortlisted agency from 1 to 5 on the criteria below, multiply by the weight and compare totals before you compare price.</p>\n<div class=\"tbl-wrap\"><table><thead><tr><th>Criterion</th><th>Weight</th><th>What a strong answer looks like</th></tr></thead><tbody><tr><td>Relevant live work</td><td>20%</td><td>Several live stores in a similar category, with the agency’s role explained</td></tr><tr><td>Discovery and strategy</td><td>15%</td><td>A written discovery stage with analytics review and clear goals</td></tr><tr><td>Conversion-led design</td><td>15%</td><td>Design rationale tied to buyer behaviour; mobile-first prototypes</td></tr><tr><td>Tracking and analytics</td><td>10%</td><td>Pixel, Conversions API and GA4 verified on a real order</td></tr><tr><td>Speed and app discipline</td><td>10%</td><td>A mobile performance target and a short app list</td></tr><tr><td>Indian checkout, COD and integrations</td><td>10%</td><td>A clear gateway, checkout, COD and shipping plan</td></tr><tr><td>Post-launch support</td><td>10%</td><td>A bug-fix window, training and an optional retainer</td></tr><tr><td>Scope clarity and ownership</td><td>10%</td><td>Itemised scope, with all accounts and code in your name</td></tr></tbody></table></div>\n<p>For example, an agency scoring 4 on live work (4 × 20 = 80), 3 on discovery (45), 4 on design (60) and 4 on each of the five 10% criteria (200) totals 385 out of a possible 500. Compare totals, then ask the top two to close their weakest gaps. A high score with a higher price usually costs less than a low score with a cheap quote, because rework, lost tracking and slow pages are expensive. To sense-check the numbers, read <a href=\"/blog/shopify-website-cost-in-india\">how much a Shopify website costs in India</a>.</p>"
+    },
+    {
+      "h2": "Where does gaa-tha fit among Shopify agencies?",
+      "html": "<p>gaa-tha is a full-service D2C agency with in-house Shopify development, founded in 2024 in Gujarat and working with brands in India and abroad, including Canada. One team covers brand and creative, <a href=\"/services/shopify-development\">Shopify development</a>, <a href=\"/services/shopify-migration\">migrations</a>, <a href=\"/services/shopify-plus-headless-development\">Shopify Plus and headless builds</a>, <a href=\"/services/ecommerce-app-development\">ecommerce apps</a>, performance marketing, marketplaces and quick commerce. Our track record so far is 20+ websites built and 15+ client brands.</p>\n<p>Two examples show how we work. The <a href=\"/work/kitcoz\">Kitcoz</a> store was built from identity to a concern-led Shopify store with a kit selector, combo builder, pincode checker, GoKwik checkout, Pixel and Conversions API tracking and Meta ad creative. The <a href=\"/work/charliee\">Charliee</a> retainer runs a Shopify website alongside Amazon, Flipkart, Blinkit, Zepto, Instamart and Meta and Google ads.</p>\n<p>We fit best when the store and the growth plan need to work together. We are a young, focused team rather than a large enterprise systems integrator, so a long multi-country enterprise replatform with a big dedicated engineering bench may suit a larger specialist better, and a quick theme setup may be cheaper with a freelancer. The scorecard above applies to us too; use it.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does a Shopify agency charge in India?",
+      "a": "Indicative 2026 Indian market ranges run from about ₹75,000 to ₹2.5 lakh for a studio-customised theme and ₹2.5 lakh to ₹8 lakh or more for a custom theme, with Shopify Plus and headless projects higher. These are not quotes; scope, integrations and content change the number."
+    },
+    {
+      "q": "Should I hire a Shopify freelancer or an agency?",
+      "a": "Hire a freelancer for a small, well-defined setup or quick fixes on a tight budget. Hire a studio or agency when you need design, conversion, tracking and integrations delivered together, or when the store must keep improving after launch."
+    },
+    {
+      "q": "What is a Shopify Partner?",
+      "a": "A Shopify Partner is a person or company registered in Shopify’s Partner Program to build stores, themes or apps for merchants. Registration on its own is not a quality signal, so judge partners on live work, process and references."
+    },
+    {
+      "q": "How long should a Shopify agency take to build a store?",
+      "a": "A customised theme typically takes four to eight weeks once content is ready, and a custom theme eight to fourteen weeks. Be wary of much shorter timelines for custom work, and of open-ended ones without milestones."
+    },
+    {
+      "q": "Can the same agency run my Shopify store and my ads?",
+      "a": "Yes, and it often helps, because tracking, landing pages, offers and creative are linked. Check that the agency has real depth in both and that its reporting connects store data with ad data."
+    },
+    {
+      "q": "What should a Shopify agency contract include?",
+      "a": "An itemised scope, a timeline with milestones, payments tied to those milestones, a change-request process, ownership of all accounts and code, post-launch support terms and confidentiality. Ask for it in writing before any work starts."
+    }
+  ],
+  "relatedServices": [
+    "shopify-development",
+    "shopify-migration",
+    "shopify-plus-headless-development",
+    "shopify-store-management"
+  ],
+  "relatedCase": "kitcoz",
+  "author": "gaa-tha",
+  "readMinutes": 8,
+  "cover": "cov-a",
+  "image": {"src":"/assets/blog/how-to-choose-a-shopify-agency-in-india.webp","width":1600,"height":893,"srcset":"/assets/blog/how-to-choose-a-shopify-agency-in-india-800.webp 800w, /assets/blog/how-to-choose-a-shopify-agency-in-india.webp 1600w"},
+  "ogImage": "/assets/og/blog/how-to-choose-a-shopify-agency-in-india.jpg",
+  "mark": "Ag",
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22"
+}

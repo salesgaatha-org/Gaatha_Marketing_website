@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19",
+  "generated": "2026-10-22",
   "groups": [
     {
       "slug": "brand-and-creative",
@@ -23,10 +23,56 @@
     },
     {
       "slug": "technology",
-      "name": "Websites & Technology"
+      "name": "Websites & Apps"
+    },
+    {
+      "slug": "ai-software-engineering",
+      "name": "AI & Software Engineering"
     }
   ],
   "services": [
+    {
+      "slug": "ai-agent-development",
+      "name": "AI Agent Development",
+      "group": "ai-software-engineering",
+      "published": true,
+      "url": "/services/ai-agent-development"
+    },
+    {
+      "slug": "ai-workflow-automation",
+      "name": "AI Workflow Automation",
+      "group": "ai-software-engineering",
+      "published": true,
+      "url": "/services/ai-workflow-automation"
+    },
+    {
+      "slug": "ai-chatbot-development",
+      "name": "AI Chatbot Development",
+      "group": "ai-software-engineering",
+      "published": true,
+      "url": "/services/ai-chatbot-development"
+    },
+    {
+      "slug": "erp-development",
+      "name": "ERP Development & Implementation",
+      "group": "ai-software-engineering",
+      "published": true,
+      "url": "/services/erp-development"
+    },
+    {
+      "slug": "custom-software-development",
+      "name": "Custom Software Development & System Integration",
+      "group": "ai-software-engineering",
+      "published": true,
+      "url": "/services/custom-software-development"
+    },
+    {
+      "slug": "business-tools-automation",
+      "name": "Custom Tools & Automations",
+      "group": "ai-software-engineering",
+      "published": true,
+      "url": "/services/business-tools-automation"
+    },
     {
       "slug": "branding-agency",
       "name": "Branding & Brand Identity",
@@ -96,6 +142,20 @@
       "group": "ecommerce",
       "published": true,
       "url": "/services/shopify-development"
+    },
+    {
+      "slug": "shopify-migration",
+      "name": "Shopify Migration",
+      "group": "ecommerce",
+      "published": true,
+      "url": "/services/shopify-migration"
+    },
+    {
+      "slug": "shopify-plus-headless-development",
+      "name": "Shopify Plus & Headless Shopify Development",
+      "group": "ecommerce",
+      "published": true,
+      "url": "/services/shopify-plus-headless-development"
     },
     {
       "slug": "multi-location-shopify-local-delivery",
@@ -371,6 +431,13 @@
       "url": "/services/website-development"
     },
     {
+      "slug": "portfolio-brand-website-design",
+      "name": "Portfolio & Brand Website Design",
+      "group": "technology",
+      "published": true,
+      "url": "/services/portfolio-brand-website-design"
+    },
+    {
       "slug": "app-design-development",
       "name": "Web & Mobile App Design",
       "group": "technology",
@@ -378,11 +445,25 @@
       "url": "/services/app-design-development"
     },
     {
-      "slug": "business-tools-automation",
-      "name": "Custom Tools & Automations",
+      "slug": "mobile-app-development",
+      "name": "Mobile App Development",
       "group": "technology",
       "published": true,
-      "url": "/services/business-tools-automation"
+      "url": "/services/mobile-app-development"
+    },
+    {
+      "slug": "ecommerce-app-development",
+      "name": "Ecommerce & Sales App Development",
+      "group": "technology",
+      "published": true,
+      "url": "/services/ecommerce-app-development"
+    },
+    {
+      "slug": "saas-product-development",
+      "name": "SaaS Product Development",
+      "group": "technology",
+      "published": true,
+      "url": "/services/saas-product-development"
     }
   ],
   "caseStudies": [
@@ -1279,11 +1360,32 @@
   ],
   "blog": [
     {
+      "slug": "ai-agents-for-business-guide",
+      "title": "AI agents for business: use cases and how to build one",
+      "category": "AI & Software",
+      "published": true,
+      "url": "/blog/ai-agents-for-business-guide"
+    },
+    {
+      "slug": "ai-chatbot-for-website-and-whatsapp",
+      "title": "AI chatbots for websites and WhatsApp: a guide for brands",
+      "category": "AI & Software",
+      "published": true,
+      "url": "/blog/ai-chatbot-for-website-and-whatsapp"
+    },
+    {
       "slug": "ai-product-photography-for-marketplaces",
       "title": "AI product photography for marketplaces: what works",
       "category": "Commerce",
       "published": true,
       "url": "/blog/ai-product-photography-for-marketplaces"
+    },
+    {
+      "slug": "ai-workflow-automation-n8n-make-zapier",
+      "title": "AI workflow automation: n8n vs Make vs Zapier vs custom code",
+      "category": "AI & Software",
+      "published": true,
+      "url": "/blog/ai-workflow-automation-n8n-make-zapier"
     },
     {
       "slug": "amazon-listing-optimisation-checklist",
@@ -1300,6 +1402,13 @@
       "url": "/blog/b2b-export-lead-generation-indian-manufacturers"
     },
     {
+      "slug": "best-shopify-features-for-ecommerce",
+      "title": "The best Shopify features for ecommerce in 2026",
+      "category": "Shopify",
+      "published": true,
+      "url": "/blog/best-shopify-features-for-ecommerce"
+    },
+    {
       "slug": "cinema-ads-for-local-brands-do-they-work",
       "title": "Cinema ads for local brands: do they work?",
       "category": "Commerce",
@@ -1314,11 +1423,32 @@
       "url": "/blog/cod-vs-prepaid"
     },
     {
+      "slug": "custom-erp-vs-odoo-vs-erpnext-vs-tally",
+      "title": "Custom ERP vs Odoo vs ERPNext vs Tally: which for Indian SMEs?",
+      "category": "AI & Software",
+      "published": true,
+      "url": "/blog/custom-erp-vs-odoo-vs-erpnext-vs-tally"
+    },
+    {
+      "slug": "custom-website-vs-wordpress-vs-shopify-vs-webflow",
+      "title": "Custom website vs WordPress vs Shopify vs Webflow: which to use?",
+      "category": "Websites & Apps",
+      "published": true,
+      "url": "/blog/custom-website-vs-wordpress-vs-shopify-vs-webflow"
+    },
+    {
       "slug": "d2c-ecommerce-growth-guide",
       "title": "D2C ecommerce growth guide: Shopify, ads and retention",
       "category": "Commerce",
       "published": true,
       "url": "/blog/d2c-ecommerce-growth-guide"
+    },
+    {
+      "slug": "does-your-ecommerce-brand-need-an-app",
+      "title": "Does your ecommerce brand need an app? PWA vs builders vs native",
+      "category": "Websites & Apps",
+      "published": true,
+      "url": "/blog/does-your-ecommerce-brand-need-an-app"
     },
     {
       "slug": "festive-campaign-planning-on-a-2-lakh-budget",
@@ -1363,6 +1493,27 @@
       "url": "/blog/getting-approved-on-myntra-nykaa-fashion-ajio"
     },
     {
+      "slug": "hidden-shopify-features",
+      "title": "Hidden Shopify features most stores never switch on",
+      "category": "Shopify",
+      "published": true,
+      "url": "/blog/hidden-shopify-features"
+    },
+    {
+      "slug": "how-to-choose-a-shopify-agency-in-india",
+      "title": "How to choose a Shopify agency in India: what top agencies do",
+      "category": "Shopify",
+      "published": true,
+      "url": "/blog/how-to-choose-a-shopify-agency-in-india"
+    },
+    {
+      "slug": "how-to-choose-a-website-and-app-development-company-in-india",
+      "title": "How to choose a website and app development company in India",
+      "category": "Websites & Apps",
+      "published": true,
+      "url": "/blog/how-to-choose-a-website-and-app-development-company-in-india"
+    },
+    {
       "slug": "how-to-sell-on-blinkit",
       "title": "How to sell on Blinkit: a brand’s step-by-step guide",
       "category": "Commerce",
@@ -1398,6 +1549,13 @@
       "url": "/blog/marketplace-vs-d2c-for-fmcg"
     },
     {
+      "slug": "mobile-app-development-cost-in-india",
+      "title": "Mobile app development cost in India (2026): Flutter vs native",
+      "category": "Websites & Apps",
+      "published": true,
+      "url": "/blog/mobile-app-development-cost-in-india"
+    },
+    {
       "slug": "one-website-for-multiple-store-locations",
       "title": "One website for multiple store locations: how it works",
       "category": "Commerce",
@@ -1410,6 +1568,13 @@
       "category": "Commerce",
       "published": true,
       "url": "/blog/pack-size-and-pricing-for-10-minute-delivery"
+    },
+    {
+      "slug": "portfolio-and-brand-website-guide",
+      "title": "What makes a great portfolio or brand website: a 2026 checklist",
+      "category": "Websites & Apps",
+      "published": true,
+      "url": "/blog/portfolio-and-brand-website-guide"
     },
     {
       "slug": "quick-commerce-ads-explained",
@@ -1433,11 +1598,25 @@
       "url": "/blog/roas-vs-mer-vs-contribution-margin"
     },
     {
+      "slug": "saas-product-development-guide",
+      "title": "How to build a SaaS product: from MVP to first paying customers",
+      "category": "Websites & Apps",
+      "published": true,
+      "url": "/blog/saas-product-development-guide"
+    },
+    {
       "slug": "selling-on-amazon-flipkart-myntra-brand-playbook",
       "title": "Selling on Amazon, Flipkart & Myntra: the brand playbook",
       "category": "Commerce",
       "published": true,
       "url": "/blog/selling-on-amazon-flipkart-myntra-brand-playbook"
+    },
+    {
+      "slug": "shopify-integrations-for-indian-brands",
+      "title": "Shopify integrations in India: payments, shipping, WhatsApp, ERP",
+      "category": "Shopify",
+      "published": true,
+      "url": "/blog/shopify-integrations-for-indian-brands"
     },
     {
       "slug": "shopify-speed-and-conversion-checklist",
@@ -1454,6 +1633,13 @@
       "url": "/blog/shopify-vs-woocommerce-in-india"
     },
     {
+      "slug": "shopify-website-cost-in-india",
+      "title": "How much does a Shopify website cost in India in 2026?",
+      "category": "Shopify",
+      "published": true,
+      "url": "/blog/shopify-website-cost-in-india"
+    },
+    {
       "slug": "top-ecommerce-quick-commerce-agencies-in-india",
       "title": "Top ecommerce & quick-commerce agencies in India: honest comparison",
       "category": "Commerce",
@@ -1461,11 +1647,25 @@
       "url": "/blog/top-ecommerce-quick-commerce-agencies-in-india"
     },
     {
+      "slug": "website-development-cost-in-india",
+      "title": "Website development cost in India: a 2026 pricing guide",
+      "category": "Websites & Apps",
+      "published": true,
+      "url": "/blog/website-development-cost-in-india"
+    },
+    {
       "slug": "when-a-plus-content-pays",
       "title": "When A+ content pays on Amazon, and when it does not",
       "category": "Commerce",
       "published": true,
       "url": "/blog/when-a-plus-content-pays"
+    },
+    {
+      "slug": "why-shopify-is-best-for-ecommerce",
+      "title": "Why Shopify is the best ecommerce platform for most brands",
+      "category": "Shopify",
+      "published": true,
+      "url": "/blog/why-shopify-is-best-for-ecommerce"
     }
   ]
 }

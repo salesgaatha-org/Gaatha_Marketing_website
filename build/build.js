@@ -410,6 +410,8 @@ function faqList(items, openFirst) {
 const h1Class = (text, base = 'display') => `${base}${(text || '').length > 56 ? ' h1-long' : ''}`;
 // Headline text: keep hyphenated words ("in-store", "city-wide") on one line.
 const headline = (text) => esc(text).replace(/(\S*\w-\w\S*)/g, '<span class="nb">$1</span>');
+// Sentence-case a practice name but keep acronyms: "AI & Engineering" → "AI & engineering".
+const lowerName = (t) => String(t).replace(/\b[A-Z][a-z]+\b/g, (w) => w.toLowerCase());
 const sectionHead = (eyebrow, title, lead) => `<div class="section-head"><p class="eyebrow">${esc(eyebrow)}</p><h2 class="section-title display">${esc(title)}</h2>${lead ? `<p class="lead">${esc(lead)}</p>` : ''}</div>`;
 function stepsGrid(steps, cols, arrows) {
   return `<div class="steps cols-${cols}${arrows ? ' step-arrow' : ''}" data-stagger="0.06">${steps.map((s, i) => `<div class="step reveal"><span class="step-n">${pad2(i + 1)}</span><h3>${esc(s.title)}</h3><p>${esc(s.text)}</p></div>`).join('')}</div>`;
@@ -614,7 +616,7 @@ ${proof.length ? `
   </section>` : ''}
   <section class="section${proof.length ? '' : ' surface bordered'}">
     <div class="wrap">
-      ${sectionHead('Good to know', `Questions about ${g.name.toLowerCase()}`)}
+      ${sectionHead('Good to know', `Questions about ${lowerName(g.name)}`)}
       ${faqList(g.faq, true)}
     </div>
   </section>
@@ -1060,7 +1062,7 @@ function syncFaqSchema(html) {
   return html.replace(re, jsonld(Object.assign({ '@context': 'https://schema.org' }, faqSchema(faqs))));
 }
 function homeServiceGroups() {
-  return `<div class="grid svc-groups" data-stagger="0.05">${groups.map((g) => `<div class="card reveal"><span class="card-idx">${pad2(g.order + 3)} · ${esc(g.menuName || g.name)}</span><h3>${esc(g.tagline)}</h3><ul>${byGroup(g).slice(0, 8).map((s) => `<li><a href="${svcUrl(s)}">${esc(s.shortName || s.name)}</a></li>`).join('')}</ul><a class="link-arrow" href="${groupUrl(g)}">All ${esc((g.menuName || g.name).toLowerCase())} services <span class="arr">&rarr;</span></a></div>`).join('')}</div>
+  return `<div class="grid svc-groups" data-stagger="0.05">${groups.map((g) => `<div class="card reveal"><span class="card-idx">${pad2(g.order + 3)} · ${esc(g.menuName || g.name)}</span><h3>${esc(g.tagline)}</h3><ul>${byGroup(g).slice(0, 8).map((s) => `<li><a href="${svcUrl(s)}">${esc(s.shortName || s.name)}</a></li>`).join('')}</ul><a class="link-arrow" href="${groupUrl(g)}">All ${esc(lowerName(g.menuName || g.name))} services <span class="arr">&rarr;</span></a></div>`).join('')}</div>
       <p style="margin-top:24px"><a class="link-arrow" href="/services">View all services <span class="arr">&rarr;</span></a></p>`;
 }
 function homeFaqCommerce() {

@@ -1,0 +1,106 @@
+# AI Agent Development
+
+> gaa-tha builds custom AI agents for businesses in India and abroad: sales and lead-qualification agents, customer-support agents, research agents, operations agents that check orders, stock and reports, and marketing content agents. Each runs on Claude, GPT, Gemini or an open-source model, connects to your systems through tool calling and MCP, and works within guardrails, approvals and logs.
+
+- Page: https://gaa-tha.com/services/ai-agent-development
+- Practice: [AI & Software Engineering](https://gaa-tha.com/services/ai-software-engineering)
+- Provider: gaa-tha (https://gaa-tha.com)
+- Last updated: 2026-10-22
+
+## At a glance
+
+- **Best for:** Sales, support and operations teams with repeatable knowledge work — D2C brands, manufacturers, distributors, B2B services and SaaS companies
+- **Timeline:** Pilot agent live in 2–6 weeks; wider rollout in phases after evaluation
+- **Engagement model:** Fixed fee per agent, then an optional monthly plan for monitoring, evaluation and improvements
+- **Channels / platforms:** Claude, GPT, Gemini and open-source models; MCP servers, RAG, LangGraph or custom orchestration; CRM, ERP, email, Slack and WhatsApp
+
+## What is AI Agent Development?
+
+AI agent development is the design and engineering of software that is given a goal, works out the steps, and uses tools — your CRM, catalogue, inbox, ERP or the web — to complete the task, asking a person for approval where the stakes are high. A chatbot answers and an automation follows fixed rules; an agent decides what to do next based on what it finds.
+
+At gaa-tha every agent starts as a written job description: what it may read, which actions it may take, what it must escalate and how success is measured. We choose the model per task, connect tools through function calling and MCP servers, ground answers in your documents with retrieval (RAG), and ship with an evaluation set, cost limits and a trace of every step, so you can always see why the agent did what it did.
+
+## What's included
+
+- Use-case discovery — candidate tasks ranked by volume, value, risk and the data available
+- Agent job description: goal, permitted tools and actions, escalation rules and success measures
+- Model selection across Claude, GPT, Gemini and open-source models such as Llama, Mistral or Qwen, tested on your own examples
+- Tool use and function calling into your CRM, ERP, Shopify store, Google Workspace, email and WhatsApp
+- MCP (Model Context Protocol) servers that expose your systems to agents in a standard, permissioned way
+- Retrieval (RAG) over company documents — catalogues, SOPs, policies, contracts and past tickets — with source citations
+- Orchestration with LangGraph or custom code for multi-step and multi-agent workflows
+- Guardrails and human-in-the-loop approvals for refunds, discounts, outbound messages and data changes
+- Evaluation sets, tracing and run logs, with accuracy and cost reporting
+- Cost control through model routing, prompt caching, token budgets and rate limits, plus documentation and handover
+
+## How we work
+
+1. **Pick the job** — We map one workflow with the people who do it today and choose the task where an agent saves the most time at an acceptable level of risk.
+2. **Design and benchmark** — We write the agent's job description, collect real past cases as an evaluation set and test candidate models against it before building anything.
+3. **Build and connect** — Tools, MCP servers, retrieval and orchestration are built with permissions, guardrails and approval steps wired in from the first version.
+4. **Pilot with a human in the loop** — The agent works on live tasks while a person approves its actions; we study the traces, fix failure cases and tune prompts, tools and cost.
+5. **Roll out and monitor** — Approvals are relaxed only where accuracy is proven, monitoring and alerts go live, and an optional monthly plan covers model updates, new tools and re-evaluation.
+
+## Deliverables
+
+- Use-case shortlist and agent job description
+- Working agent deployed in your own cloud and model-provider accounts
+- Tool integrations and MCP servers for your systems
+- Evaluation set with baseline accuracy and cost-per-task report
+- Tracing, run logs and an approvals view for your team
+- Architecture, prompt and runbook documentation, with all credentials
+
+## Tools & platforms
+
+Claude, GPT, Gemini, Open-source models (Llama, Mistral, Qwen), Model Context Protocol (MCP), LangGraph, Python and Node.js, pgvector and vector databases, n8n, Langfuse
+
+## Pricing model
+
+Fixed fee per agent from a written scope; model and API usage is billed to your own provider accounts, and monitoring and improvement run on an optional monthly plan.
+
+## Frequently asked questions
+
+### What is an AI agent, and how is it different from a chatbot or an automation?
+
+An AI agent is software that is given a goal and a set of tools and decides the steps itself to reach it. A chatbot answers questions in a conversation, and an automation follows fixed if-this-then-that rules; an agent can look up a CRM record, check stock, draft a reply and ask for approval without each step being scripted. Most production systems combine all three, with the agent handling only the steps that need judgement.
+
+### What kinds of AI agents can gaa-tha build?
+
+We build lead-qualification and sales agents that research inbound enquiries and draft follow-ups, support agents that resolve order and policy questions, research agents that compile market or competitor briefs, operations agents that check order status and inventory and generate reports, and content agents that draft listings and posts in your brand voice. Each starts with one narrow job and expands once it performs on measured tests.
+
+### Which AI model is best for building an agent — Claude, GPT or Gemini?
+
+There is no single best model; the right choice depends on the task, so we test candidates on your own examples before deciding. Claude, GPT and Gemini differ in tool use, long-document handling, language coverage, speed and price, and smaller or open-source models are often good enough for classification and extraction at a fraction of the cost. We build model-agnostic so you can switch when a better or cheaper model ships.
+
+### How much does an AI agent cost to build and run?
+
+Build cost is driven by the number of tools and systems the agent connects to, the data preparation and retrieval it needs, the approval and security requirements, and how many edge cases must be handled. Running cost is mostly model usage per task, which we control with model routing, caching and token budgets and report monthly. A narrow agent on one system costs far less than a multi-agent workflow spanning ERP, CRM and WhatsApp.
+
+### Is our data safe, and will the AI models train on it?
+
+Agents are built on the paid API and business tiers of the major model providers, which by default do not use your inputs to train their models; free consumer apps can have different terms, so we never build on them. Agents run in your own cloud and provider accounts, read only what their permissions allow, and log every action. For highly sensitive data we can use region-specific hosting or an open-source model on your own servers.
+
+### How do you deal with hallucinations and accuracy?
+
+AI agents can make mistakes, so accuracy is engineered and measured rather than assumed. We ground answers in your documents with citations, restrict actions to defined tools, instruct the agent to say when it does not know, and re-run an evaluation set of real cases after every change. High-impact actions such as refunds, price changes or outbound messages stay behind human approval until measured accuracy justifies relaxing it.
+
+### Who owns the agent, the prompts and the code?
+
+You do. Code, prompts, evaluation sets and MCP servers live in a repository in your name, model and cloud accounts are yours, and everything is documented at handover. You can run, change or move the agent without gaa-tha.
+
+### How do I choose an AI agent development company?
+
+Choose a team that starts from a business process rather than a model, shows how it measures accuracy, explains cost per task, and builds in your accounts with no lock-in. Ask how they handle permissions, approvals and logging, which models they tested for your use case, and what happens when a model is updated or retired. Be cautious of anyone promising full autonomy or guaranteed results before seeing your data.
+
+## Related services
+
+- [AI Workflow Automation](https://gaa-tha.com/services/ai-workflow-automation): Automations across your apps, with AI steps that read, sort and write — so data moves without copy-paste.
+- [AI Chatbot Development](https://gaa-tha.com/services/ai-chatbot-development): Website and WhatsApp chatbots that know your catalogue and policies, capture leads and hand over to a person when it matters.
+- [Custom Software Development & System Integration](https://gaa-tha.com/services/custom-software-development): Bespoke software, portals and integrations engineered so your systems talk to each other — and keep running.
+- [B2B & Export Lead Generation](https://gaa-tha.com/services/b2b-lead-generation): Qualified buyers for manufacturers and exporters — LinkedIn, targeted ads, B2B marketplaces and a lead system your team will actually use.
+
+---
+
+**About gaa-tha** — gaa-tha is a storytelling-led digital marketing, branding, ecommerce, technology and AI agency founded in Gujarat, India in 2024. It builds brands, websites, Shopify stores, mobile apps, SaaS products, AI agents, automations and ERPs; runs Meta and Google ads, social media and SEO/AEO/GEO; and onboards and manages brands on Amazon, Flipkart, Myntra, Blinkit, Zepto and Swiggy Instamart.
+
+Contact: digimarketing@gaa-tha.com · +91 97372 80309 · https://gaa-tha.com/#contact · All services: https://gaa-tha.com/services · Site summary for AI assistants: https://gaa-tha.com/llms.txt

@@ -90,6 +90,8 @@
   "author": "gaa-tha",
   "readMinutes": 11,
   "cover": "cov-d",
+  "image": {"src":"/assets/blog/custom-erp-vs-odoo-vs-erpnext-vs-tally.webp","width":1600,"height":893,"srcset":"/assets/blog/custom-erp-vs-odoo-vs-erpnext-vs-tally-800.webp 800w, /assets/blog/custom-erp-vs-odoo-vs-erpnext-vs-tally.webp 1600w"},
+  "ogImage": "/assets/og/blog/custom-erp-vs-odoo-vs-erpnext-vs-tally.jpg",
   "mark": "ERP",
   "datePublished": "2026-10-22",
   "dateModified": "2026-10-22"

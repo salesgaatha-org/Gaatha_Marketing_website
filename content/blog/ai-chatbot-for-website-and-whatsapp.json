@@ -78,6 +78,8 @@
   "author": "gaa-tha",
   "readMinutes": 8,
   "cover": "cov-a",
+  "image": {"src":"/assets/blog/ai-chatbot-for-website-and-whatsapp.webp","width":1600,"height":893,"srcset":"/assets/blog/ai-chatbot-for-website-and-whatsapp-800.webp 800w, /assets/blog/ai-chatbot-for-website-and-whatsapp.webp 1600w"},
+  "ogImage": "/assets/og/blog/ai-chatbot-for-website-and-whatsapp.jpg",
   "mark": "Ch",
   "datePublished": "2026-10-22",
   "dateModified": "2026-10-22"
