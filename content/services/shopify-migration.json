@@ -1,0 +1,67 @@
+{
+  "slug": "shopify-migration",
+  "group": "ecommerce",
+  "order": 2,
+  "published": true,
+  "name": "Shopify Migration",
+  "shortName": "Shopify migration",
+  "promise": "Move to Shopify without losing products, customers, order history or the search rankings you have earned.",
+  "intro": "gaa-tha migrates stores to Shopify from WooCommerce, Magento, Wix, BigCommerce, OpenCart, custom PHP builds or marketplace-only selling — moving products, variants, customers, orders and reviews, mapping every old URL to a 301 redirect to protect SEO, rebuilding the theme, replacing apps, and setting up Indian payments, COD and shipping, with a zero-downtime cutover.",
+  "glance": {
+    "bestFor": "Brands outgrowing WooCommerce, Magento or a custom build, stores on Wix or BigCommerce that want Shopify's ecosystem, and marketplace sellers launching their own D2C store",
+    "timeline": "Small catalogues 2–4 weeks; large catalogues, Magento and custom platforms 4–8 weeks",
+    "model": "Fixed-scope migration project; optional post-migration care retainer",
+    "channels": "Shopify, Razorpay, GoKwik, Shiprocket, Google Search Console, GA4, Meta Conversions API"
+  },
+  "whatIs": [
+    "Shopify migration is the work of moving an online store from another platform — or from marketplaces alone — onto Shopify without breaking what already works: products and variants, customer records, order history, reviews, blog content, search rankings, tracking and the payment and shipping setup customers rely on. Done well, customers simply notice a faster store; done badly, a brand can lose traffic, logins and reviews overnight.",
+    "At gaa-tha a migration is planned like a launch. We inventory every product, URL, app and integration on the old store, decide what moves as it is and what gets cleaned up, and build the new store in parallel until it matches. The switch happens at a quiet hour with redirects, tracking and payments already tested, and Search Console is watched for weeks afterwards."
+  ],
+  "included": [
+    "Pre-migration audit — catalogue, URLs, traffic and rankings, apps, integrations and custom features on the old store",
+    "Product, variant, collection, image and metafield migration with cleaned titles, SKUs, HSN codes and inventory",
+    "Customer, order history, gift card, review and blog migration, wherever the source platform allows export",
+    "URL redirect map: every product, category, page and blog URL 301-redirected to its Shopify equivalent",
+    "SEO carry-over — meta titles and descriptions, structured data, image alt text, canonical tags and sitemap submission",
+    "Theme rebuild or redesign on Shopify, keeping what converts and fixing what does not",
+    "App replacement plan: each plugin or extension matched to a Shopify app, a built-in feature or custom code",
+    "Indian payments and checkout — Razorpay, PayU or Cashfree, GoKwik or Shiprocket Checkout, COD rules and GST settings",
+    "Shipping, pincode serviceability and courier integration with Shiprocket or your logistics partner",
+    "Tracking rebuilt in GA4, Google Tag Manager, Meta Pixel and Conversions API, and a zero-downtime DNS cutover"
+  ],
+  "steps": [
+    { "title": "Audit and map", "text": "We crawl the old store, export its data, list every URL, app and integration, and agree what moves, what is cleaned and what is retired." },
+    { "title": "Build in parallel", "text": "The Shopify store is built and themed on a development URL while the old store keeps trading, with payments, shipping and apps configured." },
+    { "title": "Migrate and verify", "text": "Data is imported in test passes and checked line by line — counts, prices, variants, images, customers and order totals — until it matches the source." },
+    { "title": "Redirects and tracking", "text": "The full 301 redirect map is loaded and tested, and GA4, Meta Pixel and Conversions API are verified with test orders on every payment method." },
+    { "title": "Cutover and watch", "text": "A final sync of new orders and customers, a DNS switch at a low-traffic hour, then daily Search Console, 404 and sales checks through the following weeks." }
+  ],
+  "deliverables": [
+    "Migration audit and data-mapping sheet",
+    "Live Shopify store with migrated catalogue, customers and order history",
+    "Tested 301 redirect map covering every indexed URL",
+    "App replacement list with monthly costs and owners",
+    "Verified tracking and payment test log",
+    "Post-launch SEO and 404 monitoring report"
+  ],
+  "tools": ["Shopify", "Matrixify", "Screaming Frog", "Google Search Console", "Google Analytics 4", "Razorpay", "GoKwik", "Shiprocket"],
+  "pricing": "Fixed-scope project fee based on catalogue size, the data types moved, the source platform, theme work and integrations; Shopify, app and gateway charges are paid by you to the providers.",
+  "faq": [
+    { "q": "Will migrating to Shopify hurt my SEO?", "a": "A Shopify migration done with a complete 301 redirect map, preserved content and metadata, and a resubmitted sitemap usually keeps its rankings, though a few weeks of fluctuation is normal. Lasting traffic drops come from missed redirects, deleted or rewritten pages and slower templates, which is why we map every indexed URL and monitor Search Console after cutover. Shopify uses fixed URL prefixes such as /products/ and /collections/, so most URLs will change and redirects are not optional." },
+    { "q": "Can customer accounts and passwords be moved to Shopify?", "a": "Customer records — names, emails, phone numbers, addresses, tags and marketing consent — can be migrated, but passwords cannot, because platforms store them in encrypted form. With Shopify's newer customer accounts, shoppers sign in with a one-time code sent to their email, so there is no password to reset; where a store uses classic accounts, we send a planned account-activation email instead." },
+    { "q": "Will we lose our order history and product reviews?", "a": "No, not if they are planned for. Historical orders can be imported so customers and your team still see past purchases, and reviews can be moved into Shopify review apps such as Judge.me, Loox or Yotpo through their import tools, keeping star ratings on product pages. Exactly what can move depends on the source platform's export options, which we confirm during the audit." },
+    { "q": "How long does a Shopify migration take?", "a": "A Shopify migration takes two to four weeks for a small or mid-sized catalogue on WooCommerce, Wix or BigCommerce, and four to eight weeks for large catalogues, Magento or custom PHP stores with complex data. A theme redesign or custom features add time. The old store keeps trading throughout, so there is no gap in sales." },
+    { "q": "What drives the cost of a Shopify migration?", "a": "The main cost drivers are catalogue size and variant complexity, which data types move (customers, orders, reviews, blogs), how clean the source data is, whether the theme is redesigned or recreated, and how many custom features or plugins must be rebuilt. A WooCommerce store with a few hundred products and standard plugins is a far smaller job than a Magento store with tens of thousands of SKUs and an ERP link, so we quote after the audit." },
+    { "q": "Is it worth moving from WooCommerce or Magento to Shopify?", "a": "Moving to Shopify is usually worth it when hosting, plugin conflicts, security patches and developer time take more effort than growing the business. Shopify trades some flexibility for a managed platform, a large app ecosystem and a checkout that is maintained for you. If you depend on very specific B2B pricing or deep custom logic, we assess whether Shopify, Shopify Plus or staying where you are is the better call before recommending a move." },
+    { "q": "How do payments, COD and GST work after moving to Shopify in India?", "a": "Shopify Payments is not generally available to Indian-registered stores, so we connect gateways such as Razorpay, PayU, Cashfree or CCAvenue, and one-click checkouts such as GoKwik, Shiprocket Checkout or Razorpay Magic Checkout where they suit your order volume. COD is set up with pincode and order-value rules, GST is configured in Shopify's tax settings alongside a GST invoice app, and every method is tested with real orders before cutover." },
+    { "q": "Can you move us from Amazon or Flipkart-only selling to our own Shopify store?", "a": "Yes. We export your marketplace listings, restructure them for a brand store, rewrite key product pages for your own buyers, and set up checkout, shipping and tracking so the store is ready for ads on day one. Your marketplace listings keep running, and stock can be kept in step across channels with an order-management or multichannel inventory app." }
+  ],
+  "related": ["shopify-development", "shopify-store-management", "ecommerce-seo", "seo-aeo-geo"],
+  "reading": ["shopify-vs-woocommerce-in-india", "why-shopify-is-best-for-ecommerce", "how-to-choose-a-shopify-agency-in-india"],
+  "images": {"hero":{"src":"/assets/services/shopify-migration-hero.webp","width":1600,"height":893,"srcset":"/assets/services/shopify-migration-hero-800.webp 800w, /assets/services/shopify-migration-hero.webp 1600w","alt":"Shopify Migration — illustration"},"card":{"src":"/assets/services/shopify-migration-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/shopify-migration.jpg","width":1200,"height":630}},
+  "meta": {
+    "title": "Shopify Migration Services in India | gaa-tha",
+    "description": "Migrate to Shopify from WooCommerce, Magento, Wix, BigCommerce or custom PHP — data, 301 redirects, theme, apps, Indian payments, zero-downtime cutover."
+  },
+  "updated": "2026-10-22"
+}

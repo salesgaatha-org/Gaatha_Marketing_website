@@ -1,0 +1,67 @@
+{
+  "slug": "mobile-app-development",
+  "group": "technology",
+  "order": 4,
+  "published": true,
+  "name": "Mobile App Development",
+  "shortName": "Mobile apps",
+  "promise": "iOS and Android apps designed, built, published and maintained by one team — from the first screen to the store listing.",
+  "intro": "gaa-tha develops iOS and Android apps for startups and businesses — in Flutter or React Native for one shared codebase, or native Swift and Kotlin where the product demands it — with the backend and APIs, push notifications, UPI and Razorpay payments, analytics, App Store and Play Store publishing, and maintenance after launch. A focused first version typically ships in eight to fourteen weeks.",
+  "glance": {
+    "bestFor": "Startups launching an app-first product, D2C and retail brands, service, education and healthcare businesses, and companies moving a web tool onto phones",
+    "timeline": "MVP in 8–14 weeks; fuller products in 4–6 months, released in phases",
+    "model": "Fixed-scope phases (discovery, design, build) or a monthly product team; optional maintenance retainer",
+    "channels": "iOS and Android via Flutter, React Native or native Swift and Kotlin; Node.js, Firebase or Supabase backends"
+  },
+  "whatIs": [
+    "Mobile app development is the work of turning a product idea into an app people install and keep using: deciding what the first release must do, designing the screens, writing the app and the backend it talks to, connecting payments, notifications and analytics, getting it approved on the Apple App Store and Google Play, and keeping it working as phones and operating systems change. The app on the phone is usually half the job; the backend, admin panel and release process are the other half.",
+    "At gaa-tha we start by cutting the first version down to the few journeys that prove the idea, then build cross-platform unless there is a clear reason to go native. Design, development, testing and the store launch sit with one in-house team, and every app ships with crash reporting and analytics, so the second release is decided by how people actually use the first."
+  ],
+  "included": [
+    "Product discovery — users, core journeys, MVP scope, platform choice and a phased release plan",
+    "UX flows and UI design for iOS and Android that respect each platform's conventions",
+    "Cross-platform development in Flutter or React Native, or native Swift (SwiftUI) and Kotlin (Jetpack Compose)",
+    "Backend and APIs on Node.js, Firebase or Supabase — authentication, user roles and a database designed to grow",
+    "Admin panel for your team to manage users, content, orders and notifications",
+    "Payments with Razorpay, Cashfree or PayU (UPI intent, cards, wallets), plus Apple and Google in-app purchases where store rules require them",
+    "Push notifications through Firebase Cloud Messaging and Apple Push Notification service, deep links and in-app messages",
+    "Analytics and stability monitoring with Firebase Analytics or Mixpanel, Crashlytics or Sentry, and funnel events for key journeys",
+    "App Store and Play Store publishing — developer accounts, listing copy, screenshots, privacy disclosures and review",
+    "Maintenance — OS and SDK updates, bug fixes, performance monitoring and new feature releases"
+  ],
+  "steps": [
+    { "title": "Discovery and scope", "text": "We map the users and core journeys, choose the platform approach, and agree a first release small enough to ship in weeks rather than months." },
+    { "title": "Design and prototype", "text": "Flows and screens are designed and tested as a clickable prototype, so changes happen in Figma, where they are cheap, rather than in code." },
+    { "title": "Build in sprints", "text": "The app, backend and admin panel are built in two-week sprints, with a test build on your phone through TestFlight and Play Console testing at the end of each." },
+    { "title": "Test and launch", "text": "We test on real budget and flagship devices, fix crashes and edge cases, prepare store listings and privacy details, and take the app through App Store and Play Store review." },
+    { "title": "Measure and maintain", "text": "Analytics and crash reports shape the next release, and a maintenance retainer covers OS updates, fixes and new features." }
+  ],
+  "deliverables": [
+    "MVP scope, user flows and a phased release plan",
+    "Figma designs and a clickable prototype",
+    "iOS and Android apps live on the App Store and Google Play under your developer accounts",
+    "Backend, APIs and admin panel with documentation",
+    "Analytics, crash reporting and push notifications configured",
+    "Full source code in your repository, with build and release instructions"
+  ],
+  "tools": ["Flutter", "React Native", "Swift", "Kotlin", "Firebase", "Node.js", "Supabase", "Razorpay", "Figma", "Sentry"],
+  "pricing": "Quoted by phase after discovery, based on screens, user roles, integrations and platforms; developer accounts, hosting and third-party services are paid by you directly, and maintenance is an optional monthly retainer.",
+  "faq": [
+    { "q": "How much does it cost to develop a mobile app in India?", "a": "The cost of a mobile app is driven by the number of screens and user roles, the backend and admin panel, integrations such as payments, maps or an ERP, whether you need one cross-platform codebase or two native apps, and how polished the first release must be. A focused MVP and a marketplace app with three user types sit in very different budgets, so gaa-tha quotes by phase after discovery. Our guide to mobile app development cost in India explains indicative 2026 market ranges." },
+    { "q": "Flutter or React Native — which should we choose?", "a": "Both Flutter and React Native are mature ways to build iOS and Android apps from one codebase, and for most business apps either will do the job well. Flutter, from Google and written in Dart, gives very consistent UI and smooth custom animation; React Native, from Meta and written in JavaScript or TypeScript, usually with Expo, suits teams that already work in React or want to share logic with a web app. We go native in Swift and Kotlin when an app leans heavily on device hardware, background processing or the newest platform features." },
+    { "q": "Do we need a native app, or will a PWA do?", "a": "A progressive web app (PWA) is enough when people use the product occasionally, mostly arrive through links and do not need deep phone features; it costs less and needs no store approval. A native or cross-platform app is worth it when users return often, or you need dependable push notifications, offline use, in-app payments, hardware such as camera, GPS or Bluetooth, or the trust of being in the App Store and Play Store. Many products start as a web app or PWA and add a store app once retention proves the case." },
+    { "q": "How long does it take to build and publish an app?", "a": "A focused MVP usually takes eight to fourteen weeks from discovery to store launch, and larger products four to six months released in phases. Store review typically adds a few days, and new personal Google Play developer accounts must run a closed test before publishing to production, so we set up organisation developer accounts early. A tight first scope and quick approvals matter more to the timeline than team size." },
+    { "q": "Can the app accept UPI and Razorpay payments?", "a": "Yes — for physical goods and real-world services an app can use Razorpay, Cashfree or PayU with UPI intent, cards, net banking and wallets. Digital content and subscriptions used inside the app are generally required to go through Apple's and Google's in-app billing, with some regional exceptions, so we confirm the right route for your product before building the checkout." },
+    { "q": "Who owns the app and the source code?", "a": "You own the app and its source code. The apps are published under your own Apple and Google developer accounts, the code lives in your Git repository, and cloud accounts are in your company's name. If you change teams later, everything needed to build and release the app goes with you." },
+    { "q": "Is app maintenance necessary after launch?", "a": "Yes, app maintenance is necessary, because Apple and Google update their operating systems and store policies every year and the SDKs for payments, maps and notifications change with them. A maintenance retainer covers those updates, crash and bug fixes, security patches, backend monitoring and small improvements. Without it, apps tend to break quietly or get flagged by the stores within a year or two." },
+    { "q": "How do we choose the best app development company for our project?", "a": "The best app development company for you is one that has shipped apps to both stores and still maintains them, challenges your scope instead of quoting every feature, and writes code you will own. Ask who designs, who tests on real devices and who handles store review, and whether the backend and admin panel are included. Freelancers suit small, fixed apps; offshore development shops suit large builds where you have strong in-house product management; a design-and-engineering studio such as gaa-tha suits founders who want product, design, development and launch handled together." }
+  ],
+  "related": ["app-design-development", "ecommerce-app-development", "saas-product-development", "custom-software-development"],
+  "reading": ["mobile-app-development-cost-in-india", "how-to-choose-a-website-and-app-development-company-in-india", "does-your-ecommerce-brand-need-an-app"],
+  "images": {"hero":{"src":"/assets/services/mobile-app-development-hero.webp","width":1600,"height":893,"srcset":"/assets/services/mobile-app-development-hero-800.webp 800w, /assets/services/mobile-app-development-hero.webp 1600w","alt":"Mobile App Development — illustration"},"card":{"src":"/assets/services/mobile-app-development-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/mobile-app-development.jpg","width":1200,"height":630}},
+  "meta": {
+    "title": "Mobile App Development Company in India | gaa-tha",
+    "description": "iOS and Android apps in Flutter, React Native, Swift or Kotlin — backend, UPI and Razorpay payments, push, analytics, store publishing and maintenance."
+  },
+  "updated": "2026-10-22"
+}

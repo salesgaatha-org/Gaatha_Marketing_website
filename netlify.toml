@@ -1,8 +1,9 @@
 # Netlify configuration — gaa-tha
 # Static site served straight from the repository root (index.html at root).
-# Generated pages (services/, work/, blog/, sitemap.xml, llms.txt) are
-# committed, so no build step is required here; `node build/build.js`
-# regenerates them locally or in the GitHub Actions deploy workflow.
+# Generated pages (services/, work/, blog/, their .md copies, sitemap.xml,
+# llms.txt, llms-full.txt) are committed, so no build step is required here;
+# `node build/build.js` regenerates them locally or in the GitHub Actions
+# deploy workflow.
 
 [build]
   publish = "."
@@ -231,3 +232,19 @@
   [headers.values]
     Content-Type = "text/plain; charset=utf-8"
     Cache-Control = "public, max-age=3600"
+
+# Markdown copies of service, practice and blog pages (for AI assistants).
+# The HTML page is the canonical, indexable version.
+[[headers]]
+  for = "/services/*.md"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+    X-Robots-Tag = "noindex, follow"
+
+[[headers]]
+  for = "/blog/*.md"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+    X-Robots-Tag = "noindex, follow"

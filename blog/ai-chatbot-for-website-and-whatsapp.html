@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI chatbots for websites and WhatsApp: a guide for brands | gaa-tha</title>
+<meta name="description" content="What a modern AI chatbot does, how the WhatsApp Business API works, Hindi and Hinglish, Shopify order tracking, handoff, metrics and mistakes to avoid.">
+<meta name="author" content="gaa-tha">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="canonical" href="https://gaa-tha.com/blog/ai-chatbot-for-website-and-whatsapp">
+<link rel="alternate" type="text/markdown" href="https://gaa-tha.com/blog/ai-chatbot-for-website-and-whatsapp.md" title="Markdown version for AI assistants">
+
+<link rel="icon" type="image/png" href="/assets/logo.png">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="gaa-tha">
+<meta property="og:title" content="AI chatbots for websites and WhatsApp: a guide for brands | gaa-tha">
+<meta property="og:description" content="What a modern AI chatbot does, how the WhatsApp Business API works, Hindi and Hinglish, Shopify order tracking, handoff, metrics and mistakes to avoid.">
+<meta property="og:url" content="https://gaa-tha.com/blog/ai-chatbot-for-website-and-whatsapp">
+<meta property="og:image" content="https://gaa-tha.com/assets/og/blog/ai-chatbot-for-website-and-whatsapp.jpg">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI chatbots for websites and WhatsApp: a guide for brands | gaa-tha">
+<meta name="twitter:description" content="What a modern AI chatbot does, how the WhatsApp Business API works, Hindi and Hinglish, Shopify order tracking, handoff, metrics and mistakes to avoid.">
+<meta name="twitter:image" content="https://gaa-tha.com/assets/og/blog/ai-chatbot-for-website-and-whatsapp.jpg">
+<meta property="article:published_time" content="2026-10-22">
+<meta property="article:modified_time" content="2026-10-22">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/montserrat-400-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/poppins-800-latin.woff2" crossorigin>
+<link rel="stylesheet" href="/gaatha.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://gaa-tha.com/#organization",
+      "name": "gaa-tha",
+      "alternateName": [
+        "gaatha",
+        "Gaatha",
+        "Gaa-tha",
+        "Team Gaatha"
+      ],
+      "url": "https://gaa-tha.com/",
+      "logo": "https://gaa-tha.com/assets/logo.png",
+      "image": "https://gaa-tha.com/assets/logo.png",
+      "description": "gaa-tha is a storytelling-led digital marketing, branding, ecommerce, technology and AI agency founded in Gujarat, India in 2024. It builds brands, websites, Shopify stores, mobile apps, SaaS products, AI agents, automations and ERPs; runs Meta and Google ads, social media and SEO/AEO/GEO; and onboards and manages brands on Amazon, Flipkart, Myntra, Blinkit, Zepto and Swiggy Instamart.",
+      "slogan": "Crafting Tales — your brand, but unskippable.",
+      "foundingDate": "2024",
+      "email": "digimarketing@gaa-tha.com",
+      "telephone": "+919737280309",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Gujarat",
+        "addressCountry": "IN"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        "Worldwide"
+      ],
+      "knowsAbout": [
+        "Digital Marketing",
+        "Marketing Strategy",
+        "Branding",
+        "Graphic Design",
+        "Social Media Marketing",
+        "Performance Marketing",
+        "Meta Ads",
+        "Google Ads",
+        "SEO",
+        "Answer Engine Optimization",
+        "Generative Engine Optimization",
+        "Influencer Marketing",
+        "AI-Based Ads",
+        "Cinema Advertising",
+        "B2B Lead Generation",
+        "Ecommerce",
+        "Shopify Development",
+        "Shopify Plus",
+        "Headless Commerce",
+        "Shopify Migration",
+        "Conversion Rate Optimization",
+        "Marketplace Account Management",
+        "Amazon Seller Onboarding",
+        "Quick Commerce",
+        "Blinkit Onboarding",
+        "Zepto Onboarding",
+        "Swiggy Instamart Onboarding",
+        "Web Development",
+        "Website Design",
+        "Portfolio Websites",
+        "UI/UX Design",
+        "Mobile App Development",
+        "Flutter",
+        "React Native",
+        "Ecommerce App Development",
+        "SaaS Product Development",
+        "AI Agent Development",
+        "AI Workflow Automation",
+        "AI Chatbots",
+        "WhatsApp Business API",
+        "ERP Development",
+        "Odoo Implementation",
+        "ERPNext Implementation",
+        "Custom Software Development",
+        "System Integration"
+      ],
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Abhishek Khuthiya",
+          "jobTitle": "Co-Founder"
+        },
+        {
+          "@type": "Person",
+          "name": "Getansh Savla",
+          "jobTitle": "Co-Founder"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+919737280309",
+        "email": "digimarketing@gaa-tha.com",
+        "contactType": "sales",
+        "availableLanguage": [
+          "English",
+          "Hindi",
+          "Gujarati"
+        ]
+      },
+      "sameAs": [
+        "https://instagram.com/__gaa.tha__/",
+        "https://www.linkedin.com/company/teamgaatha/",
+        "https://www.facebook.com/people/Gaa-tha/61562303836796/"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Brand & Creative",
+            "url": "https://gaa-tha.com/services/brand-and-creative"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Growth Marketing",
+            "url": "https://gaa-tha.com/services/growth-marketing"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "D2C Ecommerce",
+            "url": "https://gaa-tha.com/services/ecommerce"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Marketplaces",
+            "url": "https://gaa-tha.com/services/marketplaces"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Quick Commerce",
+            "url": "https://gaa-tha.com/services/quick-commerce"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Websites & Apps",
+            "url": "https://gaa-tha.com/services/technology"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI & Software Engineering",
+            "url": "https://gaa-tha.com/services/ai-software-engineering"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://gaa-tha.com/#website",
+      "url": "https://gaa-tha.com/",
+      "name": "gaa-tha",
+      "publisher": {
+        "@id": "https://gaa-tha.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://gaa-tha.com/blog/ai-chatbot-for-website-and-whatsapp",
+      "headline": "AI chatbots for websites and WhatsApp: a guide for brands",
+      "description": "What a modern AI chatbot does, how the WhatsApp Business API works, Hindi and Hinglish, Shopify order tracking, handoff, metrics and mistakes to avoid.",
+      "url": "https://gaa-tha.com/blog/ai-chatbot-for-website-and-whatsapp",
+      "mainEntityOfPage": "https://gaa-tha.com/blog/ai-chatbot-for-website-and-whatsapp",
+      "image": "https://gaa-tha.com/assets/blog/ai-chatbot-for-website-and-whatsapp.webp",
+      "datePublished": "2026-10-22",
+      "dateModified": "2026-10-22",
+      "inLanguage": "en",
+      "articleSection": "AI & Software",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://gaa-tha.com/#organization",
+        "name": "gaa-tha"
+      },
+      "publisher": {
+        "@id": "https://gaa-tha.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://gaa-tha.com/blog#blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gaa-tha.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://gaa-tha.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI chatbots for websites and WhatsApp: a guide for brands",
+          "item": "https://gaa-tha.com/blog/ai-chatbot-for-website-and-whatsapp"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I use my existing WhatsApp Business app number with the API?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Often, yes. Meta now lets many businesses use the WhatsApp Business app and the platform on the same number, with some feature limits; otherwise the number moves from the app to the API. Check the current options with Meta or your BSP before you switch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a WhatsApp AI chatbot cost to run?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Running cost has four parts: the BSP subscription if you use one, Meta’s charges for template messages, AI model usage per conversation, and maintenance. Replies inside the 24-hour customer service window are not charged by Meta, so support-led bots cost far less to run than broadcast-heavy ones."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will an AI chatbot make up answers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can if it answers from the model’s general knowledge. Grounding answers in your own catalogue and policies, telling it to hand over when unsure, and reviewing transcripts weekly keeps wrong answers rare and quickly corrected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should we start with a website chatbot or WhatsApp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most Indian consumer brands, start with WhatsApp, because that is where customers already ask about orders and products. A website chat widget suits brands with high-intent web traffic, international customers or longer pre-purchase questions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a WhatsApp chatbot take payments?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, most simply by sending a Razorpay, Cashfree or UPI payment link and confirming payment by webhook. Native payments inside WhatsApp in India are available through supported payment partners; check eligibility with your BSP."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to launch an AI chatbot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A focused chatbot covering FAQs and order status can usually launch in a few weeks, including WhatsApp approvals and testing. Lead qualification, CRM integration and multiple languages add time, mostly for testing with real conversations."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="post">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- chrome:nav -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/" aria-label="gaa-tha — home">
+      <img src="/assets/logo.png" alt="gaa-tha" width="120" height="26">
+    </a>
+    <div class="nav-links">
+      <div class="has-mega"><a href="/services">Services</a><div class="mega" aria-label="Services menu">
+        <div class="mega-inner">
+          <div class="mega-col"><h3><a href="/services/brand-and-creative">Brand &amp; Creative</a></h3><ul><li><a href="/services/branding-agency">Branding</a></li><li><a href="/services/graphic-design">Graphic design</a></li><li><a href="/services/reels-short-form-video">Reels</a></li><li><a href="/services/ai-ads-ai-ad-shoots">AI ads</a></li><li><a href="/services/cinema-ads-film-production">Cinema ads</a></li><li><a href="/services/ai-cloning-spokesperson">AI cloning</a></li><li><a href="/services/product-photography-ecommerce">Product photography</a></li><li><a href="/services/content-writing-copywriting">Copywriting</a></li><li><a href="/services/catalogues-presentations">Catalogues &amp; decks</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/growth-marketing">Growth Marketing</a></h3><ul><li><a href="/services/marketing-strategy">Marketing strategy</a></li><li><a href="/services/social-media-marketing">Social media</a></li><li><a href="/services/meta-ads-agency">Meta ads</a></li><li><a href="/services/google-ads-agency">Google ads</a></li><li><a href="/services/seo-aeo-geo">SEO, AEO &amp; GEO</a></li><li><a href="/services/local-seo-google-business-profile">Local SEO &amp; GBP</a></li><li><a href="/services/influencer-ugc-marketing">Influencer &amp; UGC</a></li><li><a href="/services/b2b-lead-generation">B2B &amp; export leads</a></li><li><a href="/services/campaign-planning">Campaign planning</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/ecommerce">D2C Ecommerce</a></h3><ul><li><a href="/services/shopify-development">Shopify stores</a></li><li><a href="/services/shopify-migration">Shopify migration</a></li><li><a href="/services/shopify-plus-headless-development">Shopify Plus &amp; headless</a></li><li><a href="/services/multi-location-shopify-local-delivery">Multi-location Shopify</a></li><li><a href="/services/ecommerce-website-development">Ecommerce websites</a></li><li><a href="/services/shopify-store-management">Store management</a></li><li><a href="/services/conversion-rate-optimisation">CRO</a></li><li><a href="/services/d2c-performance-marketing">D2C performance</a></li><li><a href="/services/ecommerce-seo">Ecommerce SEO</a></li><li><a href="/services/d2c-brand-launch">D2C brand launch</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/marketplaces">Marketplaces</a></h3><ul><li><a href="/services/amazon-onboarding">Amazon onboarding</a></li><li><a href="/services/amazon-account-management">Amazon management</a></li><li><a href="/services/flipkart-seller-management">Flipkart</a></li><li><a href="/services/myntra-onboarding">Myntra</a></li><li><a href="/services/nykaa-onboarding">Nykaa</a></li><li><a href="/services/ajio-onboarding">AJIO</a></li><li><a href="/services/meesho-jiomart-onboarding">Meesho &amp; JioMart</a></li><li><a href="/services/fashion-marketplace-growth">Fashion marketplace growth</a></li><li><a href="/services/marketplace-listing-optimisation">Listing optimisation</a></li><li><a href="/services/marketplace-ads-management">Marketplace ads</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/quick-commerce">Quick Commerce</a></h3><ul><li><a href="/services/quick-commerce-agency">Quick commerce</a></li><li><a href="/services/blinkit-onboarding">Blinkit onboarding</a></li><li><a href="/services/blinkit-account-management">Blinkit management</a></li><li><a href="/services/zepto-onboarding">Zepto onboarding</a></li><li><a href="/services/zepto-account-management">Zepto management</a></li><li><a href="/services/swiggy-instamart-onboarding">Instamart onboarding</a></li><li><a href="/services/instamart-account-management">Instamart management</a></li><li><a href="/services/flipkart-minutes-amazon-now-onboarding">Flipkart Minutes &amp; Amazon Now</a></li><li><a href="/services/bigbasket-onboarding">BigBasket onboarding</a></li><li><a href="/services/quick-commerce-ads">Quick commerce ads</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/technology">Websites &amp; Apps</a></h3><ul><li><a href="/services/website-development">Websites</a></li><li><a href="/services/portfolio-brand-website-design">Portfolio sites</a></li><li><a href="/services/app-design-development">App design</a></li><li><a href="/services/mobile-app-development">Mobile apps</a></li><li><a href="/services/ecommerce-app-development">Ecommerce &amp; sales apps</a></li><li><a href="/services/saas-product-development">SaaS products</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/ai-software-engineering">AI &amp; Engineering</a></h3><ul><li><a href="/services/ai-agent-development">AI agents</a></li><li><a href="/services/ai-workflow-automation">AI automation</a></li><li><a href="/services/ai-chatbot-development">AI chatbots</a></li><li><a href="/services/erp-development">ERP</a></li><li><a href="/services/custom-software-development">Custom software</a></li><li><a href="/services/business-tools-automation">Tools &amp; automations</a></li></ul></div>
+          <div class="mega-foot"><span>One team across brand, growth, ecommerce, marketplaces, quick commerce, apps and AI.</span><a class="link-arrow" href="/services">View all services <span class="arr">&rarr;</span></a></div>
+        </div>
+      </div></div>
+      <a href="/work">Work</a>
+      <a href="/blog" class="active">Blog</a>
+      <a href="/about">About</a>
+      <a href="/faq">FAQ</a>
+    </div>
+    <div class="nav-right">
+      <a class="btn btn-primary nav-cta" href="/#contact">Start a project</a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mm-top">
+    <span class="nav-logo"><img src="/assets/logo.png" alt="gaa-tha" width="120" height="26"></span>
+    <button class="mm-close" aria-label="Close menu">&#10005;</button>
+  </div>
+  <nav class="mm-links" aria-label="Mobile">
+    <details><summary><span class="num">01</span> Services</summary><div class="mm-sub"><div><h4><a href="/services/brand-and-creative">Brand &amp; Creative</a></h4><ul><li><a href="/services/branding-agency">Branding</a></li><li><a href="/services/graphic-design">Graphic design</a></li><li><a href="/services/reels-short-form-video">Reels</a></li><li><a href="/services/ai-ads-ai-ad-shoots">AI ads</a></li><li><a href="/services/cinema-ads-film-production">Cinema ads</a></li><li><a href="/services/ai-cloning-spokesperson">AI cloning</a></li><li><a href="/services/product-photography-ecommerce">Product photography</a></li><li><a href="/services/content-writing-copywriting">Copywriting</a></li><li><a href="/services/catalogues-presentations">Catalogues &amp; decks</a></li></ul></div><div><h4><a href="/services/growth-marketing">Growth Marketing</a></h4><ul><li><a href="/services/marketing-strategy">Marketing strategy</a></li><li><a href="/services/social-media-marketing">Social media</a></li><li><a href="/services/meta-ads-agency">Meta ads</a></li><li><a href="/services/google-ads-agency">Google ads</a></li><li><a href="/services/seo-aeo-geo">SEO, AEO &amp; GEO</a></li><li><a href="/services/local-seo-google-business-profile">Local SEO &amp; GBP</a></li><li><a href="/services/influencer-ugc-marketing">Influencer &amp; UGC</a></li><li><a href="/services/b2b-lead-generation">B2B &amp; export leads</a></li><li><a href="/services/campaign-planning">Campaign planning</a></li></ul></div><div><h4><a href="/services/ecommerce">D2C Ecommerce</a></h4><ul><li><a href="/services/shopify-development">Shopify stores</a></li><li><a href="/services/shopify-migration">Shopify migration</a></li><li><a href="/services/shopify-plus-headless-development">Shopify Plus &amp; headless</a></li><li><a href="/services/multi-location-shopify-local-delivery">Multi-location Shopify</a></li><li><a href="/services/ecommerce-website-development">Ecommerce websites</a></li><li><a href="/services/shopify-store-management">Store management</a></li><li><a href="/services/conversion-rate-optimisation">CRO</a></li><li><a href="/services/d2c-performance-marketing">D2C performance</a></li><li><a href="/services/ecommerce-seo">Ecommerce SEO</a></li><li><a href="/services/d2c-brand-launch">D2C brand launch</a></li></ul></div><div><h4><a href="/services/marketplaces">Marketplaces</a></h4><ul><li><a href="/services/amazon-onboarding">Amazon onboarding</a></li><li><a href="/services/amazon-account-management">Amazon management</a></li><li><a href="/services/flipkart-seller-management">Flipkart</a></li><li><a href="/services/myntra-onboarding">Myntra</a></li><li><a href="/services/nykaa-onboarding">Nykaa</a></li><li><a href="/services/ajio-onboarding">AJIO</a></li><li><a href="/services/meesho-jiomart-onboarding">Meesho &amp; JioMart</a></li><li><a href="/services/fashion-marketplace-growth">Fashion marketplace growth</a></li><li><a href="/services/marketplace-listing-optimisation">Listing optimisation</a></li><li><a href="/services/marketplace-ads-management">Marketplace ads</a></li><li><a href="/services/reviews-ratings-management">Reviews &amp; ratings</a></li></ul></div><div><h4><a href="/services/quick-commerce">Quick Commerce</a></h4><ul><li><a href="/services/quick-commerce-agency">Quick commerce</a></li><li><a href="/services/blinkit-onboarding">Blinkit onboarding</a></li><li><a href="/services/blinkit-account-management">Blinkit management</a></li><li><a href="/services/zepto-onboarding">Zepto onboarding</a></li><li><a href="/services/zepto-account-management">Zepto management</a></li><li><a href="/services/swiggy-instamart-onboarding">Instamart onboarding</a></li><li><a href="/services/instamart-account-management">Instamart management</a></li><li><a href="/services/flipkart-minutes-amazon-now-onboarding">Flipkart Minutes &amp; Amazon Now</a></li><li><a href="/services/bigbasket-onboarding">BigBasket onboarding</a></li><li><a href="/services/quick-commerce-ads">Quick commerce ads</a></li><li><a href="/services/quick-commerce-content">Q-commerce content</a></li></ul></div><div><h4><a href="/services/technology">Websites &amp; Apps</a></h4><ul><li><a href="/services/website-development">Websites</a></li><li><a href="/services/portfolio-brand-website-design">Portfolio sites</a></li><li><a href="/services/app-design-development">App design</a></li><li><a href="/services/mobile-app-development">Mobile apps</a></li><li><a href="/services/ecommerce-app-development">Ecommerce &amp; sales apps</a></li><li><a href="/services/saas-product-development">SaaS products</a></li></ul></div><div><h4><a href="/services/ai-software-engineering">AI &amp; Engineering</a></h4><ul><li><a href="/services/ai-agent-development">AI agents</a></li><li><a href="/services/ai-workflow-automation">AI automation</a></li><li><a href="/services/ai-chatbot-development">AI chatbots</a></li><li><a href="/services/erp-development">ERP</a></li><li><a href="/services/custom-software-development">Custom software</a></li><li><a href="/services/business-tools-automation">Tools &amp; automations</a></li></ul></div><a class="link-arrow" href="/services">All services <span class="arr">&rarr;</span></a></div></details>
+    <a href="/work"><span class="num">02</span> Work</a>
+    <a href="/blog"><span class="num">03</span> Blog</a>
+    <a href="/about"><span class="num">04</span> About</a>
+    <a href="/faq"><span class="num">05</span> FAQ</a>
+    <a href="/#contact"><span class="num">06</span> Contact</a>
+  </nav>
+  <div class="mm-foot">
+    <a class="btn btn-primary" href="/#contact">Start a project</a>
+    <a class="mm-mail" href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
+  </div>
+</div>
+<!-- /chrome:nav -->
+
+<div class="site">
+
+<header class="article-hero">
+  <div class="wrap">
+    <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/blog">Blog</a><span class="sep">/</span><span>AI &amp; Software</span></nav>
+    <h1 class="reveal h1-long">AI chatbots for websites and WhatsApp: a guide for brands</h1>
+    <div class="article-meta reveal">
+      <span>By gaa-tha</span><span class="dot">&middot;</span>
+      <time datetime="2026-10-22">22 October 2026</time><span class="dot">&middot;</span>
+      
+      <span>8 min read</span><span class="dot">&middot;</span>
+      <span>AI &amp; Software</span>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <div class="ph r-16x9 has-img" data-slot="Blog cover" data-ref="blog/ai-chatbot-for-website-and-whatsapp" data-key="cover"><img src="/assets/blog/ai-chatbot-for-website-and-whatsapp.webp" alt="AI chatbots for websites and WhatsApp: a guide for brands" width="1600" height="893" srcset="/assets/blog/ai-chatbot-for-website-and-whatsapp-800.webp 800w, /assets/blog/ai-chatbot-for-website-and-whatsapp.webp 1600w" sizes="(max-width: 960px) 100vw, 50vw" decoding="async"><span class="ph-label">Blog cover · 16:9</span></div>
+    <article class="prose" style="margin-top:36px">
+<p class="lead">An AI chatbot for a website or WhatsApp answers customer questions in natural language from your own catalogue, FAQs and policies, looks up live data such as order status, captures leads and hands complex conversations to a person. Unlike older rule-based bots, it understands free text, including Hindi, Gujarati and Hinglish. For most Indian brands WhatsApp is the higher-value channel, but it needs the WhatsApp Business API, approved templates and customer opt-in.</p>
+<div class="takeaways"><h2>Key takeaways</h2><ul><li>AI chatbots understand free text and answer from your own content; rule-based bots only follow menus.</li><li>WhatsApp needs the Business API through Meta or a BSP, approved templates and opt-in; check Meta’s current pricing.</li><li>Sync the catalogue and policies rather than pasting them into a prompt, and test on real customer questions.</li><li>Reply in the customer’s language and script, and always offer a clear route to a person.</li><li>Measure verified resolution, handoff reasons and commercial outcomes, not chat volume.</li></ul></div>
+<h2>What can a modern AI chatbot do that old rule-based bots could not?</h2>
+<p>A modern AI chatbot understands free-text questions, answers from your own content and looks up live data, where an old rule-based bot could only follow button menus and keyword matches.</p>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Aspect</th><th>Rule-based bot</th><th>AI chatbot</th></tr></thead>
+<tbody>
+<tr><td>Input</td><td>Buttons and exact keywords</td><td>Free text, voice notes, typos, mixed languages</td></tr>
+<tr><td>Knowledge</td><td>Answers typed into a flow builder</td><td>Your catalogue, FAQs and policies, retrieved at answer time</td></tr>
+<tr><td>Live data</td><td>Rarely</td><td>Order status, stock, delivery estimates by pincode, appointment slots</td></tr>
+<tr><td>When it fails</td><td>Loops back to the menu</td><td>Can sound confident and be wrong, unless grounded and tested</td></tr>
+<tr><td>Maintenance</td><td>Every new question needs a new branch</td><td>Update the source document; the bot follows</td></tr>
+</tbody></table></div>
+<p>Buttons still have a place: for payments, address confirmation or choosing a size, a tap is faster and safer than typing. The best bots mix free-text understanding with structured buttons where precision matters.</p>
+<p>A typical exchange shows the difference. A customer writes “is the vitamin C serum ok for oily skin and will it reach Surat by Friday?”. A rule bot matches “serum” and shows a product menu. An AI chatbot answers the suitability question from the product’s own ingredient notes, checks the delivery estimate for the customer’s pincode, and offers a button to order or to ask a skincare adviser.</p>
+<h2>How does the WhatsApp Business API work for brands?</h2>
+<p>The WhatsApp Business API, now called the WhatsApp Business Platform, lets a business connect WhatsApp to software, such as a chatbot, CRM or shared inbox, instead of replying from a phone app. The essentials:</p>
+<ul>
+<li><strong>Access.</strong> Connect directly through Meta’s Cloud API, or through a Business Solution Provider (BSP) such as Gupshup, Interakt, AiSensy, WATI, Twilio or 360dialog, which adds an inbox, broadcasts, flow builders and support.</li>
+<li><strong>Set-up.</strong> A Meta Business account, a verified business for higher limits, an approved display name and a dedicated phone number.</li>
+<li><strong>The 24-hour window.</strong> When a customer messages you, you can reply freely for 24 hours. Outside that window you may only send pre-approved templates.</li>
+<li><strong>Templates.</strong> Each template is approved by Meta and belongs to a category: marketing, utility (order updates, payment reminders) or authentication (one-time passwords). Each language version needs its own approval.</li>
+<li><strong>Opt-in.</strong> Customers must agree to receive messages from you; collect consent at checkout or on forms and record it.</li>
+<li><strong>Pricing.</strong> Meta used to charge per 24-hour conversation and moved in 2025 to charging per delivered template message, with rates by category and country; replies inside the customer service window are not charged. Rules and rates change, so check Meta’s current pricing for India and your BSP’s fees.</li>
+<li><strong>Quality and limits.</strong> Blocks and reports lower your quality rating, which can reduce how many people you can message per day.</li>
+</ul>
+<p>Meta’s terms also do not allow general-purpose AI assistants on the platform; a bot that serves your own customers about your products, orders and services is the intended use.</p>
+<p>A website chat widget is simpler: no Meta approvals, no template rules and no per-message charges, and it can be added to a Shopify theme or any site with a script. It suits pre-purchase questions from web visitors and international customers, and it can hand the conversation over to WhatsApp when the customer prefers.</p>
+<h2>How do you train a chatbot on your catalogue, FAQs and policies?</h2>
+<p>You train a business chatbot by connecting it to clean source content that it searches at answer time, not by retraining a model. The sources that matter:</p>
+<ul>
+<li><strong>Catalogue:</strong> synced from Shopify or your ERP through the API, with prices, variants, stock, ingredients or specifications, so answers never go stale.</li>
+<li><strong>Policies:</strong> shipping times by region, COD rules, returns, exchanges, warranty, cancellations.</li>
+<li><strong>FAQs and guides:</strong> size charts, usage instructions, care, compatibility, B2B minimum order quantities.</li>
+<li><strong>Past conversations:</strong> the questions customers really ask, mined from WhatsApp and email history.</li>
+</ul>
+<p>Then write the rules: tone of voice, what it must never say (medical claims for skincare, promised delivery dates it cannot check, discounts it has no authority to give), and when to hand over. Before launch, test it against a hundred or more real questions and fix the source content, not just the prompt, wherever it gets something wrong. Policies written as short, direct question-and-answer pairs (“Can I return a product after opening it? No, except for damage in transit, reported within 48 hours.”) give far better answers than long legal pages. The approach is the same retrieval method described in our <a href="/blog/ai-agents-for-business-guide">guide to AI agents for business</a>.</p>
+<h2>Can an AI chatbot reply in Hindi, Gujarati and Hinglish?</h2>
+<p>Yes. Current large language models handle Hindi and Hinglish well and Gujarati reasonably well, but you must test with real customer messages before launch. Indian customers write in Devanagari, in Gujarati script and in romanised forms such as “maro order kyare aavse?”, often mixing English product names in the same sentence. Set the bot to reply in the language and script the customer used, transcribe voice notes, which are common on WhatsApp, and keep product names, prices and order numbers in a consistent form. Decide in advance how the bot handles prices and quantities, so “do sau rupaye” and “₹200” are read the same way. Remember that templates sent outside the 24-hour window need an approved version in each language you use. For international customers, the same set-up works for English, French or any other language you serve.</p>
+<h2>How should handoff, order tracking and lead capture work?</h2>
+<h3>Human handoff</h3>
+<p>Hand over to a person whenever the customer asks for one, sounds angry, raises a refund or damage claim, or the bot fails to answer twice. Pass the full transcript and order details so the customer never repeats themselves, show business hours honestly, and route to a shared inbox in your BSP or helpdesk, such as Freshdesk, Zoho Desk or Gorgias.</p>
+<h3>Shopify order tracking</h3>
+<p>Identify the customer by WhatsApp number or order number plus a verification detail, fetch the order from the Shopify Admin API, and pull the latest courier scan from Shiprocket, Delhivery or your aggregator. Explain the status in plain words with an expected date. The same flow can confirm COD orders and reschedule failed deliveries, which reduces return-to-origin losses; our post on <a href="/blog/cod-vs-prepaid">COD vs prepaid</a> explains why. Clean order and tracking data starts with the <a href="/services/shopify-development">Shopify build</a> itself.</p>
+<h3>Lead capture</h3>
+<p>For B2B and high-ticket brands, ask two or three qualifying questions in conversation, such as quantity, city and timeline, then create the lead in your CRM and offer a call slot. Click-to-WhatsApp ads on Meta feed this flow directly, and the routing behind it is covered in our guide to <a href="/blog/ai-workflow-automation-n8n-make-zapier">AI workflow automation</a>.</p>
+<h2>Which metrics show whether a chatbot is working?</h2>
+<p>Measure verified resolution and business outcomes, not the number of chats. Track:</p>
+<ul>
+<li><strong>Resolution rate:</strong> conversations closed without a person, checked by sampling, not assumed.</li>
+<li><strong>Handoff rate and reasons:</strong> which questions the bot cannot answer yet.</li>
+<li><strong>Wrong-answer rate:</strong> from a weekly review of a random sample.</li>
+<li><strong>First response time and customer satisfaction.</strong></li>
+<li><strong>Commercial outcomes:</strong> orders or leads from chat, COD confirmation rate, RTO change, lead-to-meeting rate.</li>
+<li><strong>Cost per conversation,</strong> including model usage, BSP and Meta charges.</li>
+</ul>
+<p>Review these weekly for the first two months, then monthly. The handoff reasons are the most useful list you will get: each one is either a gap in your content, a missing integration, or a question that genuinely needs a person.</p>
+<h2>What mistakes should brands avoid with AI chatbots?</h2>
+<p>The common mistakes are about scope, data and honesty, not technology:</p>
+<ol>
+<li>Launching on every channel at once instead of proving one.</li>
+<li>Copy-pasting the catalogue into a prompt instead of syncing it, so prices and stock go stale.</li>
+<li>Hiding the human option; customers who cannot reach a person leave.</li>
+<li>Pretending the bot is a person; say it is an assistant.</li>
+<li>Sending marketing templates without clear opt-in, which damages your quality rating.</li>
+<li>Letting the bot promise refunds, discounts or delivery dates it cannot check.</li>
+<li>Never reading the transcripts after launch.</li>
+<li>Measuring success by chat volume rather than resolved questions and orders.</li>
+</ol>
+<p>The clear, question-shaped answers you write for the bot also help elsewhere: the same FAQ content, published on your site, is what search engines and AI answer engines quote, which is the focus of our <a href="/services/seo-aeo-geo">SEO, AEO and GEO</a> work.</p>
+<p>gaa-tha designs and builds website and WhatsApp assistants under <a href="/services/ai-chatbot-development">AI chatbot development</a>, connected to Shopify, CRMs and helpdesks, and extends them into <a href="/services/ai-agent-development">AI agents</a> when they need to act across more systems.</p>
+<hr><h2>Frequently asked questions</h2><div class="faq-list"><div class="faq-item"><button class="faq-q" aria-expanded="false">Can I use my existing WhatsApp Business app number with the API?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Often, yes. Meta now lets many businesses use the WhatsApp Business app and the platform on the same number, with some feature limits; otherwise the number moves from the app to the API. Check the current options with Meta or your BSP before you switch.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">What does a WhatsApp AI chatbot cost to run?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Running cost has four parts: the BSP subscription if you use one, Meta’s charges for template messages, AI model usage per conversation, and maintenance. Replies inside the 24-hour customer service window are not charged by Meta, so support-led bots cost far less to run than broadcast-heavy ones.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Will an AI chatbot make up answers?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>It can if it answers from the model’s general knowledge. Grounding answers in your own catalogue and policies, telling it to hand over when unsure, and reviewing transcripts weekly keeps wrong answers rare and quickly corrected.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Should we start with a website chatbot or WhatsApp?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>For most Indian consumer brands, start with WhatsApp, because that is where customers already ask about orders and products. A website chat widget suits brands with high-intent web traffic, international customers or longer pre-purchase questions.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Can a WhatsApp chatbot take payments?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Yes, most simply by sending a Razorpay, Cashfree or UPI payment link and confirming payment by webhook. Native payments inside WhatsApp in India are available through supported payment partners; check eligibility with your BSP.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">How long does it take to launch an AI chatbot?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>A focused chatbot covering FAQs and order status can usually launch in a few weeks, including WhatsApp approvals and testing. Lead qualification, CRM integration and multiple languages add time, mostly for testing with real conversations.</p></div></div></div></div>
+      <div class="author-box"><span class="ab-mark">g</span><div><b>Written by the gaa-tha team</b><p>Founded in 2024 by Abhishek Khuthiya and Getansh Savla. <a href="/about">About the studio</a> · <a href="https://www.linkedin.com/company/teamgaatha/" rel="noopener" target="_blank">LinkedIn</a></p></div></div>
+      <div class="article-cta">
+        <h2>Want this done for you?</h2>
+        <p>gaa-tha builds the strategy, the creative and the commerce operations — for brands across India and beyond.</p>
+        <a class="btn btn-primary btn-lg" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+      </div>
+    </article>
+  </div>
+
+  <section class="section surface bordered" aria-label="Related">
+    <div class="wrap">
+      <div class="section-head"><p class="eyebrow">Go deeper</p><h2 class="section-title display">Related services and work</h2></div>
+      <div class="grid grid-4" data-stagger="0.06"><a class="card reveal" href="/services/ai-chatbot-development"><span class="card-idx">AI &amp; Engineering</span><h3>AI Chatbot Development</h3><p>Website and WhatsApp chatbots that know your catalogue and policies, capture leads and hand over to a person when it matters.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="card reveal" href="/services/ai-agent-development"><span class="card-idx">AI &amp; Engineering</span><h3>AI Agent Development</h3><p>Custom AI agents that take a goal, use your tools and finish the task — inside guardrails, approvals and logs.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="card reveal" href="/services/shopify-development"><span class="card-idx">D2C Ecommerce</span><h3>Shopify Store Design &amp; Development</h3><p>Shopify stores designed for conversion and built for speed — custom themes, custom sections and the checkout integrations Indian D2C brands need.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a></div>
+    </div>
+  </section>
+</main>
+
+<!-- chrome:footer -->
+<section class="footer-cta">
+  <div class="wrap footer-cta-row">
+    <h2 class="display">Got a story to tell? Let&#39;s make it legendary.</h2>
+    <a class="btn btn-primary btn-lg" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="footer-logo" href="/" aria-label="gaa-tha — home">
+          <img src="/assets/logo.png" alt="gaa-tha — Crafting Tales" width="842" height="296" loading="lazy">
+        </a>
+        <p>Crafting tales that turn brands into movements — strategy, storytelling and AI-driven results. India-rooted, globally minded.</p>
+        <div class="footer-socials">
+          <a href="https://instagram.com/__gaa.tha__/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.linkedin.com/company/teamgaatha/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+      <nav class="footer-col" aria-label="Services">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="/services">All services</a></li>
+          <li><a href="/services/brand-and-creative">Brand &amp; Creative</a></li>
+          <li><a href="/services/growth-marketing">Growth Marketing</a></li>
+          <li><a href="/services/ecommerce">D2C Ecommerce</a></li>
+          <li><a href="/services/marketplaces">Marketplaces</a></li>
+          <li><a href="/services/quick-commerce">Quick Commerce</a></li>
+          <li><a href="/services/technology">Websites &amp; Apps</a></li>
+          <li><a href="/services/ai-software-engineering">AI &amp; Engineering</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="Explore">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="/work">Work &amp; case studies</a></li>
+          <li><a href="/reels">Reels</a></li>
+          <li><a href="/websites">Websites</a></li>
+          <li><a href="/branding">Branding</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+      <div class="footer-col footer-say">
+        <h3>Say hello</h3>
+        <a class="fsay-line" href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
+        <a class="fsay-line" href="tel:+919737280309">+91 97372 80309</a>
+        <a class="fsay-line" href="tel:+917781818981">+91 77818 18981</a>
+        <a class="btn btn-primary" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer-bottom">
+    <div class="wrap footer-bottom-inner">
+      <span class="fmeta">
+        <span>&copy; <span data-year>2026</span> gaa-tha. All rights reserved.</span>
+        <span class="fdot">&#9670;</span>
+        <span>Crafting tales since 2024</span>
+      </span>
+      <a href="#" class="to-top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </div>
+</footer>
+<!-- /chrome:footer -->
+</div>
+
+<script defer src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script defer src="/gaatha.js"></script>
+<script defer src="/gaatha-cms.js"></script>
+
+</body>
+</html>

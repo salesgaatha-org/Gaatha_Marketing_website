@@ -2,49 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://gaa-tha.com/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://gaa-tha.com/services</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gaa-tha.com/services/brand-and-creative</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gaa-tha.com/services/growth-marketing</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gaa-tha.com/services/ecommerce</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gaa-tha.com/services/marketplaces</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gaa-tha.com/services/quick-commerce</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gaa-tha.com/services/technology</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/ai-software-engineering</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -55,8 +61,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/services/ai-agent-development</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/ai-chatbot-development</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/services/ai-cloning-spokesperson</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/ai-workflow-automation</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -80,7 +104,7 @@
   </url>
   <url>
     <loc>https://gaa-tha.com/services/app-design-development</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -116,7 +140,7 @@
   </url>
   <url>
     <loc>https://gaa-tha.com/services/business-tools-automation</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -151,6 +175,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/services/custom-software-development</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/services/d2c-brand-launch</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -163,6 +193,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/services/ecommerce-app-development</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/services/ecommerce-seo</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -170,7 +206,13 @@
   </url>
   <url>
     <loc>https://gaa-tha.com/services/ecommerce-website-development</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/erp-development</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -253,6 +295,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/services/mobile-app-development</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/services/multi-location-shopify-local-delivery</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -267,6 +315,12 @@
   <url>
     <loc>https://gaa-tha.com/services/nykaa-onboarding</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/portfolio-brand-website-design</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -307,6 +361,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/services/saas-product-development</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/services/seo-aeo-geo</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -314,7 +374,19 @@
   </url>
   <url>
     <loc>https://gaa-tha.com/services/shopify-development</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/shopify-migration</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/shopify-plus-headless-development</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -338,7 +410,7 @@
   </url>
   <url>
     <loc>https://gaa-tha.com/services/website-development</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -410,7 +482,7 @@
   </url>
   <url>
     <loc>https://gaa-tha.com/blog</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -499,8 +571,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/blog/ai-agents-for-business-guide</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/ai-chatbot-for-website-and-whatsapp</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/blog/ai-product-photography-for-marketplaces</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/ai-workflow-automation-n8n-make-zapier</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -517,6 +607,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/blog/best-shopify-features-for-ecommerce</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/blog/cinema-ads-for-local-brands-do-they-work</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -529,8 +625,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/blog/custom-erp-vs-odoo-vs-erpnext-vs-tally</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/custom-website-vs-wordpress-vs-shopify-vs-webflow</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/blog/d2c-ecommerce-growth-guide</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/does-your-ecommerce-brand-need-an-app</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -571,6 +685,24 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/blog/hidden-shopify-features</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/how-to-choose-a-shopify-agency-in-india</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/how-to-choose-a-website-and-app-development-company-in-india</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/blog/how-to-sell-on-blinkit</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -601,6 +733,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/blog/mobile-app-development-cost-in-india</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/blog/one-website-for-multiple-store-locations</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -609,6 +747,12 @@
   <url>
     <loc>https://gaa-tha.com/blog/pack-size-and-pricing-for-10-minute-delivery</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/portfolio-and-brand-website-guide</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -631,8 +775,20 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/blog/saas-product-development-guide</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/blog/selling-on-amazon-flipkart-myntra-brand-playbook</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/shopify-integrations-for-indian-brands</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -649,14 +805,32 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/blog/shopify-website-cost-in-india</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/blog/top-ecommerce-quick-commerce-agencies-in-india</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/blog/website-development-cost-in-india</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/blog/when-a-plus-content-pays</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/why-shopify-is-best-for-ecommerce</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

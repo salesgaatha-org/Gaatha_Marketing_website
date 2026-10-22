@@ -1,0 +1,67 @@
+{
+  "slug": "shopify-plus-headless-development",
+  "group": "ecommerce",
+  "order": 3,
+  "published": true,
+  "name": "Shopify Plus & Headless Shopify Development",
+  "shortName": "Shopify Plus & headless",
+  "promise": "Shopify Plus builds, checkout extensions and headless storefronts for brands that have outgrown a standard theme.",
+  "intro": "gaa-tha builds on Shopify Plus and headless Shopify for scaling brands: checkout extensions and Shopify Functions, B2B wholesale, Shopify Markets for multi-currency international selling, Hydrogen storefronts on Oxygen or Next.js storefronts on the Storefront API, custom apps and ERP integrations — with the performance work that keeps a large store fast.",
+  "glance": {
+    "bestFor": "High-volume D2C brands, brands selling wholesale and retail from one store, and Indian brands expanding to the US, UK, Canada, the Middle East or Australia",
+    "timeline": "Plus feature projects 2–6 weeks; international expansion 4–8 weeks; headless storefronts 10–16 weeks",
+    "model": "Scoped projects, plus a monthly engineering retainer for ongoing releases",
+    "channels": "Shopify Plus, Shopify Functions, checkout UI extensions, Shopify Markets, Hydrogen, Oxygen, Next.js, Storefront API"
+  },
+  "whatIs": [
+    "Shopify Plus is Shopify's enterprise plan, adding deeper checkout customisation, automation, B2B and wholesale tools, expansion stores and higher API limits; headless Shopify means keeping Shopify as the commerce engine — products, inventory, checkout and orders — while the storefront customers see is a separate front end built with Hydrogen, Next.js or another framework. Both are ways to go beyond what a standard theme on a standard plan can do, and neither is right for every brand.",
+    "At gaa-tha we start by asking what is actually limiting growth — checkout logic, wholesale, international pricing, speed, content or integrations — and solve it with the least complex option that works. Often that is Plus features on a well-built theme; sometimes it is a headless storefront. Either way the work uses Shopify's current extension model, so it survives platform updates instead of breaking on them."
+  ],
+  "included": [
+    "Plus readiness review — whether Plus, an Advanced plan or headless actually solves your bottleneck",
+    "Checkout extensibility — checkout UI extensions, checkout branding, post-purchase offers and thank-you page blocks",
+    "Shopify Functions for custom discounts, bundles, payment and delivery rules, and cart and checkout validation",
+    "B2B on Shopify: company accounts, customer-specific catalogues and price lists, payment terms, quantity rules and a wholesale portal",
+    "International expansion with Shopify Markets — local currencies, languages, domains or subfolders, and region-specific pricing and catalogues",
+    "Headless storefronts with Hydrogen deployed on Oxygen, or Next.js on Vercel using the Storefront API",
+    "Custom Shopify apps for internal workflows, Shopify Flow automation, and integrations through the Admin API and webhooks",
+    "ERP, OMS and accounting integrations — SAP Business One, Microsoft Dynamics, Odoo, Zoho, Tally Prime, Unicommerce or EasyEcom",
+    "Performance engineering: Core Web Vitals, caching, image and script budgets, and theme and app clean-up",
+    "Rebuilding legacy Shopify Scripts and checkout.liquid customisations as Functions and checkout extensions"
+  ],
+  "steps": [
+    { "title": "Diagnose", "text": "We review analytics, theme, apps, checkout and integrations with your team to find what is really limiting growth, and recommend Plus features, headless, or neither." },
+    { "title": "Architect", "text": "The target setup is documented — plan, markets, B2B structure, storefront stack, apps and data flows to your ERP — with the trade-offs in cost and team skills spelled out." },
+    { "title": "Build", "text": "Extensions, Functions, custom apps or the headless storefront are built in sprints on development stores, with automated tests for pricing and discount logic." },
+    { "title": "Integrate and test", "text": "ERP, OMS, payment and tracking integrations are connected and tested with real order scenarios, including returns, partial shipments and multi-currency orders." },
+    { "title": "Launch and iterate", "text": "Releases go live in planned cutovers or behind feature flags, performance is monitored, and an engineering retainer carries the roadmap forward." }
+  ],
+  "deliverables": [
+    "Plus and headless recommendation with an architecture document",
+    "Checkout extensions and Shopify Functions deployed to your store",
+    "B2B, Markets or expansion-store configuration",
+    "Headless storefront or optimised theme, deployed and documented",
+    "Custom apps and ERP or OMS integrations with failure alerts",
+    "Source code in your repository, runbooks and a performance report"
+  ],
+  "tools": ["Shopify Plus", "Shopify Functions", "Checkout UI extensions", "Shopify Markets", "Hydrogen", "Oxygen", "Next.js", "Shopify Flow", "GraphQL", "Vercel"],
+  "pricing": "Scoped per project after a technical review, based on the features, integrations and storefront approach; the Shopify Plus subscription, apps and hosting are billed by the providers, and ongoing engineering runs as a monthly retainer.",
+  "faq": [
+    { "q": "Is Shopify Plus worth it?", "a": "Shopify Plus is worth it when you need what Plus provides — full checkout customisation, B2B at scale, expansion stores, higher API limits and advanced automation — or when your sales volume makes its fee structure work out cheaper than a lower plan. Many brands move to Plus too early, for the badge rather than a feature they will use. We compare your current plan, the features you need and Shopify's current Plus pricing before recommending a switch." },
+    { "q": "Headless Shopify or a Shopify theme — which should we choose?", "a": "A well-built Shopify theme is the right choice for most brands: it is faster to build, cheaper to run, and your marketing team can edit it in the theme editor. Headless makes sense when you need a highly custom experience, content from a separate CMS, one storefront across several systems, or performance and flexibility a theme cannot reach. It brings a higher build cost and a developer dependency for changes, so we recommend it only when those benefits are clear." },
+    { "q": "Hydrogen or Next.js for a headless Shopify store?", "a": "Hydrogen, Shopify's own React-based framework with commerce components and Oxygen hosting, is usually the fastest route when Shopify is your main system. Next.js on Vercel suits teams that already use it, combine several data sources, or run a large content site alongside the store. Both use the Storefront API and hand off to Shopify's checkout, so the choice comes down to your team and the rest of your stack." },
+    { "q": "What can checkout extensibility and Shopify Functions do?", "a": "Checkout UI extensions add your own blocks to checkout — upsells, gift messages, delivery notes, trust badges and loyalty — while Shopify Functions change the logic behind it, such as custom discounts, tiered bundles, hiding or reordering payment and delivery options, and blocking invalid carts. Some of this, particularly extensions on the information, shipping and payment steps, is reserved for Shopify Plus, while other parts work on every plan, so we confirm what your plan supports before designing." },
+    { "q": "Can we sell B2B and D2C from the same Shopify store?", "a": "Yes. Shopify's B2B features let one store serve retail shoppers and business buyers, with company accounts, customer-specific catalogues and price lists, payment terms and quantity rules. The fullest B2B toolset is aimed at Shopify Plus, and some B2B features have reached other plans in more limited form, so we check current plan availability against your wholesale needs." },
+    { "q": "How do we sell internationally from one Shopify store?", "a": "Shopify Markets lets one store sell to several countries with local currencies, languages, domains or subfolders, and region-specific prices and catalogues. For Indian brands the work also covers an international payment gateway, cross-border shipping, duties and taxes, product compliance and localised content. Brands with very different ranges or operations per region may run separate expansion stores instead." },
+    { "q": "Can Shopify integrate with our ERP or order-management system?", "a": "Yes. We integrate Shopify with SAP Business One, Microsoft Dynamics, Odoo, Zoho, Tally Prime and order-management systems such as Unicommerce or EasyEcom, using ready connectors where they are reliable and custom middleware where they are not. Products, prices, stock, orders, invoices and returns sync on a schedule or in real time, with alerts when something fails." },
+    { "q": "What should we look for in a Shopify Plus or headless development partner?", "a": "Look for a partner that builds on Shopify's current extension model, can explain when not to go headless, has integrated systems like yours, and leaves the code, apps and accounts in your ownership. Ask how they test discount and pricing logic, handle Shopify's platform updates and support you after launch. At gaa-tha, custom apps sit in your Shopify organisation, code lives in your repository, and everything is documented for handover." }
+  ],
+  "related": ["shopify-development", "shopify-migration", "conversion-rate-optimisation", "erp-development"],
+  "reading": ["best-shopify-features-for-ecommerce", "hidden-shopify-features", "shopify-integrations-for-indian-brands"],
+  "images": {"hero":{"src":"/assets/services/shopify-plus-headless-development-hero.webp","width":1600,"height":893,"srcset":"/assets/services/shopify-plus-headless-development-hero-800.webp 800w, /assets/services/shopify-plus-headless-development-hero.webp 1600w","alt":"Shopify Plus & Headless Shopify Development — illustration"},"card":{"src":"/assets/services/shopify-plus-headless-development-card.webp","width":960,"height":717},"og":{"src":"/assets/og/services/shopify-plus-headless-development.jpg","width":1200,"height":630}},
+  "meta": {
+    "title": "Shopify Plus & Headless Development India | gaa-tha",
+    "description": "Shopify Plus checkout extensions, Functions, B2B, Markets and headless Hydrogen or Next.js storefronts, plus custom Shopify apps and ERP integrations."
+  },
+  "updated": "2026-10-22"
+}

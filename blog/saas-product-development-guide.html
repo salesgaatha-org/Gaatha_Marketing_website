@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to build a SaaS product: from MVP to first paying customers | gaa-tha</title>
+<meta name="description" content="How to build SaaS: validate the problem, scope the MVP, pick the stack, handle multi-tenancy, billing, GST and DPDP, then launch and price it.">
+<meta name="author" content="gaa-tha">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="canonical" href="https://gaa-tha.com/blog/saas-product-development-guide">
+<link rel="alternate" type="text/markdown" href="https://gaa-tha.com/blog/saas-product-development-guide.md" title="Markdown version for AI assistants">
+
+<link rel="icon" type="image/png" href="/assets/logo.png">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="gaa-tha">
+<meta property="og:title" content="How to build a SaaS product: from MVP to first paying customers | gaa-tha">
+<meta property="og:description" content="How to build SaaS: validate the problem, scope the MVP, pick the stack, handle multi-tenancy, billing, GST and DPDP, then launch and price it.">
+<meta property="og:url" content="https://gaa-tha.com/blog/saas-product-development-guide">
+<meta property="og:image" content="https://gaa-tha.com/assets/og/blog/saas-product-development-guide.jpg">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to build a SaaS product: from MVP to first paying customers | gaa-tha">
+<meta name="twitter:description" content="How to build SaaS: validate the problem, scope the MVP, pick the stack, handle multi-tenancy, billing, GST and DPDP, then launch and price it.">
+<meta name="twitter:image" content="https://gaa-tha.com/assets/og/blog/saas-product-development-guide.jpg">
+<meta property="article:published_time" content="2026-10-22">
+<meta property="article:modified_time" content="2026-10-22">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/montserrat-400-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/poppins-800-latin.woff2" crossorigin>
+<link rel="stylesheet" href="/gaatha.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://gaa-tha.com/#organization",
+      "name": "gaa-tha",
+      "alternateName": [
+        "gaatha",
+        "Gaatha",
+        "Gaa-tha",
+        "Team Gaatha"
+      ],
+      "url": "https://gaa-tha.com/",
+      "logo": "https://gaa-tha.com/assets/logo.png",
+      "image": "https://gaa-tha.com/assets/logo.png",
+      "description": "gaa-tha is a storytelling-led digital marketing, branding, ecommerce, technology and AI agency founded in Gujarat, India in 2024. It builds brands, websites, Shopify stores, mobile apps, SaaS products, AI agents, automations and ERPs; runs Meta and Google ads, social media and SEO/AEO/GEO; and onboards and manages brands on Amazon, Flipkart, Myntra, Blinkit, Zepto and Swiggy Instamart.",
+      "slogan": "Crafting Tales — your brand, but unskippable.",
+      "foundingDate": "2024",
+      "email": "digimarketing@gaa-tha.com",
+      "telephone": "+919737280309",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Gujarat",
+        "addressCountry": "IN"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        "Worldwide"
+      ],
+      "knowsAbout": [
+        "Digital Marketing",
+        "Marketing Strategy",
+        "Branding",
+        "Graphic Design",
+        "Social Media Marketing",
+        "Performance Marketing",
+        "Meta Ads",
+        "Google Ads",
+        "SEO",
+        "Answer Engine Optimization",
+        "Generative Engine Optimization",
+        "Influencer Marketing",
+        "AI-Based Ads",
+        "Cinema Advertising",
+        "B2B Lead Generation",
+        "Ecommerce",
+        "Shopify Development",
+        "Shopify Plus",
+        "Headless Commerce",
+        "Shopify Migration",
+        "Conversion Rate Optimization",
+        "Marketplace Account Management",
+        "Amazon Seller Onboarding",
+        "Quick Commerce",
+        "Blinkit Onboarding",
+        "Zepto Onboarding",
+        "Swiggy Instamart Onboarding",
+        "Web Development",
+        "Website Design",
+        "Portfolio Websites",
+        "UI/UX Design",
+        "Mobile App Development",
+        "Flutter",
+        "React Native",
+        "Ecommerce App Development",
+        "SaaS Product Development",
+        "AI Agent Development",
+        "AI Workflow Automation",
+        "AI Chatbots",
+        "WhatsApp Business API",
+        "ERP Development",
+        "Odoo Implementation",
+        "ERPNext Implementation",
+        "Custom Software Development",
+        "System Integration"
+      ],
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Abhishek Khuthiya",
+          "jobTitle": "Co-Founder"
+        },
+        {
+          "@type": "Person",
+          "name": "Getansh Savla",
+          "jobTitle": "Co-Founder"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+919737280309",
+        "email": "digimarketing@gaa-tha.com",
+        "contactType": "sales",
+        "availableLanguage": [
+          "English",
+          "Hindi",
+          "Gujarati"
+        ]
+      },
+      "sameAs": [
+        "https://instagram.com/__gaa.tha__/",
+        "https://www.linkedin.com/company/teamgaatha/",
+        "https://www.facebook.com/people/Gaa-tha/61562303836796/"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Brand & Creative",
+            "url": "https://gaa-tha.com/services/brand-and-creative"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Growth Marketing",
+            "url": "https://gaa-tha.com/services/growth-marketing"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "D2C Ecommerce",
+            "url": "https://gaa-tha.com/services/ecommerce"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Marketplaces",
+            "url": "https://gaa-tha.com/services/marketplaces"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Quick Commerce",
+            "url": "https://gaa-tha.com/services/quick-commerce"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Websites & Apps",
+            "url": "https://gaa-tha.com/services/technology"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI & Software Engineering",
+            "url": "https://gaa-tha.com/services/ai-software-engineering"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://gaa-tha.com/#website",
+      "url": "https://gaa-tha.com/",
+      "name": "gaa-tha",
+      "publisher": {
+        "@id": "https://gaa-tha.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://gaa-tha.com/blog/saas-product-development-guide",
+      "headline": "How to build a SaaS product: from MVP to first paying customers",
+      "description": "How to build SaaS: validate the problem, scope the MVP, pick the stack, handle multi-tenancy, billing, GST and DPDP, then launch and price it.",
+      "url": "https://gaa-tha.com/blog/saas-product-development-guide",
+      "mainEntityOfPage": "https://gaa-tha.com/blog/saas-product-development-guide",
+      "image": "https://gaa-tha.com/assets/blog/saas-product-development-guide.webp",
+      "datePublished": "2026-10-22",
+      "dateModified": "2026-10-22",
+      "inLanguage": "en",
+      "articleSection": "Websites & Apps",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://gaa-tha.com/#organization",
+        "name": "gaa-tha"
+      },
+      "publisher": {
+        "@id": "https://gaa-tha.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://gaa-tha.com/blog#blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gaa-tha.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://gaa-tha.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to build a SaaS product: from MVP to first paying customers",
+          "item": "https://gaa-tha.com/blog/saas-product-development-guide"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does it cost to build a SaaS MVP in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As an indicative 2026 market range, a SaaS MVP built by an experienced Indian agency or product studio costs ₹10–35 lakh. The number depends on how complex the core workflow is, how many integrations it needs and whether AI features are included; it is a market range, not a quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to build a SaaS product?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A focused B2B SaaS MVP usually takes three to five months from validation to first paying customers. That covers two to four weeks of validation, two to four weeks of design, eight to fourteen weeks of build and a short beta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best tech stack for a SaaS startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most SaaS startups, Next.js with TypeScript on the frontend, Node.js or Python on the backend and PostgreSQL as the database is the safe default. Supabase or Firebase can speed up the first version, and AWS or Google Cloud handles scale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is GST charged on SaaS in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. SaaS sold to customers in India currently attracts 18% GST, and business customers need a GST invoice to claim input tax credit. Exports to overseas customers can be zero-rated under an LUT when conditions are met, so confirm the setup with a chartered accountant."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an Indian SaaS company use Stripe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stripe’s onboarding for India-registered businesses has been invite-only since 2024, so check its current status before planning around it. Indian founders commonly use Razorpay for INR and international cards, a merchant-of-record provider such as Paddle for global sales, or a foreign entity with Stripe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the DPDP Act apply to my SaaS product?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if you process personal data of people in India, and also if you offer goods or services to people in India from abroad. Plan for consent, purpose limitation, data rights, security safeguards and breach notification, and offer customers a data processing agreement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I build my SaaS with no-code first?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No-code is a good way to test demand and run a concierge MVP cheaply. Move to custom code once paying customers need multi-tenancy, fine-grained permissions, integrations and security guarantees you control."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="post">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- chrome:nav -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/" aria-label="gaa-tha — home">
+      <img src="/assets/logo.png" alt="gaa-tha" width="120" height="26">
+    </a>
+    <div class="nav-links">
+      <div class="has-mega"><a href="/services">Services</a><div class="mega" aria-label="Services menu">
+        <div class="mega-inner">
+          <div class="mega-col"><h3><a href="/services/brand-and-creative">Brand &amp; Creative</a></h3><ul><li><a href="/services/branding-agency">Branding</a></li><li><a href="/services/graphic-design">Graphic design</a></li><li><a href="/services/reels-short-form-video">Reels</a></li><li><a href="/services/ai-ads-ai-ad-shoots">AI ads</a></li><li><a href="/services/cinema-ads-film-production">Cinema ads</a></li><li><a href="/services/ai-cloning-spokesperson">AI cloning</a></li><li><a href="/services/product-photography-ecommerce">Product photography</a></li><li><a href="/services/content-writing-copywriting">Copywriting</a></li><li><a href="/services/catalogues-presentations">Catalogues &amp; decks</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/growth-marketing">Growth Marketing</a></h3><ul><li><a href="/services/marketing-strategy">Marketing strategy</a></li><li><a href="/services/social-media-marketing">Social media</a></li><li><a href="/services/meta-ads-agency">Meta ads</a></li><li><a href="/services/google-ads-agency">Google ads</a></li><li><a href="/services/seo-aeo-geo">SEO, AEO &amp; GEO</a></li><li><a href="/services/local-seo-google-business-profile">Local SEO &amp; GBP</a></li><li><a href="/services/influencer-ugc-marketing">Influencer &amp; UGC</a></li><li><a href="/services/b2b-lead-generation">B2B &amp; export leads</a></li><li><a href="/services/campaign-planning">Campaign planning</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/ecommerce">D2C Ecommerce</a></h3><ul><li><a href="/services/shopify-development">Shopify stores</a></li><li><a href="/services/shopify-migration">Shopify migration</a></li><li><a href="/services/shopify-plus-headless-development">Shopify Plus &amp; headless</a></li><li><a href="/services/multi-location-shopify-local-delivery">Multi-location Shopify</a></li><li><a href="/services/ecommerce-website-development">Ecommerce websites</a></li><li><a href="/services/shopify-store-management">Store management</a></li><li><a href="/services/conversion-rate-optimisation">CRO</a></li><li><a href="/services/d2c-performance-marketing">D2C performance</a></li><li><a href="/services/ecommerce-seo">Ecommerce SEO</a></li><li><a href="/services/d2c-brand-launch">D2C brand launch</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/marketplaces">Marketplaces</a></h3><ul><li><a href="/services/amazon-onboarding">Amazon onboarding</a></li><li><a href="/services/amazon-account-management">Amazon management</a></li><li><a href="/services/flipkart-seller-management">Flipkart</a></li><li><a href="/services/myntra-onboarding">Myntra</a></li><li><a href="/services/nykaa-onboarding">Nykaa</a></li><li><a href="/services/ajio-onboarding">AJIO</a></li><li><a href="/services/meesho-jiomart-onboarding">Meesho &amp; JioMart</a></li><li><a href="/services/fashion-marketplace-growth">Fashion marketplace growth</a></li><li><a href="/services/marketplace-listing-optimisation">Listing optimisation</a></li><li><a href="/services/marketplace-ads-management">Marketplace ads</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/quick-commerce">Quick Commerce</a></h3><ul><li><a href="/services/quick-commerce-agency">Quick commerce</a></li><li><a href="/services/blinkit-onboarding">Blinkit onboarding</a></li><li><a href="/services/blinkit-account-management">Blinkit management</a></li><li><a href="/services/zepto-onboarding">Zepto onboarding</a></li><li><a href="/services/zepto-account-management">Zepto management</a></li><li><a href="/services/swiggy-instamart-onboarding">Instamart onboarding</a></li><li><a href="/services/instamart-account-management">Instamart management</a></li><li><a href="/services/flipkart-minutes-amazon-now-onboarding">Flipkart Minutes &amp; Amazon Now</a></li><li><a href="/services/bigbasket-onboarding">BigBasket onboarding</a></li><li><a href="/services/quick-commerce-ads">Quick commerce ads</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/technology">Websites &amp; Apps</a></h3><ul><li><a href="/services/website-development">Websites</a></li><li><a href="/services/portfolio-brand-website-design">Portfolio sites</a></li><li><a href="/services/app-design-development">App design</a></li><li><a href="/services/mobile-app-development">Mobile apps</a></li><li><a href="/services/ecommerce-app-development">Ecommerce &amp; sales apps</a></li><li><a href="/services/saas-product-development">SaaS products</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/ai-software-engineering">AI &amp; Engineering</a></h3><ul><li><a href="/services/ai-agent-development">AI agents</a></li><li><a href="/services/ai-workflow-automation">AI automation</a></li><li><a href="/services/ai-chatbot-development">AI chatbots</a></li><li><a href="/services/erp-development">ERP</a></li><li><a href="/services/custom-software-development">Custom software</a></li><li><a href="/services/business-tools-automation">Tools &amp; automations</a></li></ul></div>
+          <div class="mega-foot"><span>One team across brand, growth, ecommerce, marketplaces, quick commerce, apps and AI.</span><a class="link-arrow" href="/services">View all services <span class="arr">&rarr;</span></a></div>
+        </div>
+      </div></div>
+      <a href="/work">Work</a>
+      <a href="/blog" class="active">Blog</a>
+      <a href="/about">About</a>
+      <a href="/faq">FAQ</a>
+    </div>
+    <div class="nav-right">
+      <a class="btn btn-primary nav-cta" href="/#contact">Start a project</a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mm-top">
+    <span class="nav-logo"><img src="/assets/logo.png" alt="gaa-tha" width="120" height="26"></span>
+    <button class="mm-close" aria-label="Close menu">&#10005;</button>
+  </div>
+  <nav class="mm-links" aria-label="Mobile">
+    <details><summary><span class="num">01</span> Services</summary><div class="mm-sub"><div><h4><a href="/services/brand-and-creative">Brand &amp; Creative</a></h4><ul><li><a href="/services/branding-agency">Branding</a></li><li><a href="/services/graphic-design">Graphic design</a></li><li><a href="/services/reels-short-form-video">Reels</a></li><li><a href="/services/ai-ads-ai-ad-shoots">AI ads</a></li><li><a href="/services/cinema-ads-film-production">Cinema ads</a></li><li><a href="/services/ai-cloning-spokesperson">AI cloning</a></li><li><a href="/services/product-photography-ecommerce">Product photography</a></li><li><a href="/services/content-writing-copywriting">Copywriting</a></li><li><a href="/services/catalogues-presentations">Catalogues &amp; decks</a></li></ul></div><div><h4><a href="/services/growth-marketing">Growth Marketing</a></h4><ul><li><a href="/services/marketing-strategy">Marketing strategy</a></li><li><a href="/services/social-media-marketing">Social media</a></li><li><a href="/services/meta-ads-agency">Meta ads</a></li><li><a href="/services/google-ads-agency">Google ads</a></li><li><a href="/services/seo-aeo-geo">SEO, AEO &amp; GEO</a></li><li><a href="/services/local-seo-google-business-profile">Local SEO &amp; GBP</a></li><li><a href="/services/influencer-ugc-marketing">Influencer &amp; UGC</a></li><li><a href="/services/b2b-lead-generation">B2B &amp; export leads</a></li><li><a href="/services/campaign-planning">Campaign planning</a></li></ul></div><div><h4><a href="/services/ecommerce">D2C Ecommerce</a></h4><ul><li><a href="/services/shopify-development">Shopify stores</a></li><li><a href="/services/shopify-migration">Shopify migration</a></li><li><a href="/services/shopify-plus-headless-development">Shopify Plus &amp; headless</a></li><li><a href="/services/multi-location-shopify-local-delivery">Multi-location Shopify</a></li><li><a href="/services/ecommerce-website-development">Ecommerce websites</a></li><li><a href="/services/shopify-store-management">Store management</a></li><li><a href="/services/conversion-rate-optimisation">CRO</a></li><li><a href="/services/d2c-performance-marketing">D2C performance</a></li><li><a href="/services/ecommerce-seo">Ecommerce SEO</a></li><li><a href="/services/d2c-brand-launch">D2C brand launch</a></li></ul></div><div><h4><a href="/services/marketplaces">Marketplaces</a></h4><ul><li><a href="/services/amazon-onboarding">Amazon onboarding</a></li><li><a href="/services/amazon-account-management">Amazon management</a></li><li><a href="/services/flipkart-seller-management">Flipkart</a></li><li><a href="/services/myntra-onboarding">Myntra</a></li><li><a href="/services/nykaa-onboarding">Nykaa</a></li><li><a href="/services/ajio-onboarding">AJIO</a></li><li><a href="/services/meesho-jiomart-onboarding">Meesho &amp; JioMart</a></li><li><a href="/services/fashion-marketplace-growth">Fashion marketplace growth</a></li><li><a href="/services/marketplace-listing-optimisation">Listing optimisation</a></li><li><a href="/services/marketplace-ads-management">Marketplace ads</a></li><li><a href="/services/reviews-ratings-management">Reviews &amp; ratings</a></li></ul></div><div><h4><a href="/services/quick-commerce">Quick Commerce</a></h4><ul><li><a href="/services/quick-commerce-agency">Quick commerce</a></li><li><a href="/services/blinkit-onboarding">Blinkit onboarding</a></li><li><a href="/services/blinkit-account-management">Blinkit management</a></li><li><a href="/services/zepto-onboarding">Zepto onboarding</a></li><li><a href="/services/zepto-account-management">Zepto management</a></li><li><a href="/services/swiggy-instamart-onboarding">Instamart onboarding</a></li><li><a href="/services/instamart-account-management">Instamart management</a></li><li><a href="/services/flipkart-minutes-amazon-now-onboarding">Flipkart Minutes &amp; Amazon Now</a></li><li><a href="/services/bigbasket-onboarding">BigBasket onboarding</a></li><li><a href="/services/quick-commerce-ads">Quick commerce ads</a></li><li><a href="/services/quick-commerce-content">Q-commerce content</a></li></ul></div><div><h4><a href="/services/technology">Websites &amp; Apps</a></h4><ul><li><a href="/services/website-development">Websites</a></li><li><a href="/services/portfolio-brand-website-design">Portfolio sites</a></li><li><a href="/services/app-design-development">App design</a></li><li><a href="/services/mobile-app-development">Mobile apps</a></li><li><a href="/services/ecommerce-app-development">Ecommerce &amp; sales apps</a></li><li><a href="/services/saas-product-development">SaaS products</a></li></ul></div><div><h4><a href="/services/ai-software-engineering">AI &amp; Engineering</a></h4><ul><li><a href="/services/ai-agent-development">AI agents</a></li><li><a href="/services/ai-workflow-automation">AI automation</a></li><li><a href="/services/ai-chatbot-development">AI chatbots</a></li><li><a href="/services/erp-development">ERP</a></li><li><a href="/services/custom-software-development">Custom software</a></li><li><a href="/services/business-tools-automation">Tools &amp; automations</a></li></ul></div><a class="link-arrow" href="/services">All services <span class="arr">&rarr;</span></a></div></details>
+    <a href="/work"><span class="num">02</span> Work</a>
+    <a href="/blog"><span class="num">03</span> Blog</a>
+    <a href="/about"><span class="num">04</span> About</a>
+    <a href="/faq"><span class="num">05</span> FAQ</a>
+    <a href="/#contact"><span class="num">06</span> Contact</a>
+  </nav>
+  <div class="mm-foot">
+    <a class="btn btn-primary" href="/#contact">Start a project</a>
+    <a class="mm-mail" href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
+  </div>
+</div>
+<!-- /chrome:nav -->
+
+<div class="site">
+
+<header class="article-hero">
+  <div class="wrap">
+    <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/blog">Blog</a><span class="sep">/</span><span>Websites &amp; Apps</span></nav>
+    <h1 class="reveal h1-long">How to build a SaaS product: from MVP to first paying customers</h1>
+    <div class="article-meta reveal">
+      <span>By gaa-tha</span><span class="dot">&middot;</span>
+      <time datetime="2026-10-22">22 October 2026</time><span class="dot">&middot;</span>
+      
+      <span>13 min read</span><span class="dot">&middot;</span>
+      <span>Websites &amp; Apps</span>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <div class="ph r-16x9 has-img" data-slot="Blog cover" data-ref="blog/saas-product-development-guide" data-key="cover"><img src="/assets/blog/saas-product-development-guide.webp" alt="How to build a SaaS product: from MVP to first paying customers" width="1600" height="893" srcset="/assets/blog/saas-product-development-guide-800.webp 800w, /assets/blog/saas-product-development-guide.webp 1600w" sizes="(max-width: 960px) 100vw, 50vw" decoding="async"><span class="ph-label">Blog cover · 16:9</span></div>
+    <article class="prose" style="margin-top:36px">
+<p class="lead">To build a SaaS product that reaches paying customers, validate a painful problem with real buyers, scope an MVP around one core workflow, build on a proven stack, and get multi-tenancy, roles and billing right from day one. Then launch to a small group who pay, and price on the value delivered. With a focused team of three to five people, most B2B SaaS MVPs reach paying users in roughly three to five months.</p>
+<div class="takeaways"><h2>Key takeaways</h2><ul><li>Validate with money, not compliments: paid pilots, pre-orders or letters of intent from the buyers who will actually sign.</li><li>An MVP solves one workflow for one type of customer end to end, including login, billing and an admin view.</li><li>A proven stack such as Next.js, Node.js or Python, and Postgres on AWS or Google Cloud is the safe default; Supabase or Firebase speeds up the first version.</li><li>Design for multi-tenancy, roles and audit logs from the first sprint; retrofitting them is one of the most expensive rewrites in SaaS.</li><li>Indian founders need GST (currently 18% on domestic SaaS), RBI e-mandate rules for recurring payments and the DPDP Act in the plan, plus GDPR and local taxes when selling abroad.</li><li>Price on value with two or three tiers, and expect to change pricing within the first year.</li></ul></div>
+<h2>How do you validate a SaaS idea before writing code?</h2>
+<p>You validate a SaaS idea by proving that a specific type of buyer has a painful, frequent problem and will pay to solve it, before you build the product. Interest is cheap; payment is evidence.</p>
+<ol>
+<li><strong>Interview 15–20 target buyers.</strong> Ask how they handle the problem today, what it costs them in time or money, and what they have already tried. Do not pitch.</li>
+<li><strong>Find the current workaround.</strong> In India it is often Excel, WhatsApp groups, Tally exports or a person whose job is to stitch these together. A costly workaround is a strong signal.</li>
+<li><strong>Test willingness to pay.</strong> Offer a paid pilot, a pre-order at a founding-customer price, or a letter of intent. Five paying design partners beat five hundred newsletter sign-ups.</li>
+<li><strong>Run a concierge version.</strong> Deliver the outcome manually or with no-code tools for a few customers to learn the real workflow.</li>
+<li><strong>Size the market honestly.</strong> Indian SMB buyers are price-sensitive and expect support in their language; mid-market and enterprise buyers pay more but take months to sign. Global SMB markets (Canada, the US, the UK, Australia) often pay more per seat and buy self-serve.</li>
+</ol>
+<p>Write down what would make you stop. If no one pays for a pilot after twenty conversations, change the problem, the buyer or the offer before changing the code.</p>
+<h2>How do you scope an MVP that people will pay for?</h2>
+<p>A paid SaaS MVP solves one core workflow for one type of customer from start to finish, and leaves everything else for later. The test of scope: can a design partner use it every week without you on a call?</p>
+<div class="tbl-wrap"><table><thead><tr><th>In the MVP</th><th>Later</th></tr></thead><tbody>
+<tr><td>Sign-up, login, organisation and team invites</td><td>Single sign-on (SAML), SCIM provisioning</td></tr>
+<tr><td>The one core workflow, end to end</td><td>Secondary workflows and nice-to-have screens</td></tr>
+<tr><td>Basic roles: owner, admin, member</td><td>Custom roles and field-level permissions</td></tr>
+<tr><td>Billing with one or two plans</td><td>Usage-based pricing, add-ons, reseller billing</td></tr>
+<tr><td>One or two integrations customers cannot live without (for example Tally, Zoho, Shopify or Google Workspace)</td><td>An integrations marketplace and public API</td></tr>
+<tr><td>CSV export, email notifications, onboarding checklist</td><td>Custom reports, dashboards builder</td></tr>
+<tr><td>Internal admin panel and product analytics</td><td>Native mobile apps (a responsive web app is enough at first)</td></tr>
+</tbody></table></div>
+<p>Write the scope as user stories with acceptance criteria and a clear “not now” list. Most MVP overruns come from features that slipped in without a decision.</p>
+<h2>Which tech stack should a SaaS MVP use?</h2>
+<p>A SaaS MVP should use a proven, widely hired stack with managed services, because speed of iteration and ease of hiring matter far more than novelty at this stage.</p>
+<div class="tbl-wrap"><table><thead><tr><th>Layer</th><th>Common choices</th><th>When to choose</th></tr></thead><tbody>
+<tr><td>Frontend</td><td>Next.js (React) with TypeScript</td><td>The default for web SaaS; good SEO for marketing pages and a large talent pool</td></tr>
+<tr><td>Backend</td><td>Node.js (NestJS, Express) or Python (FastAPI, Django)</td><td>Node.js for one language across the stack; Python when AI, data or document processing is central</td></tr>
+<tr><td>Database</td><td>PostgreSQL</td><td>Relational data, reporting, row-level security and pgvector for AI search in one place</td></tr>
+<tr><td>Backend-as-a-service</td><td>Supabase (Postgres) or Firebase (NoSQL)</td><td>Fastest start for auth, storage and real-time; Supabase keeps you on Postgres if you outgrow it</td></tr>
+<tr><td>Cloud</td><td>AWS, Google Cloud, Azure; Vercel for the frontend</td><td>Pick one; use the Mumbai or Hyderabad regions when Indian customers want data in India</td></tr>
+<tr><td>Supporting services</td><td>Queues, email (Amazon SES, Postmark, Resend), Sentry, uptime monitoring</td><td>From the first release, not after the first outage</td></tr>
+</tbody></table></div>
+<p>Two rules save months. Use TypeScript end to end so the frontend and backend share types. And automate deployment, backups and environment setup in the first sprint; a product that only one developer can deploy is a business risk. Our <a href="/services/saas-product-development">SaaS product development</a> work starts with this foundation before features.</p>
+<h2>How should you handle multi-tenancy, authentication and roles?</h2>
+<p>Multi-tenancy, meaning many customer organisations sharing one product while seeing only their own data, should be designed in the first sprint, because adding it later touches every table, query and file.</p>
+<div class="tbl-wrap"><table><thead><tr><th>Model</th><th>How it works</th><th>Best for</th></tr></thead><tbody>
+<tr><td>Shared database, tenant ID on every row</td><td>One database; Postgres row-level security enforces isolation</td><td>Most SMB and mid-market SaaS; cheapest to run</td></tr>
+<tr><td>Schema per tenant</td><td>One database, a separate schema for each customer</td><td>Moderate isolation needs, fewer, larger tenants</td></tr>
+<tr><td>Database per tenant</td><td>Each customer gets its own database</td><td>Enterprise, regulated sectors, customers who require data residency</td></tr>
+</tbody></table></div>
+<p>Start shared with row-level security, and keep the option to move a large customer to a dedicated database. Make everything tenant-aware: file storage paths, caches, search indexes, background jobs and logs.</p>
+<p>For authentication, use a proven service such as Supabase Auth, Firebase Auth, Clerk, Auth0 or AWS Cognito rather than writing your own. Indian B2B users often expect phone OTP alongside email and Google sign-in; enterprise buyers in India and abroad will later ask for single sign-on through Microsoft Entra ID, Okta or Google Workspace. Model users, organisations, memberships and roles separately, so one person can belong to several organisations, and record an audit log of who changed what. Offer two-factor authentication for admins from launch.</p>
+<h2>How do you set up billing, subscriptions and GST?</h2>
+<p>SaaS billing needs recurring payments, invoices, plan changes and failed-payment recovery, and for Indian founders it also needs GST and RBI e-mandate compliance built in.</p>
+<div class="tbl-wrap"><table><thead><tr><th>Option</th><th>Best for</th><th>Notes</th></tr></thead><tbody>
+<tr><td>Razorpay Subscriptions</td><td>Indian customers paying in INR</td><td>Cards, UPI AutoPay and e-mandates; GST-ready invoicing; also supports international cards</td></tr>
+<tr><td>Stripe Billing</td><td>Global self-serve SaaS</td><td>Mature subscription tooling; onboarding for India-registered businesses has been invite-only since 2024, so check current status; some founders use a foreign entity</td></tr>
+<tr><td>Merchant of record (Paddle, Lemon Squeezy and similar)</td><td>Selling to consumers and small businesses in many countries</td><td>The provider is the legal seller and handles VAT and sales tax worldwide, for a higher fee</td></tr>
+<tr><td>Chargebee or similar billing layer</td><td>Complex plans across several gateways</td><td>Sits on top of gateways; worth it once pricing gets complicated</td></tr>
+</tbody></table></div>
+<p><strong>India specifics.</strong> GST on SaaS sold to Indian customers is currently 18%; business customers need a GST invoice with their GSTIN to claim input tax credit. Exports of SaaS to overseas customers can be zero-rated under a Letter of Undertaking (LUT) when conditions such as receiving payment in convertible foreign exchange are met. Under RBI’s e-mandate rules, recurring card and UPI AutoPay debits need a registered mandate and pre-debit notification, and debits above a set limit (₹15,000 for most categories at the time of writing) need the customer to authenticate each payment, so plan for annual-plan collection by invoice or bank transfer. <strong>Selling abroad</strong> brings local taxes: VAT in the UK and EU, GST/HST registration for digital services to consumers in Canada above a threshold, and US state sales tax in some states. Confirm your setup with a chartered accountant; the rules change and depend on your entity.</p>
+<p>Whatever you choose, build proration, trials, dunning emails for failed payments, downloadable invoices and a self-serve billing page from launch.</p>
+<h2>Which analytics and AI features belong in a SaaS MVP?</h2>
+<p>Every SaaS MVP needs product analytics that track activation and retention, while AI features belong only where they remove real work from the core workflow.</p>
+<h3>Analytics</h3>
+<p>Use PostHog, Mixpanel or Amplitude for product events and GA4 for the marketing site. Define an activation event, the moment a new account first gets value (first invoice sent, first report shared), and track time to activation, weekly active accounts, feature usage and retention by monthly cohort. Pair the numbers with session recordings and a short in-app survey.</p>
+<h3>AI features</h3>
+<p>AI earns its place when it drafts, extracts, classifies, summarises or answers questions inside the workflow the customer already uses. Good first features: reading invoices or purchase orders into structured data, drafting replies or reports, natural-language search over the customer’s own records using retrieval with pgvector, and an assistant that can take actions with the user’s permission. Build them on model APIs such as Claude, GPT or Gemini, keep the provider swappable, meter AI usage per tenant so heavy users do not erase your margin, and add evaluation tests and human review for anything that touches money or customers. Check each provider’s data-use terms for API traffic and say clearly in your privacy policy how customer data reaches the model. For deeper patterns, see our <a href="/blog/ai-agents-for-business-guide">AI agents for business guide</a>, <a href="/blog/ai-workflow-automation-n8n-make-zapier">AI workflow automation with n8n, Make and Zapier</a>, and <a href="/services/ai-agent-development">AI agent development</a>.</p>
+<h2>What security and compliance do you need: DPDP Act, GDPR and beyond?</h2>
+<p>A SaaS product handling personal data in India must comply with the Digital Personal Data Protection (DPDP) Act, 2023, and products with users in the EU or UK must also meet GDPR; the engineering basics behind both are the same.</p>
+<ul>
+<li><strong>DPDP Act:</strong> clear notice and consent for personal data, use only for the stated purpose, honour access, correction and erasure requests, apply reasonable security safeguards, and notify the Data Protection Board and affected users of breaches. The DPDP Rules were notified in November 2025 with obligations phasing in over roughly 18 months, and penalties can reach ₹250 crore, so build for them now. As a B2B SaaS you will often be a data processor for your customers, so offer a data processing agreement.</li>
+<li><strong>CERT-In directions:</strong> certain cyber incidents must be reported to CERT-In within six hours, and logs retained for 180 days.</li>
+<li><strong>GDPR basics:</strong> a lawful basis for processing, a data processing agreement, a published list of sub-processors, safeguards for transfers outside the EU such as standard contractual clauses, data subject rights, and breach notification within 72 hours. Canadian customers will ask about PIPEDA and provincial privacy laws.</li>
+<li><strong>Engineering basics:</strong> encryption in transit and at rest, least-privilege access, secrets in a vault rather than code, tested backups and restores, dependency scanning, rate limiting and an audit log.</li>
+<li><strong>Enterprise proof:</strong> a penetration test before your first large deal, then SOC 2 or ISO 27001 when buyers start asking for it.</li>
+</ul>
+<p>This is a practical summary, not legal advice; have a lawyer review your privacy policy, terms and data processing agreement before launch.</p>
+<h2>How should you launch and price a SaaS product?</h2>
+<p>Launch a SaaS product to a small group of paying design partners first, then open it up once onboarding works without hand-holding, and price on the value delivered rather than on your costs.</p>
+<ol>
+<li><strong>Private beta:</strong> 5–10 design partners on paid pilots, with a weekly feedback call and a shared roadmap.</li>
+<li><strong>Self-serve readiness:</strong> onboarding checklist, help articles, sample data and a working trial.</li>
+<li><strong>Public launch:</strong> a marketing site built for search and AI answers, comparison and use-case pages, LinkedIn and community launches, and outbound to your ideal customer list. Our <a href="/blog-seo-aeo-geo-guide">SEO, AEO and GEO guide</a> covers how buyers now find software.</li>
+</ol>
+<p>On pricing, pick a value metric customers understand (per seat, per location, per invoice or per active project), offer two or three tiers, and discount annual plans. Indian SMB plans usually need INR pricing with GST shown clearly and a lower entry point; global plans can be priced in USD at higher levels, and regional pricing is normal. Free trials suit products that show value within days; freemium suits products that spread through teams. Avoid lifetime deals early; they fund the launch but tax every month after. Revisit pricing after the first 20–30 paying customers.</p>
+<p>Indian founders selling globally should also plan support hours that overlap with customer time zones, USD invoicing and collection, and whether a foreign entity is needed for payments or investors; take tax and legal advice before incorporating abroad.</p>
+<h2>What timeline, team and budget should you plan?</h2>
+<p>A focused B2B SaaS MVP typically takes three to five months from validation to first paying customers, with a core team of three to five people.</p>
+<div class="tbl-wrap"><table><thead><tr><th>Phase</th><th>Duration</th><th>Output</th></tr></thead><tbody>
+<tr><td>Validation</td><td>2–4 weeks</td><td>Interviews, paid pilot commitments, problem statement</td></tr>
+<tr><td>Product design</td><td>2–4 weeks</td><td>User flows, clickable prototype, technical plan, scope with a “not now” list</td></tr>
+<tr><td>MVP build</td><td>8–14 weeks</td><td>Core workflow, auth, roles, billing, admin, analytics, two-week releases to design partners</td></tr>
+<tr><td>Beta and launch</td><td>4–6 weeks</td><td>Onboarding, help content, pricing page, first paying customers</td></tr>
+</tbody></table></div>
+<p>The core team: a founder acting as product owner, a product designer, two full-stack engineers, part-time QA and part-time DevOps. As an indicative 2026 Indian market range, a SaaS MVP built with an experienced agency or product studio costs ₹10–35 lakh, depending on workflow complexity, integrations and AI features; it is not a quote. An in-house team costs a similar amount every few months, which is why many founders build the MVP with a partner and hire as revenue arrives. Plan the user interface early with <a href="/services/app-design-development">app design and development</a>, and if a mobile companion app is on the roadmap, our <a href="/blog/mobile-app-development-cost-in-india">mobile app development cost guide</a> sets out the numbers and our <a href="/services/mobile-app-development">mobile app development</a> team can build it on the same backend.</p>
+<h2>Should you build with no-code or custom code?</h2>
+<p>No-code is right for validating an idea and for internal tools; custom code is right once you have paying customers who need multi-tenancy, complex permissions, integrations and performance you control.</p>
+<div class="tbl-wrap"><table><thead><tr><th>Approach</th><th>Examples</th><th>Use it when</th><th>Move on when</th></tr></thead><tbody>
+<tr><td>No-code app builders</td><td>Bubble, Softr, Glide, FlutterFlow</td><td>Testing demand, concierge MVPs, simple workflows</td><td>Per-user costs climb, logic gets tangled, or buyers ask about security and data location</td></tr>
+<tr><td>Internal tool builders</td><td>Retool, Appsmith</td><td>Admin panels and operations tools behind the product</td><td>Rarely; they often stay useful</td></tr>
+<tr><td>Automation platforms</td><td>n8n, Make, Zapier</td><td>Glue between systems while the product is young</td><td>Volume or reliability needs justify proper backend jobs</td></tr>
+<tr><td>Custom code</td><td>Next.js, Node.js or Python, Postgres</td><td>A product customers pay for and depend on</td><td>Not applicable</td></tr>
+</tbody></table></div>
+<p>A hybrid is common: custom code for the customer-facing product, an internal tool builder for operations, and automation for the long tail. Investors and enterprise buyers will ask who owns the code and how data is protected, so plan the move to custom before it becomes urgent.</p>
+<p>gaa-tha builds SaaS products and <a href="/services/custom-software-development">custom software</a> for founders in India and abroad, from validation sprint to launch, alongside the branding and marketing that bring the first customers in. If you have an idea or a no-code prototype, start with our <a href="/services/saas-product-development">SaaS product development</a> page.</p>
+<hr><h2>Frequently asked questions</h2><div class="faq-list"><div class="faq-item"><button class="faq-q" aria-expanded="false">How much does it cost to build a SaaS MVP in India?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>As an indicative 2026 market range, a SaaS MVP built by an experienced Indian agency or product studio costs ₹10–35 lakh. The number depends on how complex the core workflow is, how many integrations it needs and whether AI features are included; it is a market range, not a quote.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">How long does it take to build a SaaS product?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>A focused B2B SaaS MVP usually takes three to five months from validation to first paying customers. That covers two to four weeks of validation, two to four weeks of design, eight to fourteen weeks of build and a short beta.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">What is the best tech stack for a SaaS startup?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>For most SaaS startups, Next.js with TypeScript on the frontend, Node.js or Python on the backend and PostgreSQL as the database is the safe default. Supabase or Firebase can speed up the first version, and AWS or Google Cloud handles scale.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Is GST charged on SaaS in India?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Yes. SaaS sold to customers in India currently attracts 18% GST, and business customers need a GST invoice to claim input tax credit. Exports to overseas customers can be zero-rated under an LUT when conditions are met, so confirm the setup with a chartered accountant.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Can an Indian SaaS company use Stripe?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Stripe’s onboarding for India-registered businesses has been invite-only since 2024, so check its current status before planning around it. Indian founders commonly use Razorpay for INR and international cards, a merchant-of-record provider such as Paddle for global sales, or a foreign entity with Stripe.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Does the DPDP Act apply to my SaaS product?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Yes, if you process personal data of people in India, and also if you offer goods or services to people in India from abroad. Plan for consent, purpose limitation, data rights, security safeguards and breach notification, and offer customers a data processing agreement.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Should I build my SaaS with no-code first?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>No-code is a good way to test demand and run a concierge MVP cheaply. Move to custom code once paying customers need multi-tenancy, fine-grained permissions, integrations and security guarantees you control.</p></div></div></div></div>
+      <div class="author-box"><span class="ab-mark">g</span><div><b>Written by the gaa-tha team</b><p>Founded in 2024 by Abhishek Khuthiya and Getansh Savla. <a href="/about">About the studio</a> · <a href="https://www.linkedin.com/company/teamgaatha/" rel="noopener" target="_blank">LinkedIn</a></p></div></div>
+      <div class="article-cta">
+        <h2>Want this done for you?</h2>
+        <p>gaa-tha builds the strategy, the creative and the commerce operations — for brands across India and beyond.</p>
+        <a class="btn btn-primary btn-lg" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+      </div>
+    </article>
+  </div>
+
+  <section class="section surface bordered" aria-label="Related">
+    <div class="wrap">
+      <div class="section-head"><p class="eyebrow">Go deeper</p><h2 class="section-title display">Related services and work</h2></div>
+      <div class="grid grid-4" data-stagger="0.06"><a class="card reveal" href="/services/saas-product-development"><span class="card-idx">Websites &amp; Apps</span><h3>SaaS Product Development</h3><p>From a validated idea to a SaaS product that signs up, bills, scales and passes a customer&#39;s security review.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="card reveal" href="/services/custom-software-development"><span class="card-idx">AI &amp; Engineering</span><h3>Custom Software Development &amp; System Integration</h3><p>Bespoke software, portals and integrations engineered so your systems talk to each other — and keep running.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="card reveal" href="/services/ai-agent-development"><span class="card-idx">AI &amp; Engineering</span><h3>AI Agent Development</h3><p>Custom AI agents that take a goal, use your tools and finish the task — inside guardrails, approvals and logs.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a></div>
+    </div>
+  </section>
+</main>
+
+<!-- chrome:footer -->
+<section class="footer-cta">
+  <div class="wrap footer-cta-row">
+    <h2 class="display">Got a story to tell? Let&#39;s make it legendary.</h2>
+    <a class="btn btn-primary btn-lg" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="footer-logo" href="/" aria-label="gaa-tha — home">
+          <img src="/assets/logo.png" alt="gaa-tha — Crafting Tales" width="842" height="296" loading="lazy">
+        </a>
+        <p>Crafting tales that turn brands into movements — strategy, storytelling and AI-driven results. India-rooted, globally minded.</p>
+        <div class="footer-socials">
+          <a href="https://instagram.com/__gaa.tha__/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.linkedin.com/company/teamgaatha/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+      <nav class="footer-col" aria-label="Services">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="/services">All services</a></li>
+          <li><a href="/services/brand-and-creative">Brand &amp; Creative</a></li>
+          <li><a href="/services/growth-marketing">Growth Marketing</a></li>
+          <li><a href="/services/ecommerce">D2C Ecommerce</a></li>
+          <li><a href="/services/marketplaces">Marketplaces</a></li>
+          <li><a href="/services/quick-commerce">Quick Commerce</a></li>
+          <li><a href="/services/technology">Websites &amp; Apps</a></li>
+          <li><a href="/services/ai-software-engineering">AI &amp; Engineering</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="Explore">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="/work">Work &amp; case studies</a></li>
+          <li><a href="/reels">Reels</a></li>
+          <li><a href="/websites">Websites</a></li>
+          <li><a href="/branding">Branding</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+      <div class="footer-col footer-say">
+        <h3>Say hello</h3>
+        <a class="fsay-line" href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
+        <a class="fsay-line" href="tel:+919737280309">+91 97372 80309</a>
+        <a class="fsay-line" href="tel:+917781818981">+91 77818 18981</a>
+        <a class="btn btn-primary" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer-bottom">
+    <div class="wrap footer-bottom-inner">
+      <span class="fmeta">
+        <span>&copy; <span data-year>2026</span> gaa-tha. All rights reserved.</span>
+        <span class="fdot">&#9670;</span>
+        <span>Crafting tales since 2024</span>
+      </span>
+      <a href="#" class="to-top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </div>
+</footer>
+<!-- /chrome:footer -->
+</div>
+
+<script defer src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script defer src="/gaatha.js"></script>
+<script defer src="/gaatha-cms.js"></script>
+
+</body>
+</html>

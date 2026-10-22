@@ -2,8 +2,10 @@
 
 Everything under `content/` is the source of truth for the generated pages.
 `node build/build.js` renders it into static HTML (services, case studies,
-hubs, 404, sitemap, llms.txt) and syncs the shared header/footer into the
-hand-written pages. Nothing on the live site depends on client-side JS to
+hubs, 404, sitemap, llms.txt, llms-full.txt) plus a clean Markdown copy of
+every service, practice and blog page at the same URL + `.md` (linked from
+each page with `rel="alternate" type="text/markdown"` and from llms.txt, for AI
+assistants), and syncs the shared header/footer into the hand-written pages. Nothing on the live site depends on client-side JS to
 show text — crawlers and AI tools get finished HTML.
 
 Admin overrides (images, metrics, quotes, publish toggles) live in Firebase
@@ -14,14 +16,14 @@ panel is `content-admin.html`.
 
 | Path | What |
 |---|---|
-| `site.json` | Brand facts, contact, socials, stats — used by schema and llms.txt |
-| `groups.json` | The service groups (hubs at `/services/<group>`) |
+| `site.json` | Brand facts, contact, socials, stats, `knowsAbout` topics — used by schema and llms.txt |
+| `groups.json` | The seven service practices (hubs at `/services/<group>`) |
 | `services/<slug>.json` | One record per service page (`/services/<slug>`) |
 | `case-studies/<slug>.json` | One record per case study (`/work/<slug>`) |
 | `clients.json` | Client roster: logo, industry, show-on-logo-wall |
 | `posts.json` | Registry of blog posts (existing + generated) for "related reading" |
 | `blog/<slug>.json` | Generated posts (drafts stay `published: false`) |
-| `faqs-commerce.json` | FAQ groups 08/09 (also rendered into faq.html) |
+| `faqs-commerce.json` | FAQ groups 08–11 — commerce, case studies, websites/Shopify/apps, AI/automation/ERP (rendered into faq.html and llms-full.txt) |
 
 ## Service record
 
@@ -55,6 +57,10 @@ panel is `content-admin.html`.
   "updated": "2026-09-25"
 }
 ```
+
+Blog `category` must match a filter chip on `blog.html`: Marketing, Branding &
+Design, AI & Creative, Search & AI, Commerce, Shopify, Websites & Apps, AI &
+Software, B2B & Manufacturing, Case Stories.
 
 Blog posts take the same image object as `image` (cover, `assets/blog/`) plus an
 `ogImage` path (`assets/og/blog/`); without an image the `cover: "cov-*"` colour

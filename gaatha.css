@@ -1706,10 +1706,10 @@ a.card:hover { border-color: var(--ink); }
 .nav-links .has-mega:focus-within .mega { opacity: 1; visibility: visible; transform: none; }
 .mega-inner {
     max-width: var(--maxw); margin-inline: auto; padding: 28px var(--pad) 30px;
-    display: grid; grid-template-columns: repeat(6, 1fr); gap: 24px;
+    display: grid; grid-template-columns: repeat(7, 1fr); gap: 20px;
 }
 .mega-col h3 {
-    font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+    font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
     color: var(--muted-2); margin-bottom: 12px; padding-bottom: 10px;
     border-bottom: 1px solid var(--line);
 }
@@ -1774,6 +1774,15 @@ a.card:hover { border-color: var(--ink); }
 .svc-groups .card p { margin-bottom: 8px; }
 @media (max-width: 960px) { .svc-groups { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 620px) { .svc-groups { grid-template-columns: 1fr; } }
+/* An odd last practice card spans the row and lays its links out in columns. */
+@media (min-width: 961px) {
+    .svc-groups .card:last-child:nth-child(3n+1) { grid-column: 1 / -1; }
+    .svc-groups .card:last-child:nth-child(3n+1) ul { grid-template-columns: repeat(3, 1fr); column-gap: 28px; }
+}
+@media (min-width: 621px) and (max-width: 960px) {
+    .svc-groups .card:last-child:nth-child(2n+1) { grid-column: 1 / -1; }
+    .svc-groups .card:last-child:nth-child(2n+1) ul { grid-template-columns: repeat(2, 1fr); column-gap: 24px; }
+}
 
 /* Branded image placeholder — keeps the exact ratio until an image is added. */
 .ph {

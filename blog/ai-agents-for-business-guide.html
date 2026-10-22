@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI agents for business: use cases and how to build one | gaa-tha</title>
+<meta name="description" content="What an AI agent is, how it differs from a chatbot or automation, where it pays off for Indian businesses, and how to build one safely.">
+<meta name="author" content="gaa-tha">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="canonical" href="https://gaa-tha.com/blog/ai-agents-for-business-guide">
+<link rel="alternate" type="text/markdown" href="https://gaa-tha.com/blog/ai-agents-for-business-guide.md" title="Markdown version for AI assistants">
+
+<link rel="icon" type="image/png" href="/assets/logo.png">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="gaa-tha">
+<meta property="og:title" content="AI agents for business: use cases and how to build one | gaa-tha">
+<meta property="og:description" content="What an AI agent is, how it differs from a chatbot or automation, where it pays off for Indian businesses, and how to build one safely.">
+<meta property="og:url" content="https://gaa-tha.com/blog/ai-agents-for-business-guide">
+<meta property="og:image" content="https://gaa-tha.com/assets/og/blog/ai-agents-for-business-guide.jpg">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI agents for business: use cases and how to build one | gaa-tha">
+<meta name="twitter:description" content="What an AI agent is, how it differs from a chatbot or automation, where it pays off for Indian businesses, and how to build one safely.">
+<meta name="twitter:image" content="https://gaa-tha.com/assets/og/blog/ai-agents-for-business-guide.jpg">
+<meta property="article:published_time" content="2026-10-22">
+<meta property="article:modified_time" content="2026-10-22">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/montserrat-400-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/poppins-800-latin.woff2" crossorigin>
+<link rel="stylesheet" href="/gaatha.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://gaa-tha.com/#organization",
+      "name": "gaa-tha",
+      "alternateName": [
+        "gaatha",
+        "Gaatha",
+        "Gaa-tha",
+        "Team Gaatha"
+      ],
+      "url": "https://gaa-tha.com/",
+      "logo": "https://gaa-tha.com/assets/logo.png",
+      "image": "https://gaa-tha.com/assets/logo.png",
+      "description": "gaa-tha is a storytelling-led digital marketing, branding, ecommerce, technology and AI agency founded in Gujarat, India in 2024. It builds brands, websites, Shopify stores, mobile apps, SaaS products, AI agents, automations and ERPs; runs Meta and Google ads, social media and SEO/AEO/GEO; and onboards and manages brands on Amazon, Flipkart, Myntra, Blinkit, Zepto and Swiggy Instamart.",
+      "slogan": "Crafting Tales — your brand, but unskippable.",
+      "foundingDate": "2024",
+      "email": "digimarketing@gaa-tha.com",
+      "telephone": "+919737280309",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Gujarat",
+        "addressCountry": "IN"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        "Worldwide"
+      ],
+      "knowsAbout": [
+        "Digital Marketing",
+        "Marketing Strategy",
+        "Branding",
+        "Graphic Design",
+        "Social Media Marketing",
+        "Performance Marketing",
+        "Meta Ads",
+        "Google Ads",
+        "SEO",
+        "Answer Engine Optimization",
+        "Generative Engine Optimization",
+        "Influencer Marketing",
+        "AI-Based Ads",
+        "Cinema Advertising",
+        "B2B Lead Generation",
+        "Ecommerce",
+        "Shopify Development",
+        "Shopify Plus",
+        "Headless Commerce",
+        "Shopify Migration",
+        "Conversion Rate Optimization",
+        "Marketplace Account Management",
+        "Amazon Seller Onboarding",
+        "Quick Commerce",
+        "Blinkit Onboarding",
+        "Zepto Onboarding",
+        "Swiggy Instamart Onboarding",
+        "Web Development",
+        "Website Design",
+        "Portfolio Websites",
+        "UI/UX Design",
+        "Mobile App Development",
+        "Flutter",
+        "React Native",
+        "Ecommerce App Development",
+        "SaaS Product Development",
+        "AI Agent Development",
+        "AI Workflow Automation",
+        "AI Chatbots",
+        "WhatsApp Business API",
+        "ERP Development",
+        "Odoo Implementation",
+        "ERPNext Implementation",
+        "Custom Software Development",
+        "System Integration"
+      ],
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Abhishek Khuthiya",
+          "jobTitle": "Co-Founder"
+        },
+        {
+          "@type": "Person",
+          "name": "Getansh Savla",
+          "jobTitle": "Co-Founder"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+919737280309",
+        "email": "digimarketing@gaa-tha.com",
+        "contactType": "sales",
+        "availableLanguage": [
+          "English",
+          "Hindi",
+          "Gujarati"
+        ]
+      },
+      "sameAs": [
+        "https://instagram.com/__gaa.tha__/",
+        "https://www.linkedin.com/company/teamgaatha/",
+        "https://www.facebook.com/people/Gaa-tha/61562303836796/"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Brand & Creative",
+            "url": "https://gaa-tha.com/services/brand-and-creative"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Growth Marketing",
+            "url": "https://gaa-tha.com/services/growth-marketing"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "D2C Ecommerce",
+            "url": "https://gaa-tha.com/services/ecommerce"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Marketplaces",
+            "url": "https://gaa-tha.com/services/marketplaces"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Quick Commerce",
+            "url": "https://gaa-tha.com/services/quick-commerce"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Websites & Apps",
+            "url": "https://gaa-tha.com/services/technology"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI & Software Engineering",
+            "url": "https://gaa-tha.com/services/ai-software-engineering"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://gaa-tha.com/#website",
+      "url": "https://gaa-tha.com/",
+      "name": "gaa-tha",
+      "publisher": {
+        "@id": "https://gaa-tha.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://gaa-tha.com/blog/ai-agents-for-business-guide",
+      "headline": "AI agents for business: use cases and how to build one",
+      "description": "What an AI agent is, how it differs from a chatbot or automation, where it pays off for Indian businesses, and how to build one safely.",
+      "url": "https://gaa-tha.com/blog/ai-agents-for-business-guide",
+      "mainEntityOfPage": "https://gaa-tha.com/blog/ai-agents-for-business-guide",
+      "image": "https://gaa-tha.com/assets/blog/ai-agents-for-business-guide.webp",
+      "datePublished": "2026-10-22",
+      "dateModified": "2026-10-22",
+      "inLanguage": "en",
+      "articleSection": "AI & Software",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://gaa-tha.com/#organization",
+        "name": "gaa-tha"
+      },
+      "publisher": {
+        "@id": "https://gaa-tha.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://gaa-tha.com/blog#blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gaa-tha.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://gaa-tha.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI agents for business: use cases and how to build one",
+          "item": "https://gaa-tha.com/blog/ai-agents-for-business-guide"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between an AI agent and ChatGPT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ChatGPT is a general assistant that a person talks to, while a business AI agent is built for one job and can act on your systems. An agent has access to your tools and data, follows your rules, and works whether or not anyone is chatting with it, for example by processing every new lead as it arrives."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to build an AI agent for a business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A narrow, single-job agent can usually reach a pilot in a few weeks, and an agent that spans several systems takes a few months. The timeline depends mainly on how quickly data access is set up and how long shadow-mode testing runs, not on writing prompts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an AI agent work with Tally, Zoho or our ERP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if the system can be reached by API, database, export or a connector. Zoho, Odoo and ERPNext have documented APIs; Tally is usually connected through its XML interface or a connector running on the machine where Tally is installed. Start with read-only access and add write actions behind approval."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it safe to give an AI agent access to customer data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can be, when the agent has the narrowest permissions it needs, personal data is masked where the model does not need it, and the provider’s business terms exclude training on your data. Log every action and keep irreversible steps behind human approval."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do we need to train or fine-tune our own model?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almost never for a first agent. Retrieval over your own documents and good tool design solve most business needs, and they are easier to update than a fine-tuned model. Fine-tuning becomes worth considering only at high volume for a narrow, stable task."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will an AI agent replace our staff?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In practice, a well-scoped agent removes repetitive steps so staff spend their time on judgement, exceptions and customers. Most businesses use the time saved to handle more volume or respond faster, and they still need people to approve, review and improve the agent."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="post">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- chrome:nav -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/" aria-label="gaa-tha — home">
+      <img src="/assets/logo.png" alt="gaa-tha" width="120" height="26">
+    </a>
+    <div class="nav-links">
+      <div class="has-mega"><a href="/services">Services</a><div class="mega" aria-label="Services menu">
+        <div class="mega-inner">
+          <div class="mega-col"><h3><a href="/services/brand-and-creative">Brand &amp; Creative</a></h3><ul><li><a href="/services/branding-agency">Branding</a></li><li><a href="/services/graphic-design">Graphic design</a></li><li><a href="/services/reels-short-form-video">Reels</a></li><li><a href="/services/ai-ads-ai-ad-shoots">AI ads</a></li><li><a href="/services/cinema-ads-film-production">Cinema ads</a></li><li><a href="/services/ai-cloning-spokesperson">AI cloning</a></li><li><a href="/services/product-photography-ecommerce">Product photography</a></li><li><a href="/services/content-writing-copywriting">Copywriting</a></li><li><a href="/services/catalogues-presentations">Catalogues &amp; decks</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/growth-marketing">Growth Marketing</a></h3><ul><li><a href="/services/marketing-strategy">Marketing strategy</a></li><li><a href="/services/social-media-marketing">Social media</a></li><li><a href="/services/meta-ads-agency">Meta ads</a></li><li><a href="/services/google-ads-agency">Google ads</a></li><li><a href="/services/seo-aeo-geo">SEO, AEO &amp; GEO</a></li><li><a href="/services/local-seo-google-business-profile">Local SEO &amp; GBP</a></li><li><a href="/services/influencer-ugc-marketing">Influencer &amp; UGC</a></li><li><a href="/services/b2b-lead-generation">B2B &amp; export leads</a></li><li><a href="/services/campaign-planning">Campaign planning</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/ecommerce">D2C Ecommerce</a></h3><ul><li><a href="/services/shopify-development">Shopify stores</a></li><li><a href="/services/shopify-migration">Shopify migration</a></li><li><a href="/services/shopify-plus-headless-development">Shopify Plus &amp; headless</a></li><li><a href="/services/multi-location-shopify-local-delivery">Multi-location Shopify</a></li><li><a href="/services/ecommerce-website-development">Ecommerce websites</a></li><li><a href="/services/shopify-store-management">Store management</a></li><li><a href="/services/conversion-rate-optimisation">CRO</a></li><li><a href="/services/d2c-performance-marketing">D2C performance</a></li><li><a href="/services/ecommerce-seo">Ecommerce SEO</a></li><li><a href="/services/d2c-brand-launch">D2C brand launch</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/marketplaces">Marketplaces</a></h3><ul><li><a href="/services/amazon-onboarding">Amazon onboarding</a></li><li><a href="/services/amazon-account-management">Amazon management</a></li><li><a href="/services/flipkart-seller-management">Flipkart</a></li><li><a href="/services/myntra-onboarding">Myntra</a></li><li><a href="/services/nykaa-onboarding">Nykaa</a></li><li><a href="/services/ajio-onboarding">AJIO</a></li><li><a href="/services/meesho-jiomart-onboarding">Meesho &amp; JioMart</a></li><li><a href="/services/fashion-marketplace-growth">Fashion marketplace growth</a></li><li><a href="/services/marketplace-listing-optimisation">Listing optimisation</a></li><li><a href="/services/marketplace-ads-management">Marketplace ads</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/quick-commerce">Quick Commerce</a></h3><ul><li><a href="/services/quick-commerce-agency">Quick commerce</a></li><li><a href="/services/blinkit-onboarding">Blinkit onboarding</a></li><li><a href="/services/blinkit-account-management">Blinkit management</a></li><li><a href="/services/zepto-onboarding">Zepto onboarding</a></li><li><a href="/services/zepto-account-management">Zepto management</a></li><li><a href="/services/swiggy-instamart-onboarding">Instamart onboarding</a></li><li><a href="/services/instamart-account-management">Instamart management</a></li><li><a href="/services/flipkart-minutes-amazon-now-onboarding">Flipkart Minutes &amp; Amazon Now</a></li><li><a href="/services/bigbasket-onboarding">BigBasket onboarding</a></li><li><a href="/services/quick-commerce-ads">Quick commerce ads</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/technology">Websites &amp; Apps</a></h3><ul><li><a href="/services/website-development">Websites</a></li><li><a href="/services/portfolio-brand-website-design">Portfolio sites</a></li><li><a href="/services/app-design-development">App design</a></li><li><a href="/services/mobile-app-development">Mobile apps</a></li><li><a href="/services/ecommerce-app-development">Ecommerce &amp; sales apps</a></li><li><a href="/services/saas-product-development">SaaS products</a></li></ul></div>
+          <div class="mega-col"><h3><a href="/services/ai-software-engineering">AI &amp; Engineering</a></h3><ul><li><a href="/services/ai-agent-development">AI agents</a></li><li><a href="/services/ai-workflow-automation">AI automation</a></li><li><a href="/services/ai-chatbot-development">AI chatbots</a></li><li><a href="/services/erp-development">ERP</a></li><li><a href="/services/custom-software-development">Custom software</a></li><li><a href="/services/business-tools-automation">Tools &amp; automations</a></li></ul></div>
+          <div class="mega-foot"><span>One team across brand, growth, ecommerce, marketplaces, quick commerce, apps and AI.</span><a class="link-arrow" href="/services">View all services <span class="arr">&rarr;</span></a></div>
+        </div>
+      </div></div>
+      <a href="/work">Work</a>
+      <a href="/blog" class="active">Blog</a>
+      <a href="/about">About</a>
+      <a href="/faq">FAQ</a>
+    </div>
+    <div class="nav-right">
+      <a class="btn btn-primary nav-cta" href="/#contact">Start a project</a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mm-top">
+    <span class="nav-logo"><img src="/assets/logo.png" alt="gaa-tha" width="120" height="26"></span>
+    <button class="mm-close" aria-label="Close menu">&#10005;</button>
+  </div>
+  <nav class="mm-links" aria-label="Mobile">
+    <details><summary><span class="num">01</span> Services</summary><div class="mm-sub"><div><h4><a href="/services/brand-and-creative">Brand &amp; Creative</a></h4><ul><li><a href="/services/branding-agency">Branding</a></li><li><a href="/services/graphic-design">Graphic design</a></li><li><a href="/services/reels-short-form-video">Reels</a></li><li><a href="/services/ai-ads-ai-ad-shoots">AI ads</a></li><li><a href="/services/cinema-ads-film-production">Cinema ads</a></li><li><a href="/services/ai-cloning-spokesperson">AI cloning</a></li><li><a href="/services/product-photography-ecommerce">Product photography</a></li><li><a href="/services/content-writing-copywriting">Copywriting</a></li><li><a href="/services/catalogues-presentations">Catalogues &amp; decks</a></li></ul></div><div><h4><a href="/services/growth-marketing">Growth Marketing</a></h4><ul><li><a href="/services/marketing-strategy">Marketing strategy</a></li><li><a href="/services/social-media-marketing">Social media</a></li><li><a href="/services/meta-ads-agency">Meta ads</a></li><li><a href="/services/google-ads-agency">Google ads</a></li><li><a href="/services/seo-aeo-geo">SEO, AEO &amp; GEO</a></li><li><a href="/services/local-seo-google-business-profile">Local SEO &amp; GBP</a></li><li><a href="/services/influencer-ugc-marketing">Influencer &amp; UGC</a></li><li><a href="/services/b2b-lead-generation">B2B &amp; export leads</a></li><li><a href="/services/campaign-planning">Campaign planning</a></li></ul></div><div><h4><a href="/services/ecommerce">D2C Ecommerce</a></h4><ul><li><a href="/services/shopify-development">Shopify stores</a></li><li><a href="/services/shopify-migration">Shopify migration</a></li><li><a href="/services/shopify-plus-headless-development">Shopify Plus &amp; headless</a></li><li><a href="/services/multi-location-shopify-local-delivery">Multi-location Shopify</a></li><li><a href="/services/ecommerce-website-development">Ecommerce websites</a></li><li><a href="/services/shopify-store-management">Store management</a></li><li><a href="/services/conversion-rate-optimisation">CRO</a></li><li><a href="/services/d2c-performance-marketing">D2C performance</a></li><li><a href="/services/ecommerce-seo">Ecommerce SEO</a></li><li><a href="/services/d2c-brand-launch">D2C brand launch</a></li></ul></div><div><h4><a href="/services/marketplaces">Marketplaces</a></h4><ul><li><a href="/services/amazon-onboarding">Amazon onboarding</a></li><li><a href="/services/amazon-account-management">Amazon management</a></li><li><a href="/services/flipkart-seller-management">Flipkart</a></li><li><a href="/services/myntra-onboarding">Myntra</a></li><li><a href="/services/nykaa-onboarding">Nykaa</a></li><li><a href="/services/ajio-onboarding">AJIO</a></li><li><a href="/services/meesho-jiomart-onboarding">Meesho &amp; JioMart</a></li><li><a href="/services/fashion-marketplace-growth">Fashion marketplace growth</a></li><li><a href="/services/marketplace-listing-optimisation">Listing optimisation</a></li><li><a href="/services/marketplace-ads-management">Marketplace ads</a></li><li><a href="/services/reviews-ratings-management">Reviews &amp; ratings</a></li></ul></div><div><h4><a href="/services/quick-commerce">Quick Commerce</a></h4><ul><li><a href="/services/quick-commerce-agency">Quick commerce</a></li><li><a href="/services/blinkit-onboarding">Blinkit onboarding</a></li><li><a href="/services/blinkit-account-management">Blinkit management</a></li><li><a href="/services/zepto-onboarding">Zepto onboarding</a></li><li><a href="/services/zepto-account-management">Zepto management</a></li><li><a href="/services/swiggy-instamart-onboarding">Instamart onboarding</a></li><li><a href="/services/instamart-account-management">Instamart management</a></li><li><a href="/services/flipkart-minutes-amazon-now-onboarding">Flipkart Minutes &amp; Amazon Now</a></li><li><a href="/services/bigbasket-onboarding">BigBasket onboarding</a></li><li><a href="/services/quick-commerce-ads">Quick commerce ads</a></li><li><a href="/services/quick-commerce-content">Q-commerce content</a></li></ul></div><div><h4><a href="/services/technology">Websites &amp; Apps</a></h4><ul><li><a href="/services/website-development">Websites</a></li><li><a href="/services/portfolio-brand-website-design">Portfolio sites</a></li><li><a href="/services/app-design-development">App design</a></li><li><a href="/services/mobile-app-development">Mobile apps</a></li><li><a href="/services/ecommerce-app-development">Ecommerce &amp; sales apps</a></li><li><a href="/services/saas-product-development">SaaS products</a></li></ul></div><div><h4><a href="/services/ai-software-engineering">AI &amp; Engineering</a></h4><ul><li><a href="/services/ai-agent-development">AI agents</a></li><li><a href="/services/ai-workflow-automation">AI automation</a></li><li><a href="/services/ai-chatbot-development">AI chatbots</a></li><li><a href="/services/erp-development">ERP</a></li><li><a href="/services/custom-software-development">Custom software</a></li><li><a href="/services/business-tools-automation">Tools &amp; automations</a></li></ul></div><a class="link-arrow" href="/services">All services <span class="arr">&rarr;</span></a></div></details>
+    <a href="/work"><span class="num">02</span> Work</a>
+    <a href="/blog"><span class="num">03</span> Blog</a>
+    <a href="/about"><span class="num">04</span> About</a>
+    <a href="/faq"><span class="num">05</span> FAQ</a>
+    <a href="/#contact"><span class="num">06</span> Contact</a>
+  </nav>
+  <div class="mm-foot">
+    <a class="btn btn-primary" href="/#contact">Start a project</a>
+    <a class="mm-mail" href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
+  </div>
+</div>
+<!-- /chrome:nav -->
+
+<div class="site">
+
+<header class="article-hero">
+  <div class="wrap">
+    <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/blog">Blog</a><span class="sep">/</span><span>AI &amp; Software</span></nav>
+    <h1 class="reveal">AI agents for business: use cases and how to build one</h1>
+    <div class="article-meta reveal">
+      <span>By gaa-tha</span><span class="dot">&middot;</span>
+      <time datetime="2026-10-22">22 October 2026</time><span class="dot">&middot;</span>
+      
+      <span>13 min read</span><span class="dot">&middot;</span>
+      <span>AI &amp; Software</span>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <div class="ph r-16x9 has-img" data-slot="Blog cover" data-ref="blog/ai-agents-for-business-guide" data-key="cover"><img src="/assets/blog/ai-agents-for-business-guide.webp" alt="AI agents for business: use cases and how to build one" width="1600" height="893" srcset="/assets/blog/ai-agents-for-business-guide-800.webp 800w, /assets/blog/ai-agents-for-business-guide.webp 1600w" sizes="(max-width: 960px) 100vw, 50vw" decoding="async"><span class="ph-label">Blog cover · 16:9</span></div>
+    <article class="prose" style="margin-top:36px">
+<p class="lead">An AI agent for business is software that uses a large language model to pursue a defined goal: it decides which steps to take, calls tools such as your CRM, Shopify store or ERP, remembers context, and works within guardrails you set. Unlike a chatbot, it acts; unlike fixed automation, it copes with variation. The best first agents do one narrow, repetitive job, such as qualifying leads or answering order-status queries, with a person approving anything risky.</p>
+<div class="takeaways"><h2>Key takeaways</h2><ul><li>An AI agent combines a goal, tools, memory and guardrails; remove one and you have a chatbot or a script.</li><li>Start with one narrow, high-volume job with a written definition of done, not a general “AI assistant”.</li><li>Most of the effort goes into data access, evaluation and approvals, not the prompt.</li><li>Choose Claude, GPT, Gemini or an open-weight model by testing on your own cases, and keep the option to switch.</li><li>Hallucination, data leakage and prompt injection are controlled by design: narrow permissions, grounded answers and human approval for irreversible actions.</li></ul></div>
+<h2>What is an AI agent, in plain terms?</h2>
+<p>An AI agent is a program that uses a large language model to reach a defined goal by choosing its own next step, calling tools to act on real systems, and checking the result before it moves on. Four parts make something an agent rather than a clever prompt:</p>
+<ul>
+<li><strong>A goal.</strong> A specific job with a clear definition of done, such as “every new lead is scored, enriched and assigned within ten minutes”.</li>
+<li><strong>Tools.</strong> Functions the agent can call: read an order in Shopify, search the CRM, query the ERP, send a WhatsApp template, create a draft purchase order.</li>
+<li><strong>Memory.</strong> Short-term context for the current task (what the customer already said) and long-term knowledge (policies, past tickets, product data) retrieved when needed.</li>
+<li><strong>Guardrails.</strong> Rules on what it may and may not do: spending limits, actions that need a human’s approval, topics it must refuse, and a step limit so it cannot loop forever.</li>
+</ul>
+<p>The agent runs in a loop: read the situation, decide on an action, call a tool, look at what came back, and repeat until the goal is met or it hands over to a person. A simple example is an order-status agent on WhatsApp. A customer writes “mera order kab aayega?”; the agent finds the order by phone number in Shopify, pulls the latest scan from the courier, replies in Hinglish with the expected date, and, if the parcel is stuck in non-delivery, opens a ticket for the support team with the full context attached.</p>
+<h2>How is an AI agent different from a chatbot or an automation?</h2>
+<p>An automation follows fixed rules, a chatbot answers questions, and an agent decides and acts across systems. The differences matter because each has a different cost, risk and maintenance profile.</p>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Aspect</th><th>Rule-based automation</th><th>AI chatbot</th><th>AI agent</th></tr></thead>
+<tbody>
+<tr><td>What it does</td><td>Runs the same steps every time a trigger fires</td><td>Answers questions in natural language</td><td>Plans steps towards a goal and takes actions</td></tr>
+<tr><td>Handles messy input</td><td>No; breaks on anything unexpected</td><td>Yes, for conversation</td><td>Yes, for conversation, documents and data</td></tr>
+<tr><td>Acts on systems</td><td>Yes, but only the steps it was given</td><td>Rarely, or through fixed buttons</td><td>Yes, through tools it chooses between</td></tr>
+<tr><td>Typical example</td><td>New Shopify order → Google Sheet row</td><td>Website FAQ assistant</td><td>Qualifies a lead, books the call, updates the CRM</td></tr>
+<tr><td>Best when</td><td>The process is stable and rule-based</td><td>People need answers, not actions</td><td>Steps vary case by case but the goal is clear</td></tr>
+<tr><td>Main risk</td><td>Silent failure when an input changes</td><td>Confident wrong answers</td><td>Wrong actions taken on real systems</td></tr>
+</tbody></table></div>
+<p>Most production systems combine them. A dependable pattern is a fixed workflow in n8n or code that calls an AI step only where judgement is needed, or an agent whose tools are themselves tested workflows. Our guides to <a href="/blog/ai-workflow-automation-n8n-make-zapier">AI workflow automation</a> and <a href="/blog/ai-chatbot-for-website-and-whatsapp">AI chatbots for websites and WhatsApp</a> cover the other two in depth.</p>
+<h2>Where do AI agents pay off for Indian SMEs, D2C brands and B2B companies?</h2>
+<p>AI agents pay off on jobs that are frequent, follow a recognisable pattern but vary in detail, and currently eat hours of skilled staff time. These are the most common, with the systems involved:</p>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Use case</th><th>Who it suits</th><th>Tools the agent calls</th><th>Where a human checks</th></tr></thead>
+<tbody>
+<tr><td>Lead qualification</td><td>B2B manufacturers, exporters, real estate, education</td><td>IndiaMART or Meta lead forms, CRM (Zoho, HubSpot, LeadSquared), WhatsApp</td><td>Before quotes or prices are sent</td></tr>
+<tr><td>Support and order status</td><td>D2C brands on Shopify</td><td>Shopify, courier tracking (Shiprocket, Delhivery), helpdesk</td><td>Refunds, replacements, angry customers</td></tr>
+<tr><td>COD confirmation and NDR follow-up</td><td>D2C brands with high COD share</td><td>Shopify, WhatsApp templates, courier NDR data</td><td>Cancellations above a set value</td></tr>
+<tr><td>Catalogue enrichment</td><td>Brands listing on Shopify, Amazon, Flipkart, Myntra</td><td>PIM or Google Sheets, marketplace templates, image tools</td><td>Claims, HSN codes, sizing</td></tr>
+<tr><td>Reporting</td><td>Founders and category managers</td><td>Shopify, Seller Central, ad platforms, quick-commerce reports</td><td>Anomalies it flags</td></tr>
+<tr><td>Research</td><td>Exporters, sales and strategy teams</td><td>Web search, company databases, CRM</td><td>Before outreach</td></tr>
+<tr><td>Procurement</td><td>Manufacturers and distributors</td><td>Email inbox, ERP or Tally, supplier price history</td><td>Every purchase order before release</td></tr>
+</tbody></table></div>
+<p>A good first candidate passes four tests: the volume is high enough to matter, the data it needs is reachable by API or export, a wrong output can be caught before it causes harm, and someone owns the outcome today and can judge whether the agent does it well. Lead qualification and order-status support usually pass all four. Fully autonomous procurement usually does not, so start it as a drafting assistant.</p>
+<p>For D2C brands, support and COD agents sit on top of the store, so a clean <a href="/services/shopify-development">Shopify build</a> and reliable order data come first; the customer-facing layer is covered under <a href="/services/ai-chatbot-development">AI chatbot development</a>, and our note on <a href="/blog/cod-vs-prepaid">COD vs prepaid</a> explains why confirmation flows matter. For manufacturers and distributors, procurement and reporting agents need ERP access, which is why we cover <a href="/blog/custom-erp-vs-odoo-vs-erpnext-vs-tally">choosing between Tally, Odoo, ERPNext and custom ERP</a> separately.</p>
+<h2>How do you build an AI agent, step by step?</h2>
+<p>You build an AI agent by narrowing the job first and choosing technology last. The sequence we follow:</p>
+<ol>
+<li><strong>Pick one job and define done.</strong> Write the goal, the inputs, the expected output and three examples of success and failure. “Help sales” is not a job; “score and route every inbound lead within ten minutes” is.</li>
+<li><strong>Map tools and data.</strong> List every system the agent must read or write, how it connects (API, webhook, database, Tally’s XML interface, a spreadsheet) and the narrowest permission it needs. Read-only access first.</li>
+<li><strong>Choose the model.</strong> Match the model to the task’s difficulty, language and data-handling needs (see the next section).</li>
+<li><strong>Choose orchestration.</strong> Decide what runs the loop: a workflow tool, an agent framework or plain code.</li>
+<li><strong>Connect tools and knowledge.</strong> Expose tools through APIs or MCP, and ground answers in your own documents with retrieval (RAG).</li>
+<li><strong>Build an evaluation set.</strong> Collect 50 to 200 real past cases with the correct outcome, and score every version of the agent against them.</li>
+<li><strong>Add human approval.</strong> Decide which actions run automatically and which wait for a person.</li>
+<li><strong>Launch in shadow mode.</strong> Let the agent draft while people act, compare the two for a week or two, then hand over the actions it gets right.</li>
+<li><strong>Monitor and control cost.</strong> Log every step, watch cost per task and review failures weekly.</li>
+</ol>
+<p>Steps 2, 6 and 7 take most of the effort. The prompt is rarely the hard part; reliable data access and honest testing are.</p>
+<h2>Which model should power the agent: Claude, GPT, Gemini or open-source?</h2>
+<p>Choose the model by testing two or three candidates on your own evaluation set, because rankings change every few months and differ by task. As a starting point:</p>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Option</th><th>Commonly chosen for</th><th>Consider</th></tr></thead>
+<tbody>
+<tr><td>Claude (Anthropic)</td><td>Tool use, long documents, careful instruction-following, coding-heavy agents</td><td>Available through Anthropic’s API and major clouds</td></tr>
+<tr><td>GPT (OpenAI)</td><td>General-purpose agents, broad ecosystem, voice and vision features</td><td>Widest range of third-party integrations</td></tr>
+<tr><td>Gemini (Google)</td><td>Very long context, multimodal input, Google Cloud and Workspace stacks</td><td>Natural fit if your data already lives in Google Cloud</td></tr>
+<tr><td>Open-weight models (Llama, Mistral, Qwen, DeepSeek)</td><td>Self-hosting for data control, high-volume simple tasks</td><td>You run GPUs or a hosting provider, and own updates and safety tuning</td></tr>
+</tbody></table></div>
+<p>Three practical rules. First, route by task: a small, fast model can classify and extract, while a larger model handles multi-step reasoning, which often cuts running cost sharply. Second, test Indian languages explicitly; Hindi and Hinglish are handled well by the major models, Gujarati, Tamil and other Indic languages vary more, and Indic-focused models such as those from Sarvam are worth including in the test. Third, keep the model behind a thin layer of your own code so you can switch providers without rebuilding the agent.</p>
+<h2>What do orchestration, MCP and RAG mean, and do you need them?</h2>
+<p>Orchestration, MCP and RAG are the plumbing that turns a model into a working agent; most business agents need a little of each.</p>
+<h3>Orchestration</h3>
+<p>Orchestration is the code that runs the agent loop, passes tool results back to the model, enforces step limits and records what happened. Options range from the AI Agent node in n8n, to frameworks such as LangGraph, the OpenAI Agents SDK, the Claude Agent SDK and Google’s Agent Development Kit, to a few hundred lines of plain Python or TypeScript. For a single-job agent, simpler is better: fewer moving parts means easier debugging.</p>
+<h3>MCP (Model Context Protocol)</h3>
+<p>MCP is an open standard, introduced by Anthropic and now supported across the major AI providers, for connecting models to tools and data. You describe a tool once as an MCP server, such as “look up order by phone number”, and any MCP-capable agent or assistant can use it. A growing number of SaaS products publish their own MCP servers. For a business, the benefit is reuse: the same Shopify or ERP connector can serve the support agent, the reporting agent and staff using an AI assistant.</p>
+<h3>RAG (retrieval-augmented generation)</h3>
+<p>RAG means the agent searches your own knowledge, such as policies, product data, SOPs and past tickets, and answers from what it finds rather than from memory. It is the main defence against invented answers, and it is cheaper and easier to keep current than fine-tuning a model. Good RAG depends on clean, well-structured source documents more than on the choice of vector database.</p>
+<h2>How do you test, approve and monitor an agent in production?</h2>
+<p>You test an agent against real past cases before launch, gate risky actions behind human approval, and log every step after launch. Concretely:</p>
+<ul>
+<li><strong>Evaluation.</strong> Score each version on task success, wrong-action rate, escalation rate, cost per task and response time. Re-run the set after every prompt, model or tool change.</li>
+<li><strong>Approval tiers.</strong> Read-only actions run freely; reversible actions (tagging a ticket, drafting a reply) run with a log; irreversible or money-related actions (refunds, discounts, purchase orders, messages promising delivery dates) wait for a person, usually with one-tap approval on WhatsApp or Slack.</li>
+<li><strong>Tracing.</strong> Store the input, every tool call, every model response and the final output for each task, so any mistake can be replayed and explained.</li>
+<li><strong>Alerts.</strong> Notify a named owner when failure rate, cost or escalations cross a threshold.</li>
+<li><strong>Weekly review.</strong> Read a sample of conversations and every failure, add new cases to the evaluation set, and fix the cause rather than patching the prompt for one example.</li>
+</ul>
+<h2>What are the risks of AI agents, and how do you control them?</h2>
+<p>The three main risks are invented answers, exposure of data and manipulation through prompt injection, and each is controlled by design rather than by a better prompt.</p>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Risk</th><th>What it looks like</th><th>Controls that work</th></tr></thead>
+<tbody>
+<tr><td>Hallucination</td><td>A confident wrong delivery date, price or policy</td><td>Answer only from retrieved sources or tool results; structured outputs validated by code; say “I’ll check with the team” when unsure</td></tr>
+<tr><td>Data security</td><td>Customer details sent where they should not go, or keys with too much access</td><td>Least-privilege API keys, masking personal data the model does not need, provider terms that exclude training on your data, audit logs</td></tr>
+<tr><td>Prompt injection</td><td>An email, review or web page contains hidden instructions the agent obeys</td><td>Treat all external text as data, restrict tools while processing untrusted input, require confirmation before sending or paying</td></tr>
+<tr><td>Runaway cost</td><td>A loop calls the model hundreds of times</td><td>Step limits, per-task budgets, alerts on spend</td></tr>
+</tbody></table></div>
+<p>Prompt injection is listed first in the OWASP Top 10 for large language model applications for good reason: any agent that reads emails, supplier PDFs or web pages can meet it. For personal data, Indian businesses should design to the Digital Personal Data Protection Act, 2023 and its rules, and brands selling to Canada or Europe also to PIPEDA or GDPR. Check where each provider processes and stores data, and prefer business API tiers over consumer apps.</p>
+<h2>What drives the cost of building and running an AI agent?</h2>
+<p>The cost of an AI agent is driven mostly by integrations, testing and volume, not by the model itself. The main drivers:</p>
+<ul>
+<li><strong>Build:</strong> the number of systems it connects to, how clean and reachable your data is, the approval interface, the number of languages, and the depth of the evaluation set.</li>
+<li><strong>Running:</strong> model usage (tokens per task multiplied by tasks per month), hosting, a search index for RAG, WhatsApp message charges where relevant, and logging.</li>
+<li><strong>Upkeep:</strong> API changes in connected tools, model upgrades, new edge cases and periodic re-testing.</li>
+</ul>
+<p>The useful comparison is cost per completed task against what the task costs today in staff time, delay and errors. Include the human review time the agent still needs. If an agent saves two minutes on a task done ten times a day, it is probably not worth building; if it saves twenty minutes on a task done two hundred times a day, it usually is.</p>
+<h2>How do you choose an AI agent development company?</h2>
+<p>Choose an AI agent development company by how it tests and secures agents, not by its demos. The types you will meet are freelancers (fast and affordable, but a single point of failure), no-code automation agencies (quick for workflows, limited when custom code is needed), product engineering firms (strong code, sometimes thin on business process) and full-service agencies with an engineering team (closer to marketing and commerce operations). Whichever type you talk to, ask:</p>
+<ol>
+<li>How will you measure whether the agent works, and can we see the evaluation set?</li>
+<li>Which actions will run without approval, and why?</li>
+<li>Who owns the code, prompts, connectors and data at the end?</li>
+<li>Can we switch the model provider later without a rebuild?</li>
+<li>Have you integrated the systems we use, such as Tally, Zoho, Shopify or our ERP?</li>
+<li>What does monitoring and support look like after launch?</li>
+<li>Will you start with a scoped pilot on one job?</li>
+</ol>
+<p>At gaa-tha, our <a href="/services/ai-agent-development">AI agent development</a> work starts with exactly that: one job, a written definition of done and an evaluation set before any build. Agents that need a portal, an approval app or deeper system work sit with our <a href="/services/custom-software-development">custom software development</a> team, and simpler, fixed processes often belong in <a href="/services/ai-workflow-automation">AI workflow automation</a> instead. The <a href="/services/ai-software-engineering">AI and software engineering</a> hub shows how the pieces fit.</p>
+<hr><h2>Frequently asked questions</h2><div class="faq-list"><div class="faq-item"><button class="faq-q" aria-expanded="false">What is the difference between an AI agent and ChatGPT?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>ChatGPT is a general assistant that a person talks to, while a business AI agent is built for one job and can act on your systems. An agent has access to your tools and data, follows your rules, and works whether or not anyone is chatting with it, for example by processing every new lead as it arrives.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">How long does it take to build an AI agent for a business?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>A narrow, single-job agent can usually reach a pilot in a few weeks, and an agent that spans several systems takes a few months. The timeline depends mainly on how quickly data access is set up and how long shadow-mode testing runs, not on writing prompts.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Can an AI agent work with Tally, Zoho or our ERP?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Yes, if the system can be reached by API, database, export or a connector. Zoho, Odoo and ERPNext have documented APIs; Tally is usually connected through its XML interface or a connector running on the machine where Tally is installed. Start with read-only access and add write actions behind approval.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Is it safe to give an AI agent access to customer data?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>It can be, when the agent has the narrowest permissions it needs, personal data is masked where the model does not need it, and the provider’s business terms exclude training on your data. Log every action and keep irreversible steps behind human approval.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Do we need to train or fine-tune our own model?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>Almost never for a first agent. Retrieval over your own documents and good tool design solve most business needs, and they are easier to update than a fine-tuned model. Fine-tuning becomes worth considering only at high volume for a narrow, stable task.</p></div></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false">Will an AI agent replace our staff?<span class="faq-ic" aria-hidden="true">+</span></button><div class="faq-a"><div><p>In practice, a well-scoped agent removes repetitive steps so staff spend their time on judgement, exceptions and customers. Most businesses use the time saved to handle more volume or respond faster, and they still need people to approve, review and improve the agent.</p></div></div></div></div>
+      <div class="author-box"><span class="ab-mark">g</span><div><b>Written by the gaa-tha team</b><p>Founded in 2024 by Abhishek Khuthiya and Getansh Savla. <a href="/about">About the studio</a> · <a href="https://www.linkedin.com/company/teamgaatha/" rel="noopener" target="_blank">LinkedIn</a></p></div></div>
+      <div class="article-cta">
+        <h2>Want this done for you?</h2>
+        <p>gaa-tha builds the strategy, the creative and the commerce operations — for brands across India and beyond.</p>
+        <a class="btn btn-primary btn-lg" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+      </div>
+    </article>
+  </div>
+
+  <section class="section surface bordered" aria-label="Related">
+    <div class="wrap">
+      <div class="section-head"><p class="eyebrow">Go deeper</p><h2 class="section-title display">Related services and work</h2></div>
+      <div class="grid grid-4" data-stagger="0.06"><a class="card reveal" href="/services/ai-agent-development"><span class="card-idx">AI &amp; Engineering</span><h3>AI Agent Development</h3><p>Custom AI agents that take a goal, use your tools and finish the task — inside guardrails, approvals and logs.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="card reveal" href="/services/ai-workflow-automation"><span class="card-idx">AI &amp; Engineering</span><h3>AI Workflow Automation</h3><p>Automations across your apps, with AI steps that read, sort and write — so data moves without copy-paste.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a><a class="card reveal" href="/services/ai-chatbot-development"><span class="card-idx">AI &amp; Engineering</span><h3>AI Chatbot Development</h3><p>Website and WhatsApp chatbots that know your catalogue and policies, capture leads and hand over to a person when it matters.</p><span class="link-arrow">Explore <span class="arr">&rarr;</span></span></a></div>
+    </div>
+  </section>
+</main>
+
+<!-- chrome:footer -->
+<section class="footer-cta">
+  <div class="wrap footer-cta-row">
+    <h2 class="display">Got a story to tell? Let&#39;s make it legendary.</h2>
+    <a class="btn btn-primary btn-lg" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="footer-logo" href="/" aria-label="gaa-tha — home">
+          <img src="/assets/logo.png" alt="gaa-tha — Crafting Tales" width="842" height="296" loading="lazy">
+        </a>
+        <p>Crafting tales that turn brands into movements — strategy, storytelling and AI-driven results. India-rooted, globally minded.</p>
+        <div class="footer-socials">
+          <a href="https://instagram.com/__gaa.tha__/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.linkedin.com/company/teamgaatha/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.facebook.com/people/Gaa-tha/61562303836796/" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+      <nav class="footer-col" aria-label="Services">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="/services">All services</a></li>
+          <li><a href="/services/brand-and-creative">Brand &amp; Creative</a></li>
+          <li><a href="/services/growth-marketing">Growth Marketing</a></li>
+          <li><a href="/services/ecommerce">D2C Ecommerce</a></li>
+          <li><a href="/services/marketplaces">Marketplaces</a></li>
+          <li><a href="/services/quick-commerce">Quick Commerce</a></li>
+          <li><a href="/services/technology">Websites &amp; Apps</a></li>
+          <li><a href="/services/ai-software-engineering">AI &amp; Engineering</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="Explore">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="/work">Work &amp; case studies</a></li>
+          <li><a href="/reels">Reels</a></li>
+          <li><a href="/websites">Websites</a></li>
+          <li><a href="/branding">Branding</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+      <div class="footer-col footer-say">
+        <h3>Say hello</h3>
+        <a class="fsay-line" href="mailto:digimarketing@gaa-tha.com">digimarketing@gaa-tha.com</a>
+        <a class="fsay-line" href="tel:+919737280309">+91 97372 80309</a>
+        <a class="fsay-line" href="tel:+917781818981">+91 77818 18981</a>
+        <a class="btn btn-primary" href="/#contact">Start a project <span class="arr">&rarr;</span></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer-bottom">
+    <div class="wrap footer-bottom-inner">
+      <span class="fmeta">
+        <span>&copy; <span data-year>2026</span> gaa-tha. All rights reserved.</span>
+        <span class="fdot">&#9670;</span>
+        <span>Crafting tales since 2024</span>
+      </span>
+      <a href="#" class="to-top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </div>
+</footer>
+<!-- /chrome:footer -->
+</div>
+
+<script defer src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script defer src="/gaatha.js"></script>
+<script defer src="/gaatha-cms.js"></script>
+
+</body>
+</html>
