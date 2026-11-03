@@ -1,6 +1,6 @@
 # Generated URLs — review table
 
-Generated 2026-10-22 by build/build.js.
+Generated 2026-11-03 by build/build.js.
 
 | URL | Title | Meta description | Schema | Published |
 |---|---|---|---|---|

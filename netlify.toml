@@ -196,6 +196,36 @@
   [headers.values]
     X-Robots-Tag = "noindex, nofollow"
 
+[[headers]]
+  for = "/GaathaAdmin123.html"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/manage.html"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/reels-admin.html"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/websites-admin.html"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/branding-admin.html"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/clients-admin.html"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
 # ---- Caching: long-lived for static media, revalidated for code ----
 # Images/video in /assets rarely change.
 [[headers]]
@@ -219,6 +249,25 @@
 [[headers]]
   for = "/*.js"
   [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Favicons and the web app manifest.
+[[headers]]
+  for = "/favicon.ico"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/site.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json; charset=utf-8"
+    Cache-Control = "public, max-age=86400"
+
+# Sitemap: always revalidate so Google and Bing see new pages right after a deploy.
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
     Cache-Control = "public, max-age=0, must-revalidate"
 
 [[headers]]

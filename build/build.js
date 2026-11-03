@@ -335,6 +335,69 @@ const webSiteSchema = () => ({ '@type': 'WebSite', '@id': `${SITE_URL}/#website`
 const crumbSchema = (items) => ({ '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: abs(url) })) });
 const faqSchema = (items) => ({ '@type': 'FAQPage', mainEntity: items.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: Array.isArray(f.a) ? f.a.join(' ') : f.a } })) });
 
+/* ------------------------------------------------ brand + social head tags */
+// Every page — generated here or hand-written at the root — gets the same icon,
+// Open Graph and X/Twitter block, so a share on WhatsApp, LinkedIn, Facebook,
+// X or Slack always shows the same brand name, locale, image size and alt text.
+const FB_PAGE = (site.sameAs || []).find((u) => /facebook\.com/.test(u)) || '';
+const DEFAULT_OG_ALT = 'gaa-tha — Crafting Tales: a sketchbook of brand storyboards with packaging, a pen and a phone on a linen table';
+const ICON_LINKS = `<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">`;
+// Pixel size of a local JPEG or PNG (no dependencies), or null.
+const imageSizeCache = {};
+function imageSize(file) {
+  if (file in imageSizeCache) return imageSizeCache[file];
+  let size = null;
+  try {
+    const b = fs.readFileSync(file);
+    if (b.readUInt32BE(0) === 0x89504e47) size = { width: b.readUInt32BE(16), height: b.readUInt32BE(20) };
+    else if (b[0] === 0xff && b[1] === 0xd8) {
+      let i = 2;
+      while (i < b.length) {
+        if (b[i] !== 0xff) { i++; continue; }
+        const m = b[i + 1];
+        if (m >= 0xc0 && m <= 0xcf && m !== 0xc4 && m !== 0xc8 && m !== 0xcc) { size = { width: b.readUInt16BE(i + 7), height: b.readUInt16BE(i + 5) }; break; }
+        i += 2 + b.readUInt16BE(i + 2);
+      }
+    }
+  } catch (e) { /* remote or missing image */ }
+  return (imageSizeCache[file] = size);
+}
+// o: { type, title, description, url, image, alt, published, modified }
+function socialMeta(o) {
+  const img = absUrl(o.image);
+  const local = img.startsWith(SITE_URL + '/') ? path.join(ROOT, decodeURI(img.slice(SITE_URL.length))) : null;
+  const size = local && imageSize(local);
+  if (local && !fs.existsSync(local)) warn('og:image missing on disk: ' + img);
+  if (size && (size.width < 1200 || Math.abs(size.width / size.height - 1.91) > 0.05)) warn(`og:image not 1200×630 (${size.width}×${size.height}): ${img}`);
+  const mime = /\.png$/i.test(img) ? 'image/png' : /\.webp$/i.test(img) ? 'image/webp' : 'image/jpeg';
+  const alt = o.alt || (/\/og-default\.jpg$/.test(img) ? DEFAULT_OG_ALT : o.title);
+  return [
+    `<meta property="og:type" content="${esc(o.type || 'website')}">`,
+    `<meta property="og:site_name" content="gaa-tha">`,
+    `<meta property="og:locale" content="en_IN">`,
+    `<meta property="og:title" content="${esc(o.title)}">`,
+    `<meta property="og:description" content="${esc(o.description)}">`,
+    `<meta property="og:url" content="${esc(o.url)}">`,
+    `<meta property="og:image" content="${esc(img)}">`,
+    `<meta property="og:image:secure_url" content="${esc(img)}">`,
+    `<meta property="og:image:type" content="${mime}">`,
+    size ? `<meta property="og:image:width" content="${size.width}">\n<meta property="og:image:height" content="${size.height}">` : '',
+    `<meta property="og:image:alt" content="${esc(alt)}">`,
+    o.published ? `<meta property="article:published_time" content="${esc(o.published)}">\n<meta property="article:modified_time" content="${esc(o.modified || o.published)}">${FB_PAGE ? `\n<meta property="article:publisher" content="${esc(FB_PAGE)}">` : ''}` : '',
+    `<meta name="twitter:card" content="summary_large_image">`,
+    `<meta name="twitter:title" content="${esc(o.title)}">`,
+    `<meta name="twitter:description" content="${esc(o.description)}">`,
+    `<meta name="twitter:image" content="${esc(img)}">`,
+    `<meta name="twitter:image:alt" content="${esc(alt)}">`
+  ].filter(Boolean).join('\n');
+}
+// Trim to a word boundary for meta descriptions.
+const clip = (t, n = 155) => { t = String(t || '').trim(); if (t.length <= n) return t; const c = t.slice(0, n - 1); return c.slice(0, c.lastIndexOf(' ')).replace(/[\s,;:—–-]+$/, '') + '…'; };
+
 /* --------------------------------------------------------------- pieces */
 function head(o) {
   // o: { title, description, canonical, ogType, ogImage, schema:[...], noindex, published, modified }
@@ -353,21 +416,10 @@ function head(o) {
 <meta name="theme-color" content="#FFFFFF">
 <link rel="canonical" href="${url}">
 ${o.markdown ? `<link rel="alternate" type="text/markdown" href="${abs(o.markdown)}" title="Markdown version for AI assistants">\n` : ''}
-<link rel="icon" type="image/png" href="/assets/logo.png">
-<link rel="apple-touch-icon" href="/assets/logo.png">
+${ICON_LINKS}
 
-<meta property="og:type" content="${o.ogType || 'website'}">
-<meta property="og:site_name" content="gaa-tha">
-<meta property="og:title" content="${esc(o.title)}">
-<meta property="og:description" content="${esc(o.description)}">
-<meta property="og:url" content="${url}">
-<meta property="og:image" content="${esc(og)}">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="${esc(o.title)}">
-<meta name="twitter:description" content="${esc(o.description)}">
-<meta name="twitter:image" content="${esc(og)}">
-${o.published ? `<meta property="article:published_time" content="${o.published}">\n<meta property="article:modified_time" content="${o.modified || o.published}">` : ''}
+${socialMeta({ type: o.ogType, title: o.title, description: o.description, url, image: og, alt: o.ogAlt, published: o.published, modified: o.modified })}
+
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/montserrat-400-latin.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/poppins-800-latin.woff2" crossorigin>
 <link rel="stylesheet" href="/gaatha.css">
@@ -591,7 +643,7 @@ function renderGroup(g) {
     { '@type': 'ItemList', name: `${g.name} services`, itemListElement: list.map((s, i) => ({ '@type': 'ListItem', position: i + 1, name: s.name, url: abs(svcUrl(s)) })) },
     faqSchema(g.faq)
   ];
-  let html = head({ title, description: g.description.slice(0, 155), canonical: url, schema, active: 'Services', page: 'service-group', markdown: url + '.md' });
+  let html = head({ title, description: clip(g.description), canonical: url, schema, active: 'Services', page: 'service-group', markdown: url + '.md' });
   html += `
   <header class="page-hero">
     <div class="wrap">
@@ -1100,6 +1152,36 @@ function syncTitles(html) {
     return open + out.join('') + close;
   });
 }
+// Hand-written root pages: rebuild the icon/OG/Twitter block from the page's own
+// title, description, canonical and og:image, so they match the generated pages.
+function syncSocial(html) {
+  const headEnd = html.indexOf('</head>');
+  if (headEnd < 0) return html;
+  let headHtml = html.slice(0, headEnd);
+  const attr = (re) => { const m = headHtml.match(re); return m ? decode(m[1]) : ''; };
+  const metaP = (prop) => attr(new RegExp(`<meta\\s+property="${prop}"\\s+content="([^"]*)"`, 'i'));
+  const url = attr(/<link rel="canonical" href="([^"]+)"/);
+  if (!url) return html;
+  const type = metaP('og:type') || 'website';
+  const ld = (k) => (html.match(new RegExp(`"${k}"\\s*:\\s*"([^"]+)"`)) || [])[1];
+  const block = socialMeta({
+    type,
+    title: metaP('og:title') || attr(/<title>([^<]*)<\/title>/),
+    description: metaP('og:description') || attr(/<meta name="description" content="([^"]*)"/),
+    url,
+    image: metaP('og:image') || site.ogImage,
+    published: type === 'article' ? (metaP('article:published_time') || ld('datePublished')) : '',
+    modified: type === 'article' ? (metaP('article:modified_time') || ld('dateModified')) : ''
+  });
+  headHtml = headHtml
+    .replace(/^[ \t]*<link rel="(?:icon|shortcut icon|apple-touch-icon|manifest)"[^>]*>\n/gm, '')
+    .replace(/^[ \t]*<meta (?:property="(?:og|article):[^"]*"|name="twitter:[^"]*")[^>]*>\n/gm, '')
+    .replace(/^[ \t]*<!-- (?:Open Graph|Twitter|Favicons?|Social) -->\n/gm, '');
+  const anchor = headHtml.match(/<link rel="alternate" type="text\/markdown"[^>]*>\n|<link rel="canonical"[^>]*>\n/g);
+  const at = headHtml.lastIndexOf(anchor[anchor.length - 1]) + anchor[anchor.length - 1].length;
+  headHtml = headHtml.slice(0, at) + '\n' + ICON_LINKS + '\n\n' + block + '\n\n' + headHtml.slice(at).replace(/^\n+/, '');
+  return headHtml.replace(/\n{3,}/g, '\n\n') + html.slice(headEnd);
+}
 function syncExistingPages() {
   PUBLIC_PAGES().forEach((file) => {
     const p = path.join(ROOT, file);
@@ -1107,6 +1189,7 @@ function syncExistingPages() {
     const before = html;
     html = fixLinks(html);
     html = syncChrome(file, html);
+    html = syncSocial(html);
     html = syncTitles(html);
     if (file === 'index.html') {
       html = fillMarker(html, 'home:services-groups', homeServiceGroups());
@@ -1129,8 +1212,11 @@ function sitemap() {
   const rows = [];
   const add = (loc, lastmod, freq, pri) => rows.push({ loc: abs(loc), lastmod, freq, pri });
   add('/', gitDate('index.html'), 'weekly', '1.0');
-  add('/services', TODAY, 'weekly', '0.9');
-  groups.forEach((g) => add(groupUrl(g), TODAY, 'weekly', '0.8'));
+  // Hubs change when a page in them changes — not on every build — so search
+  // engines keep trusting lastmod.
+  const newest = (list) => list.map((s) => s.updated).filter(Boolean).sort().pop() || gitDate('services.html');
+  add('/services', newest(services.filter((s) => s.published)), 'weekly', '0.9');
+  groups.forEach((g) => add(groupUrl(g), newest(byGroup(g)), 'weekly', '0.8'));
   services.filter((s) => s.published).forEach((s) => add(svcUrl(s), s.updated || TODAY, 'monthly', '0.8'));
   add('/work', gitDate('work.html'), 'weekly', '0.9');
   publishedCases().forEach((c) => add(caseUrl(c), c.updated || TODAY, 'monthly', '0.7'));
