@@ -1,0 +1,89 @@
+{
+  "slug": "outsource-shopify-development-to-india",
+  "published": true,
+  "type": "cluster",
+  "category": "Outsourcing",
+  "title": "Outsourcing Shopify development to India: a guide for US and UK brands and agencies",
+  "excerpt": "What Shopify work to outsource to India, how it runs across time zones, the quality checks to insist on, who owns what, and how to vet a partner.",
+  "intro": "Outsourcing Shopify development to India works best when you hand a partner well-scoped work (theme builds, custom sections, migrations, integrations or monthly store management), give access through collaborator or staff accounts, insist on preview themes, Git and measurable quality checks, and prove the fit on a small paid pilot before signing a retainer. This guide explains each step for US and UK brands and agencies.",
+  "takeaways": [
+    "Theme builds, custom sections, migrations, app integrations and monthly store management are all well suited to outsourcing; strategy, brand decisions and final sign-off should stay with you.",
+    "Never share an owner password: use a Shopify collaborator account or a staff account with only the permissions the job needs.",
+    "Insist on work in unpublished preview themes, code in a Git repository you own, and Theme Check plus Core Web Vitals results before launch.",
+    "Time zones are manageable when the partner overlaps your working day and the hand-off is written, not verbal.",
+    "Start with a small, paid, fixed-scope pilot and judge the partner on code quality, communication and how they handle feedback."
+  ],
+  "sections": [
+    {
+      "h2": "What Shopify development work can you outsource to India?",
+      "html": "<p>Almost any well-defined Shopify build or maintenance task can be outsourced to India, from a full theme build to a single custom section. What should stay with you is the commercial thinking: who the store is for, what it must sell and how the brand should feel. The table below shows how US and UK brands and agencies typically split the work.</p>\n<div class=\"tbl-wrap\"><table><thead><tr><th>Work type</th><th>Typical scope</th><th>What to keep in-house</th></tr></thead><tbody><tr><td>Theme build or redesign</td><td>Customizing a theme such as Dawn or a premium theme, or building a custom Online Store 2.0 theme from Figma designs</td><td>Brand direction, design approval, copy sign-off</td></tr><tr><td>Custom sections and blocks</td><td>Landing-page sections, bundle builders, size guides, comparison tables, metafield-driven product content</td><td>Deciding which sections the merchandising team actually needs</td></tr><tr><td>Shopify Plus and checkout</td><td>Checkout UI extensions, Shopify Functions for discounts and delivery rules, B2B catalogs and price lists</td><td>Business rules, pricing policy, approvals</td></tr><tr><td>Migrations</td><td>WooCommerce, Magento, BigCommerce or custom platform to Shopify: products, customers, orders, redirects</td><td>Data ownership decisions and final URL mapping review</td></tr><tr><td>Integrations</td><td>ERP, inventory, shipping, reviews, subscriptions, loyalty, email and SMS platforms, analytics</td><td>Vendor contracts and system-of-record decisions</td></tr><tr><td>Store management</td><td>Product uploads, collection and banner changes, app audits, bug fixes, speed checks, sale-season setup</td><td>The promotions calendar and pricing decisions</td></tr></tbody></table></div>\n<p>Agencies often go further and outsource whole builds on a white-label basis, keeping the client relationship, discovery and design in-house while a partner handles development and QA. See <a href=\"/services/white-label-shopify-development\">white-label Shopify development</a> for how that model works, and <a href=\"/services/outsourced-shopify-store-management\">outsourced Shopify store management</a> for the ongoing side.</p>"
+    },
+    {
+      "h2": "Why do US and UK brands and agencies outsource Shopify development?",
+      "html": "<p>Most outsource for capacity and focus rather than price alone: they need dependable Shopify developers without hiring, training and keeping a full in-house team busy.</p>\n<ul>\n<li><strong>Elastic capacity.</strong> Agencies win projects in uneven waves. An outsourced team absorbs the peaks without permanent headcount.</li>\n<li><strong>Specialist skills on demand.</strong> Liquid, Online Store 2.0 sections, metaobjects, checkout extensibility and Shopify Functions are specialist work that a small team may need only a few times a year.</li>\n<li><strong>Cost efficiency.</strong> Labor costs in India are lower than in the US or UK, so the same budget usually buys more build and QA time. Savings disappear quickly if scope is vague or quality is poor, which is why the rest of this guide focuses on process.</li>\n<li><strong>Extended working day.</strong> When part of the team is in India, work can progress while your office is closed, with fixes waiting for you in the morning.</li>\n<li><strong>Focus.</strong> Founders and account managers spend their time on strategy, clients and growth instead of chasing theme bugs.</li>\n</ul>\n<p>The honest trade-offs are communication overhead, time-zone gaps and the risk of a partner who builds exactly what was written rather than what was meant. All three are manageable with the practices below.</p>"
+    },
+    {
+      "h2": "How does an outsourced Shopify project run, step by step?",
+      "html": "<p>A well-run outsourced Shopify project follows the same stages as an in-house one, with more of it written down.</p>\n<ol>\n<li><strong>Brief and discovery.</strong> You share goals, the audience, reference stores, designs or wireframes, the app stack and any integrations. A good partner asks questions before quoting.</li>\n<li><strong>Access.</strong> The partner requests collaborator access (or you create a staff account) with only the permissions needed. For new stores, the build can happen on a development store and be transferred to you.</li>\n<li><strong>Scope and estimate.</strong> A written scope lists templates, sections, integrations, data migration, browsers and devices, and what is out of scope. Acceptance criteria are agreed now, not at launch.</li>\n<li><strong>Build in a preview theme.</strong> Work happens in an unpublished theme, ideally connected to a Git repository, so the live store is never touched until launch. You review through preview links.</li>\n<li><strong>QA.</strong> Theme Check, Lighthouse and Core Web Vitals, cross-browser and device testing, accessibility basics, test orders and tracking checks.</li>\n<li><strong>Launch.</strong> Publish at a low-traffic time, with redirects in place for migrations and a rollback plan (the previous theme stays available).</li>\n<li><strong>Handover and support.</strong> Documentation for every custom section and setting, a short training session, and a defined bug-fix window followed by an optional maintenance retainer.</li>\n</ol>\n<p>For agencies running this white-label, the partner works behind the agency: the agency presents the work, and the partner never contacts the end client unless asked.</p>"
+    },
+    {
+      "h2": "How do you collaborate across time zones with an Indian Shopify team?",
+      "html": "<p>Choose a partner that overlaps your working day and run the project on written, asynchronous updates, and the time difference becomes an advantage rather than a delay.</p>\n<p>India Standard Time is UTC+5:30 and does not change for daylight saving, so the gap shifts slightly through the year. India is 9.5 to 10.5 hours ahead of US Eastern time and 4.5 to 5.5 hours ahead of the UK. The UK working day naturally overlaps with the Indian afternoon; US overlap depends on whether the partner staffs US hours.</p>\n<ul>\n<li><strong>Agree overlap hours in writing.</strong> Some partners offer a few overlapping hours; others cover the full US business day. Know which you are buying.</li>\n<li><strong>Use one shared task board.</strong> Every request gets an owner, a due date and a status, so nothing lives only in chat.</li>\n<li><strong>Write tickets with acceptance criteria.</strong> A screenshot or short screen recording, the URL, the device and the expected result remove most back-and-forth.</li>\n<li><strong>Daily written stand-ups.</strong> A short end-of-day note (done, next, blocked) is worth more than a long weekly call.</li>\n<li><strong>Short weekly call.</strong> Keep one scheduled video call for demos and decisions.</li>\n<li><strong>Use the gap.</strong> Send feedback at the end of your day and review fixes the next morning.</li>\n</ul>"
+    },
+    {
+      "h2": "What quality checks should an outsourced Shopify developer run?",
+      "html": "<p>A professional Shopify partner proves quality with repeatable checks, not just a demo. Ask to see these results before every launch.</p>\n<div class=\"tbl-wrap\"><table><thead><tr><th>Check</th><th>Tool or method</th><th>What it catches</th></tr></thead><tbody><tr><td>Theme code linting</td><td>Theme Check (built into Shopify CLI)</td><td>Liquid errors, deprecated tags, missing translations, performance anti-patterns</td></tr><tr><td>Speed and Core Web Vitals</td><td>Lighthouse, PageSpeed Insights, Shopify's web performance report</td><td>Slow largest contentful paint, layout shift, heavy scripts and images</td></tr><tr><td>Safe previews</td><td>Unpublished themes and preview links, local development with Shopify CLI</td><td>Changes leaking onto the live store before approval</td></tr><tr><td>Version control</td><td>Shopify's GitHub integration or a Git workflow</td><td>Lost work, untracked changes, no way to roll back</td></tr><tr><td>Cross-device testing</td><td>Real iOS and Android phones, desktop browsers</td><td>Broken menus, overflow, sticky elements covering content</td></tr><tr><td>Accessibility basics</td><td>Keyboard navigation, alt text, color contrast checks</td><td>Barriers for customers and avoidable legal risk</td></tr><tr><td>Checkout and tracking</td><td>Test orders, Meta and Google tag diagnostics, GA4 debug view</td><td>Missing purchase events, double counting, broken discounts</td></tr><tr><td>App conflicts</td><td>Audit of installed apps and leftover code</td><td>Scripts from removed apps slowing pages</td></tr></tbody></table></div>\n<p>For a deeper speed and conversion list, see our <a href=\"/blog/shopify-speed-and-conversion-checklist\">Shopify speed and conversion checklist</a>, and check whether native features can replace paid apps with <a href=\"/blog/hidden-shopify-features\">hidden Shopify features</a>.</p>"
+    },
+    {
+      "h2": "Who owns the store, code and accounts when you outsource Shopify work?",
+      "html": "<p>You should own everything: the Shopify store, the domain, the theme code, the Git repository, app subscriptions and every marketing account. The partner only ever gets delegated access.</p>\n<ul>\n<li><strong>Collaborator accounts.</strong> A Shopify Partner can request collaborator access to your store. You approve the request and choose the permissions, and you can remove access at any time. Collaborator accounts generally do not use up your plan's staff seats.</li>\n<li><strong>Staff accounts.</strong> For an individual developer or store manager, a staff account with limited permissions works too. Avoid giving full permissions unless the task truly needs them.</li>\n<li><strong>Never share the owner login.</strong> A partner who asks for the store owner's password is a red flag.</li>\n<li><strong>Development stores.</strong> New builds can start on a partner development store and be transferred to your ownership before launch. Agree that the transfer happens to you (or your client), not to the partner.</li>\n<li><strong>Code and IP.</strong> The contract should state that custom code, designs and documentation transfer to you on payment, and that the repository lives in your GitHub organization.</li>\n<li><strong>Offboarding.</strong> When the engagement ends, access is revoked, credentials rotated and documentation handed over.</li>\n</ul>"
+    },
+    {
+      "h2": "How do you vet an outsourced Shopify development partner?",
+      "html": "<p>Vet a Shopify partner on evidence: live stores they can explain, a code sample, a documented process and clear answers about who does the work.</p>\n<ul>\n<li><strong>Live Shopify stores.</strong> Ask for several, and ask what exactly they built on each: theme, sections, apps, integrations.</li>\n<li><strong>A code sample.</strong> One custom section in a repository shows structure, naming, comments and whether settings are merchant-friendly.</li>\n<li><strong>Process documents.</strong> A sample scope, QA checklist, handover document and status update.</li>\n<li><strong>Who does the work.</strong> In-house team or subcontractors? Who is your day-to-day contact, and are they technical?</li>\n<li><strong>Communication test.</strong> How fast and how clearly do they respond during the sales process? It rarely improves after signing.</li>\n<li><strong>Working hours.</strong> Exactly which hours overlap with yours, and who covers urgent fixes.</li>\n<li><strong>Contracts.</strong> NDA, IP transfer, data protection terms and, for agencies, non-solicitation of your clients. See <a href=\"/blog/white-label-agreements-nda-non-solicitation\">white-label agreements explained</a>.</li>\n<li><strong>Payment terms.</strong> Milestones tied to deliverables, and invoicing and payment methods that suit your finance team.</li>\n</ul>\n<p>For a broader checklist that covers marketing as well as development, read <a href=\"/blog/how-to-choose-an-outsourcing-partner-in-india\">how to choose an outsourcing partner in India</a>.</p>"
+    },
+    {
+      "h2": "How should you start: why a paid pilot, and where does gaa-tha fit?",
+      "html": "<p>Start with a small, paid, fixed-scope pilot: one custom section, a landing page, a speed fix or a month of store management. It tests code quality, communication and responsiveness to feedback on real work, at low risk to both sides. Free tests rarely get a partner's best people; a paid pilot does.</p>\n<p>Define the pilot like a mini project: written scope, acceptance criteria, a deadline, and a short review at the end covering what went well and what to change. If it works, move to a monthly retainer or a project with milestones.</p>\n<p>gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India, with one in-house team that builds Shopify stores and runs the marketing around them. For US and UK brands and agencies we work US and UK business hours, sign an NDA before the brief, work fully unbranded for agencies with no contact with your client unless you ask, agree to non-solicitation and start with a paid pilot. Clients pay by international bank wire, PayPal or card through Stripe, and every engagement is custom-quoted. Our international work includes an ongoing retainer for <a href=\"/work/new-rave\">New Rave</a>, a trading-card and hobbies retailer in Canada. See <a href=\"/services/white-label-shopify-development\">white-label Shopify development</a>, <a href=\"/services/outsourced-shopify-store-management\">outsourced store management</a>, or <a href=\"/#contact\">start with a pilot</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it safe to give an Indian agency access to my Shopify store?",
+      "a": "Yes, if access is delegated rather than shared. Approve a collaborator request or create a staff account with only the permissions the job needs, keep the owner login to yourself, and remove access when the work ends. Pair this with an NDA and a contract that transfers code and IP to you."
+    },
+    {
+      "q": "Do I need to give my Shopify password to an outsourced developer?",
+      "a": "No. Shopify Partners can request collaborator access, and you can also create a limited staff account. A developer who insists on the owner password is a red flag."
+    },
+    {
+      "q": "Can an outsourced team work on Shopify Plus checkout customizations?",
+      "a": "Yes, if they have checkout extensibility experience. Checkout customization on Shopify now runs through checkout UI extensions and Shopify Functions rather than editing checkout templates, so ask for examples of extensions or Functions they have built."
+    },
+    {
+      "q": "How do agencies keep outsourced Shopify work white-label?",
+      "a": "The partner works under the agency's name: no partner branding in code comments, documentation or emails, and no contact with the end client unless the agency asks. An NDA and a non-solicitation clause make this contractual rather than a courtesy."
+    },
+    {
+      "q": "How long does an outsourced Shopify build take?",
+      "a": "It depends on scope. A theme-based store with light customization commonly takes a few weeks, while a custom theme, a migration with large data volumes or Shopify Plus work takes longer. Clear designs and fast feedback shorten timelines more than anything else."
+    },
+    {
+      "q": "How is outsourced Shopify development priced?",
+      "a": "Common models are a fixed price per project for well-defined builds, a monthly retainer for ongoing development and store management, and a dedicated developer for agencies with steady volume. Ask for a written scope with every quote so you can compare like with like."
+    }
+  ],
+  "relatedServices": [
+    "white-label-shopify-development",
+    "outsourced-shopify-store-management",
+    "white-label-agency-partner",
+    "outsource-website-development"
+  ],
+  "relatedCase": "new-rave",
+  "author": "gaa-tha",
+  "readMinutes": 10,
+  "cover": "cov-b",
+  "mark": "Sh",
+  "datePublished": "2026-11-03",
+  "dateModified": "2026-11-03"
+}

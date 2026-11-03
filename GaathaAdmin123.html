@@ -985,6 +985,9 @@
                                             <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Email</th>
                                             <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Company</th>
                                             <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Budget</th>
+                                            <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Type</th>
+                                            <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Country</th>
+                                            <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Service</th>
                                             <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Message</th>
                                             <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Created At</th>
                                             <th style="text-align:left; padding:10px; border-bottom:1px solid #eee;">Actions</th>
@@ -997,6 +1000,9 @@
                                                 <td style=\"padding:10px; border-bottom:1px solid #f3f3f3;\">${(r.email||'').replace(/</g,'&lt;')}</td>
                                                 <td style=\"padding:10px; border-bottom:1px solid #f3f3f3;\">${(r.company||'').replace(/</g,'&lt;')}</td>
                                                 <td style=\"padding:10px; border-bottom:1px solid #f3f3f3;\">${(r.budget||'').replace(/</g,'&lt;')}</td>
+                                                <td style=\"padding:10px; border-bottom:1px solid #f3f3f3;\">${(r.clientType||'').replace(/</g,'&lt;')}</td>
+                                                <td style=\"padding:10px; border-bottom:1px solid #f3f3f3;\">${(r.country||'').replace(/</g,'&lt;')}</td>
+                                                <td style=\"padding:10px; border-bottom:1px solid #f3f3f3;\">${(r.service||'').replace(/</g,'&lt;')}</td>
                                                 <td style=\"padding:10px; border-bottom:1px solid #f3f3f3; white-space: pre-wrap;\">${(r.message||'').replace(/</g,'&lt;')}</td>
                                                 <td style=\"padding:10px; border-bottom:1px solid #f3f3f3;\">${(r.createdAt ? new Date(r.createdAt).toLocaleDateString() : '')}</td>
                                                 <td style=\"padding:10px; border-bottom:1px solid #f3f3f3;\">\
@@ -1101,8 +1107,8 @@
                     const exportBtn = document.getElementById('exportContactCsvBtn');
                     if (exportBtn) {
                         exportBtn.addEventListener('click', function(){
-                            const headers = ['Name','Email','Company','Budget','Message','Status','Created At'];
-                            const data = rows.map(r => [r.name||'', r.email||'', r.company||'', r.budget||'', (r.message||'').replace(/\n/g,' '), r.status||'', r.createdAt||'']);
+                            const headers = ['Name','Email','Company','Budget','Type','Country','Service','Message','Status','Created At'];
+                            const data = rows.map(r => [r.name||'', r.email||'', r.company||'', r.budget||'', r.clientType||'', r.country||'', r.service||'', (r.message||'').replace(/\n/g,' '), r.status||'', r.createdAt||'']);
                             const csv = [headers].concat(data).map(row => row.map(v => '"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\n');
                             const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
                             const url = URL.createObjectURL(blob);

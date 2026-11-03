@@ -1,0 +1,135 @@
+{
+  "slug": "outsourced-reel-video-editing",
+  "group": "outsourcing",
+  "order": 9,
+  "published": true,
+  "name": "Outsourced Reel & Short-Form Video Editing",
+  "shortName": "Reel & video editing",
+  "promise": "Reels, TikToks, Shorts and video ads edited from your footage, in batches, on deadline.",
+  "intro": "gaa-tha provides outsourced reel and short-form video editing for US and UK agencies, creators and brands: Instagram Reels, TikTok, YouTube Shorts and video ads cut from your raw footage, with hooks, captions, b-roll, motion graphics and sound design, delivered in batches and white-label when you need it.",
+  "glance": {
+    "bestFor": "Agencies, creators and brands with more footage than editing time",
+    "timeline": "Paid test batch first; then weekly or monthly batches",
+    "model": "Monthly retainer by video volume after a paid test batch",
+    "channels": "Instagram Reels, TikTok, YouTube Shorts, Meta and TikTok ads, LinkedIn video"
+  },
+  "whatIs": [
+    "Outsourced reel editing means sending your raw footage to an editing team that returns finished short-form videos ready to post or run as ads. The value is speed and consistency: a steady weekly batch in your style, rather than editing squeezed between other work.",
+    "gaa-tha edits reels and ad videos for its own brand clients every week. For agencies and creators we work from a shared drive or Frame.io, follow your brand kit and style references, add captions, hooks, b-roll and sound, and deliver unbranded files in every aspect ratio you need."
+  ],
+  "included": [
+    "Edits for Reels, TikTok, YouTube Shorts and vertical ads",
+    "Hook-first structure with on-screen captions",
+    "B-roll, stock footage, zoom cuts and pacing to platform norms",
+    "Motion graphics, lower thirds and brand-kit templates",
+    "Color correction and audio cleanup",
+    "Licensed or platform-safe music guidance",
+    "Multiple aspect ratios: 9:16, 4:5, 1:1 and 16:9",
+    "Revisions through Frame.io or your review tool"
+  ],
+  "steps": [
+    {
+      "title": "Style and brief",
+      "text": "Brand kit, references, platforms and posting cadence agreed under NDA."
+    },
+    {
+      "title": "Paid test batch",
+      "text": "A small batch edited from your footage so you can judge style and speed."
+    },
+    {
+      "title": "Footage handoff",
+      "text": "You upload raw footage to a shared drive or Frame.io with a short brief per video."
+    },
+    {
+      "title": "Edit and review",
+      "text": "Edits delivered in batches with comments and revisions in your review tool."
+    },
+    {
+      "title": "Deliver and repeat",
+      "text": "Final files in every ratio, named and organized, on a weekly or monthly rhythm."
+    }
+  ],
+  "deliverables": [
+    "Edited short-form videos in required aspect ratios",
+    "Caption files and thumbnails where needed",
+    "Reusable brand templates",
+    "Organized delivery folders",
+    "Monthly volume and turnaround summary"
+  ],
+  "tools": [
+    "Adobe Premiere Pro",
+    "After Effects",
+    "DaVinci Resolve",
+    "CapCut",
+    "Frame.io",
+    "Google Drive",
+    "Dropbox"
+  ],
+  "pricing": "Custom-quoted by monthly video volume and complexity after a paid test batch. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.",
+  "faq": [
+    {
+      "q": "Can I outsource reel editing to India?",
+      "a": "Yes. Send raw footage through a shared drive or Frame.io with a short brief and style references; an editing team returns finished reels in batches. gaa-tha starts with a paid test batch so you can judge style and speed first."
+    },
+    {
+      "q": "What do you need from us?",
+      "a": "Raw footage, your brand kit (fonts, colors, logo), two or three reference videos you like, the platforms and the posting schedule. A short brief per video helps with hooks and calls to action."
+    },
+    {
+      "q": "Do you add captions and music?",
+      "a": "Yes. On-screen captions are standard. For music we use licensed tracks you provide or advise using platform audio at posting, because licensing rules differ between organic posts and ads."
+    },
+    {
+      "q": "Can you edit white-label for our agency?",
+      "a": "Yes. Files are unbranded, we work only through your agency and we sign an NDA and non-solicitation agreement."
+    },
+    {
+      "q": "Do you also shoot or create AI video?",
+      "a": "For India-based shoots, yes. For US and UK clients we edit your footage, UGC and stock, and can produce AI-assisted visuals and motion graphics."
+    },
+    {
+      "q": "How are revisions handled?",
+      "a": "Through timestamped comments in Frame.io or your review tool, with revision rounds agreed in the retainer."
+    }
+  ],
+  "related": [
+    "white-label-social-media-management",
+    "white-label-ppc-meta-ads",
+    "reels-short-form-video",
+    "white-label-agency-partner"
+  ],
+  "reading": [
+    "outsource-reel-video-editing-guide",
+    "white-label-agency-services-explained",
+    "how-to-outsource-digital-marketing-to-india"
+  ],
+  "areaServed": [
+    "United States",
+    "United Kingdom",
+    "Canada",
+    "Australia"
+  ],
+  "images": {
+    "hero": {
+      "src": "/assets/services/reels-short-form-video-hero.webp",
+      "width": 1600,
+      "height": 893,
+      "srcset": "/assets/services/reels-short-form-video-hero-800.webp 800w, /assets/services/reels-short-form-video-hero.webp 1600w"
+    },
+    "card": {
+      "src": "/assets/services/reels-short-form-video-card.webp",
+      "width": 960,
+      "height": 717
+    },
+    "og": {
+      "src": "/assets/og/services/reels-short-form-video.jpg",
+      "width": 1200,
+      "height": 630
+    }
+  },
+  "meta": {
+    "title": "Outsourced Reel & Short-Form Video Editing | gaa-tha",
+    "description": "Reels, TikTok, YouTube Shorts and video ads edited from your footage for US and UK agencies, creators and brands. White-label, paid test batch."
+  },
+  "updated": "2026-11-03"
+}

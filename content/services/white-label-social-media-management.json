@@ -1,0 +1,137 @@
+{
+  "slug": "white-label-social-media-management",
+  "group": "outsourcing",
+  "order": 5,
+  "published": true,
+  "name": "White-Label Social Media Management",
+  "shortName": "White-label social media",
+  "promise": "Content calendars, design, captions, publishing and reports for your agency's clients.",
+  "intro": "gaa-tha provides white-label and outsourced social media management for US and UK agencies and brands: monthly content calendars, post and carousel design, reels, captions, scheduling, community management and reporting for Instagram, Facebook, LinkedIn and TikTok — delivered under your agency's name in US business hours.",
+  "glance": {
+    "bestFor": "Agencies with growing social retainers and brands without an in-house social team",
+    "timeline": "Strategy and first calendar in two weeks, then monthly",
+    "model": "Monthly retainer by number of brands, platforms and posts",
+    "channels": "Instagram, Facebook, LinkedIn, TikTok, YouTube Shorts, Pinterest"
+  },
+  "whatIs": [
+    "White-label social media management means a partner plans, creates and publishes social content that an agency delivers to its clients under its own brand. The agency approves the work and owns the client conversation; the partner does the planning, design, editing, copywriting and scheduling.",
+    "gaa-tha already runs social media for brands in India and Canada, with content pillars, design, reels and community posts. For agencies we work in your approval tool and brand kits, write in American or British English to match the client, and deliver reports in your template."
+  ],
+  "included": [
+    "Monthly content calendar built on agreed content pillars",
+    "Post, carousel and story design in the client's brand kit",
+    "Reels and short-form edits from client footage or stock",
+    "Captions and hashtags in US or UK English",
+    "Scheduling in Meta Business Suite, Later, Sprout Social, Hootsuite or Planable",
+    "Community management and comment replies during US business hours",
+    "Monthly performance report in your agency's branding",
+    "Paid social boosts coordinated with the ads team when needed"
+  ],
+  "steps": [
+    {
+      "title": "Onboarding",
+      "text": "Brand kit, tone of voice, audience, competitors and approval process agreed under NDA."
+    },
+    {
+      "title": "Pillars and calendar",
+      "text": "Content pillars and a month-ahead calendar for your approval."
+    },
+    {
+      "title": "Create",
+      "text": "Designs, reels and captions produced in batches in your approval tool."
+    },
+    {
+      "title": "Publish and engage",
+      "text": "Approved content is scheduled and comments are handled within agreed hours."
+    },
+    {
+      "title": "Report",
+      "text": "A branded monthly report with what worked and next month's plan."
+    }
+  ],
+  "deliverables": [
+    "Monthly content calendar",
+    "Designed posts, carousels and stories",
+    "Edited reels and short videos",
+    "Scheduled publishing and community log",
+    "Monthly white-label report"
+  ],
+  "tools": [
+    "Meta Business Suite",
+    "Later",
+    "Sprout Social",
+    "Hootsuite",
+    "Planable",
+    "Canva",
+    "Figma",
+    "Adobe Creative Cloud",
+    "CapCut"
+  ],
+  "pricing": "Monthly retainer custom-quoted by brands, platforms and content volume after a paid pilot month. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.",
+  "faq": [
+    {
+      "q": "What is white-label social media management?",
+      "a": "It is social media planning, content creation and publishing done by a partner that your agency sells under its own brand. gaa-tha does this for US and UK agencies across Instagram, Facebook, LinkedIn and TikTok."
+    },
+    {
+      "q": "Do you write in American or British English?",
+      "a": "Either. We match the client's market, spelling and tone of voice, and keep a style sheet for each brand."
+    },
+    {
+      "q": "Can you use our approval tool?",
+      "a": "Yes. We work in Planable, Later, Sprout Social, Hootsuite, Google Drive or whatever your agency uses for client approvals."
+    },
+    {
+      "q": "Do you handle community management?",
+      "a": "Yes. Comments and messages are handled during US business hours using an agreed response guide, with anything sensitive escalated to your team."
+    },
+    {
+      "q": "Can you produce reels as part of social management?",
+      "a": "Yes. Reels and short-form edits are produced in-house from client footage, UGC or stock, and can also be bought as a separate editing service."
+    },
+    {
+      "q": "How do we start?",
+      "a": "With a paid pilot month for one brand. You see the calendar, the content and the report before adding more clients."
+    }
+  ],
+  "related": [
+    "outsourced-reel-video-editing",
+    "white-label-agency-partner",
+    "social-media-marketing",
+    "white-label-ppc-meta-ads"
+  ],
+  "reading": [
+    "white-label-agency-services-explained",
+    "outsource-reel-video-editing-guide",
+    "how-to-outsource-digital-marketing-to-india"
+  ],
+  "areaServed": [
+    "United States",
+    "United Kingdom",
+    "Canada",
+    "Australia"
+  ],
+  "images": {
+    "hero": {
+      "src": "/assets/services/social-media-marketing-hero.webp",
+      "width": 1600,
+      "height": 893,
+      "srcset": "/assets/services/social-media-marketing-hero-800.webp 800w, /assets/services/social-media-marketing-hero.webp 1600w"
+    },
+    "card": {
+      "src": "/assets/services/social-media-marketing-card.webp",
+      "width": 960,
+      "height": 717
+    },
+    "og": {
+      "src": "/assets/og/services/social-media-marketing.jpg",
+      "width": 1200,
+      "height": 630
+    }
+  },
+  "meta": {
+    "title": "White-Label Social Media Management | gaa-tha",
+    "description": "Outsourced social media for US and UK agencies and brands: calendars, design, reels, captions, scheduling, community management and branded reports."
+  },
+  "updated": "2026-11-03"
+}

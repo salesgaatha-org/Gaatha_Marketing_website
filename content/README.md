@@ -17,7 +17,7 @@ panel is `content-admin.html`.
 | Path | What |
 |---|---|
 | `site.json` | Brand facts, contact, socials, stats, `knowsAbout` topics — used by schema and llms.txt |
-| `groups.json` | The seven service practices (hubs at `/services/<group>`) |
+| `groups.json` | The service practices (seven core + Outsourcing & White-Label, which has its own nav item via `ownNav`) (hubs at `/services/<group>`) |
 | `services/<slug>.json` | One record per service page (`/services/<slug>`) |
 | `case-studies/<slug>.json` | One record per case study (`/work/<slug>`) |
 | `clients.json` | Client roster: logo, industry, show-on-logo-wall |

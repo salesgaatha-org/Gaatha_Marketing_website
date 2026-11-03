@@ -1,0 +1,88 @@
+{
+  "slug": "outsource-website-and-app-development-to-india",
+  "published": true,
+  "type": "cluster",
+  "category": "Outsourcing",
+  "title": "Outsourcing website and app development to India: a buyer's guide for US and UK companies",
+  "excerpt": "What to outsource, engagement models, specs, time zones, code and account ownership, QA, security and red flags when hiring an Indian dev partner.",
+  "intro": "To outsource website and app development to India successfully, decide exactly what you are buying (a marketing site, a store, a web app, a mobile app or a SaaS MVP), pick the engagement model that fits how settled your scope is, write a short spec before any quote, keep code and accounts in your own name, and choose a partner whose working hours overlap with yours.",
+  "takeaways": [
+    "Outsource well-defined builds first: marketing sites, ecommerce stores, web apps, cross-platform mobile apps and SaaS MVPs all travel well.",
+    "Match the engagement model to scope certainty: fixed scope for clear specs, time-and-materials for evolving products, a dedicated team for long roadmaps.",
+    "Own everything from day one: domain, hosting, GitHub repository, App Store and Google Play accounts, analytics and third-party API keys.",
+    "Time-zone overlap, written specs and a weekly demo matter more to the outcome than the hourly rate.",
+    "Run a small paid pilot before committing to a large build or retainer."
+  ],
+  "sections": [
+    {
+      "h2": "What website and app work can you outsource to India?",
+      "html": "<p>Almost any digital build with a clear owner on your side can be outsourced to India, and the work that travels best is the work you can describe in writing and review in a browser or on a phone.</p>\n<div class=\"tbl-wrap\"><table><thead><tr><th>Type of build</th><th>Typical stack</th><th>Why it outsources well</th></tr></thead><tbody>\n<tr><td>Marketing and brand websites</td><td>Webflow, WordPress, Next.js or Astro</td><td>Design and content can be signed off page by page; success is easy to see.</td></tr>\n<tr><td>Ecommerce stores</td><td>Shopify, Shopify Plus, WooCommerce, headless frontends</td><td>Platforms are standardized, so skills transfer across markets.</td></tr>\n<tr><td>Web applications and portals</td><td>React, Next.js, Node.js, Python, Laravel</td><td>Features can be broken into tickets and demoed every week.</td></tr>\n<tr><td>Mobile apps (iOS and Android)</td><td>Flutter or React Native, native Swift and Kotlin where needed</td><td>One cross-platform codebase covers both stores; builds can be tested remotely through TestFlight and Play testing tracks.</td></tr>\n<tr><td>SaaS MVPs</td><td>Web app plus auth, billing, admin and analytics</td><td>A tight first version with a written scope is a natural fixed or phased project.</td></tr>\n</tbody></table></div>\n<p>What travels less well is work where the requirements live only in someone's head, where decisions change daily without being written down, or where the partner needs physical access to hardware or on-site systems. If your project looks like that, invest in a short discovery phase first. For help choosing a platform before you brief anyone, see <a href=\"/blog/custom-website-vs-wordpress-vs-shopify-vs-webflow\">custom website vs WordPress vs Shopify vs Webflow</a>.</p>"
+    },
+    {
+      "h2": "Which engagement model should you choose, and what drives the cost?",
+      "html": "<p>Choose fixed scope when the spec is settled, time-and-materials when the product will change as you learn, and a dedicated team when you have a long roadmap and want the same people on it every month.</p>\n<div class=\"tbl-wrap\"><table><thead><tr><th>Model</th><th>How it works</th><th>Best for</th><th>Watch out for</th></tr></thead><tbody>\n<tr><td>Fixed scope</td><td>Agreed deliverables, timeline and price, with change requests handled separately</td><td>Websites, stores, well-specified apps and MVPs</td><td>Vague specs lead to change-request disputes; the partner may pad the quote to cover risk.</td></tr>\n<tr><td>Time-and-materials</td><td>You pay for hours or days actually worked, usually against a prioritized backlog</td><td>Products still being shaped, ongoing feature work</td><td>Needs active product ownership on your side and transparent timesheets.</td></tr>\n<tr><td>Dedicated team or retainer</td><td>A named team reserved for you each month</td><td>Long roadmaps, continuous improvement, multiple products</td><td>You pay for capacity whether or not you use it; plan the backlog ahead.</td></tr>\n</tbody></table></div>\n<p>Many buyers combine them: a fixed-scope discovery and first release, followed by a monthly retainer for improvements. That keeps early risk contained and avoids renegotiating every small change after launch.</p>\n<p><strong>What drives the cost.</strong> Cost depends mostly on scope and complexity, not geography alone:</p>\n<ul>\n<li><strong>Unique designs and templates:</strong> ten distinct page types cost more than ten pages built from one template.</li>\n<li><strong>Integrations:</strong> each payment gateway, ERP, CRM or internal API adds build and testing time.</li>\n<li><strong>Custom business logic:</strong> pricing rules, workflows, roles and permissions, and reporting.</li>\n<li><strong>Platforms:</strong> a mobile app for iOS and Android plus a web admin is three surfaces to build and test, even with a shared codebase.</li>\n<li><strong>Content and design responsibility:</strong> whether the partner writes copy, produces images or designs from scratch.</li>\n<li><strong>Quality bar:</strong> automated tests, accessibility standards, performance budgets and documentation all take time and are worth paying for.</li>\n<li><strong>Time-zone coverage and seniority:</strong> overlap with your workday and senior oversight cost more than a purely asynchronous junior team.</li>\n<li><strong>Ongoing support:</strong> hosting management, updates and a maintenance retainer after launch.</li>\n</ul>\n<p>Ask every vendor to quote against the same spec and to list assumptions and exclusions. The cheapest quote often excludes the parts that make the project work.</p>"
+    },
+    {
+      "h2": "How do you write a spec before asking for quotes?",
+      "html": "<p>A useful spec is short and specific: it explains who the product is for, what they must be able to do, and how you will know it works, rather than describing every screen in detail.</p>\n<ol>\n<li><strong>Goal and audience.</strong> One paragraph on the business outcome and the users.</li>\n<li><strong>User stories.</strong> \"As a customer, I can reorder a past purchase in two taps\" is more useful than a list of features.</li>\n<li><strong>Must-have vs nice-to-have.</strong> Split the list honestly; the must-haves define version one.</li>\n<li><strong>Integrations.</strong> Payment gateway, CRM, ERP, email, analytics, shipping and any internal APIs, with links to their documentation.</li>\n<li><strong>Content and design inputs.</strong> Brand guidelines, existing designs or reference sites, and who supplies copy and images.</li>\n<li><strong>Non-functional needs.</strong> Expected traffic, speed targets, accessibility level, browsers and devices, data residency and compliance requirements.</li>\n<li><strong>Acceptance criteria.</strong> How each feature will be tested and signed off.</li>\n</ol>\n<p>If you cannot write this yet, buy a paid discovery phase. A good partner will turn workshops into a spec, wireframes and an estimate that you own and could take to another vendor.</p>"
+    },
+    {
+      "h2": "How do you manage an Indian development team across US and UK time zones?",
+      "html": "<p>Manage across time zones with a fixed overlap window for live conversation, written updates for everything else, and one shared board that both sides treat as the source of truth.</p>\n<p>India Standard Time is about 4.5 to 5.5 hours ahead of the UK and roughly 9.5 to 13.5 hours ahead of the US, depending on the coast and daylight saving. The UK workday overlaps naturally with the Indian afternoon. For US teams, ask whether the partner offers real overlap with your business hours or only an early-morning or late-evening call; some Indian teams run shifts that cover the US workday, and many do not.</p>\n<ul>\n<li><strong>One channel for conversation:</strong> Slack or Microsoft Teams, with a shared channel rather than private messages.</li>\n<li><strong>One board for work:</strong> Jira, Linear, ClickUp or GitHub Projects, with every request as a ticket that has an owner and a due date.</li>\n<li><strong>A weekly demo:</strong> working software on a staging link, not slides.</li>\n<li><strong>Written end-of-day notes:</strong> what shipped, what is blocked and what needs a decision from you.</li>\n<li><strong>A named contact on each side</strong> who can make decisions, so questions do not wait a full day for an answer.</li>\n</ul>"
+    },
+    {
+      "h2": "How do you keep ownership of your code, accounts and data?",
+      "html": "<p>You should own everything: the code repository, the domain, hosting, app store developer accounts, analytics and every third-party account, with the partner working inside them through permissions you can revoke.</p>\n<ul>\n<li><strong>Code:</strong> create the GitHub, GitLab or Bitbucket organization yourself and invite the partner's developers. Commits then land in your repository from the first day, not in a zip file at the end.</li>\n<li><strong>App stores:</strong> enroll in the Apple Developer Program and create the Google Play Console account under your own company, then add the partner as team members. Moving an app between developer accounts later is slow and sometimes awkward.</li>\n<li><strong>Hosting and cloud:</strong> AWS, Google Cloud, Vercel, Netlify or your host should be billed to you, with role-based access for the team.</li>\n<li><strong>Domains, DNS and email:</strong> always in your name.</li>\n<li><strong>API keys and secrets:</strong> stored in a password manager or secrets manager you control, never pasted into chat.</li>\n</ul>\n<p>Make the contract say that intellectual property in the deliverables transfers to you on payment, and that the partner will hand over documentation, credentials and deployment notes at the end of the engagement.</p>\n<p><strong>Security and personal data.</strong> Limit what the partner can reach and put confidentiality in writing:</p>\n<ul>\n<li><strong>NDA before details:</strong> sign a non-disclosure agreement before sharing designs, customer data or internal systems.</li>\n<li><strong>Least-privilege access:</strong> individual named accounts with two-factor authentication, only the permissions each person needs, and access removed when they leave the project.</li>\n<li><strong>No production data in development:</strong> use anonymized or synthetic data for testing wherever you can.</li>\n<li><strong>Personal data:</strong> if the product processes personal data of UK or EU residents, UK GDPR or the EU GDPR applies, and you will typically need a data processing agreement with the partner and an appropriate safeguard for transfers outside the UK or EU. US buyers may face state privacy laws or sector rules such as HIPAA. This is general awareness, not legal advice; ask your counsel what your product needs.</li>\n<li><strong>Secure delivery practice:</strong> code reviews, dependency updates, secrets kept out of the repository, and backups that are tested.</li>\n</ul>"
+    },
+    {
+      "h2": "How should QA and launch work on an outsourced project?",
+      "html": "<p>QA should be a planned phase with written test cases, a staging environment and your own sign-off, not a quick look the day before launch.</p>\n<ul>\n<li><strong>Environments:</strong> development, staging and production, with nothing pushed straight to the live site.</li>\n<li><strong>Test plan:</strong> test cases written from your acceptance criteria, covering the main user journeys on the browsers and devices that matter to your audience.</li>\n<li><strong>Mobile testing:</strong> TestFlight for iOS and internal or closed testing tracks on Google Play, so your team can install real builds before release.</li>\n<li><strong>Bug tracking:</strong> every issue logged on the shared board with steps to reproduce, severity and status.</li>\n<li><strong>Performance and accessibility checks:</strong> page speed, Core Web Vitals and a basic accessibility review before launch.</li>\n<li><strong>Launch checklist:</strong> redirects from old URLs, analytics and conversion tracking verified, backups, monitoring and a rollback plan.</li>\n<li><strong>Warranty window:</strong> an agreed period after launch in which defects are fixed without a new change request.</li>\n</ul>"
+    },
+    {
+      "h2": "What are the red flags when hiring an Indian web or app development company?",
+      "html": "<p>The biggest red flag is a vendor that will not show live work and tell you exactly which parts they built. Others to watch for:</p>\n<ul>\n<li>A quote produced within hours, without questions about your users or integrations.</li>\n<li>Code kept in the vendor's repository, or app store accounts created in the vendor's name.</li>\n<li>Vagueness about who will do the work, or undisclosed subcontracting to freelancers.</li>\n<li>No staging environment, no test plan and no warranty period.</li>\n<li>Promises of unrealistically fast delivery for complex scope.</li>\n<li>A single developer with no backup, presented as a team.</li>\n<li>Resistance to an NDA, a pilot task or reference calls with past clients.</li>\n</ul>\n<p>For a full vetting list and scorecard, see <a href=\"/blog/how-to-choose-an-outsourcing-partner-in-india\">how to choose an outsourcing partner in India</a>.</p>"
+    },
+    {
+      "h2": "Where does gaa-tha fit for US and UK companies?",
+      "html": "<p>gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India, with one in-house team that builds websites, Shopify stores, Flutter and React Native apps and SaaS products. We work US business hours as well as UK hours, keep code and accounts in the client's name, and invoice international clients by bank wire (SWIFT), PayPal or card via Stripe. For agencies we also work white-label, with an NDA before the brief and a paid pilot before any retainer. See <a href=\"/services/outsource-website-development\">website development</a>, <a href=\"/services/outsource-app-development\">app development</a>, our international work for a <a href=\"/work/new-rave\">Canadian retailer</a>, or <a href=\"/#contact\">send us your brief</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it safe to outsource website and app development to India?",
+      "a": "Yes, when you control the accounts and the contract. Keep the repository, hosting, domain and app store accounts in your own name, sign an NDA before sharing details, give named least-privilege access, and make sure the contract transfers intellectual property to you on payment."
+    },
+    {
+      "q": "Should I use fixed price or time-and-materials?",
+      "a": "Use fixed price when the scope is written down and unlikely to change, such as a marketing site or a well-specified MVP. Use time-and-materials or a dedicated team when the product will evolve as you learn from users. Many companies start fixed and move to a monthly retainer after launch."
+    },
+    {
+      "q": "Will an Indian development team work in my time zone?",
+      "a": "It depends on the partner. The UK workday overlaps with the Indian afternoon, while US coverage requires a team that deliberately works shifted hours. Ask for the exact overlap window and who will be online during it before you sign."
+    },
+    {
+      "q": "Who should own the App Store and Google Play accounts?",
+      "a": "Your company should. Create the Apple Developer and Google Play Console accounts yourself and add the partner as team members, so the apps, reviews and payouts stay with you if you ever change vendors."
+    },
+    {
+      "q": "Do I need a spec before contacting developers?",
+      "a": "A short one helps a lot: goals, users, must-have features, integrations and acceptance criteria. If you cannot write it, pay for a discovery phase, and make sure the resulting spec and wireframes belong to you."
+    },
+    {
+      "q": "How long does an outsourced website or app take?",
+      "a": "A marketing website is usually a matter of weeks, an ecommerce store somewhat longer, and a mobile app or SaaS MVP typically a few months depending on scope and integrations. A credible partner gives a phased timeline after discovery rather than a single date before it."
+    }
+  ],
+  "relatedServices": [
+    "outsource-website-development",
+    "outsource-app-development",
+    "white-label-agency-partner"
+  ],
+  "relatedCase": "new-rave",
+  "author": "gaa-tha",
+  "readMinutes": 10,
+  "cover": "cov-b",
+  "mark": "Dev",
+  "datePublished": "2026-11-03",
+  "dateModified": "2026-11-03"
+}

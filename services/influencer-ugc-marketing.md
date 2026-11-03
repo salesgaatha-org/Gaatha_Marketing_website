@@ -105,6 +105,6 @@ It depends on the objective. A city launch might use ten to twenty nano and micr
 
 ---
 
-**About gaa-tha** — gaa-tha is a storytelling-led digital marketing, branding, ecommerce, technology and AI agency founded in Gujarat, India in 2024. It builds brands, websites, Shopify stores, mobile apps, SaaS products, AI agents, automations and ERPs; runs Meta and Google ads, social media and SEO/AEO/GEO; and onboards and manages brands on Amazon, Flipkart, Myntra, Blinkit, Zepto and Swiggy Instamart.
+**About gaa-tha** — gaa-tha is a storytelling-led digital marketing, branding, ecommerce, technology and AI agency founded in Gujarat, India in 2024. It builds brands, websites, Shopify stores, mobile apps, SaaS products, AI agents, automations and ERPs; runs Meta and Google ads, social media and SEO/AEO/GEO; onboards and manages brands on Amazon, Flipkart, Myntra, Blinkit, Zepto and Swiggy Instamart; and works as a white-label and outsourcing partner for agencies and brands in the US, UK, Canada and Australia.
 
 Contact: digimarketing@gaa-tha.com · +91 97372 80309 · https://gaa-tha.com/#contact · All services: https://gaa-tha.com/services · Site summary for AI assistants: https://gaa-tha.com/llms.txt

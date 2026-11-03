@@ -4563,6 +4563,675 @@ Q: Is our customer and sales data secure?
 A: Tools use role-based access, HTTPS, per-user logins and backups, and run on Google or Firebase infrastructure or your own hosting. We keep customer data inside your accounts rather than ours, and document who has access to what at handover.
 
 
+# Outsourcing & White-Label
+https://gaa-tha.com/services/outsourcing
+
+An India-based team that works your hours — for US and UK agencies and brands.
+
+Outsourcing & White-Label is the gaa-tha practice for agencies and brands outside India. US and UK agencies use us as an unbranded delivery team for Shopify builds, websites, apps, ERP work, paid ads, social media and video editing; brands hire us directly for the same work on monthly retainers. We work US business hours, sign an NDA before the brief, never contact an agency's clients, agree to non-solicitation and start every relationship with a paid pilot.
+
+## FAQ
+Q: Why outsource marketing and development to an India-based agency?
+A: An India-based team gives US and UK agencies and brands senior delivery capacity across development, paid media and creative without hiring for every skill. It works when the partner communicates in your hours, works in your accounts and starts with a small paid project; gaa-tha does all three.
+
+Q: Do you work US business hours?
+A: Yes. Our team works US business hours, so meetings, Slack replies and launches happen during your day. UK clients get overlap across the UK working day.
+
+Q: What can an agency white-label with you?
+A: Shopify builds and store management, website and app development, ERP and Odoo work, Meta and Google ads management, social media management, reel and short-form video editing, and strategy support — all unbranded and delivered through your agency.
+
+Q: How do you protect an agency's client relationships?
+A: An NDA is signed before the brief, we work only through your agency and your tools, deliverables carry your brand, and our agreement includes non-solicitation of your clients.
+
+Q: How do US and UK clients pay?
+A: We invoice internationally and accept bank wire (SWIFT), PayPal and card payments through Stripe. Ad spend, software licenses and platform subscriptions are paid by you directly to the providers.
+
+Q: How much does it cost?
+A: Every engagement is custom-quoted after we see a real brief: a paid pilot first, then a fixed-scope project, a monthly retainer or a dedicated team. We do not publish rate cards because scope, volume and tools change the number.
+
+Q: Do you have international clients?
+A: Yes. gaa-tha runs an ongoing retainer for New Rave, a trading-card and hobbies retailer in Canada, covering strategy, Canada-wide campaigns, Instagram content, product data and its website. Most of our other clients are brands and manufacturers in India.
+
+
+## White-Label Digital Agency Partner
+https://gaa-tha.com/services/white-label-agency-partner
+Last updated: 2026-11-03
+
+gaa-tha is a white-label delivery partner for US and UK marketing and creative agencies. We build Shopify stores, websites and apps, run Meta and Google ads, manage social media and edit reels under your brand, in your tools and during US business hours — with an NDA before the brief, no contact with your clients and a paid pilot to start.
+
+Best for: US and UK agencies that need extra delivery capacity without hiring
+Timeline: NDA and brief in days; paid pilot in the first two to three weeks
+Engagement model: Paid pilot, then a monthly retainer or a dedicated team
+Channels/platforms: Shopify, WordPress, Webflow, Flutter, React Native, Meta Ads, Google Ads, Instagram, TikTok
+
+### What it is
+A white-label agency partner is a team that delivers work your agency sells under your own brand. Your client sees your agency's name, your reports and your project manager; the partner does the production behind the scenes. It lets an agency say yes to Shopify builds, app projects, paid media or video work without hiring a specialist for every skill.
+
+gaa-tha works this way for agencies in the US and UK. We sign your NDA before we see a brief, work unbranded inside your Slack, project board and client accounts, never contact your client unless you ask us to, and agree not to solicit your clients. Because our team already runs brand, ecommerce, development and growth work for its own clients, you get one partner for several capabilities instead of a string of freelancers.
+
+### What's included
+- Mutual NDA signed before any client details are shared
+- Fully unbranded deliverables, reports and documentation in your agency's name
+- Work inside your tools: Slack, Teams, Asana, ClickUp, Jira, Notion, Google Drive
+- A named project lead who joins your internal stand-ups during US business hours
+- Shopify, website and app development, white-label PPC, social media and video editing from one team
+- Paid pilot project with a fixed scope before any retainer
+- Non-solicitation of your clients written into the agreement
+- Weekly status updates and a monthly capacity and quality review
+
+### How we work
+1. Intro call and NDA — A call in your business hours to understand your agency, your clients and the work you want to hand over, followed by your NDA or ours.
+2. Brief and scope — You share a real brief. We return a written scope, timeline, team and quality checklist in your format.
+3. Paid pilot — One fixed-scope project or batch so you can judge quality, speed and communication before committing.
+4. Retainer or dedicated team — We agree a monthly capacity or a dedicated team, the tools we work in, turnaround times and how requests come in.
+5. Review and scale — A monthly review of quality, turnaround and upcoming pipeline, so capacity grows with your client list.
+
+### Deliverables
+- Signed NDA and white-label agreement with non-solicitation
+- Written scope and timeline per project in your agency's template
+- Unbranded deliverables, reports and handover documentation
+- Weekly status update and shared task board
+- Monthly quality and capacity review
+
+Tools & platforms: Slack, Microsoft Teams, Asana, ClickUp, Jira, Notion, Google Workspace, Loom, Figma, GitHub
+Pricing model: Custom-quoted: a paid pilot first, then a monthly retainer sized to the capacity you need or a dedicated team. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
+
+### FAQ
+Q: What is a white-label agency partner?
+A: A white-label agency partner delivers work that your agency sells under its own brand. Your client deals only with your agency; the partner produces the work behind the scenes, unbranded, in your tools. gaa-tha does this for US and UK agencies across Shopify, websites, apps, paid ads, social media and video editing.
+
+Q: Will my clients know you exist?
+A: No, unless you want them to. Deliverables, reports and documentation carry your agency's branding, we work from your accounts and channels, and we never contact your client directly. If you prefer to bring us onto a client call as part of your team, we join under your agency's name.
+
+Q: Do you work US business hours?
+A: Yes. Our team works US business hours, so we can join your stand-ups, answer Slack during your day and ship launches on your schedule. UK agencies get overlap across the UK working day as well.
+
+Q: How do you protect our client relationships?
+A: We sign an NDA before seeing any client details, agree in writing not to solicit or accept work from your clients, and keep all communication through your agency. Accounts, code and files stay in your or your client's name.
+
+Q: Can we test you before signing a retainer?
+A: Yes. We start every agency relationship with a paid pilot: one fixed-scope project or batch, such as a Shopify section build, a month of ad management for one account or a batch of reels. You judge the work before committing to monthly capacity.
+
+Q: How do we pay you from the US or UK?
+A: We invoice internationally and accept bank wire (SWIFT), PayPal and card payments through Stripe. Pricing is quoted per project or as a monthly retainer once we have seen a real brief.
+
+Q: Which services can we white-label?
+A: Shopify store builds and management, website and app development, ERP and Odoo work, Meta and Google ads management, social media management, reel and short-form video editing, and marketing strategy support. Most agencies start with one service and add others once the pilot goes well.
+
+
+## White-Label Shopify Development
+https://gaa-tha.com/services/white-label-shopify-development
+Last updated: 2026-11-03
+
+gaa-tha is a white-label and outsourced Shopify development team for US and UK agencies and brands. We build custom Shopify themes and sections, migrate stores from WooCommerce, Magento or BigCommerce, extend Shopify Plus checkouts and integrate apps — working from your Figma files, in your GitHub and during US business hours.
+
+Best for: Agencies reselling Shopify builds and brands that need a Shopify team without hiring
+Timeline: Sections in days; full theme builds in roughly four to ten weeks depending on scope
+Engagement model: Paid pilot, then per-project or a monthly development retainer
+Channels/platforms: Shopify, Shopify Plus, Liquid, Online Store 2.0, Hydrogen, GitHub
+
+### What it is
+White-label Shopify development means an outside team builds and maintains Shopify stores that an agency delivers to its clients under its own name. The agency keeps the client relationship, the design direction and the account management; the development partner turns approved designs into a fast, editable Online Store 2.0 theme, handles migrations and integrations, and fixes issues after launch.
+
+gaa-tha builds Shopify stores for its own clients and for agencies. We work from your Figma files or brief, develop on preview themes with Shopify's GitHub integration, test on real devices and Core Web Vitals, and hand over documentation in your agency's name. US and UK brands that want to outsource directly get the same team, with the store, apps and code always owned by them.
+
+### What's included
+- Custom Shopify themes built from your Figma or Adobe XD designs
+- Online Store 2.0 sections and blocks your clients can edit themselves
+- Migrations from WooCommerce, Magento, BigCommerce, Wix or Squarespace with redirects
+- Shopify Plus work: checkout extensibility, Shopify Functions, B2B and multi-market setups
+- App and integration setup: subscriptions, reviews, loyalty, ERP, email and SMS
+- Tracking setup: GA4, Meta Pixel with Conversions API and Google Ads conversions
+- Speed and Core Web Vitals optimization before launch
+- Code in your GitHub repository and collaborator access, never our own accounts
+- Unbranded handover documentation and a post-launch fix window
+
+### How we work
+1. Brief and access — You share designs or a brief; we request collaborator access and agree the repository, preview theme and QA checklist.
+2. Build plan — We break the store into templates, sections and integrations with a timeline you can share with your client.
+3. Develop on preview — Development happens on an unpublished theme connected to GitHub, with progress links you can review any time.
+4. QA and speed — Cross-browser and device testing, Theme Check, accessibility basics, tracking verification and Core Web Vitals checks.
+5. Launch and support — We launch with you, monitor the first days, fix issues in the agreed window and document everything unbranded.
+
+### Deliverables
+- Production-ready Shopify theme in your or your client's GitHub
+- Editable sections and blocks with a usage guide
+- Migration and redirect map for replatforming projects
+- Tracking verified on a real test order
+- Unbranded handover documentation
+
+Tools & platforms: Shopify, Shopify Plus, Liquid, Shopify CLI, GitHub, Figma, Theme Check, PageSpeed Insights, GA4, Meta Conversions API
+Pricing model: Custom-quoted per project or as a monthly development retainer after a paid pilot; Shopify plans, themes and apps are paid by you or your client directly. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
+
+### FAQ
+Q: Can I outsource Shopify development to India safely?
+A: Yes, if the partner works in your accounts and your repository, signs an NDA and starts with a small paid pilot. gaa-tha develops on collaborator access and preview themes, keeps code in your GitHub, and never sets up stores or apps in its own name.
+
+Q: Do you work from our designs?
+A: Yes. Most agencies send Figma files and we build them pixel-accurately as editable Online Store 2.0 sections. If you only have a brief, our design team can produce the designs under your agency's name.
+
+Q: Do you handle Shopify Plus?
+A: Yes. We work on checkout extensibility, Shopify Functions for discounts and delivery rules, B2B catalogs and price lists, Shopify Markets for international selling and headless builds with Hydrogen when they are justified.
+
+Q: Can you migrate a store from WooCommerce or Magento?
+A: Yes. We migrate products, customers and orders, rebuild the design on Shopify, and map every old URL to a new one with redirects so search rankings carry over.
+
+Q: How do you communicate with US teams?
+A: Our team works US business hours, joins your Slack or Teams, and posts progress on your project board. You get preview links throughout the build, not just at the end.
+
+Q: Who owns the code and the store?
+A: You or your client. The store, apps, domain and repository are in your names; we work through collaborator or staff accounts and hand over all code and documentation.
+
+Q: Can you also manage the store after launch?
+A: Yes. Many agencies pair a build with our outsourced Shopify store management retainer for product updates, banners, app audits and fixes every month.
+
+
+## Outsourced Shopify Store Management
+https://gaa-tha.com/services/outsourced-shopify-store-management
+Last updated: 2026-11-03
+
+gaa-tha runs outsourced Shopify store management for US and UK brands and for agencies that resell it. A monthly retainer covers product uploads, pricing and promotions, homepage and collection updates, app audits, bug fixes, speed checks and a monthly store report, with a named store manager working US business hours.
+
+Best for: Brands with a live Shopify store and no in-house developer; agencies reselling store care
+Timeline: Onboarding audit in the first week, then monthly
+Engagement model: Monthly retainer scoped to catalog size and change volume
+Channels/platforms: Shopify, Shopify Flow, Matrixify, Klaviyo, GA4
+
+### What it is
+Shopify store management is the ongoing operation of a live store: adding products and variants, changing prices and running promotions, updating collections and banners, keeping apps and the theme healthy, fixing bugs and keeping the store fast. Without it, launches wait for a developer and small issues cost sales.
+
+gaa-tha provides it as a monthly retainer with a named store manager, a shared task board and agreed turnaround times. Because design, copy and paid media sit in the same team, a Black Friday sale or a product launch can be set up end to end. Agencies can resell the service under their own brand.
+
+### What's included
+- Product uploads and edits: SKUs, variants, images, descriptions, tags and metafields
+- Price changes, compare-at pricing, discount codes and automatic discounts
+- Homepage, collection, navigation and banner updates on a monthly calendar
+- Black Friday, Cyber Monday, holiday and seasonal sale setup
+- Quarterly app audit to remove unused apps and cut monthly charges
+- Bug fixes and theme tweaks with tracked turnaround times
+- Monthly speed and Core Web Vitals check with fixes
+- Tracking checks for GA4, Meta Pixel and Google Ads conversions
+- Monthly store report: orders, conversion, speed, errors and tasks completed
+
+### How we work
+1. Store audit — We review the theme, apps, tracking, speed and catalog quality, fix urgent issues and agree the monthly scope.
+2. Task board — Every request goes on a shared board with an owner and due date, in your tool or ours.
+3. Monthly calendar — Homepage, collections and promotions are planned a month ahead around launches and sale events.
+4. Maintain — Apps, theme updates, speed and tracking are checked on a schedule and fixed before customers notice.
+5. Report — A monthly report covers what changed, what broke, conversion trends and next month's recommendations.
+
+### Deliverables
+- Shared task board with agreed turnaround times
+- Monthly homepage, collection and promotion updates
+- Clean, consistent catalog data
+- Quarterly app and charges audit
+- Monthly store health report
+
+Tools & platforms: Shopify, Shopify Flow, Matrixify, Klaviyo, GA4, Google Search Console, PageSpeed Insights, Slack, Asana
+Pricing model: Monthly retainer custom-quoted on catalog size, change volume and whether design and copy are included; Shopify and app subscriptions are paid by you directly. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
+
+### FAQ
+Q: What does outsourced Shopify store management include?
+A: Product and price updates, promotions, homepage and collection changes, app management, bug fixes, speed checks, tracking checks and a monthly report. gaa-tha runs it as a monthly retainer with a named store manager working US business hours.
+
+Q: How fast are changes made?
+A: Routine changes such as a product upload, price change or banner are typically done within one to two working days, and urgent fixes the same day. Larger work such as a new landing page is scheduled on the task board with a date.
+
+Q: Can you prepare our store for Black Friday and holiday sales?
+A: Yes. Offer structure, sale collections, banners, countdowns, gift options and free-shipping thresholds are set up and tested ahead of the event and rolled back afterwards.
+
+Q: Will you audit our apps?
+A: Yes, at onboarding and every quarter. Unused and overlapping apps are a common cause of slow stores and rising monthly bills, so we list every app, its charge and purpose and remove what is redundant.
+
+Q: Can our agency resell this under our brand?
+A: Yes. We provide store management white-label: reports and documentation carry your agency's name and we work only through you, under an NDA and non-solicitation agreement.
+
+Q: Do we keep ownership of the store?
+A: Yes. The store, domain, apps and payment accounts stay in your name. We work through staff or collaborator accounts with only the permissions we need.
+
+
+## White-Label PPC & Meta Ads Management
+https://gaa-tha.com/services/white-label-ppc-meta-ads
+Last updated: 2026-11-03
+
+gaa-tha provides white-label PPC and outsourced Meta and Google Ads management for US and UK agencies and brands. We build and optimize campaigns, test creative, set up Conversions API and GA4 tracking and report under your agency's name — working through partner access, so ad accounts and ad spend always stay with the client.
+
+Best for: Agencies reselling paid media and brands that want an outsourced performance team
+Timeline: Account audit in week one; first optimized campaigns in two to three weeks
+Engagement model: Paid pilot on one account, then a monthly management retainer
+Channels/platforms: Meta Ads (Facebook, Instagram), Google Ads (Search, Performance Max, Shopping, YouTube)
+
+### What it is
+White-label PPC is paid media management that an agency sells under its own brand while a partner runs the campaigns. The agency owns the client relationship and strategy conversations; the partner handles account structure, campaign builds, audiences, creative testing, bidding, tracking and reporting.
+
+gaa-tha runs Meta and Google Ads for its own ecommerce and lead-generation clients, including campaigns across Canada for a retail client, and does the same work white-label for agencies. We are added through Meta Business Manager partner access or a Google Ads manager account, the client pays the platforms directly, and reports go out in your agency's template.
+
+### What's included
+- Account and tracking audit with a prioritized fix list
+- Campaign structure, audiences and budgets for Meta and Google Ads
+- Search, Performance Max, Shopping and YouTube campaigns
+- Creative testing plans, ad copy and static or video ad production
+- Meta Pixel with Conversions API, GA4 and Google Ads conversion tracking
+- Weekly optimization of bids, budgets, audiences and creative
+- Lead quality checks and offline conversion feedback for lead-gen clients
+- Reports and dashboards in your agency's branding
+- Monthly strategy notes you can present to the client as your own
+
+### How we work
+1. Access and audit — We join through partner access, audit structure, tracking and spend, and agree KPIs such as CPA, ROAS or cost per qualified lead.
+2. Fix tracking — Conversions API, GA4 and Google Ads conversions are verified before any scaling.
+3. Build and launch — Campaigns, audiences and creative tests go live against an agreed budget plan.
+4. Optimize weekly — Bids, budgets, audiences and creative are adjusted weekly with notes on every change.
+5. Report monthly — A branded report and strategy notes ready for your client meeting.
+
+### Deliverables
+- Account and tracking audit
+- Campaign structure and media plan
+- Creative test plan with ad copy and assets
+- Weekly change log
+- Monthly white-label report and dashboard
+
+Tools & platforms: Meta Ads Manager, Meta Business Manager, Google Ads, Google Ads Editor, GA4, Google Tag Manager, Looker Studio, Meta Conversions API
+Pricing model: Monthly management fee custom-quoted on platforms, number of accounts and creative volume, after a paid pilot. Ad spend is paid by the client directly to Meta and Google with no markup. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
+
+### FAQ
+Q: What is white-label PPC?
+A: White-label PPC is paid ads management that your agency sells under its own name while a partner runs the campaigns. gaa-tha manages Meta and Google Ads for US and UK agencies, reporting in your branding and working only through you.
+
+Q: Do you need ownership of the ad accounts?
+A: No. The client keeps ownership of the ad accounts and pays Meta and Google directly. We are added through Meta Business Manager partner access or your Google Ads manager account with only the permissions we need.
+
+Q: Which KPIs do you report on?
+A: Whatever the client is judged on: CPA, ROAS, cost per qualified lead, MER or new-customer revenue. We agree the primary KPI during the audit and report against it every month.
+
+Q: Do you also make the ad creative?
+A: Yes. Our in-house team produces static ads, UGC-style edits and short video ads for testing, so creative is not the bottleneck. Agencies can also supply their own creative.
+
+Q: Can you work with our existing reporting tools?
+A: Yes. We report in your Looker Studio, AgencyAnalytics, DashThis or slide template, or build a dashboard in your branding if you do not have one.
+
+Q: How do you start?
+A: With a paid pilot on one account: an audit, tracking fixes and a month of management. You see the change log and results before adding more accounts.
+
+
+## White-Label Social Media Management
+https://gaa-tha.com/services/white-label-social-media-management
+Last updated: 2026-11-03
+
+gaa-tha provides white-label and outsourced social media management for US and UK agencies and brands: monthly content calendars, post and carousel design, reels, captions, scheduling, community management and reporting for Instagram, Facebook, LinkedIn and TikTok — delivered under your agency's name in US business hours.
+
+Best for: Agencies with growing social retainers and brands without an in-house social team
+Timeline: Strategy and first calendar in two weeks, then monthly
+Engagement model: Monthly retainer by number of brands, platforms and posts
+Channels/platforms: Instagram, Facebook, LinkedIn, TikTok, YouTube Shorts, Pinterest
+
+### What it is
+White-label social media management means a partner plans, creates and publishes social content that an agency delivers to its clients under its own brand. The agency approves the work and owns the client conversation; the partner does the planning, design, editing, copywriting and scheduling.
+
+gaa-tha already runs social media for brands in India and Canada, with content pillars, design, reels and community posts. For agencies we work in your approval tool and brand kits, write in American or British English to match the client, and deliver reports in your template.
+
+### What's included
+- Monthly content calendar built on agreed content pillars
+- Post, carousel and story design in the client's brand kit
+- Reels and short-form edits from client footage or stock
+- Captions and hashtags in US or UK English
+- Scheduling in Meta Business Suite, Later, Sprout Social, Hootsuite or Planable
+- Community management and comment replies during US business hours
+- Monthly performance report in your agency's branding
+- Paid social boosts coordinated with the ads team when needed
+
+### How we work
+1. Onboarding — Brand kit, tone of voice, audience, competitors and approval process agreed under NDA.
+2. Pillars and calendar — Content pillars and a month-ahead calendar for your approval.
+3. Create — Designs, reels and captions produced in batches in your approval tool.
+4. Publish and engage — Approved content is scheduled and comments are handled within agreed hours.
+5. Report — A branded monthly report with what worked and next month's plan.
+
+### Deliverables
+- Monthly content calendar
+- Designed posts, carousels and stories
+- Edited reels and short videos
+- Scheduled publishing and community log
+- Monthly white-label report
+
+Tools & platforms: Meta Business Suite, Later, Sprout Social, Hootsuite, Planable, Canva, Figma, Adobe Creative Cloud, CapCut
+Pricing model: Monthly retainer custom-quoted by brands, platforms and content volume after a paid pilot month. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
+
+### FAQ
+Q: What is white-label social media management?
+A: It is social media planning, content creation and publishing done by a partner that your agency sells under its own brand. gaa-tha does this for US and UK agencies across Instagram, Facebook, LinkedIn and TikTok.
+
+Q: Do you write in American or British English?
+A: Either. We match the client's market, spelling and tone of voice, and keep a style sheet for each brand.
+
+Q: Can you use our approval tool?
+A: Yes. We work in Planable, Later, Sprout Social, Hootsuite, Google Drive or whatever your agency uses for client approvals.
+
+Q: Do you handle community management?
+A: Yes. Comments and messages are handled during US business hours using an agreed response guide, with anything sensitive escalated to your team.
+
+Q: Can you produce reels as part of social management?
+A: Yes. Reels and short-form edits are produced in-house from client footage, UGC or stock, and can also be bought as a separate editing service.
+
+Q: How do we start?
+A: With a paid pilot month for one brand. You see the calendar, the content and the report before adding more clients.
+
+
+## Outsource Website Development to India
+https://gaa-tha.com/services/outsource-website-development
+Last updated: 2026-11-03
+
+gaa-tha is an India-based website development team for US and UK companies and agencies. We design and build marketing websites, ecommerce stores and web apps on WordPress, Webflow, Shopify and custom Next.js, with code in your repository, accounts in your name, US business hours and a paid pilot before any larger project.
+
+Best for: US and UK businesses and agencies that need web development capacity
+Timeline: Marketing sites in roughly four to eight weeks; web apps scoped per project
+Engagement model: Fixed-scope project or a monthly development retainer after a paid pilot
+Channels/platforms: WordPress, Webflow, Shopify, Next.js, React, Node.js
+
+### What it is
+Outsourcing website development to India means hiring an India-based team to design, build and maintain websites while you keep ownership of the strategy, the accounts and the code. Done well, it gives you senior development capacity with clear communication and documentation; done badly, it creates code nobody can maintain.
+
+gaa-tha builds websites for its own clients, including a managed ecommerce site for a retailer in Canada, and works as a development partner for agencies. Every project starts with a written scope, runs on preview links and a shared task board during US business hours, and ends with code in your GitHub and documentation your next developer can follow.
+
+### What's included
+- Discovery, sitemap and written scope before any design
+- UX and UI design in Figma, or development from your designs
+- WordPress, Webflow, Shopify or custom Next.js builds
+- Responsive, accessible front-end with WCAG basics checked
+- Technical SEO: metadata, schema, redirects, sitemaps and Core Web Vitals
+- CMS training so your team can edit content
+- Code in your GitHub, hosting and domains in your name
+- Post-launch support window and optional maintenance retainer
+
+### How we work
+1. Discovery — Goals, audience, pages, integrations and success measures agreed in writing.
+2. Design — Wireframes and Figma designs, or a build plan from your existing designs.
+3. Build — Development on a staging site with weekly preview links and a shared task board.
+4. QA and launch — Device, browser, speed, accessibility and SEO checks, then launch with redirects.
+5. Support — A fix window after launch and an optional monthly maintenance retainer.
+
+### Deliverables
+- Written scope and sitemap
+- Figma designs (when design is in scope)
+- Production website with CMS access
+- Technical SEO and redirect map
+- Handover documentation and training
+
+Tools & platforms: Figma, WordPress, Webflow, Shopify, Next.js, React, Node.js, GitHub, Vercel, Cloudflare
+Pricing model: Custom-quoted as a fixed-scope project or monthly retainer after discovery and a paid pilot where useful. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
+
+### FAQ
+Q: Is it a good idea to outsource website development to India?
+A: It can be, when the partner works in your accounts, documents everything, communicates in your hours and starts with a small paid project. gaa-tha works US business hours, keeps code in your GitHub and signs an NDA before the brief.
+
+Q: Which platforms do you build on?
+A: WordPress, Webflow and Shopify for marketing and ecommerce sites, and Next.js with React and Node.js for custom sites and web apps. We recommend the platform in discovery based on who will edit the site and what it must integrate with.
+
+Q: Who owns the code and the website?
+A: You do. Hosting, domains, CMS accounts and repositories are set up in your name, and code is handed over with documentation.
+
+Q: Can you work from our agency's designs?
+A: Yes. Many agencies send Figma files and we build them white-label, with preview links you can share with your client.
+
+Q: How do we communicate during the project?
+A: Through your Slack, Teams or email, a shared task board and scheduled calls in US business hours. You get preview links throughout the build.
+
+Q: Do you provide maintenance after launch?
+A: Yes. A support window is included after launch, and an optional monthly retainer covers updates, security patches, content changes and new pages.
+
+
+## Outsource App Development to India
+https://gaa-tha.com/services/outsource-app-development
+Last updated: 2026-11-03
+
+gaa-tha is an India-based app development team for US and UK startups, businesses and agencies. We design and build iOS and Android apps with Flutter or React Native, web apps and SaaS MVPs — from discovery and UX to App Store and Google Play release — with code in your repository, store accounts in your name and US business hours.
+
+Best for: Founders, product teams and agencies that need app development capacity
+Timeline: Discovery in two to three weeks; MVPs typically in roughly three to six months
+Engagement model: Fixed-scope phases or a dedicated team after a paid discovery
+Channels/platforms: Flutter, React Native, Swift, Kotlin, Firebase, Node.js
+
+### What it is
+Outsourcing app development to India means hiring an India-based team to design, build and release your mobile or web app while you keep the product decisions, the accounts and the intellectual property. The work that matters most is discovery and specification, because unclear scope is where most outsourced app projects go wrong.
+
+gaa-tha starts every app with a paid discovery phase: user flows, a clickable prototype, a feature list ranked by priority and a release plan. We then build in sprints with demos in US business hours, keep code in your GitHub and publish under your App Store and Google Play developer accounts.
+
+### What's included
+- Paid discovery: user flows, feature list, technical plan and estimate
+- UX and UI design with a clickable Figma prototype
+- Cross-platform apps in Flutter or React Native, native where needed
+- Backend and APIs with Node.js or Firebase
+- Payments, login, push notifications, analytics and integrations
+- QA on real devices and TestFlight or Play Console beta testing
+- App Store and Google Play submission under your accounts
+- Post-launch support, crash monitoring and a roadmap for version two
+
+### How we work
+1. Discovery — Flows, prototype, prioritized feature list, architecture and a phased estimate.
+2. Design — UI design and a clickable prototype tested with real users where possible.
+3. Build in sprints — Two-week sprints with demos and a shared board in your business hours.
+4. Test and release — Device testing, beta builds, store listings and submission under your accounts.
+5. Support and iterate — Crash monitoring, fixes and the next release plan based on real usage.
+
+### Deliverables
+- Discovery document and phased estimate
+- Figma prototype
+- iOS and Android builds published under your accounts
+- Source code in your GitHub with setup documentation
+- Post-launch support plan
+
+Tools & platforms: Flutter, React Native, Swift, Kotlin, Firebase, Node.js, Figma, GitHub, TestFlight, Google Play Console
+Pricing model: Custom-quoted after a paid discovery phase, as fixed-scope phases or a dedicated monthly team. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
+
+### FAQ
+Q: How do I outsource app development to India without losing control?
+A: Keep the developer accounts, repositories and cloud accounts in your name, agree a written scope from a discovery phase, and review working builds every sprint. gaa-tha works this way by default and signs an NDA before the brief.
+
+Q: Flutter or React Native?
+A: Both build iOS and Android from one codebase. We recommend one in discovery based on your UI, integrations and the team who will maintain it; native Swift or Kotlin is used when an app needs deep device features.
+
+Q: Who owns the app and the code?
+A: You do. Apps are published under your App Store and Google Play accounts and the code lives in your GitHub.
+
+Q: Can you build a SaaS MVP?
+A: Yes. We build web-based SaaS MVPs with authentication, billing, roles and an admin panel, and plan a path from MVP to a maintainable product.
+
+Q: How do you handle time zones?
+A: Our team works US business hours, so sprint reviews, stand-ups and urgent fixes happen during your day.
+
+Q: Do you work white-label for agencies?
+A: Yes. Agencies can resell our app development under their brand with an NDA, non-solicitation of their clients and unbranded documentation.
+
+
+## Offshore ERP & Odoo Development
+https://gaa-tha.com/services/offshore-erp-odoo-development
+Last updated: 2026-11-03
+
+gaa-tha provides offshore ERP and Odoo development for US and UK companies and partners: Odoo and ERPNext implementation and customization, custom modules, data migration and integrations with Shopify, QuickBooks, Xero, payment and shipping tools — mapped to your processes and supported during US business hours.
+
+Best for: Growing companies and ERP partners that need implementation or development capacity
+Timeline: Process mapping in two to four weeks; phased rollouts over a few months
+Engagement model: Phased fixed-scope projects or a monthly development and support retainer
+Channels/platforms: Odoo, ERPNext, Python, PostgreSQL, REST APIs
+
+### What it is
+Offshore ERP development means an outside team configures, customizes and integrates your ERP while your team owns the processes and decisions. For most growing companies that means Odoo or ERPNext configured to their workflows, with custom modules only where the business is genuinely different.
+
+gaa-tha maps your processes first, then configures, customizes, migrates data, integrates your other systems and trains your team. ERP partners and agencies can use us as white-label development capacity. Hosting, licenses and code stay in your name.
+
+### What's included
+- Process mapping and fit-gap analysis
+- Odoo and ERPNext configuration: sales, purchasing, inventory, manufacturing, accounting, CRM
+- Custom Odoo modules and ERPNext apps in Python
+- Integrations with Shopify, QuickBooks, Xero, Stripe, shipping and marketplaces
+- Data migration from spreadsheets and legacy systems
+- Reports and dashboards for management
+- User training and documentation
+- Ongoing support and enhancement retainer
+
+### How we work
+1. Process mapping — Workshops in your hours to document how orders, stock, production and money move today.
+2. Fit-gap and plan — What the standard ERP covers, what needs configuration and what needs custom code, in phases.
+3. Configure and build — Configuration, custom modules and integrations on a test instance you can review.
+4. Migrate and train — Data migration, user acceptance testing and role-based training.
+5. Go live and support — Phased go-live with hypercare, then a support and enhancement retainer.
+
+### Deliverables
+- Process map and fit-gap document
+- Configured ERP test and production instances
+- Custom modules with source code in your repository
+- Integration documentation
+- Training material and support plan
+
+Tools & platforms: Odoo, ERPNext, Python, PostgreSQL, Shopify API, QuickBooks, Xero, Stripe, GitHub
+Pricing model: Custom-quoted in phases after process mapping, or as a monthly development and support retainer; ERP licenses and hosting are paid by you directly. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
+
+### FAQ
+Q: Can I outsource Odoo development to India?
+A: Yes. Odoo and ERPNext are widely implemented by India-based teams. Choose a partner that maps your processes before customizing, keeps code in your repository and supports you in your business hours, as gaa-tha does.
+
+Q: Odoo or ERPNext?
+A: Both cover sales, purchasing, inventory, manufacturing and accounting. The right choice depends on your processes, the modules you need, hosting preferences and licensing; we compare them for your case during process mapping.
+
+Q: Can you integrate the ERP with Shopify and QuickBooks or Xero?
+A: Yes. Orders, customers, stock and payouts can sync between Shopify and the ERP, and financial data can flow to QuickBooks or Xero where accounting stays outside the ERP.
+
+Q: Do you work with ERP partners as a white-label team?
+A: Yes. Implementation partners and agencies can use us for development, migration and support capacity under their brand, with an NDA and non-solicitation.
+
+Q: Who owns the code and the data?
+A: You do. Custom modules live in your repository, the ERP is hosted in your account and your data stays yours.
+
+Q: Do you provide support after go-live?
+A: Yes. A hypercare period follows go-live, then an optional monthly retainer covers support, fixes and enhancements during US business hours.
+
+
+## Outsourced Reel & Short-Form Video Editing
+https://gaa-tha.com/services/outsourced-reel-video-editing
+Last updated: 2026-11-03
+
+gaa-tha provides outsourced reel and short-form video editing for US and UK agencies, creators and brands: Instagram Reels, TikTok, YouTube Shorts and video ads cut from your raw footage, with hooks, captions, b-roll, motion graphics and sound design, delivered in batches and white-label when you need it.
+
+Best for: Agencies, creators and brands with more footage than editing time
+Timeline: Paid test batch first; then weekly or monthly batches
+Engagement model: Monthly retainer by video volume after a paid test batch
+Channels/platforms: Instagram Reels, TikTok, YouTube Shorts, Meta and TikTok ads, LinkedIn video
+
+### What it is
+Outsourced reel editing means sending your raw footage to an editing team that returns finished short-form videos ready to post or run as ads. The value is speed and consistency: a steady weekly batch in your style, rather than editing squeezed between other work.
+
+gaa-tha edits reels and ad videos for its own brand clients every week. For agencies and creators we work from a shared drive or Frame.io, follow your brand kit and style references, add captions, hooks, b-roll and sound, and deliver unbranded files in every aspect ratio you need.
+
+### What's included
+- Edits for Reels, TikTok, YouTube Shorts and vertical ads
+- Hook-first structure with on-screen captions
+- B-roll, stock footage, zoom cuts and pacing to platform norms
+- Motion graphics, lower thirds and brand-kit templates
+- Color correction and audio cleanup
+- Licensed or platform-safe music guidance
+- Multiple aspect ratios: 9:16, 4:5, 1:1 and 16:9
+- Revisions through Frame.io or your review tool
+
+### How we work
+1. Style and brief — Brand kit, references, platforms and posting cadence agreed under NDA.
+2. Paid test batch — A small batch edited from your footage so you can judge style and speed.
+3. Footage handoff — You upload raw footage to a shared drive or Frame.io with a short brief per video.
+4. Edit and review — Edits delivered in batches with comments and revisions in your review tool.
+5. Deliver and repeat — Final files in every ratio, named and organized, on a weekly or monthly rhythm.
+
+### Deliverables
+- Edited short-form videos in required aspect ratios
+- Caption files and thumbnails where needed
+- Reusable brand templates
+- Organized delivery folders
+- Monthly volume and turnaround summary
+
+Tools & platforms: Adobe Premiere Pro, After Effects, DaVinci Resolve, CapCut, Frame.io, Google Drive, Dropbox
+Pricing model: Custom-quoted by monthly video volume and complexity after a paid test batch. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
+
+### FAQ
+Q: Can I outsource reel editing to India?
+A: Yes. Send raw footage through a shared drive or Frame.io with a short brief and style references; an editing team returns finished reels in batches. gaa-tha starts with a paid test batch so you can judge style and speed first.
+
+Q: What do you need from us?
+A: Raw footage, your brand kit (fonts, colors, logo), two or three reference videos you like, the platforms and the posting schedule. A short brief per video helps with hooks and calls to action.
+
+Q: Do you add captions and music?
+A: Yes. On-screen captions are standard. For music we use licensed tracks you provide or advise using platform audio at posting, because licensing rules differ between organic posts and ads.
+
+Q: Can you edit white-label for our agency?
+A: Yes. Files are unbranded, we work only through your agency and we sign an NDA and non-solicitation agreement.
+
+Q: Do you also shoot or create AI video?
+A: For India-based shoots, yes. For US and UK clients we edit your footage, UGC and stock, and can produce AI-assisted visuals and motion graphics.
+
+Q: How are revisions handled?
+A: Through timestamped comments in Frame.io or your review tool, with revision rounds agreed in the retainer.
+
+
+## Marketing Consulting & Fractional CMO
+https://gaa-tha.com/services/marketing-consulting-fractional-cmo
+Last updated: 2026-11-03
+
+gaa-tha provides marketing consulting and fractional CMO support for US and UK brands and agencies: positioning, go-to-market plans, channel and budget strategy, creative direction and monthly performance reviews, with optional execution by our in-house team across ads, social, content, Shopify and web.
+
+Best for: Founders and growing brands without a senior marketer; agencies needing strategy support
+Timeline: Audit and plan in two to four weeks, then monthly advisory
+Engagement model: Fixed-scope strategy project or a monthly fractional retainer
+Channels/platforms: Meta, Google, social, email, Shopify, marketplaces, content
+
+### What it is
+Marketing consulting is senior, outside advice on what to sell to whom, through which channels, with what budget and how to measure it. A fractional CMO goes further: a part-time marketing leader who owns the plan, directs the team or agencies and reviews results every month.
+
+gaa-tha's founders lead strategy and brand thinking for the studio's clients in India and Canada. We offer the same as a consulting project or monthly fractional retainer for US and UK brands, and because we also execute, the plan can be delivered by our team or handed to yours.
+
+### What's included
+- Marketing audit: positioning, funnel, channels, creative and tracking
+- Positioning and messaging framework
+- Go-to-market and channel plan with budget split
+- KPI framework and reporting setup
+- Creative direction and content pillars
+- Agency and freelancer briefs and reviews
+- Monthly performance review and next-month priorities
+- Optional execution by the gaa-tha team
+
+### How we work
+1. Audit — We review your numbers, funnel, channels, creative and competitors.
+2. Strategy — Positioning, audience, channel mix, budget and KPIs written into one plan.
+3. Roadmap — A 90-day roadmap with owners, whether your team, your agencies or ours.
+4. Direct — Weekly or fortnightly working sessions in your business hours to steer execution.
+5. Review — Monthly review of results against KPIs and the next month's priorities.
+
+### Deliverables
+- Marketing audit report
+- Positioning and messaging framework
+- Channel plan and budget model
+- 90-day roadmap
+- Monthly performance review
+
+Tools & platforms: GA4, Looker Studio, Meta Ads Manager, Google Ads, Shopify Analytics, Klaviyo, Notion, Miro
+Pricing model: Custom-quoted as a fixed-scope strategy project or a monthly fractional retainer. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
+
+### FAQ
+Q: What does a fractional CMO do?
+A: A fractional CMO is a part-time marketing leader who sets strategy, owns the plan and budget, directs the team and agencies and reviews results monthly. gaa-tha offers this to US and UK brands on a monthly retainer.
+
+Q: Is marketing consulting worth it before hiring an agency?
+A: Usually, yes. A clear strategy, KPIs and channel plan make every agency or hire more effective, and stop budget being spent on channels that do not fit your buyers.
+
+Q: Can you also execute the plan?
+A: Yes. Our in-house team runs ads, social, content, Shopify and web work, but the plan is written so your own team or other agencies can deliver it too.
+
+Q: Do you consult for agencies?
+A: Yes. Agencies use us for strategy support on pitches and client plans, delivered under the agency's name.
+
+Q: How do sessions work across time zones?
+A: We work US business hours, so working sessions and reviews happen during your day by video call.
+
+Q: How do we start?
+A: With an audit and strategy project. If it is useful, it becomes a monthly fractional retainer.
+
+
 # Case studies
 https://gaa-tha.com/work
 
@@ -4844,6 +5513,1440 @@ A: We run location-targeted lead campaigns, answer the trust questions with broc
 # Guides from the gaa-tha blog
 https://gaa-tha.com/blog
 
+
+## How to choose an outsourcing partner in India: a checklist for US and UK teams
+https://gaa-tha.com/blog/how-to-choose-an-outsourcing-partner-in-india
+Category: Outsourcing. Published 2026-11-03.
+
+To choose an outsourcing partner in India, check live work and references, confirm who actually does the work, agree real working-hours overlap, put an NDA, IP transfer and non-solicitation in writing, keep accounts in your name, and start with a small paid pilot. Score every candidate on the same weighted criteria before you compare prices.
+
+### What should you check before hiring an outsourcing partner in India?
+
+Check five things before anything else: live work you can verify, references you can call, who will actually do the work, how the partner protects your data and IP, and whether their working hours overlap with yours.
+
+India has a deep pool of agencies, studios and freelancers across marketing, design, Shopify, web, mobile and ERP development. That depth is the advantage and the challenge: the gap between a strong partner and a weak one is wide, and both can look similar on a website. The checklist below is designed for US and UK founders, CTOs, operations leads and agency owners who need to separate them quickly, whether you are outsourcing for your own company or white-labeling work for your clients.
+
+Start by deciding which type of partner you need, because each is right for a different job:
+
+| Partner type | Best for | Watch out for |
+|---|---|---|
+| Freelancer | Small, well-defined tasks and quick fixes | Availability, no backup, limited range of skills |
+| Specialist studio | Deep work in one area, such as Shopify builds, video editing or paid media | You may need other vendors for everything around it |
+| Full-service agency | Work that spans strategy, creative, development and marketing under one plan | Confirm each skill is in-house rather than subcontracted |
+| Development company | Larger software builds, web apps, mobile apps and ERP implementations | Product and marketing context; ownership of business outcomes |
+| White-label partner | Agencies that resell work under their own brand | Confidentiality, unbranded delivery and non-solicitation terms |
+
+### What does a complete outsourcing partner checklist include?
+
+A complete checklist covers capability, people, process, protection and commercial terms. Work through it for every shortlisted partner.
+
+- **Portfolio and live work.** Links to live websites, stores, apps or ad accounts they worked on, with a clear statement of what they did on each. Screenshots alone are not enough.
+
+- **References.** At least two past or current clients you can speak to, ideally in your country or with a similar time difference.
+
+- **Who does the work.** Whether the team is in-house or work is subcontracted to freelancers, and the names and roles of the people assigned to you.
+
+- **Time-zone coverage.** The exact hours they are online in your time zone. UK hours overlap naturally with the Indian afternoon; US coverage requires a team that deliberately works shifted hours.
+
+- **Communication tools.** Slack or Teams for conversation, a project board such as Jira, Linear, ClickUp or Asana for tasks, and video calls for reviews.
+
+- **Security and NDA.** Willingness to sign your NDA before receiving details, named accounts with two-factor authentication and least-privilege access.
+
+- **IP and account ownership.** Code in your repository, ad accounts, stores, domains and app store accounts in your name, and IP transfer on payment written into the contract.
+
+- **Contract terms.** Scope, change requests, warranty, confidentiality, non-solicitation of your staff or clients, termination and handover.
+
+- **Payment methods.** Invoices you can pay easily from abroad, such as international bank wire (SWIFT), PayPal or card through a processor like Stripe, with clear currency terms.
+
+- **Pilot project.** Openness to a small paid trial before a larger build or retainer.
+
+- **Reporting.** Sample weekly updates and monthly reports, so you know what you will see and when.
+
+Ask for evidence rather than assurances for each item: a sample report, a redacted contract, a screenshot of how they structure a project board, or a short call with the person who would lead your account. Partners who are organized can produce these quickly.
+
+### How do you score outsourcing partners side by side?
+
+Score every candidate on the same weighted criteria, from 1 to 5, before you look at price; then compare the price of the top two or three.
+
+| Criterion | Weight | What a 5 looks like |
+|---|---|---|
+| Relevant live work | 20% | Several live examples close to your project, with specifics on what they did |
+| Team and seniority | 15% | Named in-house people with relevant experience; senior oversight on your account |
+| Communication and overlap | 15% | Clear written English, fast replies in the trial, real overlap with your working hours |
+| Process and quality | 15% | Discovery, written specs, staging, QA, documentation and a warranty period |
+| Security, IP and ownership | 10% | NDA up front, accounts in your name, IP transfer and access controls in the contract |
+| References | 10% | Clients who confirm delivery, honesty about problems and how they were fixed |
+| Commercial fit | 10% | A transparent pricing model, clear assumptions and payment methods that suit you |
+| Pilot result | 5% | Pilot delivered on time, to brief, with useful questions along the way |
+
+Adjust the weights to your situation. An agency white-labeling work for its clients may weight communication, confidentiality and non-solicitation higher; a startup building an MVP may weight product thinking and seniority higher.
+
+### What questions should you ask on the first call?
+
+Ask questions that force specific answers about people, process and past work; vague answers to these are the most reliable early warning.
+
+1. Which three projects are most similar to ours, and what exactly did your team do on each?
+
+2. Who will work on our account, are they employees, and what happens if one of them leaves?
+
+3. Which hours will your team be online in our time zone, and who answers urgent issues?
+
+4. How do you turn our brief into a written scope, and who signs it off?
+
+5. What does a typical week look like: updates, demos, reports?
+
+6. Where will the code, designs and accounts live, and how do you hand them over at the end?
+
+7. Will you sign our NDA and agree to non-solicitation and IP transfer in the contract?
+
+8. How do you handle change requests, and how are they priced?
+
+9. What went wrong on a recent project, and what did you change afterward?
+
+10. Can we start with a small paid pilot?
+
+For agencies outsourcing client work, add: how do you keep work unbranded, and do you ever contact the end client? For contract terms specific to white-label arrangements, see [white-label agreements explained](https://gaa-tha.com/blog/white-label-agreements-nda-non-solicitation).
+
+### What are the red flags when choosing an Indian outsourcing partner?
+
+The strongest red flag is a partner that cannot point to live work and explain what they personally delivered. Others to take seriously:
+
+- Accounts, repositories or ad accounts set up in the partner's name instead of yours.
+
+- Reluctance to sign an NDA, agree IP transfer or put non-solicitation in writing.
+
+- A different, more junior team appears after you sign, or the people on the sales call are never seen again.
+
+- Undisclosed subcontracting to freelancers.
+
+- Quotes produced in minutes without questions about your goals or constraints.
+
+- Guaranteed rankings, ROAS, sales numbers or app store features.
+
+- No staging environment, test plan, reporting sample or warranty period.
+
+- Replies that take days during the sales process; it rarely gets faster after signing.
+
+- Unusual payment demands, such as large upfront payments for undefined scope or requests to pay personal accounts.
+
+### How should you run a paid pilot project?
+
+Run a pilot as a small, real piece of work with a fixed scope, a deadline and clear acceptance criteria, paid at the partner's normal terms so you see their normal behavior.
+
+- **Development:** a landing page, a custom Shopify section, a bug-fix batch or one feature behind a staging link.
+
+- **Performance marketing:** an ad account audit with a prioritized action plan, or one campaign build for review before launch.
+
+- **Social and video:** a batch of posts or a set of edited reels from your raw footage and brand guidelines.
+
+- **ERP:** a process-mapping workshop and written blueprint for one department.
+
+Judge the pilot on more than the output: the questions they asked, how they handled feedback, whether updates arrived without chasing and whether the deadline held.
+
+Set the pilot up the way the real engagement will run: the same tools, the same contacts, the same reporting rhythm and the same contract terms. A pilot run informally over chat tells you little about how a six-month retainer will feel. Write down before it starts what would make you continue, what would make you stop, and what you would want changed, then share that with the partner so the evaluation is fair on both sides.
+
+Running pilots with two finalists in parallel is worth the extra cost when the engagement is large. The comparison is usually decisive, and the losing pilot still produces useful work.
+
+### How should you run the first 90 days with a new partner?
+
+Treat the first 90 days as a structured trial with written goals for each month, so both sides know what good looks like and problems surface early.
+
+| Period | Focus | What you should see |
+|---|---|---|
+| Days 1 to 30 | Onboarding and access | Accounts and tools set up in your name, a written scope or plan, communication rhythm agreed, first deliverables on a staging link or for review |
+| Days 31 to 60 | Delivery rhythm | Work shipping on schedule, weekly updates without chasing, quality issues raised and fixed, change requests handled through the agreed process |
+| Days 61 to 90 | Review and decide | A review against the goals you set, feedback in both directions, a decision to expand, adjust or end the engagement |
+
+Keep a short shared log of decisions and issues. If the relationship ends, it makes the handover easier; if it continues, it becomes the basis for a longer retainer.
+
+### Where does gaa-tha fit as an outsourcing partner?
+
+gaa-tha is a storytelling-led marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India by Abhishek Khuthiya and Getansh Savla. One in-house team handles performance marketing, social media, reels, Shopify, websites, apps and ERPs. We work US business hours as well as UK hours, keep accounts and code in the client's name, and invoice by bank wire (SWIFT), PayPal or card via Stripe. For agencies we sign an NDA before the brief, work unbranded with no contact with your client unless you ask, agree non-solicitation and start with a paid pilot. Our international work includes an ongoing retainer for a [Canadian trading-card retailer](https://gaa-tha.com/work/new-rave). See [outsourcing and white-label services](https://gaa-tha.com/services/outsourcing), the [white-label agency partner](https://gaa-tha.com/services/white-label-agency-partner) page, or [tell us about your project](https://gaa-tha.com/#contact).
+
+Q: How do I find a reliable outsourcing partner in India?
+A: Shortlist partners with live work similar to your project, call their references, confirm who will actually do the work, and check their working-hours overlap with your team. Then run a small paid pilot with two finalists and score both on the same criteria before deciding.
+
+Q: Is it better to hire a freelancer or an agency in India?
+A: A freelancer suits a small, well-defined task with a tight budget. An agency suits ongoing work, projects that need several skills such as design, development and marketing, and situations where you need backup if one person is unavailable.
+
+Q: How do I protect my intellectual property when outsourcing?
+A: Sign an NDA before sharing details, keep code and accounts in your own name from the first day, and make the contract transfer IP in the deliverables to you on payment. Give named, least-privilege access and remove it when people leave the project.
+
+Q: What contract terms should an outsourcing agreement include?
+A: Scope and deliverables, change-request process, timelines, payment terms, confidentiality, IP transfer, non-solicitation, warranty or bug-fix period, termination and handover obligations. Agencies white-labeling work should add unbranded delivery and no contact with the end client. Have your own counsel review it.
+
+Q: How do I pay an outsourcing partner in India from the US or UK?
+A: Most Indian agencies accept international bank wires (SWIFT), and many also accept PayPal or card payments through a processor such as Stripe. Agree the invoice currency, payment schedule and who bears transfer fees before work starts.
+
+Q: Should I start with a pilot project?
+A: Yes. A small paid pilot with a fixed scope and deadline shows the partner's quality, communication and reliability in practice, at low risk. Use the result as one of your scorecard criteria rather than relying on sales calls alone.
+
+## How to outsource digital marketing to India: a guide for US and UK businesses
+https://gaa-tha.com/blog/how-to-outsource-digital-marketing-to-india
+Category: Outsourcing. Published 2026-11-03.
+
+To outsource digital marketing to India, decide which work to hand over (ads, social media, Shopify and web builds, apps, ERP, video editing or strategy), pick an engagement model (project, retainer, dedicated team or white-label), agree working hours and reporting, sign an NDA and a clear statement of work, then start with a small paid pilot before committing to a retainer.
+
+### What marketing and development work can you outsource to India?
+
+You can outsource almost any digital work that is delivered through a screen: performance marketing, social media, creative production, Shopify and website development, mobile apps, ERP implementation and video editing, plus strategy and consulting delivered over video calls. The real test is not whether the work can travel, but whether it can be briefed, reviewed and measured remotely.
+
+| Work | What a partner typically handles | What you usually keep |
+|---|---|---|
+| Performance marketing (Meta and Google ads) | Campaign builds, creative testing, bid and budget management, tracking checks, weekly reporting | Budget approval, offer and pricing decisions, ownership of the ad accounts |
+| Social media management | Content calendar, design, captions, scheduling, community replies within agreed guidelines | Brand voice sign-off, sensitive replies, partnerships |
+| Shopify development and store management | Theme builds, custom sections, migrations, app setup, product uploads, fixes and speed work | Store ownership, product and pricing decisions |
+| Website development | Design, front-end and CMS builds, landing pages, ongoing maintenance | Domain and hosting accounts, final content approval |
+| Mobile and web apps | UX, development, QA, release management and maintenance | Product roadmap, app store accounts |
+| ERP and Odoo | Process mapping, configuration, custom modules, integrations, data migration | Process owners and final sign-off on workflows |
+| Reel and video editing | Short-form edits, captions, motion graphics, versions for each platform | Raw footage, on-camera talent, final approval |
+| Marketing consulting | Audits, strategy, channel plans, fractional CMO support | Decisions and budgets |
+
+Work that depends on being physically present, such as in-store events, local field marketing or live shoots in your city, is harder to hand over, although a remote team can still plan it, edit the footage and run the ads around it.
+
+Each area has its own guide: [outsourcing PPC and Meta ads](https://gaa-tha.com/blog/white-label-ppc-meta-ads-guide), [outsourcing Shopify development](https://gaa-tha.com/blog/outsource-shopify-development-to-india), [outsourcing website and app development](https://gaa-tha.com/blog/outsource-website-and-app-development-to-india), [Odoo and ERP development](https://gaa-tha.com/blog/offshore-odoo-erp-development-guide) and [reel and video editing](https://gaa-tha.com/blog/outsource-reel-video-editing-guide).
+
+### Why do US and UK businesses outsource to agencies in India?
+
+US and UK businesses outsource to India mainly for capacity and cost structure: they get access to a full team of designers, developers, editors and media buyers for work that would be slow or expensive to staff locally, without adding permanent headcount.
+
+- **Capacity on demand.** Agencies can take on more clients, and brands can ship more, without hiring and training for every peak.
+
+- **Breadth in one team.** A single partner can cover ads, content, Shopify, apps and automation, so there are fewer vendors to manage and fewer handoffs between them.
+
+- **Cost structure.** Lower salary and overhead costs in India usually mean the same budget buys more hours or a broader team. Savings vary widely by scope and partner, so compare full proposals rather than headline rates.
+
+- **English as the working language.** Business communication, documentation and code comments are in English as standard.
+
+- **Time-zone leverage.** Work can move forward overnight for fast turnarounds, or a team can work your hours for live collaboration.
+
+Outsourcing is a poor fit when the scope changes daily with nobody owning the brief, when the work needs deep local context the partner cannot learn, or when you are hoping a vendor will fix a problem nobody in your business has defined. In those cases, start with an audit or a [consulting engagement](https://gaa-tha.com/services/marketing-consulting-fractional-cmo) rather than handing over execution.
+
+### Which engagement model should you choose: project, retainer, dedicated team or white-label?
+
+Choose a fixed-scope project for work with a clear end, a monthly retainer for ongoing work, a dedicated team when you want capacity you direct yourself, and a white-label arrangement if you are an agency reselling the work under your own brand.
+
+| Model | Best for | How it is usually priced | Watch out for |
+|---|---|---|---|
+| Fixed-scope project | Website or Shopify builds, app MVPs, migrations, ERP rollouts, audits | One price for an agreed scope, paid by milestone | Change requests outside the scope; agree up front how they are quoted |
+| Monthly retainer | Ads management, social media, store management, video editing, maintenance | A monthly fee for an agreed scope or volume of work | Vague scopes; define deliverables and turnaround times |
+| Dedicated team | Long product builds, high-volume production, agencies that need extra hands | A monthly fee per role, with the work directed by you | More management load on your side; insist on a named lead |
+| White-label | Agencies delivering work to their own clients under their own brand | Project, retainer or per deliverable, resold at the agency's own price | Branding, client contact and non-solicitation must be written into the contract |
+
+Many relationships move through these models in sequence: a paid pilot, then a project, then a retainer. Agencies considering the white-label route can read [how white-label agency services work](https://gaa-tha.com/blog/white-label-agency-services-explained).
+
+### How do time zones and communication work with a team in India?
+
+India Standard Time is UTC+5:30 all year with no daylight saving, so India is 9.5 hours ahead of US Eastern time in summer and 10.5 hours ahead in winter, 12.5 to 13.5 hours ahead of US Pacific time, and 4.5 to 5.5 hours ahead of the UK. That leaves three workable models:
+
+- **Your hours.** The team works your business day, so calls, chat replies and launches happen live. Best for ads management, store operations and anything with frequent back-and-forth.
+
+- **Overlap.** A few shared hours each day for calls and decisions, with focused work outside them. Common for UK clients, whose morning overlaps the Indian afternoon.
+
+- **Overnight handoff.** You brief at the end of your day and wake up to finished work. Works well for video editing, design batches and development tickets.
+
+Whichever model you pick, good communication is a process, not a personality trait. Ask for:
+
+- One named lead who owns your account and answers for delivery.
+
+- A shared channel (Slack, Microsoft Teams or email) with an agreed response time.
+
+- A project board (Asana, ClickUp, Trello, Jira or Notion) where every request has an owner and a due date.
+
+- Written briefs, and short screen recordings for feedback instead of long chains of calls.
+
+- A weekly check-in and a monthly report against the KPIs agreed at the start, such as cost per acquisition, ROAS or MER for ads (see [ROAS vs MER vs contribution margin](https://gaa-tha.com/blog/roas-vs-mer-vs-contribution-margin)).
+
+If the partner will work inside your tools, set up their accounts with only the permissions they need, and keep admin rights for ad accounts, stores and domains in your own name.
+
+### What should the contract and payment terms cover?
+
+At minimum, a contract with an outsourcing partner should include a non-disclosure agreement signed before you share anything sensitive, a statement of work with deliverables and acceptance criteria, ownership of the work and the accounts, payment terms, and how either side can end the relationship.
+
+- **NDA.** Covers your data, your clients and your plans. Sign it before the brief, not after the proposal.
+
+- **Statement of work.** Deliverables, timelines, turnaround times, revision rounds and what is out of scope.
+
+- **IP and accounts.** Code, designs and content transfer to you on payment; ad accounts, stores, domains and app store listings stay in your name.
+
+- **Data protection.** If the partner will handle personal data of UK or EU customers, agree a data processing agreement that reflects UK GDPR or GDPR.
+
+- **Non-solicitation.** Essential for agencies: the partner must not approach your clients directly.
+
+- **Termination and handover.** Notice period, final invoice and a documented handover of files, credentials and access.
+
+Payment is usually straightforward. Indian agencies routinely invoice international clients and accept international bank transfers (SWIFT), and many also accept PayPal or card payments. Agree the invoicing currency, who carries transfer fees, and whether work is billed in advance (typical for retainers) or by milestone (typical for projects). US finance teams often ask a foreign vendor for a W-8BEN-E form for their records, so request one if you need it. For the clauses agencies rely on most, see [white-label agreements explained](https://gaa-tha.com/blog/white-label-agreements-nda-non-solicitation).
+
+### How do you start with a paid pilot project?
+
+Start with a small paid pilot: one well-defined piece of real work, with a fixed fee, a short timeline and written acceptance criteria, so you can judge quality, communication and speed before committing to a retainer.
+
+Good pilots are real work you need anyway, small enough to finish in two to four weeks:
+
+- A landing page, or one custom Shopify section built to your design system.
+
+- An ad account audit plus one month of campaign management on a single account.
+
+- A batch of short-form edits cut from footage you already have.
+
+- A two-week sprint on a backlog of website or app tickets.
+
+- A marketing audit with a 90-day plan.
+
+Decide beforehand how you will score it. Did the work meet the brief the first time? How many revision rounds did it take? Were deadlines and response times kept? Did the team ask good questions before starting? Would you put the result in front of your own customers or clients? If the answers are yes, move to a retainer using the same brief and review format, so the pilot becomes the template for the relationship.
+
+Avoid unpaid test tasks. Paying for the pilot gets you the partner's real team and process, and makes ownership of the output clear.
+
+### What are the red flags when outsourcing to an offshore agency?
+
+The biggest red flag is a partner that cannot show real, live work and explain exactly what it did on each project. Others to watch for:
+
+- Prices far below every other proposal with no explanation of what is excluded.
+
+- Guaranteed rankings, ROAS, lead volumes or follower numbers.
+
+- Ad accounts, stores or domains set up in the agency's name instead of yours.
+
+- No written scope, no acceptance criteria and no change-request process.
+
+- Reluctance to sign an NDA or a non-solicitation clause.
+
+- A different person on every call, or no clarity about who actually does the work, including undisclosed subcontracting.
+
+- Reporting that only shows activity (posts published, hours logged) rather than outcomes, or lead counts with no check on lead quality (see [filtering fake leads from Meta ads](https://gaa-tha.com/blog/filtering-fake-leads-from-meta-ads)).
+
+- Pressure to skip the pilot and sign a long contract upfront.
+
+For a structured way to compare partners, use the scorecard in [how to choose an outsourcing partner in India](https://gaa-tha.com/blog/how-to-choose-an-outsourcing-partner-in-india).
+
+### Where does gaa-tha fit for US and UK businesses?
+
+gaa-tha is a storytelling-led marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India by Abhishek Khuthiya and Getansh Savla, with one in-house team across strategy, creative, ads, Shopify, websites, apps and ERP. For international clients we work full US business hours and UK business hours, quote every engagement to its scope, and invoice for payment by international bank wire (SWIFT), PayPal or card via Stripe.
+
+Brands can work with us directly. Agencies can work with us on a white-label basis: we sign an NDA before the brief, deliver unbranded work with no contact with your client unless you ask for it, agree not to solicit your clients, and start with a paid pilot. Our international work includes an ongoing retainer for [New Rave](https://gaa-tha.com/work/new-rave), a trading-card and hobbies retailer in Canada, covering strategy, Canada-wide campaigns, Instagram content, product data and its website.
+
+See all [outsourcing and white-label services](https://gaa-tha.com/services/outsourcing), including [PPC and Meta ads](https://gaa-tha.com/services/white-label-ppc-meta-ads), [Shopify development](https://gaa-tha.com/services/white-label-shopify-development), [app development](https://gaa-tha.com/services/outsource-app-development) and [reel editing](https://gaa-tha.com/services/outsourced-reel-video-editing), or [tell us about your project](https://gaa-tha.com/#contact).
+
+Q: Is it safe to outsource marketing to India?
+A: It is safe when the basics are in writing: an NDA before you share data, ad accounts and stores in your own name, limited-permission access and a clear scope. Most problems come from vague scopes and shared logins, not geography. A paid pilot lets you check quality and communication before you commit.
+
+Q: How much does it cost to outsource digital marketing to India?
+A: It depends on the scope, the volume of work and the engagement model, so reputable agencies quote after a brief rather than publishing one price. Projects are quoted for an agreed set of deliverables, retainers per month of agreed work, and dedicated teams per role. Compare proposals line by line on scope, not on headline rates.
+
+Q: Can an Indian agency work US business hours?
+A: Yes. Some teams work the full US business day, some keep a few overlapping hours, and some hand work over overnight. Agree the model, response times and meeting windows in the contract so expectations are clear from day one.
+
+Q: What is the difference between outsourcing and white-label?
+A: Outsourcing means a business hires an outside partner to do its own work. White-label means an agency hires a partner to produce work that the agency sells to its own clients under its own brand, so the partner stays invisible to the end client.
+
+Q: Should I hire freelancers or an agency in India?
+A: Freelancers suit small, well-defined tasks. An agency suits ongoing or multi-skill work because it brings a team, a named lead, cover when someone is away and a process for quality control.
+
+Q: How do I pay an agency in India from the US or UK?
+A: Most Indian agencies invoice international clients and accept international bank transfers (SWIFT), and many also accept PayPal or card payments. Agree the currency, the payment schedule and who pays transfer fees before work starts.
+
+Q: Do I keep ownership of the work and the accounts?
+A: You should. Put IP transfer on payment into the contract, and keep ad accounts, Shopify stores, domains, hosting and app store listings in your own name, with the partner on staff or partner access that you can remove.
+
+## Outsourcing Odoo and ERP development to India: what to expect
+https://gaa-tha.com/blog/offshore-odoo-erp-development-guide
+Category: Outsourcing. Published 2026-11-03.
+
+Outsourcing Odoo or ERP development to India works best when you treat it as a business-process project, not a coding job: map how orders, stock and money move today, choose the edition and hosting that fit, configure before you customize, migrate clean data, train your people, and keep the code and the hosting account in your own company's name.
+
+### When should a US or UK company outsource ERP development?
+
+Outsource ERP work when you have outgrown spreadsheets and disconnected tools, know the processes you want to run, and need implementation and development capacity you cannot justify hiring full time.
+
+Typical triggers we see from growing product, wholesale and service businesses:
+
+- Orders arrive from a Shopify store, marketplaces, wholesale buyers and sales reps, and stock is reconciled by hand.
+
+- Accounting in QuickBooks or Xero is fine, but purchasing, inventory, manufacturing or project costing live in spreadsheets.
+
+- Reports for leadership take days to assemble from several systems.
+
+- An existing Odoo or ERPNext installation has been customized heavily, is stuck on an old version, or has no one left who understands it.
+
+- A specific workflow, such as made-to-order production, rentals or field service, is not covered well by off-the-shelf software.
+
+Outsourcing gives you a team that has implemented the platform before, without carrying a permanent in-house ERP department. It works poorly if no one on your side owns the project: an ERP touches finance, operations and sales, and someone internal must make decisions quickly.
+
+### Odoo, ERPNext or a custom ERP: which should you build on?
+
+Most small and mid-sized companies should start with Odoo or ERPNext configured to their process and add custom modules only where needed; a fully custom ERP makes sense only when the core of the business is unusual.
+
+| Option | What it is | Good fit when |
+|---|---|---|
+| Odoo | A modular business suite (sales, inventory, purchasing, manufacturing, accounting, CRM, ecommerce and more) built on Python, available as Community and Enterprise editions | You want a broad, polished suite and a large ecosystem of modules and partners |
+| ERPNext | An open-source ERP on the Frappe framework, self-hosted or on Frappe Cloud | You want an open-source suite with no per-user license and are comfortable with its ecosystem |
+| Custom ERP | Software built from scratch around your workflow | Your core process is unique and standard suites would need so much change that they stop being standard |
+| Accounting tool plus add-ons | QuickBooks or Xero with inventory, CRM and ops apps connected | Operations are simple and the main need is cleaner finance |
+
+For a deeper comparison, see [custom ERP vs Odoo vs ERPNext vs Tally](https://gaa-tha.com/blog/custom-erp-vs-odoo-vs-erpnext-vs-tally).
+
+### What is the difference between Odoo Community and Odoo Enterprise?
+
+Odoo Community is the free, open-source edition you host yourself; Odoo Enterprise is the paid subscription that adds more apps and features, official support, upgrade services and Odoo's own hosting options.
+
+- **Apps and features:** Enterprise includes apps and capabilities that Community does not, such as the Studio customization tool and fuller accounting features. Check the current Odoo edition comparison for the specific apps you need, because it changes between versions.
+
+- **Hosting:** Community is self-hosted on your own server or cloud. Enterprise can run on Odoo Online (Odoo's SaaS), on Odoo.sh (Odoo's platform for Enterprise projects with Git-based deployment) or on your own servers.
+
+- **Custom code:** Odoo Online is designed for standard use and configuration; projects that need custom Python modules generally run on Odoo.sh or self-hosted servers. Confirm this for your plan before you scope custom development.
+
+- **Upgrades and support:** Odoo releases new major versions regularly. Enterprise subscriptions include help with upgrading standard data, but every custom module still has to be ported and tested by whoever maintains it.
+
+- **Cost:** Community has no license fee but you carry hosting, maintenance and upgrades; Enterprise has per-user subscription pricing. Compare the total cost over several years, including partner time, not just the license line.
+
+A good partner will recommend an edition and hosting option based on your apps, user count and customization needs, and will tell you when Community is not enough.
+
+### What are the phases of an outsourced Odoo or ERP project?
+
+An ERP project runs in six phases, and the first and last two matter as much as the development in the middle.
+
+1. **Process mapping.** Workshops with finance, operations and sales to document how quotes, orders, purchasing, stock, production, invoicing and reporting work today and how they should work. The output is a written blueprint and a gap list: what the standard product covers and what it does not.
+
+2. **Configuration.** Setting up companies, warehouses, routes, product categories, pricelists, taxes, chart of accounts, approval rules and user roles inside the standard apps.
+
+3. **Customization.** Custom modules, fields, reports and automations only for the gaps that matter, built in a version-controlled repository so they survive upgrades.
+
+4. **Integrations and data migration.** Connecting the store, accounting, payments and shipping, then importing customers, vendors, products, open orders, stock levels and opening balances, with test imports before the real one.
+
+5. **Training and user acceptance testing.** Role-based training, written guides and a test period in which your team runs real scenarios end to end and signs off.
+
+6. **Go-live and support.** A planned cut-over date, a period of close support while the team settles in, then a support retainer for fixes, small changes and upgrades.
+
+Phasing the rollout helps: many companies start with sales, inventory and purchasing, then add manufacturing, accounting or projects once the core is stable.
+
+**What to prepare before the first workshop:** a list of current systems and who uses them, sample documents (quotes, invoices, purchase orders, packing slips), your product and customer lists as exports, the reports leadership reads every month, and the three processes that cause the most manual work today. Partners can scope far more accurately from real documents than from descriptions.
+
+### How do ERP integrations with Shopify, QuickBooks, Xero, payments and shipping work?
+
+Integrations connect the ERP to the systems where orders start and money lands, either through existing connectors or through custom code against each platform's API, and they usually take more effort than any single screen in the ERP.
+
+| System | What usually syncs | Decisions to make |
+|---|---|---|
+| Shopify and other storefronts | Products, prices, stock levels, orders, customers, fulfillment status | Which system is the master for products and stock; how often stock syncs; how refunds and edits flow back |
+| QuickBooks or Xero | Invoices, bills, payments, customers, vendors, journals | Keep accounting there and sync summaries, or move accounting into the ERP entirely |
+| Payment providers such as Stripe and PayPal | Payments, payouts, fees, refunds | How payouts are reconciled against invoices |
+| Shipping carriers and tools | Rates, labels, tracking numbers | Which warehouse ships which orders; label printing at the dock |
+| Tax tools and localizations | Sales tax or VAT calculation and reporting | Whether the ERP's localization covers your country, such as US sales tax or UK VAT reporting, or a dedicated tax service is needed |
+
+Ask your partner to write an integration specification for each connection, including what happens when a sync fails, and to build monitoring so errors are seen the same day rather than at month end.
+
+### How do you run an ERP project remotely with an Indian team and keep ownership of it?
+
+Run it with clear ownership on your side, a fixed weekly rhythm and documentation that lives in your systems, so the time difference becomes an advantage rather than a delay.
+
+- **A named internal project owner** who can answer process questions and approve decisions within a day.
+
+- **Department champions** in finance, warehouse and sales who join workshops for their area and test their workflows.
+
+- **Working-hours overlap:** UK teams overlap naturally with the Indian afternoon; US teams should agree whether the partner covers part or all of the US workday.
+
+- **Recorded workshops and written decisions** stored in a shared space, so the blueprint does not depend on anyone's memory.
+
+- **A weekly demo on a staging database** using your real products and scenarios.
+
+- **A shared board** where every requirement, bug and change request is a ticket with a status.
+
+The follow-the-sun effect is real when it is planned: your team tests in their day, and fixes are ready by the next morning. It breaks down when questions sit unanswered, so agree a response time for decisions as well as for fixes.
+
+**Ownership.** Your company should own the database, the hosting account, the custom module repository and every integration credential, with the partner working through accounts you can revoke.
+
+- **Repository:** custom modules in a Git repository under your organization, with commit history.
+
+- **Hosting:** the Odoo.sh project, cloud server or Frappe Cloud site billed to you, with the partner added as a collaborator.
+
+- **Licenses and subscriptions:** Odoo Enterprise or other subscriptions in your company's name.
+
+- **Backups:** scheduled backups you can download and restore, tested at least once before go-live.
+
+- **Documentation:** the process blueprint, configuration notes, integration specs and a module list with what each one does.
+
+Put intellectual property transfer, confidentiality and a handover obligation in the contract. If the business processes personal data of UK or EU residents, ask your counsel whether you need a data processing agreement and transfer safeguards with the partner.
+
+### What are the risks of outsourcing ERP development, and how do you manage them?
+
+The main risks are scope creep, over-customization, poor data and low adoption, and each can be managed with a specific habit.
+
+| Risk | How to manage it |
+|---|---|
+| Scope creep | A signed blueprint, a gap list with priorities and a change-request process |
+| Over-customization that makes upgrades painful | Configure first; justify every custom module in writing; keep custom code small and modular |
+| Dirty or incomplete data | Clean master data before migration; run at least two test imports and reconcile stock and balances |
+| Low user adoption | Involve department champions early; role-based training; a support channel for the first weeks |
+| Key-person dependency at the partner | Documentation, code in your repository and at least two people on the partner side who know the system |
+| Go-live disruption | Cut over at a quiet period, with a rollback plan and close support for the first weeks |
+
+### Where does gaa-tha fit for ERP projects?
+
+gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India. One in-house team implements Odoo and ERPNext, builds custom ERP modules and connects them to Shopify stores, payments and the rest of the stack. We work US business hours as well as UK hours, keep code and hosting in the client's name, and invoice by bank wire (SWIFT), PayPal or card via Stripe. Start with [offshore ERP and Odoo development](https://gaa-tha.com/services/offshore-erp-odoo-development), see [ERP development](https://gaa-tha.com/services/erp-development), or [send us your processes](https://gaa-tha.com/#contact) for a scoped proposal.
+
+Q: Can an Indian team implement Odoo for a US or UK company?
+A: Yes. Odoo is used worldwide and the implementation work (process mapping, configuration, custom modules, integrations, data migration and training) can be done remotely. What matters is a named owner on your side, overlapping working hours and a partner that understands your country's tax and accounting requirements or works with your accountant.
+
+Q: Should we use Odoo Community or Enterprise?
+A: Choose Enterprise when you need apps or features only Enterprise includes, want Odoo's hosting on Odoo Online or Odoo.sh, or value official support and upgrade services. Community suits teams that will self-host, need mainly the open-source apps and are prepared to maintain upgrades. Compare total cost over several years, not just the license.
+
+Q: Can we keep QuickBooks or Xero and still use an ERP?
+A: Yes. Many companies run operations in Odoo or ERPNext and sync invoices, bills and payments to QuickBooks or Xero, so the accountant keeps their tool. Others move accounting into the ERP once operations are stable. Decide which system is the source of truth for each record before integration starts.
+
+Q: How long does an outsourced ERP implementation take?
+A: A focused rollout of sales, inventory and purchasing for a small company often takes a few months; adding manufacturing, multiple companies, heavy integrations or custom modules extends that. A phased plan agreed after process mapping is more reliable than an estimate given before it.
+
+Q: What happens to our custom modules when Odoo releases a new version?
+A: Custom modules have to be ported to the new version and tested, even when Odoo helps migrate standard data. Keeping custom code small, documented and in your own repository makes upgrades faster and lets any competent partner do them.
+
+Q: Is our business data safe with an offshore ERP partner?
+A: It can be, with the right controls: an NDA, named accounts with two-factor authentication, least-privilege access, anonymized data in test environments where possible, and hosting and backups in your company's name. Ask your counsel about data processing agreements if you handle personal data of UK or EU residents.
+
+## How to outsource reel and short-form video editing: briefs, turnaround and QA
+https://gaa-tha.com/blog/outsource-reel-video-editing-guide
+Category: Outsourcing. Published 2026-11-03.
+
+To outsource reel and short-form video editing well, send an editor a clear brief and a brand kit, hand off organized raw footage through a shared drive or review tool, agree the editing style, revision rounds and turnaround up front, check every video against a QA checklist before posting, and start with a small paid test batch. This guide covers each step for agencies, creators and brands.
+
+### What does outsourced reel and short-form video editing include?
+
+Outsourced short-form editing turns your raw footage into finished vertical videos for Instagram Reels, TikTok, YouTube Shorts and Facebook, ready to post or run as ads. A typical scope includes:
+
+- **Selects and story.** Choosing the strongest takes and cutting them into a structure with a hook, a body and a call to action.
+
+- **Captions and on-screen text.** Styled subtitles, keyword highlights and text hooks, placed inside each platform's safe zones.
+
+- **B-roll and cutaways.** Product shots, screen recordings, stock or AI-generated inserts that keep the pace up.
+
+- **Motion graphics.** Animated titles, lower thirds, arrows, zooms and transitions in your brand style.
+
+- **Sound.** Audio cleanup, levels, licensed music and sound effects.
+
+- **Color.** Basic correction, or a brand look applied consistently.
+
+- **Exports and variants.** 9:16 masters plus cut-downs, alternate hooks or 1:1 and 4:5 versions for ads.
+
+Agencies outsource editing to deliver more content without hiring editors; creators and founders outsource it to keep filming while someone else handles the timeline. Brands that also need filming, scripting or strategy can outsource the whole pipeline; see [reels and short-form video](https://gaa-tha.com/services/reels-short-form-video). Agencies that resell editing under their own name should also read [white-label agency services explained](https://gaa-tha.com/blog/white-label-agency-services-explained).
+
+Before you hand anything over, decide which parts stay with you. Most teams keep the content strategy, the on-camera talent and final approval in-house, and outsource the timeline work, captions, graphics and exports, which are the most time-consuming and the easiest to standardize.
+
+### What should a good short-form video editing brief include?
+
+A good editing brief fits on one page and tells the editor who the video is for, what it must make the viewer do, and what it should look and sound like.
+
+- **Goal and platform.** Organic Reel, TikTok, Short or paid ad, and the action you want: follow, click, buy, book.
+
+- **Audience.** Who is watching and what they already know.
+
+- **Hook.** The first line or visual, or two or three options to test.
+
+- **Length.** A target duration range for each video.
+
+- **References.** Two or three example videos you like, with a note on what to copy: pacing, captions, transitions.
+
+- **Must-haves and never-dos.** Product claims to include or avoid, words not to use, faces or locations to blur.
+
+- **Call to action.** Exact wording and the end card.
+
+- **Deadline and volume.** How many videos, by when, and in what order of priority.
+
+Pair the brief with a **brand kit**: logo files, fonts, hex colors, caption style (font, size, color, highlight color, position), lower-third design, intro and outro rules, any color look, and approved music sources. Once the kit exists, every new editor or batch starts from the same standard.
+
+### How should you hand off raw footage to a remote video editor?
+
+Hand off raw footage through a shared cloud folder with a predictable structure, and use a review tool for feedback. Most delays in outsourced editing come from missing files, not slow editors.
+
+- **Where.** Google Drive, Dropbox or Frame.io all work. Frame.io adds frame-accurate, timestamped comments on drafts, which speeds up revisions.
+
+- **Folder structure.** One folder per video or shoot, with subfolders for A-roll, B-roll, audio, graphics and references.
+
+- **File naming.** Date, shoot and take in the name, so the editor can find selects without watching everything.
+
+- **Quality.** Upload original files rather than compressed copies from messaging apps. Shoot vertically, or horizontally at high resolution if you need crops.
+
+- **Audio.** Separate microphone files if you recorded them, and a note on which takes have the best sound.
+
+- **Transcripts and notes.** A transcript or marked-up script helps an editor find the best lines quickly, especially for talking-head content.
+
+- **Access.** Share folders with edit rights limited to the editing team, and remove access when the engagement ends.
+
+### Which editing styles work on Reels, TikTok and YouTube Shorts?
+
+The right editing style depends on the content type and the goal, but most high-performing short-form videos share fast openings, readable captions and a clear payoff. Common styles:
+
+| Style | Best for | Editing notes |
+|---|---|---|
+| Talking head with captions | Founders, experts, educators | Tight jump cuts, highlighted keywords, punch-in zooms, B-roll every few seconds |
+| UGC-style ad | Ecommerce and D2C paid social | Native, lo-fi feel, hook in the first second, product in hand, clear offer |
+| Product B-roll montage | Launches, collections, food, beauty | Cuts on the beat, macro shots, text overlays for features |
+| Tutorial or how-to | Software, recipes, services | Numbered steps on screen, screen recordings, zoom on detail |
+| Before and after | Home, beauty, fitness, design | Split screens or swipe transitions, consistent framing |
+| Motion graphics and kinetic type | B2B, data, announcements | Brand fonts and colors, simple animation, clean sound design |
+| Trend or meme format | Community and awareness | Speed matters more than polish; check audio rights for brand accounts |
+
+Keep captions and key text inside the platform safe zones, away from the bottom and right edges where usernames, captions and buttons sit.
+
+### How do revisions and turnaround usually work in outsourced video editing?
+
+Most outsourced editing arrangements include a fixed number of revision rounds per video and a turnaround per batch that depends on complexity. Agree both before the first edit.
+
+- **Revision rounds.** One or two rounds per video is common. Consolidate feedback from everyone into one list per round; scattered comments from several people create extra rounds.
+
+- **Timestamped feedback.** "At 0:04, cut the pause" is actioned in minutes; "make it punchier" is not.
+
+- **Turnaround norms.** Simple caption-and-cut edits are typically quicker than motion-graphics-heavy videos. Turnaround is usually agreed per batch rather than per video, and depends on volume and complexity.
+
+- **Batching.** Sending footage for a week or a month at a time lets the editor build templates and keep the style consistent, and it usually shortens the turnaround for each video.
+
+- **Templates.** After the first batch, ask for project templates with your caption presets, lower thirds and end cards, so later batches start from your standard.
+
+- **Approval owner.** Name one person who gives final approval for each batch.
+
+If you run the content through a retainer, a monthly content calendar keeps editing, posting and ad testing in step.
+
+### How do you avoid music licensing problems with outsourced edits?
+
+Use commercially licensed music for any brand or business account, and treat trending audio with caution. Rules differ by platform and account type, so check before posting.
+
+- **Business accounts are restricted.** On Instagram and TikTok, business accounts generally have access to a narrower, commercially cleared music library than personal creator accounts. A trending song available to creators may not be licensed for brand use.
+
+- **Ads need cleared audio.** Music in paid ads should come from a library that licenses commercial use, such as the platforms' own commercial libraries or a paid stock music service.
+
+- **Keep a record.** Ask the editor to log the track, source and license for every video.
+
+- **Add music in-app where appropriate.** For organic posts, adding audio inside the app from the account's available library can be safer than burning it into the export.
+
+- **Fonts, footage and AI assets.** The same applies to fonts, stock clips and AI-generated material: use licensed sources and keep the record.
+
+Licensing rules change; when in doubt, check the platform's current policy or ask a lawyer for anything high-stakes.
+
+### What should your short-form video QA checklist include?
+
+Run every video through the same QA checklist before it is approved. It takes minutes and catches the errors that hurt a brand most.
+
+| Check | What to look for |
+|---|---|
+| Hook | Does the first second give a reason to keep watching? |
+| Spelling and captions | Typos, names, product terms, caption timing and line breaks |
+| Safe zones | Text and faces clear of platform buttons and captions |
+| Brand kit | Correct fonts, colors, logo and end card |
+| Claims and compliance | No unapproved claims, prices or offers; required disclosures present |
+| Audio | Clear voice, balanced levels, licensed music logged |
+| Visual quality | Sharp footage, no stray frames, no black frames at the start or end |
+| Export | 9:16 at 1080 by 1920 or higher, correct frame rate, correct file name |
+| Call to action | Matches the brief and the landing page or offer |
+| Variants | Alternate hooks or ratios delivered if requested |
+
+### How do you start with a paid test batch, and where does gaa-tha fit?
+
+Start with a small, paid test batch: a handful of videos from the same footage, with the brief, brand kit and a clear deadline. It shows the editor's taste, accuracy and responsiveness to feedback before you commit to a monthly volume, and it gives you templates to build on.
+
+Judge the test on four things: how well the edits match the brief, how many corrections were needed, how clearly the editor communicated, and whether the videos look like your brand rather than a template. Then agree a monthly volume, turnaround and revision rules, and review them each quarter.
+
+gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India, with an in-house team that already produces reels and AI ads for brands. For US and UK agencies, creators and brands we edit fully unbranded, sign an NDA before the brief, never contact an agency's client unless asked, agree to non-solicitation, and start with a paid test batch. We work US and UK business hours, quote each engagement individually, and accept international bank wire, PayPal or card through Stripe. Our international work includes Instagram content for [New Rave](https://gaa-tha.com/work/new-rave), a trading-card and hobbies retailer in Canada. See [outsourced reel and video editing](https://gaa-tha.com/services/outsourced-reel-video-editing) or [send a test brief](https://gaa-tha.com/#contact).
+
+Q: Can I outsource Instagram Reels and TikTok editing to India?
+A: Yes. Short-form editing is well suited to remote work because footage, feedback and finished files all move through shared drives and review tools. Choose a team that overlaps your working hours, works from your brand kit and starts with a small paid test batch.
+
+Q: What files do I need to send a video editor?
+A: Send original, uncompressed footage, separate audio files if you recorded them, your logo and fonts, a brand kit for captions and colors, two or three reference videos and a one-page brief. A transcript or script helps for talking-head videos.
+
+Q: How many revisions are normal for short-form video editing?
+A: One or two revision rounds per video is common. Consolidated, timestamped feedback from one approver keeps revisions to a minimum, and templates built after the first batch reduce them further.
+
+Q: Can editors use trending music on brand videos?
+A: Often not. Business accounts on Instagram and TikTok generally have a narrower commercially licensed music library, and paid ads need cleared music. Use the platforms' commercial libraries or a licensed stock music service and log the license for every track.
+
+Q: Can the same team handle editing for agencies on a white-label basis?
+A: Yes. In white-label editing, the editor works under the agency's name, uses no branding of their own and has no contact with the agency's client unless asked. An NDA and a non-solicitation clause make that commitment contractual.
+
+Q: How is outsourced reel editing usually priced?
+A: Common models are per video, per batch, or a monthly retainer for a set number of videos. Price depends mostly on length, complexity such as motion graphics, the number of variants and the turnaround required.
+
+## Outsourcing Shopify development to India: a guide for US and UK brands and agencies
+https://gaa-tha.com/blog/outsource-shopify-development-to-india
+Category: Outsourcing. Published 2026-11-03.
+
+Outsourcing Shopify development to India works best when you hand a partner well-scoped work (theme builds, custom sections, migrations, integrations or monthly store management), give access through collaborator or staff accounts, insist on preview themes, Git and measurable quality checks, and prove the fit on a small paid pilot before signing a retainer. This guide explains each step for US and UK brands and agencies.
+
+### What Shopify development work can you outsource to India?
+
+Almost any well-defined Shopify build or maintenance task can be outsourced to India, from a full theme build to a single custom section. What should stay with you is the commercial thinking: who the store is for, what it must sell and how the brand should feel. The table below shows how US and UK brands and agencies typically split the work.
+
+| Work type | Typical scope | What to keep in-house |
+|---|---|---|
+| Theme build or redesign | Customizing a theme such as Dawn or a premium theme, or building a custom Online Store 2.0 theme from Figma designs | Brand direction, design approval, copy sign-off |
+| Custom sections and blocks | Landing-page sections, bundle builders, size guides, comparison tables, metafield-driven product content | Deciding which sections the merchandising team actually needs |
+| Shopify Plus and checkout | Checkout UI extensions, Shopify Functions for discounts and delivery rules, B2B catalogs and price lists | Business rules, pricing policy, approvals |
+| Migrations | WooCommerce, Magento, BigCommerce or custom platform to Shopify: products, customers, orders, redirects | Data ownership decisions and final URL mapping review |
+| Integrations | ERP, inventory, shipping, reviews, subscriptions, loyalty, email and SMS platforms, analytics | Vendor contracts and system-of-record decisions |
+| Store management | Product uploads, collection and banner changes, app audits, bug fixes, speed checks, sale-season setup | The promotions calendar and pricing decisions |
+
+Agencies often go further and outsource whole builds on a white-label basis, keeping the client relationship, discovery and design in-house while a partner handles development and QA. See [white-label Shopify development](https://gaa-tha.com/services/white-label-shopify-development) for how that model works, and [outsourced Shopify store management](https://gaa-tha.com/services/outsourced-shopify-store-management) for the ongoing side.
+
+### Why do US and UK brands and agencies outsource Shopify development?
+
+Most outsource for capacity and focus rather than price alone: they need dependable Shopify developers without hiring, training and keeping a full in-house team busy.
+
+- **Elastic capacity.** Agencies win projects in uneven waves. An outsourced team absorbs the peaks without permanent headcount.
+
+- **Specialist skills on demand.** Liquid, Online Store 2.0 sections, metaobjects, checkout extensibility and Shopify Functions are specialist work that a small team may need only a few times a year.
+
+- **Cost efficiency.** Labor costs in India are lower than in the US or UK, so the same budget usually buys more build and QA time. Savings disappear quickly if scope is vague or quality is poor, which is why the rest of this guide focuses on process.
+
+- **Extended working day.** When part of the team is in India, work can progress while your office is closed, with fixes waiting for you in the morning.
+
+- **Focus.** Founders and account managers spend their time on strategy, clients and growth instead of chasing theme bugs.
+
+The honest trade-offs are communication overhead, time-zone gaps and the risk of a partner who builds exactly what was written rather than what was meant. All three are manageable with the practices below.
+
+### How does an outsourced Shopify project run, step by step?
+
+A well-run outsourced Shopify project follows the same stages as an in-house one, with more of it written down.
+
+1. **Brief and discovery.** You share goals, the audience, reference stores, designs or wireframes, the app stack and any integrations. A good partner asks questions before quoting.
+
+2. **Access.** The partner requests collaborator access (or you create a staff account) with only the permissions needed. For new stores, the build can happen on a development store and be transferred to you.
+
+3. **Scope and estimate.** A written scope lists templates, sections, integrations, data migration, browsers and devices, and what is out of scope. Acceptance criteria are agreed now, not at launch.
+
+4. **Build in a preview theme.** Work happens in an unpublished theme, ideally connected to a Git repository, so the live store is never touched until launch. You review through preview links.
+
+5. **QA.** Theme Check, Lighthouse and Core Web Vitals, cross-browser and device testing, accessibility basics, test orders and tracking checks.
+
+6. **Launch.** Publish at a low-traffic time, with redirects in place for migrations and a rollback plan (the previous theme stays available).
+
+7. **Handover and support.** Documentation for every custom section and setting, a short training session, and a defined bug-fix window followed by an optional maintenance retainer.
+
+For agencies running this white-label, the partner works behind the agency: the agency presents the work, and the partner never contacts the end client unless asked.
+
+### How do you collaborate across time zones with an Indian Shopify team?
+
+Choose a partner that overlaps your working day and run the project on written, asynchronous updates, and the time difference becomes an advantage rather than a delay.
+
+India Standard Time is UTC+5:30 and does not change for daylight saving, so the gap shifts slightly through the year. India is 9.5 to 10.5 hours ahead of US Eastern time and 4.5 to 5.5 hours ahead of the UK. The UK working day naturally overlaps with the Indian afternoon; US overlap depends on whether the partner staffs US hours.
+
+- **Agree overlap hours in writing.** Some partners offer a few overlapping hours; others cover the full US business day. Know which you are buying.
+
+- **Use one shared task board.** Every request gets an owner, a due date and a status, so nothing lives only in chat.
+
+- **Write tickets with acceptance criteria.** A screenshot or short screen recording, the URL, the device and the expected result remove most back-and-forth.
+
+- **Daily written stand-ups.** A short end-of-day note (done, next, blocked) is worth more than a long weekly call.
+
+- **Short weekly call.** Keep one scheduled video call for demos and decisions.
+
+- **Use the gap.** Send feedback at the end of your day and review fixes the next morning.
+
+### What quality checks should an outsourced Shopify developer run?
+
+A professional Shopify partner proves quality with repeatable checks, not just a demo. Ask to see these results before every launch.
+
+| Check | Tool or method | What it catches |
+|---|---|---|
+| Theme code linting | Theme Check (built into Shopify CLI) | Liquid errors, deprecated tags, missing translations, performance anti-patterns |
+| Speed and Core Web Vitals | Lighthouse, PageSpeed Insights, Shopify's web performance report | Slow largest contentful paint, layout shift, heavy scripts and images |
+| Safe previews | Unpublished themes and preview links, local development with Shopify CLI | Changes leaking onto the live store before approval |
+| Version control | Shopify's GitHub integration or a Git workflow | Lost work, untracked changes, no way to roll back |
+| Cross-device testing | Real iOS and Android phones, desktop browsers | Broken menus, overflow, sticky elements covering content |
+| Accessibility basics | Keyboard navigation, alt text, color contrast checks | Barriers for customers and avoidable legal risk |
+| Checkout and tracking | Test orders, Meta and Google tag diagnostics, GA4 debug view | Missing purchase events, double counting, broken discounts |
+| App conflicts | Audit of installed apps and leftover code | Scripts from removed apps slowing pages |
+
+For a deeper speed and conversion list, see our [Shopify speed and conversion checklist](https://gaa-tha.com/blog/shopify-speed-and-conversion-checklist), and check whether native features can replace paid apps with [hidden Shopify features](https://gaa-tha.com/blog/hidden-shopify-features).
+
+### Who owns the store, code and accounts when you outsource Shopify work?
+
+You should own everything: the Shopify store, the domain, the theme code, the Git repository, app subscriptions and every marketing account. The partner only ever gets delegated access.
+
+- **Collaborator accounts.** A Shopify Partner can request collaborator access to your store. You approve the request and choose the permissions, and you can remove access at any time. Collaborator accounts generally do not use up your plan's staff seats.
+
+- **Staff accounts.** For an individual developer or store manager, a staff account with limited permissions works too. Avoid giving full permissions unless the task truly needs them.
+
+- **Never share the owner login.** A partner who asks for the store owner's password is a red flag.
+
+- **Development stores.** New builds can start on a partner development store and be transferred to your ownership before launch. Agree that the transfer happens to you (or your client), not to the partner.
+
+- **Code and IP.** The contract should state that custom code, designs and documentation transfer to you on payment, and that the repository lives in your GitHub organization.
+
+- **Offboarding.** When the engagement ends, access is revoked, credentials rotated and documentation handed over.
+
+### How do you vet an outsourced Shopify development partner?
+
+Vet a Shopify partner on evidence: live stores they can explain, a code sample, a documented process and clear answers about who does the work.
+
+- **Live Shopify stores.** Ask for several, and ask what exactly they built on each: theme, sections, apps, integrations.
+
+- **A code sample.** One custom section in a repository shows structure, naming, comments and whether settings are merchant-friendly.
+
+- **Process documents.** A sample scope, QA checklist, handover document and status update.
+
+- **Who does the work.** In-house team or subcontractors? Who is your day-to-day contact, and are they technical?
+
+- **Communication test.** How fast and how clearly do they respond during the sales process? It rarely improves after signing.
+
+- **Working hours.** Exactly which hours overlap with yours, and who covers urgent fixes.
+
+- **Contracts.** NDA, IP transfer, data protection terms and, for agencies, non-solicitation of your clients. See [white-label agreements explained](https://gaa-tha.com/blog/white-label-agreements-nda-non-solicitation).
+
+- **Payment terms.** Milestones tied to deliverables, and invoicing and payment methods that suit your finance team.
+
+For a broader checklist that covers marketing as well as development, read [how to choose an outsourcing partner in India](https://gaa-tha.com/blog/how-to-choose-an-outsourcing-partner-in-india).
+
+### How should you start: why a paid pilot, and where does gaa-tha fit?
+
+Start with a small, paid, fixed-scope pilot: one custom section, a landing page, a speed fix or a month of store management. It tests code quality, communication and responsiveness to feedback on real work, at low risk to both sides. Free tests rarely get a partner's best people; a paid pilot does.
+
+Define the pilot like a mini project: written scope, acceptance criteria, a deadline, and a short review at the end covering what went well and what to change. If it works, move to a monthly retainer or a project with milestones.
+
+gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India, with one in-house team that builds Shopify stores and runs the marketing around them. For US and UK brands and agencies we work US and UK business hours, sign an NDA before the brief, work fully unbranded for agencies with no contact with your client unless you ask, agree to non-solicitation and start with a paid pilot. Clients pay by international bank wire, PayPal or card through Stripe, and every engagement is custom-quoted. Our international work includes an ongoing retainer for [New Rave](https://gaa-tha.com/work/new-rave), a trading-card and hobbies retailer in Canada. See [white-label Shopify development](https://gaa-tha.com/services/white-label-shopify-development), [outsourced store management](https://gaa-tha.com/services/outsourced-shopify-store-management), or [start with a pilot](https://gaa-tha.com/#contact).
+
+Q: Is it safe to give an Indian agency access to my Shopify store?
+A: Yes, if access is delegated rather than shared. Approve a collaborator request or create a staff account with only the permissions the job needs, keep the owner login to yourself, and remove access when the work ends. Pair this with an NDA and a contract that transfers code and IP to you.
+
+Q: Do I need to give my Shopify password to an outsourced developer?
+A: No. Shopify Partners can request collaborator access, and you can also create a limited staff account. A developer who insists on the owner password is a red flag.
+
+Q: Can an outsourced team work on Shopify Plus checkout customizations?
+A: Yes, if they have checkout extensibility experience. Checkout customization on Shopify now runs through checkout UI extensions and Shopify Functions rather than editing checkout templates, so ask for examples of extensions or Functions they have built.
+
+Q: How do agencies keep outsourced Shopify work white-label?
+A: The partner works under the agency's name: no partner branding in code comments, documentation or emails, and no contact with the end client unless the agency asks. An NDA and a non-solicitation clause make this contractual rather than a courtesy.
+
+Q: How long does an outsourced Shopify build take?
+A: It depends on scope. A theme-based store with light customization commonly takes a few weeks, while a custom theme, a migration with large data volumes or Shopify Plus work takes longer. Clear designs and fast feedback shorten timelines more than anything else.
+
+Q: How is outsourced Shopify development priced?
+A: Common models are a fixed price per project for well-defined builds, a monthly retainer for ongoing development and store management, and a dedicated developer for agencies with steady volume. Ask for a written scope with every quote so you can compare like with like.
+
+## Outsourcing website and app development to India: a buyer's guide for US and UK companies
+https://gaa-tha.com/blog/outsource-website-and-app-development-to-india
+Category: Outsourcing. Published 2026-11-03.
+
+To outsource website and app development to India successfully, decide exactly what you are buying (a marketing site, a store, a web app, a mobile app or a SaaS MVP), pick the engagement model that fits how settled your scope is, write a short spec before any quote, keep code and accounts in your own name, and choose a partner whose working hours overlap with yours.
+
+### What website and app work can you outsource to India?
+
+Almost any digital build with a clear owner on your side can be outsourced to India, and the work that travels best is the work you can describe in writing and review in a browser or on a phone.
+
+| Type of build | Typical stack | Why it outsources well |
+|---|---|---|
+| Marketing and brand websites | Webflow, WordPress, Next.js or Astro | Design and content can be signed off page by page; success is easy to see. |
+| Ecommerce stores | Shopify, Shopify Plus, WooCommerce, headless frontends | Platforms are standardized, so skills transfer across markets. |
+| Web applications and portals | React, Next.js, Node.js, Python, Laravel | Features can be broken into tickets and demoed every week. |
+| Mobile apps (iOS and Android) | Flutter or React Native, native Swift and Kotlin where needed | One cross-platform codebase covers both stores; builds can be tested remotely through TestFlight and Play testing tracks. |
+| SaaS MVPs | Web app plus auth, billing, admin and analytics | A tight first version with a written scope is a natural fixed or phased project. |
+
+What travels less well is work where the requirements live only in someone's head, where decisions change daily without being written down, or where the partner needs physical access to hardware or on-site systems. If your project looks like that, invest in a short discovery phase first. For help choosing a platform before you brief anyone, see [custom website vs WordPress vs Shopify vs Webflow](https://gaa-tha.com/blog/custom-website-vs-wordpress-vs-shopify-vs-webflow).
+
+### Which engagement model should you choose, and what drives the cost?
+
+Choose fixed scope when the spec is settled, time-and-materials when the product will change as you learn, and a dedicated team when you have a long roadmap and want the same people on it every month.
+
+| Model | How it works | Best for | Watch out for |
+|---|---|---|---|
+| Fixed scope | Agreed deliverables, timeline and price, with change requests handled separately | Websites, stores, well-specified apps and MVPs | Vague specs lead to change-request disputes; the partner may pad the quote to cover risk. |
+| Time-and-materials | You pay for hours or days actually worked, usually against a prioritized backlog | Products still being shaped, ongoing feature work | Needs active product ownership on your side and transparent timesheets. |
+| Dedicated team or retainer | A named team reserved for you each month | Long roadmaps, continuous improvement, multiple products | You pay for capacity whether or not you use it; plan the backlog ahead. |
+
+Many buyers combine them: a fixed-scope discovery and first release, followed by a monthly retainer for improvements. That keeps early risk contained and avoids renegotiating every small change after launch.
+
+**What drives the cost.** Cost depends mostly on scope and complexity, not geography alone:
+
+- **Unique designs and templates:** ten distinct page types cost more than ten pages built from one template.
+
+- **Integrations:** each payment gateway, ERP, CRM or internal API adds build and testing time.
+
+- **Custom business logic:** pricing rules, workflows, roles and permissions, and reporting.
+
+- **Platforms:** a mobile app for iOS and Android plus a web admin is three surfaces to build and test, even with a shared codebase.
+
+- **Content and design responsibility:** whether the partner writes copy, produces images or designs from scratch.
+
+- **Quality bar:** automated tests, accessibility standards, performance budgets and documentation all take time and are worth paying for.
+
+- **Time-zone coverage and seniority:** overlap with your workday and senior oversight cost more than a purely asynchronous junior team.
+
+- **Ongoing support:** hosting management, updates and a maintenance retainer after launch.
+
+Ask every vendor to quote against the same spec and to list assumptions and exclusions. The cheapest quote often excludes the parts that make the project work.
+
+### How do you write a spec before asking for quotes?
+
+A useful spec is short and specific: it explains who the product is for, what they must be able to do, and how you will know it works, rather than describing every screen in detail.
+
+1. **Goal and audience.** One paragraph on the business outcome and the users.
+
+2. **User stories.** "As a customer, I can reorder a past purchase in two taps" is more useful than a list of features.
+
+3. **Must-have vs nice-to-have.** Split the list honestly; the must-haves define version one.
+
+4. **Integrations.** Payment gateway, CRM, ERP, email, analytics, shipping and any internal APIs, with links to their documentation.
+
+5. **Content and design inputs.** Brand guidelines, existing designs or reference sites, and who supplies copy and images.
+
+6. **Non-functional needs.** Expected traffic, speed targets, accessibility level, browsers and devices, data residency and compliance requirements.
+
+7. **Acceptance criteria.** How each feature will be tested and signed off.
+
+If you cannot write this yet, buy a paid discovery phase. A good partner will turn workshops into a spec, wireframes and an estimate that you own and could take to another vendor.
+
+### How do you manage an Indian development team across US and UK time zones?
+
+Manage across time zones with a fixed overlap window for live conversation, written updates for everything else, and one shared board that both sides treat as the source of truth.
+
+India Standard Time is about 4.5 to 5.5 hours ahead of the UK and roughly 9.5 to 13.5 hours ahead of the US, depending on the coast and daylight saving. The UK workday overlaps naturally with the Indian afternoon. For US teams, ask whether the partner offers real overlap with your business hours or only an early-morning or late-evening call; some Indian teams run shifts that cover the US workday, and many do not.
+
+- **One channel for conversation:** Slack or Microsoft Teams, with a shared channel rather than private messages.
+
+- **One board for work:** Jira, Linear, ClickUp or GitHub Projects, with every request as a ticket that has an owner and a due date.
+
+- **A weekly demo:** working software on a staging link, not slides.
+
+- **Written end-of-day notes:** what shipped, what is blocked and what needs a decision from you.
+
+- **A named contact on each side** who can make decisions, so questions do not wait a full day for an answer.
+
+### How do you keep ownership of your code, accounts and data?
+
+You should own everything: the code repository, the domain, hosting, app store developer accounts, analytics and every third-party account, with the partner working inside them through permissions you can revoke.
+
+- **Code:** create the GitHub, GitLab or Bitbucket organization yourself and invite the partner's developers. Commits then land in your repository from the first day, not in a zip file at the end.
+
+- **App stores:** enroll in the Apple Developer Program and create the Google Play Console account under your own company, then add the partner as team members. Moving an app between developer accounts later is slow and sometimes awkward.
+
+- **Hosting and cloud:** AWS, Google Cloud, Vercel, Netlify or your host should be billed to you, with role-based access for the team.
+
+- **Domains, DNS and email:** always in your name.
+
+- **API keys and secrets:** stored in a password manager or secrets manager you control, never pasted into chat.
+
+Make the contract say that intellectual property in the deliverables transfers to you on payment, and that the partner will hand over documentation, credentials and deployment notes at the end of the engagement.
+
+**Security and personal data.** Limit what the partner can reach and put confidentiality in writing:
+
+- **NDA before details:** sign a non-disclosure agreement before sharing designs, customer data or internal systems.
+
+- **Least-privilege access:** individual named accounts with two-factor authentication, only the permissions each person needs, and access removed when they leave the project.
+
+- **No production data in development:** use anonymized or synthetic data for testing wherever you can.
+
+- **Personal data:** if the product processes personal data of UK or EU residents, UK GDPR or the EU GDPR applies, and you will typically need a data processing agreement with the partner and an appropriate safeguard for transfers outside the UK or EU. US buyers may face state privacy laws or sector rules such as HIPAA. This is general awareness, not legal advice; ask your counsel what your product needs.
+
+- **Secure delivery practice:** code reviews, dependency updates, secrets kept out of the repository, and backups that are tested.
+
+### How should QA and launch work on an outsourced project?
+
+QA should be a planned phase with written test cases, a staging environment and your own sign-off, not a quick look the day before launch.
+
+- **Environments:** development, staging and production, with nothing pushed straight to the live site.
+
+- **Test plan:** test cases written from your acceptance criteria, covering the main user journeys on the browsers and devices that matter to your audience.
+
+- **Mobile testing:** TestFlight for iOS and internal or closed testing tracks on Google Play, so your team can install real builds before release.
+
+- **Bug tracking:** every issue logged on the shared board with steps to reproduce, severity and status.
+
+- **Performance and accessibility checks:** page speed, Core Web Vitals and a basic accessibility review before launch.
+
+- **Launch checklist:** redirects from old URLs, analytics and conversion tracking verified, backups, monitoring and a rollback plan.
+
+- **Warranty window:** an agreed period after launch in which defects are fixed without a new change request.
+
+### What are the red flags when hiring an Indian web or app development company?
+
+The biggest red flag is a vendor that will not show live work and tell you exactly which parts they built. Others to watch for:
+
+- A quote produced within hours, without questions about your users or integrations.
+
+- Code kept in the vendor's repository, or app store accounts created in the vendor's name.
+
+- Vagueness about who will do the work, or undisclosed subcontracting to freelancers.
+
+- No staging environment, no test plan and no warranty period.
+
+- Promises of unrealistically fast delivery for complex scope.
+
+- A single developer with no backup, presented as a team.
+
+- Resistance to an NDA, a pilot task or reference calls with past clients.
+
+For a full vetting list and scorecard, see [how to choose an outsourcing partner in India](https://gaa-tha.com/blog/how-to-choose-an-outsourcing-partner-in-india).
+
+### Where does gaa-tha fit for US and UK companies?
+
+gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India, with one in-house team that builds websites, Shopify stores, Flutter and React Native apps and SaaS products. We work US business hours as well as UK hours, keep code and accounts in the client's name, and invoice international clients by bank wire (SWIFT), PayPal or card via Stripe. For agencies we also work white-label, with an NDA before the brief and a paid pilot before any retainer. See [website development](https://gaa-tha.com/services/outsource-website-development), [app development](https://gaa-tha.com/services/outsource-app-development), our international work for a [Canadian retailer](https://gaa-tha.com/work/new-rave), or [send us your brief](https://gaa-tha.com/#contact).
+
+Q: Is it safe to outsource website and app development to India?
+A: Yes, when you control the accounts and the contract. Keep the repository, hosting, domain and app store accounts in your own name, sign an NDA before sharing details, give named least-privilege access, and make sure the contract transfers intellectual property to you on payment.
+
+Q: Should I use fixed price or time-and-materials?
+A: Use fixed price when the scope is written down and unlikely to change, such as a marketing site or a well-specified MVP. Use time-and-materials or a dedicated team when the product will evolve as you learn from users. Many companies start fixed and move to a monthly retainer after launch.
+
+Q: Will an Indian development team work in my time zone?
+A: It depends on the partner. The UK workday overlaps with the Indian afternoon, while US coverage requires a team that deliberately works shifted hours. Ask for the exact overlap window and who will be online during it before you sign.
+
+Q: Who should own the App Store and Google Play accounts?
+A: Your company should. Create the Apple Developer and Google Play Console accounts yourself and add the partner as team members, so the apps, reviews and payouts stay with you if you ever change vendors.
+
+Q: Do I need a spec before contacting developers?
+A: A short one helps a lot: goals, users, must-have features, integrations and acceptance criteria. If you cannot write it, pay for a discovery phase, and make sure the resulting spec and wireframes belong to you.
+
+Q: How long does an outsourced website or app take?
+A: A marketing website is usually a matter of weeks, an ecommerce store somewhat longer, and a mobile app or SaaS MVP typically a few months depending on scope and integrations. A credible partner gives a phased timeline after discovery rather than a single date before it.
+
+## White-label agency services: what US and UK agencies outsource and how it works
+https://gaa-tha.com/blog/white-label-agency-services-explained
+Category: Outsourcing. Published 2026-11-03.
+
+White-label agency services are work produced by a partner and delivered by your agency under your own brand: Shopify and website builds, apps, PPC and Meta ads, social media, video editing and SEO. Your agency keeps the client relationship and pricing, the partner works unbranded inside your tools, and quality is controlled through briefs, checklists and your own review before anything reaches the client.
+
+### What does white-label mean for a marketing or development agency?
+
+White-label means a partner does the work and your agency delivers it under your own name, as part of your own service. The end client buys from you, talks to you and is invoiced by you; the partner's name does not appear anywhere in the deliverable.
+
+It is related to, but not the same as, other ways agencies use outside help:
+
+| Arrangement | Who the client sees | Typical use |
+|---|---|---|
+| White-label | Only your agency | Reselling a service you do not staff in-house, or adding capacity for a service you do |
+| Disclosed subcontracting | Your agency, with the partner named in the contract or on calls | Specialist work where the client expects to meet the expert |
+| Co-branded partnership | Both agencies | Joint pitches and long-term alliances |
+| Staff augmentation | Your agency; the partner's people work inside your team | Filling roles for a set period, directed by your own managers |
+
+Agencies usually turn to white-label for two reasons: to offer a service clients keep asking for that the agency does not staff (Shopify development at a social media agency, for example), and to absorb volume without carrying extra payroll through quiet months.
+
+### Which services do US and UK agencies white-label most often?
+
+The services agencies white-label most often are the ones that are skilled, repeatable and easy to review against a brief: development, paid media management, social content, video editing and SEO.
+
+| Service | What the partner delivers | What the agency usually keeps |
+|---|---|---|
+| Shopify builds and store management | Theme builds and custom sections, migrations, app setup, product uploads, fixes and speed work | Discovery calls, design approval, client training |
+| Website development | Design to code on WordPress, Webflow or custom stacks, landing pages, maintenance | Strategy, copy approval, hosting decisions |
+| Mobile and web apps | UX, development, QA, app store submissions, maintenance | Product decisions and the client roadmap |
+| PPC and Meta ads | Campaign builds, creative testing, optimization, tracking checks, draft reports | Budget conversations, strategy, client reporting calls |
+| Social media management | Content calendars, designs, captions, scheduling, community management within guidelines | Brand voice, approvals, escalations |
+| Reel and video editing | Short-form edits, captions, motion graphics, versions for each platform | Creative direction, raw footage, client feedback |
+| SEO | Technical audits, on-page work, content production, draft reports | Keyword strategy sign-off and the client relationship |
+
+Each of these has its own page: [white-label Shopify development](https://gaa-tha.com/services/white-label-shopify-development), [white-label PPC and Meta ads](https://gaa-tha.com/services/white-label-ppc-meta-ads), [white-label social media management](https://gaa-tha.com/services/white-label-social-media-management), [outsourced reel and video editing](https://gaa-tha.com/services/outsourced-reel-video-editing), and outsourced [website](https://gaa-tha.com/services/outsource-website-development) and [app development](https://gaa-tha.com/services/outsource-app-development). Performance marketing has a deeper guide in [white-label PPC and Meta ads](https://gaa-tha.com/blog/white-label-ppc-meta-ads-guide).
+
+### How does a white-label workflow run day to day?
+
+A white-label workflow runs through the agency's tools and the agency's voice: the agency briefs, the partner produces, and the agency reviews and delivers.
+
+1. **The agency wins and scopes the work.** The client talks only to the agency, which turns the requirement into an internal brief.
+
+2. **NDA and brief.** The partner signs an NDA, then receives a written brief: goals, brand guidelines, access needed, deadlines and acceptance criteria.
+
+3. **Access through the agency.** The partner works in the agency's Slack or Teams, project board and shared drive, using agency-issued logins or staff accounts on the client's platforms. Nothing is sent to the client from a partner-branded address.
+
+4. **Production and the partner's own QA.** The partner builds, checks the work against its checklist and posts it for review on the board.
+
+5. **Agency review.** The agency's account lead reviews against the brief and what they know about the client, and requests changes if needed.
+
+6. **Delivery under the agency's brand.** The agency presents the work in its own templates, decks and reports.
+
+7. **Feedback loop.** Client feedback becomes tasks for the partner, and recurring notes become updates to the style guide or checklist so they do not repeat.
+
+Some agencies let the partner join client calls as members of the agency team, using agency email addresses. That is a choice to make client by client, and it should be written into the agreement rather than improvised.
+
+### How do you keep quality consistent when a partner does the work?
+
+Quality stays consistent when the standard is written down and checked twice: once by the partner before submission and once by the agency before delivery.
+
+- **A style guide per client.** Brand colors, fonts, tone of voice, do's and don'ts, and approved examples of past work.
+
+- **A definition of done.** For a Shopify section: responsive at agreed breakpoints, tested on real devices, no console errors, speed checked. For an ad campaign: naming conventions followed, tracking verified on a test conversion, budgets and audiences double-checked.
+
+- **Checklists, not memory.** Launch, QA and reporting checklists that the partner completes and attaches to each task.
+
+- **Templates.** Report templates, creative templates and handover documents in the agency's branding, so output looks the same whoever made it.
+
+- **A named lead on both sides.** Fewer handoffs means fewer misunderstandings.
+
+- **Metrics on the relationship itself.** First-time-right rate, revision rounds, on-time delivery and response time, reviewed monthly.
+
+Start with a paid pilot on one real piece of work. It tells you more about a partner's quality and communication than any portfolio.
+
+### How do agencies price white-label work and protect their margins?
+
+Agencies usually pay the partner a wholesale price and resell the work at their own price, keeping the difference to cover account management, strategy, review time and risk.
+
+The common pricing models between agency and partner are:
+
+- **Fixed price per project** for builds, migrations and audits.
+
+- **Monthly retainer per client account** for ads management, social media and store management.
+
+- **Per deliverable** for a batch of videos, a set of designs or a landing page.
+
+- **Dedicated team or pod** for a monthly fee covering named people who work only on the agency's accounts.
+
+Margins are more often lost to scope creep than to the partner's price. Protect them by matching the partner's scope exactly to the scope you sold, agreeing how change requests are quoted on both sides, and building your own review time into the price you charge. If you pay a partner by time rather than by deliverable, keep a running budget per client so overruns surface early, not at month end.
+
+Price to your client on value and outcome, not as a simple markup on the partner's invoice. Your client is paying for your strategy, judgment and accountability as much as for the production.
+
+### What are the risks of white-labeling and how do you manage them?
+
+The main risks are slipping quality, a partner contacting your client, delays and unclear ownership, and each one has a practical fix.
+
+| Risk | How to manage it |
+|---|---|
+| Quality slips and your brand takes the blame | Style guides, checklists, an internal review step and a paid pilot before scaling |
+| The partner contacts or poaches your client | NDA, unbranded-delivery and non-solicitation clauses, and communication only through agency channels |
+| Delays across time zones | Agreed working hours and response times, and a project board with due dates |
+| Security and access problems | Staff accounts with limited permissions, no shared passwords, and access removed at offboarding |
+| Over-dependence on one partner | Documentation of everything built, with files and accounts held by the agency or the client |
+| Unclear ownership of code and creative | IP assignment on payment, and a record of licenses for fonts, stock images and music |
+
+For the contract side, see [white-label agreements explained](https://gaa-tha.com/blog/white-label-agreements-nda-non-solicitation).
+
+### How do you choose a white-label partner?
+
+Choose a white-label partner on evidence of the specific work you will resell, the way they communicate, and their willingness to put protections in writing, and only then on price.
+
+- Live examples of the exact service, with an explanation of what they did on each.
+
+- A named lead and a clear team structure, with no undisclosed subcontracting.
+
+- Working hours that match how you serve your clients.
+
+- Willingness to sign an NDA, an unbranded-delivery clause and non-solicitation terms.
+
+- Their own QA checklist, shared with you before you sign.
+
+- Agreement to work inside your tools and your templates.
+
+- A paid pilot offered rather than avoided.
+
+- References from other agencies where possible.
+
+The broader guides, [how to outsource digital marketing to India](https://gaa-tha.com/blog/how-to-outsource-digital-marketing-to-india) and [how to choose an outsourcing partner in India](https://gaa-tha.com/blog/how-to-choose-an-outsourcing-partner-in-india), include engagement models and a scorecard you can reuse.
+
+### Where does gaa-tha fit as a white-label partner?
+
+gaa-tha works as a white-label partner for agencies across Shopify and website development, apps, ERP, PPC and Meta ads, social media management, reel and video editing and marketing strategy, with one in-house team founded in 2024 in Gujarat, India. We work full US business hours and UK business hours.
+
+Our terms for agencies: we sign an NDA before the brief, deliver fully unbranded work with no contact with your client unless you ask us to, agree not to solicit your clients, and start with a paid pilot. Every engagement is quoted to scope, and we invoice for payment by international bank wire (SWIFT), PayPal or card via Stripe. Our international work includes an ongoing retainer for [New Rave](https://gaa-tha.com/work/new-rave) in Canada.
+
+See [white-label agency partner](https://gaa-tha.com/services/white-label-agency-partner) for the full scope, or [send us a brief](https://gaa-tha.com/#contact).
+
+Q: What is a white-label agency?
+A: A white-label agency produces services that other agencies resell under their own brand. The reselling agency handles the client relationship and pricing, while the white-label partner does the work behind the scenes, unbranded.
+
+Q: Is white-labeling ethical?
+A: Yes, when it is handled honestly. Agencies routinely use specialists and partners, and the agency remains responsible for quality and outcomes. Check your client contracts for clauses on subcontracting or on where data may be processed, and follow them.
+
+Q: Will my clients know I use a white-label partner?
+A: Not unless you choose to tell them. A proper white-label setup has the partner working in your tools and templates, with no branding and no direct contact with your client unless you approve it.
+
+Q: Which services are easiest to white-label?
+A: Development (Shopify, websites and apps), PPC and Meta ads management, social media content, video editing and SEO are the easiest, because they are repeatable and can be reviewed against a clear brief before delivery.
+
+Q: How should I price white-label services to my clients?
+A: Price on the value and outcome for your client, not only as a markup on the partner's cost. Include your time for strategy, account management and review, and allow a buffer for revisions and change requests.
+
+Q: How do I test a white-label partner before committing?
+A: Run a paid pilot on one real piece of work with written acceptance criteria. Judge first-time quality, revision rounds, deadlines and communication before moving to a retainer.
+
+## White-label agreements explained: NDAs, non-solicitation, IP and paid pilots
+https://gaa-tha.com/blog/white-label-agreements-nda-non-solicitation
+Category: Outsourcing. Published 2026-11-03.
+
+A white-label agreement protects an agency that resells a partner's work. An NDA covers client data, a non-solicitation clause stops the partner approaching your clients, an IP clause transfers ownership of code and creative on payment, and an unbranded-delivery clause keeps the partner invisible. A paid pilot under the same terms tests the relationship first. This is general information, not legal advice.
+
+### What is a white-label agreement?
+
+A white-label agreement is the contract between an agency and the partner that produces work the agency resells under its own brand. It usually takes three parts: a non-disclosure agreement signed before any brief is shared, a master services agreement that sets the rules for the whole relationship, and a statement of work (SOW) for each project or retainer.
+
+**This article is general information, not legal advice.** Contract law differs between US states, England and Wales, Scotland and India, and the right wording depends on your business and your clients' contracts. Have a lawyer in your jurisdiction draft or review your agreement.
+
+The clauses below are the ones agencies ask about most, in roughly the order they come up when a new partner is onboarded. For how the work itself runs, see [white-label agency services explained](https://gaa-tha.com/blog/white-label-agency-services-explained).
+
+### What should an NDA cover before you share a client brief?
+
+An NDA should cover everything you share about your clients, your pricing and your methods, bind everyone at the partner who sees it, and last beyond the end of the relationship.
+
+- **What counts as confidential.** Client identities, client data, briefs, strategies, pricing, account access, results and your internal processes. A broad definition with the usual exclusions (information that is already public, or that the partner developed independently) is normal.
+
+- **Mutual or one-way.** A mutual NDA is common and fair, because the partner shares its own methods and pricing with you too, and partners sign it more readily.
+
+- **Who is bound.** The partner's employees and any approved contractors, under obligations at least as strict as the NDA itself.
+
+- **Permitted use.** The information may be used only to deliver the work you commission.
+
+- **Duration.** A set period after the relationship ends, and longer, often indefinitely, for trade secrets and personal data.
+
+- **Return or deletion.** Files, credentials and data returned or destroyed when the work ends, with written confirmation on request.
+
+Sign it before the first call where client names come up, not after the proposal arrives.
+
+### What does a non-solicitation clause protect?
+
+A non-solicitation clause stops the partner from approaching your clients to offer them work directly, during the relationship and for an agreed period after it. It is the core protection in any white-label arrangement, because the partner learns exactly who your clients are and what they buy.
+
+- **Client non-solicitation.** The partner will not solicit clients it was introduced to through you. Decide whether the clause also covers accepting work from those clients, which deals with the case where the client approaches the partner directly.
+
+- **Employee non-solicitation.** Neither side recruits the other's staff without consent. This is usually mutual.
+
+- **Scope and duration.** Limit the clause to clients the partner actually worked on or learned about, for a reasonable period. Very broad clauses are harder to enforce in many jurisdictions.
+
+- **A non-compete is different.** A non-compete would stop the partner serving other agencies or a whole market. Most white-label partners will not sign one, and non-competes face tighter legal limits in many places, so non-solicitation is the realistic protection.
+
+Back the clause up operationally: all client communication goes through your channels, and the partner never appears in front of your client under its own name.
+
+### Who owns the work: code, creative, data and accounts?
+
+You, or your client, should own the finished work once it is paid for, and every account should be held in your client's or your agency's name, never the partner's.
+
+- **IP assignment.** Copyright in code, designs, copy and video transfers to you on payment of the relevant invoice. For UK contracts, ask the partner to waive moral rights where the law allows.
+
+- **Pre-existing tools.** Partners often reuse their own snippets, templates or frameworks. The agreement should give you, and your client, a perpetual license to use anything of this kind that is embedded in the deliverables.
+
+- **Third-party assets.** Fonts, stock images, music and paid apps or plugins carry their own licenses. Record who bought each license and in whose name, especially music in reels and ads, which is often licensed per platform or per use.
+
+- **Open-source code.** Fine to use, but the partner should not include code under licenses that conflict with how your client will use the product.
+
+- **Accounts.** Ad accounts, Shopify stores, domains, hosting, analytics, app store listings and social profiles stay in the client's or the agency's name; the partner gets staff or partner access that can be removed at any time.
+
+- **Personal data.** If the partner will process personal data of UK or EU customers, add a data processing agreement aligned with UK GDPR or GDPR, including how international transfers are handled.
+
+### How should the agreement handle unbranded delivery and client contact?
+
+Spell out that the partner's name never appears in deliverables, and that all client communication goes through the agency unless you approve otherwise in writing.
+
+- No partner logos, credits, footer links, watermarks, file metadata or code comments that name the partner.
+
+- No use of the work, or the client's name, in the partner's portfolio, case studies or social media without written permission.
+
+- All communication through agency channels. If the partner joins client calls, they do so as part of the agency team, using agency email addresses.
+
+- Reports, documentation and handover files produced in the agency's templates.
+
+- A rule for anything the partner notices that the client should know, such as a bug, a policy problem or a missed opportunity: it goes to the agency first, and the agency decides how to raise it.
+
+These terms matter as much for the partner as for you: clear rules mean the partner never has to guess what is allowed when a client asks a question directly.
+
+### Which payment, liability and termination terms matter most?
+
+The commercial terms behind most disputes are payment timing, change requests and what happens at the end, so make each of them specific.
+
+- **Payment terms.** Currency, invoice schedule (retainers in advance, projects by milestone), accepted payment methods, due dates and who carries bank or processor fees.
+
+- **Change requests.** How out-of-scope work is quoted and approved before it starts, so neither side is surprised by an invoice.
+
+- **Acceptance.** How deliverables are reviewed and accepted, and how many revision rounds are included.
+
+- **Warranty and support.** A bug-fix window after launch for development work.
+
+- **Liability.** A cap on each side's liability, usually linked to fees paid, with carve-outs such as confidentiality breaches.
+
+- **Termination.** Notice period, what is paid for work in progress, and a full handover of files, credentials and documentation.
+
+- **Governing law and disputes.** Which country's or state's law applies, and how disagreements are resolved, for example negotiation first, then mediation, arbitration or the courts.
+
+Line these terms up with what you promised your own client. If your client contract includes a warranty period or a notice period, the partner's should be at least as long, or the gap becomes your risk.
+
+### How does a paid pilot fit into a white-label agreement?
+
+A paid pilot is a small, fixed-fee piece of real work done under the same NDA and non-solicitation terms as a full engagement, so both sides can test quality and communication before a retainer is signed.
+
+- Scope it as its own short SOW: one landing page or Shopify section, one month of ads on a single account, a batch of video edits, or a two-week development sprint.
+
+- Write the acceptance criteria before work starts: match to the brief, number of revision rounds, deadlines and response times.
+
+- Agree what happens next. If the pilot passes, the retainer starts on terms you have already agreed; if not, both sides part ways with the work paid for and owned by you.
+
+- Use the pilot to test the process as well as the output: how the partner asks about the brief, handles feedback, and manages files and access.
+
+Avoid unpaid test tasks. Paying for the pilot gets you the partner's real team and process, and it makes ownership of the output clear.
+
+### What checklist should you use before signing a white-label partner?
+
+Use a one-page checklist so every partner is held to the same standard before any client work changes hands.
+
+| Clause | What it protects | What to check |
+|---|---|---|
+| NDA | Client data, pricing and methods | Signed before the brief; covers staff and contractors; survives termination |
+| Non-solicitation | Your client relationships and your team | Covers soliciting and, if you want it, accepting work from your clients; reasonable duration |
+| IP assignment | Ownership of code, creative and copy | Transfers on payment; license to any pre-existing tools embedded in the work |
+| Third-party licenses | Legal use of fonts, stock, music and apps | Recorded per asset and held in the right name |
+| Account ownership | Control of ad accounts, stores and domains | Held by the client or agency; partner on removable access |
+| Unbranded delivery | Your brand and positioning | No credits or metadata; no portfolio use without written permission |
+| Data protection | End customers' personal data | A data processing agreement where personal data is processed; UK GDPR or GDPR terms |
+| Scope and change requests | Your margin | An SOW per job; change requests quoted and approved before work |
+| Acceptance and warranty | Quality after delivery | Revision rounds defined; a bug-fix window for development |
+| Payment terms | Cash flow and fees | Currency, schedule, methods and who pays fees |
+| Termination and handover | Continuity for your clients | Notice period; full handover of files and access |
+| Paid pilot | Your risk on day one | Fixed fee, acceptance criteria, same NDA and non-solicitation |
+
+gaa-tha's terms for agencies follow this list: we sign an NDA before the brief, deliver fully unbranded work with no contact with your client unless you ask us to, agree not to solicit your clients, and start every agency relationship with a paid pilot. We work full US business hours and UK business hours and invoice for payment by international bank wire (SWIFT), PayPal or card via Stripe. See [white-label agency partner](https://gaa-tha.com/services/white-label-agency-partner), the wider guide to [outsourcing digital marketing to India](https://gaa-tha.com/blog/how-to-outsource-digital-marketing-to-india), or [get in touch](https://gaa-tha.com/#contact).
+
+Q: Do I need a lawyer for a white-label agreement?
+A: Yes, for anything beyond a small one-off job. This guide explains the common clauses in plain English, but what is enforceable depends on where you and the partner are based, so have a lawyer in your jurisdiction review the agreement.
+
+Q: What is the difference between non-solicitation and non-compete?
+A: Non-solicitation stops a partner from approaching your clients or staff. A non-compete stops them working in a market at all. White-label partners commonly accept non-solicitation, while non-competes are rarely accepted and face tighter legal limits in many places.
+
+Q: Should the NDA be mutual?
+A: Usually yes. A mutual NDA protects both your client information and the partner's methods and pricing, and partners sign it more readily, which gets the brief moving sooner.
+
+Q: Who owns the code or designs a white-label partner creates?
+A: Whoever the contract says. Make ownership transfer to your agency or your client on payment, include a license for any pre-existing tools embedded in the work, and record third-party licenses separately.
+
+Q: Can a white-label partner show the work in its portfolio?
+A: Only if you allow it. Most white-label agreements forbid portfolio use, client names and case studies unless the agency gives written permission.
+
+Q: How long should a non-solicitation clause last?
+A: Long enough to protect the relationship and narrow enough to be reasonable: typically the length of the engagement plus a defined period afterwards, limited to clients the partner worked on or learned about. Your lawyer can advise what is enforceable where you are.
+
+## White-label PPC and Meta ads: how agencies outsource performance marketing
+https://gaa-tha.com/blog/white-label-ppc-meta-ads-guide
+Category: Outsourcing. Published 2026-11-03.
+
+White-label PPC is when an agency outsources the hands-on running of Meta and Google Ads campaigns to a partner who works under the agency's brand. The partner builds campaigns, sets up tracking, tests creative, optimizes and prepares reports in the agency's branding. The client keeps ownership of the ad accounts and pays ad spend directly, and the agency keeps the relationship and the strategy.
+
+### What is white-label PPC?
+
+White-label PPC (pay-per-click) is a partnership in which a specialist team manages paid advertising for an agency's clients, and the agency resells that work under its own name. The client sees one agency, one point of contact and reports in that agency's branding. The partner is invisible.
+
+In practice, white-label PPC today covers more than Google Search. Most agencies need Meta ads (Facebook and Instagram) as much as Google Ads, so a modern white-label performance partner typically runs Meta, Google Search, Performance Max, Shopping and YouTube, with LinkedIn or TikTok on request.
+
+Agencies use white-label PPC for three reasons: to offer paid media without hiring a full team, to add capacity when they win accounts faster than they can hire, and to bring in specialist skills such as Conversions API setup or Shopping feed optimization. The same idea applies to other services; see [white-label agency services explained](https://gaa-tha.com/blog/white-label-agency-services-explained).
+
+### What does a white-label PPC and Meta ads partner actually handle?
+
+A white-label PPC partner handles the execution: setup, builds, tracking, testing, optimization and reporting. The agency owns the client relationship, strategy sign-off and budget decisions. The split below is a common starting point.
+
+| Workstream | Partner does | Agency does |
+|---|---|---|
+| Audit and plan | Account audit, competitor and creative research, draft media plan | Agrees goals, budget and KPIs with the client |
+| Account setup | Campaign structure, audiences, conversion actions, product feeds | Gets the client to grant access |
+| Tracking | Meta Pixel and Conversions API, Google Ads conversions, GA4 key events, test conversions | Approves any website or tag changes with the client |
+| Campaign builds | Meta campaigns including Advantage+ where it fits, Google Search, Performance Max, Shopping, YouTube | Reviews launch plan and copy |
+| Creative testing | Test plans, ad copy, briefs or finished ad creative if contracted | Brand approval of creative |
+| Optimization | Budget shifts, bid strategy changes, audience and creative rotation, search term and placement hygiene | Approves budget increases beyond agreed limits |
+| Reporting | Dashboards and monthly reports in the agency's branding, written insights | Presents results and next steps to the client |
+
+Agree this split in writing. The most common friction in white-label relationships comes from tasks nobody owns, such as who chases the client's developer to install a tag.
+
+### How does ad account access work without the agency losing control?
+
+The ad accounts should belong to the client, the agency should hold primary access, and the white-label partner should receive only delegated access that can be removed at any time. Campaigns should never run inside the partner's own ad accounts.
+
+- **Meta.** In Meta Business Manager (Business Suite), the client's business can add the agency as a partner and assign specific assets: the ad account, Facebook page, Instagram account and Pixel or dataset. The agency can then assign people from its own business, or share assets onward to the white-label partner's business, with only the permissions needed.
+
+- **Google Ads.** The agency's Google Ads manager account (often called an MCC) sends a link request to the client's account, and the client accepts. Partner team members are added to the agency's manager account or given direct user access with an appropriate access level.
+
+- **GA4 and Tag Manager.** Grant user access at the property or container level, with edit rights only where tracking work requires it.
+
+- **Billing.** The client's payment method stays on the ad accounts, so the client pays Meta and Google directly. The agency invoices its management fee separately, and the partner invoices the agency.
+
+This setup means a client never loses its history if it changes agency, and an agency never loses control if it changes partner.
+
+### How should conversion tracking be set up before spending on ads?
+
+Tracking must be fixed before scaling spend, because both Meta and Google optimize toward the conversion signals they receive. Weak or duplicated signals mean the algorithms optimize toward the wrong people.
+
+- **Meta Pixel plus Conversions API.** Send key events (purchase, lead, add to cart) from both the browser and the server, with event IDs so Meta can de-duplicate them. Check event match quality in Events Manager.
+
+- **Google Ads conversions.** Use primary conversion actions for what the client is truly paying for, and consider enhanced conversions to improve measurement.
+
+- **GA4.** Mark the right events as key events and link GA4 to Google Ads, so the client has an independent view of performance.
+
+- **Consent.** For audiences in the UK and EU, consent signals (for example through a consent banner integrated with Google's consent mode) need to be implemented correctly so measurement and remarketing work within the rules.
+
+- **Lead quality.** For lead generation, pass qualified-lead or sale outcomes back to the platforms where possible; see [filtering fake leads from Meta ads](https://gaa-tha.com/blog/filtering-fake-leads-from-meta-ads).
+
+A good partner proves tracking with a test purchase or test lead and a screenshot of the event arriving in each platform before any budget is scaled.
+
+### How do creative testing and optimization work in an outsourced setup?
+
+Creative testing and optimization work best on a fixed weekly rhythm with a written log, so the agency can see what was changed, why and what happened next.
+
+- **Creative is the main lever on Meta.** Broad targeting and Advantage+ campaigns put most of the targeting work on the algorithm, so new angles, hooks and formats drive most gains. Plan a steady supply of new ads every month.
+
+- **Test one variable at a time.** Hook, offer, format or audience, with enough budget and time for a fair read.
+
+- **Google hygiene.** Search term reviews, negative keywords, asset quality in Performance Max and product feed fixes for Shopping.
+
+- **Budget rules.** Agree in advance how far the partner can move budget between campaigns without asking, and when the agency must approve.
+
+- **Change log.** Every significant change is logged with the date, reason and expected effect. It makes reporting honest and handovers painless.
+
+If the partner also produces creative, say so in the scope. Many agencies outsource media buying and creative production together; see [outsourced reel and video editing](https://gaa-tha.com/services/outsourced-reel-video-editing).
+
+### What should white-label PPC reporting include, and how often?
+
+White-label reporting should arrive in the agency's branding, explain business outcomes in plain language and recommend next steps. A weekly snapshot and a monthly report suit most retainers.
+
+- **Weekly snapshot.** Spend against plan, the main KPI against target, what changed this week and anything that needs the agency's or client's decision.
+
+- **Monthly report.** Performance by channel and campaign, creative winners and losers, tests run and their results, and next month's plan.
+
+- **Live dashboard.** A branded Looker Studio or similar dashboard the agency can share with the client.
+
+The KPIs depend on the business model:
+
+| KPI | What it measures | Best for |
+|---|---|---|
+| CPA / CPL | Cost per acquisition or per lead | Lead generation and app installs |
+| ROAS | Platform-attributed revenue divided by ad spend | Ecommerce campaign optimization |
+| MER | Total revenue divided by total ad spend | Judging overall paid media efficiency |
+| Lead-to-sale rate | Share of leads that become customers | B2B, services, high-ticket offers |
+| Contribution margin | Profit after product, fulfillment and ad costs | Deciding whether to scale |
+
+For why platform ROAS and blended MER often disagree, read [ROAS vs MER vs contribution margin](https://gaa-tha.com/blog/roas-vs-mer-vs-contribution-margin).
+
+### What are the red flags when outsourcing PPC and Meta ads?
+
+The biggest red flag is a partner that wants to run campaigns in its own ad accounts or bill ad spend through itself without full transparency. Others to watch for:
+
+- Guaranteed ROAS, guaranteed lead volumes or "guaranteed first page" promises.
+
+- No interest in tracking before launching campaigns.
+
+- Reports full of impressions and clicks but silent on cost per result and revenue.
+
+- No written change log, so nobody can explain why performance moved.
+
+- Partner branding in reports, emails or ad account names after you asked for white-label.
+
+- Vague answers about who does the work and whether it is subcontracted again.
+
+- No NDA, no non-solicitation clause, or reluctance to sign yours.
+
+- Long minimum terms before any proof of quality.
+
+For a structured vetting process, see [how to choose an outsourcing partner in India](https://gaa-tha.com/blog/how-to-choose-an-outsourcing-partner-in-india) and [white-label agreements explained](https://gaa-tha.com/blog/white-label-agreements-nda-non-solicitation).
+
+### How do you start a white-label PPC partnership, and where does gaa-tha fit?
+
+Start with a paid pilot on one client account for a defined period. Share the brief, access and goals; ask the partner for an audit and a plan first; then let them run the account with weekly updates. Judge them on communication, tracking quality, the logic of their changes and the clarity of their reporting, not only on short-term results, which depend on the offer and budget.
+
+Document a simple operating manual as you go: access steps, naming conventions, approval limits, report templates and escalation contacts. It makes adding the next client account quick.
+
+gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India. Our in-house team runs Meta and Google campaigns and produces the reels and ad creative that feed them. For US and UK agencies we work fully unbranded, sign an NDA before the brief, never contact your client unless you ask, agree to non-solicitation and start with a paid pilot. We cover US and UK business hours, invoice by custom quote, and accept international bank wire, PayPal or card through Stripe. Our international work includes an ongoing retainer running Canada-wide Meta campaigns for [New Rave](https://gaa-tha.com/work/new-rave). See [white-label PPC and Meta ads management](https://gaa-tha.com/services/white-label-ppc-meta-ads) or [talk to us about a pilot](https://gaa-tha.com/#contact).
+
+Q: Who pays the ad spend in white-label PPC?
+A: The client pays ad spend directly to Meta and Google through the payment method on its own ad accounts. The agency charges the client a management fee, and the white-label partner invoices the agency separately. This keeps media spend transparent and the accounts in the client's name.
+
+Q: Will my client know I outsource PPC?
+A: Not unless you tell them. In a white-label arrangement the partner uses no branding of its own in reports, emails or account names and does not contact your client unless you ask. Many agencies do disclose that they use specialist partners, which is also fine.
+
+Q: Can one white-label partner manage both Meta and Google Ads?
+A: Yes, and it usually helps. Running Meta, Google Search, Performance Max and Shopping in one team makes budget allocation and reporting more coherent. Check that the partner has hands-on experience with each channel you plan to sell.
+
+Q: What KPIs should a white-label PPC partner report?
+A: Report on the business result the client pays for: cost per lead or acquisition for lead generation, and ROAS, MER and ideally contribution margin for ecommerce. Supporting metrics such as click-through rate, conversion rate and creative hook rate explain why the main KPI moved.
+
+Q: How do I onboard a new client account to a white-label partner?
+A: Have the client grant your agency access first, through Meta business partner access and a Google Ads manager account link. Then share the relevant assets onward to the partner with limited permissions, send the brief and goals, and ask for an audit and plan before any changes are made.
+
+Q: How is white-label PPC usually priced?
+A: Common models are a flat monthly fee per client account, a tiered fee based on ad spend, or a percentage of spend. Whichever model you choose, keep ad spend billed directly to the client and get a written scope of channels, deliverables and reporting.
 
 ## AI agents for business: use cases and how to build one
 https://gaa-tha.com/blog/ai-agents-for-business-guide
@@ -9485,6 +11588,31 @@ A: System integration connects the software a business already uses — Shopify,
 
 Q: How do I choose an AI development company?
 A: Choose an AI development company that starts from your business process rather than a model or tool, can show working systems instead of demos, and explains how it measures accuracy, protects your data and keeps humans in control. Ask who owns the prompts, code and accounts, how model costs are estimated and monitored, how failures are logged and fixed, and what support looks like after launch. gaa-tha combines AI engineering with marketing and ecommerce operations, which helps when an agent touches customers, orders or catalogues.
+
+## US, UK & International Clients
+Q: Does gaa-tha work with clients in the US and UK?
+A: Yes. gaa-tha works with agencies and brands in the US, UK, Canada and Australia as a white-label delivery partner and an outsourced team, alongside its clients in India. Our team works US business hours, so calls, reviews and launches happen during your day. Our ongoing international retainer is New Rave, a trading-card and hobbies retailer in Canada, where we run strategy, Canada-wide campaigns, Instagram content, product data and the website.
+
+Q: Can US and UK agencies white-label gaa-tha's services?
+A: Yes. Agencies resell our Shopify development, store management, website and app development, ERP work, Meta and Google ads management, social media management and reel editing under their own brand. We sign an NDA before the brief, deliver unbranded work in your tools, never contact your clients and agree to non-solicitation.
+
+Q: Which services do US and UK clients outsource to gaa-tha most?
+A: Shopify store builds and monthly Shopify management, website and app development, Odoo and ERP development, white-label PPC on Meta and Google Ads, social media management, reel and short-form video editing, and marketing consulting or fractional CMO support.
+
+Q: What hours does gaa-tha work for US clients?
+A: We work US business hours, so stand-ups, Slack or Teams replies, sprint reviews and launches happen during your workday. The UK working day overlaps with ours as well.
+
+Q: How do I pay gaa-tha from the US or UK?
+A: We invoice internationally and accept bank wire (SWIFT), PayPal and card payments through Stripe. Ad spend, software licenses and platform subscriptions are paid by you directly to the providers, with no markup.
+
+Q: How much does it cost to outsource to gaa-tha?
+A: Every engagement is custom-quoted after we see a real brief. We start with a paid pilot — one fixed-scope project or batch — and then move to a fixed-scope project, a monthly retainer or a dedicated team. We do not publish a rate card because scope, volume and tools change the number.
+
+Q: Who owns the code, accounts and creative?
+A: You or your client. Stores, ad accounts, app store accounts, repositories, hosting and domains stay in your names; we work through collaborator, partner or staff access and hand over code, files and documentation.
+
+Q: How do we start working with gaa-tha?
+A: Book an intro call in your business hours, share the work under an NDA, and we reply with a written scope for a paid pilot. If the pilot meets your standard, we agree monthly capacity.
 
 
 ## General FAQ

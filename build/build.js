@@ -178,21 +178,23 @@ function bpCover(p) {
 }
 
 /* ------------------------------------------------------------- chrome */
-const NAV_ITEMS = [['Services', '/services'], ['Work', '/work'], ['Blog', '/blog'], ['About', '/about'], ['FAQ', '/faq']];
+const NAV_ITEMS = [['Services', '/services'], ['Outsourcing', '/services/outsourcing'], ['Work', '/work'], ['Blog', '/blog'], ['About', '/about'], ['FAQ', '/faq']];
+// Practices with their own top-level nav item stay out of the Services mega-menu.
+const menuGroups = () => groups.filter((g) => !g.ownNav);
 function megaMenu() {
-  const cols = groups.map((g) => {
+  const cols = menuGroups().map((g) => {
     const list = byGroup(g).slice(0, 10).map((s) => `<li><a href="${svcUrl(s)}">${esc(s.shortName || s.name)}</a></li>`).join('');
     return `<div class="mega-col"><h3><a href="${groupUrl(g)}">${esc(g.menuName || g.name)}</a></h3><ul>${list}</ul></div>`;
   }).join('\n          ');
   return `<div class="mega" aria-label="Services menu">
         <div class="mega-inner">
           ${cols}
-          <div class="mega-foot"><span>One team across brand, growth, ecommerce, marketplaces, quick commerce, apps and AI.</span><a class="link-arrow" href="/services">View all services <span class="arr">&rarr;</span></a></div>
+          <div class="mega-foot"><span>Agency or brand in the US or UK? <a class="mega-out" href="/services/outsourcing">White-label &amp; outsourcing <span class="arr">&rarr;</span></a></span><a class="link-arrow" href="/services">View all services <span class="arr">&rarr;</span></a></div>
         </div>
       </div>`;
 }
 function mobileServices() {
-  const blocks = groups.map((g) => {
+  const blocks = menuGroups().map((g) => {
     const list = byGroup(g).map((s) => `<li><a href="${svcUrl(s)}">${esc(s.shortName || s.name)}</a></li>`).join('');
     return `<div><h4><a href="${groupUrl(g)}">${esc(g.menuName || g.name)}</a></h4><ul>${list}</ul></div>`;
   }).join('');
@@ -206,7 +208,7 @@ function navHtml(active) {
     if (label === 'Services') return `<div class="has-mega"><a href="${href}"${cls}>Services</a>${megaMenu()}</div>`;
     return `<a href="${href}"${cls}>${label}</a>`;
   }).join('\n      ');
-  const mm = [['Work', '/work'], ['Blog', '/blog'], ['About', '/about'], ['FAQ', '/faq'], ['Contact', '/#contact']]
+  const mm = [['Outsourcing', '/services/outsourcing'], ['Work', '/work'], ['Blog', '/blog'], ['About', '/about'], ['FAQ', '/faq'], ['Contact', '/#contact']]
     .map(([label, href], i) => `<a href="${href}" style="--i:${i + 1}"${active === label ? ' aria-current="page"' : ''}><span class="num">${pad2(i + 2)}</span><span class="mm-t">${label}</span><span class="mm-arr" aria-hidden="true">&rarr;</span></a>`).join('\n    ');
   const social = (site.sameAs || []).map((u) => [socialName(u), u]).filter(([n]) => n)
     .map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${n}</a>`).join('');
@@ -231,7 +233,7 @@ function navHtml(active) {
     ${mobileServices()}
     ${mm}
   </nav>
-  <div class="mm-foot" style="--i:6">
+  <div class="mm-foot" style="--i:7">
     <a class="btn btn-primary btn-lg" href="/#contact">Start a project <span class="arr" aria-hidden="true">&rarr;</span></a>
     <div class="mm-contact">
       <a href="mailto:${site.email}">${site.email}</a>
@@ -328,10 +330,10 @@ function orgSchema() {
     telephone: site.phonesTel[0],
     priceRange: '$$',
     address: { '@type': 'PostalAddress', addressRegion: site.address.region, addressCountry: site.address.country },
-    areaServed: [{ '@type': 'Country', name: 'India' }, 'Worldwide'],
+    areaServed: ['India', 'United States', 'United Kingdom', 'Canada', 'Australia'].map((name) => ({ '@type': 'Country', name })).concat(['Worldwide']),
     knowsAbout: site.knowsAbout,
     founder: site.founders.map((f) => ({ '@type': 'Person', name: f.name, jobTitle: f.jobTitle })),
-    contactPoint: { '@type': 'ContactPoint', telephone: site.phonesTel[0], email: site.email, contactType: 'sales', availableLanguage: ['English', 'Hindi', 'Gujarati'] },
+    contactPoint: { '@type': 'ContactPoint', telephone: site.phonesTel[0], email: site.email, contactType: 'sales', areaServed: ['IN', 'US', 'GB', 'CA', 'AU'], availableLanguage: ['English', 'Hindi', 'Gujarati'] },
     sameAs: site.sameAs,
     makesOffer: groups.map((g) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: g.name, url: abs(groupUrl(g)) } }))
   };
@@ -520,11 +522,11 @@ function renderService(s) {
   const schema = [
     { '@type': 'WebPage', '@id': abs(url), url: abs(url), name: s.meta.title, description: s.meta.description, isPartOf: { '@id': `${SITE_URL}/#website` }, dateModified: s.updated, breadcrumb: { '@id': abs(url) + '#breadcrumb' } },
     Object.assign(crumbSchema([['Home', '/'], ['Services', '/services'], [g.name, groupUrl(g)], [s.name, url]]), { '@id': abs(url) + '#breadcrumb' }),
-    { '@type': 'Service', '@id': abs(url) + '#service', name: s.name, serviceType: s.name, description: s.intro, url: abs(url), provider: { '@id': `${SITE_URL}/#organization` }, areaServed: { '@type': 'Country', name: 'India' }, category: g.name, image: hero ? absUrl(hero.src) : undefined, hasOfferCatalog: { '@type': 'OfferCatalog', name: `${s.name} — what's included`, itemListElement: s.included.map((i) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: i } })) } },
+    { '@type': 'Service', '@id': abs(url) + '#service', name: s.name, serviceType: s.name, description: s.intro, url: abs(url), provider: { '@id': `${SITE_URL}/#organization` }, areaServed: (s.areaServed || g.areaServed || ['India']).map((name) => ({ '@type': 'Country', name })), category: g.name, image: hero ? absUrl(hero.src) : undefined, hasOfferCatalog: { '@type': 'OfferCatalog', name: `${s.name} — what's included`, itemListElement: s.included.map((i) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: i } })) } },
     faqSchema(s.faq)
   ];
   const glance = [['Best for', s.glance.bestFor], ['Timeline', s.glance.timeline], ['Engagement model', s.glance.model], ['Channels / platforms', s.glance.channels]];
-  let html = head({ title: s.meta.title, description: s.meta.description, canonical: url, ogImage: og && og.src, schema, active: 'Services', page: 'service', modified: s.updated, markdown: url + '.md' });
+  let html = head({ title: s.meta.title, description: s.meta.description, canonical: url, ogImage: og && og.src, schema, active: navFor(g), page: 'service', modified: s.updated, markdown: url + '.md' });
   html += `
   <div class="svc-hero">
   <header class="page-hero">
@@ -636,34 +638,52 @@ ${reading.length ? `
 }
 
 /* ----------------------------------------------------------- group hub */
+const navFor = (g) => (g && g.ownNav ? (NAV_ITEMS.find(([, href]) => href === groupUrl(g)) || ['Services'])[0] : 'Services');
 function renderGroup(g) {
   const url = groupUrl(g);
   const list = byGroup(g);
   const proof = publishedCases().filter((c) => (c.services || []).some((s) => list.some((x) => x.slug === s))).slice(0, 3);
   const others = groups.filter((x) => x.slug !== g.slug);
-  const title = `${g.name} Services in India | gaa-tha`;
+  const title = g.metaTitle || `${g.name} Services in India | gaa-tha`;
   const schema = [
     { '@type': 'CollectionPage', '@id': abs(url), url: abs(url), name: title, description: g.description, isPartOf: { '@id': `${SITE_URL}/#website` } },
     crumbSchema([['Home', '/'], ['Services', '/services'], [g.name, url]]),
+    ...(g.areaServed ? [{ '@type': 'Service', '@id': abs(url) + '#service', name: g.name, serviceType: g.name, description: g.intro, url: abs(url), provider: { '@id': `${SITE_URL}/#organization` }, areaServed: g.areaServed.map((name) => ({ '@type': 'Country', name })) }] : []),
     { '@type': 'ItemList', name: `${g.name} services`, itemListElement: list.map((s, i) => ({ '@type': 'ListItem', position: i + 1, name: s.name, url: abs(svcUrl(s)) })) },
     faqSchema(g.faq)
   ];
-  let html = head({ title, description: clip(g.description), canonical: url, schema, active: 'Services', page: 'service-group', markdown: url + '.md' });
+  let html = head({ title, description: g.metaDescription || clip(g.description), canonical: url, schema, active: navFor(g), page: 'service-group', markdown: url + '.md' });
   html += `
   <header class="page-hero">
     <div class="wrap">
       ${crumbs([['Home', '/'], ['Services', '/services'], [g.name]])}
-      <h1 class="${h1Class(g.name)}">${esc(g.name)}</h1>
+      <h1 class="${h1Class(g.h1 || g.name)}">${esc(g.h1 || g.name)}</h1>
       <p class="lead">${esc(g.tagline)}</p>
       <p class="ai-summary">${esc(g.intro)}</p>
+      ${g.ownNav ? `<div class="hero-actions reveal" style="margin-top:26px"><a class="btn btn-primary btn-lg" href="/?service=${encodeURIComponent(byGroup(g)[0] ? byGroup(g)[0].slug : '')}#contact">Book an intro call <span class="arr">&rarr;</span></a><a class="btn btn-ghost btn-lg" href="/work/new-rave">See international work</a></div>` : ''}
     </div>
   </header>
+${g.highlights ? `
+  <section class="section tight" aria-label="${esc(g.highlightsTitle || 'How we work')}">
+    <div class="wrap">
+      ${sectionHead('Working together', g.highlightsTitle || 'How we work')}
+      <div class="grid grid-3" data-stagger="0.05">${g.highlights.map((h) => `<div class="card reveal"><h3>${esc(h.title)}</h3><p>${esc(h.text)}</p></div>`).join('')}</div>
+    </div>
+  </section>` : ''}
 
   <section class="section tight">
     <div class="wrap">
+      ${g.highlights ? sectionHead('Services', 'What you can hand over') : ''}
       <div class="svc-rows reveal">${list.map((s, i) => `<a class="svc-row" href="${svcUrl(s)}"><span class="num">${pad2(i + 1)}</span><span><h3>${esc(s.name)}</h3><p>${esc(s.promise)}</p></span><span class="arr-big" aria-hidden="true">&rarr;</span></a>`).join('')}</div>
     </div>
   </section>
+${g.steps ? `
+  <section class="section surface bordered">
+    <div class="wrap">
+      ${sectionHead('Process', 'How an engagement starts', 'Five steps, from first call to a monthly rhythm.')}
+      ${stepsGrid(g.steps, 5)}
+    </div>
+  </section>` : ''}
 ${proof.length ? `
   <section class="section surface bordered">
     <div class="wrap">
@@ -1018,11 +1038,11 @@ function groupMd(g) {
 - Provider: gaa-tha (${SITE_URL})
 
 ${g.description}
-
+${g.areaServed ? `\nServes: ${g.areaServed.join(', ')}.\n` : ''}${g.highlights ? `\n## ${g.highlightsTitle || 'How we work'}\n\n${g.highlights.map((h) => `- **${h.title}.** ${h.text}`).join('\n')}\n` : ''}
 ## Services
 
 ${byGroup(g).map((s) => `- [${s.name}](${abs(svcUrl(s))}) ([markdown](${abs(svcUrl(s))}.md)): ${s.promise}`).join('\n')}
-
+${g.steps ? `\n## How an engagement starts\n\n${g.steps.map((st, i) => `${i + 1}. **${st.title}.** ${st.text}`).join('\n')}\n` : ''}
 ## Frequently asked questions
 
 ${mdFaq(g.faq)}
@@ -1242,13 +1262,15 @@ function llms() {
 
 > gaa-tha (गाथा, "story") is a storytelling-led digital marketing, branding, ecommerce, technology and AI agency founded in Gujarat, India in 2024 by Abhishek Khuthiya and Getansh Savla. It builds brands, websites, Shopify stores, mobile apps, SaaS products, AI agents, AI automations and ERPs; runs Meta and Google ads, social media, SEO/AEO/GEO and influencer campaigns; and onboards and manages brands on Amazon, Flipkart, Myntra, Nykaa, AJIO, Meesho, JioMart, Blinkit, Zepto, Swiggy Instamart, Flipkart Minutes, Amazon Now and BigBasket.
 
-gaa-tha works as one in-house team across seven practices — Brand & Creative, Growth Marketing, D2C Ecommerce, Marketplaces, Quick Commerce, Websites & Apps, and AI & Software Engineering — so a client can go from brand identity and a Shopify store or app to ads, marketplaces, quick commerce, automation and an ERP without switching agencies.
+gaa-tha works as one in-house team across seven practices — Brand & Creative, Growth Marketing, D2C Ecommerce, Marketplaces, Quick Commerce, Websites & Apps, and AI & Software Engineering — plus an Outsourcing & White-Label practice for US and UK agencies and brands — so a client can go from brand identity and a Shopify store or app to ads, marketplaces, quick commerce, automation and an ERP without switching agencies.
 
 Every service, practice and guide page below also has a clean Markdown copy at the same URL plus \`.md\` (for example ${SITE_URL}/services/shopify-development.md). The complete text of all services, case studies, guides and FAQs is at ${SITE_URL}/llms-full.txt.
 
 ## Facts
 
 - Founded: 2024, Gujarat, India. Serves clients across India and internationally (including Canada).
+- International work: white-label delivery partner for US and UK marketing agencies, and outsourced team for US, UK, Canadian and Australian brands — Shopify development and store management, website and app development, Odoo/ERPNext and custom ERP, Meta and Google ads (white-label PPC), social media management, reel and short-form video editing, and marketing consulting / fractional CMO. Hub: ${SITE_URL}/services/outsourcing
+- Working terms for US/UK clients: works US business hours (UK hours overlap); NDA signed before the brief; unbranded white-label delivery with no contact with an agency's clients; non-solicitation of agency clients; every engagement starts with a paid pilot; custom quotes (no public rate card); payment by international bank wire (SWIFT), PayPal or card via Stripe. International client example: New Rave, a trading-card and hobbies retailer in Canada (${SITE_URL}/work/new-rave).
 - Founders: Abhishek Khuthiya (Co-Founder, strategy and brand psychology) and Getansh Savla (Co-Founder, creative and consumer behaviour).
 - Track record: 100+ campaigns delivered, 1000+ AI-driven content pieces, 50M+ total reach, 15+ client brands, 20+ websites built.
 - Clients include: ${clients.filter((c) => c.logoWall).map((c) => c.name).join(', ')}.

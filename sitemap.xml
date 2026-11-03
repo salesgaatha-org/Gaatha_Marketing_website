@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://gaa-tha.com/services</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -51,6 +51,12 @@
   <url>
     <loc>https://gaa-tha.com/services/ai-software-engineering</loc>
     <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/outsourcing</loc>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -265,6 +271,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/services/marketing-consulting-fractional-cmo</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/services/marketing-strategy</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -315,6 +327,36 @@
   <url>
     <loc>https://gaa-tha.com/services/nykaa-onboarding</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/offshore-erp-odoo-development</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/outsource-app-development</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/outsource-website-development</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/outsourced-reel-video-editing</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/outsourced-shopify-store-management</loc>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -411,6 +453,30 @@
   <url>
     <loc>https://gaa-tha.com/services/website-development</loc>
     <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/white-label-agency-partner</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/white-label-ppc-meta-ads</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/white-label-shopify-development</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/services/white-label-social-media-management</loc>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -703,6 +769,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/blog/how-to-choose-an-outsourcing-partner-in-india</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/how-to-outsource-digital-marketing-to-india</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/blog/how-to-sell-on-blinkit</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -739,8 +817,32 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gaa-tha.com/blog/offshore-odoo-erp-development-guide</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gaa-tha.com/blog/one-website-for-multiple-store-locations</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/outsource-reel-video-editing-guide</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/outsource-shopify-development-to-india</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/outsource-website-and-app-development-to-india</loc>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -825,6 +927,24 @@
   <url>
     <loc>https://gaa-tha.com/blog/when-a-plus-content-pays</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/white-label-agency-services-explained</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/white-label-agreements-nda-non-solicitation</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaa-tha.com/blog/white-label-ppc-meta-ads-guide</loc>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

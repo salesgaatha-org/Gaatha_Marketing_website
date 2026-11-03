@@ -2,13 +2,15 @@
 
 > gaa-tha (गाथा, "story") is a storytelling-led digital marketing, branding, ecommerce, technology and AI agency founded in Gujarat, India in 2024 by Abhishek Khuthiya and Getansh Savla. It builds brands, websites, Shopify stores, mobile apps, SaaS products, AI agents, AI automations and ERPs; runs Meta and Google ads, social media, SEO/AEO/GEO and influencer campaigns; and onboards and manages brands on Amazon, Flipkart, Myntra, Nykaa, AJIO, Meesho, JioMart, Blinkit, Zepto, Swiggy Instamart, Flipkart Minutes, Amazon Now and BigBasket.
 
-gaa-tha works as one in-house team across seven practices — Brand & Creative, Growth Marketing, D2C Ecommerce, Marketplaces, Quick Commerce, Websites & Apps, and AI & Software Engineering — so a client can go from brand identity and a Shopify store or app to ads, marketplaces, quick commerce, automation and an ERP without switching agencies.
+gaa-tha works as one in-house team across seven practices — Brand & Creative, Growth Marketing, D2C Ecommerce, Marketplaces, Quick Commerce, Websites & Apps, and AI & Software Engineering — plus an Outsourcing & White-Label practice for US and UK agencies and brands — so a client can go from brand identity and a Shopify store or app to ads, marketplaces, quick commerce, automation and an ERP without switching agencies.
 
 Every service, practice and guide page below also has a clean Markdown copy at the same URL plus `.md` (for example https://gaa-tha.com/services/shopify-development.md). The complete text of all services, case studies, guides and FAQs is at https://gaa-tha.com/llms-full.txt.
 
 ## Facts
 
 - Founded: 2024, Gujarat, India. Serves clients across India and internationally (including Canada).
+- International work: white-label delivery partner for US and UK marketing agencies, and outsourced team for US, UK, Canadian and Australian brands — Shopify development and store management, website and app development, Odoo/ERPNext and custom ERP, Meta and Google ads (white-label PPC), social media management, reel and short-form video editing, and marketing consulting / fractional CMO. Hub: https://gaa-tha.com/services/outsourcing
+- Working terms for US/UK clients: works US business hours (UK hours overlap); NDA signed before the brief; unbranded white-label delivery with no contact with an agency's clients; non-solicitation of agency clients; every engagement starts with a paid pilot; custom quotes (no public rate card); payment by international bank wire (SWIFT), PayPal or card via Stripe. International client example: New Rave, a trading-card and hobbies retailer in Canada (https://gaa-tha.com/work/new-rave).
 - Founders: Abhishek Khuthiya (Co-Founder, strategy and brand psychology) and Getansh Savla (Co-Founder, creative and consumer behaviour).
 - Track record: 100+ campaigns delivered, 1000+ AI-driven content pieces, 50M+ total reach, 15+ client brands, 20+ websites built.
 - Clients include: Charliee, CDS Stores, Nirav Machines India, Madhuram, Sipss & Bitess, Saurashtra Farsan, Rentastic Homes, NITS Overseas, Navami, Aathrr, Shailesh Construction, Ghanshyam Snacks, GSPS Chartered Accountants, New Rave, Kitcoz, HPMG Group.
@@ -110,6 +112,20 @@ AI agents, automations, ERPs and systems that run the business.
 - [ERP Development & Implementation](https://gaa-tha.com/services/erp-development): Custom ERP or Odoo and ERPNext, mapped to how your business really runs — from purchase order to dispatch to GST invoice.
 - [Custom Software Development & System Integration](https://gaa-tha.com/services/custom-software-development): Bespoke software, portals and integrations engineered so your systems talk to each other — and keep running.
 - [Custom Tools & Automations](https://gaa-tha.com/services/business-tools-automation): Small, purpose-built software that removes manual work — lead trackers, lookups, dashboards and document automation.
+
+### Outsourcing & White-Label — https://gaa-tha.com/services/outsourcing
+An India-based team that works your hours — for US and UK agencies and brands.
+
+- [White-Label Digital Agency Partner](https://gaa-tha.com/services/white-label-agency-partner): An unbranded delivery team for US and UK agencies — Shopify, web, apps, ads, social and video, under your name.
+- [White-Label Shopify Development](https://gaa-tha.com/services/white-label-shopify-development): Shopify themes, custom sections, migrations and Plus work delivered under your agency's name.
+- [Outsourced Shopify Store Management](https://gaa-tha.com/services/outsourced-shopify-store-management): A monthly team that runs your Shopify store — products, promotions, apps, fixes and speed.
+- [White-Label PPC & Meta Ads Management](https://gaa-tha.com/services/white-label-ppc-meta-ads): Meta and Google Ads managed for your agency's clients, reported under your brand.
+- [White-Label Social Media Management](https://gaa-tha.com/services/white-label-social-media-management): Content calendars, design, captions, publishing and reports for your agency's clients.
+- [Outsource Website Development to India](https://gaa-tha.com/services/outsource-website-development): Marketing sites, ecommerce and web apps built by one in-house team that works your hours.
+- [Outsource App Development to India](https://gaa-tha.com/services/outsource-app-development): iOS, Android and web apps from discovery to App Store, built in your accounts.
+- [Offshore ERP & Odoo Development](https://gaa-tha.com/services/offshore-erp-odoo-development): Odoo, ERPNext and custom ERP modules, integrations and support from an India-based team.
+- [Outsourced Reel & Short-Form Video Editing](https://gaa-tha.com/services/outsourced-reel-video-editing): Reels, TikToks, Shorts and video ads edited from your footage, in batches, on deadline.
+- [Marketing Consulting & Fractional CMO](https://gaa-tha.com/services/marketing-consulting-fractional-cmo): Senior marketing strategy, channel plans and team direction — without a full-time CMO.
 
 ## Case studies
 
@@ -215,6 +231,18 @@ Hub: https://gaa-tha.com/work
 - [What makes a great portfolio or brand website: a 2026 checklist](https://gaa-tha.com/blog/portfolio-and-brand-website-guide): A 2026 checklist for portfolio and brand websites: positioning, case studies, storytelling, fast motion, proof, contact flow, SEO and AI search, platform.
 - [How to build a SaaS product: from MVP to first paying customers](https://gaa-tha.com/blog/saas-product-development-guide): How to build SaaS: validate the problem, scope the MVP, pick the stack, handle multi-tenancy, billing, GST and DPDP, then launch and price it.
 - [Website development cost in India: a 2026 pricing guide](https://gaa-tha.com/blog/website-development-cost-in-india): Indicative 2026 website costs in India by site type and builder, what drives the price, yearly running costs, hidden costs and how to compare quotes.
+
+### Outsourcing
+
+- [How to choose an outsourcing partner in India: a checklist for US and UK teams](https://gaa-tha.com/blog/how-to-choose-an-outsourcing-partner-in-india): A practical checklist, weighted scorecard, first-call questions, red flags and a 90-day plan for choosing a marketing or development partner in India.
+- [How to outsource digital marketing to India: a guide for US and UK businesses](https://gaa-tha.com/blog/how-to-outsource-digital-marketing-to-india): What to outsource to India, engagement models, time zones, contracts, payments and paid pilots: a practical guide for US and UK brands and agencies.
+- [Outsourcing Odoo and ERP development to India: what to expect](https://gaa-tha.com/blog/offshore-odoo-erp-development-guide): When to outsource Odoo, ERPNext or custom ERP work, Community vs Enterprise, the six project phases, integrations, remote delivery, ownership and risks.
+- [How to outsource reel and short-form video editing: briefs, turnaround and QA](https://gaa-tha.com/blog/outsource-reel-video-editing-guide): How to outsource Reels, TikTok and Shorts editing: the brief, footage hand-off, styles, revisions, music licensing, a QA checklist and a test batch.
+- [Outsourcing Shopify development to India: a guide for US and UK brands and agencies](https://gaa-tha.com/blog/outsource-shopify-development-to-india): What Shopify work to outsource to India, how it runs across time zones, the quality checks to insist on, who owns what, and how to vet a partner.
+- [Outsourcing website and app development to India: a buyer's guide for US and UK companies](https://gaa-tha.com/blog/outsource-website-and-app-development-to-india): What to outsource, engagement models, specs, time zones, code and account ownership, QA, security and red flags when hiring an Indian dev partner.
+- [White-label agency services: what US and UK agencies outsource and how it works](https://gaa-tha.com/blog/white-label-agency-services-explained): What white-label means, which services agencies outsource, how the workflow and QA run, pricing models, risks and how to choose a white-label partner.
+- [White-label agreements explained: NDAs, non-solicitation, IP and paid pilots](https://gaa-tha.com/blog/white-label-agreements-nda-non-solicitation): The clauses an agency needs when it outsources white-label work: NDA, non-solicitation, IP, unbranded delivery, payment and pilots, plus a checklist.
+- [White-label PPC and Meta ads: how agencies outsource performance marketing](https://gaa-tha.com/blog/white-label-ppc-meta-ads-guide): How white-label PPC works: what the partner runs, account access without losing control, tracking, creative testing, reporting, KPIs and red flags.
 
 ## Quick answers
 

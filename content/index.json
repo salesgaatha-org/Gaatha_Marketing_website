@@ -28,6 +28,10 @@
     {
       "slug": "ai-software-engineering",
       "name": "AI & Software Engineering"
+    },
+    {
+      "slug": "outsourcing",
+      "name": "Outsourcing & White-Label"
     }
   ],
   "services": [
@@ -345,6 +349,76 @@
       "group": "marketplaces",
       "published": true,
       "url": "/services/reviews-ratings-management"
+    },
+    {
+      "slug": "white-label-agency-partner",
+      "name": "White-Label Digital Agency Partner",
+      "group": "outsourcing",
+      "published": true,
+      "url": "/services/white-label-agency-partner"
+    },
+    {
+      "slug": "white-label-shopify-development",
+      "name": "White-Label Shopify Development",
+      "group": "outsourcing",
+      "published": true,
+      "url": "/services/white-label-shopify-development"
+    },
+    {
+      "slug": "outsourced-shopify-store-management",
+      "name": "Outsourced Shopify Store Management",
+      "group": "outsourcing",
+      "published": true,
+      "url": "/services/outsourced-shopify-store-management"
+    },
+    {
+      "slug": "white-label-ppc-meta-ads",
+      "name": "White-Label PPC & Meta Ads Management",
+      "group": "outsourcing",
+      "published": true,
+      "url": "/services/white-label-ppc-meta-ads"
+    },
+    {
+      "slug": "white-label-social-media-management",
+      "name": "White-Label Social Media Management",
+      "group": "outsourcing",
+      "published": true,
+      "url": "/services/white-label-social-media-management"
+    },
+    {
+      "slug": "outsource-website-development",
+      "name": "Outsource Website Development to India",
+      "group": "outsourcing",
+      "published": true,
+      "url": "/services/outsource-website-development"
+    },
+    {
+      "slug": "outsource-app-development",
+      "name": "Outsource App Development to India",
+      "group": "outsourcing",
+      "published": true,
+      "url": "/services/outsource-app-development"
+    },
+    {
+      "slug": "offshore-erp-odoo-development",
+      "name": "Offshore ERP & Odoo Development",
+      "group": "outsourcing",
+      "published": true,
+      "url": "/services/offshore-erp-odoo-development"
+    },
+    {
+      "slug": "outsourced-reel-video-editing",
+      "name": "Outsourced Reel & Short-Form Video Editing",
+      "group": "outsourcing",
+      "published": true,
+      "url": "/services/outsourced-reel-video-editing"
+    },
+    {
+      "slug": "marketing-consulting-fractional-cmo",
+      "name": "Marketing Consulting & Fractional CMO",
+      "group": "outsourcing",
+      "published": true,
+      "url": "/services/marketing-consulting-fractional-cmo"
     },
     {
       "slug": "quick-commerce-agency",
@@ -1514,6 +1588,20 @@
       "url": "/blog/how-to-choose-a-website-and-app-development-company-in-india"
     },
     {
+      "slug": "how-to-choose-an-outsourcing-partner-in-india",
+      "title": "How to choose an outsourcing partner in India: a checklist for US and UK teams",
+      "category": "Outsourcing",
+      "published": true,
+      "url": "/blog/how-to-choose-an-outsourcing-partner-in-india"
+    },
+    {
+      "slug": "how-to-outsource-digital-marketing-to-india",
+      "title": "How to outsource digital marketing to India: a guide for US and UK businesses",
+      "category": "Outsourcing",
+      "published": true,
+      "url": "/blog/how-to-outsource-digital-marketing-to-india"
+    },
+    {
       "slug": "how-to-sell-on-blinkit",
       "title": "How to sell on Blinkit: a brand’s step-by-step guide",
       "category": "Commerce",
@@ -1556,11 +1644,39 @@
       "url": "/blog/mobile-app-development-cost-in-india"
     },
     {
+      "slug": "offshore-odoo-erp-development-guide",
+      "title": "Outsourcing Odoo and ERP development to India: what to expect",
+      "category": "Outsourcing",
+      "published": true,
+      "url": "/blog/offshore-odoo-erp-development-guide"
+    },
+    {
       "slug": "one-website-for-multiple-store-locations",
       "title": "One website for multiple store locations: how it works",
       "category": "Commerce",
       "published": true,
       "url": "/blog/one-website-for-multiple-store-locations"
+    },
+    {
+      "slug": "outsource-reel-video-editing-guide",
+      "title": "How to outsource reel and short-form video editing: briefs, turnaround and QA",
+      "category": "Outsourcing",
+      "published": true,
+      "url": "/blog/outsource-reel-video-editing-guide"
+    },
+    {
+      "slug": "outsource-shopify-development-to-india",
+      "title": "Outsourcing Shopify development to India: a guide for US and UK brands and agencies",
+      "category": "Outsourcing",
+      "published": true,
+      "url": "/blog/outsource-shopify-development-to-india"
+    },
+    {
+      "slug": "outsource-website-and-app-development-to-india",
+      "title": "Outsourcing website and app development to India: a buyer's guide for US and UK companies",
+      "category": "Outsourcing",
+      "published": true,
+      "url": "/blog/outsource-website-and-app-development-to-india"
     },
     {
       "slug": "pack-size-and-pricing-for-10-minute-delivery",
@@ -1659,6 +1775,27 @@
       "category": "Commerce",
       "published": true,
       "url": "/blog/when-a-plus-content-pays"
+    },
+    {
+      "slug": "white-label-agency-services-explained",
+      "title": "White-label agency services: what US and UK agencies outsource and how it works",
+      "category": "Outsourcing",
+      "published": true,
+      "url": "/blog/white-label-agency-services-explained"
+    },
+    {
+      "slug": "white-label-agreements-nda-non-solicitation",
+      "title": "White-label agreements explained: NDAs, non-solicitation, IP and paid pilots",
+      "category": "Outsourcing",
+      "published": true,
+      "url": "/blog/white-label-agreements-nda-non-solicitation"
+    },
+    {
+      "slug": "white-label-ppc-meta-ads-guide",
+      "title": "White-label PPC and Meta ads: how agencies outsource performance marketing",
+      "category": "Outsourcing",
+      "published": true,
+      "url": "/blog/white-label-ppc-meta-ads-guide"
     },
     {
       "slug": "why-shopify-is-best-for-ecommerce",

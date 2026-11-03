@@ -1,0 +1,138 @@
+{
+  "slug": "outsource-website-development",
+  "group": "outsourcing",
+  "order": 6,
+  "published": true,
+  "name": "Outsource Website Development to India",
+  "shortName": "Outsourced website development",
+  "promise": "Marketing sites, ecommerce and web apps built by one in-house team that works your hours.",
+  "intro": "gaa-tha is an India-based website development team for US and UK companies and agencies. We design and build marketing websites, ecommerce stores and web apps on WordPress, Webflow, Shopify and custom Next.js, with code in your repository, accounts in your name, US business hours and a paid pilot before any larger project.",
+  "glance": {
+    "bestFor": "US and UK businesses and agencies that need web development capacity",
+    "timeline": "Marketing sites in roughly four to eight weeks; web apps scoped per project",
+    "model": "Fixed-scope project or a monthly development retainer after a paid pilot",
+    "channels": "WordPress, Webflow, Shopify, Next.js, React, Node.js"
+  },
+  "whatIs": [
+    "Outsourcing website development to India means hiring an India-based team to design, build and maintain websites while you keep ownership of the strategy, the accounts and the code. Done well, it gives you senior development capacity with clear communication and documentation; done badly, it creates code nobody can maintain.",
+    "gaa-tha builds websites for its own clients, including a managed ecommerce site for a retailer in Canada, and works as a development partner for agencies. Every project starts with a written scope, runs on preview links and a shared task board during US business hours, and ends with code in your GitHub and documentation your next developer can follow."
+  ],
+  "included": [
+    "Discovery, sitemap and written scope before any design",
+    "UX and UI design in Figma, or development from your designs",
+    "WordPress, Webflow, Shopify or custom Next.js builds",
+    "Responsive, accessible front-end with WCAG basics checked",
+    "Technical SEO: metadata, schema, redirects, sitemaps and Core Web Vitals",
+    "CMS training so your team can edit content",
+    "Code in your GitHub, hosting and domains in your name",
+    "Post-launch support window and optional maintenance retainer"
+  ],
+  "steps": [
+    {
+      "title": "Discovery",
+      "text": "Goals, audience, pages, integrations and success measures agreed in writing."
+    },
+    {
+      "title": "Design",
+      "text": "Wireframes and Figma designs, or a build plan from your existing designs."
+    },
+    {
+      "title": "Build",
+      "text": "Development on a staging site with weekly preview links and a shared task board."
+    },
+    {
+      "title": "QA and launch",
+      "text": "Device, browser, speed, accessibility and SEO checks, then launch with redirects."
+    },
+    {
+      "title": "Support",
+      "text": "A fix window after launch and an optional monthly maintenance retainer."
+    }
+  ],
+  "deliverables": [
+    "Written scope and sitemap",
+    "Figma designs (when design is in scope)",
+    "Production website with CMS access",
+    "Technical SEO and redirect map",
+    "Handover documentation and training"
+  ],
+  "tools": [
+    "Figma",
+    "WordPress",
+    "Webflow",
+    "Shopify",
+    "Next.js",
+    "React",
+    "Node.js",
+    "GitHub",
+    "Vercel",
+    "Cloudflare"
+  ],
+  "pricing": "Custom-quoted as a fixed-scope project or monthly retainer after discovery and a paid pilot where useful. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.",
+  "faq": [
+    {
+      "q": "Is it a good idea to outsource website development to India?",
+      "a": "It can be, when the partner works in your accounts, documents everything, communicates in your hours and starts with a small paid project. gaa-tha works US business hours, keeps code in your GitHub and signs an NDA before the brief."
+    },
+    {
+      "q": "Which platforms do you build on?",
+      "a": "WordPress, Webflow and Shopify for marketing and ecommerce sites, and Next.js with React and Node.js for custom sites and web apps. We recommend the platform in discovery based on who will edit the site and what it must integrate with."
+    },
+    {
+      "q": "Who owns the code and the website?",
+      "a": "You do. Hosting, domains, CMS accounts and repositories are set up in your name, and code is handed over with documentation."
+    },
+    {
+      "q": "Can you work from our agency's designs?",
+      "a": "Yes. Many agencies send Figma files and we build them white-label, with preview links you can share with your client."
+    },
+    {
+      "q": "How do we communicate during the project?",
+      "a": "Through your Slack, Teams or email, a shared task board and scheduled calls in US business hours. You get preview links throughout the build."
+    },
+    {
+      "q": "Do you provide maintenance after launch?",
+      "a": "Yes. A support window is included after launch, and an optional monthly retainer covers updates, security patches, content changes and new pages."
+    }
+  ],
+  "related": [
+    "outsource-app-development",
+    "white-label-agency-partner",
+    "website-development",
+    "white-label-shopify-development"
+  ],
+  "reading": [
+    "outsource-website-and-app-development-to-india",
+    "how-to-choose-an-outsourcing-partner-in-india",
+    "custom-website-vs-wordpress-vs-shopify-vs-webflow"
+  ],
+  "areaServed": [
+    "United States",
+    "United Kingdom",
+    "Canada",
+    "Australia"
+  ],
+  "images": {
+    "hero": {
+      "src": "/assets/services/website-development-hero.webp",
+      "width": 1600,
+      "height": 893,
+      "srcset": "/assets/services/website-development-hero-800.webp 800w, /assets/services/website-development-hero.webp 1600w"
+    },
+    "card": {
+      "src": "/assets/services/website-development-card.webp",
+      "width": 960,
+      "height": 717
+    },
+    "og": {
+      "src": "/assets/og/services/website-development.jpg",
+      "width": 1200,
+      "height": 630
+    }
+  },
+  "meta": {
+    "title": "Outsource Website Development to India | gaa-tha",
+    "description": "WordPress, Webflow, Shopify and Next.js websites for US and UK companies and agencies. Code in your GitHub, US business hours, NDA and paid pilot."
+  },
+  "updated": "2026-11-03"
+}

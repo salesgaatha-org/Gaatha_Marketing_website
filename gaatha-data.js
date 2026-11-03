@@ -172,6 +172,8 @@
                 company: get('company'),
                 budget: get('budget'),
                 service: get('service'),
+                clientType: get('clientType'),
+                country: get('country'),
                 message: get('message')
             };
 

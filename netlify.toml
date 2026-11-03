@@ -170,6 +170,17 @@
   to = "/blog/:slug.html"
   status = 200
 
+# Short, shareable addresses for the US/UK outsourcing hub.
+[[redirects]]
+  from = "/outsourcing"
+  to = "/services/outsourcing"
+  status = 301
+
+[[redirects]]
+  from = "/white-label"
+  to = "/services/outsourcing"
+  status = 301
+
 # Admin lives at /admin (login) — the panels are noindex and blocked in robots.
 [[redirects]]
   from = "/admin"

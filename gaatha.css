@@ -1814,6 +1814,8 @@ a.card:hover { border-color: var(--ink); }
     display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
     font-size: 0.875rem; color: var(--muted);
 }
+.mega-foot .mega-out { display: inline-flex; gap: 6px; margin-left: 6px; color: var(--accent-ink); font-weight: 600; }
+.mega-foot .mega-out:hover { color: var(--ink); }
 @media (max-width: 1180px) { .mega-inner { grid-template-columns: repeat(3, 1fr); } }
 
 /* Mobile drawer: "Services" expands in place, same row style. */
@@ -1840,6 +1842,12 @@ a.card:hover { border-color: var(--ink); }
 .mm-sub .link-arrow { justify-self: start; font-size: 0.875rem; }
 
 /* Home services block: one column per practice, every service a link. */
+.out-terms {
+    margin-top: 26px;
+    font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--muted);
+}
+.out-terms .sep { margin: 0 8px; color: var(--accent); }
 .svc-groups { grid-template-columns: repeat(3, 1fr); }
 .svc-groups .card ul { display: grid; gap: 4px; margin-top: 4px; }
 .svc-groups .card ul a {
