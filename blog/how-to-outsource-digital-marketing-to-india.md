@@ -48,7 +48,7 @@ US and UK businesses outsource to India mainly for capacity and cost structure: 
 
 - **Time-zone leverage.** Work can move forward overnight for fast turnarounds, or a team can work your hours for live collaboration.
 
-Outsourcing is a poor fit when the scope changes daily with nobody owning the brief, when the work needs deep local context the partner cannot learn, or when you are hoping a vendor will fix a problem nobody in your business has defined. In those cases, start with an audit or a [consulting engagement](https://gaa-tha.com/services/marketing-consulting-fractional-cmo) rather than handing over execution.
+Outsourcing is a poor fit when the scope changes daily with nobody owning the brief, when the work needs deep local context the partner cannot learn, or when you are hoping a vendor will fix a problem nobody in your business has defined. In those cases, start with an audit or a [consulting engagement](https://gaa-tha.com/services/marketing-strategy#international) rather than handing over execution.
 
 ## Which engagement model should you choose: project, retainer, dedicated team or white-label?
 
@@ -153,7 +153,7 @@ gaa-tha is a storytelling-led marketing, ecommerce, technology and AI agency fou
 
 Brands can work with us directly. Agencies can work with us on a white-label basis: we sign an NDA before the brief, deliver unbranded work with no contact with your client unless you ask for it, agree not to solicit your clients, and start with a paid pilot. Our international work includes an ongoing retainer for [New Rave](https://gaa-tha.com/work/new-rave), a trading-card and hobbies retailer in Canada, covering strategy, Canada-wide campaigns, Instagram content, product data and its website.
 
-See all [outsourcing and white-label services](https://gaa-tha.com/services/outsourcing), including [PPC and Meta ads](https://gaa-tha.com/services/white-label-ppc-meta-ads), [Shopify development](https://gaa-tha.com/services/white-label-shopify-development), [app development](https://gaa-tha.com/services/outsource-app-development) and [reel editing](https://gaa-tha.com/services/outsourced-reel-video-editing), or [tell us about your project](https://gaa-tha.com/#contact).
+See all [outsourcing and white-label services](https://gaa-tha.com/services/outsourcing), including [PPC and Meta ads](https://gaa-tha.com/services/meta-ads-agency#international), [Shopify development](https://gaa-tha.com/services/shopify-development#international), [app development](https://gaa-tha.com/services/mobile-app-development#international) and [reel editing](https://gaa-tha.com/services/reels-short-form-video#international), or [tell us about your project](https://gaa-tha.com/#contact).
 
 ## Frequently asked questions
 
@@ -187,10 +187,9 @@ You should. Put IP transfer on payment into the contract, and keep ad accounts, 
 
 ## Related gaa-tha services
 
-- [White-Label Digital Agency Partner](https://gaa-tha.com/services/white-label-agency-partner): An unbranded delivery team for US and UK agencies — Shopify, web, apps, ads, social and video, under your name.
-- [White-Label PPC & Meta Ads Management](https://gaa-tha.com/services/white-label-ppc-meta-ads): Meta and Google Ads managed for your agency's clients, reported under your brand.
-- [White-Label Shopify Development](https://gaa-tha.com/services/white-label-shopify-development): Shopify themes, custom sections, migrations and Plus work delivered under your agency's name.
-- [Outsource Website Development to India](https://gaa-tha.com/services/outsource-website-development): Marketing sites, ecommerce and web apps built by one in-house team that works your hours.
+- [Meta Ads Agency](https://gaa-tha.com/services/meta-ads-agency): Facebook and Instagram ads built around your margins, reported to the rupee.
+- [Shopify Store Design & Development](https://gaa-tha.com/services/shopify-development): Shopify stores designed for conversion and built for speed — custom themes, custom sections and the checkout integrations Indian D2C brands need.
+- [Website Design & Development](https://gaa-tha.com/services/website-development): Fast, accessible, search-ready sites built to turn a click into a customer.
 
 ---
 

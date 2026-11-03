@@ -58,6 +58,26 @@ panel is `content-admin.html`.
 }
 ```
 
+Optional `international` block — adds a "For US & UK agencies and brands" section
+(`#international`) to the service page, its FAQs to the page FAQ and FAQPage schema,
+and US/UK/CA/AU to the Service schema's areaServed. The shared terms (hours, NDA,
+non-solicitation, pilot, payment) come from `groups.json → outsourcing.terms`, so
+they are edited in one place:
+
+```jsonc
+"international": {
+  "title": "White-label Shopify development for US and UK agencies and brands",
+  "text": "two sentences",
+  "points": ["3–4 service-specific bullets"],
+  "faq": [{ "q": "…", "a": "…" }],   // 2, phrased the way US/UK buyers ask
+  "guide": "outsource-shopify-development-to-india"   // blog slug
+}
+```
+
+The outsourcing practice (`/services/outsourcing`) owns no pages of its own: its
+`services` list points at existing service pages (`#international`), and `ownNav`
+gives it its own top-level menu item instead of a mega-menu column.
+
 Blog `category` must match a filter chip on `blog.html`: Marketing, Branding &
 Design, AI & Creative, Search & AI, Commerce, Shopify, Websites & Apps, AI &
 Software, B2B & Manufacturing, Case Stories.

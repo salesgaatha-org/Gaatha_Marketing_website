@@ -116,16 +116,18 @@ AI agents, automations, ERPs and systems that run the business.
 ### Outsourcing & White-Label — https://gaa-tha.com/services/outsourcing
 An India-based team that works your hours — for US and UK agencies and brands.
 
-- [White-Label Digital Agency Partner](https://gaa-tha.com/services/white-label-agency-partner): An unbranded delivery team for US and UK agencies — Shopify, web, apps, ads, social and video, under your name.
-- [White-Label Shopify Development](https://gaa-tha.com/services/white-label-shopify-development): Shopify themes, custom sections, migrations and Plus work delivered under your agency's name.
-- [Outsourced Shopify Store Management](https://gaa-tha.com/services/outsourced-shopify-store-management): A monthly team that runs your Shopify store — products, promotions, apps, fixes and speed.
-- [White-Label PPC & Meta Ads Management](https://gaa-tha.com/services/white-label-ppc-meta-ads): Meta and Google Ads managed for your agency's clients, reported under your brand.
-- [White-Label Social Media Management](https://gaa-tha.com/services/white-label-social-media-management): Content calendars, design, captions, publishing and reports for your agency's clients.
-- [Outsource Website Development to India](https://gaa-tha.com/services/outsource-website-development): Marketing sites, ecommerce and web apps built by one in-house team that works your hours.
-- [Outsource App Development to India](https://gaa-tha.com/services/outsource-app-development): iOS, Android and web apps from discovery to App Store, built in your accounts.
-- [Offshore ERP & Odoo Development](https://gaa-tha.com/services/offshore-erp-odoo-development): Odoo, ERPNext and custom ERP modules, integrations and support from an India-based team.
-- [Outsourced Reel & Short-Form Video Editing](https://gaa-tha.com/services/outsourced-reel-video-editing): Reels, TikToks, Shorts and video ads edited from your footage, in batches, on deadline.
-- [Marketing Consulting & Fractional CMO](https://gaa-tha.com/services/marketing-consulting-fractional-cmo): Senior marketing strategy, channel plans and team direction — without a full-time CMO.
+- [White-label Shopify development](https://gaa-tha.com/services/shopify-development#international): Custom Shopify themes and sections from your designs, in your GitHub.
+- [Shopify store management](https://gaa-tha.com/services/shopify-store-management#international): Monthly store care: products, promotions, app audits, fixes and speed.
+- [Shopify Plus & headless](https://gaa-tha.com/services/shopify-plus-headless-development#international): Checkout extensions, Functions, B2B, Markets and Hydrogen.
+- [Website development](https://gaa-tha.com/services/website-development#international): WordPress, Webflow, Shopify and Next.js sites, white-label or direct.
+- [App development](https://gaa-tha.com/services/mobile-app-development#international): Flutter and React Native apps published under your accounts.
+- [SaaS product development](https://gaa-tha.com/services/saas-product-development#international): From paid discovery to MVP, with code in your repository.
+- [ERP & Odoo development](https://gaa-tha.com/services/erp-development#international): Odoo and ERPNext implementation, custom modules and integrations.
+- [White-label Meta ads](https://gaa-tha.com/services/meta-ads-agency#international): Campaigns, creative testing and CAPI tracking, reported in your branding.
+- [White-label Google Ads](https://gaa-tha.com/services/google-ads-agency#international): Search, Performance Max and Shopping through your manager account.
+- [Social media management](https://gaa-tha.com/services/social-media-marketing#international): Calendars, design, captions in US or UK English and community management.
+- [Reel & short-form video editing](https://gaa-tha.com/services/reels-short-form-video#international): Reels, TikToks, Shorts and video ads cut from your footage in batches.
+- [Marketing consulting & fractional CMO](https://gaa-tha.com/services/marketing-strategy#international): Strategy, channel and budget plans and monthly reviews in your hours.
 
 ## Case studies
 

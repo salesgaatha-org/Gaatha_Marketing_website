@@ -58,6 +58,23 @@ Flutter, React Native, Swift, Kotlin, Firebase, Node.js, Supabase, Razorpay, Fig
 
 Quoted by phase after discovery, based on screens, user roles, integrations and platforms; developer accounts, hosting and third-party services are paid by you directly, and maintenance is an optional monthly retainer.
 
+## Outsourced app development for US and UK founders and agencies
+
+Startups and businesses in the US and UK hire us to build iOS and Android apps, and agencies white-label our Flutter and React Native development. Apps are published under your developer accounts, with sprint demos in US business hours.
+
+- Paid discovery with flows, prototype and phased estimate
+- Flutter or React Native, native Swift or Kotlin where needed
+- App Store and Google Play accounts in your name
+- Code in your GitHub with setup documentation
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=mobile-app-development#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### How much does it cost to develop a mobile app in India?
@@ -91,6 +108,14 @@ Yes, app maintenance is necessary, because Apple and Google update their operati
 ### How do we choose the best app development company for our project?
 
 The best app development company for you is one that has shipped apps to both stores and still maintains them, challenges your scope instead of quoting every feature, and writes code you will own. Ask who designs, who tests on real devices and who handles store review, and whether the backend and admin panel are included. Freelancers suit small, fixed apps; offshore development shops suit large builds where you have strong in-house product management; a design-and-engineering studio such as gaa-tha suits founders who want product, design, development and launch handled together.
+
+### Which app development company in India works with US startups?
+
+gaa-tha is an India-based app development team that builds Flutter and React Native apps for US and UK startups and agencies, starting with a paid discovery and working US business hours.
+
+### Who owns the app if I outsource development to India?
+
+You do. With gaa-tha, apps are published under your App Store and Google Play accounts and the code lives in your GitHub.
 
 ## Related services
 

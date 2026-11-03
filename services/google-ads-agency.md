@@ -63,6 +63,23 @@ Monthly management retainer scoped to spend and campaign types; ad spend is paid
 - [Charliee](https://gaa-tha.com/work/charliee): Charliee: a 360° growth partnership across Shopify, marketplaces, quick commerce and brand campaigns.
 - [Rentastic Homes](https://gaa-tha.com/work/rentastic-homes): Rentastic Homes: strategy, lead generation and on-ground branding for a multi-city PG brand.
 
+## White-label Google Ads for US and UK agencies and brands
+
+Agencies in the US and UK white-label our Google Ads management and brands hire us directly. We join through your manager account, the client pays Google directly, and reports carry your branding.
+
+- Search, Performance Max, Shopping and YouTube campaigns
+- Conversion tracking with GA4 and Google Ads checked first
+- Weekly change log and monthly branded report
+- Paid pilot on one account
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=google-ads-agency#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### What does a Google Ads agency do?
@@ -96,6 +113,14 @@ Yes. We set up Google Merchant Center, fix the product feed so items are approve
 ### What is Performance Max and should I use it?
 
 Performance Max is a Google campaign type that runs across Search, Shopping, YouTube, Display, Gmail and Maps from one set of assets, with Google's automation choosing placements. It works well once conversion tracking is clean and there is some history; we usually start with Search and Shopping, then add Performance Max with brand exclusions so it does not just buy your own name.
+
+### Can I outsource Google Ads management to an Indian agency?
+
+Yes. gaa-tha manages Google Ads for US and UK brands and agencies through manager-account access, with no markup on ad spend and work during US business hours.
+
+### Do you offer white-label PPC?
+
+Yes. Google and Meta ads are managed under your agency's name with an NDA and non-solicitation of your clients.
 
 ## Related services
 

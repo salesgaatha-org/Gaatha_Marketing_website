@@ -58,6 +58,23 @@ Odoo, ERPNext and Frappe, Python, PostgreSQL and MariaDB, TallyPrime, Flutter, A
 
 Phased project fee per module based on the process map; ERP licences where applicable, hosting and third-party connectors are paid by you directly, and support runs on a monthly or annual plan.
 
+## Offshore ERP and Odoo development for US and UK companies
+
+Companies and ERP partners in the US and UK use us for Odoo and ERPNext implementation, custom modules and integrations with Shopify, QuickBooks and Xero, mapped to their processes and supported during US business hours.
+
+- Process mapping and fit-gap before customization
+- Odoo and ERPNext configuration and custom modules
+- Integrations with Shopify, QuickBooks, Xero and Stripe
+- White-label development capacity for ERP partners
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=erp-development#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### Custom ERP vs Odoo vs ERPNext vs Tally — which is right for us?
@@ -91,6 +108,14 @@ You do. Custom modules sit in a repository in your name, the ERP runs on your cl
 ### What support do we need after go-live?
 
 Expect the first two to three months to bring small fixes, report changes and user questions, which is why post-go-live support is part of every project. After that, a support plan covers bug fixes, version upgrades, new reports and modules, and training for new staff, with agreed response times.
+
+### Can I outsource Odoo development to India?
+
+Yes. gaa-tha implements and customizes Odoo and ERPNext for US and UK companies and partners, keeps code in your repository and supports you during US business hours.
+
+### Do you work as a white-label team for ERP partners?
+
+Yes. ERP partners use us for development, migration and support under their brand, with an NDA and non-solicitation.
 
 ## Related services
 

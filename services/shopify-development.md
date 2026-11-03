@@ -64,6 +64,23 @@ Fixed-scope project fee based on templates, custom sections and integrations; an
 - [Charliee](https://gaa-tha.com/work/charliee): Charliee: a 360° growth partnership across Shopify, marketplaces, quick commerce and brand campaigns.
 - [Kitcoz](https://gaa-tha.com/work/kitcoz): Kitcoz: a D2C skincare brand built and grown end to end — identity, Shopify, tracking and Meta ads.
 
+## White-label Shopify development for US and UK agencies and brands
+
+US and UK agencies hand us Shopify builds to deliver under their own brand, and brands outside India hire us directly. We build from your Figma files in your GitHub, on preview themes, during US business hours.
+
+- Custom Online Store 2.0 themes and sections built from your designs
+- Code in your GitHub; store, apps and domain in your or your client's name
+- Unbranded handover documentation for agencies
+- Tracking (GA4, Meta Conversions API, Google Ads) verified before launch
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=shopify-development#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### How long does a Shopify store take to build?
@@ -97,6 +114,14 @@ Your brand identity files, product data (names, descriptions, variants, MRP, ima
 ### How much does a Shopify website cost in India?
 
 It depends on whether the store starts from a theme or a custom design, how many custom sections and integrations it needs, the catalogue size and who produces the content. A theme-based store with light customisation is the most affordable route; a custom-designed theme with one-click checkout, ERP or app integrations costs more, and Shopify Plus or headless builds sit at the top. Our Shopify website cost guide lists indicative market ranges by tier, and every gaa-tha quote is itemised after a short discovery call.
+
+### Can a US agency outsource Shopify development to gaa-tha?
+
+Yes. gaa-tha is an India-based Shopify development team that US and UK agencies use white-label: we sign an NDA before the brief, build from your designs in your GitHub, never contact your client and start with a paid pilot such as one custom section or landing page.
+
+### Is there an Indian Shopify agency that works US business hours?
+
+Yes. gaa-tha's team works US business hours, so stand-ups, Slack replies, preview reviews and launches happen during your day. UK clients get overlap across the UK working day too.
 
 ## Related services
 

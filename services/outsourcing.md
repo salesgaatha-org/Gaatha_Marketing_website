@@ -20,16 +20,18 @@ Serves: United States, United Kingdom, Canada, Australia.
 
 ## Services
 
-- [White-Label Digital Agency Partner](https://gaa-tha.com/services/white-label-agency-partner) ([markdown](https://gaa-tha.com/services/white-label-agency-partner.md)): An unbranded delivery team for US and UK agencies — Shopify, web, apps, ads, social and video, under your name.
-- [White-Label Shopify Development](https://gaa-tha.com/services/white-label-shopify-development) ([markdown](https://gaa-tha.com/services/white-label-shopify-development.md)): Shopify themes, custom sections, migrations and Plus work delivered under your agency's name.
-- [Outsourced Shopify Store Management](https://gaa-tha.com/services/outsourced-shopify-store-management) ([markdown](https://gaa-tha.com/services/outsourced-shopify-store-management.md)): A monthly team that runs your Shopify store — products, promotions, apps, fixes and speed.
-- [White-Label PPC & Meta Ads Management](https://gaa-tha.com/services/white-label-ppc-meta-ads) ([markdown](https://gaa-tha.com/services/white-label-ppc-meta-ads.md)): Meta and Google Ads managed for your agency's clients, reported under your brand.
-- [White-Label Social Media Management](https://gaa-tha.com/services/white-label-social-media-management) ([markdown](https://gaa-tha.com/services/white-label-social-media-management.md)): Content calendars, design, captions, publishing and reports for your agency's clients.
-- [Outsource Website Development to India](https://gaa-tha.com/services/outsource-website-development) ([markdown](https://gaa-tha.com/services/outsource-website-development.md)): Marketing sites, ecommerce and web apps built by one in-house team that works your hours.
-- [Outsource App Development to India](https://gaa-tha.com/services/outsource-app-development) ([markdown](https://gaa-tha.com/services/outsource-app-development.md)): iOS, Android and web apps from discovery to App Store, built in your accounts.
-- [Offshore ERP & Odoo Development](https://gaa-tha.com/services/offshore-erp-odoo-development) ([markdown](https://gaa-tha.com/services/offshore-erp-odoo-development.md)): Odoo, ERPNext and custom ERP modules, integrations and support from an India-based team.
-- [Outsourced Reel & Short-Form Video Editing](https://gaa-tha.com/services/outsourced-reel-video-editing) ([markdown](https://gaa-tha.com/services/outsourced-reel-video-editing.md)): Reels, TikToks, Shorts and video ads edited from your footage, in batches, on deadline.
-- [Marketing Consulting & Fractional CMO](https://gaa-tha.com/services/marketing-consulting-fractional-cmo) ([markdown](https://gaa-tha.com/services/marketing-consulting-fractional-cmo.md)): Senior marketing strategy, channel plans and team direction — without a full-time CMO.
+- [White-label Shopify development](https://gaa-tha.com/services/shopify-development#international) ([markdown](https://gaa-tha.com/services/shopify-development.md)): Custom Shopify themes and sections from your designs, in your GitHub.
+- [Shopify store management](https://gaa-tha.com/services/shopify-store-management#international) ([markdown](https://gaa-tha.com/services/shopify-store-management.md)): Monthly store care: products, promotions, app audits, fixes and speed.
+- [Shopify Plus & headless](https://gaa-tha.com/services/shopify-plus-headless-development#international) ([markdown](https://gaa-tha.com/services/shopify-plus-headless-development.md)): Checkout extensions, Functions, B2B, Markets and Hydrogen.
+- [Website development](https://gaa-tha.com/services/website-development#international) ([markdown](https://gaa-tha.com/services/website-development.md)): WordPress, Webflow, Shopify and Next.js sites, white-label or direct.
+- [App development](https://gaa-tha.com/services/mobile-app-development#international) ([markdown](https://gaa-tha.com/services/mobile-app-development.md)): Flutter and React Native apps published under your accounts.
+- [SaaS product development](https://gaa-tha.com/services/saas-product-development#international) ([markdown](https://gaa-tha.com/services/saas-product-development.md)): From paid discovery to MVP, with code in your repository.
+- [ERP & Odoo development](https://gaa-tha.com/services/erp-development#international) ([markdown](https://gaa-tha.com/services/erp-development.md)): Odoo and ERPNext implementation, custom modules and integrations.
+- [White-label Meta ads](https://gaa-tha.com/services/meta-ads-agency#international) ([markdown](https://gaa-tha.com/services/meta-ads-agency.md)): Campaigns, creative testing and CAPI tracking, reported in your branding.
+- [White-label Google Ads](https://gaa-tha.com/services/google-ads-agency#international) ([markdown](https://gaa-tha.com/services/google-ads-agency.md)): Search, Performance Max and Shopping through your manager account.
+- [Social media management](https://gaa-tha.com/services/social-media-marketing#international) ([markdown](https://gaa-tha.com/services/social-media-marketing.md)): Calendars, design, captions in US or UK English and community management.
+- [Reel & short-form video editing](https://gaa-tha.com/services/reels-short-form-video#international) ([markdown](https://gaa-tha.com/services/reels-short-form-video.md)): Reels, TikToks, Shorts and video ads cut from your footage in batches.
+- [Marketing consulting & fractional CMO](https://gaa-tha.com/services/marketing-strategy#international) ([markdown](https://gaa-tha.com/services/marketing-strategy.md)): Strategy, channel and budget plans and monthly reviews in your hours.
 
 ## How an engagement starts
 

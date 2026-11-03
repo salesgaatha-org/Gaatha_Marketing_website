@@ -44,7 +44,7 @@
     },
     {
       "h2": "Where does gaa-tha fit for ERP projects?",
-      "html": "<p>gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India. One in-house team implements Odoo and ERPNext, builds custom ERP modules and connects them to Shopify stores, payments and the rest of the stack. We work US business hours as well as UK hours, keep code and hosting in the client's name, and invoice by bank wire (SWIFT), PayPal or card via Stripe. Start with <a href=\"/services/offshore-erp-odoo-development\">offshore ERP and Odoo development</a>, see <a href=\"/services/erp-development\">ERP development</a>, or <a href=\"/#contact\">send us your processes</a> for a scoped proposal.</p>"
+      "html": "<p>gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India. One in-house team implements Odoo and ERPNext, builds custom ERP modules and connects them to Shopify stores, payments and the rest of the stack. We work US business hours as well as UK hours, keep code and hosting in the client's name, and invoice by bank wire (SWIFT), PayPal or card via Stripe. Start with <a href=\"/services/erp-development#international\">offshore ERP and Odoo development</a>, see <a href=\"/services/erp-development\">ERP development</a>, or <a href=\"/#contact\">send us your processes</a> for a scoped proposal.</p>"
     }
   ],
   "faq": [
@@ -74,9 +74,8 @@
     }
   ],
   "relatedServices": [
-    "offshore-erp-odoo-development",
-    "outsource-website-development",
-    "white-label-agency-partner"
+    "erp-development",
+    "website-development"
   ],
   "relatedCase": "new-rave",
   "author": "gaa-tha",

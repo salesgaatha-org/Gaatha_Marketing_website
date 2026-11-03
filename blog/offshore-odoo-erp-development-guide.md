@@ -143,7 +143,7 @@ The main risks are scope creep, over-customization, poor data and low adoption, 
 
 ## Where does gaa-tha fit for ERP projects?
 
-gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India. One in-house team implements Odoo and ERPNext, builds custom ERP modules and connects them to Shopify stores, payments and the rest of the stack. We work US business hours as well as UK hours, keep code and hosting in the client's name, and invoice by bank wire (SWIFT), PayPal or card via Stripe. Start with [offshore ERP and Odoo development](https://gaa-tha.com/services/offshore-erp-odoo-development), see [ERP development](https://gaa-tha.com/services/erp-development), or [send us your processes](https://gaa-tha.com/#contact) for a scoped proposal.
+gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India. One in-house team implements Odoo and ERPNext, builds custom ERP modules and connects them to Shopify stores, payments and the rest of the stack. We work US business hours as well as UK hours, keep code and hosting in the client's name, and invoice by bank wire (SWIFT), PayPal or card via Stripe. Start with [offshore ERP and Odoo development](https://gaa-tha.com/services/erp-development#international), see [ERP development](https://gaa-tha.com/services/erp-development), or [send us your processes](https://gaa-tha.com/#contact) for a scoped proposal.
 
 ## Frequently asked questions
 
@@ -173,9 +173,8 @@ It can be, with the right controls: an NDA, named accounts with two-factor authe
 
 ## Related gaa-tha services
 
-- [Offshore ERP & Odoo Development](https://gaa-tha.com/services/offshore-erp-odoo-development): Odoo, ERPNext and custom ERP modules, integrations and support from an India-based team.
-- [Outsource Website Development to India](https://gaa-tha.com/services/outsource-website-development): Marketing sites, ecommerce and web apps built by one in-house team that works your hours.
-- [White-Label Digital Agency Partner](https://gaa-tha.com/services/white-label-agency-partner): An unbranded delivery team for US and UK agencies — Shopify, web, apps, ads, social and video, under your name.
+- [ERP Development & Implementation](https://gaa-tha.com/services/erp-development): Custom ERP or Odoo and ERPNext, mapped to how your business really runs — from purchase order to dispatch to GST invoice.
+- [Website Design & Development](https://gaa-tha.com/services/website-development): Fast, accessible, search-ready sites built to turn a click into a customer.
 
 ---
 

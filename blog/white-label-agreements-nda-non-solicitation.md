@@ -140,7 +140,7 @@ Use a one-page checklist so every partner is held to the same standard before an
 | Termination and handover | Continuity for your clients | Notice period; full handover of files and access |
 | Paid pilot | Your risk on day one | Fixed fee, acceptance criteria, same NDA and non-solicitation |
 
-gaa-tha's terms for agencies follow this list: we sign an NDA before the brief, deliver fully unbranded work with no contact with your client unless you ask us to, agree not to solicit your clients, and start every agency relationship with a paid pilot. We work full US business hours and UK business hours and invoice for payment by international bank wire (SWIFT), PayPal or card via Stripe. See [white-label agency partner](https://gaa-tha.com/services/white-label-agency-partner), the wider guide to [outsourcing digital marketing to India](https://gaa-tha.com/blog/how-to-outsource-digital-marketing-to-india), or [get in touch](https://gaa-tha.com/#contact).
+gaa-tha's terms for agencies follow this list: we sign an NDA before the brief, deliver fully unbranded work with no contact with your client unless you ask us to, agree not to solicit your clients, and start every agency relationship with a paid pilot. We work full US business hours and UK business hours and invoice for payment by international bank wire (SWIFT), PayPal or card via Stripe. See [white-label agency partner](https://gaa-tha.com/services/outsourcing), the wider guide to [outsourcing digital marketing to India](https://gaa-tha.com/blog/how-to-outsource-digital-marketing-to-india), or [get in touch](https://gaa-tha.com/#contact).
 
 ## Frequently asked questions
 
@@ -170,9 +170,8 @@ Long enough to protect the relationship and narrow enough to be reasonable: typi
 
 ## Related gaa-tha services
 
-- [White-Label Digital Agency Partner](https://gaa-tha.com/services/white-label-agency-partner): An unbranded delivery team for US and UK agencies — Shopify, web, apps, ads, social and video, under your name.
-- [White-Label Shopify Development](https://gaa-tha.com/services/white-label-shopify-development): Shopify themes, custom sections, migrations and Plus work delivered under your agency's name.
-- [White-Label PPC & Meta Ads Management](https://gaa-tha.com/services/white-label-ppc-meta-ads): Meta and Google Ads managed for your agency's clients, reported under your brand.
+- [Shopify Store Design & Development](https://gaa-tha.com/services/shopify-development): Shopify stores designed for conversion and built for speed — custom themes, custom sections and the checkout integrations Indian D2C brands need.
+- [Meta Ads Agency](https://gaa-tha.com/services/meta-ads-agency): Facebook and Instagram ads built around your margins, reported to the rupee.
 
 ---
 

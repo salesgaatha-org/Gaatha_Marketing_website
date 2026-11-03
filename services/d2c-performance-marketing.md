@@ -61,6 +61,23 @@ Monthly management retainer scoped to channels, spend and creative volume; ad sp
 
 - [Kitcoz](https://gaa-tha.com/work/kitcoz): Kitcoz: a D2C skincare brand built and grown end to end — identity, Shopify, tracking and Meta ads.
 
+## Performance marketing for US and UK ecommerce brands
+
+Ecommerce brands in the US and UK hire us for Meta and Google performance marketing tied to contribution margin, and agencies white-label the media buying and creative testing.
+
+- Meta and Google campaigns planned to MER and contribution margin
+- Creative testing with in-house ad production
+- Tracking verified before scaling
+- Branded reports for agencies
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=d2c-performance-marketing#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### What does D2C performance marketing include?
@@ -94,6 +111,14 @@ Yes. Welcome, abandoned-cart, post-purchase, replenishment and win-back flows on
 ### Can you run marketplace ads alongside D2C ads?
 
 Yes. Amazon, Flipkart and quick-commerce ads are run by the same team with a shared view of budget across channels, so we can see where the next rupee earns the most.
+
+### Which Indian performance marketing agency works with US ecommerce brands?
+
+gaa-tha is an India-based performance marketing team that runs Meta and Google ads for ecommerce brands and agencies in the US and UK, working US business hours and reporting against margin, not just ROAS.
+
+### Can we start small?
+
+Yes. Every engagement starts with a paid pilot on one account before a monthly retainer.
 
 ## Related services
 

@@ -63,6 +63,23 @@ Monthly retainer scoped to the number of platforms and the volume of reels, caro
 - [Ghanshyam Snacks](https://gaa-tha.com/work/ghanshyam-snacks): Ghanshyam Snacks: brand strategy, lead and traffic campaigns, and the founder's personal brand.
 - [Kitcoz](https://gaa-tha.com/work/kitcoz): Kitcoz: a D2C skincare brand built and grown end to end — identity, Shopify, tracking and Meta ads.
 
+## White-label social media management for US and UK agencies
+
+US and UK agencies white-label our social media management and brands hire us directly: calendars, design, reels, captions in US or UK English, scheduling and community management in your business hours.
+
+- Monthly calendars in your approval tool
+- Design and reels in the client's brand kit
+- Captions in US or UK English
+- Branded monthly reports
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=social-media-marketing#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### What does a social media marketing agency do?
@@ -96,6 +113,14 @@ Usually yes, in a small way. Organic content builds trust and an audience; a mod
 ### How long before social media shows results?
 
 Consistent engagement and profile-visit growth usually show within the first two to three months; enquiries and footfall follow once the audience and the content formats have settled. Social media compounds, which is why it runs as a monthly retainer rather than a one-off campaign.
+
+### Can a US agency outsource social media management to India?
+
+Yes. gaa-tha provides white-label social media management for US and UK agencies, working in your approval tool, writing in US or UK English and replying to comments during US business hours.
+
+### Do you manage social media for brands outside India?
+
+Yes. Our international work includes Instagram content for New Rave, a trading-card and hobbies retailer in Canada.
 
 ## Related services
 

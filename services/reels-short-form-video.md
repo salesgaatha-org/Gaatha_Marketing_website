@@ -63,6 +63,23 @@ Monthly retainer priced by the number of reels per month and shoot days; travel 
 - [Ghanshyam Snacks](https://gaa-tha.com/work/ghanshyam-snacks): Ghanshyam Snacks: brand strategy, lead and traffic campaigns, and the founder's personal brand.
 - [Rentastic Homes](https://gaa-tha.com/work/rentastic-homes): Rentastic Homes: strategy, lead generation and on-ground branding for a multi-city PG brand.
 
+## Outsourced reel and short-form video editing for US and UK clients
+
+Agencies, creators and brands in the US and UK send us raw footage and get back finished Reels, TikToks, Shorts and video ads in batches, unbranded when needed.
+
+- Hook-first edits with captions, b-roll and motion graphics
+- 9:16, 4:5, 1:1 and 16:9 deliveries
+- Reviews in Frame.io or your tool
+- Paid test batch before a monthly volume
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=reels-short-form-video#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### What makes a reel perform on Instagram?
@@ -96,6 +113,14 @@ Selectively. Trending audio and formats are adapted when they fit your brand ton
 ### Which industries do you make reels for?
 
 D2C and FMCG brands, retail chains, real estate, education, manufacturers and B2B companies. The formats change — product demos and recipes for food, walkthroughs for real estate, founder explainers for B2B — but the process is the same.
+
+### Can I outsource reel editing to India?
+
+Yes. gaa-tha edits Reels, TikToks, YouTube Shorts and video ads for US and UK agencies, creators and brands from your raw footage, starting with a paid test batch.
+
+### Do you edit white-label for agencies?
+
+Yes. Files are unbranded, we work only through your agency, and we sign an NDA and non-solicitation agreement.
 
 ## Related services
 

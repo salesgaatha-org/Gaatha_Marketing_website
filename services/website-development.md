@@ -64,6 +64,23 @@ Project fee scoped to the number of pages, integrations and languages; hosting a
 - [Colortek](https://gaa-tha.com/work/colortek): Colortek: rebranding a 25-year coatings manufacturer and building the website to match.
 - [GI PackTech](https://gaa-tha.com/work/gi-packtech): GI PackTech: international lead generation and an export sales engine for an industrial packaging maker.
 
+## Outsourced website development for US and UK companies and agencies
+
+Companies in the US and UK hire us to design and build websites directly, and agencies white-label our development. We build on WordPress, Webflow, Shopify and Next.js, with code in your GitHub and calls in your business hours.
+
+- WordPress, Webflow, Shopify or custom Next.js builds
+- Development from your agency's Figma files, unbranded
+- Technical SEO, accessibility basics and Core Web Vitals checked
+- Hosting, domains and repositories in your name
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=website-development#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### What kind of websites do you build?
@@ -97,6 +114,14 @@ An optional monthly care plan covers updates, backups, security patches, speed c
 ### Can the site be in Hindi or Gujarati as well as English?
 
 Yes. We build multilingual sites with correct language tags, hreflang and translated content so each version can be found in search. Manufacturers and real-estate developers often run English plus Hindi or Gujarati; exporters may add Arabic, French or Spanish for target markets.
+
+### Which Indian web development company works with US agencies?
+
+gaa-tha is an India-based web development team that US and UK agencies use white-label: an NDA before the brief, development from your designs, US business hours and a paid pilot before any retainer.
+
+### Can a UK company outsource website development to India safely?
+
+Yes, when the partner works in your accounts, documents everything and starts with a paid pilot. gaa-tha keeps code in your GitHub, signs an NDA and overlaps with the UK working day.
 
 ## Related services
 

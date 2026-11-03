@@ -32,7 +32,7 @@
     },
     {
       "h2": "How do creative testing and optimization work in an outsourced setup?",
-      "html": "<p>Creative testing and optimization work best on a fixed weekly rhythm with a written log, so the agency can see what was changed, why and what happened next.</p>\n<ul>\n<li><strong>Creative is the main lever on Meta.</strong> Broad targeting and Advantage+ campaigns put most of the targeting work on the algorithm, so new angles, hooks and formats drive most gains. Plan a steady supply of new ads every month.</li>\n<li><strong>Test one variable at a time.</strong> Hook, offer, format or audience, with enough budget and time for a fair read.</li>\n<li><strong>Google hygiene.</strong> Search term reviews, negative keywords, asset quality in Performance Max and product feed fixes for Shopping.</li>\n<li><strong>Budget rules.</strong> Agree in advance how far the partner can move budget between campaigns without asking, and when the agency must approve.</li>\n<li><strong>Change log.</strong> Every significant change is logged with the date, reason and expected effect. It makes reporting honest and handovers painless.</li>\n</ul>\n<p>If the partner also produces creative, say so in the scope. Many agencies outsource media buying and creative production together; see <a href=\"/services/outsourced-reel-video-editing\">outsourced reel and video editing</a>.</p>"
+      "html": "<p>Creative testing and optimization work best on a fixed weekly rhythm with a written log, so the agency can see what was changed, why and what happened next.</p>\n<ul>\n<li><strong>Creative is the main lever on Meta.</strong> Broad targeting and Advantage+ campaigns put most of the targeting work on the algorithm, so new angles, hooks and formats drive most gains. Plan a steady supply of new ads every month.</li>\n<li><strong>Test one variable at a time.</strong> Hook, offer, format or audience, with enough budget and time for a fair read.</li>\n<li><strong>Google hygiene.</strong> Search term reviews, negative keywords, asset quality in Performance Max and product feed fixes for Shopping.</li>\n<li><strong>Budget rules.</strong> Agree in advance how far the partner can move budget between campaigns without asking, and when the agency must approve.</li>\n<li><strong>Change log.</strong> Every significant change is logged with the date, reason and expected effect. It makes reporting honest and handovers painless.</li>\n</ul>\n<p>If the partner also produces creative, say so in the scope. Many agencies outsource media buying and creative production together; see <a href=\"/services/reels-short-form-video#international\">outsourced reel and video editing</a>.</p>"
     },
     {
       "h2": "What should white-label PPC reporting include, and how often?",
@@ -44,7 +44,7 @@
     },
     {
       "h2": "How do you start a white-label PPC partnership, and where does gaa-tha fit?",
-      "html": "<p>Start with a paid pilot on one client account for a defined period. Share the brief, access and goals; ask the partner for an audit and a plan first; then let them run the account with weekly updates. Judge them on communication, tracking quality, the logic of their changes and the clarity of their reporting, not only on short-term results, which depend on the offer and budget.</p>\n<p>Document a simple operating manual as you go: access steps, naming conventions, approval limits, report templates and escalation contacts. It makes adding the next client account quick.</p>\n<p>gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India. Our in-house team runs Meta and Google campaigns and produces the reels and ad creative that feed them. For US and UK agencies we work fully unbranded, sign an NDA before the brief, never contact your client unless you ask, agree to non-solicitation and start with a paid pilot. We cover US and UK business hours, invoice by custom quote, and accept international bank wire, PayPal or card through Stripe. Our international work includes an ongoing retainer running Canada-wide Meta campaigns for <a href=\"/work/new-rave\">New Rave</a>. See <a href=\"/services/white-label-ppc-meta-ads\">white-label PPC and Meta ads management</a> or <a href=\"/#contact\">talk to us about a pilot</a>.</p>"
+      "html": "<p>Start with a paid pilot on one client account for a defined period. Share the brief, access and goals; ask the partner for an audit and a plan first; then let them run the account with weekly updates. Judge them on communication, tracking quality, the logic of their changes and the clarity of their reporting, not only on short-term results, which depend on the offer and budget.</p>\n<p>Document a simple operating manual as you go: access steps, naming conventions, approval limits, report templates and escalation contacts. It makes adding the next client account quick.</p>\n<p>gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India. Our in-house team runs Meta and Google campaigns and produces the reels and ad creative that feed them. For US and UK agencies we work fully unbranded, sign an NDA before the brief, never contact your client unless you ask, agree to non-solicitation and start with a paid pilot. We cover US and UK business hours, invoice by custom quote, and accept international bank wire, PayPal or card through Stripe. Our international work includes an ongoing retainer running Canada-wide Meta campaigns for <a href=\"/work/new-rave\">New Rave</a>. See <a href=\"/services/meta-ads-agency#international\">white-label PPC and Meta ads management</a> or <a href=\"/#contact\">talk to us about a pilot</a>.</p>"
     }
   ],
   "faq": [
@@ -74,10 +74,9 @@
     }
   ],
   "relatedServices": [
-    "white-label-ppc-meta-ads",
-    "white-label-agency-partner",
-    "white-label-social-media-management",
-    "outsourced-reel-video-editing"
+    "meta-ads-agency",
+    "social-media-marketing",
+    "reels-short-form-video"
   ],
   "relatedCase": "new-rave",
   "author": "gaa-tha",

@@ -320,6 +320,76 @@
         "q": "Do you have international clients?",
         "a": "Yes. gaa-tha runs an ongoing retainer for New Rave, a trading-card and hobbies retailer in Canada, covering strategy, Canada-wide campaigns, Instagram content, product data and its website. Most of our other clients are brands and manufacturers in India."
       }
+    ],
+    "terms": [
+      "US business hours — calls, Slack and launches in your day",
+      "NDA signed before the brief",
+      "Unbranded for agencies; no contact with your clients",
+      "Non-solicitation of your clients in writing",
+      "Paid pilot before any retainer",
+      "Pay by bank wire (SWIFT), PayPal or card (Stripe)"
+    ],
+    "services": [
+      {
+        "slug": "shopify-development",
+        "title": "White-label Shopify development",
+        "text": "Custom Shopify themes and sections from your designs, in your GitHub."
+      },
+      {
+        "slug": "shopify-store-management",
+        "title": "Shopify store management",
+        "text": "Monthly store care: products, promotions, app audits, fixes and speed."
+      },
+      {
+        "slug": "shopify-plus-headless-development",
+        "title": "Shopify Plus & headless",
+        "text": "Checkout extensions, Functions, B2B, Markets and Hydrogen."
+      },
+      {
+        "slug": "website-development",
+        "title": "Website development",
+        "text": "WordPress, Webflow, Shopify and Next.js sites, white-label or direct."
+      },
+      {
+        "slug": "mobile-app-development",
+        "title": "App development",
+        "text": "Flutter and React Native apps published under your accounts."
+      },
+      {
+        "slug": "saas-product-development",
+        "title": "SaaS product development",
+        "text": "From paid discovery to MVP, with code in your repository."
+      },
+      {
+        "slug": "erp-development",
+        "title": "ERP & Odoo development",
+        "text": "Odoo and ERPNext implementation, custom modules and integrations."
+      },
+      {
+        "slug": "meta-ads-agency",
+        "title": "White-label Meta ads",
+        "text": "Campaigns, creative testing and CAPI tracking, reported in your branding."
+      },
+      {
+        "slug": "google-ads-agency",
+        "title": "White-label Google Ads",
+        "text": "Search, Performance Max and Shopping through your manager account."
+      },
+      {
+        "slug": "social-media-marketing",
+        "title": "Social media management",
+        "text": "Calendars, design, captions in US or UK English and community management."
+      },
+      {
+        "slug": "reels-short-form-video",
+        "title": "Reel & short-form video editing",
+        "text": "Reels, TikToks, Shorts and video ads cut from your footage in batches."
+      },
+      {
+        "slug": "marketing-strategy",
+        "title": "Marketing consulting & fractional CMO",
+        "text": "Strategy, channel and budget plans and monthly reviews in your hours."
+      }
     ]
   }
 ]

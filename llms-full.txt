@@ -219,6 +219,13 @@ gaa-tha treats every reel as a small piece of engineering: a hook written for th
 Tools & platforms: Instagram Reels, YouTube Shorts, Adobe Premiere Pro, CapCut, DaVinci Resolve, Meta Business Suite, Google Sheets
 Pricing model: Monthly retainer priced by the number of reels per month and shoot days; travel outside Gujarat and paid talent are quoted at cost.
 
+### Outsourced reel and short-form video editing for US and UK clients
+Agencies, creators and brands in the US and UK send us raw footage and get back finished Reels, TikToks, Shorts and video ads in batches, unbranded when needed.
+- Hook-first edits with captions, b-roll and motion graphics
+- 9:16, 4:5, 1:1 and 16:9 deliveries
+- Reviews in Frame.io or your tool
+- Paid test batch before a monthly volume
+
 ### FAQ
 Q: What makes a reel perform on Instagram?
 A: Watch time. Instagram distributes reels that people watch to the end, rewatch, save or share, so the first second has to promise something, the middle has to keep delivering, and the length has to match the idea. Consistent posting and a recognisable format help both the algorithm and the audience know what to expect from you.
@@ -243,6 +250,12 @@ A: Selectively. Trending audio and formats are adapted when they fit your brand 
 
 Q: Which industries do you make reels for?
 A: D2C and FMCG brands, retail chains, real estate, education, manufacturers and B2B companies. The formats change — product demos and recipes for food, walkthroughs for real estate, founder explainers for B2B — but the process is the same.
+
+Q: Can I outsource reel editing to India?
+A: Yes. gaa-tha edits Reels, TikToks, YouTube Shorts and video ads for US and UK agencies, creators and brands from your raw footage, starting with a paid test batch.
+
+Q: Do you edit white-label for agencies?
+A: Yes. Files are unbranded, we work only through your agency, and we sign an NDA and non-solicitation agreement.
 
 
 ## AI Ads & AI Ad Shoots
@@ -744,6 +757,13 @@ At gaa-tha the strategy phase starts with research, not opinion: your market, yo
 Tools & platforms: Google Analytics 4, Google Search Console, Google Trends, Meta Ads Library, Semrush, Google Sheets, Notion
 Pricing model: One-time project fee scoped to the depth of research and the number of markets or product lines; execution can follow as a monthly retainer.
 
+### Marketing consulting and fractional CMO support for US and UK brands
+Founders in the US and UK hire us for marketing strategy and fractional CMO support, and agencies use us for strategy behind pitches and client plans. Working sessions happen in your business hours.
+- Marketing audit, positioning and channel plan
+- KPI framework and budget model
+- Monthly fractional CMO reviews
+- Optional execution by our team
+
 ### FAQ
 Q: What is a marketing strategy?
 A: A marketing strategy is the set of choices about who you serve, what you stand for and how you will reach them, written down before any campaign starts. It answers four questions: which segment, what promise, which channels, and what success looks like in numbers. gaa-tha delivers it as a document, a roadmap and a KPI framework rather than a slide deck that gets filed away.
@@ -765,6 +785,12 @@ A: Yes. Social media, Meta and Google ads, SEO/AEO/GEO, influencer campaigns and
 
 Q: What do you need from us to start?
 A: Two or three hours of founder and sales-team time for discovery, access to your analytics, ad accounts and sales data, and introductions to a few customers we can interview. Everything else — research, competitor analysis and drafting — is on us.
+
+Q: Can I hire a fractional CMO from an Indian agency?
+A: Yes. gaa-tha offers marketing consulting and fractional CMO support to US and UK brands: strategy, channel and budget plans and monthly reviews during US business hours, with optional execution by our team.
+
+Q: Do you provide strategy support to agencies?
+A: Yes. Agencies use our strategy work for pitches and client plans, delivered under the agency's name.
 
 
 ## Social Media Marketing
@@ -812,6 +838,13 @@ At gaa-tha social media is planned backwards from your business calendar — lau
 Tools & platforms: Meta Business Suite, Instagram Insights, LinkedIn Page Analytics, YouTube Studio, Canva, Adobe Premiere Pro, CapCut, Google Sheets
 Pricing model: Monthly retainer scoped to the number of platforms and the volume of reels, carousels and posts; any boosting or paid promotion is paid by you directly to the platform.
 
+### White-label social media management for US and UK agencies
+US and UK agencies white-label our social media management and brands hire us directly: calendars, design, reels, captions in US or UK English, scheduling and community management in your business hours.
+- Monthly calendars in your approval tool
+- Design and reels in the client's brand kit
+- Captions in US or UK English
+- Branded monthly reports
+
 ### FAQ
 Q: What does a social media marketing agency do?
 A: A social media marketing agency plans, produces, publishes and reports on a brand's content across platforms such as Instagram, Facebook, LinkedIn and YouTube, and manages the comments and messages that content generates. gaa-tha runs this as a monthly retainer with one in-house team for strategy, shooting, design, editing and reporting.
@@ -836,6 +869,12 @@ A: Usually yes, in a small way. Organic content builds trust and an audience; a 
 
 Q: How long before social media shows results?
 A: Consistent engagement and profile-visit growth usually show within the first two to three months; enquiries and footfall follow once the audience and the content formats have settled. Social media compounds, which is why it runs as a monthly retainer rather than a one-off campaign.
+
+Q: Can a US agency outsource social media management to India?
+A: Yes. gaa-tha provides white-label social media management for US and UK agencies, working in your approval tool, writing in US or UK English and replying to comments during US business hours.
+
+Q: Do you manage social media for brands outside India?
+A: Yes. Our international work includes Instagram content for New Rave, a trading-card and hobbies retailer in Canada.
 
 
 ## Meta Ads Agency
@@ -882,6 +921,13 @@ At gaa-tha the account is built around your unit economics first. We agree the n
 Tools & platforms: Meta Ads Manager, Meta Business Suite, Conversions API, Google Analytics 4, Google Tag Manager, WhatsApp Business, Google Sheets
 Pricing model: Monthly management retainer scoped to spend and channels; ad spend is paid directly to Meta from your own ad account, with no markup.
 
+### White-label Meta ads for US and UK agencies and brands
+US and UK agencies white-label our Meta ads management, and brands hire us directly. We work through Business Manager partner access, so the ad account and ad spend always stay with the client, and we report in your branding.
+- Campaign builds, audiences and creative testing
+- Conversions API and GA4 tracking verified before scaling
+- Reports in your agency's template
+- Ad creative and reels produced in-house
+
 ### FAQ
 Q: What does a Meta ads agency do?
 A: A Meta ads agency plans, builds and optimises paid campaigns on Facebook, Instagram, WhatsApp and Messenger. That covers account and tracking setup, audience and campaign structure, creative production and testing, budget management and reporting. gaa-tha runs this as a monthly retainer with the account owned by you.
@@ -903,6 +949,12 @@ A: Yes. Reels, AI ad shoots, statics, carousels and copy are produced in-house b
 
 Q: Can you run WhatsApp ads?
 A: Yes. Click-to-WhatsApp campaigns are one of the strongest formats for Indian retail, real estate and services brands, and we pair them with reply templates and a follow-up SOP so conversations turn into sales.
+
+Q: Can a US agency outsource Meta ads management to India?
+A: Yes. gaa-tha manages Meta ads white-label for US and UK agencies: partner access only, the client keeps the ad account and pays Meta directly, reports go out in your branding and we start with a paid pilot on one account.
+
+Q: Do you run Meta campaigns outside India?
+A: Yes. Our international work includes Canada-wide Meta campaigns for New Rave, a trading-card and hobbies retailer in Canada.
 
 
 ## Google Ads Agency
@@ -951,6 +1003,13 @@ At gaa-tha every Google Ads account is built from the conversion backwards. We a
 Tools & platforms: Google Ads, Google Merchant Center, Google Analytics 4, Google Tag Manager, Google Keyword Planner, Google Search Console, Looker Studio, Google Sheets
 Pricing model: Monthly management retainer scoped to spend and campaign types; ad spend is paid directly to Google from your own account, with no markup.
 
+### White-label Google Ads for US and UK agencies and brands
+Agencies in the US and UK white-label our Google Ads management and brands hire us directly. We join through your manager account, the client pays Google directly, and reports carry your branding.
+- Search, Performance Max, Shopping and YouTube campaigns
+- Conversion tracking with GA4 and Google Ads checked first
+- Weekly change log and monthly branded report
+- Paid pilot on one account
+
 ### FAQ
 Q: What does a Google Ads agency do?
 A: A Google Ads agency plans, builds and optimises paid campaigns on Google Search, Shopping, YouTube, Display and Maps: keyword research, account structure, ad copy and assets, conversion tracking, bid and budget management and reporting. gaa-tha runs this as a monthly retainer on an account you own.
@@ -975,6 +1034,12 @@ A: Yes. We set up Google Merchant Center, fix the product feed so items are appr
 
 Q: What is Performance Max and should I use it?
 A: Performance Max is a Google campaign type that runs across Search, Shopping, YouTube, Display, Gmail and Maps from one set of assets, with Google's automation choosing placements. It works well once conversion tracking is clean and there is some history; we usually start with Search and Shopping, then add Performance Max with brand exclusions so it does not just buy your own name.
+
+Q: Can I outsource Google Ads management to an Indian agency?
+A: Yes. gaa-tha manages Google Ads for US and UK brands and agencies through manager-account access, with no markup on ad spend and work during US business hours.
+
+Q: Do you offer white-label PPC?
+A: Yes. Google and Meta ads are managed under your agency's name with an NDA and non-solicitation of your clients.
 
 
 ## SEO, AEO & GEO
@@ -1407,6 +1472,13 @@ At gaa-tha every store starts with a UX audit of what Indian shoppers actually d
 Tools & platforms: Shopify, Shopify Liquid, Razorpay, GoKwik, Shopflo, Shiprocket, Meta Conversions API, Google Analytics 4
 Pricing model: Fixed-scope project fee based on templates, custom sections and integrations; an optional monthly maintenance retainer covers updates and fixes after launch. Shopify subscription and app charges are paid by you to the platforms.
 
+### White-label Shopify development for US and UK agencies and brands
+US and UK agencies hand us Shopify builds to deliver under their own brand, and brands outside India hire us directly. We build from your Figma files in your GitHub, on preview themes, during US business hours.
+- Custom Online Store 2.0 themes and sections built from your designs
+- Code in your GitHub; store, apps and domain in your or your client's name
+- Unbranded handover documentation for agencies
+- Tracking (GA4, Meta Conversions API, Google Ads) verified before launch
+
 ### FAQ
 Q: How long does a Shopify store take to build?
 A: Two to six weeks. A store on a customised premium theme with a small catalogue is at the faster end; custom themes, kit builders, pincode logic and migrations from Amazon or another platform add time for design and data cleanup. Content and approvals arriving on time is the biggest factor. gaa-tha shares a week-by-week plan before starting.
@@ -1431,6 +1503,12 @@ A: Your brand identity files, product data (names, descriptions, variants, MRP, 
 
 Q: How much does a Shopify website cost in India?
 A: It depends on whether the store starts from a theme or a custom design, how many custom sections and integrations it needs, the catalogue size and who produces the content. A theme-based store with light customisation is the most affordable route; a custom-designed theme with one-click checkout, ERP or app integrations costs more, and Shopify Plus or headless builds sit at the top. Our Shopify website cost guide lists indicative market ranges by tier, and every gaa-tha quote is itemised after a short discovery call.
+
+Q: Can a US agency outsource Shopify development to gaa-tha?
+A: Yes. gaa-tha is an India-based Shopify development team that US and UK agencies use white-label: we sign an NDA before the brief, build from your designs in your GitHub, never contact your client and start with a paid pilot such as one custom section or landing page.
+
+Q: Is there an Indian Shopify agency that works US business hours?
+A: Yes. gaa-tha's team works US business hours, so stand-ups, Slack replies, preview reviews and launches happen during your day. UK clients get overlap across the UK working day too.
 
 
 ## Shopify Migration
@@ -1479,6 +1557,13 @@ At gaa-tha a migration is planned like a launch. We inventory every product, URL
 Tools & platforms: Shopify, Matrixify, Screaming Frog, Google Search Console, Google Analytics 4, Razorpay, GoKwik, Shiprocket
 Pricing model: Fixed-scope project fee based on catalogue size, the data types moved, the source platform, theme work and integrations; Shopify, app and gateway charges are paid by you to the providers.
 
+### Shopify migrations for US and UK brands and agencies
+We migrate stores to Shopify from WooCommerce, Magento, BigCommerce, Wix and Squarespace for brands in the US and UK, and as a white-label team for agencies that sell the migration.
+- Products, customers and order history moved with checks on a sample
+- Every old URL mapped to a new one with redirects to protect rankings
+- Theme rebuilt from your designs, unbranded for agencies
+- Launch planned in your time zone, outside your peak hours
+
 ### FAQ
 Q: Will migrating to Shopify hurt my SEO?
 A: A Shopify migration done with a complete 301 redirect map, preserved content and metadata, and a resubmitted sitemap usually keeps its rankings, though a few weeks of fluctuation is normal. Lasting traffic drops come from missed redirects, deleted or rewritten pages and slower templates, which is why we map every indexed URL and monitor Search Console after cutover. Shopify uses fixed URL prefixes such as /products/ and /collections/, so most URLs will change and redirects are not optional.
@@ -1503,6 +1588,12 @@ A: Shopify Payments is not generally available to Indian-registered stores, so w
 
 Q: Can you move us from Amazon or Flipkart-only selling to our own Shopify store?
 A: Yes. We export your marketplace listings, restructure them for a brand store, rewrite key product pages for your own buyers, and set up checkout, shipping and tracking so the store is ready for ads on day one. Your marketplace listings keep running, and stock can be kept in step across channels with an order-management or multichannel inventory app.
+
+Q: Can an Indian agency migrate my US store to Shopify?
+A: Yes. gaa-tha migrates US and UK stores to Shopify with a redirect map, data checks and a launch scheduled in your time zone, working US business hours throughout.
+
+Q: Can our agency white-label your Shopify migrations?
+A: Yes. We work under your agency's name with an NDA, non-solicitation of your client and unbranded documentation, and start with a paid pilot.
 
 
 ## Shopify Plus & Headless Shopify Development
@@ -1551,6 +1642,13 @@ At gaa-tha we start by asking what is actually limiting growth — checkout logi
 Tools & platforms: Shopify Plus, Shopify Functions, Checkout UI extensions, Shopify Markets, Hydrogen, Oxygen, Next.js, Shopify Flow, GraphQL, Vercel
 Pricing model: Scoped per project after a technical review, based on the features, integrations and storefront approach; the Shopify Plus subscription, apps and hosting are billed by the providers, and ongoing engineering runs as a monthly retainer.
 
+### Shopify Plus and headless development for US and UK teams
+Agencies and Plus merchants in the US and UK use us for checkout extensibility, Shopify Functions, B2B, Markets and Hydrogen work, as white-label capacity or a direct development team.
+- Checkout UI extensions and Shopify Functions for discounts, delivery and payment rules
+- B2B catalogs, price lists and Shopify Markets for international selling
+- Hydrogen storefronts when headless is genuinely justified
+- Code in your repository, reviewed in sprints during US business hours
+
 ### FAQ
 Q: Is Shopify Plus worth it?
 A: Shopify Plus is worth it when you need what Plus provides — full checkout customisation, B2B at scale, expansion stores, higher API limits and advanced automation — or when your sales volume makes its fee structure work out cheaper than a lower plan. Many brands move to Plus too early, for the badge rather than a feature they will use. We compare your current plan, the features you need and Shopify's current Plus pricing before recommending a switch.
@@ -1575,6 +1673,12 @@ A: Yes. We integrate Shopify with SAP Business One, Microsoft Dynamics, Odoo, Zo
 
 Q: What should we look for in a Shopify Plus or headless development partner?
 A: Look for a partner that builds on Shopify's current extension model, can explain when not to go headless, has integrated systems like yours, and leaves the code, apps and accounts in your ownership. Ask how they test discount and pricing logic, handle Shopify's platform updates and support you after launch. At gaa-tha, custom apps sit in your Shopify organisation, code lives in your repository, and everything is documented for handover.
+
+Q: Can we outsource Shopify Plus development to India?
+A: Yes. gaa-tha builds Shopify Plus checkout extensions, Functions, B2B and Markets setups for US and UK merchants and agencies, under NDA and in your repository.
+
+Q: Do you work with Plus agencies as a white-label partner?
+A: Yes. Plus agencies use us for development capacity under their brand, with non-solicitation of their clients and a paid pilot first.
 
 
 ## Multi-location Shopify & Local Delivery
@@ -1691,6 +1795,13 @@ gaa-tha recommends Shopify for most D2C brands and builds elsewhere when there i
 Tools & platforms: WordPress, WooCommerce, Next.js, Razorpay, PayU, Shiprocket, Google Tag Manager, Cloudflare
 Pricing model: Fixed-scope project fee based on platform, templates and integrations; hosting, domain, plugins and payment-gateway charges are paid by you to the providers, and an optional monthly retainer covers updates, security and fixes.
 
+### Ecommerce development for US and UK brands and agencies
+We build ecommerce stores on Shopify, WooCommerce and custom stacks for brands in the US and UK, and as unbranded development capacity for agencies.
+- Shopify, WooCommerce or custom headless builds chosen in discovery
+- US and UK payment, tax and shipping apps configured
+- Code and accounts in your name
+- Paid pilot before larger builds
+
 ### FAQ
 Q: When should I choose WooCommerce or a custom build over Shopify?
 A: When you already run a WordPress site with content and rankings, need plugin-level control, have B2B pricing or quote logic, sell configurable or made-to-order products, or must integrate tightly with an ERP. For a standard D2C catalogue Shopify is usually faster and cheaper to run. gaa-tha tells you honestly which fits before quoting.
@@ -1712,6 +1823,12 @@ A: Hosting is in your name on a provider we recommend for your traffic, and you 
 
 Q: Will the site be found on Google and by AI assistants?
 A: It is built to be: clean semantic HTML, Product, Review and Breadcrumb schema, fast Core Web Vitals, an XML sitemap, an llms.txt file and answer-first category copy. Ongoing ecommerce SEO is a separate service if you want rankings actively grown.
+
+Q: Can I outsource ecommerce website development to India?
+A: Yes. gaa-tha builds ecommerce sites for US and UK brands and agencies, keeps code and accounts in your name and works US business hours.
+
+Q: Do you work white-label for ecommerce agencies?
+A: Yes, with an NDA before the brief, unbranded delivery and non-solicitation of your clients.
 
 
 ## Shopify Store Management & Maintenance
@@ -1760,6 +1877,13 @@ gaa-tha takes this on as a monthly retainer with a named store manager, a shared
 Tools & platforms: Shopify, Shopify Flow, Matrixify, Google Analytics 4, Google Search Console, PageSpeed Insights, Notion, WhatsApp Business
 Pricing model: Monthly retainer scoped to catalogue size, the volume of changes and whether design and copy are included; Shopify subscription and app charges are paid by you to the providers.
 
+### Outsourced Shopify store management for US and UK brands
+US and UK brands hire us to run their Shopify store month to month, and agencies resell our store care under their own name. A named store manager works US business hours.
+- Product uploads, pricing, promotions and collection updates
+- Black Friday, Cyber Monday and holiday sale setup
+- App audits, bug fixes, speed and tracking checks
+- Monthly store report, white-label for agencies
+
 ### FAQ
 Q: What does Shopify store management include?
 A: Product and price updates, collection and banner changes, app management, bug fixes, speed checks, festive-season setup, tracking checks and a monthly health report. It is everything a store needs after launch that would otherwise wait for a developer. gaa-tha runs it as a monthly retainer with a named store manager.
@@ -1781,6 +1905,12 @@ A: Yes. The store, domain, payment gateway, apps and ad accounts stay in your na
 
 Q: Can you also manage our marketplace and quick-commerce listings?
 A: Yes. Many brands ask us to keep the Shopify store, Amazon and Flipkart listings and Blinkit or Zepto catalogues consistent — same images, same prices, same launches — and we run those as one operation with one monthly review.
+
+Q: Can I outsource Shopify store management to an agency in India?
+A: Yes. gaa-tha runs Shopify store management for US and UK brands on a monthly retainer: product and price updates, promotions, app audits, fixes, speed checks and a monthly report, handled during US business hours.
+
+Q: Can our agency resell your Shopify maintenance?
+A: Yes. Reports and documentation carry your agency's brand, we work only through you, and our agreement includes an NDA and non-solicitation.
 
 
 ## Conversion Rate Optimisation (CRO)
@@ -1895,6 +2025,13 @@ gaa-tha starts with your unit economics — product margin, shipping, returns an
 Tools & platforms: Meta Ads Manager, Google Ads, Google Merchant Center, Google Analytics 4, Meta Conversions API, Klaviyo, WhatsApp Business API, Shopify
 Pricing model: Monthly management retainer scoped to channels, spend and creative volume; ad spend is paid directly to Meta and Google from your own ad accounts with no markup, and email or WhatsApp tool charges are paid to the providers.
 
+### Performance marketing for US and UK ecommerce brands
+Ecommerce brands in the US and UK hire us for Meta and Google performance marketing tied to contribution margin, and agencies white-label the media buying and creative testing.
+- Meta and Google campaigns planned to MER and contribution margin
+- Creative testing with in-house ad production
+- Tracking verified before scaling
+- Branded reports for agencies
+
 ### FAQ
 Q: What does D2C performance marketing include?
 A: Meta and Google shopping, catalogue, search and video ads, creative testing, tracking and attribution fixes, and retention flows on email and WhatsApp — all reported against ROAS and MER targets set from your margins. gaa-tha runs it as one monthly retainer with the ad accounts in your name.
@@ -1919,6 +2056,12 @@ A: Yes. Welcome, abandoned-cart, post-purchase, replenishment and win-back flows
 
 Q: Can you run marketplace ads alongside D2C ads?
 A: Yes. Amazon, Flipkart and quick-commerce ads are run by the same team with a shared view of budget across channels, so we can see where the next rupee earns the most.
+
+Q: Which Indian performance marketing agency works with US ecommerce brands?
+A: gaa-tha is an India-based performance marketing team that runs Meta and Google ads for ecommerce brands and agencies in the US and UK, working US business hours and reporting against margin, not just ROAS.
+
+Q: Can we start small?
+A: Yes. Every engagement starts with a paid pilot on one account before a monthly retainer.
 
 
 ## Ecommerce SEO
@@ -3718,6 +3861,13 @@ At gaa-tha every site starts with the visitor's question and the action we want 
 Tools & platforms: HTML, CSS and JavaScript, WordPress, Figma, Google Analytics 4, Google Tag Manager, Google Search Console, Cloudflare, Firebase
 Pricing model: Project fee scoped to the number of pages, integrations and languages; hosting and domain are paid by you directly, and a monthly care plan is optional.
 
+### Outsourced website development for US and UK companies and agencies
+Companies in the US and UK hire us to design and build websites directly, and agencies white-label our development. We build on WordPress, Webflow, Shopify and Next.js, with code in your GitHub and calls in your business hours.
+- WordPress, Webflow, Shopify or custom Next.js builds
+- Development from your agency's Figma files, unbranded
+- Technical SEO, accessibility basics and Core Web Vitals checked
+- Hosting, domains and repositories in your name
+
 ### FAQ
 Q: What kind of websites do you build?
 A: Corporate and B2B sites for manufacturers and exporters, real-estate and project sites, investor-relations pages, education and service-business sites, portfolio and brand websites, and campaign landing pages — custom-coded, or on WordPress or Webflow when your team edits daily. Ecommerce stores on Shopify and WooCommerce are handled under D2C Ecommerce. All are built for speed, accessibility, SEO and AI-search visibility.
@@ -3742,6 +3892,12 @@ A: An optional monthly care plan covers updates, backups, security patches, spee
 
 Q: Can the site be in Hindi or Gujarati as well as English?
 A: Yes. We build multilingual sites with correct language tags, hreflang and translated content so each version can be found in search. Manufacturers and real-estate developers often run English plus Hindi or Gujarati; exporters may add Arabic, French or Spanish for target markets.
+
+Q: Which Indian web development company works with US agencies?
+A: gaa-tha is an India-based web development team that US and UK agencies use white-label: an NDA before the brief, development from your designs, US business hours and a paid pilot before any retainer.
+
+Q: Can a UK company outsource website development to India safely?
+A: Yes, when the partner works in your accounts, documents everything and starts with a paid pilot. gaa-tha keeps code in your GitHub, signs an NDA and overlaps with the UK working day.
 
 
 ## Portfolio & Brand Website Design
@@ -3790,6 +3946,13 @@ At gaa-tha these sites start as a story, which is what our name means. We choose
 Tools & platforms: Figma, Webflow, WordPress, Next.js, Astro, GSAP, Sanity, Vercel, Google Analytics 4
 Pricing model: Project fee scoped to the number of page templates and case studies, the depth of motion and whether copy and photography are included; hosting and any platform subscription are paid by you directly.
 
+### Portfolio and brand websites for US and UK clients
+Studios, consultants and brands in the US and UK hire us for portfolio and brand sites, and agencies white-label our design and Webflow or WordPress builds.
+- Design and build on Webflow, WordPress or Next.js
+- Copy in US or UK English
+- Unbranded delivery for agencies
+- Edit-it-yourself CMS training
+
 ### FAQ
 Q: How much does a portfolio website cost?
 A: The cost of a portfolio website depends mainly on whether the design is custom or template-based, how many case studies need writing and laying out, how much motion and video is involved, and which platform it runs on. A single-page personal portfolio and a studio site with a CMS, journal and custom animation are very different jobs, so gaa-tha scopes each one after a short call. Platform subscriptions such as Webflow hosting are billed by the platform, separately from the build.
@@ -3814,6 +3977,12 @@ A: A good portfolio website shows fewer, stronger projects, explains each one in
 
 Q: Who owns the website, and can I update it myself?
 A: You own it. The domain, hosting account, CMS and code are set up in your name, and every login is handed over at launch. You are trained to add projects, swap images and post updates without a developer, and an optional care plan covers larger changes.
+
+Q: Can I hire an Indian agency to build my portfolio website?
+A: Yes. gaa-tha designs and builds portfolio and brand websites for US and UK clients, with copy in US or UK English and calls during your business hours.
+
+Q: Do you design white-label for agencies?
+A: Yes. We design and build under your agency's name, with an NDA and non-solicitation.
 
 
 ## Web & Mobile App Design
@@ -3862,6 +4031,13 @@ At gaa-tha app design is treated as a product problem with a brand on top. We ma
 Tools & platforms: Figma, FigJam, HTML, CSS and JavaScript, React, Firebase, Node.js, Google Analytics 4, Notion
 Pricing model: Project fee quoted by phase — discovery, design, development — based on the number of screens, roles and integrations; monthly support after launch is optional.
 
+### App UX/UI design for US and UK teams
+Product teams and agencies in the US and UK use us for app and web app UX/UI design, as a direct design partner or unbranded design capacity.
+- User flows, wireframes and Figma prototypes
+- Design systems your developers can build from
+- Usability checks before development
+- Unbranded files for agencies
+
 ### FAQ
 Q: What is UI/UX design?
 A: UX (user experience) design decides how an app works — the flows, structure and logic that get a user to their goal without friction. UI (user interface) design decides how it looks — layout, colour, type, components and states. gaa-tha does both, testing the UX in a clickable prototype before the UI is finalised in your brand.
@@ -3886,6 +4062,12 @@ A: Yes. We audit the current product with real users and analytics, keep what wo
 
 Q: Do you design internal tools like admin consoles and dashboards?
 A: Yes, and they are often the most valuable work: order-management consoles, distributor portals, sales dashboards and content admins that your team uses every day. For smaller, single-purpose tools see Custom Tools & Automations.
+
+Q: Can we outsource app UI/UX design to India?
+A: Yes. gaa-tha designs app and web app interfaces in Figma for US and UK teams, with reviews in your business hours.
+
+Q: Do you design white-label for product agencies?
+A: Yes, under your agency's name with an NDA and non-solicitation.
 
 
 ## Mobile App Development
@@ -3934,6 +4116,13 @@ At gaa-tha we start by cutting the first version down to the few journeys that p
 Tools & platforms: Flutter, React Native, Swift, Kotlin, Firebase, Node.js, Supabase, Razorpay, Figma, Sentry
 Pricing model: Quoted by phase after discovery, based on screens, user roles, integrations and platforms; developer accounts, hosting and third-party services are paid by you directly, and maintenance is an optional monthly retainer.
 
+### Outsourced app development for US and UK founders and agencies
+Startups and businesses in the US and UK hire us to build iOS and Android apps, and agencies white-label our Flutter and React Native development. Apps are published under your developer accounts, with sprint demos in US business hours.
+- Paid discovery with flows, prototype and phased estimate
+- Flutter or React Native, native Swift or Kotlin where needed
+- App Store and Google Play accounts in your name
+- Code in your GitHub with setup documentation
+
 ### FAQ
 Q: How much does it cost to develop a mobile app in India?
 A: The cost of a mobile app is driven by the number of screens and user roles, the backend and admin panel, integrations such as payments, maps or an ERP, whether you need one cross-platform codebase or two native apps, and how polished the first release must be. A focused MVP and a marketplace app with three user types sit in very different budgets, so gaa-tha quotes by phase after discovery. Our guide to mobile app development cost in India explains indicative 2026 market ranges.
@@ -3958,6 +4147,12 @@ A: Yes, app maintenance is necessary, because Apple and Google update their oper
 
 Q: How do we choose the best app development company for our project?
 A: The best app development company for you is one that has shipped apps to both stores and still maintains them, challenges your scope instead of quoting every feature, and writes code you will own. Ask who designs, who tests on real devices and who handles store review, and whether the backend and admin panel are included. Freelancers suit small, fixed apps; offshore development shops suit large builds where you have strong in-house product management; a design-and-engineering studio such as gaa-tha suits founders who want product, design, development and launch handled together.
+
+Q: Which app development company in India works with US startups?
+A: gaa-tha is an India-based app development team that builds Flutter and React Native apps for US and UK startups and agencies, starting with a paid discovery and working US business hours.
+
+Q: Who owns the app if I outsource development to India?
+A: You do. With gaa-tha, apps are published under your App Store and Google Play accounts and the code lives in your GitHub.
 
 
 ## Ecommerce & Sales App Development
@@ -4006,6 +4201,13 @@ At gaa-tha these apps are built around the system that already runs the business
 Tools & platforms: Flutter, React Native, Shopify Storefront API, Firebase, Node.js, Razorpay, Tally Prime, WhatsApp Business API, Google Maps Platform
 Pricing model: Quoted by phase based on the type of app, user roles, integrations and offline needs; platform, messaging and developer-account fees are paid by you directly, and a monthly retainer covers maintenance and growth.
 
+### Ecommerce app development for US and UK brands
+US and UK brands hire us to build shopping and sales apps connected to Shopify or their backend, and agencies white-label the development.
+- Shopify-connected or custom ecommerce apps
+- Push notifications, loyalty and wishlists
+- Store accounts in your name
+- Paid discovery first
+
 ### FAQ
 Q: Does my D2C brand need an app, or is the Shopify website enough?
 A: Most D2C brands should wait on an app until repeat customers are a meaningful share of revenue, because an app mainly serves people who already buy from you. It earns its cost when products are reordered often — food, beauty, pet care, household essentials — and when push notifications and loyalty can replace part of your remarketing spend. Until then, a fast mobile website and WhatsApp journeys usually return more.
@@ -4030,6 +4232,12 @@ A: A Shopify-connected shopping app usually takes six to ten weeks, and a B2B or
 
 Q: Who owns the app, the code and the customer data?
 A: You own all of it. The apps are published under your developer accounts, the backend runs in cloud accounts in your name, and the source code is handed over in your repository. Customer and sales data stays in your systems rather than a shared platform.
+
+Q: Can an Indian agency build a Shopify mobile app for my US brand?
+A: Yes. gaa-tha builds Shopify-connected ecommerce apps for US and UK brands, published under your developer accounts.
+
+Q: Do you work white-label for ecommerce agencies?
+A: Yes, with an NDA, unbranded delivery and non-solicitation.
 
 
 ## SaaS Product Development
@@ -4078,6 +4286,13 @@ At gaa-tha we treat the first months as a search for proof, not a build of every
 Tools & platforms: Next.js, React, Node.js, Python, PostgreSQL, Stripe, Razorpay Subscriptions, AWS, Google Cloud, Vercel
 Pricing model: Validation and MVP are quoted as fixed phases after a discovery call; ongoing development runs as a monthly product-team retainer, and cloud, billing and third-party API costs are paid by you directly.
 
+### SaaS product development for US and UK founders
+Founders in the US and UK hire us to take SaaS products from discovery to MVP and beyond, with code in their repository and sprint reviews in US business hours.
+- Paid discovery and a phased MVP plan
+- Authentication, billing, roles and admin
+- Code and cloud accounts in your name
+- Dedicated team option after the MVP
+
 ### FAQ
 Q: How much does it cost to build a SaaS MVP?
 A: The cost of a SaaS MVP depends on the number of core workflows, user roles and integrations, whether billing is simple plans or usage-based, how much AI is involved, and the level of security your buyers expect. A single-workflow tool for small businesses and an enterprise product with SSO and audit logs are very different builds. gaa-tha quotes validation and MVP as fixed phases after discovery, and our SaaS product development guide covers what moves the number.
@@ -4102,6 +4317,12 @@ A: Yes. We add AI where it saves users real time — answering questions over th
 
 Q: Who owns the code and IP, and what happens after launch?
 A: You own the code, the IP and every cloud and billing account from day one; the repository and infrastructure sit in your organisation. After launch most clients keep a monthly product-team retainer for releases, monitoring and scaling, while some move development in-house — the system is documented so that handover is straightforward.
+
+Q: Can I outsource SaaS MVP development to India?
+A: Yes. gaa-tha builds SaaS MVPs for US and UK founders, starting with a paid discovery and keeping code and cloud accounts in your name.
+
+Q: Do you work US business hours for product teams?
+A: Yes. Sprint demos, stand-ups and urgent fixes happen during your US workday.
 
 
 # AI & Software Engineering
@@ -4393,6 +4614,13 @@ At gaa-tha an ERP project is system engineering before it is software: we map ho
 Tools & platforms: Odoo, ERPNext and Frappe, Python, PostgreSQL and MariaDB, TallyPrime, Flutter, AWS, Google Cloud and Azure, Power BI and Looker Studio, Docker
 Pricing model: Phased project fee per module based on the process map; ERP licences where applicable, hosting and third-party connectors are paid by you directly, and support runs on a monthly or annual plan.
 
+### Offshore ERP and Odoo development for US and UK companies
+Companies and ERP partners in the US and UK use us for Odoo and ERPNext implementation, custom modules and integrations with Shopify, QuickBooks and Xero, mapped to their processes and supported during US business hours.
+- Process mapping and fit-gap before customization
+- Odoo and ERPNext configuration and custom modules
+- Integrations with Shopify, QuickBooks, Xero and Stripe
+- White-label development capacity for ERP partners
+
 ### FAQ
 Q: Custom ERP vs Odoo vs ERPNext vs Tally — which is right for us?
 A: Tally is accounting and inventory software that most Indian accountants know, Odoo and ERPNext are full ERPs that cover operations end to end, and a custom ERP fits when your process is genuinely unusual or is your competitive edge. Many small and mid-sized businesses do best with Odoo or ERPNext for operations, using either its built-in accounting or a Tally integration so the accountant keeps working in Tally. We recommend after mapping your process, not before.
@@ -4417,6 +4645,12 @@ A: You do. Custom modules sit in a repository in your name, the ERP runs on your
 
 Q: What support do we need after go-live?
 A: Expect the first two to three months to bring small fixes, report changes and user questions, which is why post-go-live support is part of every project. After that, a support plan covers bug fixes, version upgrades, new reports and modules, and training for new staff, with agreed response times.
+
+Q: Can I outsource Odoo development to India?
+A: Yes. gaa-tha implements and customizes Odoo and ERPNext for US and UK companies and partners, keeps code in your repository and supports you during US business hours.
+
+Q: Do you work as a white-label team for ERP partners?
+A: Yes. ERP partners use us for development, migration and support under their brand, with an NDA and non-solicitation.
 
 
 ## Custom Software Development & System Integration
@@ -4591,645 +4825,6 @@ A: Every engagement is custom-quoted after we see a real brief: a paid pilot fir
 
 Q: Do you have international clients?
 A: Yes. gaa-tha runs an ongoing retainer for New Rave, a trading-card and hobbies retailer in Canada, covering strategy, Canada-wide campaigns, Instagram content, product data and its website. Most of our other clients are brands and manufacturers in India.
-
-
-## White-Label Digital Agency Partner
-https://gaa-tha.com/services/white-label-agency-partner
-Last updated: 2026-11-03
-
-gaa-tha is a white-label delivery partner for US and UK marketing and creative agencies. We build Shopify stores, websites and apps, run Meta and Google ads, manage social media and edit reels under your brand, in your tools and during US business hours — with an NDA before the brief, no contact with your clients and a paid pilot to start.
-
-Best for: US and UK agencies that need extra delivery capacity without hiring
-Timeline: NDA and brief in days; paid pilot in the first two to three weeks
-Engagement model: Paid pilot, then a monthly retainer or a dedicated team
-Channels/platforms: Shopify, WordPress, Webflow, Flutter, React Native, Meta Ads, Google Ads, Instagram, TikTok
-
-### What it is
-A white-label agency partner is a team that delivers work your agency sells under your own brand. Your client sees your agency's name, your reports and your project manager; the partner does the production behind the scenes. It lets an agency say yes to Shopify builds, app projects, paid media or video work without hiring a specialist for every skill.
-
-gaa-tha works this way for agencies in the US and UK. We sign your NDA before we see a brief, work unbranded inside your Slack, project board and client accounts, never contact your client unless you ask us to, and agree not to solicit your clients. Because our team already runs brand, ecommerce, development and growth work for its own clients, you get one partner for several capabilities instead of a string of freelancers.
-
-### What's included
-- Mutual NDA signed before any client details are shared
-- Fully unbranded deliverables, reports and documentation in your agency's name
-- Work inside your tools: Slack, Teams, Asana, ClickUp, Jira, Notion, Google Drive
-- A named project lead who joins your internal stand-ups during US business hours
-- Shopify, website and app development, white-label PPC, social media and video editing from one team
-- Paid pilot project with a fixed scope before any retainer
-- Non-solicitation of your clients written into the agreement
-- Weekly status updates and a monthly capacity and quality review
-
-### How we work
-1. Intro call and NDA — A call in your business hours to understand your agency, your clients and the work you want to hand over, followed by your NDA or ours.
-2. Brief and scope — You share a real brief. We return a written scope, timeline, team and quality checklist in your format.
-3. Paid pilot — One fixed-scope project or batch so you can judge quality, speed and communication before committing.
-4. Retainer or dedicated team — We agree a monthly capacity or a dedicated team, the tools we work in, turnaround times and how requests come in.
-5. Review and scale — A monthly review of quality, turnaround and upcoming pipeline, so capacity grows with your client list.
-
-### Deliverables
-- Signed NDA and white-label agreement with non-solicitation
-- Written scope and timeline per project in your agency's template
-- Unbranded deliverables, reports and handover documentation
-- Weekly status update and shared task board
-- Monthly quality and capacity review
-
-Tools & platforms: Slack, Microsoft Teams, Asana, ClickUp, Jira, Notion, Google Workspace, Loom, Figma, GitHub
-Pricing model: Custom-quoted: a paid pilot first, then a monthly retainer sized to the capacity you need or a dedicated team. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
-
-### FAQ
-Q: What is a white-label agency partner?
-A: A white-label agency partner delivers work that your agency sells under its own brand. Your client deals only with your agency; the partner produces the work behind the scenes, unbranded, in your tools. gaa-tha does this for US and UK agencies across Shopify, websites, apps, paid ads, social media and video editing.
-
-Q: Will my clients know you exist?
-A: No, unless you want them to. Deliverables, reports and documentation carry your agency's branding, we work from your accounts and channels, and we never contact your client directly. If you prefer to bring us onto a client call as part of your team, we join under your agency's name.
-
-Q: Do you work US business hours?
-A: Yes. Our team works US business hours, so we can join your stand-ups, answer Slack during your day and ship launches on your schedule. UK agencies get overlap across the UK working day as well.
-
-Q: How do you protect our client relationships?
-A: We sign an NDA before seeing any client details, agree in writing not to solicit or accept work from your clients, and keep all communication through your agency. Accounts, code and files stay in your or your client's name.
-
-Q: Can we test you before signing a retainer?
-A: Yes. We start every agency relationship with a paid pilot: one fixed-scope project or batch, such as a Shopify section build, a month of ad management for one account or a batch of reels. You judge the work before committing to monthly capacity.
-
-Q: How do we pay you from the US or UK?
-A: We invoice internationally and accept bank wire (SWIFT), PayPal and card payments through Stripe. Pricing is quoted per project or as a monthly retainer once we have seen a real brief.
-
-Q: Which services can we white-label?
-A: Shopify store builds and management, website and app development, ERP and Odoo work, Meta and Google ads management, social media management, reel and short-form video editing, and marketing strategy support. Most agencies start with one service and add others once the pilot goes well.
-
-
-## White-Label Shopify Development
-https://gaa-tha.com/services/white-label-shopify-development
-Last updated: 2026-11-03
-
-gaa-tha is a white-label and outsourced Shopify development team for US and UK agencies and brands. We build custom Shopify themes and sections, migrate stores from WooCommerce, Magento or BigCommerce, extend Shopify Plus checkouts and integrate apps — working from your Figma files, in your GitHub and during US business hours.
-
-Best for: Agencies reselling Shopify builds and brands that need a Shopify team without hiring
-Timeline: Sections in days; full theme builds in roughly four to ten weeks depending on scope
-Engagement model: Paid pilot, then per-project or a monthly development retainer
-Channels/platforms: Shopify, Shopify Plus, Liquid, Online Store 2.0, Hydrogen, GitHub
-
-### What it is
-White-label Shopify development means an outside team builds and maintains Shopify stores that an agency delivers to its clients under its own name. The agency keeps the client relationship, the design direction and the account management; the development partner turns approved designs into a fast, editable Online Store 2.0 theme, handles migrations and integrations, and fixes issues after launch.
-
-gaa-tha builds Shopify stores for its own clients and for agencies. We work from your Figma files or brief, develop on preview themes with Shopify's GitHub integration, test on real devices and Core Web Vitals, and hand over documentation in your agency's name. US and UK brands that want to outsource directly get the same team, with the store, apps and code always owned by them.
-
-### What's included
-- Custom Shopify themes built from your Figma or Adobe XD designs
-- Online Store 2.0 sections and blocks your clients can edit themselves
-- Migrations from WooCommerce, Magento, BigCommerce, Wix or Squarespace with redirects
-- Shopify Plus work: checkout extensibility, Shopify Functions, B2B and multi-market setups
-- App and integration setup: subscriptions, reviews, loyalty, ERP, email and SMS
-- Tracking setup: GA4, Meta Pixel with Conversions API and Google Ads conversions
-- Speed and Core Web Vitals optimization before launch
-- Code in your GitHub repository and collaborator access, never our own accounts
-- Unbranded handover documentation and a post-launch fix window
-
-### How we work
-1. Brief and access — You share designs or a brief; we request collaborator access and agree the repository, preview theme and QA checklist.
-2. Build plan — We break the store into templates, sections and integrations with a timeline you can share with your client.
-3. Develop on preview — Development happens on an unpublished theme connected to GitHub, with progress links you can review any time.
-4. QA and speed — Cross-browser and device testing, Theme Check, accessibility basics, tracking verification and Core Web Vitals checks.
-5. Launch and support — We launch with you, monitor the first days, fix issues in the agreed window and document everything unbranded.
-
-### Deliverables
-- Production-ready Shopify theme in your or your client's GitHub
-- Editable sections and blocks with a usage guide
-- Migration and redirect map for replatforming projects
-- Tracking verified on a real test order
-- Unbranded handover documentation
-
-Tools & platforms: Shopify, Shopify Plus, Liquid, Shopify CLI, GitHub, Figma, Theme Check, PageSpeed Insights, GA4, Meta Conversions API
-Pricing model: Custom-quoted per project or as a monthly development retainer after a paid pilot; Shopify plans, themes and apps are paid by you or your client directly. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
-
-### FAQ
-Q: Can I outsource Shopify development to India safely?
-A: Yes, if the partner works in your accounts and your repository, signs an NDA and starts with a small paid pilot. gaa-tha develops on collaborator access and preview themes, keeps code in your GitHub, and never sets up stores or apps in its own name.
-
-Q: Do you work from our designs?
-A: Yes. Most agencies send Figma files and we build them pixel-accurately as editable Online Store 2.0 sections. If you only have a brief, our design team can produce the designs under your agency's name.
-
-Q: Do you handle Shopify Plus?
-A: Yes. We work on checkout extensibility, Shopify Functions for discounts and delivery rules, B2B catalogs and price lists, Shopify Markets for international selling and headless builds with Hydrogen when they are justified.
-
-Q: Can you migrate a store from WooCommerce or Magento?
-A: Yes. We migrate products, customers and orders, rebuild the design on Shopify, and map every old URL to a new one with redirects so search rankings carry over.
-
-Q: How do you communicate with US teams?
-A: Our team works US business hours, joins your Slack or Teams, and posts progress on your project board. You get preview links throughout the build, not just at the end.
-
-Q: Who owns the code and the store?
-A: You or your client. The store, apps, domain and repository are in your names; we work through collaborator or staff accounts and hand over all code and documentation.
-
-Q: Can you also manage the store after launch?
-A: Yes. Many agencies pair a build with our outsourced Shopify store management retainer for product updates, banners, app audits and fixes every month.
-
-
-## Outsourced Shopify Store Management
-https://gaa-tha.com/services/outsourced-shopify-store-management
-Last updated: 2026-11-03
-
-gaa-tha runs outsourced Shopify store management for US and UK brands and for agencies that resell it. A monthly retainer covers product uploads, pricing and promotions, homepage and collection updates, app audits, bug fixes, speed checks and a monthly store report, with a named store manager working US business hours.
-
-Best for: Brands with a live Shopify store and no in-house developer; agencies reselling store care
-Timeline: Onboarding audit in the first week, then monthly
-Engagement model: Monthly retainer scoped to catalog size and change volume
-Channels/platforms: Shopify, Shopify Flow, Matrixify, Klaviyo, GA4
-
-### What it is
-Shopify store management is the ongoing operation of a live store: adding products and variants, changing prices and running promotions, updating collections and banners, keeping apps and the theme healthy, fixing bugs and keeping the store fast. Without it, launches wait for a developer and small issues cost sales.
-
-gaa-tha provides it as a monthly retainer with a named store manager, a shared task board and agreed turnaround times. Because design, copy and paid media sit in the same team, a Black Friday sale or a product launch can be set up end to end. Agencies can resell the service under their own brand.
-
-### What's included
-- Product uploads and edits: SKUs, variants, images, descriptions, tags and metafields
-- Price changes, compare-at pricing, discount codes and automatic discounts
-- Homepage, collection, navigation and banner updates on a monthly calendar
-- Black Friday, Cyber Monday, holiday and seasonal sale setup
-- Quarterly app audit to remove unused apps and cut monthly charges
-- Bug fixes and theme tweaks with tracked turnaround times
-- Monthly speed and Core Web Vitals check with fixes
-- Tracking checks for GA4, Meta Pixel and Google Ads conversions
-- Monthly store report: orders, conversion, speed, errors and tasks completed
-
-### How we work
-1. Store audit — We review the theme, apps, tracking, speed and catalog quality, fix urgent issues and agree the monthly scope.
-2. Task board — Every request goes on a shared board with an owner and due date, in your tool or ours.
-3. Monthly calendar — Homepage, collections and promotions are planned a month ahead around launches and sale events.
-4. Maintain — Apps, theme updates, speed and tracking are checked on a schedule and fixed before customers notice.
-5. Report — A monthly report covers what changed, what broke, conversion trends and next month's recommendations.
-
-### Deliverables
-- Shared task board with agreed turnaround times
-- Monthly homepage, collection and promotion updates
-- Clean, consistent catalog data
-- Quarterly app and charges audit
-- Monthly store health report
-
-Tools & platforms: Shopify, Shopify Flow, Matrixify, Klaviyo, GA4, Google Search Console, PageSpeed Insights, Slack, Asana
-Pricing model: Monthly retainer custom-quoted on catalog size, change volume and whether design and copy are included; Shopify and app subscriptions are paid by you directly. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
-
-### FAQ
-Q: What does outsourced Shopify store management include?
-A: Product and price updates, promotions, homepage and collection changes, app management, bug fixes, speed checks, tracking checks and a monthly report. gaa-tha runs it as a monthly retainer with a named store manager working US business hours.
-
-Q: How fast are changes made?
-A: Routine changes such as a product upload, price change or banner are typically done within one to two working days, and urgent fixes the same day. Larger work such as a new landing page is scheduled on the task board with a date.
-
-Q: Can you prepare our store for Black Friday and holiday sales?
-A: Yes. Offer structure, sale collections, banners, countdowns, gift options and free-shipping thresholds are set up and tested ahead of the event and rolled back afterwards.
-
-Q: Will you audit our apps?
-A: Yes, at onboarding and every quarter. Unused and overlapping apps are a common cause of slow stores and rising monthly bills, so we list every app, its charge and purpose and remove what is redundant.
-
-Q: Can our agency resell this under our brand?
-A: Yes. We provide store management white-label: reports and documentation carry your agency's name and we work only through you, under an NDA and non-solicitation agreement.
-
-Q: Do we keep ownership of the store?
-A: Yes. The store, domain, apps and payment accounts stay in your name. We work through staff or collaborator accounts with only the permissions we need.
-
-
-## White-Label PPC & Meta Ads Management
-https://gaa-tha.com/services/white-label-ppc-meta-ads
-Last updated: 2026-11-03
-
-gaa-tha provides white-label PPC and outsourced Meta and Google Ads management for US and UK agencies and brands. We build and optimize campaigns, test creative, set up Conversions API and GA4 tracking and report under your agency's name — working through partner access, so ad accounts and ad spend always stay with the client.
-
-Best for: Agencies reselling paid media and brands that want an outsourced performance team
-Timeline: Account audit in week one; first optimized campaigns in two to three weeks
-Engagement model: Paid pilot on one account, then a monthly management retainer
-Channels/platforms: Meta Ads (Facebook, Instagram), Google Ads (Search, Performance Max, Shopping, YouTube)
-
-### What it is
-White-label PPC is paid media management that an agency sells under its own brand while a partner runs the campaigns. The agency owns the client relationship and strategy conversations; the partner handles account structure, campaign builds, audiences, creative testing, bidding, tracking and reporting.
-
-gaa-tha runs Meta and Google Ads for its own ecommerce and lead-generation clients, including campaigns across Canada for a retail client, and does the same work white-label for agencies. We are added through Meta Business Manager partner access or a Google Ads manager account, the client pays the platforms directly, and reports go out in your agency's template.
-
-### What's included
-- Account and tracking audit with a prioritized fix list
-- Campaign structure, audiences and budgets for Meta and Google Ads
-- Search, Performance Max, Shopping and YouTube campaigns
-- Creative testing plans, ad copy and static or video ad production
-- Meta Pixel with Conversions API, GA4 and Google Ads conversion tracking
-- Weekly optimization of bids, budgets, audiences and creative
-- Lead quality checks and offline conversion feedback for lead-gen clients
-- Reports and dashboards in your agency's branding
-- Monthly strategy notes you can present to the client as your own
-
-### How we work
-1. Access and audit — We join through partner access, audit structure, tracking and spend, and agree KPIs such as CPA, ROAS or cost per qualified lead.
-2. Fix tracking — Conversions API, GA4 and Google Ads conversions are verified before any scaling.
-3. Build and launch — Campaigns, audiences and creative tests go live against an agreed budget plan.
-4. Optimize weekly — Bids, budgets, audiences and creative are adjusted weekly with notes on every change.
-5. Report monthly — A branded report and strategy notes ready for your client meeting.
-
-### Deliverables
-- Account and tracking audit
-- Campaign structure and media plan
-- Creative test plan with ad copy and assets
-- Weekly change log
-- Monthly white-label report and dashboard
-
-Tools & platforms: Meta Ads Manager, Meta Business Manager, Google Ads, Google Ads Editor, GA4, Google Tag Manager, Looker Studio, Meta Conversions API
-Pricing model: Monthly management fee custom-quoted on platforms, number of accounts and creative volume, after a paid pilot. Ad spend is paid by the client directly to Meta and Google with no markup. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
-
-### FAQ
-Q: What is white-label PPC?
-A: White-label PPC is paid ads management that your agency sells under its own name while a partner runs the campaigns. gaa-tha manages Meta and Google Ads for US and UK agencies, reporting in your branding and working only through you.
-
-Q: Do you need ownership of the ad accounts?
-A: No. The client keeps ownership of the ad accounts and pays Meta and Google directly. We are added through Meta Business Manager partner access or your Google Ads manager account with only the permissions we need.
-
-Q: Which KPIs do you report on?
-A: Whatever the client is judged on: CPA, ROAS, cost per qualified lead, MER or new-customer revenue. We agree the primary KPI during the audit and report against it every month.
-
-Q: Do you also make the ad creative?
-A: Yes. Our in-house team produces static ads, UGC-style edits and short video ads for testing, so creative is not the bottleneck. Agencies can also supply their own creative.
-
-Q: Can you work with our existing reporting tools?
-A: Yes. We report in your Looker Studio, AgencyAnalytics, DashThis or slide template, or build a dashboard in your branding if you do not have one.
-
-Q: How do you start?
-A: With a paid pilot on one account: an audit, tracking fixes and a month of management. You see the change log and results before adding more accounts.
-
-
-## White-Label Social Media Management
-https://gaa-tha.com/services/white-label-social-media-management
-Last updated: 2026-11-03
-
-gaa-tha provides white-label and outsourced social media management for US and UK agencies and brands: monthly content calendars, post and carousel design, reels, captions, scheduling, community management and reporting for Instagram, Facebook, LinkedIn and TikTok — delivered under your agency's name in US business hours.
-
-Best for: Agencies with growing social retainers and brands without an in-house social team
-Timeline: Strategy and first calendar in two weeks, then monthly
-Engagement model: Monthly retainer by number of brands, platforms and posts
-Channels/platforms: Instagram, Facebook, LinkedIn, TikTok, YouTube Shorts, Pinterest
-
-### What it is
-White-label social media management means a partner plans, creates and publishes social content that an agency delivers to its clients under its own brand. The agency approves the work and owns the client conversation; the partner does the planning, design, editing, copywriting and scheduling.
-
-gaa-tha already runs social media for brands in India and Canada, with content pillars, design, reels and community posts. For agencies we work in your approval tool and brand kits, write in American or British English to match the client, and deliver reports in your template.
-
-### What's included
-- Monthly content calendar built on agreed content pillars
-- Post, carousel and story design in the client's brand kit
-- Reels and short-form edits from client footage or stock
-- Captions and hashtags in US or UK English
-- Scheduling in Meta Business Suite, Later, Sprout Social, Hootsuite or Planable
-- Community management and comment replies during US business hours
-- Monthly performance report in your agency's branding
-- Paid social boosts coordinated with the ads team when needed
-
-### How we work
-1. Onboarding — Brand kit, tone of voice, audience, competitors and approval process agreed under NDA.
-2. Pillars and calendar — Content pillars and a month-ahead calendar for your approval.
-3. Create — Designs, reels and captions produced in batches in your approval tool.
-4. Publish and engage — Approved content is scheduled and comments are handled within agreed hours.
-5. Report — A branded monthly report with what worked and next month's plan.
-
-### Deliverables
-- Monthly content calendar
-- Designed posts, carousels and stories
-- Edited reels and short videos
-- Scheduled publishing and community log
-- Monthly white-label report
-
-Tools & platforms: Meta Business Suite, Later, Sprout Social, Hootsuite, Planable, Canva, Figma, Adobe Creative Cloud, CapCut
-Pricing model: Monthly retainer custom-quoted by brands, platforms and content volume after a paid pilot month. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
-
-### FAQ
-Q: What is white-label social media management?
-A: It is social media planning, content creation and publishing done by a partner that your agency sells under its own brand. gaa-tha does this for US and UK agencies across Instagram, Facebook, LinkedIn and TikTok.
-
-Q: Do you write in American or British English?
-A: Either. We match the client's market, spelling and tone of voice, and keep a style sheet for each brand.
-
-Q: Can you use our approval tool?
-A: Yes. We work in Planable, Later, Sprout Social, Hootsuite, Google Drive or whatever your agency uses for client approvals.
-
-Q: Do you handle community management?
-A: Yes. Comments and messages are handled during US business hours using an agreed response guide, with anything sensitive escalated to your team.
-
-Q: Can you produce reels as part of social management?
-A: Yes. Reels and short-form edits are produced in-house from client footage, UGC or stock, and can also be bought as a separate editing service.
-
-Q: How do we start?
-A: With a paid pilot month for one brand. You see the calendar, the content and the report before adding more clients.
-
-
-## Outsource Website Development to India
-https://gaa-tha.com/services/outsource-website-development
-Last updated: 2026-11-03
-
-gaa-tha is an India-based website development team for US and UK companies and agencies. We design and build marketing websites, ecommerce stores and web apps on WordPress, Webflow, Shopify and custom Next.js, with code in your repository, accounts in your name, US business hours and a paid pilot before any larger project.
-
-Best for: US and UK businesses and agencies that need web development capacity
-Timeline: Marketing sites in roughly four to eight weeks; web apps scoped per project
-Engagement model: Fixed-scope project or a monthly development retainer after a paid pilot
-Channels/platforms: WordPress, Webflow, Shopify, Next.js, React, Node.js
-
-### What it is
-Outsourcing website development to India means hiring an India-based team to design, build and maintain websites while you keep ownership of the strategy, the accounts and the code. Done well, it gives you senior development capacity with clear communication and documentation; done badly, it creates code nobody can maintain.
-
-gaa-tha builds websites for its own clients, including a managed ecommerce site for a retailer in Canada, and works as a development partner for agencies. Every project starts with a written scope, runs on preview links and a shared task board during US business hours, and ends with code in your GitHub and documentation your next developer can follow.
-
-### What's included
-- Discovery, sitemap and written scope before any design
-- UX and UI design in Figma, or development from your designs
-- WordPress, Webflow, Shopify or custom Next.js builds
-- Responsive, accessible front-end with WCAG basics checked
-- Technical SEO: metadata, schema, redirects, sitemaps and Core Web Vitals
-- CMS training so your team can edit content
-- Code in your GitHub, hosting and domains in your name
-- Post-launch support window and optional maintenance retainer
-
-### How we work
-1. Discovery — Goals, audience, pages, integrations and success measures agreed in writing.
-2. Design — Wireframes and Figma designs, or a build plan from your existing designs.
-3. Build — Development on a staging site with weekly preview links and a shared task board.
-4. QA and launch — Device, browser, speed, accessibility and SEO checks, then launch with redirects.
-5. Support — A fix window after launch and an optional monthly maintenance retainer.
-
-### Deliverables
-- Written scope and sitemap
-- Figma designs (when design is in scope)
-- Production website with CMS access
-- Technical SEO and redirect map
-- Handover documentation and training
-
-Tools & platforms: Figma, WordPress, Webflow, Shopify, Next.js, React, Node.js, GitHub, Vercel, Cloudflare
-Pricing model: Custom-quoted as a fixed-scope project or monthly retainer after discovery and a paid pilot where useful. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
-
-### FAQ
-Q: Is it a good idea to outsource website development to India?
-A: It can be, when the partner works in your accounts, documents everything, communicates in your hours and starts with a small paid project. gaa-tha works US business hours, keeps code in your GitHub and signs an NDA before the brief.
-
-Q: Which platforms do you build on?
-A: WordPress, Webflow and Shopify for marketing and ecommerce sites, and Next.js with React and Node.js for custom sites and web apps. We recommend the platform in discovery based on who will edit the site and what it must integrate with.
-
-Q: Who owns the code and the website?
-A: You do. Hosting, domains, CMS accounts and repositories are set up in your name, and code is handed over with documentation.
-
-Q: Can you work from our agency's designs?
-A: Yes. Many agencies send Figma files and we build them white-label, with preview links you can share with your client.
-
-Q: How do we communicate during the project?
-A: Through your Slack, Teams or email, a shared task board and scheduled calls in US business hours. You get preview links throughout the build.
-
-Q: Do you provide maintenance after launch?
-A: Yes. A support window is included after launch, and an optional monthly retainer covers updates, security patches, content changes and new pages.
-
-
-## Outsource App Development to India
-https://gaa-tha.com/services/outsource-app-development
-Last updated: 2026-11-03
-
-gaa-tha is an India-based app development team for US and UK startups, businesses and agencies. We design and build iOS and Android apps with Flutter or React Native, web apps and SaaS MVPs — from discovery and UX to App Store and Google Play release — with code in your repository, store accounts in your name and US business hours.
-
-Best for: Founders, product teams and agencies that need app development capacity
-Timeline: Discovery in two to three weeks; MVPs typically in roughly three to six months
-Engagement model: Fixed-scope phases or a dedicated team after a paid discovery
-Channels/platforms: Flutter, React Native, Swift, Kotlin, Firebase, Node.js
-
-### What it is
-Outsourcing app development to India means hiring an India-based team to design, build and release your mobile or web app while you keep the product decisions, the accounts and the intellectual property. The work that matters most is discovery and specification, because unclear scope is where most outsourced app projects go wrong.
-
-gaa-tha starts every app with a paid discovery phase: user flows, a clickable prototype, a feature list ranked by priority and a release plan. We then build in sprints with demos in US business hours, keep code in your GitHub and publish under your App Store and Google Play developer accounts.
-
-### What's included
-- Paid discovery: user flows, feature list, technical plan and estimate
-- UX and UI design with a clickable Figma prototype
-- Cross-platform apps in Flutter or React Native, native where needed
-- Backend and APIs with Node.js or Firebase
-- Payments, login, push notifications, analytics and integrations
-- QA on real devices and TestFlight or Play Console beta testing
-- App Store and Google Play submission under your accounts
-- Post-launch support, crash monitoring and a roadmap for version two
-
-### How we work
-1. Discovery — Flows, prototype, prioritized feature list, architecture and a phased estimate.
-2. Design — UI design and a clickable prototype tested with real users where possible.
-3. Build in sprints — Two-week sprints with demos and a shared board in your business hours.
-4. Test and release — Device testing, beta builds, store listings and submission under your accounts.
-5. Support and iterate — Crash monitoring, fixes and the next release plan based on real usage.
-
-### Deliverables
-- Discovery document and phased estimate
-- Figma prototype
-- iOS and Android builds published under your accounts
-- Source code in your GitHub with setup documentation
-- Post-launch support plan
-
-Tools & platforms: Flutter, React Native, Swift, Kotlin, Firebase, Node.js, Figma, GitHub, TestFlight, Google Play Console
-Pricing model: Custom-quoted after a paid discovery phase, as fixed-scope phases or a dedicated monthly team. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
-
-### FAQ
-Q: How do I outsource app development to India without losing control?
-A: Keep the developer accounts, repositories and cloud accounts in your name, agree a written scope from a discovery phase, and review working builds every sprint. gaa-tha works this way by default and signs an NDA before the brief.
-
-Q: Flutter or React Native?
-A: Both build iOS and Android from one codebase. We recommend one in discovery based on your UI, integrations and the team who will maintain it; native Swift or Kotlin is used when an app needs deep device features.
-
-Q: Who owns the app and the code?
-A: You do. Apps are published under your App Store and Google Play accounts and the code lives in your GitHub.
-
-Q: Can you build a SaaS MVP?
-A: Yes. We build web-based SaaS MVPs with authentication, billing, roles and an admin panel, and plan a path from MVP to a maintainable product.
-
-Q: How do you handle time zones?
-A: Our team works US business hours, so sprint reviews, stand-ups and urgent fixes happen during your day.
-
-Q: Do you work white-label for agencies?
-A: Yes. Agencies can resell our app development under their brand with an NDA, non-solicitation of their clients and unbranded documentation.
-
-
-## Offshore ERP & Odoo Development
-https://gaa-tha.com/services/offshore-erp-odoo-development
-Last updated: 2026-11-03
-
-gaa-tha provides offshore ERP and Odoo development for US and UK companies and partners: Odoo and ERPNext implementation and customization, custom modules, data migration and integrations with Shopify, QuickBooks, Xero, payment and shipping tools — mapped to your processes and supported during US business hours.
-
-Best for: Growing companies and ERP partners that need implementation or development capacity
-Timeline: Process mapping in two to four weeks; phased rollouts over a few months
-Engagement model: Phased fixed-scope projects or a monthly development and support retainer
-Channels/platforms: Odoo, ERPNext, Python, PostgreSQL, REST APIs
-
-### What it is
-Offshore ERP development means an outside team configures, customizes and integrates your ERP while your team owns the processes and decisions. For most growing companies that means Odoo or ERPNext configured to their workflows, with custom modules only where the business is genuinely different.
-
-gaa-tha maps your processes first, then configures, customizes, migrates data, integrates your other systems and trains your team. ERP partners and agencies can use us as white-label development capacity. Hosting, licenses and code stay in your name.
-
-### What's included
-- Process mapping and fit-gap analysis
-- Odoo and ERPNext configuration: sales, purchasing, inventory, manufacturing, accounting, CRM
-- Custom Odoo modules and ERPNext apps in Python
-- Integrations with Shopify, QuickBooks, Xero, Stripe, shipping and marketplaces
-- Data migration from spreadsheets and legacy systems
-- Reports and dashboards for management
-- User training and documentation
-- Ongoing support and enhancement retainer
-
-### How we work
-1. Process mapping — Workshops in your hours to document how orders, stock, production and money move today.
-2. Fit-gap and plan — What the standard ERP covers, what needs configuration and what needs custom code, in phases.
-3. Configure and build — Configuration, custom modules and integrations on a test instance you can review.
-4. Migrate and train — Data migration, user acceptance testing and role-based training.
-5. Go live and support — Phased go-live with hypercare, then a support and enhancement retainer.
-
-### Deliverables
-- Process map and fit-gap document
-- Configured ERP test and production instances
-- Custom modules with source code in your repository
-- Integration documentation
-- Training material and support plan
-
-Tools & platforms: Odoo, ERPNext, Python, PostgreSQL, Shopify API, QuickBooks, Xero, Stripe, GitHub
-Pricing model: Custom-quoted in phases after process mapping, or as a monthly development and support retainer; ERP licenses and hosting are paid by you directly. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
-
-### FAQ
-Q: Can I outsource Odoo development to India?
-A: Yes. Odoo and ERPNext are widely implemented by India-based teams. Choose a partner that maps your processes before customizing, keeps code in your repository and supports you in your business hours, as gaa-tha does.
-
-Q: Odoo or ERPNext?
-A: Both cover sales, purchasing, inventory, manufacturing and accounting. The right choice depends on your processes, the modules you need, hosting preferences and licensing; we compare them for your case during process mapping.
-
-Q: Can you integrate the ERP with Shopify and QuickBooks or Xero?
-A: Yes. Orders, customers, stock and payouts can sync between Shopify and the ERP, and financial data can flow to QuickBooks or Xero where accounting stays outside the ERP.
-
-Q: Do you work with ERP partners as a white-label team?
-A: Yes. Implementation partners and agencies can use us for development, migration and support capacity under their brand, with an NDA and non-solicitation.
-
-Q: Who owns the code and the data?
-A: You do. Custom modules live in your repository, the ERP is hosted in your account and your data stays yours.
-
-Q: Do you provide support after go-live?
-A: Yes. A hypercare period follows go-live, then an optional monthly retainer covers support, fixes and enhancements during US business hours.
-
-
-## Outsourced Reel & Short-Form Video Editing
-https://gaa-tha.com/services/outsourced-reel-video-editing
-Last updated: 2026-11-03
-
-gaa-tha provides outsourced reel and short-form video editing for US and UK agencies, creators and brands: Instagram Reels, TikTok, YouTube Shorts and video ads cut from your raw footage, with hooks, captions, b-roll, motion graphics and sound design, delivered in batches and white-label when you need it.
-
-Best for: Agencies, creators and brands with more footage than editing time
-Timeline: Paid test batch first; then weekly or monthly batches
-Engagement model: Monthly retainer by video volume after a paid test batch
-Channels/platforms: Instagram Reels, TikTok, YouTube Shorts, Meta and TikTok ads, LinkedIn video
-
-### What it is
-Outsourced reel editing means sending your raw footage to an editing team that returns finished short-form videos ready to post or run as ads. The value is speed and consistency: a steady weekly batch in your style, rather than editing squeezed between other work.
-
-gaa-tha edits reels and ad videos for its own brand clients every week. For agencies and creators we work from a shared drive or Frame.io, follow your brand kit and style references, add captions, hooks, b-roll and sound, and deliver unbranded files in every aspect ratio you need.
-
-### What's included
-- Edits for Reels, TikTok, YouTube Shorts and vertical ads
-- Hook-first structure with on-screen captions
-- B-roll, stock footage, zoom cuts and pacing to platform norms
-- Motion graphics, lower thirds and brand-kit templates
-- Color correction and audio cleanup
-- Licensed or platform-safe music guidance
-- Multiple aspect ratios: 9:16, 4:5, 1:1 and 16:9
-- Revisions through Frame.io or your review tool
-
-### How we work
-1. Style and brief — Brand kit, references, platforms and posting cadence agreed under NDA.
-2. Paid test batch — A small batch edited from your footage so you can judge style and speed.
-3. Footage handoff — You upload raw footage to a shared drive or Frame.io with a short brief per video.
-4. Edit and review — Edits delivered in batches with comments and revisions in your review tool.
-5. Deliver and repeat — Final files in every ratio, named and organized, on a weekly or monthly rhythm.
-
-### Deliverables
-- Edited short-form videos in required aspect ratios
-- Caption files and thumbnails where needed
-- Reusable brand templates
-- Organized delivery folders
-- Monthly volume and turnaround summary
-
-Tools & platforms: Adobe Premiere Pro, After Effects, DaVinci Resolve, CapCut, Frame.io, Google Drive, Dropbox
-Pricing model: Custom-quoted by monthly video volume and complexity after a paid test batch. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
-
-### FAQ
-Q: Can I outsource reel editing to India?
-A: Yes. Send raw footage through a shared drive or Frame.io with a short brief and style references; an editing team returns finished reels in batches. gaa-tha starts with a paid test batch so you can judge style and speed first.
-
-Q: What do you need from us?
-A: Raw footage, your brand kit (fonts, colors, logo), two or three reference videos you like, the platforms and the posting schedule. A short brief per video helps with hooks and calls to action.
-
-Q: Do you add captions and music?
-A: Yes. On-screen captions are standard. For music we use licensed tracks you provide or advise using platform audio at posting, because licensing rules differ between organic posts and ads.
-
-Q: Can you edit white-label for our agency?
-A: Yes. Files are unbranded, we work only through your agency and we sign an NDA and non-solicitation agreement.
-
-Q: Do you also shoot or create AI video?
-A: For India-based shoots, yes. For US and UK clients we edit your footage, UGC and stock, and can produce AI-assisted visuals and motion graphics.
-
-Q: How are revisions handled?
-A: Through timestamped comments in Frame.io or your review tool, with revision rounds agreed in the retainer.
-
-
-## Marketing Consulting & Fractional CMO
-https://gaa-tha.com/services/marketing-consulting-fractional-cmo
-Last updated: 2026-11-03
-
-gaa-tha provides marketing consulting and fractional CMO support for US and UK brands and agencies: positioning, go-to-market plans, channel and budget strategy, creative direction and monthly performance reviews, with optional execution by our in-house team across ads, social, content, Shopify and web.
-
-Best for: Founders and growing brands without a senior marketer; agencies needing strategy support
-Timeline: Audit and plan in two to four weeks, then monthly advisory
-Engagement model: Fixed-scope strategy project or a monthly fractional retainer
-Channels/platforms: Meta, Google, social, email, Shopify, marketplaces, content
-
-### What it is
-Marketing consulting is senior, outside advice on what to sell to whom, through which channels, with what budget and how to measure it. A fractional CMO goes further: a part-time marketing leader who owns the plan, directs the team or agencies and reviews results every month.
-
-gaa-tha's founders lead strategy and brand thinking for the studio's clients in India and Canada. We offer the same as a consulting project or monthly fractional retainer for US and UK brands, and because we also execute, the plan can be delivered by our team or handed to yours.
-
-### What's included
-- Marketing audit: positioning, funnel, channels, creative and tracking
-- Positioning and messaging framework
-- Go-to-market and channel plan with budget split
-- KPI framework and reporting setup
-- Creative direction and content pillars
-- Agency and freelancer briefs and reviews
-- Monthly performance review and next-month priorities
-- Optional execution by the gaa-tha team
-
-### How we work
-1. Audit — We review your numbers, funnel, channels, creative and competitors.
-2. Strategy — Positioning, audience, channel mix, budget and KPIs written into one plan.
-3. Roadmap — A 90-day roadmap with owners, whether your team, your agencies or ours.
-4. Direct — Weekly or fortnightly working sessions in your business hours to steer execution.
-5. Review — Monthly review of results against KPIs and the next month's priorities.
-
-### Deliverables
-- Marketing audit report
-- Positioning and messaging framework
-- Channel plan and budget model
-- 90-day roadmap
-- Monthly performance review
-
-Tools & platforms: GA4, Looker Studio, Meta Ads Manager, Google Ads, Shopify Analytics, Klaviyo, Notion, Miro
-Pricing model: Custom-quoted as a fixed-scope strategy project or a monthly fractional retainer. International invoices, paid by bank wire (SWIFT), PayPal or card through Stripe.
-
-### FAQ
-Q: What does a fractional CMO do?
-A: A fractional CMO is a part-time marketing leader who sets strategy, owns the plan and budget, directs the team and agencies and reviews results monthly. gaa-tha offers this to US and UK brands on a monthly retainer.
-
-Q: Is marketing consulting worth it before hiring an agency?
-A: Usually, yes. A clear strategy, KPIs and channel plan make every agency or hire more effective, and stop budget being spent on channels that do not fit your buyers.
-
-Q: Can you also execute the plan?
-A: Yes. Our in-house team runs ads, social, content, Shopify and web work, but the plan is written so your own team or other agencies can deliver it too.
-
-Q: Do you consult for agencies?
-A: Yes. Agencies use us for strategy support on pitches and client plans, delivered under the agency's name.
-
-Q: How do sessions work across time zones?
-A: We work US business hours, so working sessions and reviews happen during your day by video call.
-
-Q: How do we start?
-A: With an audit and strategy project. If it is useful, it becomes a monthly fractional retainer.
 
 
 # Case studies
@@ -5661,7 +5256,7 @@ Keep a short shared log of decisions and issues. If the relationship ends, it ma
 
 ### Where does gaa-tha fit as an outsourcing partner?
 
-gaa-tha is a storytelling-led marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India by Abhishek Khuthiya and Getansh Savla. One in-house team handles performance marketing, social media, reels, Shopify, websites, apps and ERPs. We work US business hours as well as UK hours, keep accounts and code in the client's name, and invoice by bank wire (SWIFT), PayPal or card via Stripe. For agencies we sign an NDA before the brief, work unbranded with no contact with your client unless you ask, agree non-solicitation and start with a paid pilot. Our international work includes an ongoing retainer for a [Canadian trading-card retailer](https://gaa-tha.com/work/new-rave). See [outsourcing and white-label services](https://gaa-tha.com/services/outsourcing), the [white-label agency partner](https://gaa-tha.com/services/white-label-agency-partner) page, or [tell us about your project](https://gaa-tha.com/#contact).
+gaa-tha is a storytelling-led marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India by Abhishek Khuthiya and Getansh Savla. One in-house team handles performance marketing, social media, reels, Shopify, websites, apps and ERPs. We work US business hours as well as UK hours, keep accounts and code in the client's name, and invoice by bank wire (SWIFT), PayPal or card via Stripe. For agencies we sign an NDA before the brief, work unbranded with no contact with your client unless you ask, agree non-solicitation and start with a paid pilot. Our international work includes an ongoing retainer for a [Canadian trading-card retailer](https://gaa-tha.com/work/new-rave). See [outsourcing and white-label services](https://gaa-tha.com/services/outsourcing), the [white-label agency partner](https://gaa-tha.com/services/outsourcing) page, or [tell us about your project](https://gaa-tha.com/#contact).
 
 Q: How do I find a reliable outsourcing partner in India?
 A: Shortlist partners with live work similar to your project, call their references, confirm who will actually do the work, and check their working-hours overlap with your team. Then run a small paid pilot with two finalists and score both on the same criteria before deciding.
@@ -5720,7 +5315,7 @@ US and UK businesses outsource to India mainly for capacity and cost structure: 
 
 - **Time-zone leverage.** Work can move forward overnight for fast turnarounds, or a team can work your hours for live collaboration.
 
-Outsourcing is a poor fit when the scope changes daily with nobody owning the brief, when the work needs deep local context the partner cannot learn, or when you are hoping a vendor will fix a problem nobody in your business has defined. In those cases, start with an audit or a [consulting engagement](https://gaa-tha.com/services/marketing-consulting-fractional-cmo) rather than handing over execution.
+Outsourcing is a poor fit when the scope changes daily with nobody owning the brief, when the work needs deep local context the partner cannot learn, or when you are hoping a vendor will fix a problem nobody in your business has defined. In those cases, start with an audit or a [consulting engagement](https://gaa-tha.com/services/marketing-strategy#international) rather than handing over execution.
 
 ### Which engagement model should you choose: project, retainer, dedicated team or white-label?
 
@@ -5825,7 +5420,7 @@ gaa-tha is a storytelling-led marketing, ecommerce, technology and AI agency fou
 
 Brands can work with us directly. Agencies can work with us on a white-label basis: we sign an NDA before the brief, deliver unbranded work with no contact with your client unless you ask for it, agree not to solicit your clients, and start with a paid pilot. Our international work includes an ongoing retainer for [New Rave](https://gaa-tha.com/work/new-rave), a trading-card and hobbies retailer in Canada, covering strategy, Canada-wide campaigns, Instagram content, product data and its website.
 
-See all [outsourcing and white-label services](https://gaa-tha.com/services/outsourcing), including [PPC and Meta ads](https://gaa-tha.com/services/white-label-ppc-meta-ads), [Shopify development](https://gaa-tha.com/services/white-label-shopify-development), [app development](https://gaa-tha.com/services/outsource-app-development) and [reel editing](https://gaa-tha.com/services/outsourced-reel-video-editing), or [tell us about your project](https://gaa-tha.com/#contact).
+See all [outsourcing and white-label services](https://gaa-tha.com/services/outsourcing), including [PPC and Meta ads](https://gaa-tha.com/services/meta-ads-agency#international), [Shopify development](https://gaa-tha.com/services/shopify-development#international), [app development](https://gaa-tha.com/services/mobile-app-development#international) and [reel editing](https://gaa-tha.com/services/reels-short-form-video#international), or [tell us about your project](https://gaa-tha.com/#contact).
 
 Q: Is it safe to outsource marketing to India?
 A: It is safe when the basics are in writing: an NDA before you share data, ad accounts and stores in your own name, limited-permission access and a clear scope. Most problems come from vague scopes and shared logins, not geography. A paid pilot lets you check quality and communication before you commit.
@@ -5982,7 +5577,7 @@ The main risks are scope creep, over-customization, poor data and low adoption, 
 
 ### Where does gaa-tha fit for ERP projects?
 
-gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India. One in-house team implements Odoo and ERPNext, builds custom ERP modules and connects them to Shopify stores, payments and the rest of the stack. We work US business hours as well as UK hours, keep code and hosting in the client's name, and invoice by bank wire (SWIFT), PayPal or card via Stripe. Start with [offshore ERP and Odoo development](https://gaa-tha.com/services/offshore-erp-odoo-development), see [ERP development](https://gaa-tha.com/services/erp-development), or [send us your processes](https://gaa-tha.com/#contact) for a scoped proposal.
+gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India. One in-house team implements Odoo and ERPNext, builds custom ERP modules and connects them to Shopify stores, payments and the rest of the stack. We work US business hours as well as UK hours, keep code and hosting in the client's name, and invoice by bank wire (SWIFT), PayPal or card via Stripe. Start with [offshore ERP and Odoo development](https://gaa-tha.com/services/erp-development#international), see [ERP development](https://gaa-tha.com/services/erp-development), or [send us your processes](https://gaa-tha.com/#contact) for a scoped proposal.
 
 Q: Can an Indian team implement Odoo for a US or UK company?
 A: Yes. Odoo is used worldwide and the implementation work (process mapping, configuration, custom modules, integrations, data migration and training) can be done remotely. What matters is a named owner on your side, overlapping working hours and a partner that understands your country's tax and accounting requirements or works with your accountant.
@@ -6143,7 +5738,7 @@ Start with a small, paid test batch: a handful of videos from the same footage, 
 
 Judge the test on four things: how well the edits match the brief, how many corrections were needed, how clearly the editor communicated, and whether the videos look like your brand rather than a template. Then agree a monthly volume, turnaround and revision rules, and review them each quarter.
 
-gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India, with an in-house team that already produces reels and AI ads for brands. For US and UK agencies, creators and brands we edit fully unbranded, sign an NDA before the brief, never contact an agency's client unless asked, agree to non-solicitation, and start with a paid test batch. We work US and UK business hours, quote each engagement individually, and accept international bank wire, PayPal or card through Stripe. Our international work includes Instagram content for [New Rave](https://gaa-tha.com/work/new-rave), a trading-card and hobbies retailer in Canada. See [outsourced reel and video editing](https://gaa-tha.com/services/outsourced-reel-video-editing) or [send a test brief](https://gaa-tha.com/#contact).
+gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India, with an in-house team that already produces reels and AI ads for brands. For US and UK agencies, creators and brands we edit fully unbranded, sign an NDA before the brief, never contact an agency's client unless asked, agree to non-solicitation, and start with a paid test batch. We work US and UK business hours, quote each engagement individually, and accept international bank wire, PayPal or card through Stripe. Our international work includes Instagram content for [New Rave](https://gaa-tha.com/work/new-rave), a trading-card and hobbies retailer in Canada. See [outsourced reel and video editing](https://gaa-tha.com/services/reels-short-form-video#international) or [send a test brief](https://gaa-tha.com/#contact).
 
 Q: Can I outsource Instagram Reels and TikTok editing to India?
 A: Yes. Short-form editing is well suited to remote work because footage, feedback and finished files all move through shared drives and review tools. Choose a team that overlaps your working hours, works from your brand kit and starts with a small paid test batch.
@@ -6182,7 +5777,7 @@ Almost any well-defined Shopify build or maintenance task can be outsourced to I
 | Integrations | ERP, inventory, shipping, reviews, subscriptions, loyalty, email and SMS platforms, analytics | Vendor contracts and system-of-record decisions |
 | Store management | Product uploads, collection and banner changes, app audits, bug fixes, speed checks, sale-season setup | The promotions calendar and pricing decisions |
 
-Agencies often go further and outsource whole builds on a white-label basis, keeping the client relationship, discovery and design in-house while a partner handles development and QA. See [white-label Shopify development](https://gaa-tha.com/services/white-label-shopify-development) for how that model works, and [outsourced Shopify store management](https://gaa-tha.com/services/outsourced-shopify-store-management) for the ongoing side.
+Agencies often go further and outsource whole builds on a white-label basis, keeping the client relationship, discovery and design in-house while a partner handles development and QA. See [white-label Shopify development](https://gaa-tha.com/services/shopify-development#international) for how that model works, and [outsourced Shopify store management](https://gaa-tha.com/services/shopify-store-management#international) for the ongoing side.
 
 ### Why do US and UK brands and agencies outsource Shopify development?
 
@@ -6299,7 +5894,7 @@ Start with a small, paid, fixed-scope pilot: one custom section, a landing page,
 
 Define the pilot like a mini project: written scope, acceptance criteria, a deadline, and a short review at the end covering what went well and what to change. If it works, move to a monthly retainer or a project with milestones.
 
-gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India, with one in-house team that builds Shopify stores and runs the marketing around them. For US and UK brands and agencies we work US and UK business hours, sign an NDA before the brief, work fully unbranded for agencies with no contact with your client unless you ask, agree to non-solicitation and start with a paid pilot. Clients pay by international bank wire, PayPal or card through Stripe, and every engagement is custom-quoted. Our international work includes an ongoing retainer for [New Rave](https://gaa-tha.com/work/new-rave), a trading-card and hobbies retailer in Canada. See [white-label Shopify development](https://gaa-tha.com/services/white-label-shopify-development), [outsourced store management](https://gaa-tha.com/services/outsourced-shopify-store-management), or [start with a pilot](https://gaa-tha.com/#contact).
+gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India, with one in-house team that builds Shopify stores and runs the marketing around them. For US and UK brands and agencies we work US and UK business hours, sign an NDA before the brief, work fully unbranded for agencies with no contact with your client unless you ask, agree to non-solicitation and start with a paid pilot. Clients pay by international bank wire, PayPal or card through Stripe, and every engagement is custom-quoted. Our international work includes an ongoing retainer for [New Rave](https://gaa-tha.com/work/new-rave), a trading-card and hobbies retailer in Canada. See [white-label Shopify development](https://gaa-tha.com/services/shopify-development#international), [outsourced store management](https://gaa-tha.com/services/shopify-store-management#international), or [start with a pilot](https://gaa-tha.com/#contact).
 
 Q: Is it safe to give an Indian agency access to my Shopify store?
 A: Yes, if access is delegated rather than shared. Approve a collaborator request or create a staff account with only the permissions the job needs, keep the owner login to yourself, and remove access when the work ends. Pair this with an NDA and a contract that transfers code and IP to you.
@@ -6475,7 +6070,7 @@ For a full vetting list and scorecard, see [how to choose an outsourcing partner
 
 ### Where does gaa-tha fit for US and UK companies?
 
-gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India, with one in-house team that builds websites, Shopify stores, Flutter and React Native apps and SaaS products. We work US business hours as well as UK hours, keep code and accounts in the client's name, and invoice international clients by bank wire (SWIFT), PayPal or card via Stripe. For agencies we also work white-label, with an NDA before the brief and a paid pilot before any retainer. See [website development](https://gaa-tha.com/services/outsource-website-development), [app development](https://gaa-tha.com/services/outsource-app-development), our international work for a [Canadian retailer](https://gaa-tha.com/work/new-rave), or [send us your brief](https://gaa-tha.com/#contact).
+gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India, with one in-house team that builds websites, Shopify stores, Flutter and React Native apps and SaaS products. We work US business hours as well as UK hours, keep code and accounts in the client's name, and invoice international clients by bank wire (SWIFT), PayPal or card via Stripe. For agencies we also work white-label, with an NDA before the brief and a paid pilot before any retainer. See [website development](https://gaa-tha.com/services/website-development#international), [app development](https://gaa-tha.com/services/mobile-app-development#international), our international work for a [Canadian retailer](https://gaa-tha.com/work/new-rave), or [send us your brief](https://gaa-tha.com/#contact).
 
 Q: Is it safe to outsource website and app development to India?
 A: Yes, when you control the accounts and the contract. Keep the repository, hosting, domain and app store accounts in your own name, sign an NDA before sharing details, give named least-privilege access, and make sure the contract transfers intellectual property to you on payment.
@@ -6530,7 +6125,7 @@ The services agencies white-label most often are the ones that are skilled, repe
 | Reel and video editing | Short-form edits, captions, motion graphics, versions for each platform | Creative direction, raw footage, client feedback |
 | SEO | Technical audits, on-page work, content production, draft reports | Keyword strategy sign-off and the client relationship |
 
-Each of these has its own page: [white-label Shopify development](https://gaa-tha.com/services/white-label-shopify-development), [white-label PPC and Meta ads](https://gaa-tha.com/services/white-label-ppc-meta-ads), [white-label social media management](https://gaa-tha.com/services/white-label-social-media-management), [outsourced reel and video editing](https://gaa-tha.com/services/outsourced-reel-video-editing), and outsourced [website](https://gaa-tha.com/services/outsource-website-development) and [app development](https://gaa-tha.com/services/outsource-app-development). Performance marketing has a deeper guide in [white-label PPC and Meta ads](https://gaa-tha.com/blog/white-label-ppc-meta-ads-guide).
+Each of these has its own page: [white-label Shopify development](https://gaa-tha.com/services/shopify-development#international), [white-label PPC and Meta ads](https://gaa-tha.com/services/meta-ads-agency#international), [white-label social media management](https://gaa-tha.com/services/social-media-marketing#international), [outsourced reel and video editing](https://gaa-tha.com/services/reels-short-form-video#international), and outsourced [website](https://gaa-tha.com/services/website-development#international) and [app development](https://gaa-tha.com/services/mobile-app-development#international). Performance marketing has a deeper guide in [white-label PPC and Meta ads](https://gaa-tha.com/blog/white-label-ppc-meta-ads-guide).
 
 ### How does a white-label workflow run day to day?
 
@@ -6631,7 +6226,7 @@ gaa-tha works as a white-label partner for agencies across Shopify and website d
 
 Our terms for agencies: we sign an NDA before the brief, deliver fully unbranded work with no contact with your client unless you ask us to, agree not to solicit your clients, and start with a paid pilot. Every engagement is quoted to scope, and we invoice for payment by international bank wire (SWIFT), PayPal or card via Stripe. Our international work includes an ongoing retainer for [New Rave](https://gaa-tha.com/work/new-rave) in Canada.
 
-See [white-label agency partner](https://gaa-tha.com/services/white-label-agency-partner) for the full scope, or [send us a brief](https://gaa-tha.com/#contact).
+See [white-label agency partner](https://gaa-tha.com/services/outsourcing) for the full scope, or [send us a brief](https://gaa-tha.com/#contact).
 
 Q: What is a white-label agency?
 A: A white-label agency produces services that other agencies resell under their own brand. The reselling agency handles the client relationship and pricing, while the white-label partner does the work behind the scenes, unbranded.
@@ -6782,7 +6377,7 @@ Use a one-page checklist so every partner is held to the same standard before an
 | Termination and handover | Continuity for your clients | Notice period; full handover of files and access |
 | Paid pilot | Your risk on day one | Fixed fee, acceptance criteria, same NDA and non-solicitation |
 
-gaa-tha's terms for agencies follow this list: we sign an NDA before the brief, deliver fully unbranded work with no contact with your client unless you ask us to, agree not to solicit your clients, and start every agency relationship with a paid pilot. We work full US business hours and UK business hours and invoice for payment by international bank wire (SWIFT), PayPal or card via Stripe. See [white-label agency partner](https://gaa-tha.com/services/white-label-agency-partner), the wider guide to [outsourcing digital marketing to India](https://gaa-tha.com/blog/how-to-outsource-digital-marketing-to-india), or [get in touch](https://gaa-tha.com/#contact).
+gaa-tha's terms for agencies follow this list: we sign an NDA before the brief, deliver fully unbranded work with no contact with your client unless you ask us to, agree not to solicit your clients, and start every agency relationship with a paid pilot. We work full US business hours and UK business hours and invoice for payment by international bank wire (SWIFT), PayPal or card via Stripe. See [white-label agency partner](https://gaa-tha.com/services/outsourcing), the wider guide to [outsourcing digital marketing to India](https://gaa-tha.com/blog/how-to-outsource-digital-marketing-to-india), or [get in touch](https://gaa-tha.com/#contact).
 
 Q: Do I need a lawyer for a white-label agreement?
 A: Yes, for anything beyond a small one-off job. This guide explains the common clauses in plain English, but what is enforceable depends on where you and the partner are based, so have a lawyer in your jurisdiction review the agreement.
@@ -6876,7 +6471,7 @@ Creative testing and optimization work best on a fixed weekly rhythm with a writ
 
 - **Change log.** Every significant change is logged with the date, reason and expected effect. It makes reporting honest and handovers painless.
 
-If the partner also produces creative, say so in the scope. Many agencies outsource media buying and creative production together; see [outsourced reel and video editing](https://gaa-tha.com/services/outsourced-reel-video-editing).
+If the partner also produces creative, say so in the scope. Many agencies outsource media buying and creative production together; see [outsourced reel and video editing](https://gaa-tha.com/services/reels-short-form-video#international).
 
 ### What should white-label PPC reporting include, and how often?
 
@@ -6928,7 +6523,7 @@ Start with a paid pilot on one client account for a defined period. Share the br
 
 Document a simple operating manual as you go: access steps, naming conventions, approval limits, report templates and escalation contacts. It makes adding the next client account quick.
 
-gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India. Our in-house team runs Meta and Google campaigns and produces the reels and ad creative that feed them. For US and UK agencies we work fully unbranded, sign an NDA before the brief, never contact your client unless you ask, agree to non-solicitation and start with a paid pilot. We cover US and UK business hours, invoice by custom quote, and accept international bank wire, PayPal or card through Stripe. Our international work includes an ongoing retainer running Canada-wide Meta campaigns for [New Rave](https://gaa-tha.com/work/new-rave). See [white-label PPC and Meta ads management](https://gaa-tha.com/services/white-label-ppc-meta-ads) or [talk to us about a pilot](https://gaa-tha.com/#contact).
+gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India. Our in-house team runs Meta and Google campaigns and produces the reels and ad creative that feed them. For US and UK agencies we work fully unbranded, sign an NDA before the brief, never contact your client unless you ask, agree to non-solicitation and start with a paid pilot. We cover US and UK business hours, invoice by custom quote, and accept international bank wire, PayPal or card through Stripe. Our international work includes an ongoing retainer running Canada-wide Meta campaigns for [New Rave](https://gaa-tha.com/work/new-rave). See [white-label PPC and Meta ads management](https://gaa-tha.com/services/meta-ads-agency#international) or [talk to us about a pilot](https://gaa-tha.com/#contact).
 
 Q: Who pays the ad spend in white-label PPC?
 A: The client pays ad spend directly to Meta and Google through the payment method on its own ad accounts. The agency charges the client a management fee, and the white-label partner invoices the agency separately. This keeps media spend transparent and the accounts in the client's name.
@@ -11589,30 +11184,48 @@ A: System integration connects the software a business already uses — Shopify,
 Q: How do I choose an AI development company?
 A: Choose an AI development company that starts from your business process rather than a model or tool, can show working systems instead of demos, and explains how it measures accuracy, protects your data and keeps humans in control. Ask who owns the prompts, code and accounts, how model costs are estimated and monitored, how failures are logged and fixed, and what support looks like after launch. gaa-tha combines AI engineering with marketing and ecommerce operations, which helps when an agent touches customers, orders or catalogues.
 
-## US, UK & International Clients
-Q: Does gaa-tha work with clients in the US and UK?
-A: Yes. gaa-tha works with agencies and brands in the US, UK, Canada and Australia as a white-label delivery partner and an outsourced team, alongside its clients in India. Our team works US business hours, so calls, reviews and launches happen during your day. Our ongoing international retainer is New Rave, a trading-card and hobbies retailer in Canada, where we run strategy, Canada-wide campaigns, Instagram content, product data and the website.
+## Working with an Indian agency from the US, UK & abroad
+Q: Which marketing agency in India can US and UK businesses collaborate with?
+A: gaa-tha is an India-based digital marketing, ecommerce and technology agency that works with agencies and brands in the US, UK, Canada and Australia. It runs Meta and Google ads, social media and reels, builds and manages Shopify stores, websites and apps, and implements Odoo and ERPNext — directly for brands, or white-label for agencies. The team works US business hours, signs an NDA before the brief, never contacts an agency's clients, agrees to non-solicitation and starts every engagement with a paid pilot. Clients pay by bank wire (SWIFT), PayPal or card through Stripe.
 
-Q: Can US and UK agencies white-label gaa-tha's services?
-A: Yes. Agencies resell our Shopify development, store management, website and app development, ERP work, Meta and Google ads management, social media management and reel editing under their own brand. We sign an NDA before the brief, deliver unbranded work in your tools, never contact your clients and agree to non-solicitation.
+Q: What should a US agency look for in a top marketing agency in India?
+A: Look for six things: live work you can inspect, an in-house team rather than undisclosed subcontractors, working hours that overlap with yours, an NDA and non-solicitation in writing, accounts and code kept in your or your client's name, and a small paid pilot before any retainer. gaa-tha meets each of these: one in-house team, US business hours, NDA before the brief, non-solicitation, client-owned accounts and a paid pilot first. Our international work includes an ongoing retainer for New Rave, a retailer in Canada.
 
-Q: Which services do US and UK clients outsource to gaa-tha most?
-A: Shopify store builds and monthly Shopify management, website and app development, Odoo and ERP development, white-label PPC on Meta and Google Ads, social media management, reel and short-form video editing, and marketing consulting or fractional CMO support.
+Q: Is there an Indian agency that offers white-label services to US and UK agencies?
+A: Yes. gaa-tha works as a white-label partner for US and UK marketing and creative agencies: Shopify builds and store management, websites and apps, Odoo and ERP work, Meta and Google ads, social media management and reel editing, all delivered unbranded through the agency. Deliverables and reports carry your agency's brand, we work in your Slack and project board, and we never contact your client unless you ask us to.
 
-Q: What hours does gaa-tha work for US clients?
-A: We work US business hours, so stand-ups, Slack or Teams replies, sprint reviews and launches happen during your workday. The UK working day overlaps with ours as well.
+Q: Can I outsource Shopify development and store management to an agency in India?
+A: Yes. gaa-tha builds custom Shopify themes and sections, migrates stores, handles Shopify Plus work and runs monthly store management for US and UK brands and agencies, with code in your GitHub and the store in your name.
 
-Q: How do I pay gaa-tha from the US or UK?
-A: We invoice internationally and accept bank wire (SWIFT), PayPal and card payments through Stripe. Ad spend, software licenses and platform subscriptions are paid by you directly to the providers, with no markup.
+Q: Can I outsource Meta ads and Google Ads management to India?
+A: Yes. gaa-tha manages Meta and Google Ads for US and UK brands, and white-label for agencies, through partner or manager-account access. The client keeps the ad accounts and pays Meta and Google directly with no markup, and reports can carry your agency's branding.
+
+Q: Which Indian agency can build websites and mobile apps for US companies?
+A: gaa-tha builds WordPress, Webflow, Shopify and Next.js websites and Flutter or React Native apps for US and UK companies and agencies. Apps are published under your App Store and Google Play accounts and code lives in your repository.
+
+Q: Can I outsource Odoo or ERP development to India?
+A: Yes. gaa-tha implements and customizes Odoo and ERPNext, builds custom modules and integrates them with Shopify, QuickBooks, Xero and Stripe for US and UK companies, and works white-label for ERP partners.
+
+Q: Can I outsource reel and short-form video editing to an Indian agency?
+A: Yes. gaa-tha edits Instagram Reels, TikToks, YouTube Shorts and video ads from your raw footage for US and UK agencies, creators and brands, delivered in batches and unbranded when needed. Every editing relationship starts with a paid test batch.
+
+Q: Does gaa-tha offer marketing consulting or a fractional CMO for US brands?
+A: Yes. gaa-tha offers marketing strategy, channel and budget planning and monthly fractional CMO reviews for US and UK brands, with working sessions in US business hours and optional execution by its team.
+
+Q: Do Indian agencies work US business hours?
+A: Some do; ask before you sign. gaa-tha works US business hours, so stand-ups, Slack or Teams replies, reviews and launches happen during your day, and the UK working day overlaps with ours too.
+
+Q: Is it safe to outsource marketing or development to India?
+A: It is safe when the paperwork and access are right: an NDA before the brief, IP that transfers to you on payment, non-solicitation of your clients, accounts kept in your name with the partner on removable access, and a paid pilot first. gaa-tha works on all of these terms.
+
+Q: How do US and UK clients pay an Indian agency?
+A: gaa-tha invoices internationally and accepts bank wire (SWIFT), PayPal and card payments through Stripe. Ad spend, software licenses and platform subscriptions are paid by you directly to the providers.
 
 Q: How much does it cost to outsource to gaa-tha?
-A: Every engagement is custom-quoted after we see a real brief. We start with a paid pilot — one fixed-scope project or batch — and then move to a fixed-scope project, a monthly retainer or a dedicated team. We do not publish a rate card because scope, volume and tools change the number.
+A: Every engagement is custom-quoted after we see a real brief. We start with a paid pilot — one fixed-scope project or batch — and then move to a project, a monthly retainer or a dedicated team. There is no public rate card because scope, volume and tools change the number.
 
-Q: Who owns the code, accounts and creative?
-A: You or your client. Stores, ad accounts, app store accounts, repositories, hosting and domains stay in your names; we work through collaborator, partner or staff access and hand over code, files and documentation.
-
-Q: How do we start working with gaa-tha?
-A: Book an intro call in your business hours, share the work under an NDA, and we reply with a written scope for a paid pilot. If the pilot meets your standard, we agree monthly capacity.
+Q: How do I contact gaa-tha about a collaboration or white-label partnership?
+A: Send a short brief through the contact form or email digimarketing@gaa-tha.com with what you need, your timeline and whether you are an agency or a brand. We reply with next steps and an intro call in your business hours, then a written scope for a paid pilot.
 
 
 ## General FAQ

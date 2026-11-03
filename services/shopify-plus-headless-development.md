@@ -58,6 +58,23 @@ Shopify Plus, Shopify Functions, Checkout UI extensions, Shopify Markets, Hydrog
 
 Scoped per project after a technical review, based on the features, integrations and storefront approach; the Shopify Plus subscription, apps and hosting are billed by the providers, and ongoing engineering runs as a monthly retainer.
 
+## Shopify Plus and headless development for US and UK teams
+
+Agencies and Plus merchants in the US and UK use us for checkout extensibility, Shopify Functions, B2B, Markets and Hydrogen work, as white-label capacity or a direct development team.
+
+- Checkout UI extensions and Shopify Functions for discounts, delivery and payment rules
+- B2B catalogs, price lists and Shopify Markets for international selling
+- Hydrogen storefronts when headless is genuinely justified
+- Code in your repository, reviewed in sprints during US business hours
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=shopify-plus-headless-development#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### Is Shopify Plus worth it?
@@ -91,6 +108,14 @@ Yes. We integrate Shopify with SAP Business One, Microsoft Dynamics, Odoo, Zoho,
 ### What should we look for in a Shopify Plus or headless development partner?
 
 Look for a partner that builds on Shopify's current extension model, can explain when not to go headless, has integrated systems like yours, and leaves the code, apps and accounts in your ownership. Ask how they test discount and pricing logic, handle Shopify's platform updates and support you after launch. At gaa-tha, custom apps sit in your Shopify organisation, code lives in your repository, and everything is documented for handover.
+
+### Can we outsource Shopify Plus development to India?
+
+Yes. gaa-tha builds Shopify Plus checkout extensions, Functions, B2B and Markets setups for US and UK merchants and agencies, under NDA and in your repository.
+
+### Do you work with Plus agencies as a white-label partner?
+
+Yes. Plus agencies use us for development capacity under their brand, with non-solicitation of their clients and a paid pilot first.
 
 ## Related services
 

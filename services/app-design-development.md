@@ -58,6 +58,23 @@ Figma, FigJam, HTML, CSS and JavaScript, React, Firebase, Node.js, Google Analyt
 
 Project fee quoted by phase — discovery, design, development — based on the number of screens, roles and integrations; monthly support after launch is optional.
 
+## App UX/UI design for US and UK teams
+
+Product teams and agencies in the US and UK use us for app and web app UX/UI design, as a direct design partner or unbranded design capacity.
+
+- User flows, wireframes and Figma prototypes
+- Design systems your developers can build from
+- Usability checks before development
+- Unbranded files for agencies
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=app-design-development#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### What is UI/UX design?
@@ -91,6 +108,14 @@ Yes. We audit the current product with real users and analytics, keep what works
 ### Do you design internal tools like admin consoles and dashboards?
 
 Yes, and they are often the most valuable work: order-management consoles, distributor portals, sales dashboards and content admins that your team uses every day. For smaller, single-purpose tools see Custom Tools & Automations.
+
+### Can we outsource app UI/UX design to India?
+
+Yes. gaa-tha designs app and web app interfaces in Figma for US and UK teams, with reviews in your business hours.
+
+### Do you design white-label for product agencies?
+
+Yes, under your agency's name with an NDA and non-solicitation.
 
 ## Related services
 

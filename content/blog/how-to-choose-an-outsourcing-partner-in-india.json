@@ -44,7 +44,7 @@
     },
     {
       "h2": "Where does gaa-tha fit as an outsourcing partner?",
-      "html": "<p>gaa-tha is a storytelling-led marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India by Abhishek Khuthiya and Getansh Savla. One in-house team handles performance marketing, social media, reels, Shopify, websites, apps and ERPs. We work US business hours as well as UK hours, keep accounts and code in the client's name, and invoice by bank wire (SWIFT), PayPal or card via Stripe. For agencies we sign an NDA before the brief, work unbranded with no contact with your client unless you ask, agree non-solicitation and start with a paid pilot. Our international work includes an ongoing retainer for a <a href=\"/work/new-rave\">Canadian trading-card retailer</a>. See <a href=\"/services/outsourcing\">outsourcing and white-label services</a>, the <a href=\"/services/white-label-agency-partner\">white-label agency partner</a> page, or <a href=\"/#contact\">tell us about your project</a>.</p>"
+      "html": "<p>gaa-tha is a storytelling-led marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India by Abhishek Khuthiya and Getansh Savla. One in-house team handles performance marketing, social media, reels, Shopify, websites, apps and ERPs. We work US business hours as well as UK hours, keep accounts and code in the client's name, and invoice by bank wire (SWIFT), PayPal or card via Stripe. For agencies we sign an NDA before the brief, work unbranded with no contact with your client unless you ask, agree non-solicitation and start with a paid pilot. Our international work includes an ongoing retainer for a <a href=\"/work/new-rave\">Canadian trading-card retailer</a>. See <a href=\"/services/outsourcing\">outsourcing and white-label services</a>, the <a href=\"/services/outsourcing\">white-label agency partner</a> page, or <a href=\"/#contact\">tell us about your project</a>.</p>"
     }
   ],
   "faq": [
@@ -74,10 +74,9 @@
     }
   ],
   "relatedServices": [
-    "white-label-agency-partner",
-    "outsource-website-development",
-    "white-label-ppc-meta-ads",
-    "outsourced-shopify-store-management"
+    "website-development",
+    "meta-ads-agency",
+    "shopify-store-management"
   ],
   "relatedCase": "new-rave",
   "author": "gaa-tha",

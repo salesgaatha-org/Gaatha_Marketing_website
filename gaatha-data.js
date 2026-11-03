@@ -147,6 +147,10 @@
                     if (sel.options[k].value === wanted) { sel.selectedIndex = k; break; }
                 }
             }
+            // ?type=agency (from the US/UK sections) pre-selects "An agency".
+            var type = new URLSearchParams(window.location.search).get('type');
+            var tsel = form.querySelector('select[name="clientType"]');
+            if (type === 'agency' && tsel) tsel.value = 'Agency (white-label)';
         } catch (e) { /* no-op */ }
 
         var btn = form.querySelector('button[type="submit"], .btn-primary');

@@ -58,6 +58,23 @@ Flutter, React Native, Shopify Storefront API, Firebase, Node.js, Razorpay, Tall
 
 Quoted by phase based on the type of app, user roles, integrations and offline needs; platform, messaging and developer-account fees are paid by you directly, and a monthly retainer covers maintenance and growth.
 
+## Ecommerce app development for US and UK brands
+
+US and UK brands hire us to build shopping and sales apps connected to Shopify or their backend, and agencies white-label the development.
+
+- Shopify-connected or custom ecommerce apps
+- Push notifications, loyalty and wishlists
+- Store accounts in your name
+- Paid discovery first
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=ecommerce-app-development#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### Does my D2C brand need an app, or is the Shopify website enough?
@@ -91,6 +108,14 @@ A Shopify-connected shopping app usually takes six to ten weeks, and a B2B order
 ### Who owns the app, the code and the customer data?
 
 You own all of it. The apps are published under your developer accounts, the backend runs in cloud accounts in your name, and the source code is handed over in your repository. Customer and sales data stays in your systems rather than a shared platform.
+
+### Can an Indian agency build a Shopify mobile app for my US brand?
+
+Yes. gaa-tha builds Shopify-connected ecommerce apps for US and UK brands, published under your developer accounts.
+
+### Do you work white-label for ecommerce agencies?
+
+Yes, with an NDA, unbranded delivery and non-solicitation.
 
 ## Related services
 

@@ -62,6 +62,23 @@ Monthly management retainer scoped to spend and channels; ad spend is paid direc
 - [Charliee](https://gaa-tha.com/work/charliee): Charliee: a 360° growth partnership across Shopify, marketplaces, quick commerce and brand campaigns.
 - [Ghanshyam Snacks](https://gaa-tha.com/work/ghanshyam-snacks): Ghanshyam Snacks: brand strategy, lead and traffic campaigns, and the founder's personal brand.
 
+## White-label Meta ads for US and UK agencies and brands
+
+US and UK agencies white-label our Meta ads management, and brands hire us directly. We work through Business Manager partner access, so the ad account and ad spend always stay with the client, and we report in your branding.
+
+- Campaign builds, audiences and creative testing
+- Conversions API and GA4 tracking verified before scaling
+- Reports in your agency's template
+- Ad creative and reels produced in-house
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=meta-ads-agency#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### What does a Meta ads agency do?
@@ -91,6 +108,14 @@ Yes. Reels, AI ad shoots, statics, carousels and copy are produced in-house by t
 ### Can you run WhatsApp ads?
 
 Yes. Click-to-WhatsApp campaigns are one of the strongest formats for Indian retail, real estate and services brands, and we pair them with reply templates and a follow-up SOP so conversations turn into sales.
+
+### Can a US agency outsource Meta ads management to India?
+
+Yes. gaa-tha manages Meta ads white-label for US and UK agencies: partner access only, the client keeps the ad account and pays Meta directly, reports go out in your branding and we start with a paid pilot on one account.
+
+### Do you run Meta campaigns outside India?
+
+Yes. Our international work includes Canada-wide Meta campaigns for New Rave, a trading-card and hobbies retailer in Canada.
 
 ## Related services
 

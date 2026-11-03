@@ -63,6 +63,23 @@ Monthly retainer scoped to catalogue size, the volume of changes and whether des
 - [CDS Stores](https://gaa-tha.com/work/cds-stores): CDS Stores: year-round Meta campaigns, city-wide outdoor and in-store marketing for a gifting retailer.
 - [Charliee](https://gaa-tha.com/work/charliee): Charliee: a 360° growth partnership across Shopify, marketplaces, quick commerce and brand campaigns.
 
+## Outsourced Shopify store management for US and UK brands
+
+US and UK brands hire us to run their Shopify store month to month, and agencies resell our store care under their own name. A named store manager works US business hours.
+
+- Product uploads, pricing, promotions and collection updates
+- Black Friday, Cyber Monday and holiday sale setup
+- App audits, bug fixes, speed and tracking checks
+- Monthly store report, white-label for agencies
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=shopify-store-management#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### What does Shopify store management include?
@@ -92,6 +109,14 @@ Yes. The store, domain, payment gateway, apps and ad accounts stay in your name.
 ### Can you also manage our marketplace and quick-commerce listings?
 
 Yes. Many brands ask us to keep the Shopify store, Amazon and Flipkart listings and Blinkit or Zepto catalogues consistent — same images, same prices, same launches — and we run those as one operation with one monthly review.
+
+### Can I outsource Shopify store management to an agency in India?
+
+Yes. gaa-tha runs Shopify store management for US and UK brands on a monthly retainer: product and price updates, promotions, app audits, fixes, speed checks and a monthly report, handled during US business hours.
+
+### Can our agency resell your Shopify maintenance?
+
+Yes. Reports and documentation carry your agency's brand, we work only through you, and our agreement includes an NDA and non-solicitation.
 
 ## Related services
 

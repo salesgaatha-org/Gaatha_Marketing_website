@@ -58,6 +58,23 @@ WordPress, WooCommerce, Next.js, Razorpay, PayU, Shiprocket, Google Tag Manager,
 
 Fixed-scope project fee based on platform, templates and integrations; hosting, domain, plugins and payment-gateway charges are paid by you to the providers, and an optional monthly retainer covers updates, security and fixes.
 
+## Ecommerce development for US and UK brands and agencies
+
+We build ecommerce stores on Shopify, WooCommerce and custom stacks for brands in the US and UK, and as unbranded development capacity for agencies.
+
+- Shopify, WooCommerce or custom headless builds chosen in discovery
+- US and UK payment, tax and shipping apps configured
+- Code and accounts in your name
+- Paid pilot before larger builds
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=ecommerce-website-development#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### When should I choose WooCommerce or a custom build over Shopify?
@@ -87,6 +104,14 @@ Hosting is in your name on a provider we recommend for your traffic, and you own
 ### Will the site be found on Google and by AI assistants?
 
 It is built to be: clean semantic HTML, Product, Review and Breadcrumb schema, fast Core Web Vitals, an XML sitemap, an llms.txt file and answer-first category copy. Ongoing ecommerce SEO is a separate service if you want rankings actively grown.
+
+### Can I outsource ecommerce website development to India?
+
+Yes. gaa-tha builds ecommerce sites for US and UK brands and agencies, keeps code and accounts in your name and works US business hours.
+
+### Do you work white-label for ecommerce agencies?
+
+Yes, with an NDA before the brief, unbranded delivery and non-solicitation of your clients.
 
 ## Related services
 

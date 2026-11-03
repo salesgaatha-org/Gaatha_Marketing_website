@@ -156,7 +156,7 @@ Keep a short shared log of decisions and issues. If the relationship ends, it ma
 
 ## Where does gaa-tha fit as an outsourcing partner?
 
-gaa-tha is a storytelling-led marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India by Abhishek Khuthiya and Getansh Savla. One in-house team handles performance marketing, social media, reels, Shopify, websites, apps and ERPs. We work US business hours as well as UK hours, keep accounts and code in the client's name, and invoice by bank wire (SWIFT), PayPal or card via Stripe. For agencies we sign an NDA before the brief, work unbranded with no contact with your client unless you ask, agree non-solicitation and start with a paid pilot. Our international work includes an ongoing retainer for a [Canadian trading-card retailer](https://gaa-tha.com/work/new-rave). See [outsourcing and white-label services](https://gaa-tha.com/services/outsourcing), the [white-label agency partner](https://gaa-tha.com/services/white-label-agency-partner) page, or [tell us about your project](https://gaa-tha.com/#contact).
+gaa-tha is a storytelling-led marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India by Abhishek Khuthiya and Getansh Savla. One in-house team handles performance marketing, social media, reels, Shopify, websites, apps and ERPs. We work US business hours as well as UK hours, keep accounts and code in the client's name, and invoice by bank wire (SWIFT), PayPal or card via Stripe. For agencies we sign an NDA before the brief, work unbranded with no contact with your client unless you ask, agree non-solicitation and start with a paid pilot. Our international work includes an ongoing retainer for a [Canadian trading-card retailer](https://gaa-tha.com/work/new-rave). See [outsourcing and white-label services](https://gaa-tha.com/services/outsourcing), the [white-label agency partner](https://gaa-tha.com/services/outsourcing) page, or [tell us about your project](https://gaa-tha.com/#contact).
 
 ## Frequently asked questions
 
@@ -186,10 +186,9 @@ Yes. A small paid pilot with a fixed scope and deadline shows the partner's qual
 
 ## Related gaa-tha services
 
-- [White-Label Digital Agency Partner](https://gaa-tha.com/services/white-label-agency-partner): An unbranded delivery team for US and UK agencies — Shopify, web, apps, ads, social and video, under your name.
-- [Outsource Website Development to India](https://gaa-tha.com/services/outsource-website-development): Marketing sites, ecommerce and web apps built by one in-house team that works your hours.
-- [White-Label PPC & Meta Ads Management](https://gaa-tha.com/services/white-label-ppc-meta-ads): Meta and Google Ads managed for your agency's clients, reported under your brand.
-- [Outsourced Shopify Store Management](https://gaa-tha.com/services/outsourced-shopify-store-management): A monthly team that runs your Shopify store — products, promotions, apps, fixes and speed.
+- [Website Design & Development](https://gaa-tha.com/services/website-development): Fast, accessible, search-ready sites built to turn a click into a customer.
+- [Meta Ads Agency](https://gaa-tha.com/services/meta-ads-agency): Facebook and Instagram ads built around your margins, reported to the rupee.
+- [Shopify Store Management & Maintenance](https://gaa-tha.com/services/shopify-store-management): We run your store so you can run your business — uploads, pricing, banners, apps and fixes every month.
 
 ---
 

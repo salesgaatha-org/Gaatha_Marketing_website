@@ -165,7 +165,7 @@ For a full vetting list and scorecard, see [how to choose an outsourcing partner
 
 ## Where does gaa-tha fit for US and UK companies?
 
-gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India, with one in-house team that builds websites, Shopify stores, Flutter and React Native apps and SaaS products. We work US business hours as well as UK hours, keep code and accounts in the client's name, and invoice international clients by bank wire (SWIFT), PayPal or card via Stripe. For agencies we also work white-label, with an NDA before the brief and a paid pilot before any retainer. See [website development](https://gaa-tha.com/services/outsource-website-development), [app development](https://gaa-tha.com/services/outsource-app-development), our international work for a [Canadian retailer](https://gaa-tha.com/work/new-rave), or [send us your brief](https://gaa-tha.com/#contact).
+gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India, with one in-house team that builds websites, Shopify stores, Flutter and React Native apps and SaaS products. We work US business hours as well as UK hours, keep code and accounts in the client's name, and invoice international clients by bank wire (SWIFT), PayPal or card via Stripe. For agencies we also work white-label, with an NDA before the brief and a paid pilot before any retainer. See [website development](https://gaa-tha.com/services/website-development#international), [app development](https://gaa-tha.com/services/mobile-app-development#international), our international work for a [Canadian retailer](https://gaa-tha.com/work/new-rave), or [send us your brief](https://gaa-tha.com/#contact).
 
 ## Frequently asked questions
 
@@ -195,9 +195,8 @@ A marketing website is usually a matter of weeks, an ecommerce store somewhat lo
 
 ## Related gaa-tha services
 
-- [Outsource Website Development to India](https://gaa-tha.com/services/outsource-website-development): Marketing sites, ecommerce and web apps built by one in-house team that works your hours.
-- [Outsource App Development to India](https://gaa-tha.com/services/outsource-app-development): iOS, Android and web apps from discovery to App Store, built in your accounts.
-- [White-Label Digital Agency Partner](https://gaa-tha.com/services/white-label-agency-partner): An unbranded delivery team for US and UK agencies — Shopify, web, apps, ads, social and video, under your name.
+- [Website Design & Development](https://gaa-tha.com/services/website-development): Fast, accessible, search-ready sites built to turn a click into a customer.
+- [Mobile App Development](https://gaa-tha.com/services/mobile-app-development): iOS and Android apps designed, built, published and maintained by one team — from the first screen to the store listing.
 
 ---
 

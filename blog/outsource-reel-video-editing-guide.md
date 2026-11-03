@@ -150,7 +150,7 @@ Start with a small, paid test batch: a handful of videos from the same footage, 
 
 Judge the test on four things: how well the edits match the brief, how many corrections were needed, how clearly the editor communicated, and whether the videos look like your brand rather than a template. Then agree a monthly volume, turnaround and revision rules, and review them each quarter.
 
-gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India, with an in-house team that already produces reels and AI ads for brands. For US and UK agencies, creators and brands we edit fully unbranded, sign an NDA before the brief, never contact an agency's client unless asked, agree to non-solicitation, and start with a paid test batch. We work US and UK business hours, quote each engagement individually, and accept international bank wire, PayPal or card through Stripe. Our international work includes Instagram content for [New Rave](https://gaa-tha.com/work/new-rave), a trading-card and hobbies retailer in Canada. See [outsourced reel and video editing](https://gaa-tha.com/services/outsourced-reel-video-editing) or [send a test brief](https://gaa-tha.com/#contact).
+gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India, with an in-house team that already produces reels and AI ads for brands. For US and UK agencies, creators and brands we edit fully unbranded, sign an NDA before the brief, never contact an agency's client unless asked, agree to non-solicitation, and start with a paid test batch. We work US and UK business hours, quote each engagement individually, and accept international bank wire, PayPal or card through Stripe. Our international work includes Instagram content for [New Rave](https://gaa-tha.com/work/new-rave), a trading-card and hobbies retailer in Canada. See [outsourced reel and video editing](https://gaa-tha.com/services/reels-short-form-video#international) or [send a test brief](https://gaa-tha.com/#contact).
 
 ## Frequently asked questions
 
@@ -180,10 +180,9 @@ Common models are per video, per batch, or a monthly retainer for a set number o
 
 ## Related gaa-tha services
 
-- [Outsourced Reel & Short-Form Video Editing](https://gaa-tha.com/services/outsourced-reel-video-editing): Reels, TikToks, Shorts and video ads edited from your footage, in batches, on deadline.
-- [White-Label Social Media Management](https://gaa-tha.com/services/white-label-social-media-management): Content calendars, design, captions, publishing and reports for your agency's clients.
-- [White-Label Digital Agency Partner](https://gaa-tha.com/services/white-label-agency-partner): An unbranded delivery team for US and UK agencies — Shopify, web, apps, ads, social and video, under your name.
-- [White-Label PPC & Meta Ads Management](https://gaa-tha.com/services/white-label-ppc-meta-ads): Meta and Google Ads managed for your agency's clients, reported under your brand.
+- [Reels & Short-form Video](https://gaa-tha.com/services/reels-short-form-video): Short-form built to be re-watched — hooks in the first second, retention by design.
+- [Social Media Marketing](https://gaa-tha.com/services/social-media-marketing): Always-on content that builds an audience worth selling to.
+- [Meta Ads Agency](https://gaa-tha.com/services/meta-ads-agency): Facebook and Instagram ads built around your margins, reported to the rupee.
 
 ---
 

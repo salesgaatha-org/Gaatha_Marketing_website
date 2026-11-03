@@ -58,6 +58,23 @@ Next.js, React, Node.js, Python, PostgreSQL, Stripe, Razorpay Subscriptions, AWS
 
 Validation and MVP are quoted as fixed phases after a discovery call; ongoing development runs as a monthly product-team retainer, and cloud, billing and third-party API costs are paid by you directly.
 
+## SaaS product development for US and UK founders
+
+Founders in the US and UK hire us to take SaaS products from discovery to MVP and beyond, with code in their repository and sprint reviews in US business hours.
+
+- Paid discovery and a phased MVP plan
+- Authentication, billing, roles and admin
+- Code and cloud accounts in your name
+- Dedicated team option after the MVP
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=saas-product-development#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### How much does it cost to build a SaaS MVP?
@@ -91,6 +108,14 @@ Yes. We add AI where it saves users real time — answering questions over their
 ### Who owns the code and IP, and what happens after launch?
 
 You own the code, the IP and every cloud and billing account from day one; the repository and infrastructure sit in your organisation. After launch most clients keep a monthly product-team retainer for releases, monitoring and scaling, while some move development in-house — the system is documented so that handover is straightforward.
+
+### Can I outsource SaaS MVP development to India?
+
+Yes. gaa-tha builds SaaS MVPs for US and UK founders, starting with a paid discovery and keeping code and cloud accounts in your name.
+
+### Do you work US business hours for product teams?
+
+Yes. Sprint demos, stand-ups and urgent fixes happen during your US workday.
 
 ## Related services
 

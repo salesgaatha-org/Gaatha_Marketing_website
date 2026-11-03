@@ -44,7 +44,7 @@ The services agencies white-label most often are the ones that are skilled, repe
 | Reel and video editing | Short-form edits, captions, motion graphics, versions for each platform | Creative direction, raw footage, client feedback |
 | SEO | Technical audits, on-page work, content production, draft reports | Keyword strategy sign-off and the client relationship |
 
-Each of these has its own page: [white-label Shopify development](https://gaa-tha.com/services/white-label-shopify-development), [white-label PPC and Meta ads](https://gaa-tha.com/services/white-label-ppc-meta-ads), [white-label social media management](https://gaa-tha.com/services/white-label-social-media-management), [outsourced reel and video editing](https://gaa-tha.com/services/outsourced-reel-video-editing), and outsourced [website](https://gaa-tha.com/services/outsource-website-development) and [app development](https://gaa-tha.com/services/outsource-app-development). Performance marketing has a deeper guide in [white-label PPC and Meta ads](https://gaa-tha.com/blog/white-label-ppc-meta-ads-guide).
+Each of these has its own page: [white-label Shopify development](https://gaa-tha.com/services/shopify-development#international), [white-label PPC and Meta ads](https://gaa-tha.com/services/meta-ads-agency#international), [white-label social media management](https://gaa-tha.com/services/social-media-marketing#international), [outsourced reel and video editing](https://gaa-tha.com/services/reels-short-form-video#international), and outsourced [website](https://gaa-tha.com/services/website-development#international) and [app development](https://gaa-tha.com/services/mobile-app-development#international). Performance marketing has a deeper guide in [white-label PPC and Meta ads](https://gaa-tha.com/blog/white-label-ppc-meta-ads-guide).
 
 ## How does a white-label workflow run day to day?
 
@@ -145,7 +145,7 @@ gaa-tha works as a white-label partner for agencies across Shopify and website d
 
 Our terms for agencies: we sign an NDA before the brief, deliver fully unbranded work with no contact with your client unless you ask us to, agree not to solicit your clients, and start with a paid pilot. Every engagement is quoted to scope, and we invoice for payment by international bank wire (SWIFT), PayPal or card via Stripe. Our international work includes an ongoing retainer for [New Rave](https://gaa-tha.com/work/new-rave) in Canada.
 
-See [white-label agency partner](https://gaa-tha.com/services/white-label-agency-partner) for the full scope, or [send us a brief](https://gaa-tha.com/#contact).
+See [white-label agency partner](https://gaa-tha.com/services/outsourcing) for the full scope, or [send us a brief](https://gaa-tha.com/#contact).
 
 ## Frequently asked questions
 
@@ -175,10 +175,9 @@ Run a paid pilot on one real piece of work with written acceptance criteria. Jud
 
 ## Related gaa-tha services
 
-- [White-Label Digital Agency Partner](https://gaa-tha.com/services/white-label-agency-partner): An unbranded delivery team for US and UK agencies — Shopify, web, apps, ads, social and video, under your name.
-- [White-Label Shopify Development](https://gaa-tha.com/services/white-label-shopify-development): Shopify themes, custom sections, migrations and Plus work delivered under your agency's name.
-- [White-Label PPC & Meta Ads Management](https://gaa-tha.com/services/white-label-ppc-meta-ads): Meta and Google Ads managed for your agency's clients, reported under your brand.
-- [White-Label Social Media Management](https://gaa-tha.com/services/white-label-social-media-management): Content calendars, design, captions, publishing and reports for your agency's clients.
+- [Shopify Store Design & Development](https://gaa-tha.com/services/shopify-development): Shopify stores designed for conversion and built for speed — custom themes, custom sections and the checkout integrations Indian D2C brands need.
+- [Meta Ads Agency](https://gaa-tha.com/services/meta-ads-agency): Facebook and Instagram ads built around your margins, reported to the rupee.
+- [Social Media Marketing](https://gaa-tha.com/services/social-media-marketing): Always-on content that builds an audience worth selling to.
 
 ---
 

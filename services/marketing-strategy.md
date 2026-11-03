@@ -63,6 +63,23 @@ One-time project fee scoped to the depth of research and the number of markets o
 - [Colortek](https://gaa-tha.com/work/colortek): Colortek: rebranding a 25-year coatings manufacturer and building the website to match.
 - [GI PackTech](https://gaa-tha.com/work/gi-packtech): GI PackTech: international lead generation and an export sales engine for an industrial packaging maker.
 
+## Marketing consulting and fractional CMO support for US and UK brands
+
+Founders in the US and UK hire us for marketing strategy and fractional CMO support, and agencies use us for strategy behind pitches and client plans. Working sessions happen in your business hours.
+
+- Marketing audit, positioning and channel plan
+- KPI framework and budget model
+- Monthly fractional CMO reviews
+- Optional execution by our team
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=marketing-strategy#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### What is a marketing strategy?
@@ -92,6 +109,14 @@ Yes. Social media, Meta and Google ads, SEO/AEO/GEO, influencer campaigns and cr
 ### What do you need from us to start?
 
 Two or three hours of founder and sales-team time for discovery, access to your analytics, ad accounts and sales data, and introductions to a few customers we can interview. Everything else — research, competitor analysis and drafting — is on us.
+
+### Can I hire a fractional CMO from an Indian agency?
+
+Yes. gaa-tha offers marketing consulting and fractional CMO support to US and UK brands: strategy, channel and budget plans and monthly reviews during US business hours, with optional execution by our team.
+
+### Do you provide strategy support to agencies?
+
+Yes. Agencies use our strategy work for pitches and client plans, delivered under the agency's name.
 
 ## Related services
 

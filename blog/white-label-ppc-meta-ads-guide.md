@@ -83,7 +83,7 @@ Creative testing and optimization work best on a fixed weekly rhythm with a writ
 
 - **Change log.** Every significant change is logged with the date, reason and expected effect. It makes reporting honest and handovers painless.
 
-If the partner also produces creative, say so in the scope. Many agencies outsource media buying and creative production together; see [outsourced reel and video editing](https://gaa-tha.com/services/outsourced-reel-video-editing).
+If the partner also produces creative, say so in the scope. Many agencies outsource media buying and creative production together; see [outsourced reel and video editing](https://gaa-tha.com/services/reels-short-form-video#international).
 
 ## What should white-label PPC reporting include, and how often?
 
@@ -135,7 +135,7 @@ Start with a paid pilot on one client account for a defined period. Share the br
 
 Document a simple operating manual as you go: access steps, naming conventions, approval limits, report templates and escalation contacts. It makes adding the next client account quick.
 
-gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India. Our in-house team runs Meta and Google campaigns and produces the reels and ad creative that feed them. For US and UK agencies we work fully unbranded, sign an NDA before the brief, never contact your client unless you ask, agree to non-solicitation and start with a paid pilot. We cover US and UK business hours, invoice by custom quote, and accept international bank wire, PayPal or card through Stripe. Our international work includes an ongoing retainer running Canada-wide Meta campaigns for [New Rave](https://gaa-tha.com/work/new-rave). See [white-label PPC and Meta ads management](https://gaa-tha.com/services/white-label-ppc-meta-ads) or [talk to us about a pilot](https://gaa-tha.com/#contact).
+gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India. Our in-house team runs Meta and Google campaigns and produces the reels and ad creative that feed them. For US and UK agencies we work fully unbranded, sign an NDA before the brief, never contact your client unless you ask, agree to non-solicitation and start with a paid pilot. We cover US and UK business hours, invoice by custom quote, and accept international bank wire, PayPal or card through Stripe. Our international work includes an ongoing retainer running Canada-wide Meta campaigns for [New Rave](https://gaa-tha.com/work/new-rave). See [white-label PPC and Meta ads management](https://gaa-tha.com/services/meta-ads-agency#international) or [talk to us about a pilot](https://gaa-tha.com/#contact).
 
 ## Frequently asked questions
 
@@ -165,10 +165,9 @@ Common models are a flat monthly fee per client account, a tiered fee based on a
 
 ## Related gaa-tha services
 
-- [White-Label PPC & Meta Ads Management](https://gaa-tha.com/services/white-label-ppc-meta-ads): Meta and Google Ads managed for your agency's clients, reported under your brand.
-- [White-Label Digital Agency Partner](https://gaa-tha.com/services/white-label-agency-partner): An unbranded delivery team for US and UK agencies — Shopify, web, apps, ads, social and video, under your name.
-- [White-Label Social Media Management](https://gaa-tha.com/services/white-label-social-media-management): Content calendars, design, captions, publishing and reports for your agency's clients.
-- [Outsourced Reel & Short-Form Video Editing](https://gaa-tha.com/services/outsourced-reel-video-editing): Reels, TikToks, Shorts and video ads edited from your footage, in batches, on deadline.
+- [Meta Ads Agency](https://gaa-tha.com/services/meta-ads-agency): Facebook and Instagram ads built around your margins, reported to the rupee.
+- [Social Media Marketing](https://gaa-tha.com/services/social-media-marketing): Always-on content that builds an audience worth selling to.
+- [Reels & Short-form Video](https://gaa-tha.com/services/reels-short-form-video): Short-form built to be re-watched — hooks in the first second, retention by design.
 
 ---
 

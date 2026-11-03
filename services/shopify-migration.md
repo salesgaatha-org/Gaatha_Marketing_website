@@ -58,6 +58,23 @@ Shopify, Matrixify, Screaming Frog, Google Search Console, Google Analytics 4, R
 
 Fixed-scope project fee based on catalogue size, the data types moved, the source platform, theme work and integrations; Shopify, app and gateway charges are paid by you to the providers.
 
+## Shopify migrations for US and UK brands and agencies
+
+We migrate stores to Shopify from WooCommerce, Magento, BigCommerce, Wix and Squarespace for brands in the US and UK, and as a white-label team for agencies that sell the migration.
+
+- Products, customers and order history moved with checks on a sample
+- Every old URL mapped to a new one with redirects to protect rankings
+- Theme rebuilt from your designs, unbranded for agencies
+- Launch planned in your time zone, outside your peak hours
+- US business hours — calls, Slack and launches in your day
+- NDA signed before the brief
+- Unbranded for agencies; no contact with your clients
+- Non-solicitation of your clients in writing
+- Paid pilot before any retainer
+- Pay by bank wire (SWIFT), PayPal or card (Stripe)
+
+Book an intro call: https://gaa-tha.com/?service=shopify-migration#contact · Email: digimarketing@gaa-tha.com · All outsourcing services: https://gaa-tha.com/services/outsourcing
+
 ## Frequently asked questions
 
 ### Will migrating to Shopify hurt my SEO?
@@ -91,6 +108,14 @@ Shopify Payments is not generally available to Indian-registered stores, so we c
 ### Can you move us from Amazon or Flipkart-only selling to our own Shopify store?
 
 Yes. We export your marketplace listings, restructure them for a brand store, rewrite key product pages for your own buyers, and set up checkout, shipping and tracking so the store is ready for ads on day one. Your marketplace listings keep running, and stock can be kept in step across channels with an order-management or multichannel inventory app.
+
+### Can an Indian agency migrate my US store to Shopify?
+
+Yes. gaa-tha migrates US and UK stores to Shopify with a redirect map, data checks and a launch scheduled in your time zone, working US business hours throughout.
+
+### Can our agency white-label your Shopify migrations?
+
+Yes. We work under your agency's name with an NDA, non-solicitation of your client and unbranded documentation, and start with a paid pilot.
 
 ## Related services
 

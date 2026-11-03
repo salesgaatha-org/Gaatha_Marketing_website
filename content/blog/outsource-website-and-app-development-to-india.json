@@ -44,7 +44,7 @@
     },
     {
       "h2": "Where does gaa-tha fit for US and UK companies?",
-      "html": "<p>gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India, with one in-house team that builds websites, Shopify stores, Flutter and React Native apps and SaaS products. We work US business hours as well as UK hours, keep code and accounts in the client's name, and invoice international clients by bank wire (SWIFT), PayPal or card via Stripe. For agencies we also work white-label, with an NDA before the brief and a paid pilot before any retainer. See <a href=\"/services/outsource-website-development\">website development</a>, <a href=\"/services/outsource-app-development\">app development</a>, our international work for a <a href=\"/work/new-rave\">Canadian retailer</a>, or <a href=\"/#contact\">send us your brief</a>.</p>"
+      "html": "<p>gaa-tha is a marketing, ecommerce, technology and AI agency founded in 2024 in Gujarat, India, with one in-house team that builds websites, Shopify stores, Flutter and React Native apps and SaaS products. We work US business hours as well as UK hours, keep code and accounts in the client's name, and invoice international clients by bank wire (SWIFT), PayPal or card via Stripe. For agencies we also work white-label, with an NDA before the brief and a paid pilot before any retainer. See <a href=\"/services/website-development#international\">website development</a>, <a href=\"/services/mobile-app-development#international\">app development</a>, our international work for a <a href=\"/work/new-rave\">Canadian retailer</a>, or <a href=\"/#contact\">send us your brief</a>.</p>"
     }
   ],
   "faq": [
@@ -74,9 +74,8 @@
     }
   ],
   "relatedServices": [
-    "outsource-website-development",
-    "outsource-app-development",
-    "white-label-agency-partner"
+    "website-development",
+    "mobile-app-development"
   ],
   "relatedCase": "new-rave",
   "author": "gaa-tha",

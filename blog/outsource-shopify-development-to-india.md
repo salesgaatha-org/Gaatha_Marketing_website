@@ -28,7 +28,7 @@ Almost any well-defined Shopify build or maintenance task can be outsourced to I
 | Integrations | ERP, inventory, shipping, reviews, subscriptions, loyalty, email and SMS platforms, analytics | Vendor contracts and system-of-record decisions |
 | Store management | Product uploads, collection and banner changes, app audits, bug fixes, speed checks, sale-season setup | The promotions calendar and pricing decisions |
 
-Agencies often go further and outsource whole builds on a white-label basis, keeping the client relationship, discovery and design in-house while a partner handles development and QA. See [white-label Shopify development](https://gaa-tha.com/services/white-label-shopify-development) for how that model works, and [outsourced Shopify store management](https://gaa-tha.com/services/outsourced-shopify-store-management) for the ongoing side.
+Agencies often go further and outsource whole builds on a white-label basis, keeping the client relationship, discovery and design in-house while a partner handles development and QA. See [white-label Shopify development](https://gaa-tha.com/services/shopify-development#international) for how that model works, and [outsourced Shopify store management](https://gaa-tha.com/services/shopify-store-management#international) for the ongoing side.
 
 ## Why do US and UK brands and agencies outsource Shopify development?
 
@@ -145,7 +145,7 @@ Start with a small, paid, fixed-scope pilot: one custom section, a landing page,
 
 Define the pilot like a mini project: written scope, acceptance criteria, a deadline, and a short review at the end covering what went well and what to change. If it works, move to a monthly retainer or a project with milestones.
 
-gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India, with one in-house team that builds Shopify stores and runs the marketing around them. For US and UK brands and agencies we work US and UK business hours, sign an NDA before the brief, work fully unbranded for agencies with no contact with your client unless you ask, agree to non-solicitation and start with a paid pilot. Clients pay by international bank wire, PayPal or card through Stripe, and every engagement is custom-quoted. Our international work includes an ongoing retainer for [New Rave](https://gaa-tha.com/work/new-rave), a trading-card and hobbies retailer in Canada. See [white-label Shopify development](https://gaa-tha.com/services/white-label-shopify-development), [outsourced store management](https://gaa-tha.com/services/outsourced-shopify-store-management), or [start with a pilot](https://gaa-tha.com/#contact).
+gaa-tha is a marketing, ecommerce and technology agency founded in 2024 in Gujarat, India, with one in-house team that builds Shopify stores and runs the marketing around them. For US and UK brands and agencies we work US and UK business hours, sign an NDA before the brief, work fully unbranded for agencies with no contact with your client unless you ask, agree to non-solicitation and start with a paid pilot. Clients pay by international bank wire, PayPal or card through Stripe, and every engagement is custom-quoted. Our international work includes an ongoing retainer for [New Rave](https://gaa-tha.com/work/new-rave), a trading-card and hobbies retailer in Canada. See [white-label Shopify development](https://gaa-tha.com/services/shopify-development#international), [outsourced store management](https://gaa-tha.com/services/shopify-store-management#international), or [start with a pilot](https://gaa-tha.com/#contact).
 
 ## Frequently asked questions
 
@@ -175,10 +175,9 @@ Common models are a fixed price per project for well-defined builds, a monthly r
 
 ## Related gaa-tha services
 
-- [White-Label Shopify Development](https://gaa-tha.com/services/white-label-shopify-development): Shopify themes, custom sections, migrations and Plus work delivered under your agency's name.
-- [Outsourced Shopify Store Management](https://gaa-tha.com/services/outsourced-shopify-store-management): A monthly team that runs your Shopify store — products, promotions, apps, fixes and speed.
-- [White-Label Digital Agency Partner](https://gaa-tha.com/services/white-label-agency-partner): An unbranded delivery team for US and UK agencies — Shopify, web, apps, ads, social and video, under your name.
-- [Outsource Website Development to India](https://gaa-tha.com/services/outsource-website-development): Marketing sites, ecommerce and web apps built by one in-house team that works your hours.
+- [Shopify Store Design & Development](https://gaa-tha.com/services/shopify-development): Shopify stores designed for conversion and built for speed — custom themes, custom sections and the checkout integrations Indian D2C brands need.
+- [Shopify Store Management & Maintenance](https://gaa-tha.com/services/shopify-store-management): We run your store so you can run your business — uploads, pricing, banners, apps and fixes every month.
+- [Website Design & Development](https://gaa-tha.com/services/website-development): Fast, accessible, search-ready sites built to turn a click into a customer.
 
 ---
 
