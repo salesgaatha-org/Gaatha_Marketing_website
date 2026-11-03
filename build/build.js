@@ -196,43 +196,48 @@ function mobileServices() {
     const list = byGroup(g).map((s) => `<li><a href="${svcUrl(s)}">${esc(s.shortName || s.name)}</a></li>`).join('');
     return `<div><h4><a href="${groupUrl(g)}">${esc(g.menuName || g.name)}</a></h4><ul>${list}</ul></div>`;
   }).join('');
-  return `<details><summary><span class="num">01</span> Services</summary><div class="mm-sub">${blocks}<a class="link-arrow" href="/services">All services <span class="arr">&rarr;</span></a></div></details>`;
+  return `<details style="--i:0"><summary><span class="num">01</span><span class="mm-t">Services</span><span class="mm-ic" aria-hidden="true"></span></summary><div class="mm-sub">${blocks}<a class="link-arrow" href="/services">All services <span class="arr">&rarr;</span></a></div></details>`;
 }
+// Instagram / LinkedIn / Facebook labels for the drawer, from content/site.json.
+const socialName = (u) => (/instagram/.test(u) ? 'Instagram' : /linkedin/.test(u) ? 'LinkedIn' : /facebook/.test(u) ? 'Facebook' : /youtube/.test(u) ? 'YouTube' : /(twitter|x)\.com/.test(u) ? 'X' : '');
 function navHtml(active) {
   const links = NAV_ITEMS.map(([label, href]) => {
-    const cls = active === label ? ' class="active"' : '';
+    const cls = active === label ? ' class="active" aria-current="page"' : '';
     if (label === 'Services') return `<div class="has-mega"><a href="${href}"${cls}>Services</a>${megaMenu()}</div>`;
     return `<a href="${href}"${cls}>${label}</a>`;
   }).join('\n      ');
-  const mm = ['<a href="/work"><span class="num">02</span> Work</a>', '<a href="/blog"><span class="num">03</span> Blog</a>', '<a href="/about"><span class="num">04</span> About</a>', '<a href="/faq"><span class="num">05</span> FAQ</a>', '<a href="/#contact"><span class="num">06</span> Contact</a>'].join('\n    ');
+  const mm = [['Work', '/work'], ['Blog', '/blog'], ['About', '/about'], ['FAQ', '/faq'], ['Contact', '/#contact']]
+    .map(([label, href], i) => `<a href="${href}" style="--i:${i + 1}"${active === label ? ' aria-current="page"' : ''}><span class="num">${pad2(i + 2)}</span><span class="mm-t">${label}</span><span class="mm-arr" aria-hidden="true">&rarr;</span></a>`).join('\n    ');
+  const social = (site.sameAs || []).map((u) => [socialName(u), u]).filter(([n]) => n)
+    .map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${n}</a>`).join('');
   return `<!-- chrome:nav -->
-<nav class="nav">
+<nav class="nav" aria-label="Primary">
   <div class="nav-inner">
     <a class="nav-logo" href="/" aria-label="gaa-tha — home">
-      <img src="/assets/logo.png" alt="gaa-tha" width="120" height="26">
+      <img src="/assets/logo.png" alt="gaa-tha" width="114" height="40">
     </a>
     <div class="nav-links">
       ${links}
     </div>
     <div class="nav-right">
-      <a class="btn btn-primary nav-cta" href="/#contact">Start a project</a>
-      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span></button>
+      <a class="btn btn-primary nav-cta" href="/#contact">Start a project <span class="arr" aria-hidden="true">&rarr;</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span class="mt-line"></span><span class="mt-line"></span></button>
     </div>
   </div>
 </nav>
 
-<div class="mobile-menu" id="mobileMenu">
-  <div class="mm-top">
-    <span class="nav-logo"><img src="/assets/logo.png" alt="gaa-tha" width="120" height="26"></span>
-    <button class="mm-close" aria-label="Close menu">&#10005;</button>
-  </div>
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
   <nav class="mm-links" aria-label="Mobile">
     ${mobileServices()}
     ${mm}
   </nav>
-  <div class="mm-foot">
-    <a class="btn btn-primary" href="/#contact">Start a project</a>
-    <a class="mm-mail" href="mailto:${site.email}">${site.email}</a>
+  <div class="mm-foot" style="--i:6">
+    <a class="btn btn-primary btn-lg" href="/#contact">Start a project <span class="arr" aria-hidden="true">&rarr;</span></a>
+    <div class="mm-contact">
+      <a href="mailto:${site.email}">${site.email}</a>
+      ${(site.phones || []).slice(0, 1).map((ph, i) => `<a href="tel:${site.phonesTel[i]}">${ph}</a>`).join('')}
+    </div>
+    ${social ? `<div class="mm-social">${social}</div>` : ''}
   </div>
 </div>
 <!-- /chrome:nav -->`;

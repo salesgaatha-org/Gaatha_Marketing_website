@@ -98,28 +98,38 @@
     onScroll();
 
     /* ------------------------------ Mobile menu ------------------------------ */
+    /* The bar stays above the drawer, so the same toggle opens and closes it. */
     var toggle = document.querySelector('.menu-toggle');
     var menu = document.querySelector('.mobile-menu');
     if (toggle && menu) {
-        function openMenu() {
+        var isOpen = function () { return menu.classList.contains('open'); };
+        var openMenu = function () {
             menu.classList.add('open');
+            menu.setAttribute('aria-hidden', 'false');
             toggle.setAttribute('aria-expanded', 'true');
+            toggle.setAttribute('aria-label', 'Close menu');
+            document.body.classList.add('menu-open');
             document.body.style.overflow = 'hidden';
-            var first = menu.querySelector('a, button');
-            if (first) first.focus();
-        }
-        function closeMenu() {
+        };
+        var closeMenu = function () {
             menu.classList.remove('open');
+            menu.setAttribute('aria-hidden', 'true');
             toggle.setAttribute('aria-expanded', 'false');
+            toggle.setAttribute('aria-label', 'Open menu');
+            document.body.classList.remove('menu-open');
             document.body.style.overflow = '';
-        }
-        toggle.addEventListener('click', openMenu);
+        };
+        toggle.addEventListener('click', function () { if (isOpen()) closeMenu(); else openMenu(); });
         menu.addEventListener('click', function (e) {
-            if (e.target.closest('a, .mm-close')) closeMenu();
+            if (e.target.closest('a')) closeMenu();
         });
         document.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape' && menu.classList.contains('open')) { closeMenu(); toggle.focus(); }
+            if (e.key === 'Escape' && isOpen()) { closeMenu(); toggle.focus(); }
         });
+        /* Rotating to a desktop width with the drawer open must not leave the page locked. */
+        var wide = window.matchMedia('(min-width: 961px)');
+        var onWide = function () { if (wide.matches && isOpen()) closeMenu(); };
+        if (wide.addEventListener) wide.addEventListener('change', onWide); else if (wide.addListener) wide.addListener(onWide);
     }
 
     /* ------------------------------ FAQ accordion ---------------------------- */
